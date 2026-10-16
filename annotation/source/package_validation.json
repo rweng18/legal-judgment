@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "source_count": 506,
+  "batch_counts": {
+    "A": 169,
+    "B": 169,
+    "C": 168
+  },
+  "calibration_unique": 12,
+  "pilot_unique": 15,
+  "no_calibration_pilot_overlap": true,
+  "no_previous_labels_in_sources": true,
+  "source_hashes_and_offsets_valid": true,
+  "archives": {
+    "A": {
+      "source_records_including_shared": 186,
+      "bytes": 614991,
+      "sha256": "af8ab319aeec2e26f3f3cd357b858c27c7ac79ea1473f5b8f32cb23e8c1c0e26"
+    },
+    "B": {
+      "source_records_including_shared": 187,
+      "bytes": 607902,
+      "sha256": "817c7c4b4431e86c37bf9ebf0045d8cfbd5d09e558af745640da836afedfbd64"
+    },
+    "C": {
+      "source_records_including_shared": 187,
+      "bytes": 622873,
+      "sha256": "5b108560d18bbd21e408f956fc55534de4858c65a26b281bb0c96ba15c6ea34e"
+    }
+  },
+  "note": "Package integrity only. No completed annotations or gold labels."
+}
