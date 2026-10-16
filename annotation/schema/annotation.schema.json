@@ -1,0 +1,664 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "prompt_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_sha256": {
+      "type": "string",
+      "minLength": 1
+    },
+    "input_chunk_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run": {
+      "type": "object",
+      "properties": {
+        "annotator_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annotated_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "enum": [
+            "llm_draft",
+            "human_reviewed",
+            "adjudicated"
+          ]
+        },
+        "human_reviewer_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_note": {
+          "type": "string"
+        },
+        "supersedes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "annotator_id",
+        "model_name",
+        "model_version",
+        "annotated_at",
+        "review_status",
+        "human_reviewer_id",
+        "review_note",
+        "supersedes"
+      ],
+      "additionalProperties": false
+    },
+    "eligibility": {
+      "type": "object",
+      "properties": {
+        "scope": {
+          "enum": [
+            "in_scope",
+            "out_of_scope",
+            "uncertain"
+          ]
+        },
+        "binary_task": {
+          "enum": [
+            "include",
+            "exclude",
+            "review"
+          ]
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "public_property",
+              "property_unclear",
+              "no_person_fall",
+              "outside_slip_trip_scope",
+              "procedural_only",
+              "third_party_only",
+              "mixed_procedural_merits",
+              "mixed_outcome",
+              "dismissed_appeal",
+              "outcome_unclear",
+              "text_problem",
+              "duplicate_or_related",
+              "other"
+            ]
+          },
+          "minItems": 0
+        },
+        "property_status": {
+          "enum": [
+            "private",
+            "public",
+            "unclear"
+          ]
+        },
+        "property_basis": {
+          "enum": [
+            "owned",
+            "leased",
+            "controlled",
+            "insufficient",
+            "other"
+          ]
+        },
+        "fall_type": {
+          "enum": [
+            "slip",
+            "trip",
+            "slip_or_trip",
+            "other_fall",
+            "nonfall",
+            "unclear"
+          ]
+        },
+        "merits": {
+          "enum": [
+            "substantive",
+            "procedural_only",
+            "third_party_only",
+            "mixed_unclear"
+          ]
+        },
+        "property_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "incident_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "scope_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "scope",
+        "binary_task",
+        "reasons",
+        "property_status",
+        "property_basis",
+        "fall_type",
+        "merits",
+        "property_evidence",
+        "incident_evidence",
+        "scope_evidence"
+      ],
+      "additionalProperties": false
+    },
+    "outcome": {
+      "type": "object",
+      "properties": {
+        "appellate_disposition": {
+          "enum": [
+            "affirmed",
+            "reversed",
+            "vacated",
+            "modified",
+            "mixed",
+            "appeal_dismissed",
+            "remand_only",
+            "other",
+            "unclear"
+          ]
+        },
+        "binary_label": {
+          "enum": [
+            null,
+            0,
+            1
+          ]
+        },
+        "multiple_orders": {
+          "type": "boolean"
+        },
+        "favors": {
+          "enum": [
+            "plaintiff",
+            "defendant",
+            "both",
+            "unclear",
+            "not_applicable"
+          ]
+        },
+        "disposition_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "orders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "description": {
+                "type": "string"
+              },
+              "appellant_role": {
+                "enum": [
+                  "plaintiff",
+                  "defendant",
+                  "both",
+                  "third_party",
+                  "other",
+                  "unclear"
+                ]
+              },
+              "trial_court_action": {
+                "type": "string"
+              },
+              "appellate_disposition": {
+                "enum": [
+                  "affirmed",
+                  "reversed",
+                  "vacated",
+                  "modified",
+                  "mixed",
+                  "appeal_dismissed",
+                  "remand_only",
+                  "other",
+                  "unclear"
+                ]
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              }
+            },
+            "required": [
+              "description",
+              "appellant_role",
+              "trial_court_action",
+              "appellate_disposition",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "appellate_disposition",
+        "binary_label",
+        "multiple_orders",
+        "favors",
+        "disposition_evidence",
+        "orders"
+      ],
+      "additionalProperties": false
+    },
+    "facts": {
+      "type": "object",
+      "properties": {
+        "premises_type": {
+          "enum": [
+            "residential",
+            "retail",
+            "restaurant",
+            "office",
+            "industrial",
+            "religious_nonprofit",
+            "recreation",
+            "institutional",
+            "parking_only",
+            "other",
+            "unclear"
+          ]
+        },
+        "location": {
+          "enum": [
+            "indoor_floor",
+            "stairs",
+            "entrance",
+            "walkway",
+            "parking_lot",
+            "sidewalk",
+            "road",
+            "loading_dock",
+            "other",
+            "unclear"
+          ]
+        },
+        "hazards": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "snow_ice",
+              "water",
+              "grease",
+              "debris",
+              "uneven_surface",
+              "hole",
+              "obstruction",
+              "wheel_stop",
+              "stairs_handrail",
+              "lighting",
+              "other",
+              "unclear"
+            ]
+          },
+          "minItems": 1
+        },
+        "injured_role": {
+          "enum": [
+            "customer",
+            "tenant",
+            "employee",
+            "contractor",
+            "guest",
+            "visitor",
+            "other",
+            "unclear"
+          ]
+        },
+        "defendant_roles": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "owner",
+              "tenant",
+              "manager",
+              "contractor",
+              "municipality",
+              "other",
+              "unclear"
+            ]
+          },
+          "minItems": 1
+        },
+        "accident_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "factual_summary": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "premises_type",
+        "location",
+        "hazards",
+        "injured_role",
+        "defendant_roles",
+        "accident_date",
+        "factual_summary",
+        "evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "legal_issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "enum": [
+              "duty",
+              "creation_of_hazard",
+              "actual_notice",
+              "constructive_notice",
+              "recurring_condition",
+              "open_and_obvious",
+              "trivial_defect",
+              "storm_in_progress",
+              "causation_identification",
+              "assumption_of_risk",
+              "comparative_fault",
+              "out_of_possession_landlord",
+              "contractor_duty",
+              "code_violation",
+              "expert_evidence",
+              "spoliation",
+              "procedural_issue",
+              "labor_law",
+              "other"
+            ]
+          },
+          "discussion": {
+            "enum": [
+              "not_discussed",
+              "raised_only",
+              "court_addressed",
+              "unclear"
+            ]
+          },
+          "finding": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "topic",
+          "discussion",
+          "finding",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 19
+    },
+    "evidence_discussed": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "enum": [
+              "party_testimony",
+              "witness_testimony",
+              "photographs",
+              "inspection_records",
+              "maintenance_records",
+              "expert_evidence",
+              "weather_records",
+              "surveillance",
+              "other"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "type",
+          "description",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "text_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "passage_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "types": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "facts",
+                "procedural_history",
+                "legal_reasoning",
+                "current_outcome",
+                "quoted_precedent",
+                "metadata",
+                "separate_opinion",
+                "unclear"
+              ]
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "passage_id",
+          "types"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "outcome_cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "current_disposition",
+              "repeated_outcome",
+              "indirect_reasoning"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "kind",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "quality": {
+      "type": "object",
+      "properties": {
+        "needs_review": {
+          "type": "boolean"
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "property_boundary",
+              "institutional_ownership",
+              "procedural_overlap",
+              "multiple_parties_orders",
+              "outcome_ambiguity",
+              "text_incomplete",
+              "ocr_or_formatting",
+              "possible_duplicate_family",
+              "factual_support_thin",
+              "other"
+            ]
+          },
+          "minItems": 0
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "needs_review",
+        "flags",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "evidence_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "passage_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statement_status": {
+            "enum": [
+              "allegation",
+              "party_argument",
+              "testimony_or_record",
+              "court_finding",
+              "procedural_history",
+              "current_disposition",
+              "unclear"
+            ]
+          }
+        },
+        "required": [
+          "evidence_id",
+          "passage_id",
+          "quote",
+          "statement_status"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "prompt_version",
+    "case_id",
+    "text_sha256",
+    "input_chunk_id",
+    "run",
+    "eligibility",
+    "outcome",
+    "facts",
+    "legal_issues",
+    "evidence_discussed",
+    "text_sections",
+    "outcome_cues",
+    "quality",
+    "evidence"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ny-fall:annotation:1.0.0",
+  "title": "NY slip/trip case annotation v1.0.0",
+  "description": "One record per case. Unknowns are explicit. No gold status without human review."
+}
