@@ -219,3 +219,8 @@ __marimo__/
 
 # Annotation submissions
 annotation/submissions/**/chat_exports/
+
+# Distribute the prepared annotation packages
+!annotation/downloads/
+!annotation/downloads/batch_*.zip
+!annotation/downloads/checksums.json
