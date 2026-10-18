@@ -1,0 +1,1427 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "unspecified_by_team",
+    "case_id": "NY-5960096",
+    "text_sha256": "6c77e5f484e83244a5deeef75d54693a0ecd0aef7b57174bd1e9996b0b83978d",
+    "input_chunk_id": "CAL_001",
+    "run": {
+      "annotator_id": "GPT-6",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-18T16:18:14-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Reviewer becca assigned for future human review; prompt_version was not supplied, placeholder requires team confirmation.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002",
+        "E005"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E007"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001",
+        "E014"
+      ],
+      "orders": [
+        {
+          "description": "Defendant appeal of denial of summary judgment",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendant summary judgment dismissing complaint",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "entrance",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": "2007-08-10",
+      "factual_summary": "Plaintiff allegedly slipped on water on the floor between the entrance and registers of a defendant-owned supermarket during rainy conditions. Her later affidavit described mud and tracks, which the court treated as inconsistent with her deposition.",
+      "evidence_ids": [
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E011",
+        "E012",
+        "E013"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Defendant established prima facie absence of creation or notice; plaintiff did not raise a triable issue.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E010",
+          "E013"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Defendant established prima facie absence of creation or notice; plaintiff did not raise a triable issue.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E010",
+          "E013"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Defendant established prima facie absence of creation or notice; plaintiff did not raise a triable issue.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E010",
+          "E013"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Court reversed denial of defendant summary judgment; plaintiff opposition affidavit was deemed feigned.",
+        "evidence_ids": [
+          "E001",
+          "E013",
+          "E014"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition and later opposing affidavit differed; later account rejected as feigned.",
+        "evidence_ids": [
+          "E011",
+          "E012",
+          "E013"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Employee deposition and affidavit, and manager affidavit, supported lack of creation and notice.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E013",
+          "E014"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Team prompt_version not provided; metadata placeholder needs confirmation before final pipeline ingestion."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is reversed, on the law, with costs, and the defendant’s motion for summary judgment dismissing the complaint is granted.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "the plaintiff, upon entering the Stop & Shop supermarket in West Babylon, New York, which was owned and operated by the defendant, Stop & Shop Supermarket Company, LLC, allegedly slipped and fell in an area between the entrance and the cash registers.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "At approximately 12:00 p.m. on August 10, 2007",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "It is undisputed that it had been raining on the day of the accident and the supermarket’s parking lot was wet.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "quote": "alleging that a wet and dangerous condition existed on the floor in the supermarket and caused her accident.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P001",
+        "quote": "the defendant moved for summary judgment, arguing, inter alia, that it lacked constructive notice of the alleged condition.",
+        "statement_status": "party_argument"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "The defendant established its prima facie entitlement to judgment as a matter of law by demonstrating, through the deposition testimony and affidavit of an employee, as well as the affidavit of its store manager, both of whom were after-the-accident witnesses, that it neither created the alleged hazardous condition nor had actual or constructive notice of it.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P002",
+        "quote": "According to the employee, there was no accumulation of water at the location of the plaintiff’s fall when she observed the subject area approximately 15 minutes before the accident.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P002",
+        "quote": "the employee did not see any wet condition on the floor after the plaintiff had fallen, but did notice that the soles of the plaintiffs shoes were wet.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P003",
+        "quote": "the store manager stated that she had not been notified of any spill on the floor in the area in question prior to the accident.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P003",
+        "quote": "the plaintiff stated that she slipped on water, but she did not give any additional description of the condition.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P003",
+        "quote": "that it had “spec[k]s of mud” within it as well as multiple muddy footprints and “wagon track marks” around it.",
+        "statement_status": "party_argument"
+      },
+      {
+        "evidence_id": "E013",
+        "passage_id": "P003",
+        "quote": "it constituted an attempt to create a feigned issue of fact specifically designed to avoid the consequences of her earlier deposition testimony",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E014",
+        "passage_id": "P004",
+        "quote": "Accordingly, the Supreme Court should have granted the defendant’s motion for summary judgment dismissing the complaint.",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "unspecified_by_team",
+    "case_id": "NY-4310325",
+    "text_sha256": "abaf20af42ad7b432743734d6180abd7e1d59e4eae388267d469b5fd14cffded",
+    "input_chunk_id": "CAL_001",
+    "run": {
+      "annotator_id": "GPT-6",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-18T16:18:14-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Reviewer becca assigned for future human review; prompt_version was not supplied, placeholder requires team confirmation.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E002",
+        "E006"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E011",
+        "E012"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": true,
+      "favors": "both",
+      "disposition_evidence": [
+        "E001",
+        "E007"
+      ],
+      "orders": [
+        {
+          "description": "RMF Holding motion and cross motion, including complaint and cross-claim relief",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied summary judgment relief",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E005",
+            "E007",
+            "E008",
+            "E010"
+          ]
+        },
+        {
+          "description": "Burgundy Room cross motion",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied summary judgment dismissing complaint and cross claims",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E005",
+            "E007",
+            "E011"
+          ]
+        },
+        {
+          "description": "BKV Realty and BKV Dentistry motion",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted summary judgment dismissing complaint and cross claims",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E005",
+            "E007",
+            "E012",
+            "E013"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "other",
+      "location": "parking_lot",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "tenant"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped on ice in a privately owned plaza parking lot. Plaintiffs alleged a downspout from an adjoining restaurant directed water into the lot, where it froze.",
+      "evidence_ids": [
+        "E002",
+        "E003",
+        "E004",
+        "E006"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Possible retained control and landlord liability remained triable.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "raised_only",
+        "finding": "Plaintiffs alleged defendants caused ice formation through downspout drainage; no definitive creation finding.",
+        "evidence_ids": [
+          "E006"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "BKV Realty and Dentistry established absence of actual knowledge; plaintiffs failed to raise a triable issue.",
+        "evidence_ids": [
+          "E012",
+          "E013"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "BKV Realty and Dentistry established absence of constructive knowledge; plaintiffs failed to raise a triable issue.",
+        "evidence_ids": [
+          "E012",
+          "E013"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff could not specifically identify cause, but defense movants could not win merely by citing gaps in her proof.",
+        "evidence_ids": [
+          "E011"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "court_addressed",
+        "finding": "Triable issue whether RMF Holding retained control and could be liable.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Summary judgment rulings affirmed; ambiguity concerning indemnification lease terms remains for factfinder.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "court_addressed",
+        "finding": "Lease-based contractual indemnification scope remained ambiguous and triable.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001",
+          "E007"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E008",
+          "E010",
+          "E011",
+          "E012",
+          "E013"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [
+        "multiple_parties_orders"
+      ],
+      "notes": "Affirmance encompasses divergent party-specific results and a cross-claim; favors both, not a mixed appellate disposition. Prompt version placeholder requires confirmation."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "she slipped and fell on ice in the parking lot of a plaza owned by defendant B.K.V Realty Co., LLC (BKV Realty).",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "Defendant Barzman, Kasimov & Vieth, D.D.S., EC. (BKV Dentistry) was the commercial tenant of the plaza.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "The plaza’s parking lot is bordered on one side by a restaurant that is owned by defendant R.M.F. Holding Corporation (RMF Holding) and leased by defendant M.D. Fritz, Inc., doing business as The Burgundy Room Restaurant & Lounge (Burgundy Room).",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "quote": "The order denied the cross motion of defendant M.D. Fritz, Inc., doing business as The Burgundy Room Restaurant & Lounge, and the motion and cross motion of R.M.F. Holding Corporation for summary judgment and granted *1573 the motion of defendants Barzman, Kasimov & Vieth, D.D.S., EC., and B.K.V Realty Co., LLC for summary judgment.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "quote": "Plaintiffs further alleged that RMF Holding and the Burgundy Room had actual or constructive notice of a dangerous or defective condition inasmuch as they permitted water to drain by artificial means, i.e., a downspout attached to the side of the Burgundy Room, into the plaza’s parking lot and the water subsequently froze to form an icy condition in the parking lot.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "Supreme Court denied RMF Holding’s motion for summary judgment on its cross claim against the Burgundy Room and for summary judgment dismissing the complaint against it, as well as its cross motion for summary judgment dismissing the complaint and all cross claims against it, denied the Burgundy Room’s cross motion for summary judgment dismissing the complaint and all cross claims against it and granted the motion of BKV Realty and BKV Dentistry for summary judgment dismissing the complaint and all cross claims against them. We affirm.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "quote": "there is a triable issue of fact with respect to the scope of the lease between RMF Holding and the Burgundy Room",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "quote": "there is an ambiguity with respect to the scope of the Burgundy Room’s duty to indemnify RMF Holding that should be determined by the trier of fact",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P003",
+        "quote": "there is a triable issue of fact whether RMF Holding retained control of the roof, exterior walls and *1574 structural walls of the premises, and thus may be liable as an out-of-possession landlord",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P004",
+        "quote": "Although those defendants demonstrated that plaintiff could not identify what specifically caused her to fall, they are unable to establish their entitlement to judgment as a matter of law by noting the gaps in plaintiffs’ proof",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P004",
+        "quote": "Those defendants met their initial burden of establishing that they did not have actual or constructive knowledge of the icy condition allegedly created by the downspout",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E013",
+        "passage_id": "P004",
+        "quote": "plaintiffs failed to raise a triable issue of fact in opposition",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "unspecified_by_team",
+    "case_id": "NY-5992200",
+    "text_sha256": "16d6a5334b9294c4373447b4c040f3473459c7d6132f6ea8ba9a9bb98910fb49",
+    "input_chunk_id": "CAL_001",
+    "run": {
+      "annotator_id": "GPT-6",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-18T16:18:14-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Reviewer becca assigned for future human review; prompt_version was not supplied, placeholder requires team confirmation.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "out_of_scope",
+      "binary_task": "exclude",
+      "reasons": [
+        "public_property"
+      ],
+      "property_status": "public",
+      "property_basis": "other",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002",
+        "E003",
+        "E005",
+        "E006"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Limited plaintiff appeal of summary judgment for Themelion defendants",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted summary judgment dismissing complaint against Themelion defendants",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E004",
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "other",
+      "location": "sidewalk",
+      "hazards": [
+        "unclear"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "municipality"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly tripped on a pedestrian ramp in front of a privately owned Brooklyn building. The court determined the accident location was a pedestrian ramp rather than the abutting sidewalk; no physical defect is described.",
+      "evidence_ids": [
+        "E002",
+        "E003",
+        "E006"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Abutting owners not liable under NYC Administrative Code § 7-210 for pedestrian ramp.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "court_addressed",
+        "finding": "Court interpreted § 7-210 as inapplicable to pedestrian ramps for abutting-owner liability.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Summary judgment for Themelion defendants affirmed on limited appeal.",
+        "evidence_ids": [
+          "E004",
+          "E001",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [
+        "property_boundary"
+      ],
+      "notes": "Pedestrian ramp is not private premises merely because building is privately owned; public-property exclusion is based on court distinction and City involvement. Prompt version placeholder requires confirmation."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "The plaintiff allegedly sustained injuries when she tripped and fell on a pedestrian ramp in front of a building in Brooklyn, which was owned by the defendants Themelion Realty Corp., Themilion Realty Corp., Theodore Vallas, and Valias Realty",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "The plaintiff commenced this action against the Themelion defendants and the City of New York.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "the plaintiff appeals, as limited by her brief, from so much of an order of the Supreme Court, Kings County (Sherman, J.), dated March 21, 2011, as granted that branch of the motion of the defendants Themelion Realty Corp., Themilion Realty Corp., Theodore Vallas, and Valias Realty which was for summary judgment dismissing the complaint insofar as asserted against them.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "quote": "pedestrian ramps are not part of the sidewalk for the purpose of imposing liability on abutting landowners pursuant to that provision",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "quote": "The Themelion defendants established their prima facie entitlement to judgment as a matter of law by demonstrating that the area in which the plaintiff tripped was part of the pedestrian ramp",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "In opposition, the plaintiff failed to raise a triable issue of fact.",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "unspecified_by_team",
+    "case_id": "NY-4308801",
+    "text_sha256": "e0756b26ee0a148d8b2cad82c1aa81f9de75e70b3258e64773725a042cf13fb7",
+    "input_chunk_id": "CAL_001",
+    "run": {
+      "annotator_id": "GPT-6",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-18T16:18:14-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Reviewer becca assigned for future human review; prompt_version was not supplied, placeholder requires team confirmation.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E002",
+        "E006"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E013"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001",
+        "E013"
+      ],
+      "orders": [
+        {
+          "description": "Plaintiff appeal from defendants summary judgment",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendants summary judgment and dismissed complaint",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E003",
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "entrance",
+      "hazards": [
+        "uneven_surface",
+        "obstruction"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly tripped on duct tape joining a permanent inset rug and a seasonal rug near the entrance inside defendants’ department store. Testimony described a small raised junction; expert measurements were also discussed.",
+      "evidence_ids": [
+        "E002",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Court described the condition as the junction of two duct-taped rugs, without making a separate negligence finding for creation.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "raised_only",
+        "finding": "Visibility circumstances discussed in plaintiff testimony; court did not separately decide an open-and-obvious defense.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "court_addressed",
+        "finding": "Court found the height differential too trivial to be actionable and no triable trap/snare/nuisance issue.",
+        "evidence_ids": [
+          "E011",
+          "E012"
+        ]
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Court discussed defense engineer measurements when assessing defect dimensions.",
+        "evidence_ids": [
+          "E008",
+          "E011"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Court affirmed defense summary judgment dismissing complaint.",
+        "evidence_ids": [
+          "E001",
+          "E013"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition described tape and circumstances of fall.",
+        "evidence_ids": [
+          "E006",
+          "E010"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Plaintiff friend testified about rug height and tape condition.",
+        "evidence_ids": [
+          "E007",
+          "E009"
+        ]
+      },
+      {
+        "type": "expert_evidence",
+        "description": "Defense engineer measured differential between rugs.",
+        "evidence_ids": [
+          "E008"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "facts",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E011",
+          "E012",
+          "E013"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Private store control supported, ownership not specified. Quoted Sharpe precedent includes photographs; not independently attributed as photographs in this case. Prompt version placeholder requires confirmation."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "Plaintiff commenced this action seeking damages for injuries she sustained when she allegedly tripped and fell on carpeting at defendants’ store.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "The order granted the motion of defendants for summary judgment and dismissed the complaint.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "The allegedly defective condition was created by two rugs inside an entrance to defendants’ store.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "quote": "The permanent and seasonal rugs were duct taped together at the edge where they met.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "quote": "Plaintiff testified at her deposition that she tripped and fell on a portion of the duct tape covering the “raised” area or “hump” created by the adjoining rugs.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "plaintiff’s friend, who was with plaintiff at the time of the accident and who felt the raised area under the duct tape immediately thereafter, estimated at her deposition that the height differential was one-half of an inch.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "quote": "Defendants’ expert engineer measured that -2- 734 CA 11-02540 the height differential between the rugs was between five-sixteenths and three-eighths of an inch.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "quote": "Plaintiff’s friend testified that, after the accident, the tape was “still secured to the carpet,” was not “raised up or bubbled up” and was not “lifted up or pulled up in any way.”",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P003",
+        "quote": "The accident occurred on a sunny day, and plaintiff testified that there were no other customers in the vicinity and that nothing blocked her view of the area in which she was walking.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P003",
+        "quote": "we conclude that defendants established as a matter of law that the defect is too trivial to be actionable",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P004",
+        "quote": "We further conclude that plaintiff “failed to raise a triable issue of fact whether the alleged defect has the characteristics of a trap, snare or nuisance”",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E013",
+        "passage_id": "P002",
+        "quote": "We conclude that Supreme Court properly granted defendants’ motion for summary judgment dismissing the complaint",
+        "statement_status": "court_finding"
+      }
+    ]
+  }
+]
