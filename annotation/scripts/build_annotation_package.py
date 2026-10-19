@@ -152,8 +152,8 @@ def package():
             z.writestr('annotation/source/cases.jsonl',subset)
             for filename in ['assignments.json','family_hints.json','package_manifest.json']:
                 z.write(DEST/'source'/filename,'annotation/source/'+filename)
-            z.writestr('annotation/MY_BATCH.txt',f'Primary assignment: {b}\nPrimary cases: {len(primary)}\nExtra source records are shared calibration/pilot-review cases, not extra primary assignments.\n')
-            z.writestr('annotation/submissions/README.md','Create your own reviewer folder; keep original LLM drafts and human reviews separately.\n')
+            z.writestr('annotation/MY_BATCH.txt',f'Shared processing round: {b}\nCases in round: {len(primary)}\nAll three reviewers process A, compare A, then B and C. This package has no exclusive owner.\nExtra source records are shared calibration/optional practice cases; follow the round manifest for exact coverage.\n')
+            z.writestr('annotation/submissions/README.md','Save work in <reviewer_id>/batches/<A|B|C>/. All reviewers process the same round independently, then compare. Preserve original drafts and actual human review notes.\n')
     sums={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(downloads.glob('batch_*.zip'))}
     dump(downloads/'checksums.json',sums)
     print('Packaged',sums)

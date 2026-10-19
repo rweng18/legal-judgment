@@ -1,83 +1,105 @@
-# Deliverables and acceptance criteria
+# Deliverables: three independent passes per round
 
-## Calibration and pilot materials
+Every teammate completes A, compares A together, then repeats B and C. Keep the existing calibration files where they are; they need not be renamed. Record actual prompt/model metadata, completed/pending IDs, validation status, prior exposure to shared answers, and real human review. Use model notes rather than invented human notes when no independent human pass occurred.
 
-Save these materials as you complete each step. Bring available results and open questions to Monday’s discussion, and note any pending work in `SUMMARY.md`. The structure below describes the completed calibration/pilot package, rather than a weekend deadline.
-
-```text
-submissions/<reviewer_id>/
-  prompts_used/                 exact prompt text/version used
-  independent_calibration_notes.md
-  calibration/                 CAL_001.json, CAL_002.json, CAL_003.json
-    drafts/                    original unmodified responses
-  calibration.jsonl            exactly 12 independently annotated records
-  calibration.jsonl.validation.json
-  pilot.jsonl                  exactly 5 assigned pilot records
-  pilot.validation.json
-  cross_review/                independent notes + review of teammate's pilot
-  SUMMARY.md                   counts, unresolved cases, time spent, model used
-```
-
-`SUMMARY.md` should state batch/owner, actual model name, prompt/codebook version, completed IDs or chunks, validation status, how many human checks occurred, unresolved case IDs/reasons, estimated minutes per case, and proposed rule clarifications. No scores should be invented. Do not include private chat/account information or credentials.
-
-## Full batch submission after production
+## Each person's round submission
 
 ```text
 submissions/<reviewer_id>/
-  production_chunks/           selected final chunk files
-  drafts/                      earlier LLM versions, not input to final merge
-  annotations.jsonl            exactly 169 (A/B) or 168 (C) primary records
-  annotations.validation.json
-  human_review_log.md
-  adjudication_log.md
-  SUMMARY.md
+  batches/A/
+    prompts_used/             exact prompt text/version
+    chunks/                   selected final A_001.json through A_034.json
+    drafts/                   original responses and earlier versions
+    annotations.jsonl         exactly 169 unique records, including exclude/review
+    annotations.validation.json
+    human_review_log.md        actual review only; state pending if none
+    SUMMARY.md                version, counts, uncertainties, exposure and progress
+  batches/B/                  same structure; 169 cases
+  batches/C/                  same structure; 168 cases
 ```
 
-For a small demonstration, merging two explicitly named files works as follows; for full production list the selected final files only. Do not pass a folder wildcard containing validation reports or historical versions.
+Reviewer IDs are `yinkui`, `becca`, `hyunsang`. Every person has all three round folders by the end. Original drafts must survive corrections; revised records identify their predecessors with `supersedes` and explain changes. Exact IDs and hashes stay unchanged.
+
+## Build and validate a round output
+
+Run from `annotation/`, with Python 3.10+ and the standard library. Replace the reviewer and round as needed. A partial example:
 
 ```sh
-python scripts/merge_annotations.py submissions/yinkui/production_chunks/A_001.json submissions/yinkui/production_chunks/A_002.json --expected batches/A/manifest.json --partial --output submissions/yinkui/checkpoint.jsonl
+python scripts/merge_annotations.py submissions/yinkui/batches/A/chunks/A_001.json submissions/yinkui/batches/A/chunks/A_002.json --expected batches/A/manifest.json --partial --output submissions/yinkui/batches/A/checkpoint.jsonl
 ```
 
-`--partial` permits missing IDs and reports them; this is a checkpoint, not a finished batch. For the final batch, omit `--partial` and provide all selected final records. The merge refuses duplicate IDs rather than choosing the latest file silently. If a chunk contains already completed calibration/pilot cases, assemble one final record per expected ID explicitly.
+For a complete round, pass all selected chunk files, omit `--partial`, and write `annotations.jsonl`. The following cross-platform Python snippet selects exactly the 34 expected chunk files, without matching validation reports or old drafts:
 
-Validate the completed batch:
+```python
+from pathlib import Path
+import subprocess, sys
+reviewer = "yinkui"
+batch = "A"
+folder = Path("submissions") / reviewer / "batches" / batch
+files = [folder / "chunks" / f"{batch}_{i:03d}.json" for i in range(1, 35)]
+assert all(p.is_file() for p in files), "Finish all chunks before a complete merge"
+subprocess.run([sys.executable, "scripts/merge_annotations.py",
+               *map(str, files), "--expected", f"batches/{batch}/manifest.json",
+               "--output", str(folder / "annotations.jsonl")], check=True)
+```
+
+Carry any reusable own calibration records into the correct chunk/round with their original run provenance; do not add a second copy of the same case. Track known exposure to peer labels separately. The merge refuses duplicate IDs.
 
 ```sh
-python scripts/validate_annotations.py submissions/yinkui/annotations.jsonl --expected batches/A/manifest.json --report submissions/yinkui/annotations.validation.json
+python scripts/validate_annotations.py submissions/yinkui/batches/A/annotations.jsonl --expected batches/A/manifest.json --report submissions/yinkui/batches/A/annotations.validation.json
 ```
 
-## Coordinator merge
+## Cross-compare A, then B and C
 
-Run on the full repository copy, whose `source/cases.jsonl` contains all 506 cases:
+Freeze all three independent files first. Run on the repository or a package containing that round's complete source subset:
 
 ```sh
-python scripts/merge_annotations.py submissions/yinkui/annotations.jsonl submissions/becca/annotations.jsonl submissions/hyunsang/annotations.jsonl --expected source/all_expected.json --output submissions/merged_annotations.jsonl
-python scripts/summarize_annotations.py submissions/merged_annotations.jsonl --output submissions/annotation_summary.json
+python scripts/compare_calibration.py submissions/yinkui/batches/A/annotations.jsonl submissions/becca/batches/A/annotations.jsonl submissions/hyunsang/batches/A/annotations.jsonl --expected batches/A/manifest.json --output submissions/comparison/A/comparison.json
 ```
 
-Do not combine independent calibration runs into this primary merge: those contain intentionally duplicated IDs. Carry only the owner-approved final version into the primary batch. Preserve independent versions separately for agreement analysis.
+`--expected` selects the round; omitting it retains the original 12-case calibration behavior. The script validates all three complete inputs, reports pairwise core-field agreement/kappa and queues disagreements. It does not check every extra feature, adjudicate, or invent a missing third submission. Review facts, issue tags, exact evidence and provenance separately. Report previously discussed calibration cases separately when interpreting fresh independent agreement.
 
-The summary reports annotated count, include/exclude/review counts, full outcome distribution, eligible binary class counts, planned-period class counts, unresolved items, missing factual fields, word lengths, and review status. It also generates a seeded random sample of 10% of included training cases for audit. Freeze and retain the input dataset hash/version when drawing that sample; rerunning after changes can alter the sample.
+Save comparison notes, actual human decisions, an audit of unanimous inclusions/exclusions, and unresolved IDs under `submissions/comparison/A/`; repeat B and C. See [QUALITY_CONTROL.md](QUALITY_CONTROL.md). Pairwise agreement is not classifier accuracy.
 
-## Acceptance checklist
+## Consolidation
 
-- Every expected primary ID occurs exactly once, including excluded or unresolved cases.
-- Source hashes match; all source text remains unchanged.
-- Every required schema field and all 19 legal-issue topics are present.
-- All supporting quotes match the canonical passages; no invented ellipses, offsets, facts, or model versions.
-- Included cases have private-property, incident, merits, and current-disposition evidence.
-- Modified/mixed/dismissed/unclear outcomes are preserved with null binary label.
-- All passages are classified in text_sections, including metadata or separate-opinion material.
-- Original LLM drafts, corrections, human reviews and adjudications are distinguishable.
-- Unresolved cases stay out of the included binary pool until resolved.
-- Validation/test labels receive independent human review before model evaluation.
-- Related-case hints are checked before final train/validation/test splitting.
-- No classifier uses annotation JSON, evidence selections, or derived outcomes as ordinary input features.
+After review, assemble one selected/resolved record per expected ID into:
 
-## Uploading to GitHub
+```text
+submissions/consolidated/
+  A.jsonl                     169 records, including excluded/unresolved cases
+  A.validation.json
+  A.summary.json
+  A_decisions.md              record sources, changes, reviewers and open items
+  B.jsonl                     169, when ready
+  C.jsonl                     168, when ready
+  all_cases.jsonl             506 only after all three rounds are ready
+```
 
-Use a personal branch such as `annotations/yinkui` and a PR containing only your submission folder and explicitly agreed documentation changes. Alternatively, upload your folder through GitHub's web interface if the team uses that workflow. Do not overwrite source packages or another person's work. Ask the coordinator to resolve conflicting record versions with a logged decision.
+Never directly merge Yinkui + Becca + Hyun Sang as a case dataset: each person covers the same IDs. Consolidation requires explicit reviewed selection/resolution. Keep unresolved cases marked review with null binary labels; keep excluded records and their reasons for the audit trail. Do not label model consensus human-reviewed.
 
-No scripts upload automatically. A GitHub account with collaborator write access, plus any required connected-app repository access, is needed. Do not put access tokens into files, notebooks, prompts, screenshots, or commit messages.
+```sh
+python scripts/validate_annotations.py submissions/consolidated/A.jsonl --expected batches/A/manifest.json --report submissions/consolidated/A.validation.json
+python scripts/summarize_annotations.py submissions/consolidated/A.jsonl --output submissions/consolidated/A.summary.json
+```
 
+Once all three disjoint rounds are consolidated, use the full repository source:
+
+```sh
+python scripts/merge_annotations.py submissions/consolidated/A.jsonl submissions/consolidated/B.jsonl submissions/consolidated/C.jsonl --expected source/all_expected.json --output submissions/consolidated/all_cases.jsonl
+python scripts/summarize_annotations.py submissions/consolidated/all_cases.jsonl --output submissions/consolidated/all_cases.summary.json
+```
+
+A smaller MVP can start from reviewed eligible records in A alone (169 candidates, roughly 170 before filtering). Report actual eligible/class/split counts and exclusions; do not require exactly 170 or describe three annotations as three independent cases. The README covers accuracy, balanced accuracy, macro F1, confusion matrix, class counts and small-sample evaluation limitations.
+
+## Acceptance checks and GitHub submission
+
+- Every expected case appears once per reviewer output and once in the consolidated round, including exclusions/reviews.
+- Schema, IDs, hashes, evidence references, quotation offsets and passage coverage pass validation.
+- All 19 legal-issue topics and factual fields are present; unknowns remain explicit.
+- Private-premises scope and binary disposition have source evidence; unresolved and nonbinary outcomes have null labels.
+- Original drafts, prior exposure, corrections, human review and adjudication are distinguishable.
+- Actual human review is required for human-gold evaluation labels; check case-family overlap before data splitting.
+- Annotation outputs, selected evidence and outcome-derived fields must not be concatenated into ordinary model input.
+
+Use your own branch and reviewer folder. A coordinator can publish comparison/consolidated outputs once reviewed. Do not overwrite peer submissions, change case texts, or automatically promote majority labels. No script uploads automatically; do not store credentials in files.

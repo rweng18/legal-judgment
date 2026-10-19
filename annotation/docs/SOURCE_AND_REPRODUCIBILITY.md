@@ -12,7 +12,7 @@ The 506 were not independently human-validated. They were selected by an automat
 
 Previous outcome labels, eligibility decisions, screening reasons, notes and selected evidence were intentionally left out of this repository's source inputs. The frozen source contains opinion text, public case metadata, text hashes, and neutral passage offsets only. A full opinion naturally contains its outcome, which annotators need to read to assign labels.
 
-`source/package_manifest.json` records the original local input-file hash, random seed, batch/year/word counts and lengths. `source/assignments.json` records primary ownership, calibration/pilot membership and preliminary period. `source/family_hints.json` flags repeated names/docket strings for later human checking; it is not complete deduplication.
+`source/package_manifest.json` records the original local input-file hash, random seed, batch/year/word counts and lengths. `source/assignments.json` records batch membership, calibration/pilot membership and preliminary period (the original ownership terminology is historical; all reviewers now process all three batches). `source/family_hints.json` flags repeated names/docket strings for later human checking; it is not complete deduplication.
 
 Batch seed is 20261016. The allocator balances reading load within filing years subject to exact capacities 169/169/168. It does not use previous outcome labels. Calibration samples two cases from each of six training-year bands; pilot inputs select five other training cases in each assignment. Passages are artificial text segments of roughly 1,200 characters with exact offsets and no lost source characters. The provided codebook explains this to annotators.
 
@@ -27,5 +27,5 @@ python scripts/check_package.py
 python -m unittest discover -s tests -v
 ```
 
-Run the full package check on the full repository, not a personal ZIP (which contains only a subset). Archive contents and checksums can be checked through `downloads/checksums.json`.
+Run the full package check on the full repository, not a single-batch ZIP (which contains only a subset). Archive contents and checksums can be checked through `downloads/checksums.json`.
 

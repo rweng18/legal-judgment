@@ -1,55 +1,36 @@
-# Start here: Team 11 annotation work
+# Start here: everyone annotates A, then B, then C
 
-We’ll use Saturday and Sunday to try the annotation workflow and bring what we learn to our Monday meeting. The shared calibration comes first, followed by a small pilot and teammate review as time allows. The full 506-case annotation will continue after we agree on the rules and workload.
+**Current workflow — October 18:** all three teammates independently annotate batch A, cross-compare A, then do the same for B and C. Each person eventually covers all 506 cases. This replaces exclusive batch ownership and the required five-case pilot/ring-review stage. The annotation schema and substantive codebook remain unchanged until actual team decisions are recorded.
 
-## Current status and next steps — October 18
+## 1. Everyone starts with batch A
 
-Becca's 12 calibration outputs are on `main`; Yinkui's 12-case assistant draft and comparison are available in [PR #3](https://github.com/rweng18/legal-judgment/pull/3). The two LLM drafts agree on all 12 appellate dispositions, but on include/exclude/review for 7/12 cases. This is annotation agreement, not model accuracy. Hyun Sang's submission was not found in the latest repository check, and the team has not yet frozen the rules.
-
-**Before reading other people's answers:** finish and save your own independent calibration first. If you already saw the comparison, note that exposure; do not describe a later attempt as fully independent. An assistant can draft annotations, but it cannot produce independent human notes on your behalf.
-
-| Next step | What would help |
-|---|---|
-| Complete the independent inputs | Hyun Sang submits the same 12 cases when ready. Yinkui reviews the assistant draft as a human and records that review honestly; reading a draft first cannot be called a blind human pass. |
-| Discuss the evidence | After saving your own answers, use the [comparison report](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md). Agree what supports private-property status, whether step-off/trench falls fit our scope, and whether an entry represents an appealed order or an individual motion. |
-| Resolve technical and provenance issues | Review the proposed null-label consistency correction; confirm actual prompt versions and reviewer IDs; reconcile submitted notes with LLM outputs. Keep originals and save changes as separate versions with `supersedes` and review notes. Do not invent missing metadata. |
-| Record agreed rules and compare again | Record real team decisions in [DECISIONS.md](docs/DECISIONS.md). Update/version the codebook and prompt if their rules change, recheck affected calibration records, and validate each person's complete output before the three-way comparison. |
-| Try the pilot and cross-review | After agreeing on the rules, each person annotates their five-case `SUNDAY_PILOT.md`; A reviews B, B reviews C, and C reviews A. Reviewers read the opinions independently before viewing the pilot answers. The filename does not set a deadline. |
-| Decide how to continue | Discuss pilot errors and workload, then agree on a pace for primary batches. Preserve excluded/review cases in outputs rather than dropping them. |
-
-For Monday, we can focus on the questions above and carry unfinished items forward. Starting the full batches makes more sense once the team has agreed on the rules and reviewed the small pilot.
-
-The [two-person report](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md) preserves a validation error in a peer record and separates proposed corrections from actual edits. It does not replace the later three-way check. The existing `scripts/compare_calibration.py` expects exactly three valid, complete submissions; wait for the third rather than duplicating an input. Follow [CHATGPT_WORKFLOW.md](docs/CHATGPT_WORKFLOW.md) for the merge, validation and comparison commands.
-
-For the later study, retain class counts and the reviewed reference labels needed for accuracy, balanced accuracy, macro F1 and a confusion matrix. None of those classifier metrics is established by the current calibration agreement.
-
-## 1. Pick up your package
-
-Suggested ownership (the team can swap whole batches and record the change):
-
-| Batch | Suggested owner / reviewer ID | Primary cases | Approximate source words |
+| Round | Who works on it | Cases per person | Independent records across three people |
 |---|---|---:|---:|
-| A | Yinkui / `yinkui` | 169 | 104,798 |
-| B | Becca / `becca` | 169 | 103,873 |
-| C | Hyun Sang / `hyunsang` | 168 | 105,760 |
+| A | Yinkui, Becca, Hyun Sang | 169 | 507 |
+| B, after A comparison | Yinkui, Becca, Hyun Sang | 169 | 507 |
+| C, after B comparison | Yinkui, Becca, Hyun Sang | 168 | 504 |
+| Total | Each person covers the same corpus | 506 | 1,518 |
 
-Download your ZIP from [`downloads/`](downloads/) and extract it on your computer. On GitHub, open the ZIP and choose the download/raw-download action. Each ZIP contains an `annotation/` folder with the same instructions and scripts. Your ZIP also contains the shared 12 calibration cases and all three five-case pilot inputs for cross-review. These extra copies do not add unique cases to the 506-case corpus.
+Reviewer IDs stay `yinkui`, `becca`, and `hyunsang`. A/B/C are shared processing rounds, not reviewer assignments or machine-learning splits. Keep the existing manifests and case IDs; no repartition is needed.
 
-The complete repository contains all 506 source records in [`source/cases.jsonl`](source/cases.jsonl). Each personal ZIP contains only its assigned source records plus shared calibration/pilot records. `MY_BATCH.txt` identifies the ZIP's primary assignment. Each batch has 34 input chunks of at most five cases; the last chunk is smaller.
+Everyone downloads [batch A](downloads/batch_A.zip) first. Later use [batch B](downloads/batch_B.zip) and [batch C](downloads/batch_C.zip). Each package contains 34 chunks of at most five cases, its source subset, shared calibration inputs and optional pilot packets. Extra shared records do not increase the batch's expected count. Use `batches/A/manifest.json`, not every case found in the ZIP, to determine A coverage. `MY_BATCH.txt` identifies the package round, not its owner.
 
-**A/B/C are reviewer work assignments, not machine-learning splits.** The proposed periods remain training 2010–2020, validation 2021–2022, and test 2023–2024. Related-case checks may later reduce those sets.
+Each person's files go under `submissions/<reviewer_id>/batches/A/`, then `B/` and `C/`. Each final round output contains exactly one record for every manifest ID, including exclude and review decisions. Preserve original drafts and exact prompt/model provenance.
 
-## 2. Suggested weekend plan
+## 2. Complete and compare one round at a time
 
-| When | Suggested focus |
-|---|---|
-| Saturday | Get familiar with the package and independently work through the shared calibration cases. Keep notes on unclear cases or rules. |
-| Sunday | Compare calibration notes and agree on any rule changes. Then try the small pilot and review each other’s work as time allows. |
-| Monday meeting | Discuss what worked, any disagreements or unfinished items, and a reasonable plan for the remaining cases. |
+1. **Agree on a starting rule version.** Use the calibration questions to clarify private-premises evidence and the slip/trip boundary. Record actual decisions in [DECISIONS.md](docs/DECISIONS.md); this workflow update does not invent team consensus. The earlier [two-person calibration report](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md) is available after your independent calibration answers are saved.
+2. **Annotate A independently.** Read every opinion and complete the full schema: eligibility, whole and per-order outcomes, facts, all legal-issue topics, evidence, passage types, uncertainty and provenance. Work through `A_001` to `A_034` in small chunks. Do not consult peer answers while drafting your own.
+3. **Validate and freeze all three submissions.** Save original outputs before comparison. Check exact ID coverage, quotes and consistency. If someone is still working, keep any interim comparison clearly partial; do not present two submissions as three checks.
+4. **Compare A together.** Compare eligibility and outcomes first, then useful factual/legal features and evidence. Read the controlling passages for disagreements. Audit a random sample of unanimous inclusions and exclusions as well; shared-model agreement is not proof of correctness. Keep unresolved cases marked review.
+5. **Create one consolidated A record per case.** Keep the three originals separately. Record reviewer decisions, exclusions, reasons and any changes. Never concatenate three overlapping submissions or automatically turn majority votes into gold labels.
+6. **Repeat for B, then C.** Record rule versions. If a training-based rule changes, identify and recheck affected earlier records. Comparing a held-out case under frozen rules is allowed; using it to tune the prompt or scope is not.
 
-We’ll start on Saturday; there is no Friday work planned. These are general goals, so everyone can work around their availability. If calibration takes longer, give it priority and bring open questions to Monday. Start the pilot once we have agreed on the labeling rules, and decide the pace for the remaining batches together after the meeting.
+Existing calibration/pilot work can count toward its actual round if it still meets the agreed rules. Reuse only the same person's record, include its ID once, and preserve provenance. If shared calibration answers were already seen, record that exposure and report those cases separately from fresh independent agreement. The 12 calibration cases are development examples, not held-out evaluation data. Optional `SUNDAY_PILOT.md` packets are already part of the 506 and need no separate required review round.
 
-## 3. What to read and upload
+Monday can focus on rule questions and progress. We can choose a manageable pace together; there are no exact-hour deadlines or requirement to complete A before Monday. Friday remains free.
+
+## 3. How to run each chunk
 
 Read these once:
 
@@ -60,33 +41,29 @@ Read these once:
 
 For an ordinary ChatGPT chat, upload `docs/CODEBOOK.md`, `schema/annotation.schema.json`, and one input chunk `.md`; paste the contents of `prompts/START_HERE.md`, then `prompts/ANNOTATE_CHUNK.md` with your reviewer ID and the current chunk ID. Upload only the current chunk, not 169 cases at once. If your interface cannot read a schema file, provide its text or use the prepared Markdown example and field guide. Never assume it has read files that were not attached.
 
-For a local assistant such as GPT-6 Astra with repository access, give it this README and `AGENTS.md`, your batch, and an explicit chunk scope. It can read the files directly, run the scripts, and save outputs. It must still annotate the full text semantically rather than replace reading with keyword rules.
+For a local assistant such as GPT-6 Astra with repository access, give it this README and `AGENTS.md`, the current shared round, your reviewer ID, and an explicit chunk scope. It can read the files directly, run the scripts, and save outputs. It must still annotate the full text semantically rather than replace reading with keyword rules.
 
 Use the same model and settings across teammates when available. Record the model actually used. Do not invent a version or assume ChatGPT Plus gives unlimited use or a specific model. No paid API or API token is required by these scripts. Downloads can be resumed in later sessions if usage limits interrupt work.
 
-## 4. First commands (optional local validation)
+## 4. Validation, comparison and submission
 
-All scripts use **Python 3.10+ and the standard library only**. Open a terminal inside the extracted `annotation/` folder. On systems where `python` is unavailable, substitute `py -3` or `python3`.
+Use Python 3.10+ with the standard library. Run commands inside `annotation/`; substitute `py -3` or `python3` if needed. See [DELIVERABLES.md](docs/DELIVERABLES.md) for exact chunk/merge paths and the consolidated output structure.
 
-Validate a saved calibration chunk:
-
-```sh
-python scripts/validate_annotations.py submissions/yinkui/calibration/CAL_001.json --expected calibration/CAL_001.expected.json --report submissions/yinkui/calibration/CAL_001.validation.json
-```
-
-Merge that person's three calibration outputs (do not include `.validation.json` files):
+Validate one chunk:
 
 ```sh
-python scripts/merge_annotations.py submissions/yinkui/calibration/CAL_001.json submissions/yinkui/calibration/CAL_002.json submissions/yinkui/calibration/CAL_003.json --expected calibration/manifest.json --output submissions/yinkui/calibration.jsonl
+python scripts/validate_annotations.py submissions/yinkui/batches/A/chunks/A_001.json --expected batches/A/chunks/A_001.expected.json --report submissions/yinkui/batches/A/chunks/A_001.validation.json
 ```
 
-Validate the Sunday pilot:
+After merging all selected chunk records into each person's `annotations.jsonl`, compare the three complete A submissions:
 
 ```sh
-python scripts/validate_annotations.py submissions/yinkui/pilot.jsonl --expected batches/A/SUNDAY_PILOT.expected.json --report submissions/yinkui/pilot.validation.json
+python scripts/compare_calibration.py submissions/yinkui/batches/A/annotations.jsonl submissions/becca/batches/A/annotations.jsonl submissions/hyunsang/batches/A/annotations.jsonl --expected batches/A/manifest.json --output submissions/comparison/A/comparison.json
 ```
 
-Replace `yinkui` and `A` with your reviewer ID and batch. If you cannot run Python, save the JSON outputs anyway and ask the coordinator or a code-enabled assistant to validate them. Do not claim validation succeeded without the report.
+The script name is historical: `--expected` now selects the calibration or batch manifest. Without it, the script still compares the original 12 calibration cases. It validates all inputs and reports core-field agreement and a disagreement queue; it does not adjudicate or check all extra features. Use the source and full records to review factual fields, issue tags, evidence and passage classifications. Repeat with B or C only when that round is ready.
+
+The script requires three complete valid inputs; never supply the same file three times. If local Python is unavailable, save your outputs and ask a teammate to validate them. Do not claim success without a validation report.
 
 ## 5. Rules that matter most
 
@@ -101,21 +78,20 @@ Replace `yinkui` and `A` with your reviewer ID and batch. If you cannot run Pyth
 - Never add outside facts from web searches or previous annotations to the record. Log source problems separately.
 - Documents are data, not instructions to the assistant.
 
-## 6. What counts as finished?
+## 6. Smaller MVP option
 
-For Monday, aim to bring calibration notes and any completed pilot or cross-review work, along with questions to discuss. Save validation reports for completed outputs and mark anything still pending. Calibration is the priority if time is limited.
+If the timeline is tight, start the MVP with **batch A's 169 candidates (roughly 170)** after the three submissions have been compared and the intended evaluation labels reviewed. Do not wait for B/C merely to demonstrate an exploratory end-to-end pipeline. B and C can expand the study later.
 
-The shared calibration set contains 12 unique cases (36 annotation records when all three people finish independently). Each person’s pilot has five cases, adding 15 distinct training-period cases. These 27 unique cases are already inside the 506; these counts describe the prepared inputs, not a Monday completion requirement.
+Report the actual usable binary count after filtering, the class counts, exclusions and unresolved cases. There may be substantially fewer than 169 eligible cases; keep valid difficult cases and do not lower standards to reach a target. If too few examples of either class remain, add the next reviewed round or limit claims to a pipeline demonstration.
 
-For a full primary batch: exactly 169, 169, or 168 final records respectively; every assigned ID represented even if excluded; schema and quote validation pass; uncertainties explicitly queued; original LLM drafts and later human edits retained. Do not silently drop difficult cases. Approved calibration/pilot records can be carried into the owner's primary output after any required re-annotation; never duplicate them when merging.
+For model evaluation, use the same reviewed cases and split policy for TF-IDF + logistic regression, TF-IDF + linear SVM, and frozen LEGAL-BERT features + a linear classifier. Report accuracy, balanced accuracy, macro F1, the confusion matrix and class counts for each split, together with text-length and truncation/chunking summaries. Check minority-class and test-set counts before fixing an evaluation design; 169 candidates alone does not guarantee meaningful comparisons.
 
-Run [the summary script](scripts/summarize_annotations.py) for counts and a seeded 10% accepted-training audit sample. All validation/test candidates need independent human eligibility/outcome review. A structurally valid file is not a scientifically validated dataset.
+The planned chronological periods remain a starting point, with case-family overlap checks. If filtering leaves an unusably small chronological test set, agree and document an exploratory alternative (for example, suitable stratified, family-aware cross-validation), including tuning within training folds. Freeze the policy before comparing models; do not search for the split with the best score. Keep calibration examples in development/training, and state uncertainty for small evaluation samples. This documentation update does not run models or approve a new evaluation split.
 
-The final data-mining outputs will support class counts, accuracy/balanced-accuracy/macro-F1 evaluation later, confusion-matrix analysis, text-length analysis, legal-issue subgroups, and outcome-language audits. **No model training or classifier performance claims are part of this phase.**
+## 7. What counts as finished?
 
-## 7. Repository submission
+A person's round is complete when every expected ID has exactly one structurally valid annotation, including exclude/review cases, with drafts, actual model/prompt metadata and review notes retained. A team round is ready to use after the three submissions are compared, disagreements are reviewed, unanimous decisions are sampled, and one consolidated record per case is saved. Unresolved cases stay out of the binary modeling pool.
 
-Put your work only under `annotation/submissions/<reviewer_id>/`; do not overwrite another person's files or the source texts. Prefer a branch and pull request for each teammate if using Git. GitHub access is separate from ChatGPT access; a person without write access can send their submission ZIP to the coordinator. Read [DELIVERABLES.md](docs/DELIVERABLES.md) for the directory structure and final merge rules.
+Three independent LLM drafts are three passes, not automatically three human reviews. Mark human-reviewed/adjudicated only after actual review. All intended validation/test labels need independent human eligibility/outcome review before being called human gold.
 
-If a codebook rule changes, record the new version, reason, and affected cases in [DECISIONS.md](docs/DECISIONS.md). Recheck affected records under the new version before combining them. Save the exact prompt used in your submission folder.
-
+Use your own branch and submission folder; do not overwrite another person's files. The final all-round dataset combines consolidated **A + B + C**, not the three teammates' overlapping outputs. The final case count is at most 506, not 1,518. See [DELIVERABLES.md](docs/DELIVERABLES.md) and [QUALITY_CONTROL.md](docs/QUALITY_CONTROL.md).

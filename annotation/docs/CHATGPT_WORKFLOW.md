@@ -8,7 +8,7 @@
 
 This workflow does not automate the ChatGPT website, use account credentials, or call the model API. Model availability and account usage allowances can vary. Use the team's agreed model when available; record any change. Record an unknown model snapshot as null rather than guessing. If rate-limited, save progress and resume later; smaller output chunks are preferable to rushed annotations.
 
-## Saturday: independent calibration
+## Initial calibration
 
 1. Read `calibration/CAL_001.md`, `CAL_002.md`, and `CAL_003.md` yourself. They contain four cases each, twelve total, all from 2010–2020.
 2. Before seeing LLM answers, record your own eligibility and current appellate outcome with one supporting passage per case in `submissions/<you>/independent_calibration_notes.md`. Include uncertainty; do not search the prior audit labels.
@@ -20,7 +20,7 @@ This workflow does not automate the ChatGPT website, use account credentials, or
 8. Repeat for all three chunks. Keep each output local and merge your own twelve records with the README command. Do not compare with teammates until all three independent submissions exist.
 9. Compare the LLM output with your independent human notes and record differences. Do not silently replace the LLM draft with the human conclusion; keep both for calibration analysis.
 
-## Compare and freeze rules
+## Compare calibration and agree on starting rules
 
 Coordinator gathers the three **independent** `calibration.jsonl` files and validates them separately. Run from a complete repository copy:
 
@@ -32,22 +32,19 @@ This reports pairwise agreement and Cohen's kappa for core fields, plus a disagr
 
 Use `docs/DECISIONS.md` to record the actual rule decision, date, people, version, and cases requiring re-annotation. Initial 1.0.0 is a proposed starting version, not falsely described as already team-approved. Once the team agrees, record that freeze. Any later rule change must identify affected records and how they will be reviewed again.
 
-## Sunday pilot and ring review
+## Shared rounds: A, compare A, then B and C
 
-After the rules freeze, annotate `batches/<your batch>/SUNDAY_PILOT.md` as `<your batch>_pilot`, using the same schema. These five cases are in your assignment and do not overlap calibration or the other pilot sets. Save `pilot.jsonl` and validate it against `SUNDAY_PILOT.expected.json`.
+All three people annotate the same full round independently. Start with A (169), compare and review A, then repeat for B (169) and C (168). Use the same codebook version and exact batch manifest, but separate conversations and reviewer folders. No partition rotation or exclusive owner is used.
 
-Cross-review: **A reviews B, B reviews C, C reviews A.** Each ZIP includes the other pilot inputs. Reviewers first read the five target opinions and write independent eligibility/outcome notes without viewing the target's output. Then compare the draft and verify supporting quotations, factual fields and discussed legal issues. Save a review note and a corrected copy, never overwrite the original submission. Clearly distinguish confirmed facts, unresolved items, and changes.
+- Work in `batches/A/chunks/`, at most five cases per input. Save selected outputs in `submissions/<reviewer_id>/batches/A/chunks/` and original responses in that round's `drafts/` folder.
+- Validate each chunk and merge selected outputs using `batches/A/manifest.json`. Do not mix historical drafts or validation reports into the merge.
+- Freeze each person's `annotations.jsonl` before opening peer answers. Preserve the source/codebook version and a file hash or Git commit.
+- Once all three A submissions are complete and valid, use the comparison command in [DELIVERABLES.md](DELIVERABLES.md), review disagreements and sample unanimous inclusion/exclusion decisions. Record actual human decisions and unresolved items.
+- Write one consolidated A record per case; do not merge three overlapping reviewers' records into a case dataset. Then continue to B and C.
+- If a rule changes, document its version, the training evidence supporting the change and affected prior cases. Do not tune the prompt using held-out evaluation cases.
+- Existing calibration/optional pilot records can count within their manifest round. Keep each ID once, reuse only your own work under compatible rules, and record prior exposure to shared answers. Shared calibration is development data and should be reported separately from fresh independent agreement.
 
-Do not mark a record human_reviewed merely because the model checked its own output. Actual human review and the person's name are required. If only the core labels were checked, keep the overall record llm_draft and describe the limited human check in the review notes until the rest is checked.
-
-## Production after the meeting
-
-- Use your assigned `batches/A|B|C/chunks/*.md` files and matching `.expected.json` files. A person may finish earlier training-only chunks after calibration if the team agrees, but keep evaluation labels separate from prompt tuning.
-- Start with five cases per response; split further if output is truncated. Preserve original case IDs and the parent chunk ID. If using one-case outputs, merge the selected five files against that chunk's expected manifest.
-- Do not upload all 169 opinions and ask the assistant to “do everything.” Require explicit full-text reading, case-by-case output, and a checkpoint after each chunk.
-- Reuse prior approved pilot/calibration records for those primary IDs only after checking the codebook version. Mark the actual original input_chunk_id; do not fabricate a new run. Never include duplicate copies of the same case in final batch files.
-- If the instructions change, record a new prompt version and re-annotate affected cases; do not silently mix versions.
-- Keep a local progress file listing completed chunk IDs, pending IDs, validation failures and unresolved questions. A new chat must resume from saved files, not from a claim that it remembers a previous session.
+`SUNDAY_PILOT.md` is optional practice material retained for convenience, not a required five-case/ring-review stage. A smaller MVP may use the reviewed eligible subset of A if time is tight; see the README for evaluation limitations. No human review is implied by three LLM runs.
 
 ## Resuming / troubleshooting
 

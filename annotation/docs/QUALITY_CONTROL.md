@@ -14,11 +14,15 @@ Discuss disagreement about private control, nonfall accidents, procedural-only d
 
 Record pairwise agreement/kappa as a small-sample diagnostic. A null kappa can occur when expected chance agreement is one; it is not zero agreement. Twelve mostly easy provisional cases cannot establish corpus-wide accuracy or exclusion recall. The calibration set is development data and must never be described as a held-out evaluation of annotation quality.
 
-## Sunday pilot review
+## Three independent passes per shared round
 
-A reviews B; B reviews C; C reviews A. The second person first reads the source without the primary output and records eligibility/outcome. Then check the primary's full annotations and quotes. Explain changes in an adjudication note. Five pilot cases per batch is a workflow check, not enough to certify the entire batch.
+Everyone annotates all of A before comparing A; repeat for B and C. Keep reviewers' original outputs separately and freeze them before reading each other's answers. Clearly identify calibration/pilot cases whose answers were previously discussed; they are not fresh blind examples.
 
-If a material rule changes after the pilot, increment the prompt/codebook version and review affected training records before production. Do not use validation/test case inspection to tune the annotation prompt. Individual evaluation-label adjudication may happen under frozen rules, but prompt changes belong to training examples.
+Compare eligibility and whole/per-order outcomes, then facts, legal issues, evidence and uncertainty. Read source passages to resolve disagreements and save one consolidated record per case with a decision log. Unanimity or majority agreement does not automatically create gold labels.
+
+In addition to every disagreement, manually audit a seeded random sample of unanimous inclusions and unanimous exclusions separately (suggested starting point: 10% of each nonempty group, rounding up). Retain the sampling seed, fixed input hashes, selected IDs and denominators. This two-stratum check is additional to the accepted-training audit below; reuse overlapping reviewed cases with a clear log rather than double-counting them. Unresolved cases remain review and stay outside the binary modeling set.
+
+If a material rule changes, record the codebook/prompt version and recheck affected earlier cases. Rules must be developed from calibration/training evidence; held-out labels can be adjudicated under frozen rules, not used to tune the annotation prompt. Small-sample agreement estimates should not be presented as annotation accuracy.
 
 ## Production review
 

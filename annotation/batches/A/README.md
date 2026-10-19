@@ -1,5 +1,7 @@
-# Batch A
+# Shared round A
 
-Suggested owner: Yinkui. Primary cases: 169.
+All three teammates independently annotate these 169 cases. Work in order A, compare A, then B, compare B, then C and compare C. This package is not owned by a single reviewer.
 
-Start with ../../README.md. First complete the shared calibration inputs in ../../calibration/. After the team freezes rules, use SUNDAY_PILOT.md. Production chunks are in chunks/; each has an expected-ID JSON file. Shared calibration/pilot cases are already included in your primary manifest if assigned to you; include each primary ID only once in the final output.
+Start with [the teammate README](../../README.md). Use the 34 files in `chunks/` and their expected-ID manifests. Each person saves outputs in `submissions/<reviewer_id>/batches/A/`; finish and freeze independent answers before viewing peers' outputs. Use `manifest.json` for exact round coverage, including excluded and unresolved cases.
+
+Shared calibration and optional `SUNDAY_PILOT.md` records are already part of the original 506. Reuse your own earlier work only when the current rules still apply, track prior exposure to shared answers, and include each manifest ID once.

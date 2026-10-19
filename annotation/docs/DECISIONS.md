@@ -4,7 +4,7 @@ Initial package date: October 16, 2026. Initial schema and prompt: 1.0.0.
 
 **Status: prepared for calibration; team freeze has NOT happened yet.** No human annotation or consensus is claimed by the package builder.
 
-Suggested batch ownership: A Yinkui, B Becca, C Hyun Sang. Record any swaps before production.
+Workflow decision authorized October 18: all three teammates independently annotate A, compare A, then repeat B and C. A/B/C are shared rounds, not exclusive owners. A reviewed A-only subset can support a smaller MVP if time is tight, subject to usable counts and evaluation limits. This workflow decision does not freeze substantive labeling rules or adjudicate any case.
 
 For each actual decision, record:
 

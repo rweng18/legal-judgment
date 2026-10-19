@@ -1,32 +1,44 @@
 # legal-judgment
-NYU Tandon Machine Learning Final Project
 
-# Team 11 — NY case annotation package
+NYU Tandon Machine Learning Final Project — 506 provisional New York slip/trip-and-fall opinions.
 
-Start with **[the teammate README](annotation/README.md)**. This is the data-mining and annotation phase for 506 provisional New York slip/trip-and-fall opinions.
+## Current plan: everyone does A, then B, then C
 
-## Where we are
+All three teammates independently annotate the **same batch**, then compare before moving on. The batches are rounds, not exclusive assignments to people.
 
-As of October 18, Becca's calibration files are on `main`, and Yinkui's 12-case assistant draft and comparison are in [PR #3](https://github.com/rweng18/legal-judgment/pull/3). Both structured submissions are LLM drafts. They agree on all 12 appellate outcomes, but on include/exclude/review for only 7/12 cases. Hyun Sang's calibration was not found during the latest check. No shared rule freeze or completed human adjudication is claimed.
+| Round | Each person annotates | Then we do together |
+|---|---:|---|
+| A — start here | 169 cases | Compare all three submissions, review disagreements and audit agreement |
+| B | 169 cases | Repeat the comparison and review |
+| C | 168 cases | Repeat, then consolidate all 506 case decisions |
 
-**If you have not finished your independent calibration, save your own answers before opening anyone else's submission or the comparison report.**
+At full completion, each person has covered all 506 cases: 1,518 individual annotation records, consolidated into at most 506 unique case decisions. Cases marked exclude or review stay in the records with reasons; the usable binary dataset will be smaller.
 
-## What we can do next
+Start with [the teammate README](annotation/README.md). Everyone downloads [batch A](annotation/downloads/batch_A.zip) first, works in their own reviewer folder, and saves their independent answers before opening other people's outputs. Continue in small chunks; do not ask an LLM to process all 169 in one response.
 
-1. **Finish the independent set.** Hyun Sang can submit the same 12 cases when ready. Yinkui still needs actual human review; the assistant's notes are not human annotations.
-2. **Discuss the disagreements together.** After saving independent answers, read the [comparison report](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md). The main questions are what evidence establishes private premises, how to handle step-off falls, and how to count appealed orders. Review the documented validation/provenance fixes too.
-3. **Agree on a shared rule version.** Record actual decisions in [DECISIONS.md](annotation/docs/DECISIONS.md), preserve original drafts, and validate revised copies. Once all three submissions are available and valid, run the three-way comparison.
-4. **Try five pilot cases each.** With the rules agreed, use your batch's `SUNDAY_PILOT.md` and cross-review A → B, B → C, C → A. The filename is just a label; this can happen after Monday's discussion. Then decide whether the workflow is ready for the remaining batches.
+## Next steps
 
-Monday can focus on these questions and a manageable pace for the remaining work. There is no need to finish every pending item before the meeting.
+1. Agree on the starting codebook using the calibration questions. Existing calibration work can be reused within its actual batch where the rules still apply; record prior exposure to shared answers.
+2. Everyone completes A independently, including eligibility, outcome, facts, issues and evidence. Validate and freeze the three original submissions.
+3. Compare A, resolve disagreements with source evidence, and audit a random sample of unanimous inclusions **and exclusions**. Three LLM runs can share mistakes; agreement is not human gold.
+4. Record actual decisions and any rule changes, then repeat for B and C. Recheck earlier affected cases if rules change. Avoid tuning rules using held-out evaluation cases.
 
-## Packages and instructions
+The previous one-person-per-batch assignment and five-case ring-review plan are superseded. The five-case pilot packets remain optional practice inputs, not an extra required stage.
 
-- [Batch A download](annotation/downloads/batch_A.zip): 169 primary cases.
-- [Batch B download](annotation/downloads/batch_B.zip): 169 primary cases.
-- [Batch C download](annotation/downloads/batch_C.zip): 168 primary cases.
-- [Detailed codebook](annotation/docs/CODEBOOK.md)
-- [Weekend timeline](annotation/docs/TIMELINE.md): suggested Saturday/Sunday preparation for our Monday discussion.
+## Smaller MVP if time is tight
 
-The packages contain source texts, assignments, instructions, schemas, and offline validation tools. Teammate calibration answers and previous automated outcome labels are omitted from the batch inputs. Human-reviewed labels and classifier results are still pending.
+A reviewed **batch A (169 candidate cases, approximately 170)** can be the MVP starting pool. This does not promise 169 eligible examples: report the actual retained count, exclusions, unresolved cases and class counts after review. Do not relax eligibility to hit a target size.
 
+Compare TF-IDF + logistic regression, TF-IDF + linear SVM, and frozen LEGAL-BERT features + a linear classifier on the same reviewed cases and splits when feasible. Report **accuracy, balanced accuracy, macro F1, a confusion matrix and class counts**, plus split sizes and text-length/truncation statistics. Inspect class counts after filtering before choosing an evaluation design; a small test set may only support exploratory conclusions. A/B/C are not train/validation/test splits. The detailed README explains the smaller-MVP checks.
+
+We can discuss progress and open questions on Monday and agree on a manageable pace. No Friday work, exact-hour deadlines or requirement to finish A before Monday is implied.
+
+## Downloads and references
+
+- [Batch A — 169 cases](annotation/downloads/batch_A.zip)
+- [Batch B — 169 cases](annotation/downloads/batch_B.zip)
+- [Batch C — 168 cases](annotation/downloads/batch_C.zip)
+- [Codebook](annotation/docs/CODEBOOK.md) · [Deliverables and commands](annotation/docs/DELIVERABLES.md) · [Flexible timeline](annotation/docs/TIMELINE.md)
+- [Earlier calibration comparison](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md) — read only after saving your independent calibration answers; the historical two-person report is not batch-A completion.
+
+Workflow updated October 18, 2026. This update changes the annotation plan, not the substantive codebook or the status of any existing draft. No completed batch-wide comparison, human-gold dataset or classifier results are claimed.
