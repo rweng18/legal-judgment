@@ -1,5 +1,7 @@
 # Suggested weekend plan
 
+**October 18 update:** two LLM calibration submissions have been compared; the third and human adjudication are still pending. See [current status and next steps](../README.md). Monday can be used to resolve the scope questions, with the five-case pilot afterward if needed. `SUNDAY_PILOT.md` is a packet name, not a deadline.
+
 We’ll start on Saturday, with Friday left free. The idea is to get familiar with the workflow and have useful examples to discuss on Monday, at a pace that works for everyone.
 
 | When | Suggested focus |

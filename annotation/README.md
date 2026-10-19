@@ -2,6 +2,27 @@
 
 We’ll use Saturday and Sunday to try the annotation workflow and bring what we learn to our Monday meeting. The shared calibration comes first, followed by a small pilot and teammate review as time allows. The full 506-case annotation will continue after we agree on the rules and workload.
 
+## Current status and next steps — October 18
+
+Becca's 12 calibration outputs are on `main`; Yinkui's 12-case assistant draft and comparison are available in [PR #3](https://github.com/rweng18/legal-judgment/pull/3). The two LLM drafts agree on all 12 appellate dispositions, but on include/exclude/review for 7/12 cases. This is annotation agreement, not model accuracy. Hyun Sang's submission was not found in the latest repository check, and the team has not yet frozen the rules.
+
+**Before reading other people's answers:** finish and save your own independent calibration first. If you already saw the comparison, note that exposure; do not describe a later attempt as fully independent. An assistant can draft annotations, but it cannot produce independent human notes on your behalf.
+
+| Next step | What would help |
+|---|---|
+| Complete the independent inputs | Hyun Sang submits the same 12 cases when ready. Yinkui reviews the assistant draft as a human and records that review honestly; reading a draft first cannot be called a blind human pass. |
+| Discuss the evidence | After saving your own answers, use the [comparison report](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md). Agree what supports private-property status, whether step-off/trench falls fit our scope, and whether an entry represents an appealed order or an individual motion. |
+| Resolve technical and provenance issues | Review the proposed null-label consistency correction; confirm actual prompt versions and reviewer IDs; reconcile submitted notes with LLM outputs. Keep originals and save changes as separate versions with `supersedes` and review notes. Do not invent missing metadata. |
+| Record agreed rules and compare again | Record real team decisions in [DECISIONS.md](docs/DECISIONS.md). Update/version the codebook and prompt if their rules change, recheck affected calibration records, and validate each person's complete output before the three-way comparison. |
+| Try the pilot and cross-review | After agreeing on the rules, each person annotates their five-case `SUNDAY_PILOT.md`; A reviews B, B reviews C, and C reviews A. Reviewers read the opinions independently before viewing the pilot answers. The filename does not set a deadline. |
+| Decide how to continue | Discuss pilot errors and workload, then agree on a pace for primary batches. Preserve excluded/review cases in outputs rather than dropping them. |
+
+For Monday, we can focus on the questions above and carry unfinished items forward. Starting the full batches makes more sense once the team has agreed on the rules and reviewed the small pilot.
+
+The [two-person report](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md) preserves a validation error in a peer record and separates proposed corrections from actual edits. It does not replace the later three-way check. The existing `scripts/compare_calibration.py` expects exactly three valid, complete submissions; wait for the third rather than duplicating an input. Follow [CHATGPT_WORKFLOW.md](docs/CHATGPT_WORKFLOW.md) for the merge, validation and comparison commands.
+
+For the later study, retain class counts and the reviewed reference labels needed for accuracy, balanced accuracy, macro F1 and a confusion matrix. None of those classifier metrics is established by the current calibration agreement.
+
 ## 1. Pick up your package
 
 Suggested ownership (the team can swap whole batches and record the change):
