@@ -1,0 +1,1175 @@
+{
+  "generated_at": "2026-10-19T01:19:28.728576+00:00",
+  "cases": 12,
+  "available_submissions": [
+    "yinkui",
+    "becca"
+  ],
+  "missing_submission": "hyunsang",
+  "remote_main_commit": "20fee87523cfc44af6f27cd63007c6d9213c0f85",
+  "independent_draft_commit": "b94ae3c",
+  "input_hashes": {
+    "submissions/yinkui/calibration.jsonl": "023fed731fe3b8236cc2b09af712081127ed1cd4f303316062266c38aaa1171f",
+    "submissions/becca/CAL_001.json": "0984933f703e5a336aac2194b4223161f16d44c702569765f6be40b62923cfad",
+    "submissions/becca/CAL_002.json": "d2881d5b806cc8c16eb99d0ceaf2d5fff9a1b14b5298717e32bdc3034e029ab9",
+    "submissions/becca/CAL_003.json": "1aef822c17f80d804a60716a93dfc602415186931f796ecbe46b4dd0d48092f0",
+    "submissions/becca/independent_calibration_notes.md": "e6f37b8de737d6b22f9fd5759baadc6eac8263bee5bef5e64e7d764b5942e707"
+  },
+  "source_and_codebook_match_frozen_inputs": true,
+  "independent_outputs_unchanged": true,
+  "validation": {
+    "yinkui": {
+      "passed": true,
+      "errors": []
+    },
+    "becca": {
+      "passed": false,
+      "errors": [
+        "NY-4795834: Excluded/review cases must have null binary label"
+      ]
+    }
+  },
+  "counts": {
+    "yinkui": {
+      "binary_task": {
+        "include": 7,
+        "exclude": 1,
+        "review": 4
+      },
+      "appellate_disposition": {
+        "reversed": 3,
+        "affirmed": 9
+      },
+      "included_binary_labels": {
+        "1": 3,
+        "0": 4
+      }
+    },
+    "becca": {
+      "binary_task": {
+        "include": 8,
+        "exclude": 1,
+        "review": 3
+      },
+      "appellate_disposition": {
+        "reversed": 3,
+        "affirmed": 9
+      },
+      "included_binary_labels": {
+        "1": 2,
+        "0": 6
+      }
+    }
+  },
+  "raw_core_field_agreement": {
+    "eligibility.scope": {
+      "n": 12,
+      "agree": 7,
+      "agreement": 0.5833333333333334,
+      "cohen_kappa": 0.20000000000000007,
+      "labels": [
+        "in_scope",
+        "out_of_scope",
+        "uncertain"
+      ],
+      "counts": {
+        "yinkui": {
+          "\"in_scope\"": 7,
+          "\"out_of_scope\"": 1,
+          "\"uncertain\"": 4
+        },
+        "becca": {
+          "\"in_scope\"": 8,
+          "\"out_of_scope\"": 1,
+          "\"uncertain\"": 3
+        }
+      },
+      "cross_tab_rows_yinkui_columns_becca": [
+        [
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "eligibility.property_status": {
+      "n": 12,
+      "agree": 8,
+      "agreement": 0.6666666666666666,
+      "cohen_kappa": 0.24999999999999986,
+      "labels": [
+        "private",
+        "public",
+        "unclear"
+      ],
+      "counts": {
+        "yinkui": {
+          "\"private\"": 8,
+          "\"public\"": 0,
+          "\"unclear\"": 4
+        },
+        "becca": {
+          "\"private\"": 9,
+          "\"public\"": 1,
+          "\"unclear\"": 2
+        }
+      },
+      "cross_tab_rows_yinkui_columns_becca": [
+        [
+          7,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "eligibility.binary_task": {
+      "n": 12,
+      "agree": 7,
+      "agreement": 0.5833333333333334,
+      "cohen_kappa": 0.20000000000000007,
+      "labels": [
+        "exclude",
+        "include",
+        "review"
+      ],
+      "counts": {
+        "yinkui": {
+          "\"exclude\"": 1,
+          "\"include\"": 7,
+          "\"review\"": 4
+        },
+        "becca": {
+          "\"exclude\"": 1,
+          "\"include\"": 8,
+          "\"review\"": 3
+        }
+      },
+      "cross_tab_rows_yinkui_columns_becca": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ]
+    },
+    "outcome.appellate_disposition": {
+      "n": 12,
+      "agree": 12,
+      "agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "labels": [
+        "affirmed",
+        "reversed"
+      ],
+      "counts": {
+        "yinkui": {
+          "\"affirmed\"": 9,
+          "\"reversed\"": 3
+        },
+        "becca": {
+          "\"affirmed\"": 9,
+          "\"reversed\"": 3
+        }
+      },
+      "cross_tab_rows_yinkui_columns_becca": [
+        [
+          9,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "outcome.binary_label": {
+      "n": 12,
+      "agree": 8,
+      "agreement": 0.6666666666666666,
+      "cohen_kappa": 0.4947368421052631,
+      "labels": [
+        0,
+        1,
+        null
+      ],
+      "counts": {
+        "yinkui": {
+          "0": 4,
+          "1": 3,
+          "null": 5
+        },
+        "becca": {
+          "0": 7,
+          "1": 2,
+          "null": 3
+        }
+      },
+      "cross_tab_rows_yinkui_columns_becca": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "core_disagreements": [
+    {
+      "case_id": "NY-5992200",
+      "differences": {
+        "eligibility.scope": {
+          "yinkui": "uncertain",
+          "becca": "out_of_scope"
+        },
+        "eligibility.property_status": {
+          "yinkui": "unclear",
+          "becca": "public"
+        },
+        "eligibility.binary_task": {
+          "yinkui": "review",
+          "becca": "exclude"
+        }
+      }
+    },
+    {
+      "case_id": "NY-2993705",
+      "differences": {
+        "eligibility.scope": {
+          "yinkui": "out_of_scope",
+          "becca": "uncertain"
+        },
+        "eligibility.binary_task": {
+          "yinkui": "exclude",
+          "becca": "review"
+        }
+      }
+    },
+    {
+      "case_id": "NY-3193933",
+      "differences": {
+        "eligibility.scope": {
+          "yinkui": "uncertain",
+          "becca": "in_scope"
+        },
+        "eligibility.property_status": {
+          "yinkui": "unclear",
+          "becca": "private"
+        },
+        "eligibility.binary_task": {
+          "yinkui": "review",
+          "becca": "include"
+        },
+        "outcome.binary_label": {
+          "yinkui": null,
+          "becca": 0
+        }
+      }
+    },
+    {
+      "case_id": "NY-4551400",
+      "differences": {
+        "eligibility.scope": {
+          "yinkui": "in_scope",
+          "becca": "uncertain"
+        },
+        "eligibility.property_status": {
+          "yinkui": "private",
+          "becca": "unclear"
+        },
+        "eligibility.binary_task": {
+          "yinkui": "include",
+          "becca": "review"
+        },
+        "outcome.binary_label": {
+          "yinkui": 1,
+          "becca": null
+        }
+      }
+    },
+    {
+      "case_id": "NY-4795834",
+      "differences": {
+        "outcome.binary_label": {
+          "yinkui": null,
+          "becca": 0
+        }
+      }
+    },
+    {
+      "case_id": "NY-4840329",
+      "differences": {
+        "eligibility.scope": {
+          "yinkui": "uncertain",
+          "becca": "in_scope"
+        },
+        "eligibility.property_status": {
+          "yinkui": "unclear",
+          "becca": "private"
+        },
+        "eligibility.binary_task": {
+          "yinkui": "review",
+          "becca": "include"
+        },
+        "outcome.binary_label": {
+          "yinkui": null,
+          "becca": 0
+        }
+      }
+    }
+  ],
+  "cases_table": [
+    {
+      "case_id": "NY-5960096",
+      "case_name": "Freiser v. Stop & Shop Supermarket Co.",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "reversed",
+        "outcome.binary_label": 1
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "reversed",
+        "outcome.binary_label": 1
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-4310325",
+      "case_name": "JEWETT, VICKI v. M.D. FRITZ, INC.",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-5992200",
+      "case_name": "Rodriguez v. Themelion Realty Corp.",
+      "yinkui": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "unclear",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca": {
+        "eligibility.scope": "out_of_scope",
+        "eligibility.property_status": "public",
+        "eligibility.binary_task": "exclude",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-4308801",
+      "case_name": "GERMAIN, BARBARA v. KOHL'S CORPORATION",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-2993705",
+      "case_name": "Richardson v. Brooklake Associates, L.P.",
+      "yinkui": {
+        "eligibility.scope": "out_of_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "exclude",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-2757329",
+      "case_name": "Heck v. Regula",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "reversed",
+        "outcome.binary_label": 1
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "reversed",
+        "outcome.binary_label": 1
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-3206955",
+      "case_name": "Ackerman v. Iskhakov",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-3193933",
+      "case_name": "Maldonado v. 2121 Shore Condominium",
+      "yinkui": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "unclear",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-4546774",
+      "case_name": "Nieves v. Pennsylvania, LLC",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-4551400",
+      "case_name": "Troina v. Canyon Donuts Jericho Turnpike, Inc.",
+      "yinkui": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "reversed",
+        "outcome.binary_label": 1
+      },
+      "becca": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "unclear",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "reversed",
+        "outcome.binary_label": null
+      },
+      "becca_record_valid": true
+    },
+    {
+      "case_id": "NY-4795834",
+      "case_name": "Verges v. Concourse Residential Hotel, Inc.",
+      "yinkui": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "unclear",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "unclear",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": false
+    },
+    {
+      "case_id": "NY-4840329",
+      "case_name": "Gartenberg v. Supreme Co. I LLC",
+      "yinkui": {
+        "eligibility.scope": "uncertain",
+        "eligibility.property_status": "unclear",
+        "eligibility.binary_task": "review",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": null
+      },
+      "becca": {
+        "eligibility.scope": "in_scope",
+        "eligibility.property_status": "private",
+        "eligibility.binary_task": "include",
+        "outcome.appellate_disposition": "affirmed",
+        "outcome.binary_label": 0
+      },
+      "becca_record_valid": true
+    }
+  ],
+  "valid_record_binary_label_agreement": {
+    "n": 11,
+    "agree": 8,
+    "agreement": 0.7272727272727273,
+    "cohen_kappa": 0.5822784810126582,
+    "labels": [
+      0,
+      1,
+      null
+    ],
+    "counts": {
+      "yinkui": {
+        "0": 4,
+        "1": 3,
+        "null": 4
+      },
+      "becca": {
+        "0": 6,
+        "1": 2,
+        "null": 3
+      }
+    },
+    "cross_tab_rows_yinkui_columns_becca": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ]
+    ]
+  },
+  "valid_record_case_ids": [
+    "NY-5960096",
+    "NY-4310325",
+    "NY-5992200",
+    "NY-4308801",
+    "NY-2993705",
+    "NY-2757329",
+    "NY-3206955",
+    "NY-3193933",
+    "NY-4546774",
+    "NY-4551400",
+    "NY-4840329"
+  ],
+  "common_included_case_ids": [
+    "NY-5960096",
+    "NY-4310325",
+    "NY-4308801",
+    "NY-2757329",
+    "NY-3206955",
+    "NY-4546774"
+  ],
+  "common_included_binary_agreement": {
+    "n": 6,
+    "agree": 6,
+    "agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "labels": [
+      0,
+      1
+    ],
+    "counts": {
+      "yinkui": {
+        "0": 4,
+        "1": 2
+      },
+      "becca": {
+        "0": 4,
+        "1": 2
+      }
+    },
+    "cross_tab_rows_yinkui_columns_becca": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "legal_issue_discussion_agreement": {
+    "n": 228,
+    "agree": 217,
+    "agreement": 0.9517543859649122,
+    "cohen_kappa": 0.8560688665710185,
+    "labels": [
+      "court_addressed",
+      "not_discussed",
+      "raised_only"
+    ],
+    "counts": {
+      "yinkui": {
+        "\"court_addressed\"": 39,
+        "\"not_discussed\"": 185,
+        "\"raised_only\"": 4
+      },
+      "becca": {
+        "\"court_addressed\"": 46,
+        "\"not_discussed\"": 177,
+        "\"raised_only\"": 5
+      }
+    },
+    "cross_tab_rows_yinkui_columns_becca": [
+      [
+        38,
+        0,
+        1
+      ],
+      [
+        8,
+        176,
+        1
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ]
+  },
+  "extra_feature_disagreements": [
+    {
+      "case_id": "NY-5960096",
+      "differences": {
+        "facts.location": {
+          "yinkui": "indoor_floor",
+          "becca": "entrance"
+        }
+      }
+    },
+    {
+      "case_id": "NY-4310325",
+      "differences": {
+        "outcome.multiple_orders": {
+          "yinkui": false,
+          "becca": true
+        },
+        "facts.hazards": {
+          "yinkui": [
+            "snow_ice",
+            "water"
+          ],
+          "becca": [
+            "snow_ice"
+          ]
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Summary judgment rulings affirmed; ambiguity concerning indemnification lease terms remains for factfinder.",
+            "evidence_ids": [
+              "E007",
+              "E008",
+              "E009"
+            ]
+          }
+        },
+        "evidence_discussed.types": {
+          "yinkui": [
+            "other"
+          ],
+          "becca": []
+        },
+        "outcome.order_appellant_roles": {
+          "yinkui": [
+            "both"
+          ],
+          "becca": [
+            "defendant",
+            "defendant",
+            "plaintiff"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "NY-5992200",
+      "differences": {
+        "eligibility.property_basis": {
+          "yinkui": "insufficient",
+          "becca": "other"
+        },
+        "facts.premises_type": {
+          "yinkui": "unclear",
+          "becca": "other"
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Summary judgment for Themelion defendants affirmed on limited appeal.",
+            "evidence_ids": [
+              "E004",
+              "E001",
+              "E006",
+              "E007"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case_id": "NY-4308801",
+      "differences": {
+        "legal_issues.creation_of_hazard": {
+          "yinkui": {
+            "topic": "creation_of_hazard",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "creation_of_hazard",
+            "discussion": "court_addressed",
+            "finding": "Court described the condition as the junction of two duct-taped rugs, without making a separate negligence finding for creation.",
+            "evidence_ids": [
+              "E004",
+              "E005"
+            ]
+          }
+        },
+        "legal_issues.open_and_obvious": {
+          "yinkui": {
+            "topic": "open_and_obvious",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "open_and_obvious",
+            "discussion": "raised_only",
+            "finding": "Visibility circumstances discussed in plaintiff testimony; court did not separately decide an open-and-obvious defense.",
+            "evidence_ids": [
+              "E010"
+            ]
+          }
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Court affirmed defense summary judgment dismissing complaint.",
+            "evidence_ids": [
+              "E001",
+              "E013"
+            ]
+          }
+        },
+        "evidence_discussed.types": {
+          "yinkui": [
+            "expert_evidence",
+            "party_testimony",
+            "photographs",
+            "witness_testimony"
+          ],
+          "becca": [
+            "expert_evidence",
+            "party_testimony",
+            "witness_testimony"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "NY-2993705",
+      "differences": {
+        "eligibility.fall_type": {
+          "yinkui": "other_fall",
+          "becca": "unclear"
+        },
+        "facts.hazards": {
+          "yinkui": [
+            "hole",
+            "lighting",
+            "other"
+          ],
+          "becca": [
+            "hole",
+            "lighting",
+            "obstruction"
+          ]
+        },
+        "facts.defendant_roles": {
+          "yinkui": [
+            "manager",
+            "owner"
+          ],
+          "becca": [
+            "manager",
+            "other",
+            "owner"
+          ]
+        },
+        "evidence_discussed.types": {
+          "yinkui": [
+            "other"
+          ],
+          "becca": []
+        }
+      }
+    },
+    {
+      "case_id": "NY-3206955",
+      "differences": {
+        "eligibility.property_basis": {
+          "yinkui": "controlled",
+          "becca": "other"
+        },
+        "facts.defendant_roles": {
+          "yinkui": [
+            "other"
+          ],
+          "becca": [
+            "owner"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "NY-3193933",
+      "differences": {
+        "eligibility.property_basis": {
+          "yinkui": "insufficient",
+          "becca": "other"
+        },
+        "facts.hazards": {
+          "yinkui": [
+            "hole",
+            "uneven_surface"
+          ],
+          "becca": [
+            "hole",
+            "obstruction",
+            "uneven_surface"
+          ]
+        },
+        "facts.injured_role": {
+          "yinkui": "unclear",
+          "becca": "guest"
+        },
+        "facts.defendant_roles": {
+          "yinkui": [
+            "contractor"
+          ],
+          "becca": [
+            "contractor",
+            "other"
+          ]
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Because the movant failed its initial summary judgment burden, the court did not reach plaintiff’s opposition or the remaining contention.",
+            "evidence_ids": [
+              "E010",
+              "E011"
+            ]
+          }
+        },
+        "legal_issues.other": {
+          "yinkui": {
+            "topic": "other",
+            "discussion": "raised_only",
+            "finding": "Appellant remaining contention was not addressed and its subject is unspecified in the opinion.",
+            "evidence_ids": [
+              "E006"
+            ]
+          },
+          "becca": {
+            "topic": "other",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          }
+        }
+      }
+    },
+    {
+      "case_id": "NY-4546774",
+      "differences": {
+        "facts.injured_role": {
+          "yinkui": "unclear",
+          "becca": "visitor"
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Defense summary judgment denied because defendant failed its initial burden, regardless of opposition.",
+            "evidence_ids": [
+              "E008",
+              "E009"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case_id": "NY-4551400",
+      "differences": {
+        "eligibility.property_basis": {
+          "yinkui": "controlled",
+          "becca": "insufficient"
+        },
+        "facts.defendant_roles": {
+          "yinkui": [
+            "other"
+          ],
+          "becca": [
+            "unclear"
+          ]
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Defendants failed their prima facie summary judgment burden; opposition sufficiency not reached.",
+            "evidence_ids": [
+              "E007"
+            ]
+          }
+        },
+        "evidence_discussed.types": {
+          "yinkui": [],
+          "becca": [
+            "inspection_records"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "NY-4795834",
+      "differences": {
+        "facts.defendant_roles": {
+          "yinkui": [
+            "manager"
+          ],
+          "becca": [
+            "unclear"
+          ]
+        },
+        "legal_issues.creation_of_hazard": {
+          "yinkui": {
+            "topic": "creation_of_hazard",
+            "discussion": "court_addressed",
+            "finding": "Plaintiff wife and nonparty testimony supported a triable issue about employees creating the milky substance by dragging garbage bags.",
+            "evidence_ids": [
+              "E006"
+            ]
+          },
+          "becca": {
+            "topic": "creation_of_hazard",
+            "discussion": "raised_only",
+            "finding": "Plaintiffs alleged employees caused residue by dragging garbage bags; the court found a triable issue rather than established creation.",
+            "evidence_ids": [
+              "E003",
+              "E006"
+            ]
+          }
+        },
+        "evidence_discussed.types": {
+          "yinkui": [
+            "party_testimony",
+            "witness_testimony"
+          ],
+          "becca": [
+            "other",
+            "witness_testimony"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "NY-4840329",
+      "differences": {
+        "eligibility.property_basis": {
+          "yinkui": "insufficient",
+          "becca": "controlled"
+        },
+        "facts.defendant_roles": {
+          "yinkui": [
+            "other"
+          ],
+          "becca": [
+            "tenant"
+          ]
+        },
+        "legal_issues.procedural_issue": {
+          "yinkui": {
+            "topic": "procedural_issue",
+            "discussion": "not_discussed",
+            "finding": "",
+            "evidence_ids": []
+          },
+          "becca": {
+            "topic": "procedural_issue",
+            "discussion": "court_addressed",
+            "finding": "Credibility and other triable issues supported affirmance of denial of summary judgment.",
+            "evidence_ids": [
+              "E003",
+              "E004",
+              "E008"
+            ]
+          }
+        },
+        "evidence_discussed.types": {
+          "yinkui": [
+            "expert_evidence",
+            "party_testimony",
+            "witness_testimony"
+          ],
+          "becca": [
+            "expert_evidence",
+            "inspection_records",
+            "party_testimony",
+            "witness_testimony"
+          ]
+        },
+        "outcome.order_appellant_roles": {
+          "yinkui": [
+            "both"
+          ],
+          "becca": [
+            "defendant"
+          ]
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Raw statistics retain the invalid Verges binary label; valid-record statistics explicitly omit that entire peer record.",
+    "Null is a non-inclusion category in raw binary-label agreement, not a third predictive target.",
+    "Both structured submissions are LLM drafts, not independent human gold. Agreement is not classifier accuracy.",
+    "Two of three teammate submissions available; no fabricated third submission, accuracy, balanced accuracy, macro F1, or majority-vote gold.",
+    "Legal-issue agreement pools 228 correlated case-topic entries and is dominated by not_discussed; it is a descriptive diagnostic only."
+  ]
+}
