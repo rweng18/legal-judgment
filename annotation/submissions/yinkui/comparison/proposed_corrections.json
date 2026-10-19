@@ -1,0 +1,19 @@
+{
+  "applied": false,
+  "human_review_required": true,
+  "changes": [
+    {
+      "source_file": "annotation/submissions/becca/CAL_003.json",
+      "case_id": "NY-4795834",
+      "field": "outcome.binary_label",
+      "original": 0,
+      "proposed": null,
+      "reason": "binary_task=review requires null under codebook; preserve affirmed disposition."
+    }
+  ],
+  "provenance_requests": [
+    "Confirm Becca actual prompt and its version; current files say unspecified_by_team. Do not invent a retroactive version.",
+    "Confirm annotator_id convention; files use GPT-6 rather than becca. Preserve originals and retain model identity separately.",
+    "Review replacement-character encoding in peer narrative fields before final merge. Evidence quote validation still passed."
+  ]
+}
