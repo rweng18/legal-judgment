@@ -1,0 +1,1 @@
+User request: 그럼 Cal_002도 해보자. Scope CAL_002 only; reviewer hyunsang. User previously reported independent notes finished. Human notes/other LLM labels for these cases not supplied or consulted. Read every passage in full. Human review deferred.
