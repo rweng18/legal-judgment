@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All thirty A_001–A_006 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060) and Mermelstein (NY-3176773) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These eight cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572) and Piotrowski (NY-4869542) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All thirty-five A_001–A_007 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773) and Hecht (NY-2715745) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These nine cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562) and Schneider (NY-7855719) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -42,5 +42,15 @@ A_006 review priorities:
 - Piotrowski: the manager described general policies, not a specific pre-fall inspection. The stain's composition and exact accident day are unstated.
 
 Apply frozen rules to the preliminary validation-period cases; do not tune prompts/codebook from them. No A_006 review entry represents an actual human decision.
+
+A_007 review priorities:
+
+- Hecht: assess ownership/control/private status of the actual exterior step. The owner identified in the source owned the abutting premises; the executrix is not assumed to own anything personally.
+- Rakovsky (NY-4551411): preserve the burden sequence. Defendants established a prima facie no-defect showing, but plaintiff raised a triable issue; code violation and causation were not conclusively established.
+- Hunt: the video neither confirmed nor contradicted the specific inspection account. Do not turn the underlying motion's creation/actual-notice assertions into separately decided appellate findings.
+- Schneider: one order is independently appealed following renewal; vacatur of an older order is consequential relief. A rejected security-tag allegation does not make the underlying negligence case out of scope.
+- Maus (NY-6055312): retain unknown liquid composition and no inference that the re-shop cart created the spill.
+
+Hunt and Schneider are preliminary validation-period cases. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
