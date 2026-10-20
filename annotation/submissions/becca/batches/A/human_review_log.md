@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All thirty-five A_001–A_007 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773) and Hecht (NY-2715745) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These nine cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562) and Schneider (NY-7855719) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All forty A_001–A_008 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These ten cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900) and Stango (NY-5304378) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -52,5 +52,15 @@ A_007 review priorities:
 - Maus (NY-6055312): retain unknown liquid composition and no inference that the re-shop cart created the spill.
 
 Hunt and Schneider are preliminary validation-period cases. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_008 review priorities:
+
+- Castillo: assess the private status/boundary of the actual exterior entrance. Employee salting and building attribution do not explicitly establish title or the boundary. Preserve conflicting salt/ice testimony without finding negligence.
+- Rodriguez (NY-5935876): interior ownership and management are explicit. Distinguish general rainwater awareness from specific notice; retain the inconsistent leak affidavit and the abbreviated rejection of code/nosing theories without inventing technical findings.
+- Seaberg (NY-5966712): check the procedural-only exclusion against all nine passages. The appellate analysis addresses hearsay, recollection and impeachment, not negligence merits. Preserve the full reversal and new trial; limited impeachment does not establish ice or causation. The source's Fina/Pina name inconsistency is retained.
+- Edwards: preserve the burden sequence: defendants initially established entitlement, but complete transcripts raised factual issues. May 2017 is commencement, not an accident date.
+- Stango: distinguish this substantive summary-judgment analysis from default-only appeals. Maintenance responsibility and constructive notice were expressly addressed. There is one independently appealed order, and residency does not establish tenancy or contractor status.
+
+Edwards and Stango are preliminary validation-period cases. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
