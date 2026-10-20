@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All sixty-five A_001–A_013 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745), Castillo (NY-3165370) and Brown (NY-3171229) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184), Mancini (NY-7857611) and Biro (NY-4430662) remain unresolved on slip/trip mechanism. These thirteen cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698), Castro (NY-9329602) and Drew (NY-9374007) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All seventy A_001–A_014 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745), Castillo (NY-3165370), Brown (NY-3171229) and Ndiaye (NY-2767644) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184), Mancini (NY-7857611) and Biro (NY-4430662) remain unresolved on slip/trip mechanism. These fourteen cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698), Castro (NY-9329602), Drew (NY-9374007) and Kerr-Inniss (NY-10090934) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -112,5 +112,15 @@ A_013 review priorities:
 - Biro (NY-4430662): resolve whether falling when a brick moved constitutes a slip/trip under the unchanged codebook; retain review until resolved. Private ownership and tenant context are explicit. Undisputed knowledge is distinct from the unresolved superseding-cause issue; risk/obviousness defenses were rejected as newly raised, not on their merits.
 
 All five A_013 cases fall in the preliminary training period. These priorities are not completed human reviews, and no rule changes or completed audits are claimed.
+
+A_014 review priorities:
+
+- Kerr-Inniss (NY-10090934): the backyard was not intended for traversal, and obviousness plus lack of inherent danger supported dismissal. Do not infer tenancy, residential use or an assumption-of-risk holding from the setting and plaintiff's prior observation.
+- Ndiaye (NY-2767644): review private status of the actual front steps without inferring it from building attribution or superintendent practices. Distinguish weather-data gaps, video observations and the expert's failure to exclude old ice. The three-hour opportunity and notice remain triable.
+- Gurley (NY-3182111): explicit cooperative ownership supports eligibility. Generic recurring-problem awareness is not notice of the particular water condition. No evidence formats, inspection times or particular leak history are supplied.
+- Rosado (NY-5988927): separate inadmissible hearsay from the firsthand earlier notice account. Cone placement raises notice issues without proving adequate warning or actual knowledge. Preserve unknown liquid type and premises use.
+- Ahmetaj (NY-4606643): the actual breezeway is within the condominium complex and maintained by association staff. Separate prior-day removal/salt entries from uncertain accident-day work. The photograph-prompted account still lacked specific remediation timing; no actual negligence finding follows.
+
+Kerr-Inniss is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
