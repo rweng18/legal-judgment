@@ -1,0 +1,1 @@
+User uploaded annotation.zip; assistant proposed CAL_001 for reviewer hyunsang. After independent-note requirement was explained, user stated: 독립메모 끝났어 보여줘. Assistant read all CAL_001 passages independently, without receiving user notes or prior labels. Scope: CAL_001 only. Model snapshot unobservable. No external case facts or agents used.

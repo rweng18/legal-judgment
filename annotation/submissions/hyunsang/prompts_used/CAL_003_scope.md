@@ -1,0 +1,1 @@
+User: cal_003도 해보자. CAL_003 only, hyunsang. All 12 passages read in full without prior labels or human notes for these cases. User previously reported independent notes complete. Human detailed review deferred.
