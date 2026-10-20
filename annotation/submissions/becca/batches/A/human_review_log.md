@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All sixty A_001–A_012 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698), Castro (NY-9329602) and Drew (NY-9374007) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All sixty-five A_001–A_013 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745), Castillo (NY-3165370) and Brown (NY-3171229) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184), Mancini (NY-7857611) and Biro (NY-4430662) remain unresolved on slip/trip mechanism. These thirteen cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698), Castro (NY-9329602) and Drew (NY-9374007) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -102,5 +102,15 @@ A_012 review priorities:
 - Drew (NY-9374007): retain unknown defect type, dimensions and evidence formats. Generic triviality language and cited cases do not supply these missing facts.
 
 Drew is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_013 review priorities:
+
+- McNally (NY-5985468): preserve original gravel testimony and the errata clarification to broken blacktop. Possible longstanding deterioration and unknown inspection timing do not conclusively establish notice. Kitchen-help and grass-cutting details do not establish restaurant use or grass location.
+- Brown (NY-3171229): review private-property support from building attribution and operational testimony without inferring use/title from the name. This is substantive notice/precautions analysis with spoliation; a specific sanction remained undecided, and the earlier video-production order had no preclusive effect.
+- Meyers (NY-5965071): distinguish general pre-storm ice from the specific fall-area condition and notice. The ramp is at defendant's premises, but no residential use, legal title or weather-proof format is supplied. A cited same-defendant case does not establish a shared incident.
+- Croshier (NY-4768180): explicit ownership supports private group-home premises. General/monthly inspections and a seven-week-old observation did not establish a timely inspection. Plaintiff's work visit does not prove an employment or contractor relationship with defendant.
+- Biro (NY-4430662): resolve whether falling when a brick moved constitutes a slip/trip under the unchanged codebook; retain review until resolved. Private ownership and tenant context are explicit. Undisputed knowledge is distinct from the unresolved superseding-cause issue; risk/obviousness defenses were rejected as newly raised, not on their merits.
+
+All five A_013 cases fall in the preliminary training period. These priorities are not completed human reviews, and no rule changes or completed audits are claimed.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
