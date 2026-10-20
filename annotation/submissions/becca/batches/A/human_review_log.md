@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All fifty-five A_001–A_011 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698) and Castro (NY-9329602) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All sixty A_001–A_012 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698), Castro (NY-9329602) and Drew (NY-9374007) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -92,5 +92,15 @@ A_011 review priorities:
 - Rodriguez (NY-5997418): distinguish actual-case stair defects from details of Babich and Kane. Plaintiff identified the site and the engineer supplied sufficient opposing evidence without numbered code provisions. Medical records are discussed only as competing-cause material, not established facts. The supplied majority controls despite references to a dissent.
 
 Braxton is a preliminary test-period case and Castro a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_012 review priorities:
+
+- De Chica (NY-4421153): distinguish lack of a reasonable post-storm remediation opportunity from a finding that precipitation was still falling. Obviousness eliminated the warning duty; it does not independently establish harmlessness.
+- Reiss (NY-5949815): verify express Ulster County land ownership; the separate fair operator does not establish private property. Both obviousness and lack of inherent danger support the merits ruling; hay creation/causation was speculative. Only the judgment is independently appealed.
+- Milorava (NY-3155846): the operations manager's policy account begins two years after the incident, and neither manager supplied a specific last-inspection time. This is initial-burden failure, not proven notice; do not invent inspection logs.
+- Pizzoli (NY-4777012): check the public school-district building basis, without inferring legal title. The court assumed a possible spoliation error and affirmed independently; no finding validates the sanction. Visual estimate and photographs were insufficient to establish triviality.
+- Drew (NY-9374007): retain unknown defect type, dimensions and evidence formats. Generic triviality language and cited cases do not supply these missing facts.
+
+Drew is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
