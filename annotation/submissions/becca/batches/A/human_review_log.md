@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All fifty A_001–A_010 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378) and Mancini fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All fifty-five A_001–A_011 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698) and Castro (NY-9329602) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -82,5 +82,15 @@ A_010 review priorities:
 - Koepke (NY-6131365): both obviousness and lack of inherent danger supported dismissal. Treat unknown causation as a defense argument, not an independently decided appellate ground, and retain the post-fall nature of the chair observation.
 
 Mancini is a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_011 review priorities:
+
+- Gartenberg (NY-4840329): one order is affirmed in the operative disposition despite cross-appellant roles. Preserve conflicting moisture testimony, missing last-inspection evidence and expert disagreement about tile triviality. Lost profits remain a causation question, not an established award.
+- Braxton (NY-9496698): the meteorologist's report was unsworn and underlying records were absent. Failure to establish a storm defense and noncreation is not proof of notice or creation by snow removal.
+- Castro (NY-9329602): photographs and surveillance did not establish that the low basket beside a cart was obvious and harmless. No finding establishes who placed it, and no independent video viewing is claimed.
+- Marie D. (NY-4495015): church ownership/lease support private premises, but current tenant use is unspecified. Preserve the out-of-possession and inapplicable-code reasoning; constructive notice is hypothetical. This is a negligence appeal, not solely a third-party dispute.
+- Rodriguez (NY-5997418): distinguish actual-case stair defects from details of Babich and Kane. Plaintiff identified the site and the engineer supplied sufficient opposing evidence without numbered code provisions. Medical records are discussed only as competing-cause material, not established facts. The supplied majority controls despite references to a dissent.
+
+Braxton is a preliminary test-period case and Castro a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
