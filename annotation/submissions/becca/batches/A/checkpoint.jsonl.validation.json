@@ -1,13 +1,11 @@
 {
   "passed": true,
-  "records": 70,
+  "records": 75,
   "missing_ids": [
     "NY-10120884",
-    "NY-10128963",
     "NY-10160793",
     "NY-10291100",
     "NY-10309802",
-    "NY-2682947",
     "NY-2686388",
     "NY-2719389",
     "NY-2757329",
@@ -20,7 +18,6 @@
     "NY-3163343",
     "NY-3172633",
     "NY-3200070",
-    "NY-4303491",
     "NY-4304488",
     "NY-4306620",
     "NY-4315793",
@@ -52,7 +49,6 @@
     "NY-4777088",
     "NY-4801155",
     "NY-4835234",
-    "NY-4842524",
     "NY-4847464",
     "NY-4849013",
     "NY-4855524",
@@ -76,7 +72,6 @@
     "NY-6042890",
     "NY-6052809",
     "NY-6061236",
-    "NY-6070911",
     "NY-6079339",
     "NY-6082421",
     "NY-6089099",
@@ -188,7 +183,13 @@
     "NY-2767644: Unresolved review flag",
     "NY-3182111: LLM draft: not human gold",
     "NY-5988927: LLM draft: not human gold",
-    "NY-4606643: LLM draft: not human gold"
+    "NY-4606643: LLM draft: not human gold",
+    "NY-4842524: LLM draft: not human gold",
+    "NY-4842524: Unresolved review flag",
+    "NY-10128963: LLM draft: not human gold",
+    "NY-6070911: LLM draft: not human gold",
+    "NY-4303491: LLM draft: not human gold",
+    "NY-2682947: LLM draft: not human gold"
   ],
   "evidence_offsets": [
     {
@@ -4420,6 +4421,379 @@
           "passage_id": "P002",
           "start": 1700,
           "end": 1919
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4842524",
+      "evidence_offsets": [
+        {
+          "evidence_id": "E001",
+          "passage_id": "P002",
+          "start": 1147,
+          "end": 1586
+        },
+        {
+          "evidence_id": "E002",
+          "passage_id": "P002",
+          "start": 1587,
+          "end": 2006
+        },
+        {
+          "evidence_id": "E003",
+          "passage_id": "P001",
+          "start": 588,
+          "end": 1146
+        },
+        {
+          "evidence_id": "E004",
+          "passage_id": "P003",
+          "start": 2891,
+          "end": 3165
+        },
+        {
+          "evidence_id": "E005",
+          "passage_id": "P003",
+          "start": 3166,
+          "end": 3446
+        },
+        {
+          "evidence_id": "E006",
+          "passage_id": "P004",
+          "start": 3552,
+          "end": 3685
+        },
+        {
+          "evidence_id": "E007",
+          "passage_id": "P003",
+          "start": 2596,
+          "end": 2744
+        },
+        {
+          "evidence_id": "E008",
+          "passage_id": "P004",
+          "start": 3826,
+          "end": 4170
+        }
+      ]
+    },
+    {
+      "case_id": "NY-10128963",
+      "evidence_offsets": [
+        {
+          "evidence_id": "E001",
+          "passage_id": "P002",
+          "start": 982,
+          "end": 1279
+        },
+        {
+          "evidence_id": "E002",
+          "passage_id": "P002",
+          "start": 1280,
+          "end": 1753
+        },
+        {
+          "evidence_id": "E003",
+          "passage_id": "P002",
+          "start": 1754,
+          "end": 1967
+        },
+        {
+          "evidence_id": "E004",
+          "passage_id": "P001",
+          "start": 565,
+          "end": 981
+        },
+        {
+          "evidence_id": "E005",
+          "passage_id": "P003",
+          "start": 2885,
+          "end": 3091
+        },
+        {
+          "evidence_id": "E006",
+          "passage_id": "P004",
+          "start": 3191,
+          "end": 3528
+        },
+        {
+          "evidence_id": "E007",
+          "passage_id": "P004",
+          "start": 3787,
+          "end": 4062
+        },
+        {
+          "evidence_id": "E008",
+          "passage_id": "P004",
+          "start": 4172,
+          "end": 4321
+        },
+        {
+          "evidence_id": "E009",
+          "passage_id": "P005",
+          "start": 4378,
+          "end": 4468
+        },
+        {
+          "evidence_id": "E010",
+          "passage_id": "P005",
+          "start": 4582,
+          "end": 4861
+        },
+        {
+          "evidence_id": "E011",
+          "passage_id": "P005",
+          "start": 4950,
+          "end": 5198
+        }
+      ]
+    },
+    {
+      "case_id": "NY-6070911",
+      "evidence_offsets": [
+        {
+          "evidence_id": "E001",
+          "passage_id": "P004",
+          "start": 3699,
+          "end": 3746
+        },
+        {
+          "evidence_id": "E002",
+          "passage_id": "P001",
+          "start": 191,
+          "end": 314
+        },
+        {
+          "evidence_id": "E003",
+          "passage_id": "P001",
+          "start": 15,
+          "end": 190
+        },
+        {
+          "evidence_id": "E004",
+          "passage_id": "P002",
+          "start": 1783,
+          "end": 2189
+        },
+        {
+          "evidence_id": "E005",
+          "passage_id": "P002",
+          "start": 2190,
+          "end": 2312
+        },
+        {
+          "evidence_id": "E006",
+          "passage_id": "P003",
+          "start": 2313,
+          "end": 2507
+        },
+        {
+          "evidence_id": "E007",
+          "passage_id": "P003",
+          "start": 2714,
+          "end": 3076
+        },
+        {
+          "evidence_id": "E008",
+          "passage_id": "P003",
+          "start": 3077,
+          "end": 3291
+        },
+        {
+          "evidence_id": "E009",
+          "passage_id": "P003",
+          "start": 3292,
+          "end": 3448
+        },
+        {
+          "evidence_id": "E010",
+          "passage_id": "P004",
+          "start": 3449,
+          "end": 3617
+        },
+        {
+          "evidence_id": "E011",
+          "passage_id": "P001",
+          "start": 421,
+          "end": 591
+        },
+        {
+          "evidence_id": "E012",
+          "passage_id": "P001",
+          "start": 700,
+          "end": 729
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4303491",
+      "evidence_offsets": [
+        {
+          "evidence_id": "E001",
+          "passage_id": "P001",
+          "start": 774,
+          "end": 865
+        },
+        {
+          "evidence_id": "E002",
+          "passage_id": "P001",
+          "start": 866,
+          "end": 1108
+        },
+        {
+          "evidence_id": "E003",
+          "passage_id": "P001",
+          "start": 581,
+          "end": 773
+        },
+        {
+          "evidence_id": "E004",
+          "passage_id": "P002",
+          "start": 1850,
+          "end": 2123
+        },
+        {
+          "evidence_id": "E005",
+          "passage_id": "P003",
+          "start": 2605,
+          "end": 2783
+        },
+        {
+          "evidence_id": "E006",
+          "passage_id": "P003",
+          "start": 2943,
+          "end": 3081
+        },
+        {
+          "evidence_id": "E007",
+          "passage_id": "P004",
+          "start": 3655,
+          "end": 3870
+        },
+        {
+          "evidence_id": "E008",
+          "passage_id": "P004",
+          "start": 3975,
+          "end": 4031
+        },
+        {
+          "evidence_id": "E009",
+          "passage_id": "P004",
+          "start": 4134,
+          "end": 4210
+        },
+        {
+          "evidence_id": "E010",
+          "passage_id": "P005",
+          "start": 4351,
+          "end": 4564
+        },
+        {
+          "evidence_id": "E011",
+          "passage_id": "P002",
+          "start": 1420,
+          "end": 1554
+        },
+        {
+          "evidence_id": "E012",
+          "passage_id": "P002",
+          "start": 1109,
+          "end": 1229
+        }
+      ]
+    },
+    {
+      "case_id": "NY-2682947",
+      "evidence_offsets": [
+        {
+          "evidence_id": "E001",
+          "passage_id": "P001",
+          "start": 0,
+          "end": 331
+        },
+        {
+          "evidence_id": "E002",
+          "passage_id": "P001",
+          "start": 332,
+          "end": 638
+        },
+        {
+          "evidence_id": "E003",
+          "passage_id": "P001",
+          "start": 639,
+          "end": 1023
+        },
+        {
+          "evidence_id": "E004",
+          "passage_id": "P002",
+          "start": 1528,
+          "end": 1856
+        },
+        {
+          "evidence_id": "E005",
+          "passage_id": "P002",
+          "start": 1857,
+          "end": 2004
+        },
+        {
+          "evidence_id": "E006",
+          "passage_id": "P004",
+          "start": 4302,
+          "end": 4408
+        },
+        {
+          "evidence_id": "E007",
+          "passage_id": "P005",
+          "start": 4409,
+          "end": 4671
+        },
+        {
+          "evidence_id": "E008",
+          "passage_id": "P006",
+          "start": 6042,
+          "end": 6222
+        },
+        {
+          "evidence_id": "E009",
+          "passage_id": "P006",
+          "start": 6223,
+          "end": 6592
+        },
+        {
+          "evidence_id": "E010",
+          "passage_id": "P007",
+          "start": 6598,
+          "end": 6998
+        },
+        {
+          "evidence_id": "E011",
+          "passage_id": "P007",
+          "start": 7134,
+          "end": 7531
+        },
+        {
+          "evidence_id": "E012",
+          "passage_id": "P008",
+          "start": 7532,
+          "end": 7809
+        },
+        {
+          "evidence_id": "E013",
+          "passage_id": "P008",
+          "start": 7917,
+          "end": 8164
+        },
+        {
+          "evidence_id": "E014",
+          "passage_id": "P003",
+          "start": 2421,
+          "end": 2687
+        },
+        {
+          "evidence_id": "E015",
+          "passage_id": "P009",
+          "start": 8983,
+          "end": 9266
         }
       ]
     }
