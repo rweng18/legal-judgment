@@ -4,9 +4,9 @@ Updated October 20, 2026. Branch: `annotations/becca-batch-a`.
 
 ## Status
 
-Completed: **A_001–A_005, 25 of 169 cases**. A_006–A_034 remain pending (144 cases). This is a partial checkpoint, not a complete or frozen round submission.
+Completed: **A_001–A_010, 50 of 169 cases**. A_011–A_034 remain pending (119 cases). This is a partial checkpoint, not a complete or frozen round submission.
 
-All twenty-five records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 is used at the user's direction to start step 2 and continue chunk by chunk through A_005. The team decision log still does not record a substantive rule freeze. Recheck affected drafts if the team changes the rules.
+All fifty records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 is used at the user's direction to start step 2 and continue chunk by chunk through A_010. The team decision log still does not record a substantive rule freeze. Recheck affected drafts if the team changes the rules.
 
 ## Results
 
@@ -37,8 +37,33 @@ All twenty-five records are `llm_draft`; no human review or adjudication is clai
 | NY-4522867 | Green v. Price Chopper, Inc. | Include | Reversed | 1 | Raised-mat triviality and causation were substantively addressed alongside an improper unraised summary-judgment ground. |
 | NY-4518184 | Bennett v. Alleyne | Review | Affirmed | null | Private house and tenancy explicit, but actual-case text says only stairway fall without identifying slip/trip mechanism. |
 | NY-5964060 | Demuth v. Best Buy Stores, L.P. | Review | Affirmed | null | Store ownership does not establish private status/control of adjacent ground. Concrete condition was not shown obvious and non-dangerous as a matter of law. |
+| NY-7857572 | Yerry v. Whole Food Mkt. Group, Inc. | Include | Reversed | 1 | Employees' remediation may have worsened the liquid condition; actual-notice response and obviousness showings failed. Certified unsigned transcripts were properly considered. |
+| NY-4320316 | Hanifan v. COR Development Company, LLC | Include | Reversed | 1 | Full reversal of the appealed dismissal branch despite “granted in part” wording. Storm defense established; melt/refreeze theory speculative and weather printouts inadmissible. |
+| NY-4869542 | Piotrowski v. Texas Roadhouse, Inc. | Include | Reversed | 1 | Plaintiff identified a slippery stain; general cleaning policies did not establish last inspection. February 2017 only, so no invented day. |
+| NY-3176773 | Mermelstein v. East Winds Co. | Review | Affirmed | null | Ownership/control/private status of exterior staircase not explicit. Residence does not establish tenancy; inconsistent rain affidavit and missing expert evidence preserved. |
+| NY-5959463 | Egan v. Edison | Include | Reversed | 1 | Actual transformer vault expressly owned by Consolidated Edison. Complaint and cross-claims dismissed against Yankees; substantive negligence review, not third-party-only. |
+| NY-6055312 | Maus v. Hannaford Bros. | Include | Affirmed | 0 | Constructive-notice showing failed; liquid composition and specific evidence types are unstated. |
+| NY-2715745 | Hecht v. Saccoccio | Review | Affirmed | null | Ownership of abutting premises does not explicitly establish private status/control of the actual exterior step. |
+| NY-4551411 | Rakovsky v. Rob-Lee Corp. | Include | Reversed | 1 | Defendants met the initial burden, but plaintiff raised code-compliance and causation issues regarding a second handrail. |
+| NY-6622562 | Hunt v. Dolgencorp of N.Y., Inc. | Include | Affirmed | 0 | Specific inspection account established lack of constructive notice; video omitted the area and neither confirmed nor refuted it. |
+| NY-7855719 | Schneider v. Gap, Inc. | Include | Reversed | 1 | Video contradicted the security-tag account; substantive dismissal upon renewal. One appealed order despite consequential vacatur of the earlier order. |
+| NY-3165370 | Castillo v. Silvercrest | Review | Affirmed | null | Building attribution and employee salting do not explicitly establish the exterior entrance area's private status/boundary. Conflicting ice and salt accounts remain unresolved. |
+| NY-5935876 | Rodriguez v. 520 Audubon Associates | Include | Reversed | 1 | Expressly owned/managed interior stairs. General awareness of rainwater did not establish notice; inconsistent leak affidavit and alternate code/nosing theories raised no triable issue. |
+| NY-5966712 | Seaberg v. North Shore Lincoln-Mercury | Exclude | Reversed | null | Evidentiary errors concerning a 911 recording required a new liability trial. No substantive negligence ruling; limited impeachment does not establish the recording's truth. |
+| NY-6451900 | Edwards v. Raymour & Flanigan Properties | Include | Affirmed | 0 | Defendants met the initial burden, but complete deposition transcripts raised carpet, causation and constructive-notice issues. |
+| NY-5304378 | Stango v. Byrnes | Include | Reversed | 1 | Default relief accompanied substantive maintenance-duty and constructive-notice analysis. One independently appealed order; residency does not establish tenancy. |
+| NY-4614923 | Molina v. Dimon | Include | Affirmed | 0 | Defendants established noncreation and lack of notice; speculative expert opinions and later photographs did not raise a triable issue. |
+| NY-4398047 | Rhodehouse v. CVS Pharmacy, Inc. | Exclude | Reversed | null | Procedural CPLR 3216 dismissal reversed; the negligence summary-judgment motion remains undecided. |
+| NY-4458502 | Hanney v. White Plains Galleria, LP | Exclude | Reversed | null | Plaintiff jumped from a cracking stair to avoid falling. Substantive notice analysis is preserved, but the described incident is not a personal slip/trip fall. |
+| NY-5934687 | Williams v. SNS Realty of Long Island, Inc. | Include | Reversed | 1 | Specific observation of flat mats 15–20 minutes earlier supported lack of notice; post-fall crumpling did not establish a pre-fall defect. |
+| NY-5944954 | Baker v. Cayea | Include | Affirmed | 0 | Private residential ownership supported despite disputed allocation between neighbors. Fall location, assumed duty, storm, notice and salting remain factual issues. |
+| NY-6004283 | Germain v. Kohl's Corp. | Include | Affirmed | 0 | Contextual trivial-defect ruling; preserve differing rug-height estimates and tape accounts without inventing a separate obviousness holding. |
+| NY-7857611 | Mancini v. Nicoletta | Review | Reversed | null | Private ownership explicit, but slip/trip mechanism unstated. Generic misstep/handrail precedent does not establish actual-case facts. |
+| NY-5933602 | Signorelli v. Great Atlantic & Pacific Tea Co. | Include | Reversed | 1 | Plaintiff's firsthand account raised issues and defendants independently failed the initial notice showing; general mat practice is not proof of mats that day. |
+| NY-6199158 | Indarjali v. Indarjali | Include | Affirmed | 0 | Ongoing storm not established; deteriorated-board causation remained triable. Later submissions did not contradict testimony on an unasked subject. |
+| NY-6131365 | Koepke v. Deer Hills Hardware, Inc. | Include | Affirmed | 0 | Both obviousness and lack of inherent danger support dismissal. Causation was raised but not separately decided. |
 
-Draft totals: 16 included, 2 excluded, 7 unresolved. Included class counts: thirteen 0 and three 1. These are annotation counts, not model performance or human-gold counts.
+Draft totals: 34 included, 5 excluded, 11 unresolved. Included class counts: twenty-one 0 and thirteen 1. These are annotation counts, not model performance or human-gold counts.
 
 ## Files and validation
 
@@ -57,17 +82,32 @@ Draft totals: 16 included, 2 excluded, 7 unresolved. Included class counts: thir
 - `drafts/A_005.draft-v1.json`: preserved first complete A_005 draft.
 - `chunks/A_005.json`: selected A_005 output, identical to its original draft.
 - `chunks/A_005.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and three unresolved review records.
-- `checkpoint.jsonl`: twenty-five-record partial merge against the batch-A manifest. Supersedes the twenty-record checkpoint preserved in commit `1040055`; existing A_001–A_004 records are unchanged.
-- `checkpoint.jsonl.validation.json`: passed partial-coverage validation; 144 missing IDs are expected until the other 29 chunks are finished.
-- `checkpoint.summary.json`: descriptive counts from the supplied summary script. Its suggested audit ID is not a completed audit or a final sample drawn from a frozen full round. Preliminary periods are not approved evaluation splits.
+- `drafts/A_006.draft-v1.json`: preserved first complete A_006 draft.
+- `chunks/A_006.json`: selected A_006 output, identical to its original draft.
+- `chunks/A_006.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_007.draft-v1.json`: preserved first complete A_007 draft.
+- `chunks/A_007.json`: selected A_007 output, identical to its original draft.
+- `chunks/A_007.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_008.draft-v1.json`: preserved first complete A_008 draft.
+- `chunks/A_008.json`: selected A_008 output, identical to the original draft.
+- `chunks/A_008.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_009.draft-v1.json`: preserved first complete A_009 draft.
+- `chunks/A_009.json`: selected A_009 output, identical to the original draft.
+- `chunks/A_009.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify the five LLM drafts.
+- `drafts/A_010.draft-v1.json`: preserved first complete A_010 draft.
+- `chunks/A_010.json`: selected A_010 output, identical to the original draft.
+- `chunks/A_010.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `checkpoint.jsonl`: fifty-record partial merge against the batch-A manifest. Supersedes the forty-five-record checkpoint preserved in commit `c44e8b3`; existing A_001–A_009 records are unchanged.
+- `checkpoint.jsonl.validation.json`: passed partial-coverage validation; 119 missing IDs are expected until the other 24 chunks are finished.
+- `checkpoint.summary.json`: descriptive counts from the supplied summary script. Its suggested audit IDs are not a completed audit or a final sample drawn from a frozen full round. Preliminary periods are not approved evaluation splits.
 - `progress.json`: exact completed and pending IDs for resumption.
 - `prompts_used/`: resolved template prompts and actual session scope/provenance.
 - `human_review_log.md`: pending human review.
 
-The validator checks structure, exact source hashes/quotes, evidence references, all 19 issue topics per case, all 104 passages across the five chunks and basic consistency. Passing it does not establish semantic correctness.
+The validator checks structure, exact source hashes/quotes, evidence references, all 19 issue topics per case, all 197 passages across the ten chunks and basic consistency. Passing it does not establish semantic correctness.
 
 ## Independence and next step
 
 No peer outputs, prior model labels, human calibration notes or comparison reports were consulted. Existing calibration records were not reused. The user's prior exposure to shared answers is unknown; record it before interpreting independent agreement.
 
-Next input is `batches/A/chunks/A_006.md`. Continue with the same full-reading, draft-preservation and per-chunk validation procedure. Do not compare peer answers until the independent round is complete and frozen. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review.
+Next input is `batches/A/chunks/A_011.md`. Continue with the same full-reading, draft-preservation and per-chunk validation procedure. Do not compare peer answers until the independent round is complete and frozen. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review.
