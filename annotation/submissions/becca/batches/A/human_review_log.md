@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All twenty-five A_001–A_005 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292) and Demuth (NY-5964060) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These seven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103) and Reid fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All thirty A_001–A_006 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060) and Mermelstein (NY-3176773) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These eight cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572) and Piotrowski (NY-4869542) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -32,5 +32,15 @@ A_005 review priorities:
 - Bennett: decide whether the actual-case evidence establishes a slip/trip rather than an unspecified stairway fall. Loose step, loose screw and lighting allegations do not themselves settle mechanism; private house ownership and tenancy are explicit.
 - Generoso (NY-4768174): retain unknown hazard type. A warning sign satisfies a warning duty but does not by itself prove adequate remediation.
 - Green (NY-4522867): distinguish substantive causation/triviality analysis from the ancillary procedural error. The full reversal benefits plaintiff at the summary-judgment stage, not a final negligence verdict.
+
+A_006 review priorities:
+
+- Mermelstein: assess whether the source establishes the exterior staircase's private status/control; building attribution and the condominium name do not explicitly resolve the accident-area boundary. Plaintiff is a resident, not necessarily a tenant.
+- Hanifan (NY-4320316): check that the entire appealed branch was reversed. Preserve the distinction between inadmissible weather printouts, general contractual practices and competent proof of an actual prior snow pile.
+- Egan (NY-5959463): check the express ownership of the actual vault and the resulting maintenance duty; do not invent the surrounding site type or a Yankees snow-removal contract. Dismissal includes plaintiff's negligence claim, not only cross-claims.
+- Yerry: preserve incomplete remediation as a triable issue, not proven worsening; liquid type is unknown. Certified unsigned transcripts were accepted.
+- Piotrowski: the manager described general policies, not a specific pre-fall inspection. The stain's composition and exact accident day are unstated.
+
+Apply frozen rules to the preliminary validation-period cases; do not tune prompts/codebook from them. No A_006 review entry represents an actual human decision.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
