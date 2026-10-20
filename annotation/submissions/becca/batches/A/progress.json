@@ -3,10 +3,10 @@
   "batch": "A",
   "status": "partial_llm_draft",
   "completed_chunks": [
-    "A_001"
+    "A_001",
+    "A_002"
   ],
   "pending_chunks": [
-    "A_002",
     "A_003",
     "A_004",
     "A_005",
@@ -45,14 +45,14 @@
     "NY-4253165",
     "NY-4849014",
     "NY-4259140",
-    "NY-4347986"
-  ],
-  "pending_case_ids": [
+    "NY-4347986",
     "NY-5950199",
     "NY-7853716",
     "NY-3169329",
     "NY-4803674",
-    "NY-4807631",
+    "NY-4807631"
+  ],
+  "pending_case_ids": [
     "NY-9430103",
     "NY-9422110",
     "NY-2787559",
@@ -213,12 +213,13 @@
     "NY-2813789",
     "NY-2811365"
   ],
-  "next_chunk": "A_002",
+  "next_chunk": "A_003",
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
   "human_review_complete": false,
   "selected_chunk_sha256": {
-    "A_001": "a1539364b3e27f30f34cc79d0d2432d0f066e70081a8e6daa1afe649bf0bc63f"
+    "A_001": "a1539364b3e27f30f34cc79d0d2432d0f066e70081a8e6daa1afe649bf0bc63f",
+    "A_002": "a25a42ea6e84afa2ddc0b9e5a07a2eb2e65b257e712d11c05719dd288f3b8f93"
   }
 }
