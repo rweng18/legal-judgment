@@ -9,11 +9,11 @@
       "annotator_id": "becca",
       "model_name": "GPT-6 (Codex)",
       "model_version": null,
-      "annotated_at": "2026-10-20T15:45:59-04:00",
+      "annotated_at": "2026-10-20T15:55:04-04:00",
       "review_status": "llm_draft",
       "human_reviewer_id": null,
-      "review_note": "Independent assistant draft after reading every passage of A_014. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
-      "supersedes": null
+      "review_note": "User-requested assistant revision after rereading every A_014 passage under unchanged initial codebook/schema/prompt 1.0.0. Own original draft was consulted after rereading; this is not a fresh independent pass or human review. No peer annotations, outside facts or human calibration notes consulted. No substantive team freeze is recorded. Changed defendant_roles from other to unclear; added the repeated affirmance in P002 to outcome cues. Eligibility, facts otherwise, and outcome retained.",
+      "supersedes": "submissions/becca/batches/A/drafts/A_014.draft-v1.json#NY-10090934"
     },
     "eligibility": {
       "scope": "in_scope",
@@ -66,7 +66,7 @@
       ],
       "injured_role": "unclear",
       "defendant_roles": [
-        "other"
+        "unclear"
       ],
       "accident_date": null,
       "factual_summary": "Plaintiff allegedly slipped on snow and ice in a backyard on defendant’s premises after leaving a cleared driveway to reach rear garbage pails. She testified that she had seen the snow and ice before falling.",
@@ -247,7 +247,8 @@
       {
         "kind": "repeated_outcome",
         "evidence_ids": [
-          "E008"
+          "E008",
+          "E009"
         ]
       },
       {
@@ -262,7 +263,7 @@
     "quality": {
       "needs_review": false,
       "flags": [],
-      "notes": "The actual backyard is expressly on defendant’s premises, supporting private control without assuming title. Building use and plaintiff’s role are unstated; a backyard alone is not used to label a residential tenancy. Accident date is unknown. Prior observation does not create a separately decided assumption-of-risk or comparative-fault issue, and no storm defense is analyzed. Apply unchanged rules to this preliminary test-period case."
+      "notes": "The actual backyard is expressly on defendant’s premises, supporting private control without assuming title. Building use and plaintiff’s role are unstated; a backyard alone is not used to label a residential tenancy. Accident date is unknown. Prior observation does not create a separately decided assumption-of-risk or comparative-fault issue, and no storm defense is analyzed. Apply unchanged rules to this preliminary test-period case. Defendant’s precise owner/tenant/manager role is unstated, so its role is unclear rather than a known other role."
     },
     "evidence": [
       {
@@ -312,6 +313,12 @@
         "passage_id": "P003",
         "quote": "Accordingly, the Supreme Court properly granted the defendant's motion for summary judgment dismissing the complaint.",
         "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P002",
+        "quote": "The plaintiff appeals, and we affirm.",
+        "statement_status": "current_disposition"
       }
     ]
   },
@@ -325,11 +332,11 @@
       "annotator_id": "becca",
       "model_name": "GPT-6 (Codex)",
       "model_version": null,
-      "annotated_at": "2026-10-20T15:45:59-04:00",
+      "annotated_at": "2026-10-20T15:55:04-04:00",
       "review_status": "llm_draft",
       "human_reviewer_id": null,
-      "review_note": "Independent assistant draft after reading every passage of A_014. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
-      "supersedes": null
+      "review_note": "User-requested assistant revision after rereading every A_014 passage under unchanged initial codebook/schema/prompt 1.0.0. Own original draft was consulted after rereading; this is not a fresh independent pass or human review. No peer annotations, outside facts or human calibration notes consulted. No substantive team freeze is recorded. Changed actual_notice from court_addressed to not_discussed because generic notice language does not separately analyze actual knowledge; changed defendant_roles from other to unclear. Retained property review and recorded full reversal with null binary label.",
+      "supersedes": "submissions/becca/batches/A/drafts/A_014.draft-v1.json#NY-2767644"
     },
     "eligibility": {
       "scope": "uncertain",
@@ -386,7 +393,7 @@
       ],
       "injured_role": "unclear",
       "defendant_roles": [
-        "other"
+        "unclear"
       ],
       "accident_date": null,
       "factual_summary": "Plaintiff allegedly slipped on ice on the front steps of defendant’s building at about 11:30 a.m. Plaintiff and her son described ice present for days; the source of the ice and the weather conditions around the accident were disputed.",
@@ -413,12 +420,9 @@
       },
       {
         "topic": "actual_notice",
-        "discussion": "court_addressed",
-        "finding": "The court found notice of a possible preexisting condition unresolved, without separately establishing actual knowledge.",
-        "evidence_ids": [
-          "E007",
-          "E011"
-        ]
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
       },
       {
         "topic": "constructive_notice",
@@ -633,7 +637,7 @@
       "flags": [
         "property_boundary"
       ],
-      "notes": "Building attribution and superintendent procedures do not expressly resolve private ownership/lease/use of the actual front steps. Preserve property review under existing rules. Full reversal of the appealed scope is not mixed. No accident calendar date is supplied. No conclusive end-of-storm, notice or ice-source finding is made; the three-hour opportunity remains triable. Prior days of ice are not a separately established recurring-condition doctrine."
+      "notes": "Building attribution and superintendent procedures do not expressly resolve private ownership/lease/use of the actual front steps. Preserve property review under existing rules. Full reversal of the appealed scope is not mixed. No accident calendar date is supplied. No conclusive end-of-storm, notice or ice-source finding is made; the three-hour opportunity remains triable. Prior days of ice are not a separately established recurring-condition doctrine. The opinion discusses notice generically and specifically analyzes duration and inspection/cleaning proof; no distinct actual-knowledge argument or analysis is identified. Actual_notice is therefore not_discussed, not a negative factual finding. Defendant’s exact legal role is unclear."
     },
     "evidence": [
       {
@@ -714,11 +718,11 @@
       "annotator_id": "becca",
       "model_name": "GPT-6 (Codex)",
       "model_version": null,
-      "annotated_at": "2026-10-20T15:45:59-04:00",
+      "annotated_at": "2026-10-20T15:55:04-04:00",
       "review_status": "llm_draft",
       "human_reviewer_id": null,
-      "review_note": "Independent assistant draft after reading every passage of A_014. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
-      "supersedes": null
+      "review_note": "User-requested assistant revision after rereading every A_014 passage under unchanged initial codebook/schema/prompt 1.0.0. Own original draft was consulted after rereading; this is not a fresh independent pass or human review. No peer annotations, outside facts or human calibration notes consulted. No substantive team freeze is recorded. Rechecked all three passages, ownership, noncreation/notice, recurring-condition reasoning and full affirmance; substantive fields retained.",
+      "supersedes": "submissions/becca/batches/A/drafts/A_014.draft-v1.json#NY-3182111"
     },
     "eligibility": {
       "scope": "in_scope",
@@ -1013,18 +1017,18 @@
       "annotator_id": "becca",
       "model_name": "GPT-6 (Codex)",
       "model_version": null,
-      "annotated_at": "2026-10-20T15:45:59-04:00",
+      "annotated_at": "2026-10-20T15:55:04-04:00",
       "review_status": "llm_draft",
       "human_reviewer_id": null,
-      "review_note": "Independent assistant draft after reading every passage of A_014. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
-      "supersedes": null
+      "review_note": "User-requested assistant revision after rereading every A_014 passage under unchanged initial codebook/schema/prompt 1.0.0. Own original draft was consulted after rereading; this is not a fresh independent pass or human review. No peer annotations, outside facts or human calibration notes consulted. No substantive team freeze is recorded. Changed property_basis from owned to controlled to preserve the source’s and/or alternatives; clarified those alternatives in the factual summary. Reclassified plaintiff’s unspecified denial from party_testimony to other. Inclusion and affirmance retained.",
+      "supersedes": "submissions/becca/batches/A/drafts/A_014.draft-v1.json#NY-5988927"
     },
     "eligibility": {
       "scope": "in_scope",
       "binary_task": "include",
       "reasons": [],
       "property_status": "private",
-      "property_basis": "owned",
+      "property_basis": "controlled",
       "fall_type": "slip",
       "merits": "substantive",
       "property_evidence": [
@@ -1072,7 +1076,7 @@
         "other"
       ],
       "accident_date": null,
-      "factual_summary": "Plaintiff allegedly slipped in a puddle on an exterior landing while exiting defendants’ premises. She described caution cones against the walls away from the liquid, while a defense witness described a possible door-propping purpose.",
+      "factual_summary": "Plaintiff allegedly slipped in a puddle on an exterior landing of premises described as owned, managed and/or operated by defendants. She described caution cones against the walls away from the liquid; she and a defense witness disputed whether the cones were propping open a door.",
       "evidence_ids": [
         "E002",
         "E003"
@@ -1204,8 +1208,8 @@
     ],
     "evidence_discussed": [
       {
-        "type": "party_testimony",
-        "description": "Plaintiff denied that cones were used to prop a door; the defense witness gave a contrary account.",
+        "type": "other",
+        "description": "Plaintiff denied the door-propping account; the opinion does not specify the form of her statement. The defense witness’s account is separately recorded as witness testimony.",
         "evidence_ids": [
           "E003"
         ]
@@ -1258,7 +1262,7 @@
     "quality": {
       "needs_review": false,
       "flags": [],
-      "notes": "Express ownership/management/operation of the premises supports private status, without assigning every role to every defendant. Exterior landing is at the exit; entrance is used rather than inventing stairs. Liquid composition, premises use, plaintiff’s role and accident date are unstated. Cones are evidence of possible notice, not a conclusive finding of adequate warning or actual knowledge. Ancillary hearsay analysis does not make this procedural-only."
+      "notes": "Express ownership/management/operation of the premises supports private status, without assigning every role to every defendant. Exterior landing is at the exit; entrance is used rather than inventing stairs. Liquid composition, premises use, plaintiff’s role and accident date are unstated. Cones are evidence of possible notice, not a conclusive finding of adequate warning or actual knowledge. Ancillary hearsay analysis does not make this procedural-only. Property basis is controlled: the collective owned/managed/operated alternatives support premises control without establishing a particular defendant’s title. Defendant roles preserve those stated alternatives collectively. The format of plaintiff’s denial is unspecified; no deposition or sworn testimony is inferred."
     },
     "evidence": [
       {
@@ -1303,11 +1307,11 @@
       "annotator_id": "becca",
       "model_name": "GPT-6 (Codex)",
       "model_version": null,
-      "annotated_at": "2026-10-20T15:45:59-04:00",
+      "annotated_at": "2026-10-20T15:55:04-04:00",
       "review_status": "llm_draft",
       "human_reviewer_id": null,
-      "review_note": "Independent assistant draft after reading every passage of A_014. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
-      "supersedes": null
+      "review_note": "User-requested assistant revision after rereading every A_014 passage under unchanged initial codebook/schema/prompt 1.0.0. Own original draft was consulted after rereading; this is not a fresh independent pass or human review. No peer annotations, outside facts or human calibration notes consulted. No substantive team freeze is recorded. Changed creation_of_hazard and actual_notice from court_addressed to raised_only, adding exact evidence of defendant’s contention. Constructive-notice analysis, inclusion and full reversal retained.",
+      "supersedes": "submissions/becca/batches/A/drafts/A_014.draft-v1.json#NY-4606643"
     },
     "eligibility": {
       "scope": "in_scope",
@@ -1386,22 +1390,22 @@
       },
       {
         "topic": "creation_of_hazard",
-        "discussion": "court_addressed",
-        "finding": "Noncreation appears in the initial-burden rule; the application does not separately find creation or negligent snow removal.",
+        "discussion": "raised_only",
+        "finding": "Defendant contended that it did not create the ice condition. The court recited the general burden but resolved the appeal on inadequate constructive-notice proof, without separately deciding noncreation.",
         "evidence_ids": [
-          "E004",
+          "E014",
           "E005",
-          "E011"
+          "E012"
         ]
       },
       {
         "topic": "actual_notice",
-        "discussion": "court_addressed",
-        "finding": "Lack of actual notice appears in the governing rule; the decision rests on inadequate constructive-notice proof rather than a separate actual-knowledge finding.",
+        "discussion": "raised_only",
+        "finding": "Defendant contended that it lacked actual notice. The court recited the general burden but did not separately resolve actual knowledge; the decision rests on constructive-notice proof.",
         "evidence_ids": [
-          "E004",
+          "E014",
           "E005",
-          "E011"
+          "E012"
         ]
       },
       {
@@ -1615,7 +1619,7 @@
     "quality": {
       "needs_review": false,
       "flags": [],
-      "notes": "The source expressly places the breezeway within a condominium complex and describes association staff maintaining that actual area, supporting private residential control rather than an adjacent public sidewalk. No legal title or plaintiff residency is inferred. The entire appealed dismissal branch is reversed; another named defendant does not create a mixed outcome or second order. Prior-day salting does not establish timely accident-day remediation. No storm-in-progress issue or weather-record source is inferred from the maintenance log."
+      "notes": "The source expressly places the breezeway within a condominium complex and describes association staff maintaining that actual area, supporting private residential control rather than an adjacent public sidewalk. No legal title or plaintiff residency is inferred. The entire appealed dismissal branch is reversed; another named defendant does not create a mixed outcome or second order. Prior-day salting does not establish timely accident-day remediation. No storm-in-progress issue or weather-record source is inferred from the maintenance log. Creation and actual notice are raised_only because the case-specific merits analysis resolves constructive notice; recitation of the combined legal test alone is not separate analysis of the other grounds."
     },
     "evidence": [
       {
@@ -1695,6 +1699,12 @@
         "passage_id": "P006",
         "quote": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint insofar as asserted against it.",
         "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E014",
+        "passage_id": "P002",
+        "quote": "The defendant moved for summary judgment dismissing the complaint insofar as asserted against it, contending that it did not create the alleged hazardous condition or have actual or constructive notice of its existence.",
+        "statement_status": "party_argument"
       }
     ]
   }

@@ -123,4 +123,6 @@ A_014 review priorities:
 
 Kerr-Inniss is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
 
+A_014 assistant revision (October 20, 2026; human review still pending): all 18 passages reread. Ahmetaj creation/actual notice are now raised_only; Ndiaye actual notice is not_discussed rather than a separately analyzed issue. Kerr-Inniss includes its repeated affirmance cue. Unknown defendant roles and Rosado’s alternative property relationships/unspecified statement format are clarified. Eligibility and outcomes are unchanged. See `prompts_used/A_014_redo.md` for case-level changes; selected v2 explicitly supersedes preserved v1. This is not an additional independent vote.
+
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.

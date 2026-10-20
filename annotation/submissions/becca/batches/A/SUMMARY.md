@@ -127,9 +127,10 @@ Draft totals: 49 included, 7 excluded, 14 unresolved. Included class counts: twe
 - `chunks/A_013.json`: selected A_013 output, identical to the original draft.
 - `chunks/A_013.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and two unresolved review records.
 - `drafts/A_014.draft-v1.json`: preserved first complete A_014 draft.
-- `chunks/A_014.json`: selected A_014 output, identical to the original draft.
+- `drafts/A_014.draft-v2.json`: complete user-requested assistant revision; v1 and its validation report remain preserved.
+- `chunks/A_014.json`: selected A_014 revision, identical to v2. Each record explicitly supersedes its v1 predecessor; changes are documented in `prompts_used/A_014_redo.md`. Eligibility/outcome counts are unchanged.
 - `chunks/A_014.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
-- `checkpoint.jsonl`: seventy-record partial merge against the batch-A manifest. Supersedes the sixty-five-record checkpoint preserved in commit `0670ba6`; existing A_001–A_013 records are unchanged.
+- `checkpoint.jsonl`: seventy-record partial merge against the batch-A manifest. Supersedes the original seventy-record checkpoint preserved in commit `6178c30`; A_001–A_013 records are unchanged and A_014 selects v2.
 - `checkpoint.jsonl.validation.json`: passed partial-coverage validation; 99 missing IDs are expected until the other 20 chunks are finished.
 - `checkpoint.summary.json`: descriptive counts from the supplied summary script. Its suggested audit IDs are not a completed audit or a final sample drawn from a frozen full round. Preliminary periods are not approved evaluation splits.
 - `progress.json`: exact completed and pending IDs for resumption.
@@ -140,6 +141,6 @@ The validator checks structure, exact source hashes/quotes, evidence references,
 
 ## Independence and next step
 
-No peer outputs, prior model labels, human calibration notes or comparison reports were consulted. Existing calibration records were not reused. The user's prior exposure to shared answers is unknown; record it before interpreting independent agreement.
+No peer outputs, human calibration notes or comparison reports were consulted. A_014 was redone at the user’s request with exposure to its own original draft; this revision is not a fresh independent pass. Other chunks retain their existing provenance. Existing calibration records were not reused. The user's prior exposure to shared answers is unknown; record it before interpreting independent agreement.
 
 Next input is `batches/A/chunks/A_015.md`. Continue with the same full-reading, draft-preservation and per-chunk validation procedure. Do not compare peer answers until the independent round is complete and frozen. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review.
