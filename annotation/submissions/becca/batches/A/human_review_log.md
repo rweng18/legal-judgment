@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All forty-five A_001–A_009 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These ten cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900) and Stango (NY-5304378) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All fifty A_001–A_010 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378) and Mancini fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -72,5 +72,15 @@ A_009 review priorities:
 - Baker (NY-5944954): verify that private residential ownership is supported even though ownership/control of the exact fall point is disputed between neighbors. The side-of-house sidewalk is expressly defendants' property; the neighboring-owner action is discontinued history. Storm, notice and remediation remain triable issues, not findings of negligence.
 
 All five A_009 cases fall in the preliminary training period. These priorities are not completed human reviews, and no rule changes or completed audits are claimed.
+
+A_010 review priorities:
+
+- Germain (NY-6004283): preserve the distinct height measurements and tape descriptions. The court applied contextual triviality, not a separate open-and-obvious holding. Customer role follows the source's “other customers” wording; legal title remains unstated.
+- Mancini (NY-7857611): review whether a slip/trip is actually established. The case-specific text describes only a stairway fall; the quoted rule about missteps and reaching for a handrail supplies no actual-case evidence. Keep the reversal and second-handrail merits analysis, but a null binary label pending mechanism review.
+- Signorelli (NY-5933602): preserve both the sufficient opposition and the alternative failure of defendants' prima facie notice showing. The clerk lacked recollection of accident-day conditions. No final liability or actual mat placement is established.
+- Indarjali (NY-6199158): keep snow-source uncertainty separate from the deteriorated-board theory. Defendant did not address the latter, and plaintiff had not been questioned about it; the opposition was not a contradiction on that subject. No relationship or tenancy follows from a shared surname.
+- Koepke (NY-6131365): both obviousness and lack of inherent danger supported dismissal. Treat unknown causation as a defense argument, not an independently decided appellate ground, and retain the post-fall nature of the chair observation.
+
+Mancini is a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
