@@ -4,9 +4,9 @@ Updated October 20, 2026. Branch: `annotations/becca-batch-a`.
 
 ## Status
 
-Completed: **A_001–A_017, 85 of 169 cases**. A_018–A_034 remain pending (84 cases). This is a partial checkpoint, not a complete or frozen round submission.
+Completed: **A_001–A_018, 90 of 169 cases**. A_019–A_034 remain pending (79 cases). This is a partial checkpoint, not a complete or frozen round submission.
 
-All eighty-five records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 is used at the user's direction to start step 2 and continue chunk by chunk through A_017. The team decision log still does not record a substantive rule freeze. Recheck affected drafts if the team changes the rules.
+All ninety records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 is used at the user's direction to start step 2 and continue chunk by chunk through A_018. The team decision log still does not record a substantive rule freeze. Recheck affected drafts if the team changes the rules.
 
 ## Results
 
@@ -97,8 +97,13 @@ All eighty-five records are `llm_draft`; no human review or adjudication is clai
 | NY-5954430 | Pellechia v. Partner Aviation Enterprises, Inc. | Review | Affirmed | null | Private charter jet ownership and slip are explicit, but aircraft steps are an unresolved premises-scope boundary. Preemption and expert deficiencies supported dismissal. |
 | NY-6042890 | Masse v. Parrella | Include | Affirmed | 0 | Workers’ compensation immunity was not established; employee creation remained triable. Workplace subtype and wetness composition are unknown. |
 | NY-4375829 | Casson v. McConnell | Include | Affirmed | 0 | Retained snow-removal responsibility and conflicting accounts left duty and snow-source issues unresolved. Later TRO did not settle earlier obligations. |
+| NY-4479663 | Aristizabal v. Kostakopoulos | Review | Affirmed | null | Actual slip/trip mechanism and private building status are unstated. Inability to identify negligent cause alone is not the scope-review basis. |
+| NY-4619223 | Namm v. Levy | Include | Affirmed | 0 | Photos showed a visible, contrasting balcony step and contradicted the optical-confusion expert opinion. No separate comparative-fault holding inferred. |
+| NY-4626387 | Pilgrim v. Avenue D Realty Co. | Include | Reversed | 1 | Express apartment ownership; noncreation and lack of actual/constructive notice established. Evidence formats and inspection times are unstated. |
+| NY-10291100 | German v. 333 Rector Garage, LLC | Include | Affirmed | 0 | Board did not exclude common-element pipe responsibility or eliminate factual issues. Preserve initial-burden failure and alternative sufficient opposition. |
+| NY-6089099 | Paucar v. Solaro | Include | Affirmed | 0 | Contractor established noncreation/no duty; new melt/recurrence theory was unpreserved and alternatively speculative. Contradictory affidavit raised no issue. |
 
-Draft totals: 60 included, 7 excluded, 18 unresolved. Included class counts: thirty-eight 0 and twenty-two 1. These are annotation counts, not model performance or human-gold counts.
+Draft totals: 64 included, 7 excluded, 19 unresolved. Included class counts: forty-one 0 and twenty-three 1. These are annotation counts, not model performance or human-gold counts.
 
 ## Files and validation
 
@@ -154,17 +159,20 @@ Draft totals: 60 included, 7 excluded, 18 unresolved. Included class counts: thi
 - `drafts/A_017.draft-v1.json`: preserved first complete A_017 draft.
 - `chunks/A_017.json`: selected A_017 output, identical to the original draft.
 - `chunks/A_017.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and two unresolved review records.
-- `checkpoint.jsonl`: eighty-five-record partial merge against the batch-A manifest. Supersedes the eighty-record checkpoint preserved in commit `5ed7135`; existing A_001–A_016 records are unchanged, including A_014 v2.
-- `checkpoint.jsonl.validation.json`: passed partial-coverage validation; 84 missing IDs are expected until the other 17 chunks are finished.
+- `drafts/A_018.draft-v1.json`: preserved first complete A_018 draft.
+- `chunks/A_018.json`: selected A_018 output, identical to the original draft.
+- `chunks/A_018.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `checkpoint.jsonl`: ninety-record partial merge against the batch-A manifest. Supersedes the eighty-five-record checkpoint preserved in commit `a992710`; existing A_001–A_017 records are unchanged, including A_014 v2.
+- `checkpoint.jsonl.validation.json`: passed partial-coverage validation; 79 missing IDs are expected until the other 16 chunks are finished.
 - `checkpoint.summary.json`: descriptive counts from the supplied summary script. Its suggested audit IDs are not a completed audit or a final sample drawn from a frozen full round. Preliminary periods are not approved evaluation splits.
 - `progress.json`: exact completed and pending IDs for resumption.
 - `prompts_used/`: resolved template prompts and actual session scope/provenance.
 - `human_review_log.md`: pending human review.
 
-The validator checks structure, exact source hashes/quotes, evidence references, all 19 issue topics per case, all 332 passages across the seventeen chunks and basic consistency. Passing it does not establish semantic correctness.
+The validator checks structure, exact source hashes/quotes, evidence references, all 19 issue topics per case, all 346 passages across the eighteen chunks and basic consistency. Passing it does not establish semantic correctness.
 
 ## Independence and next step
 
 No peer outputs, human calibration notes or comparison reports were consulted. A_014 was redone at the user’s request with exposure to its own original draft; this revision is not a fresh independent pass. Other chunks retain their existing provenance. Existing calibration records were not reused. The user's prior exposure to shared answers is unknown; record it before interpreting independent agreement.
 
-Next input is `batches/A/chunks/A_018.md`. Continue with the same full-reading, draft-preservation and per-chunk validation procedure. Do not compare peer answers until the independent round is complete and frozen. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review.
+Next input is `batches/A/chunks/A_019.md`. Continue with the same full-reading, draft-preservation and per-chunk validation procedure. Do not compare peer answers until the independent round is complete and frozen. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review.
