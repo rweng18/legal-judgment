@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All forty A_001–A_008 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These ten cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900) and Stango (NY-5304378) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All forty-five A_001–A_009 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110) and Bennett (NY-4518184) remain unresolved on slip/trip mechanism. These ten cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900) and Stango (NY-5304378) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -62,5 +62,15 @@ A_008 review priorities:
 - Stango: distinguish this substantive summary-judgment analysis from default-only appeals. Maintenance responsibility and constructive notice were expressly addressed. There is one independently appealed order, and residency does not establish tenancy or contractor status.
 
 Edwards and Stango are preliminary validation-period cases. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_009 review priorities:
+
+- Molina (NY-4614923): check private residential control without inferring title; package delivery does not establish employee or contractor status. Preserve plaintiff's safe-looking, dry-step account and the deficiencies in the experts' opinions and later photographs.
+- Rhodehouse (NY-4398047): check procedural-only exclusion. The negligence motion remains pending and undecided; full reversal with remittal is not a mixed outcome. Granting leave to appeal adds no independently appealed order.
+- Hanney (NY-4458502): check the incident boundary: the specific account says he jumped to avoid falling. Generic legal language referring to a plaintiff falling is not evidence of an actual slip/trip fall. Retain substantive constructive-notice analysis and full reversal of the appealed branch.
+- Williams (NY-5934687): keep post-fall mat condition distinct from a proven pre-fall defect. Specific recent observation of flat mats supports the notice ruling. Multiple appellants do not create multiple independently appealed orders.
+- Baker (NY-5944954): verify that private residential ownership is supported even though ownership/control of the exact fall point is disputed between neighbors. The side-of-house sidewalk is expressly defendants' property; the neighboring-owner action is discontinued history. Storm, notice and remediation remain triable issues, not findings of negligence.
+
+All five A_009 cases fall in the preliminary training period. These priorities are not completed human reviews, and no rule changes or completed audits are claimed.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
