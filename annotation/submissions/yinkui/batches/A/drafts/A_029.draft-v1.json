@@ -1,0 +1,1563 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4394527",
+    "text_sha256": "57dc9774e7f1a9bceadeda8c8048295057c97f555ac08f09505922fe887c63b6",
+    "input_chunk_id": "A_029",
+    "run": {
+      "annotator_id": "yinkui",
+      "model_name": "GPT-6 (Codex; exact variant not exposed)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T19:37:07-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied opinion read; no peer batch-A outputs consulted. Initial codebook 1.0.0; team substantive freeze pending. No human review claimed.",
+      "supersedes": null
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Video and assistant manager evidence showed no notice; no duration or visibility evidence raised a triable issue.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Video and assistant manager evidence showed no notice; no duration or visibility evidence raised a triable issue.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Other-video discovery argument precluded by failure to perfect earlier appeal; earlier dismissed appeal is historical.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Order, Supreme Court, Bronx County (Joseph E. Capella, J.), entered on or about August 5, 2016, which granted defendant's motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "Defendant established its entitlement to judgment as a matter of law, in this action where plaintiff alleges that she slipped and fell on water on the floor of defendant's store, near the cash registers.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "quote": "Defendant demonstrated that it lacked actual or constructive notice of the hazardous condition by submitting a surveillance video depicting its assistant manager walking past the alleged wet condition minutes before plaintiff's fall, as well as the employee's deposition testimony and affidavit stating that she observed no water or liquid in that area ( see Siero v Western Beef Props. Inc. , 119 AD3d 488 [1st Dept 2014]). In opposition, plaintiff failed to raise an issue of fact as to whether defendant had notice of the condition. There is no evidence showing how long the wet condition existed in the first instance. Moreover, both defendant's assistant manager and plaintiff testified that they did not see the water before plaintiff's fall. Thus, there was no proof that the condition was \"visible and apparent\" so as to constitute constructive notice ( Gordon v American Museum of Natural History , 67 NY2d 836, 837 [1986]; see Gomez v J.C. Penny Corp., Inc. , 113 AD3d 571 , 572 [1st Dept 2014]).",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P003",
+        "quote": "Plaintiff's argument that defendant refused to produce other videotapes in discovery is precluded by her failure to perfect her appeal from the orders denying her prior motion for discovery relief, and the dismissal of her appeal therefrom ( see Bray v Cox , 38 NY2d 350, 353 [1976]).",
+        "statement_status": "court_finding"
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "surveillance",
+        "description": "Video depicts manager walking past area minutes before fall.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Assistant manager deposition and affidavit denied observing liquid.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff also did not see water before fall.",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E003"
+      ]
+    },
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Current appealed order",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendant summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff alleges slipping on water near cash registers inside defendant’s store.",
+      "evidence_ids": [
+        "E002"
+      ]
+    },
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "procedural_history",
+          "metadata"
+        ]
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-8435765",
+    "text_sha256": "904dc89f9498c6f51252713f58080ca2816d0dd816af9d28e0dc9d81ac41d13e",
+    "input_chunk_id": "A_029",
+    "run": {
+      "annotator_id": "yinkui",
+      "model_name": "GPT-6 (Codex; exact variant not exposed)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T19:37:07-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied opinion read; no peer batch-A outputs consulted. Initial codebook 1.0.0; team substantive freeze pending. No human review claimed.",
+      "supersedes": null
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff raised no factual issue about creator or timing of wet condition.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Day-specific cleaning less than three hours earlier, no morning complaints and reasonable routine established no notice; recurrence not shown routinely unaddressed.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Day-specific cleaning less than three hours earlier, no morning complaints and reasonable routine established no notice; recurrence not shown routinely unaddressed.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "Day-specific cleaning less than three hours earlier, no morning complaints and reasonable routine established no notice; recurrence not shown routinely unaddressed.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Order, Supreme Court, Bronx County (Elizabeth A. Taylor, J.), entered October 19, 2021, which denied defendant's motion for summary judgment dismissing the complaint, unanimously reversed, on the law, without costs, and the motion granted. The Clerk is directed to enter judgment accordingly.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "Plaintiff alleged that she slipped and fell on a wet condition on the first step down from the fifth-floor landing in a building owned and maintained by defendant.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "quote": "She testified that urine and other liquids on the stairs was an ongoing and recurring condition about which she had complained many times to defendant.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "Defendant demonstrated prima facie that it did not have actual or constructive notice of the dangerous condition by producing evidence of its maintenance activities on the day of the accident, specifically, that the wet condition did not exist when the stairs were cleaned by the porter less than three hours before plaintiff fell ( see Ross v Betty G. Reader Revocable Trust , 86 AD3d 419 , 421 [1st Dept 2011]), and that there were no complaints about a wet condition on the stairs in the morning prior to her accident ( see Rivera v 2160 Realty Co., L.L.C. , 4 NY3d 837 , 838-839 [2005]). Defendant was not required to produce a written schedule or log of its cleaning activities; the unrefuted testimony of its porter was sufficient. The porter's testimony also established that there was a reasonable cleaning schedule in place that addressed the alleged ongoing and recurring condition",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P003",
+        "quote": "Plaintiff failed to raise an issue of fact concerning who created the wet condition and when ( see Rosado v New York City Hous. Auth. , 194 AD3d 586 , 587 [1st Dept 2021]). Plaintiff presented no evidence that the ongoing and recurring condition was routinely left unaddressed by defendant, nor did she raise a factual issue that defendant's cleaning routine \"was manifestly unreasonable so as to require altering it\" ( Thomas v Sere Hous. Dev. Fund Corp. , 175 AD3d 1129 , 1129 [1st Dept 2019]).",
+        "statement_status": "court_finding"
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Porter unrefuted testimony about cleaning day and routine.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "type": "maintenance_records",
+        "description": "Written cleaning schedule/log not required; testimony sufficient.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff described recurring liquids and complaints.",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      }
+    ],
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E005"
+      ]
+    },
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Current appealed order",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendant summary judgment.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "stairs",
+      "hazards": [
+        "water",
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped on wet first step below fifth-floor landing in defendant-owned building; she described recurring urine/liquids.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9355447",
+    "text_sha256": "97470ad1c4e5278a0907f86b0f52e3e6f9aefcbe985adb849b350101cf77660c",
+    "input_chunk_id": "A_029",
+    "run": {
+      "annotator_id": "yinkui",
+      "model_name": "GPT-6 (Codex; exact variant not exposed)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T19:37:07-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied opinion read; no peer batch-A outputs consulted. Initial codebook 1.0.0; team substantive freeze pending. No human review claimed.",
+      "supersedes": null
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Owner testimony about periodically pooling freezer condensation prevented prima facie no-notice showing.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Owner testimony about periodically pooling freezer condensation prevented prima facie no-notice showing.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "Owner testimony about periodically pooling freezer condensation prevented prima facie no-notice showing.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff postfall observations permitted circumstantial causation; defense failed to establish speculation.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Opposition sufficiency unnecessary after movant failed initial burden.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for personal injuries, the defendant New Carle Place Farm, Inc., appeals from an order of the Supreme Court, Nassau County (Sharon M.J. Gianelli, J.), entered November 21, 2019. The order, insofar as appealed from, denied that defendant's motion for summary judgment dismissing the complaint insofar as asserted against it.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "quote": "In July 2017, the plaintiff commenced this action to recover damages for injuries that she allegedly sustained when she slipped and fell on the floor of a grocery store owned and operated by the defendant New Carle Place Farm, Inc. (hereinafter New Carle). The plaintiff testified at her deposition that she did not see what she slipped on prior to her fall, but subsequently noticed that she was sitting in \"water from the floor\" and observed \"[w]ater coming from underneath\" a freezer \"out onto the floor.\"",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P005",
+        "quote": "Here, New Carle failed to establish, prima facie, that it did not have actual or constructive notice of the alleged condition that caused the plaintiff to fall. In support of its motion, New Carle submitted, inter alia, the deposition testimony of its owner, who testified that he was aware that frozen condensation from a pipe that connects to a freezer in the same aisle that the plaintiff fell melted and pooled periodically ( see Taliana v Hines REIT Three Huntington Quadrangle, LLC , 197 AD3d 1349 , 1353 [2021]; D'Amato v Vitale , 187 AD3d 983 , 984 [2020]; Milano v Staten Is. Univ. Hosp. , 73 AD3d 1141 , 1142 [2010]).",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P006",
+        "quote": "Furthermore, New Carle's submissions, including the plaintiff's own deposition testimony that she observed water on the floor in the area where she fell coming from underneath a freezer, failed to establish, prima facie, that the plaintiff could not demonstrate, through direct or circumstantial evidence, that the accident occurred as a result of the alleged recurrent dangerous condition ( see Kontorinakis v 27-10 30th Realty, LLC , 172 AD3d 835 , 836 [2019]; Simion v Franklin Ctr. for Rehabilitation & Nursing, Inc. , 157 AD3d 738 , 739 [2018]; cf. Bilska v Truszkowski , 171 AD3d 685 , 687 [2019]). Given New Carle's failure to meet its prima facie burden, this Court need not consider the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]).",
+        "statement_status": "court_finding"
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Owner and plaintiff depositions describe recurring pooling and postfall water.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      }
+    ],
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E005"
+      ]
+    },
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Current appealed order",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied New Carle summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped in defendant-owned grocery and afterward observed water emerging under a freezer. July 2017 is action commencement, not accident date.",
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4398097",
+    "text_sha256": "4a74b3469faa53c5f8c5a83d3215cd756f59e1c3ee91a1febb1e31e2c958798c",
+    "input_chunk_id": "A_029",
+    "run": {
+      "annotator_id": "yinkui",
+      "model_name": "GPT-6 (Codex; exact variant not exposed)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T19:37:07-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied opinion read; no peer batch-A outputs consulted. Initial codebook 1.0.0; team substantive freeze pending. No human review claimed.",
+      "supersedes": null
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "court_addressed",
+        "finding": "Primary assumption of risk barred claim; no triable issue of unreasonably increased risk.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Orange County (Bartlett, J.), dated December 14, 2015, which granted the defendant's motion for summary judgment dismissing the complaint.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "The plaintiff allegedly was injured while ice skating at the defendant's premises on rented skates when her ankle twisted causing her to slip and fall on the ice.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "Before the accident, the plaintiff had requested size 7 1/2 skates at the rental counter but was informed that her size was not available and she was given larger size skates to try. Prior to entering the ice rink, the plaintiff noticed that the skates were large, heavy, and lacked support around her ankle. Nevertheless, she skated for 10 minutes before the skates became too uncomfortable and she slipped while exiting the rink.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P003",
+        "quote": "Here, the defendant established, prima facie, that the action was barred by the doctrine of primary assumption of risk. In opposition, the plaintiff failed to raise a triable issue of fact as to whether the risk was unreasonably increased so that the doctrine of primary assumption of risk would not apply ( see Morgan v State of New York , 90 NY2d at 484; see also Geffen v City of New York , 271 AD2d 487, 487 [2000]; Papakanakis v City of New York , 229 AD2d 353 [1996]).",
+        "statement_status": "court_finding"
+      }
+    ],
+    "evidence_discussed": [],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "property_unclear"
+      ],
+      "property_status": "unclear",
+      "property_basis": "insufficient",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E005"
+      ]
+    },
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "institutional_ownership"
+      ],
+      "notes": "Civic-center rink described as defendant’s premises; operator/corporate name alone does not establish private ownership. Recreational slip is described but property status needs review."
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Current appealed order",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendant summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "recreation",
+      "location": "other",
+      "hazards": [
+        "snow_ice",
+        "other"
+      ],
+      "injured_role": "customer",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Skater allegedly slipped while exiting rink after using oversized rental skates she noticed lacked ankle support.",
+      "evidence_ids": [
+        "E003",
+        "E004"
+      ]
+    },
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-10160793",
+    "text_sha256": "5f5f598e0182f6a145fbf8f62c31190ff4f28df23aa08047a728e21271a33697",
+    "input_chunk_id": "A_029",
+    "run": {
+      "annotator_id": "yinkui",
+      "model_name": "GPT-6 (Codex; exact variant not exposed)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T19:37:07-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied opinion read; no peer batch-A outputs consulted. Initial codebook 1.0.0; team substantive freeze pending. No human review claimed.",
+      "supersedes": null
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Appropriate outdoor paint and dew did not establish dangerous condition; disputed warning conversation immaterial given no dangerous condition.",
+        "evidence_ids": [
+          "E006",
+          "E005",
+          "E009"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Appropriate outdoor paint and dew did not establish dangerous condition; disputed warning conversation immaterial given no dangerous condition.",
+        "evidence_ids": [
+          "E006",
+          "E005",
+          "E009"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Appropriate outdoor paint and dew did not establish dangerous condition; disputed warning conversation immaterial given no dangerous condition.",
+        "evidence_ids": [
+          "E006",
+          "E005",
+          "E009"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Appropriate outdoor paint and dew did not establish dangerous condition; disputed warning conversation immaterial given no dangerous condition.",
+        "evidence_ids": [
+          "E006",
+          "E005",
+          "E009"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Only viable wetness theory was dew, not flowing water; paint theory lacked sufficient proof.",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Contractor affidavit insufficient: slope theory inconsistent with dew claim, later paint label not tied to product used, and lay smoothness opinion lacked probative value.",
+        "evidence_ids": [
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Appeal from an order of the Supreme Court (Oliver N. Blaise III, J.), entered September 28, 2023, in Cortland County, which granted defendants' motion for summary judgment dismissing the complaint.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P009",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "On the morning of September 22, 2020, plaintiff, a phlebotomist, broke his ankle when he slipped and fell on a painted wooden walkway leading to the front door of defendants' residence, where he had a scheduled appointment. Plaintiff commenced this action to recover for his injuries, alleging that defendants failed to properly maintain the walkway by utilizing a paint that caused the surface to be slippery when wet.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "According to plaintiff, defendant Helen Stone thereafter opened the door and told him that she \"was coming to the door when she saw [him] come across the lawn to warn [him] that it was slippery.\" Although plaintiff [*2] did not recall seeing moisture on the walkway before falling, his back and legs were wet and he observed dew on the walkway surface. He maintains that the fall was caused by the dew on the walkway, coupled with the paint that had been applied to it, which he believed was \"too smooth for that type of structure\" since his \"hand slipped\" when he \"put [his] hand down . . . to sit up\" after the fall. Plaintiff did not attribute his fall to any structural defect in the walkway. During his deposition, defendant John D. Stone testified that he painted over old paint on the walkway in June or July 2020, using Behr deck paint purchased from Home Depot. Although he did not retain the paint can, John Stone remembered its label stating that it was \"weather resistant, made for outdoor use and ideal for wood porches and walkways\" (internal quotation marks omitted). He used this same paint on his wooden back deck and had no slipping issues in that area.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "Defendants both maintained that they never had an issue traversing the walkway, never received complaints about it becoming slippery when wet and were unaware of anyone else having previously fallen on the walkway. Helen Stone also had \"no recollection of telling . . . [p]laintiff that [she] was coming to the door to warn him [that the walkway] was slippery,\" maintaining that she was unaware of any moisture being present in the area since she had not left the house prior to the accident. She clarified that, \"if [she] did say something of that nature, it would have been because [she] saw . . . [p]laintiff running through the dew-covered grass, which could reasonably make any surface slippery if you run and jump on it,\" not due to any prior knowledge that the painted walkway could become slippery when wet.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P006",
+        "quote": "Moreover, defendants' evidence demonstrated, on a prima facie basis, that the paint applied to the walkway was appropriate for outdoor use on that type of structure ( see Faiella v Oradell Constr. Co., Inc. , 171 AD3d at 1014). As such, the burden shifted to plaintiff to demonstrate a triable issue of fact in opposition. In that regard, plaintiff submitted an expert affidavit from Joseph Szlamcynski, a licensed contractor.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P007",
+        "quote": "Relying on a photograph depicting a 2022 label for Behr deck paint, Szlamcynski noted that it contained a warning that \"painted surfaces may become slippery when wet\" and opined that \"[a]pplying this deck paint over existing paint without sanding will impair absorption and also cause it to become more slippery.\" He further noted that photographs taken subsequent to the accident revealed that the walkway \"is not level but rather slopes away from the [*3] porch,\" maintaining that this \"would cause water to flow from the porch toward the bottom of the walkway and compound any slippery condition caused by the paint.\" Although Szlamcynski did not personally inspect the walkway, given the slope, the fact that it leads to the front door, and the fact that John Stone painted over existing paint, Szlamcynski opined that \"non-slip additives should have been added to the paint for this walkway.\" Szlamcynski's affidavit fails to establish a triable issue of fact sufficient to defeat defendants' motion for several reasons.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P008",
+        "quote": "There is no allegation that flowing water was involved in this incident, the only viable theory being that dew had formed on the walkway. Moreover, photographs in the record show that the walkway is relatively flat. Second, as noted by defendants, Szlamcynski relied on a label for Behr deck paint from 2022, two years after the walkway had been painted. There has been no showing that this was the same type of deck paint used on the walkway or that Behr did not change its paint formula. As such, Szlamcynski's opinion does not have sufficient evidentiary support and was insufficient to create a triable issue of fact ( see Briggs v PF HV Mgt., Inc. , 199 AD3d 1106 , 1108 [3d Dept 2021]; Crawford v Jefferson House Assoc., LLC , 57 AD3d 822 , 823 [2d Dept 2008]). Moreover, plaintiff's contention that the paint used on the walkway was \"too smooth for that type of structure\" implicates a \"matter outside the ordinary experience and knowledge of laypersons and, therefore, lacked probative value\" ( Faiella v Oradell Constr. Co., Inc. , 171 AD3d at 1014).",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P009",
+        "quote": "Finally, the conflicting proof as to the conversation between Helen Stone and plaintiff is of no moment because the walkway, as Supreme Court correctly recognized, did not present a dangerous or defective condition ( see Todt v Schroon Riv. Campsite , 281 AD2d at 783). As such, summary judgment was properly granted to defendants.",
+        "statement_status": "court_finding"
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff and homeowners testimony/affidavits about paint, dew, complaints and disputed warning.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "type": "expert_evidence",
+        "description": "Plaintiff licensed-contractor affidavit rejected as insufficiently supported.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "type": "photographs",
+        "description": "Walkway and 2022 paint-label photographs discussed.",
+        "evidence_ids": [
+          "E007",
+          "E008"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E006",
+        "E008",
+        "E009"
+      ]
+    },
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Current appealed order",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendants summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "walkway",
+      "hazards": [
+        "water",
+        "other"
+      ],
+      "injured_role": "other",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": "2020-09-22",
+      "factual_summary": "Phlebotomist arriving for scheduled appointment allegedly slipped on dew-wet painted walkway to defendants’ residence; he attributed slipperiness to paint.",
+      "evidence_ids": [
+        "E003",
+        "E004"
+      ]
+    },
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P007",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P008",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P009",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ]
+  }
+]
