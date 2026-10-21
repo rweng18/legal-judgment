@@ -1,12 +1,12 @@
-# Becca — batch A progress
+# Becca — batch A completed draft
 
-Updated October 20, 2026. Branch: `annotations/becca-batch-a`.
+Updated October 21, 2026. Branch: `annotations/becca-batch-a`.
 
 ## Status
 
-Completed: **A_001–A_020, 100 of 169 cases**. A_021–A_034 remain pending (69 cases). This is a partial checkpoint, not a complete or frozen round submission.
+Completed: **A_001–A_034, 169 of 169 cases**. The complete draft is saved as `annotations.jsonl` and frozen by SHA-256 in `independent_freeze.json` before peer comparison. This completes Becca’s draft pass; team comparison and human review remain pending.
 
-All 100 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 is used at the user's direction to start step 2 and continue chunk by chunk through A_020. The team decision log still does not record a substantive rule freeze. Recheck affected drafts if the team changes the rules.
+All 169 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 is used at the user's direction to start step 2 and continue chunk by chunk through A_034. The team decision log still does not record a substantive rule freeze. Recheck affected drafts if the team changes the rules.
 
 ## Results
 
@@ -112,8 +112,77 @@ All 100 records are `llm_draft`; no human review or adjudication is claimed. Ini
 | NY-5302167 | Luttenberger v. McManus-Lorey Funeral Home, Ltd. | Include | Affirmed | 0 | Door saddle established as both obvious and not inherently dangerous through plaintiff’s testimony. One order resolves owner and tenant motions. |
 | NY-4546774 | Nieves v. Pennsylvania, LLC | Include | Affirmed | 0 | Landlord failed to establish complete relinquishment of basement control under the alleged statutory duty. No conclusive code violation found. |
 | NY-10309802 | Hart v. 210 W. 77 St. LLC | Include | Reversed | 1 | Certified reports established ongoing storm; mats/mopping were reasonable and specific notice was absent. Consequential dismissal is not a second outcome. |
+| NY-4538463 | Autieri v. Longi | Include | Affirmed | 0 | No reasonable post-storm remediation opportunity established; defective-awning theory was speculative in light of weather testimony. |
+| NY-9387720 | Franco v. Half Moon Riv. Club, LLC | Include | Affirmed | 0 | One order fully affirmed on appeal/cross-appeal: negligence survives, Dram Shop claims dismissed, and negative inference upheld. Favors both. |
+| NY-4847464 | Hernandez v. BG Mgt. 2, LLC | Review | Affirmed | null | Building attribution does not establish private ownership/control/use. Safe maintenance, noncreation and lack of notice were established. |
+| NY-5938714 | Knapp v. Golub Corp. | Include | Affirmed | 0 | Patron’s walkway-edge slip and inadequate barrier raised factual issues independently of disputed debris and expert sufficiency. |
+| NY-9355453 | Cheprakova v. Medicine Plaza, Inc. | Include | Affirmed | 0 | Explicit pharmacy ownership/operation; plaintiff could not identify cause, and expert report/video did not raise a triable issue. |
+| NY-9880219 | Bilancione v. Garden Homes Mgt. Corp. | Review | Affirmed | null | Adjacent strip-mall ownership does not establish walkway control. Non-dangerousness, triviality and lack of notice were not established. |
+| NY-9417787 | Cassino-Sharp v. Whispering Hills Home Owners Assn., Inc. | Include | Reversed | 1 | Storm defense not established; testimony left issues about preexisting ice and constructive notice. March 2018 only. |
+| NY-4646287 | Burrus v. Douglaston Realty Mgt. Corp. | Include | Affirmed | 0 | Unknown liquid composition did not defeat identification of cause. Creation issues and absent inspection timing defeated the initial showing. |
+| NY-2766617 | Bencebi v. Baywood Realty, LLC | Include | Reversed | 1 | Slip expressly described; missing handrail undisputed, but statutory requirement and injury causation remained triable. |
+| NY-5936535 | Carpenter v. 130 W. Merrick, Inc. | Include | Affirmed | 0 | Merchandise-box trip in defendants’ store. Short opinion states initial-burden failure without identifying a precise substantive ground. |
+| NY-4655053 | Sodhi v. Dollar Tree Stores, Inc. | Include | Affirmed | 0 | Both independently appealed orders affirmed in shared memorandum; constructive notice and landlord duty remained triable. |
+| NY-6108848 | Navarro v. H. Heiden, LLC | Review | Reversed | null | Defendant’s building does not establish private premises. Defense dismissal granted; deficient expert opposition raised no notice issue. |
+| NY-6082421 | Gomez v. Shop-Rite of New Greenway | Include | Affirmed | 0 | Plaintiff’s leaking produce-box testimony raised a creation issue; certified unsigned transcripts properly considered. |
+| NY-9411645 | English v. Wainco Goshen 1031, LLC | Exclude | Affirmed | null | Third-party-only appeal about contribution/indemnification cross-claims; plaintiff’s complaint dismissal was not appealed. |
+| NY-6079339 | Morreale v. Esposito | Review | Affirmed | null | Generic defendant’s property description leaves private status unclear. Gutter source of ice speculative amid drizzle. |
+| NY-4551400 | Troina v. Canyon Donuts Jericho Turnpike, Inc. | Include | Reversed | 1 | No specific wheel-stop inspection timing; defendants failed their constructive-notice burden regardless of opposition. |
+| NY-4666350 | Phillips v. LSS Leasing Ltd. Liab. Co. | Review | Reversed | null | Generic defendant’s building description leaves private status unresolved. Alleged mat trip was speculative; dismissal granted. |
+| NY-5959503 | Correa v. Orient-Express Hotels, Inc. | Include | Affirmed | 0 | Private premises expressly owned by nonparty subsidiary. Substantive ownership/control and compensation-exclusivity defenses did not establish dismissal. |
+| NY-6114776 | Scalice v. Braisted | Include | Affirmed | 0 | Seed balls/leaves on residential back steps were open and obvious and not inherently dangerous. One order resolved both motions. |
+| NY-2686388 | Benjamin v. Trade Fair Supermarket, Inc. | Include | Reversed | 1 | Boxes in meat aisle were open and obvious and not inherently dangerous; plaintiff raised no triable issue. |
+| NY-4777088 | DeFisher v. PPZ Supermarkets, Inc. | Include | Affirmed | 0 | Defense no-water verdict supported by fair interpretation of conflicting evidence; missing spoliation order prevented review of that issue only. |
+| NY-3150543 | Lucatelli v. Crescent Associates | Include | Affirmed | 0 | Unsecured runner repeatedly shifted on sloping vestibule floor; defendant failed safe-maintenance showing and factual issues remained. |
+| NY-4835234 | Hus v. 10 Ave. Realty, LLC | Review | Affirmed | null | Public-sidewalk location/grace period assumed without decision; removal noncreation/exacerbation not established. Private boundary unresolved. |
+| NY-5944043 | Koznesoff v. First Housing Co. | Include | Reversed | 1 | Photographs and deposition established trivial chipped step without trap/nuisance characteristics; opposition raised no triable issue. |
+| NY-9395478 | Glennon v. West Taft Rd. Assoc., LLC | Include | Affirmed | 0 | Expert affidavit and exhibits raised preexisting-ice and notice issues, even assuming the initial storm defense showing. |
+| NY-9404821 | Evans v. Fields | Include | Reversed | 1 | Flowerpot’s obviousness and lack of inherent danger not established in the surrounding circumstances; explicit trip precedes fall from landing. |
+| NY-6119566 | Moore v. Great Atlantic & Pacific Tea Co. | Include | Affirmed | 0 | Conflicting removal testimony defeated Selden’s initial noncreation/lack-of-notice showing. Actual lot ownership is stated. |
+| NY-4855524 | Dougherty v. 359 Lewis Ave. Assoc., LLC | Review | Affirmed | null | Fall through fire-escape opening does not establish slip/trip mechanism. Code compliance at installation did not resolve common-law duty. |
+| NY-2719389 | Simon v. Hamlet Windwatch Development, LLC | Include | Affirmed | 0 | Express trip on privately owned golf-course cart path; primary assumption of risk established and unrebutted. |
+| NY-4506844 | Cammarata v. Holy Name of Mary R.C. Church | Review | Affirmed | null | Generic property attribution does not resolve private status. Witness affidavit and plaintiff’s deposition established ongoing storm. |
+| NY-5992480 | Wienges v. Newburgh Mall, LLC | Include | Reversed | 1 | No sufficient duration showing for the particular leak; leaks elsewhere did not establish constructive notice. |
+| NY-9357935 | Shatku v. EFG & P, LLC | Include | Affirmed | 0 | Noncreation and lack of notice established; EFG also had no removal duty as an out-of-possession landlord. |
+| NY-5939720 | Losito v. JP Morgan Chase & Co. | Review | Reversed | null | Private status not established by generic premises attribution. Trivial crack shown by photos/testimony; OCR width preserved as unknown. |
+| NY-4377828 | Liranzo v. Apartment Co., LLC | Review | Affirmed | null | Private status remains unresolved despite residential use/maintenance evidence. Daughter’s testimony raised notice and statutory issues. |
+| NY-6097667 | Freese v. Bedford | Include | Affirmed | 0 | Natural non-pathway slope: reasonable seasonal care, noncreation and obviousness established; warning was given. |
+| NY-5992200 | Rodriguez v. Themelion Realty Corp. | Exclude | Affirmed | null | Actual fall area was a municipal pedestrian ramp outside the statutory transfer of sidewalk liability to abutting owners. |
+| NY-4306620 | Haberl v. Verizon New York, Inc. | Include | Reversed | 1 | Global owed no tort duty; instrument-of-harm exception rejected. Complaint and cross claims dismissed in one reversal. |
+| NY-6061236 | Armijos v. Vrettos Realty Corp. | Include | Reversed | 1 | Affidavit specifying every Monday’s 3–4 p.m. mopping satisfied the initial burden for Monday’s 5:30 p.m. fall. |
+| NY-5992292 | Shaw v. Bluepers Family Billiards | Review | Affirmed | null | Outside-business fall location not expressly tied to private lot/plaza boundary. Noncreation/notice and contractor-duty defenses succeeded. |
+| NY-7859429 | Rider v. Manhattan Monster, Inc. | Include | Reversed | 1 | Notice issues remained, but the separate open-and-obvious/non-inherently-dangerous throne defense supported dismissal. |
+| NY-4394527 | Fellner v. Aeropostale, Inc. | Include | Affirmed | 0 | Surveillance/testimony established lack of notice; earlier dismissed discovery appeal is history, not a mixed current result. |
+| NY-8435765 | Hartley v. Burnside Hous. Dev. Fund Corp. | Include | Reversed | 1 | Day-specific cleaning and reasonable response to recurring liquids established lack of notice; written log unnecessary. |
+| NY-9355447 | Jandly v. New Carle Place Farm, Inc. | Include | Affirmed | 0 | Owner knew of periodic freezer-related pooling; notice and circumstantial-causation defenses failed initial burden. |
+| NY-4398097 | Lee-Csoke v. Mid-Hudson Civic Center, Inc. | Review | Affirmed | null | Rink operation does not establish private premises. Primary assumption of risk barred the claim; no unreasonable increase shown. |
+| NY-10160793 | Porter v. Stone | Include | Affirmed | 0 | Dew alone and suitable exterior paint did not establish a dangerous walkway. Expert’s flow theory and later paint-label comparison lacked support. |
+| NY-9450154 | Axelrod v. 44 Lexington Assoc., LLC | Include | Affirmed | 0 | TMC failed to establish special employment/exclusive hotel control; hazard-creation and indemnity issues remained. |
+| NY-9384311 | Osterhoudt v. Acme Mkts., Inc. | Include | Affirmed | 0 | Employee-placed pallet jack near receiving entrance left safety issues; backward entry concerned comparative fault, and notice proof was unnecessary. |
+| NY-4477314 | Bartholomew v. Sears Roebuck & Co. | Include | Affirmed | 0 | Directory-sign base was open and obvious and not inherently dangerous; opposing expert was speculative/conclusory. |
+| NY-6000999 | Bautista v. Kysor/Warren | Review | Affirmed | null | Private supermarket slip is clear, but negligence versus another products-liability theory is unspecified. Water-source issues remained. |
+| NY-5992264 | Lawrence v. Norberto | Include | Affirmed | 0 | Defendants failed to establish inability to identify cause; the actual hazard is not described. Express private ownership and slip are stated. |
+| NY-4739145 | Griffin v. PMV Realty, LLC | Include | Reversed | 1 | Noncreation and lack of actual notice established, but general practices did not negate constructive notice. |
+| NY-9494417 | Rothman v. Fairfield Mastic, LLC | Review | Affirmed | null | Sidewalk private boundary unresolved. Snow log, no complaints and protocol supported successful notice/noncreation defenses. |
+| NY-4315793 | Hernandez v. Conway Stores, Inc. | Include | Reversed | 1 | Plaintiff’s liability motion denied; conflicting duration accounts and failure to establish freedom from comparative fault. Complaint not dismissed. |
+| NY-5934453 | Razla v. Surgical Sock Shop II, Inc. | Include | Affirmed | 0 | Owner/operator established noncreation and lack of notice of tracked-in wetness; no constant-removal duty. |
+| NY-4437532 | Cross v. Friendship Restaurant Group, LLC | Include | Affirmed | 0 | Plaintiff could not identify cause; possible kitchen grease was speculation. |
+| NY-4849013 | Coreano v. 983 Tenants Corp. | Review | Reversed | null | Building Code applicability and erroneous jury instruction leave substantive/procedural scope unresolved; new liability trial ordered. |
+| NY-3200070 | Betances v. 185-189 Audubon Realty, LLC | Review | Affirmed | null | Generic building attribution does not establish private premises; bag notice and lighting causation defenses succeeded. |
+| NY-4597247 | Kurre v. ACJ Realty, LLC | Include | Affirmed | 0 | Defendants’ submissions raised a triable issue whether Capo’s employee created the wire hazard. |
+| NY-4670005 | Steele v. Samaritan Found., Inc. | Include | Affirmed | 0 | General cleaning testimony failed on constructive notice; wet pants supported a nonspeculative causal inference. |
+| NY-4801155 | Leibman v. Water Auth. of W. Nassau County | Review | Reversed | null | Public/private status of Water Authority grounds/sidewalk unresolved; defense motion denied on causation and creation/notice grounds. |
+| NY-4304488 | McDonell v. Wal-Mart Stores, Inc. | Include | Affirmed | 0 | Limited notice appeal; defendants failed to negate actual notice and raised factual issues on constructive notice. |
+| NY-4658269 | Thomas v. Sere Hous. Dev. Fund Corp. | Review | Reversed | null | Generic building attribution leaves private status unresolved; cleaning-routine and notice defenses supported dismissal. |
+| NY-4542514 | DeSuero v. 1386 Assoc., LLC | Include | Affirmed | 0 | Liquid defenses satisfied initial burden, but prior clamp-repair testimony defeated the showing on the handrail theory. |
+| NY-3172633 | Iturrino v. Brisbane South Setauket, LLC | Include | Reversed | 1 | Lessee/sublessor failed to establish exclusive maintenance transfer and absence of its own duty. |
+| NY-9483727 | Sanchez-Trujillo v. Beach 119, LLC | Include | Affirmed | 0 | Cause could not be identified without speculation; expert report inadmissible and independently insufficient on causation. |
+| NY-4453479 | Bissett v. 30 Merrick Plaza, LLC | Include | Affirmed | 0 | Wet-leaf visibility and constructive notice remain triable; distinguish the pile on the step from debris at the bottom. |
+| NY-4929051 | Zubillaga v. Findlay Teller Hous. Dev. Fund Corp. | Include | Reversed | 1 | Both appealed orders reversed; inadequate-warning issues survive. Separate briefing-motion denial is ancillary. |
+| NY-2813789 | Pietrafesa v. Canestro | Exclude | Reversed | null | Procedural-only restoration/timeliness ruling; both summary-judgment motions remitted for later merits decisions. |
+| NY-2811365 | DeLorenzo v. Bales | Include | Affirmed | 0 | Mat and placement not inherently dangerous; one order resolves defense motion and plaintiffs’ cross motion. |
 
-Draft totals: 71 included, 8 excluded, 21 unresolved. Included class counts: forty-five 0 and twenty-six 1. These are annotation counts, not model performance or human-gold counts.
+Draft totals: 119 included, 11 excluded, 39 unresolved. Included class counts: seventy-eight 0 and forty-one 1. These are annotation counts, not model performance or human-gold counts.
 
 ## Files and validation
 
@@ -178,17 +247,63 @@ Draft totals: 71 included, 8 excluded, 21 unresolved. Included class counts: for
 - `drafts/A_020.draft-v1.json`: preserved first complete A_020 draft.
 - `chunks/A_020.json`: selected A_020 output, identical to the original draft.
 - `chunks/A_020.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify the five LLM drafts.
-- `checkpoint.jsonl`: 100-record partial merge against the batch-A manifest. Supersedes the ninety-five-record checkpoint preserved in commit `1c659c5`; existing A_001–A_019 records are unchanged, including A_014 v2.
-- `checkpoint.jsonl.validation.json`: passed partial-coverage validation; 69 missing IDs are expected until the other 14 chunks are finished.
-- `checkpoint.summary.json`: descriptive counts from the supplied summary script. Its suggested audit IDs are not a completed audit or a final sample drawn from a frozen full round. Preliminary periods are not approved evaluation splits.
+- `drafts/A_021.draft-v1.json`: preserved first complete A_021 draft.
+- `chunks/A_021.json`: selected A_021 output, identical to the original draft.
+- `chunks/A_021.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_022.draft-v1.json`: preserved first complete A_022 draft.
+- `chunks/A_022.json`: selected A_022 output, identical to the original draft.
+- `chunks/A_022.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_023.draft-v1.json`: preserved first complete A_023 draft.
+- `chunks/A_023.json`: selected A_023 output, identical to the original draft.
+- `chunks/A_023.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and two unresolved review records.
+- `drafts/A_024.draft-v1.json`: preserved first complete A_024 draft.
+- `chunks/A_024.json`: selected A_024 output, identical to the original draft.
+- `chunks/A_024.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_025.draft-v1.json`: preserved first complete A_025 draft.
+- `chunks/A_025.json`: selected A_025 output, identical to the original draft.
+- `chunks/A_025.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_026.draft-v1.json`: preserved first complete A_026 draft.
+- `chunks/A_026.json`: selected A_026 output, identical to the original draft.
+- `chunks/A_026.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and two unresolved review records.
+- `drafts/A_027.draft-v1.json`: preserved first complete A_027 draft.
+- `chunks/A_027.json`: selected A_027 output, identical to the original draft.
+- `chunks/A_027.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and two unresolved review records.
+- `drafts/A_028.draft-v1.json`: preserved first complete A_028 draft.
+- `chunks/A_028.json`: selected A_028 output, identical to the original draft.
+- `chunks/A_028.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_029.draft-v1.json`: preserved first complete A_029 draft.
+- `chunks/A_029.json`: selected A_029 output, identical to the original draft.
+- `chunks/A_029.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_030.draft-v1.json`: preserved first complete A_030 draft.
+- `chunks/A_030.json`: selected A_030 output, identical to the original draft.
+- `chunks/A_030.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_031.draft-v1.json`: preserved first complete A_031 draft.
+- `chunks/A_031.json`: selected A_031 output, identical to the original draft.
+- `chunks/A_031.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_032.draft-v1.json`: preserved first complete A_032 draft.
+- `chunks/A_032.json`: selected A_032 output, identical to the original draft.
+- `chunks/A_032.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and three unresolved review records.
+- `drafts/A_033.draft-v1.json`: preserved first complete A_033 draft.
+- `chunks/A_033.json`: selected A_033 output, identical to the original draft.
+- `chunks/A_033.validation.json`: passed with five records, no missing/extra chunk IDs and zero errors. Warnings identify five LLM drafts and one unresolved review record.
+- `drafts/A_034.draft-v1.json`: preserved first complete A_034 draft.
+- `chunks/A_034.json`: selected A_034 output, identical to the original draft.
+- `chunks/A_034.validation.json`: passed with four records, no missing/extra chunk IDs and zero errors. Warnings identify four LLM drafts.
+- `annotations.jsonl`: complete submission, exactly 169 unique manifest cases, including exclusions and review records.
+- `annotations.validation.json`: required full-manifest validation report, passed with zero errors; `annotations.jsonl.validation.json` is the matching report generated by the merge tool.
+- `annotations.summary.json`: complete descriptive counts; all 169 records remain LLM drafts.
+- `independent_freeze.json`: SHA-256 of the complete submission, all selected chunks, preserved drafts/prompts and source/rule references. This is a draft snapshot, not human review or a team rule freeze.
+- `checkpoint.jsonl`: complete 169-record resume copy, byte-identical to `annotations.jsonl`. Supersedes the 165-record checkpoint preserved in commit `eb0d0e3`; existing A_001–A_033 records are unchanged, including A_014 v2.
+- `checkpoint.jsonl.validation.json`: full-coverage validation passed, with zero missing IDs, extra IDs or errors; equivalent to `annotations.validation.json` with warnings/offset entries in manifest order.
+- `checkpoint.summary.json`: identical to `annotations.summary.json`, with descriptive counts and seeded training-audit candidates generated after the complete draft was hashed. No human audit has been performed; these candidates do not replace the separate post-comparison audit of unanimous inclusions/exclusions. Preliminary periods are not approved evaluation splits.
 - `progress.json`: exact completed and pending IDs for resumption.
 - `prompts_used/`: resolved template prompts and actual session scope/provenance.
 - `human_review_log.md`: pending human review.
 
-The validator checks structure, exact source hashes/quotes, evidence references, all 19 issue topics per case, all 384 passages across the twenty chunks and basic consistency. Passing it does not establish semantic correctness.
+The validator checks structure, exact source hashes/quotes, evidence references, all 19 issue topics per case, all 655 passages across the thirty-four chunks and basic consistency. Passing it does not establish semantic correctness.
 
 ## Independence and next step
 
 No peer outputs, human calibration notes or comparison reports were consulted. A_014 was redone at the user’s request with exposure to its own original draft; this revision is not a fresh independent pass. Other chunks retain their existing provenance. Existing calibration records were not reused. The user's prior exposure to shared answers is unknown; record it before interpreting independent agreement.
 
-Next input is `batches/A/chunks/A_021.md`. Continue with the same full-reading, draft-preservation and per-chunk validation procedure. Do not compare peer answers until the independent round is complete and frozen. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review.
+Next stage: compare batch A once all three independent submissions are complete and frozen, then review disagreements, audit agreements and record actual human decisions before consolidation. No peer comparison, adjudication or batch B annotation has been performed here. All draft labels, including exclusions, unresolved questions and proposed evaluation cases, require the specified human review. Preserve this frozen draft and create versioned successors for later corrections.

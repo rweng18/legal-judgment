@@ -1,0 +1,1647 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9450154",
+    "text_sha256": "e31758d9d7317bb78fc56632fdc2c9f3d4f96f89f4dfb39f126571da8e306581",
+    "input_chunk_id": "A_030",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T09:19:46-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent assistant draft after reading every passage of A_030. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E008"
+      ],
+      "incident_evidence": [
+        "E002",
+        "E008"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "TMC’s appeal concerning the June 21, 2022 denial of dismissal of the complaint and cross-claims.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied TMC’s motion for summary judgment dismissing the complaint and cross-claims against it.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "restaurant",
+      "location": "unclear",
+      "hazards": [
+        "unclear"
+      ],
+      "injured_role": "other",
+      "defendant_roles": [
+        "contractor",
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff’s slip and fall involved the restaurant where she worked, located on premises shared with a hotel. TMC supplied engineers under a service agreement; they responded to restaurant calls about clogged drains and leaking pipes, including in the weeks before the fall. The precise fall location and accident-causing condition are not described.",
+      "evidence_ids": [
+        "E002",
+        "E008"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "TMC failed to eliminate potential vicarious liability because it did not establish that it completely relinquished control of the engineers to the hotel; special-employment status remained a factual issue.",
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "TMC did not address the allegation that its engineers created or worsened the accident-causing hazard; no actual creation finding was made.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "court_addressed",
+        "finding": "The service agreement covered the restaurant/hotel premises, and factual issues remained whether TMC’s engineers launched an instrument of harm in performing services for a contract to which plaintiff was not a party.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "court_addressed",
+        "finding": "Special-employment status remained disputed given retained employer control and contract terms. The hotel’s contractual-indemnification cross-claim survived under quality-assurance and indemnity provisions.",
+        "evidence_ids": [
+          "E003",
+          "E004",
+          "E005",
+          "E009"
+        ]
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Hotel’s engineering director described training, scheduling and daily supervision; TMC did not address evidence of retained general-employer control.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "type": "other",
+        "description": "Service agreement supplied employment, payment, insurance, termination, premises coverage, quality-assurance and indemnity terms. Evidence of restaurant service calls is mentioned without a specific records format.",
+        "evidence_ids": [
+          "E005",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "facts",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E005",
+          "E006",
+          "E007",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The opinion links the slip/fall to the actual restaurant work setting and shared hotel premises with ongoing contracted services, supporting private commercial control without proving title. It does not specify the precise location or whether this fall involved water, a drain or a pipe; hazard stays unclear. other injured role denotes a restaurant worker without inferring employer or employment terms; contractor/other denotes TMC’s service/employer role and hotel operator context, not title. The caption includes cross-appellant designations, but the operative disposition identifies one order denying TMC’s motion; no additional independently appealed order is invented. Affirmance favors plaintiff on the complaint and hotel codefendants on indemnity; favors=plaintiff records the injury claim’s direction. This is substantive negligence review, not third-party-only. Workers’ compensation insurance is a contract term, not a Labor Law claim. This preliminary test-period case is assessed under unchanged rules."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Order, Supreme Court, New York County (Shlomo S. Hagler, J.), entered June 21, 2022, which denied Transition Management Corporation's (TMC) motion for summary judgment dismissing the complaint and any cross-claims against it, unanimously affirmed, without costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "TMC failed to establish prima facie that the engineers it contracted to provide to defendant 44 Lexington Associates, LLC (hotel) were special employees of the hotel and that it cannot be held vicariously liable for plaintiff's slip and fall based on the alleged negligence of the engineers",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "quote": "There was no affirmative showing by TMC that complete and exclusive control of the engineers was relinquished by TMC and assumed by the hotel",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "While the hotel's director of engineering testified that he trained, scheduled, and had day-to-day control of the engineers without any input from TMC, TMC failed to address the record evidence that it retained control and continued as the general employer of the engineers, including the right to terminate their employment.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P003",
+        "quote": "As noted by Supreme Court, the service agreement, which defined the engineers as TMC's employees, guaranteed the quality of the work performed by the engineers, required TMC to pay the engineers, carry workers' compensation and general liability insurance on behalf of the hotel, and permitted TMC to terminate employees by following the hotel's termination policy, raise a question of fact as to whether the engineers were special employees of the hotel",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "quote": "Issues of fact also exist as to whether TMC's employees launched a force or instrument of harm in failing to exercise reasonable care in the performance of their services under the service agreement, to which plaintiff was not a party",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "quote": "TMC failed to address plaintiff's allegation that its employees created or exacerbated the alleged hazard that caused her accident",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P004",
+        "quote": "Contrary to TMC's contention that the service agreement did not cover the restaurant where plaintiff worked, the contract provided services to the premises where both the restaurant and hotel are located. In any event, TMC does not dispute the evidence that its engineers regularly responded to the restaurant's calls regarding clogged drains and leaking pipes, including in the weeks before plaintiff's slip and fall",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P004",
+        "quote": "Moreover, in the service agreement, TMC explicitly provides quality assurance for its services and indemnifies the hotel for liabilities arising from its services. In view of the foregoing, codefendants' cross-claim for contractual indemnification against TMC survives.",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9384311",
+    "text_sha256": "10493d75c363a8b862aac030d955199b0d0d6dca529531e7f1421b75633ffb86",
+    "input_chunk_id": "A_030",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T09:19:46-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent assistant draft after reading every passage of A_030. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E005"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E005"
+      ],
+      "scope_evidence": [
+        "E007",
+        "E008",
+        "E009",
+        "E010"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Defendant’s appeal from the February 15, 2022 denial of summary judgment.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendant’s motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E004",
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "entrance",
+      "hazards": [
+        "obstruction"
+      ],
+      "injured_role": "employee",
+      "defendant_roles": [
+        "unclear"
+      ],
+      "accident_date": null,
+      "factual_summary": "While making a delivery in September 2019, plaintiff walked backward pulling his employer’s bulk cart through defendant’s store receiving entrance and allegedly tripped over pallet-jack forks near the doorway. He described an unusual charging location in an area meant to remain unobstructed; the record attributes placement there to defendant’s employees.",
+      "evidence_ids": [
+        "E002",
+        "E003",
+        "E005",
+        "E006",
+        "E010"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Defendant failed to show reasonably safe maintenance because the pallet jack’s dangerousness depended on its placement near the receiving entrance and surrounding circumstances.",
+        "evidence_ids": [
+          "E007",
+          "E009"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "The record established placement by defendant’s employees; defendant failed to establish noncreation, making the notice requirement inapplicable.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The court treated notice as unnecessary given the employees’ placement of the pallet jack; it did not separately find actual notice.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The notice requirement was inapplicable because of employee placement; no duration-based constructive-notice holding was made.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "court_addressed",
+        "finding": "Obviousness and plaintiff’s familiarity did not establish freedom from fault; defendant failed to eliminate issues concerning inherent danger in this location.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009",
+          "E013"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "The sole-proximate-cause defense based on backward entry failed to eliminate defendant’s potential fault in leaving the obstruction by the entrance.",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E008",
+          "E013"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "court_addressed",
+        "finding": "Walking backward and prior familiarity could bear on plaintiff’s comparative negligence but did not establish defendant’s lack of fault; no fault percentage was assigned.",
+        "evidence_ids": [
+          "E008",
+          "E013"
+        ]
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff’s deposition described the cart, backward entry, prior deliveries and unusual pallet-jack placement.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Defendant’s employee confirmed the charging location and said the battery likely died the previous night; the probability qualification is retained.",
+        "evidence_ids": [
+          "E006"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      },
+      {
+        "passage_id": "P007",
+        "types": [
+          "current_outcome"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E011",
+          "E012"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The actual store receiving interior and employee access/control support private premises; legal ownership/tenancy is unstated. Employee role refers to plaintiff’s expressly identified employer, not defendant. September 2019 is month only. The source says “where defendant had tripped” in P004; the surrounding narrative clearly identifies plaintiff as the faller, so the exact quotation is preserved and the isolated apparent typo does not create outcome uncertainty. Likely battery depletion is not a confirmed timestamp or duration. The required-clear-area account is not a code-violation ruling. This preliminary test-period case is assessed under unchanged rules."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P007",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "Plaintiff commenced this action to recover for personal injuries he sustained in September 2019 while completing a delivery at defendant's premises located in the Town of Patterson, Putnam County.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "quote": "Specifically, plaintiff alleges that he suffered injuries when he tripped over a pallet jack that had been left in an area just inside defendant's store delivery entrance and that it was defendant's failure to maintain its premises in a reasonably safe condition that caused his trip and fall.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "McShan, J. Appeal from an order of the Supreme Court (James P. Gilpatric, J.), entered February 15, 2022, in Ulster County, which denied defendant's motion for summary judgment dismissing the complaint.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P004",
+        "quote": "At his deposition, plaintiff testified that, on the date of his fall, he retrieved a bulk cart provided by his employer and kept on defendant's premises, loaded the cart and proceeded up a ramp to the entrance of defendant's receiving area. After defendant's employee opened the door, plaintiff entered walking backwards, which was necessary based upon, among other reasons, the size of his cart and the orientation of the door, which he held open to maneuver the cart through the doorway. While he was walking backwards and pulling the cart, plaintiff tripped over the forks of a pallet jack that protruded into the receiving area near the doorway.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P004",
+        "quote": "Although plaintiff had previously observed pallet jacks in various locations [*2] throughout defendant's receiving area during prior deliveries, plaintiff explained that on this occasion the pallet jack was not in its normal charging location and had instead been left in an area that was required to be free of obstructions. Defendant's employee confirmed that the pallet jack had been left charging in the location where defendant had tripped over it and that the battery had likely died the night before.",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P005",
+        "quote": "we find that \"defendant[ ] failed to eliminate all triable issues of fact as to whether the pallet jack was inherently dangerous, and failed to establish prima facie that [it] maintained the premises in a reasonably safe condition\"",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P005",
+        "quote": "Plaintiff's familiarity with the presence of pallet jacks in defendant's store and his decision to enter the doorway walking backwards are factors that may be considered with respect to plaintiff's comparative negligence, but do not establish that defendant was free from fault as a matter of law",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P006",
+        "quote": "We likewise reject defendant's contention that the pallet jack was not inherently dangerous, as the determination of that issue is dependent on the totality of the surrounding circumstances, including the proximity of the pallet jack to the entryway of the receiving area",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P006",
+        "quote": "Finally, as the record establishes that the pallet jack was left in its location by defendant's employees, defendant failed to establish that it did not create the dangerous condition rendering the notice requirement inapplicable",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P006",
+        "quote": "Accordingly, we find that Supreme Court's denial of defendant's motion for summary judgment dismissing the complaint was proper.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P002",
+        "quote": "Supreme Court denied defendant's motion, and defendant appeals. We affirm.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E013",
+        "passage_id": "P005",
+        "quote": "Defendant contends that it bore no responsibility for plaintiff's fall, as his decision to enter the store backwards was the sole proximate cause of his accident and, in any event, the pallet jack was an open and obvious condition and was not inherently dangerous.",
+        "statement_status": "party_argument"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4477314",
+    "text_sha256": "e8ca790ed85d73ebe79236fb1afcf712328833c2be56986351cdac2e239cdd50",
+    "input_chunk_id": "A_030",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T09:19:46-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent assistant draft after reading every passage of A_030. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E005",
+        "E006",
+        "E007"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Plaintiff’s appeal from the November 10, 2016 summary-judgment dismissal.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendants’ motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E003",
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "obstruction"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "unclear"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly tripped on a directory sign’s base at defendants’ Brooklyn store. After passing the sign, returning and stopping to check her direction, she allegedly fell while stepping away from it.",
+      "evidence_ids": [
+        "E002",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "court_addressed",
+        "finding": "Defendants established that the directory-sign base was open and obvious and not inherently dangerous; plaintiff raised no triable issue.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff’s opposing expert affidavit was speculative and conclusory and did not raise a triable issue; the opinion does not state the expert’s underlying theory.",
+        "evidence_ids": [
+          "E007"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "expert_evidence",
+        "description": "Plaintiff submitted an expert affidavit rejected as speculative/conclusory; no particular measurement or inspection is identified.",
+        "evidence_ids": [
+          "E007"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The store directory setting supports private retail control without proving title or lease roles. Injured customer status and accident date are unstated. indoor_floor reflects the store directory setting. No sign dimensions, expert credentials or particular methodology is supplied. Plaintiff’s attention to the directory is a fact, not an adjudicated distraction/visibility exception or comparative-fault finding. No specific evidence formats are inferred beyond the expert affidavit."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "The plaintiff allegedly tripped and fell on the base of a directory sign at the defendants' store in Brooklyn. Just prior to the incident, the plaintiff allegedly walked past the directory sign, then walked back and stopped in front of the sign to verify that she was heading in the right direction.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Kings County (Silber, J.), dated November 10, 2016, which granted the defendants' motion for summary judgment dismissing the complaint.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "She then allegedly tripped and fell on the base as she attempted to step away from the sign.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "quote": "The defendants established their prima facie entitlement to judgment as a matter of law by demonstrating that the base of the directory sign was open and obvious and not inherently dangerous",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "quote": "In opposition, the plaintiff failed to raise a triable issue of fact.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "quote": "The expert affidavit submitted by the plaintiff in opposition to the motion was speculative and conclusory, and insufficient to raise a triable issue of fact",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "quote": "Accordingly, the Supreme Court properly granted the defendants' motion for [*2] summary judgment dismissing the complaint.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6000999",
+    "text_sha256": "cd1550526a50ba7b2a2d636deb907bff1e1dfe8e50bb5be1d436859fe1717798",
+    "input_chunk_id": "A_030",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T09:19:46-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent assistant draft after reading every passage of A_030. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "other"
+      ],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Defendants’ separate limited appeals from the same June 24, 2011 order.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied the manufacturers’ and installer/servicer’s separate summary-judgment motions on the complaint and cross claims against them.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E003",
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "other",
+      "defendant_roles": [
+        "other",
+        "contractor"
+      ],
+      "accident_date": "2006-06-24",
+      "factual_summary": "On June 24, 2006, plaintiff was working behind a supermarket deli counter when he allegedly slipped on pooled water, which he attributed to two nearby refrigeration units. He sued the units’ designers/manufacturers and their installer/servicer.",
+      "evidence_ids": [
+        "E002"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Defendants failed to exclude the refrigeration units as the water source. Plaintiff’s testimony was not incredible as a matter of law, and evidentiary conflicts were for the factfinder.",
+        "evidence_ids": [
+          "E004",
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "The challenge to plaintiff’s deposition credibility did not eliminate factual issues; summary judgment remained unavailable without reaching opposition sufficiency.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff’s deposition was challenged as incredible, but the court held conflicts raised factual questions. Other submitted proof formats are unspecified.",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E007",
+          "E006"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "other"
+      ],
+      "notes": "The actual supermarket deli interior establishes private commercial control and an explicit slip/fall. The claim is against designers/manufacturers and an installer/servicer, but the supplied opinion does not identify negligence versus strict products liability or another theory. Scope under the private-premises negligence codebook therefore needs review; no definite exclusion or negligence theory is invented. Merits are substantive and the whole affirmance is clear. Multiple defendants filed separate appeals/motions concerning one order, so multiple_orders=false. other injured role preserves working status without inferring employee/contractor terms; other defendant role denotes designers/manufacturers. No defect, negligent installation, contractual duty or source of water was conclusively established. The fact that cross claims are also resolved does not make this third-party-only."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with one bill of costs payable by the defendants appearing separately and filing separate briefs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "On June 24, 2006, the plaintiff was working behind the deli counter in a supermarket when he allegedly slipped and fell on an accumulation of water on the floor. According to the plaintiff, the water came from two nearby refrigeration units. The plaintiff commenced this action to recover damages for personal injuries against the defendants Kysor/Warren and Enodis PLC, which designed and manufactured the refrigeration units, and Expert Mechanical Contracting Co., Inc., which installed and serviced them.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for personal injuries, the defendants Kysor/Warren and Enodis PLC appeal, and the defendant Expert Mechanical Contracting Co., Inc., separately appeals, as limited by their briefs, from so much of an order of the Supreme Court, Nassau County (Mahon, J.), entered June 24, 2011, as denied their separate motions for summary judgment dismissing the complaint and all cross claims insofar as asserted against them.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "The evidence submitted by the defendants did not establish, as a matter of law, that the water upon which the plaintiff slipped did not come from the refrigeration units.",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "quote": "Contrary to the defendants’ contentions, the plaintiffs deposition testimony was not incredible as a matter of law, and any conflict in the testimony or evidence presented merely raised an issue of fact for the factfinder to resolve",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "quote": "Accordingly, the separate motions of the defendants for summary judgment dismissing the complaint and cross claims insofar as asserted against each of them were properly denied, regardless of the sufficiency of the plaintiffs opposing papers",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "The defendants appeal and we affirm.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5992264",
+    "text_sha256": "56c81ff5a6fbd0ce0ad5fcb9a87d112a318438e2330a9571ba12a1091479c73d",
+    "input_chunk_id": "A_030",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-10-21T09:19:46-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent assistant draft after reading every passage of A_030. No peer annotations, previous labels for these cases, or independent human notes consulted. Initial codebook/prompt 1.0.0; no substantive team freeze is recorded. No human review performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Defendants’ limited appeal from the December 14, 2010 denial of dismissal against them.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied the branch of appellants’ motion seeking summary judgment dismissing the complaint against them.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E003",
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "unclear",
+      "hazards": [
+        "unclear"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "unclear"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped and fell on premises owned by Frank Norberto, Jr. The opinion does not state the accident’s precise location, hazard or date.",
+      "evidence_ids": [
+        "E002"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Appellants failed to establish that plaintiff could not identify the cause of the fall; the court did not identify the cause itself and did not need to reach opposition sufficiency.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E006"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Express ownership of the actual premises and a stated slip/fall support inclusion despite sparse factual detail. Only Frank Norberto’s ownership is identified; the other appellants’ legal roles remain unclear. The pool-related corporate names do not establish a pool accident or property subtype. The failed inability-to-identify defense does not affirmatively identify a hazard, so hazards/location stay unclear. No deposition or other evidence format is stated. Generic creation/notice standards do not establish specific holdings. The prior-case-history citation is not another current order; the limited appeal is wholly affirmed."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "In this action to recover damages for personal injuries allegedly sustained by the plaintiff when she slipped and fell on premises owned by the defendant Frank Norberto, Jr., the ap *823 pellants moved, inter alia, for summary judgment dismissing the complaint insofar as asserted against them on the ground that the plaintiff was unable to identify what had caused her to fall.",
+        "statement_status": "allegation"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for personal injuries, the defendants Frank Norberto, Jr., Norberto Inc., “LMN” Inc., doing business as Norberto Pools, Inc., and Norberto Pools, Inc., appeal, as limited by their brief, from so much of an order of the Supreme Court, Suffolk County (Farneti, J.), dated December 14, 2010, as denied that branch of their motion which was for summary judgment dismissing the complaint insofar as asserted against them.",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "Here, the appellants failed to meet their burden of demonstrating, prima facie, that the plaintiff was unable to identify the cause of her accident",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P003",
+        "quote": "Since the appellants failed to meet their initial burden, we need not consider the sufficiency of the plaintiffs opposition papers",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "quote": "Accordingly, the Supreme Court properly denied that branch of the appellants’ motion which was for summary judgment dismissing the complaint insofar as asserted against them.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  }
+]

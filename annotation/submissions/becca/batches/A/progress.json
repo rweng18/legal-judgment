@@ -1,7 +1,7 @@
 {
   "reviewer_id": "becca",
   "batch": "A",
-  "status": "partial_llm_draft",
+  "status": "complete_llm_draft",
   "completed_chunks": [
     "A_001",
     "A_002",
@@ -22,9 +22,7 @@
     "A_017",
     "A_018",
     "A_019",
-    "A_020"
-  ],
-  "pending_chunks": [
+    "A_020",
     "A_021",
     "A_022",
     "A_023",
@@ -40,6 +38,7 @@
     "A_033",
     "A_034"
   ],
+  "pending_chunks": [],
   "completed_case_ids": [
     "NY-4600405",
     "NY-4253165",
@@ -140,9 +139,7 @@
     "NY-2813813",
     "NY-5302167",
     "NY-4546774",
-    "NY-10309802"
-  ],
-  "pending_case_ids": [
+    "NY-10309802",
     "NY-4538463",
     "NY-9387720",
     "NY-4847464",
@@ -213,7 +210,8 @@
     "NY-2813789",
     "NY-2811365"
   ],
-  "next_chunk": "A_021",
+  "pending_case_ids": [],
+  "next_chunk": null,
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
@@ -238,6 +236,26 @@
     "A_017": "0f210614ba6f207c80f320ed44d35fa451d2bb77f1a5c19b3840c0382541d705",
     "A_018": "467c81cd48e0312e226fb1d0c2a630e83d44bd2f3ff2b6668ddfedb7b5f0218a",
     "A_019": "280967c9eaf4e845bbb9e11bc3006f8b892e38976d240df3912927fb4df9f168",
-    "A_020": "45258e37482f0bf4d58e1093f96e6056cd8e7be28432cad43efeb1f69f5683ed"
-  }
+    "A_020": "45258e37482f0bf4d58e1093f96e6056cd8e7be28432cad43efeb1f69f5683ed",
+    "A_021": "1d39dae6b961028b394bc1ca2df21f1edeb8e1efa4d498852230bf2ca4bb4c7f",
+    "A_022": "d8f6af362f4114f6f4df4a82b0f9f51d44efd0a54cde517c069e74ce1aa01994",
+    "A_023": "71c71decbcf349c0298439f398d92834cb187dba0da382f72b9ca2286e49803c",
+    "A_024": "54245a868ba26bbf121ac75521a15f5c018905b0ae5149b904fb7ce53e633de8",
+    "A_025": "f61f1318f3cbeb85f7237dc313ff771751b17724a4fdf123275e1a895778bd3f",
+    "A_026": "784bc0dba224c4c4c00d713128c6a56a972c20d191e0ab42b710c7f87f16bed3",
+    "A_027": "ffee005f88d4b804774f1340c4974b0429104b34d41a955272442761870167bc",
+    "A_028": "df322232325a535abff5573b30fe3c6dd766c6972dfdfb0f19ab089cee677385",
+    "A_029": "b63928784d6d0bc6163fec1d8062e8d0daa962f68549490bdb29e0cda68bae74",
+    "A_030": "fd8cfa163f91a76b26143515b7ebdfe028e4fbc0bed27a29c7bc86540693f473",
+    "A_031": "1443623aeede50cc8f12a7b181aef24a843d1ca8a50f01639f8b141804a2d5a9",
+    "A_032": "a4547b392a4f5cd663e293827f5b7b36fb31d69189ea326b536933e01ae44a64",
+    "A_033": "f8819498d7fa6242f402b16a855205935be8f713172d403f1de875c410e8d53e",
+    "A_034": "95384d7db4394d3c341a28e89d6e9b51107a2c7d24b82416fc296239d13843c6"
+  },
+  "annotations_file": "annotations.jsonl",
+  "annotations_sha256": "6c45e40b731ee8ea9620510964332d1a7343c0c6e143ca23b7e97d262402e2c6",
+  "freeze_file": "independent_freeze.json",
+  "independent_draft_frozen": true,
+  "peer_comparison_complete": false,
+  "next_step": "Compare frozen complete batch A submissions, then human review and consolidation; do not begin B before the A comparison stage."
 }

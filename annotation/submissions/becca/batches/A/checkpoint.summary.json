@@ -1,33 +1,33 @@
 {
-  "annotated_cases": 100,
+  "annotated_cases": 169,
   "eligibility": {
-    "include": 71,
-    "review": 21,
-    "exclude": 8
+    "include": 119,
+    "review": 39,
+    "exclude": 11
   },
   "outcomes_all_cases": {
-    "affirmed": 65,
-    "reversed": 35
+    "affirmed": 112,
+    "reversed": 57
   },
   "included_class_counts": {
-    "0": 45,
-    "1": 26
+    "0": 78,
+    "1": 41
   },
   "review_status": {
-    "llm_draft": 100
+    "llm_draft": 169
   },
   "planned_period_class_counts": {
     "train": {
-      "0": 34,
-      "1": 18
+      "0": 58,
+      "1": 28
     },
     "validation": {
-      "0": 6,
-      "1": 5
+      "0": 8,
+      "1": 8
     },
     "test": {
-      "0": 5,
-      "1": 3
+      "0": 12,
+      "1": 5
     }
   },
   "needs_review": [
@@ -38,50 +38,76 @@
     "NY-3165370",
     "NY-3171229",
     "NY-3176773",
+    "NY-3200070",
     "NY-4259140",
+    "NY-4377828",
     "NY-4390617",
+    "NY-4398097",
     "NY-4430662",
     "NY-4479663",
+    "NY-4506844",
     "NY-4518184",
     "NY-4585467",
+    "NY-4658269",
+    "NY-4666350",
     "NY-4668292",
+    "NY-4801155",
+    "NY-4835234",
     "NY-4842524",
+    "NY-4847464",
+    "NY-4849013",
+    "NY-4855524",
+    "NY-5939720",
     "NY-5954430",
     "NY-5964060",
+    "NY-5992292",
+    "NY-6000999",
+    "NY-6079339",
+    "NY-6108848",
     "NY-6349426",
     "NY-7857611",
     "NY-9389937",
-    "NY-9422110"
+    "NY-9422110",
+    "NY-9494417",
+    "NY-9880219"
   ],
   "unknown_field_counts": {
-    "premises_type": 26,
-    "location": 2,
-    "injured_role": 74
+    "premises_type": 51,
+    "location": 8,
+    "injured_role": 123
   },
   "accepted_words": {
-    "min": 172,
-    "median": 596,
-    "mean": 613.3661971830986,
-    "max": 1498
+    "min": 157,
+    "median": 582,
+    "mean": 628.4957983193277,
+    "max": 1900
   },
   "random_training_audit_ids": [
-    "NY-5952291",
-    "NY-4600405",
     "NY-6052809",
-    "NY-3169329",
-    "NY-4375829",
-    "NY-4840329"
+    "NY-4626387",
+    "NY-4253165",
+    "NY-4453479",
+    "NY-5944043",
+    "NY-5992264",
+    "NY-4600405",
+    "NY-4551400",
+    "NY-2719389"
   ],
   "audit_seed": 20261019,
   "evaluation_needing_human_review": [
     "NY-10090934",
     "NY-10120884",
     "NY-10128963",
+    "NY-10160793",
     "NY-10291100",
     "NY-10309802",
+    "NY-4847464",
+    "NY-4849013",
     "NY-4849014",
+    "NY-4855524",
     "NY-4869542",
     "NY-4898836",
+    "NY-4929051",
     "NY-5302167",
     "NY-5304378",
     "NY-6349426",
@@ -91,13 +117,28 @@
     "NY-7855719",
     "NY-7857572",
     "NY-7857611",
+    "NY-7859429",
+    "NY-8435765",
     "NY-8440757",
     "NY-9329602",
+    "NY-9355447",
+    "NY-9355453",
+    "NY-9357935",
     "NY-9374007",
+    "NY-9384311",
+    "NY-9387720",
     "NY-9389937",
+    "NY-9395478",
+    "NY-9404821",
+    "NY-9411645",
+    "NY-9417787",
     "NY-9422110",
     "NY-9430103",
-    "NY-9496698"
+    "NY-9450154",
+    "NY-9483727",
+    "NY-9494417",
+    "NY-9496698",
+    "NY-9880219"
   ],
   "note": "Availability and annotation statistics, not classifier metrics. Freeze merged version before drawing the training audit. Family grouping remains required."
 }
