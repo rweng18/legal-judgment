@@ -7,7 +7,9 @@ ROOT=OUT.parents[3]
 sys.path.insert(0,str(ROOT/'scripts'))
 from common import read_records,validate,dump,write_jsonl
 
-def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def sha(path):
+ # Git/Windows checkouts may convert LF/CRLF; hash the same UTF-8 text everywhere.
+ return hashlib.sha256(path.read_text(encoding='utf8').encode('utf8')).hexdigest()
 source={r['case_id']:r for r in read_records(ROOT/'source/cases.jsonl')}
 expected=json.loads((ROOT/'batches/A/manifest.json').read_text(encoding='utf8'))['case_ids']
 files=[OUT/f'chunks/A_{i:03d}.json' for i in range(1,35)]
@@ -32,6 +34,8 @@ dump(OUT/'annotations.summary.json',summary)
 inputs=['AGENTS.md','README.md','docs/CODEBOOK.md','docs/CHATGPT_WORKFLOW.md','docs/QUALITY_CONTROL.md','docs/DECISIONS.md','schema/annotation.schema.json','prompts/ANNOTATE_CHUNK.md','batches/A/manifest.json','source/cases.jsonl']
 inputs += [f'batches/A/chunks/A_{i:03d}.md' for i in range(1,35)]
 provenance={'reviewer_id':'yinkui','round':'A','publication_date_local':'2026-10-21','timezone':'America/New_York','annotation_base_commit':'b8a54a2','packaging_base_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT.parent,text=True).strip(),'schema_version':'1.0.0','prompt_version':'1.0.0','model_name':sorted(set(r['run']['model_name'] for r in rows)),'model_version':None,'annotation_time_min':min(r['run']['annotated_at'] for r in rows),'annotation_time_max':max(r['run']['annotated_at'] for r in rows),'method':'Interactive Codex read every supplied passage and authored semantic values and exact evidence selections in per-chunk Python scripts. Helper code serialized and validated those choices. No external model API or subagents used.','peer_batch_A_labels_read':False,'peer_directory_structure_checked':True,'calibration_exposure_ids':overlap,'calibration_exposure_rule':'Previously compared calibration cases are not fresh blinded labels; keep training-only in subsequent experiments.','team_substantive_freeze_pending':True,'human_review_completed':False,'input_sha256':{p:sha(ROOT/p) for p in inputs}}
+dump(OUT/'provenance.json',provenance)
+provenance['hash_normalization']='UTF-8 text with universal newlines normalized to LF before SHA-256; source case text_sha256 values are unchanged.'
 dump(OUT/'provenance.json',provenance)
 promptdir=OUT/'prompts_used';promptdir.mkdir(exist_ok=True)
 shutil.copyfile(ROOT/'prompts/ANNOTATE_CHUNK.md',promptdir/'ANNOTATE_CHUNK_v1.0.0.md')
@@ -100,6 +104,8 @@ python annotation/scripts/validate_annotations.py annotation/submissions/yinkui/
 `authoring/finalize_submission.py` packages existing selected chunks and validates them; it does not infer labels. Original per-chunk authoring scripts refuse to overwrite existing drafts.
 ''',encoding='utf8')
 freeze={'reviewer_id':'yinkui','round':'A','frozen_date_local':'2026-10-21','complete_records':169,'independence':'No peer production labels read; calibration exposure logged in provenance.','human_review_completed':False,'sha256':{str(p.relative_to(OUT)).replace('\\','/'):sha(p) for p in sorted(OUT.rglob('*')) if p.is_file() and p.name!='independent_freeze.json' and '__pycache__' not in p.parts and p.suffix!='.pyc'}}
+dump(OUT/'independent_freeze.json',freeze)
+freeze['hash_normalization']=provenance['hash_normalization']
 dump(OUT/'independent_freeze.json',freeze)
 print(json.dumps(summary,indent=2))
 print('Full validation passed; drafts preserved; all 169 checkpoint records match selected chunks.')
