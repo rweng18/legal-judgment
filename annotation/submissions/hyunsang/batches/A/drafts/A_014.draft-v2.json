@@ -1,0 +1,1497 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-10090934",
+    "text_sha256": "c078091458edcf00c1d179dda3847cbf3602f2004bf9c8990c5d3027bea81683",
+    "input_chunk_id": "A_014",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:40:24.538293-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_014.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E004"
+      ],
+      "orders": [
+        {
+          "description": "Granted defendant summary judgment.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendant summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E004"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "other",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff stepped off cleared driveway and slipped on snow/ice while crossing backyard to garbage pails.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "No duty to clear backyard not intended for traversal.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "court_addressed",
+        "finding": "Snow/ice open/obvious and not inherently dangerous.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition established prior knowledge and off-driveway route.",
+        "evidence_ids": [
+          "E002"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Kerr-Inniss v Williams (2024 NY Slip Op 04309) Kerr-Inniss v Williams 2024 NY Slip Op 04309 [230 AD3d 749] August 28, 2024 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, October 2, 2024 [*1] Jodian Kerr-Inniss, Appellant, v Ray Williams, Respondent. David Resnick & Associates, P.C. (Monier Law Firm, PLLC, New York, NY [Philip Monier III], of counsel), for appellant. Kelly, Rode & Kelly, LLP, Mineola, NY (Eric P. Tosca of counsel), for respondent. In an action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Queens County (Pam B. Jackman-Brown, J.), entered May 16, 2023. The order granted the defendant's motion for summary judgment dismissing the complaint. Ordered that the order is affirmed, with costs. The plaintiff allegedly was injured when she slipped and fell on snow and ice along a snow-covered backyard area on the defendant's premises. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "The plaintiff's deposition testimony established that she had seen the snow and ice condition prior to her fall and that she had stepped off the defendant's cleared driveway to traverse the snow-covered backyard area to access garbage pails in the rear of the premises. The defendant moved for summary judgment dismissing the complaint. In an order entered May 16, 2023, the Supreme Court granted the defendant's motion. The plaintiff appeals, and we affirm. A property owner has a duty to maintain its premises in a reasonably safe condition ( see Basso v Miller , 40 NY2d 233, 241 [1976]). \"The scope of that duty is defined by 'the foreseeability of the possible harm' \" ( Aloi v Dubriske , 203 AD3d 998 , 999 [2022], quoting Tagle v Jakob , 97 NY2d 165, 168 [2001]). \"However, there is no duty to protect or warn of conditions that are not inherently dangerous and that are readily observable by the reasonable use of one's senses\" ( Costidis v City of New York , 159 AD3d 871 , 871 [2018]; see Martinez v Fairfield Hills E., LLC , 213 AD3d 837 , 837 [2023]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Here, the defendant demonstrated his prima facie entitlement to judgment as a matter of law dismissing the complaint by establishing that he had no duty to remedy the snow and ice condition along the backyard area, which was not intended to be traversed ( see Grosskopf v Beechwood Org. , 166 AD3d 860 , 860 [2018]; Belo-Osagie v Starrett City Assn. , 41 AD3d 521 , 521 [2007]; Wesolowski v Wesolowski , 306 AD2d 402 [2003]), and that the snow and ice condition was open and obvious, and not inherently dangerous ( see De Chica v Saldana , 153 AD3d 782 , 783 [2017]). In opposition, the plaintiff failed to raise a triable issue of fact ( see Alvarez v Prospect Hosp. , 68 NY2d 320, 324 [1986]). Accordingly, the Supreme Court properly granted the defendant's motion for summary judgment dismissing the complaint. [*2] In light of our determination, we need not reach the parties' remaining contentions. Connolly, J.P., Wooten, Dowling and Love, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2767644",
+    "text_sha256": "32c0b91c76a008fcb41a944900fbca1541865ff0b38ffb09ae952e4e561d76d1",
+    "input_chunk_id": "A_014",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:40:24.538369-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_014.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E005"
+      ],
+      "orders": [
+        {
+          "description": "Granted defendant summary judgment as limited by briefs.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendant summary judgment as limited by briefs.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E005"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "stairs",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped on icy front steps of defendant building around 11:30 a.m.; days-old ice and storm lull disputed.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Notice of preexisting ice unresolved.",
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "General procedures insufficient without specific inspection/cleaning.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "court_addressed",
+        "finding": "Weather data/video leave significant lull and reasonable clearing opportunity triable.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Meteorology opinion/data do not eliminate old ice or lull.",
+        "evidence_ids": [
+          "E002",
+          "E004"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "expert_evidence",
+        "description": "Certified meteorologist affidavit considered.",
+        "evidence_ids": [
+          "E002",
+          "E004"
+        ]
+      },
+      {
+        "type": "weather_records",
+        "description": "Annexed data showed potential three-hour lull.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "type": "surveillance",
+        "description": "Video no precipitation at fall.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff described days-old ice.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Son and superintendent testimony considered.",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Defendant superintendent manages/cleans building front steps, supporting private control."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ndiaye v NEP W. 119th St. LP (2015 NY Slip Op 00279) Ndiaye v NEP W. 119th St. LP 2015 NY Slip Op 00279 [124 AD3d 427] January 8, 2015 Appellate Division, First Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, March 4, 2015 [*1] Fama Ndiaye, Appellant, v NEP West 119th Street LP, Respondent. Peña & Kahn, PLLC, Bronx (Diane Welch Bando of counsel), for appellant. Rosenbaum & Taylor, P.C., White Plains (Scott Taylor of counsel), for respondent. Order, Supreme Court, New York County (Milton A. Tingling, J.), entered August 9, 2013, which, insofar as appealed from as limited by the briefs, granted defendant's motion for summary judgment dismissing the complaint, unanimously reversed, on the law, without costs, and the motion denied. Plaintiff seeks damages for injuries she allegedly suffered when she slipped and fell on ice on the front steps of defendant's building. Defendant contends that it is not liable for failing to remedy the dangerous condition because there was a storm in progress at the time of the accident ( see Pippo v City of New York , 43 AD3d 303 , 304 [1st Dept 2007]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Upon our review of the record, issues of fact exist as to the applicability of the storm in progress rule. In support of its motion, defendant submitted an affidavit by a certified meteorologist who stated, based on weather data annexed to the affidavit, that on the day of plaintiff's accident, from midnight until approximately 2:00 p.m., a winter storm was occurring. Plaintiff's accident happened at approximately 11:30 a.m. However, the weather data from one of the three location sources on which the meteorologist based his analysis also shows that the last (light) snow fall ceased at 6:25 a.m. on the day of the accident and that freezing rain fell until 8:27 a.m. and did not start falling again until 11:35 a.m. A surveillance video shows that there was no precipitation at the time of plaintiff's fall. Although \"a temporary lull or break in the storm at the time of the accident would not necessarily establish a reasonable opportunity to clear away the hazard[,] . . . ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "if the storm has passed and precipitation has tailed off to such an extent that there is no longer any appreciable accumulation, then the rationale for continued delay abates, and [common sense] would dictate that the [storm in progress] rule not be applied\" ( Powell v MLG Hillside Assoc. , 290 AD2d 345, 345-346 [1st Dept 2002]). Here, triable issues of fact exist as to whether plaintiff's accident occurred while the storm was still in progress or whether there was a significant lull in the storm, and whether the three hours that elapsed between the last freezing rain and plaintiff's accident afforded defendant a reasonable opportunity to clear the steps ( see Vosper v Fives 160th, LLC , 110 AD3d 544 , 544-545 [1st Dept 2013] ; Pipero v New York City Tr. Auth. , 69 AD3d 493 [1st Dept 2010]). Moreover, the record presents triable issues of fact as to whether the icy condition that [*2] caused plaintiff's fall existed prior to the storm, and whether defendants lacked notice of the preexisting condition ( see Penn v 57-63 Wadsworth Terrace Holding, LLC , 112 AD3d 426 [1st Dept 2013]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "The affidavit of defendant's expert states that at the start of the day on which the accident occurred \"approximately 17 inches of snow and ice cover was present on untreated, undisturbed and exposed outdoor surfaces in the vicinity of the subject area.\" While the expert states that frozen precipitation fell intermittently during the day of the accident, he did not state that the alleged icy condition on the steps resulted from that precipitation and not from remnants of ice that may have remained on the steps from the prior snowfalls. Furthermore, plaintiff and her son testified that the steps had been icy for some days before the accident. Defendant submitted no evidence as to when the steps had last been inspected or cleaned of snow and ice or as to the condition of the steps on the day of the accident or the days immediately preceding it. Its superintendent's testimony about its general cleaning procedures alone is insufficient to establish that defendant lacked notice of the alleged condition before the accident ( Mike v 91 Payson Owners Corp. , 114 AD3d 420 [1st Dept 2014]). Concur—Mazzarelli, J.P., Renwick, Andrias, Saxe and Kapnick, JJ.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "quote": "unanimously reversed, on the law, without costs, and the motion denied.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-3182111",
+    "text_sha256": "f04034335da937cfe1f99b7a692a2e0a86f5caa112d034db6399d1399ea71809",
+    "input_chunk_id": "A_014",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:40:24.538414-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_014.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E004"
+      ],
+      "orders": [
+        {
+          "description": "Granted defendant summary judgment.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendant summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E004"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "entrance",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped on water from ceiling leak in lobby of defendant-owned cooperative apartment building.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Defense demonstrated no creation/notice; plaintiff raised no triable issue.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Defense demonstrated no creation/notice; plaintiff raised no triable issue.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Defense demonstrated no creation/notice; plaintiff raised no triable issue.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "General recurring-problem awareness insufficient particular-condition notice.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Gurley v Rochdale Vil., Inc. (2016 NY Slip Op 01467) Gurley v Rochdale Vil., Inc. 2016 NY Slip Op 01467 [137 AD3d 749] March 2, 2016 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, April 27, 2016 [*1] Candice N. Gurley, Appellant, v Rochdale Village, Inc., Respondent. Rubenstein & Rynecki, Brooklyn, NY (Harper A. Smith of counsel), for appellant. Morris Duffy Alonso & Faley, LLP, New York, NY (Arjay G. Yao, Kevin G. Faley, and Leigh H. Sutton of counsel), for respondent. In an action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Queens County (Lebowitz, J.), dated March 24, 2014, which granted the defendant's motion for summary judgment dismissing the complaint. Ordered that the order is affirmed, with costs. The plaintiff allegedly sustained injuries when she slipped and fell in the lobby of a cooperative apartment building owned by the defendant. She alleged that she slipped on water that had leaked from the ceiling of the lobby. The defendant moved for summary judgment dismissing the complaint. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "The Supreme Court granted the motion, and the plaintiff appeals. The defendant established its prima facie entitlement to judgment as a matter of law by submitting evidence demonstrating that it neither created nor had actual or constructive notice of the water in the lobby ( see Mehta v Stop & Shop Supermarket Co., LLC , 129 AD3d 1037 , 1038 [2015]; Farren v Board of Educ. of City of N.Y. , 119 AD3d 518 , 519 [2014]; Armijos v Vrettos Realty Corp ., 106 AD3d 847 , 847-848 [2013]; Perez v New York City Hous. Auth ., 75 AD3d 629 , 630 [2010]; Mauge v Barrow St. Ale House , 70 AD3d 1016 , 1017 [2010]; see also Gordon v American Museum of Natural History , 67 NY2d 836, 837-838 [1986]). In opposition, the plaintiff failed to raise a triable issue of fact. A general awareness of a recurring problem is insufficient, without more, to establish constructive notice of the particular condition that caused the accident ( see Schubert-Fanning v Stop & Shop Supermarket Co., LLC , 118 AD3d 862 , 863 [2014]; Mauge v Barrow St. Ale House , 70 AD3d at 1017; Panetta v Phoenix Beverages, Inc. , 29 AD3d 659 , 660 [2006]; cf. McLaughlan v Waldbaums, Inc. , 237 AD2d 335, 335 [1997]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Accordingly, the Supreme Court properly granted the defendant's motion for summary judgment dismissing the complaint. Rivera, J.P., Sgroi, Miller and Hinds-Radix, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5988927",
+    "text_sha256": "d050434d86025f4a55fde208be2ff6fe87d44f8186705a4b2a2ab7ae03517cb1",
+    "input_chunk_id": "A_014",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:40:24.538472-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_014.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E003"
+      ],
+      "orders": [
+        {
+          "description": "Denied defendants summary judgment.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendants summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E003"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "entrance",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "manager",
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped in puddle on exterior landing of defendants-owned/managed/operated premises; yellow cones stood to either side rather than at puddle.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Cones and firsthand report at least forty-five minutes earlier raise notice issues.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Forty-five-minute firsthand notice account raises triable issue.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Hearsay admission portions excluded; firsthand report competent.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff disputed cones used as door props.",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Defense witness cone practice and opposition firsthand notice account considered.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Accident landing expressly on premises owned/managed/operated by defendants, unlike merely adjacent public sidewalk."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Order, Supreme Court, Bronx County (Kibbie F. Payne, J.), entered May 10, 2011, which denied defendants’ motion for summary judgment dismissing the complaint, unanimously affirmed, without costs. Plaintiff alleges that she slipped and fell in a puddle located on an exterior landing of premises owned, managed and/or operated by defendants, and that two yellow caution cones had been placed against the wall, to her right and left, as she exited, but not in the area of the liquid condition. The presence of caution cones here created a triable issue of fact as to prior actual notice of the condition, as defendants’ witness admitted that they would place such caution cones to alert others to a slippery condition and plaintiff denied that the cones were being used to prop open a door, as had been alleged by defendants’ witness (see Felix v Sears, Roebuck & Co., 64 AD3d 499 [2009]; Hilsman v Sarwil Assoc., L.P., 13 AD3d 692 [2004]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Additionally, while *598 the hearsay portions of a witness affidavit submitted in opposition to the motion, which referred to an unidentified person or persons having admitted prior notice of the condition, were inadmissible (see Cassanova v General Cinema Corp. of N.Y., 237 AD2d 155 [1997]; Pascarella v Sears, Roebuck & Co., 280 AD2d 279 [2001]), the witness’s first hand account of providing defendants with notice of the condition at least 45 minutes before the accident raised triable issues of fact as to prior actual and constructive notice of the condition. Concur — Mazzarelli, J.E, Andrias, Moskowitz, Acosta and Abdus-Salaam, JJ.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "unanimously affirmed, without costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4606643",
+    "text_sha256": "fbbca532ff7bdd81112608de909badecd4df9fd2af725b80de9230bcf762e455",
+    "input_chunk_id": "A_014",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:40:24.538517-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_014.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E007"
+      ],
+      "orders": [
+        {
+          "description": "Granted association summary judgment.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted association summary judgment.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E002",
+            "E007"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "walkway",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "manager"
+      ],
+      "accident_date": "2015-02-10",
+      "factual_summary": "Plaintiff allegedly slipped on ice on cement breezeway within condominium complex in evening; inspection/salting specificity disputed.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Creation alternative stated in owner burden rule.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Notice rule stated; decision rests constructive notice.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Site manager general traversals and superintendent log testimony too general.",
+        "evidence_ids": [
+          "E004",
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Site manager/superintendent depositions lack specific inspection/salting.",
+        "evidence_ids": [
+          "E004",
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "type": "maintenance_records",
+        "description": "Snow/salt log discussed, not sufficient incident-day specificity.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "type": "photographs",
+        "description": "Superintendent shown photograph to address snow removal.",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "current_outcome",
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "facts",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E007"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Internal condominium breezeway under association site-management and snow removal supports private control."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Ahmetaj v Mountainview Condominium (2019 NY Slip Op 02489) Ahmetaj v Mountainview Condominium 2019 NY Slip Op 02489 [171 AD3d 683] April 3, 2019 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, May 29, 2019 [*1] (April 3, 2019) Rustem Ahmetaj et al., Appellants, v Mountainview Condominium, Defendant, and Mountainview Condominium Association, Respondent. Bergman, Bergman, Fields & Lamonsoff, LLP, Hicksville, NY (Michael E. Bergman, Seth I. Fields, and Julie T. Mark of counsel), for appellants. Marshall Dennehey Warner Coleman & Goggin, P.C., Rye Brook, NY (Jennifer M. Meyers of counsel), for respondent. In an action to recover damages for personal injuries, etc., the plaintiffs appeal from an order of the Supreme Court, Rockland County (Rolf Thorsen, J.), dated November 28, 2017. The order granted the motion of the defendant Mountainview Condominium Association for summary judgment dismissing the complaint insofar as asserted against it. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Ordered that the order is reversed, on the law, with costs, and the motion of the defendant Mountainview Condominium Association for summary judgment dismissing the complaint insofar as asserted against it is denied. On February 10, 2015, between 6:30 and 7:00 p.m, the plaintiff Rustem Ahmetaj (hereinafter the plaintiff) allegedly slipped and fell on ice on a cement walkway (hereinafter the breezeway) of a condominium complex. The plaintiff, and his wife suing derivatively, commenced this action against, among others, the defendant Mountainview Condominium Association (hereinafter the defendant), to recover damages for personal injuries. The defendant moved for summary judgment dismissing the complaint insofar as asserted against it, contending that it did not create the alleged hazardous condition or have actual or constructive notice of its existence. The Supreme Court granted the motion. The plaintiffs appeal. \"A property owner will be held liable for a slip-and-fall accident involving snow and ice on its property only when it created the dangerous condition which caused the accident or had actual or constructive notice of its existence\" ( Cuillo v Fairfield Prop. Servs., L.P. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": ", 112 AD3d 777 , 778 [2013]; see Castillo v Silvercrest , 134 AD3d 977 , 977 [2015]; Haberman v Meyer , 120 AD3d 1301 , 1301 [2014]). \"Thus, a defendant who moves for summary judgment in a slip-and-fall case has the initial burden of making a prima facie showing that it neither created the hazardous condition nor had actual or constructive notice of its existence for a sufficient length of time to discover and remedy it\" ( Castillo v Silvercrest , 134 AD3d at 977; see Ross v Half Hollow Hills Cent. Sch. Dist. , 153 AD3d 745 , 746 [2017]). \"A defendant has constructive notice of a dangerous condition when the condition has been visible and apparent long enough for the defendant to have discovered and remedied it\" ( Garcia-Monsalve v Wellington Leasing, L.P. , 123 AD3d 1085 , 1086 [2014]; see Gordon v American Museum of Natural History , 67 NY2d 836 [1986]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "\"To meet its initial burden on the issue of lack of constructive notice, [a] defendant must offer some evidence as to when the area in question was last cleaned or inspected relative to the time when the plaintiff fell\" ( Feola v City of New York , 102 AD3d 827 , 828 [2013] [internal quotation marks omitted]; see Birnbaum v New York Racing Assn., Inc. , 57 AD3d 598 , 598-599 [2008]). Here, the defendant failed to demonstrate, prima facie, that it did not have constructive notice of the alleged ice condition that caused the plaintiff to fall. The deposition testimony of the defendant's site manager merely referred to her general practice of traversing the breezeway where the accident allegedly occurred, one to two times per week, but provided no evidence regarding any specific inspection of the area prior to the plaintiff's fall ( see Baez v Willow Wood Assoc., LP , 159 AD3d 785 , 786 [2018]; Garcia-Monsalve v Wellington Leasing, L.P. , 123 AD3d at 1086). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "The superintendent testified at his deposition that the entry in his log on February 9, 2015, the day prior to the plaintiff's fall, stating \"snow all day long,\" meant he performed snow removal operations in all areas, including the breezeway area in which the accident allegedly occurred. He also testified that the February 9, 2015, entry in his log stating \"6 a.m. start salt; 2 passes\" meant that he made \"two passes\" of salt that day, including salting all the breezeways. However, with regard to February 10, 2015, the date of the plaintiff's fall, the superintendent first testified that he could not tell from the log if snow had been removed from the breezeway on that date. He later testified, when shown a photograph, that snow was removed from the subject area of the breezeway on that date. The superintendent also testified that, based on the information in his log, on February 10, 2015, the date of the accident, he had applied salt to areas where it was needed, but he could not recall if he specifically applied salt to the breezeway area at issue. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P006",
+        "quote": "The superintendent's testimony failed to provide specific details of his snow removal efforts and salting near the time of the incident, and, thus, was too general to establish lack of constructive notice ( see Garcia-Monsalve v Wellington Leasing, L.P. , 123 AD3d at 1086). Since the defendant did not meet its prima facie burden of showing a lack of constructive notice of the ice condition that allegedly caused the plaintiff's accident, it is unnecessary to determine whether the plaintiffs' papers submitted in opposition to the defendant's motion were sufficient to raise a triable issue of fact ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]). Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint insofar as asserted against it. Dillon, J.P., Chambers, Brathwaite Nelson and Christopher, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "Ordered that the order is reversed, on the law, with costs, and the motion of the defendant Mountainview Condominium Association for summary judgment dismissing the complaint insofar as asserted against it is denied.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  }
+]

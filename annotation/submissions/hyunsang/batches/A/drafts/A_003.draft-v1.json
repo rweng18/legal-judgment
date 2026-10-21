@@ -1,0 +1,1435 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9430103",
+    "text_sha256": "8e278ce27e5e3c6370aad65669243c0058c599d4d454b340f495226ea6977db9",
+    "input_chunk_id": "A_003",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:32:57.502024-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied chunk read by assistant; no independent human review. Snapshot/version not observable.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002",
+        "E003"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E005"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Judgment dismissing claim after defense liability verdict and denial of CPLR 4404(a) new-trial motion.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Judgment dismissing claim after defense liability verdict and denial of CPLR 4404(a) new-trial motion.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "parking_lot",
+      "hazards": [
+        "snow_ice",
+        "hole"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff alleged slip on snow and ice by car after leaving Dunkin Donuts in defendant-owned shopping center. Restaurant manager recounted report of fall into a big hole while exiting car in rear lot, conflicting with plaintiff account.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Jury could reconcile negligence with absence of substantial-factor causation.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Verdict not against weight; denial of CPLR 4404(a) motion proper.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "court_addressed",
+        "finding": "Negligence and causation not inextricably interwoven.",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff trial account of snow/ice fall.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Restaurant manager deposition and owner employees testimony recounted.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "current_outcome",
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Trial negligence verdict did not establish proximate cause; conflicting fall accounts retained. Grocery/restaurant shopping center treated retail."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Tafolla v Aldrich Mgt. Co., LLC (2023 NY Slip Op 04988) Tafolla v Aldrich Mgt. Co., LLC 2023 NY Slip Op 04988 [220 AD3d 690] October 4, 2023 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, December 6, 2023 [*1] Kim Tafolla, Appellant, v Aldrich Management Co., LLC, Respondent, et al., Defendant. Rodney S. Lapidus, P.C., Dix Hills, NY, for appellant. Baker, Greenspan & Bernstein, Bellmore, NY (Evan E. Richards and Robert L. Bernstein, Jr., of counsel), for respondent. In an action to recover damages for personal injuries, the plaintiff appeals from a judgment of the Supreme Court, Suffolk County (Martha L. Luft, J.), entered December 2, 2021. The judgment, upon a jury verdict in favor of the defendant Aldrich Management Co., LLC, on the issue of liability, and upon the denial of the plaintiff's motion pursuant to CPLR 4404 (a) to set aside the jury verdict as contrary to the weight of the evidence and for a new trial, is in favor of the defendant Aldrich Management Co., LLC, and against the plaintiff dismissing the complaint insofar as asserted against that defendant. ",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Ordered that the judgment is affirmed, with costs. The plaintiff commenced this action to recover damages for personal injuries she allegedly sustained when she slipped and fell on snow and ice in the parking lot of a Dunkin Donuts restaurant located in a shopping center owned by the defendant Aldrich Management Co., LLC (hereinafter Aldrich). The action proceeded to a jury trial against Aldrich. The plaintiff testified at trial that after leaving the Dunkin Donuts restaurant, she slipped and fell while attempting to get into her car, which was parked in the parking lot on the east side of the building. The plaintiff also testified that at the time of her fall, there was approximately one inch of ice and snow covering the parking lot, and no salt or sand had been applied to the parking lot. During the trial, Aldrich's attorney read into the record excerpts of the deposition testimony of Encasnita Rivera, a manager of the subject Dunkin Donuts restaurant. ",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Rivera testified that she learned of this incident when an individual, who was a regular customer, came into the restaurant and stated that she had just fallen into a \"big hole\" in the rear parking lot as she was getting out of her car. Testimony was also presented from employees of Aldrich, who indicated that Aldrich did not send a representative to inspect the work of the contractor it retained to clear snow and ice from the parking lot. At the conclusion of the trial, the jury returned a verdict finding that Aldrich was negligent, but that its negligence was not a substantial factor in bringing about the plaintiff's accident. The plaintiff moved pursuant to CPLR 4404 (a) to set aside the jury verdict as contrary to the weight of the evidence and for a new trial. The Supreme Court denied the plaintiff's motion. A judgment was issued in favor of Aldrich and against the plaintiff dismissing the complaint insofar as asserted against Aldrich. The plaintiff appeals. ",
+        "statement_status": "testimony_or_record"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "[*2] \"A jury verdict should not be set aside as contrary to the weight of the evidence unless the jury could not have reached the verdict by any fair interpretation of the evidence\" ( Cruz-Rivera v National Grid Energy Mgt., LLC , 190 AD3d 687 , 688 [2021]; see Nicastro v Park , 113 AD2d 129, 134 [1985]). \"A jury's finding that a party was at fault but that such fault was not a proximate cause of the accident is inconsistent and against the weight of the evidence only when the issues are so inextricably interwoven as to make it logically impossible to find negligence without also finding proximate cause\" ( Garrett v Manaser , 8 AD3d 616 , 617 [2004]; see Avila v VVFJ Realty, LLC , 212 AD3d 699 , 700 [2023]). \"Thus, where there is a reasonable view of the evidence under which it is not logically impossible to reconcile a finding of negligence but no proximate cause, it will be presumed that, in returning such a verdict, the jury adopted that view\" ( Bonomo v City of New York , 78 AD3d 1094 , 1095 [2010]; see Henry v Town of Hempstead , 119 AD3d 649 , 650 [2014]). ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "Here, contrary to the plaintiff's contention, the issues of negligence and proximate cause were not inextricably interwoven, and the jury's finding was not contrary to the weight of the evidence. Under the circumstances, the jury could have found that while Aldrich was negligent in failing to adequately clear snow and ice from the parking lot, such negligence was not a substantial factor in causing this occurrence ( see Sattar v City of New York , 201 AD3d 756 , 759 [2022]; Lopez v Hage , 127 AD3d 824 , 826 [2015]; Coma v City of New York , 97 AD3d 715 , 716 [2012]). Accordingly, the Supreme Court properly denied the plaintiff's motion pursuant to CPLR 4404 (a) to set aside the jury verdict as contrary to the weight of the evidence and for a new trial. Iannacci, J.P., Chambers, Christopher and Warhit, JJ., concur.",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9422110",
+    "text_sha256": "8a8c60904b886c08b025a993f18a46128c854e536a51c4b78d30ca7576b7c227",
+    "input_chunk_id": "A_003",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:32:57.502101-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied chunk read by assistant; no independent human review. Snapshot/version not observable.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "outside_slip_trip_scope"
+      ],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "unclear",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E005"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Granted DJ defendants and Aldrich separate summary judgment motions within one appealed order.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted DJ defendants and Aldrich separate summary judgment motions within one appealed order.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "restaurant",
+      "location": "stairs",
+      "hazards": [
+        "stairs_handrail",
+        "lighting"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff fell descending restaurant stairs while carrying a box in both hands. Expert alleged defective tread, handrails and lighting, but mechanism was unidentified.",
+      "evidence_ids": [
+        "E002",
+        "E005"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Defendants established plaintiff could not identify cause; expert alternative theory speculative.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "court_addressed",
+        "finding": "Alleged Building Code violations insufficient to establish causation.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Speculative tread/handrail/lighting theory insufficient.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "expert_evidence",
+        "description": "Plaintiff expert theory rejected as speculative.",
+        "evidence_ids": [
+          "E005"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "factual_support_thin"
+      ],
+      "notes": "Supplied incident says fell, without establishing slip/trip rather than loss of balance. No negligence requirement imposed; uncertainty concerns incident mechanism. DJ entities described as lessors, so no inferred tenant role. One order despite separate motions."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Villanueva v DJ's Intl. Buffet, Inc. (2023 NY Slip Op 04393) Villanueva v DJ's Intl. Buffet, Inc. 2023 NY Slip Op 04393 [219 AD3d 863] August 23, 2023 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, October 4, 2023 [*1] Vince Villanueva, Appellant, v DJ's International Buffet, Inc., et al., Respondents. Latos Latos & Associates, P.C., Astoria, NY (Marina Zapantis of counsel), for appellant. Connell Foley, LLP, New York, NY (Margot N. Wilensky and Christopher Abatemarco of counsel), for respondents. In an action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Kings County (Reginald A. Boddie, J.), dated August 6, 2020. ",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "The order granted that branch of the motion of the defendants DJ's International Buffet, Inc., and DJ's International Buffet, Inc., doing business as DJ's International Bar & Grill, which was for summary judgment dismissing the complaint insofar as asserted against them and granted that branch of the separate motion of the defendant Aldrich Management Co., LLC, which was for summary judgment dismissing the complaint insofar as asserted against it. Ordered that the order is affirmed, with costs. The plaintiff allegedly was injured when he fell while descending a staircase at a restaurant while carrying a box in both hands. Thereafter, the plaintiff commenced this action to recover damages for personal injuries against the lessors of the restaurant, DJ's International Buffet, Inc., and DJ's International Buffet, Inc., doing business as DJ's International Bar & Grill (hereinafter together the DJ's International defendants), and the owner of the restaurant, Aldrich Management Co., LLC (hereinafter Aldrich Management). ",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "The DJ's International defendants moved, inter alia, and Aldrich Management separately moved, inter alia, for summary judgment dismissing the complaint insofar as asserted against each of them. The Supreme Court granted those branches of the respective motions. The plaintiff appeals. In a premises liability case, \" 'a defendant can make its prima facie showing of entitlement to judgment as a matter of law by establishing that the plaintiff cannot identify the cause of his or her fall without engaging in speculation' \" ( Colini v Stino, Inc. , 186 AD3d 1610 , 1611 [2020], quoting Ash v City of New York , 109 AD3d 854 , 855 [2013]). \"A plaintiff's inability in a premises liability case to identify the cause of the fall is fatal to the cause of action because a finding that the defendant's negligence, if any, proximately caused the plaintiff's injuries would be based on speculation\" ( Chang v Marmon Enters., Inc. , 172 AD3d 678 , 679 [2019]; see Palahnuk v Tiro Rest. Corp. , 116 AD3d 748 , 749 [2014]). ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "\" 'Where it is just as likely that some other factor, such as a misstep or a loss of balance, could have caused a trip and fall accident, any determination by the trier of fact as to causation would be based upon sheer speculation' \" ( Colini v Stino, Inc. , 186 AD3d at 1611, [*2] quoting Ash v City of New York , 109 AD3d at 855). \" 'Proximate cause may be established without direct evidence of causation by inference from the circumstances of the accident. However, mere speculation as to the cause of an accident, when there could have been many possible causes, is fatal to a cause of action' \" ( Padilla v CVS Pharm. , 175 AD3d 584 , 585 [2019], quoting Vojvodic v City of New York , 148 AD3d 1086 , 1087 [2017]). Here, the defendants met their prima facie burden by establishing that the plaintiff cannot identify the cause of his fall ( see Aprea-Smith v Smith , 71 AD3d 1068 [2010]; Louman v Town of Greenburgh , 60 AD3d 915 , 916 [2009]). In opposition, the plaintiff failed to raise a material issue of fact. ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "The speculative theory offered by the plaintiff's expert that the plaintiff's fall was caused by alleged violations of the New York State Building Code pertaining to an alleged defective tread and handrails on the staircase and improper lighting, rather than a misstep or loss of balance, was insufficient to raise a triable issue of fact ( see Lissauer v Shaarei Halacha, Inc. , 37 AD3d 427 [2007]). Accordingly, the Supreme Court properly granted those branches of the defendants' respective motions which were for summary judgment dismissing the complaint insofar as asserted against each of them. In light of the foregoing, we need not reach the plaintiff's remaining contention. Iannacci, J.P., Christopher, Ford and Taylor, JJ., concur.",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2787559",
+    "text_sha256": "db0a21a8ca7fdacc29123ff888c2cf336dc871393ec4effa88544291ba743ed0",
+    "input_chunk_id": "A_003",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:32:57.502141-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied chunk read by assistant; no independent human review. Snapshot/version not observable.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001"
+      ],
+      "incident_evidence": [
+        "E001"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Granted defendant summary judgment dismissing complaint.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendant summary judgment dismissing complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff alleged slip on water in laundry room of defendant building, inferring water from damp pants although she did not see water before fall. Ventilation-related moisture was later alleged by expert.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Defendant showed no creation of alleged condition.",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "No complaints for three months supported lack of notice.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Janitorial inspections found clean/dry floor; no triable issue.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff presumed water from damp pants; expert insufficient to connect ventilation moisture to fall area.",
+        "evidence_ids": [
+          "E001",
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Expert lacked ventilation expertise and did not replicate accident conditions or test fall area.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff saw no water and inferred it from damp pants.",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Janitorial supervisor and claims representative affidavits described inspections and no complaints.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "type": "expert_evidence",
+        "description": "Plaintiff expert affidavit/testing rejected.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Defendant building expressly identified; building use and plaintiff tenant status not stated."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Mahai-Sharpe v Riverbay Corp. (2015 NY Slip Op 02206) Mahai-Sharpe v Riverbay Corp. 2015 NY Slip Op 02206 [126 AD3d 573] March 19, 2015 Appellate Division, First Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, April 29, 2015 [*1] Lucille Mahai-Sharpe, Appellant, v Riverbay Corporation, Respondent. Sim & Record, LLP, Bayside (Sang J. Sim of counsel), for appellant. Armienti, DeBellis, Guglielmo & Rhoden, LLP, New York (Vanessa M. Corchia of counsel), for respondent. Order, Supreme Court, Bronx County (Sharon A.M. Aarons, J.), entered December 5, 2013, which granted defendant's motion for summary judgment dismissing the complaint, unanimously affirmed, without costs. Defendant established its entitlement to judgment as a matter of law by showing that it neither created nor had notice of the condition that allegedly caused plaintiff to slip and fall in the laundry room of defendant's building. Defendant submitted evidence including plaintiff's testimony that she did not see any water on the floor in the area where she fell, and that she presumed that she slipped on water because her pants were damp. ",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Defendant also submitted an affidavit from its janitorial supervisor, who stated that in accordance with the established maintenance schedule, he checked the laundry room floor three times on the day of the accident and found that it was clean and dry ( see Pagan v New York City Hous. Auth. , 121 AD3d 622 [1st Dept 2014]). Furthermore, defendant's claims representative stated that for the three-month period before the date of the accident, no complaints were lodged relating to water on the floor of the laundry room. In opposition, plaintiff failed to raise a triable issue of fact. Plaintiff's reliance on the affidavit of her expert, who stated that the design and construction of the laundry room ventilation system created a dangerous, slippery condition on the floor, is misplaced because as noted by the motion court, the expert did not demonstrate that the testing he performed sufficiently replicated the conditions in the laundry room on the day of the accident, which was five months earlier ( see Alston v Zabar's & Co., Inc. , 92 AD3d 553 [1st Dept 2012]). ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "The expert also lacked the expertise to offer his opinion with respect to the ventilation system in the laundry room ( see Schechter v 3320 Holding LLC , 64 AD3d 446 , 449-450 [1st Dept 2009]). Even assuming plaintiff's expert was qualified to render an expert opinion, it is noted that his affidavit states that he touched the laundry room floor with his hand and found that it was \"wet and damp.\" However, he did not state that the floor was wet in the area where plaintiff fell, and, \"an expert's examination of a part of the general area is insufficient to preclude summary judgment\" ( Murphy v Conner , 84 NY2d 969, 972 [1994]). Concur—Tom, J.P., Acosta, Andrias, Moskowitz and Kapnick, JJ. [Prior Case History: 2013 NY Slip Op 33708(U).]",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5934014",
+    "text_sha256": "63bf7dbc12e46074bd790707b1ef7b76e0d346c8291a0df68c3a7b2b839295df",
+    "input_chunk_id": "A_003",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:32:57.502206-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied chunk read by assistant; no independent human review. Snapshot/version not observable.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "out_of_scope",
+      "binary_task": "exclude",
+      "reasons": [
+        "procedural_only"
+      ],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "procedural_only",
+      "property_evidence": [
+        "E001"
+      ],
+      "incident_evidence": [
+        "E001"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E001",
+        "E004"
+      ],
+      "orders": [
+        {
+          "description": "Defense judgment after liability jury verdict dismissing complaint.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Defense judgment after liability jury verdict dismissing complaint.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E004"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "unclear",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiffs alleged decedent slipped on ice on defendants property; defense evidence placed fall at decedent home. Appeal concerns replacement of seated juror.",
+      "evidence_ids": [
+        "E001"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Juror replacement improper absent evidence of bias; speculative future concern insufficient; new trial required.",
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Plaintiff/defense accounts of location and prospective defense witness discussed without details.",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Opinion resolves juror removal only; no substantive negligence analysis. Consequential remand follows full reversal, not remand_only."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for wrongful death, etc., the plaintiffs appeal from a judgment of the Supreme Court, Nassau County (Spinola, J.), entered June 13, 2008, which, upon a *673 jury verdict on the issue of liability in favor of the defendants and against them, is in favor of the defendants and against them, in effect, dismissing the complaint. Ordered that the judgment is reversed, on the law, on the facts, and in the exercise of discretion, with costs, the complaint is reinstated, and the matter is remitted to the Supreme Court, Nassau County, for a new trial on the issue of liability, and a trial on the issue of damages, if warranted. At trial, the plaintiffs presented evidence that their decedent, who died after sustaining a severe head injury in a fall, slipped and fell on a patch of ice located upon the defendants’ property. However, the defendants presented certain evidence indicating that the decedent’s injuries were the result of a fall at his home. After the close of the plaintiffs’ case, a juror informed the trial court that she knew one of the witnesses who was going to testify for the defense. ",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "The juror explained that she lived in the same neighborhood as the witness, and graduated from high school with her. The juror also indicated that the extent of their relationship was that they would occasionally see each other on the street, say hello, and ask each other how they were doing. The juror then indicated, in response to the court’s questioning, that she would “treat” the witness “the same as all other witnesses,” and that “nobody . . . started [the] case with an advantage.” The court then voiced its “opinion” that the juror was “okay,” “seemed like she could be fair,” and should “stay.” However, defense counsel then made an application, which the plaintiffs’ attorney opposed, for the juror to be replaced with an alternate juror. At that point, the trial court, upon observing that the “trial” was already a “lengthy” one, decided that “the safest course of action” would be to replace the juror with an alternate juror. The court explained that “a lot of times,” jurors like the juror in question, who “know someone” and “say they think they will be okay,” end up “hav[ing] a problem when they are making a decision.” Hence, the court granted defense counsel’s application. ",
+        "statement_status": "procedural_history"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "However, the court erred in doing so. CPLR 4106 provides that, in a civil case, if, before the final submission of the case to the jury, a seated juror “dies, or becomes ill, or for any other reason is unable to perform his [or her] duty,” the trial court may remove the juror and replace the juror with an alternate juror. This Court, in interpreting the phrase “or for any other reason is unable to perform his [or her] duty” (CPLR 4106), has determined that a seated juror in a civil case may be removed from the jury if he or she “has evinced a certain bias or prejudice against one of the parties” *674 (Mark v Colgate Univ., 53 AD2d 884, 886 [1976]; see Narvaez v Piccone, 16 AD3d 641, 642 [2005]; French v Schiavo, 300 AD2d 119, 119-120 [2002]). Here, however, there was no indication that the juror in question evinced any bias or prejudice against one of the parties. Furthermore, the trial court’s concern that such a bias or prejudice might eventually surface was speculative. Under these circumstances,- the court should have denied defense counsel’s application, and should not have replaced the juror with an alternate juror (cf. ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "Wisholek v Douglas, 280 AD2d 220, 224 [2001], revd on other grounds 97 NY2d 740 [2002]). Therefore, the judgment must be reversed, the complaint reinstated, and the matter remitted for a new trial On the issue of liability. In light of our determination, we do not address the plaintiffs’ remaining contentions. Prudenti, P.J., Skelos, Covello and Austin, JJ., concur.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5938121",
+    "text_sha256": "d0388a3278c1cba06277096f21a1a12a37bd83bf10fdc650e48b926e2fe7fa77",
+    "input_chunk_id": "A_003",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:32:57.502234-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Full supplied chunk read by assistant; no independent human review. Snapshot/version not observable.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001"
+      ],
+      "incident_evidence": [
+        "E001"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Denied defendants summary judgment dismissing amended complaint.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendants summary judgment dismissing amended complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "parking_only",
+      "location": "parking_lot",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff slipped and fell on snow-covered ice in defendants-owned parking lot. Whether ice predated ongoing storm was disputed.",
+      "evidence_ids": [
+        "E001"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Defendants failed to establish absence of constructive notice.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "court_addressed",
+        "finding": "Own submissions raise question whether fall involved ongoing-storm ice or preexisting accumulation.",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E002"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Appeal from an order of the Supreme Court, Chautauqua County (James H. Dillon, J.), entered July 1, 2009 in a personal injury action. The order denied the motion of defendants for summary judgment. It is hereby ordered that the order so appealed from is unanimously affirmed with costs. Memorandum: Plaintiffs commenced this action seeking damages for injuries sustained by Krystal Tonkin (plaintiff) when she slipped and fell on snow-covered ice in a parking lot owned by defendants. Supreme Court properly denied defendants’ motion seeking summary judgment dismissing the amended complaint. Defendants’ own submissions raise a triable issue of fact whether plaintiff fell “as the result of an icy condition occurring during an ongoing storm or for a reasonable time thereafter” (Solazzo v New York City Tr. Auth., 6 NY3d 734, 735 [2005]), or whether she fell as the result of ice that had accumulated prior to the storm (see Stalker v Crestview Cadillac Corp., 284 AD2d 977 [2001]). ",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "In addition, defendants failed to meet their initial burden of establishing that they lacked constructive notice of the icy condition (see Walter v United Parcel Serv., Inc., 56 AD3d 1187 [2008]; Simmons v Oswego County Sav. Bank, 306 AD2d 825 [2003]). Present—Centra, J.P., Fahey, Carni, Green and Pine, JJ.",
+        "statement_status": "court_finding"
+      }
+    ]
+  }
+]
