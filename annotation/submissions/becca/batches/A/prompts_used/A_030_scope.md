@@ -1,0 +1,11 @@
+# A_030 scope and provenance
+
+User instruction: “Continue with A_030”. Reviewer: becca. Only the five manifest cases were assigned.
+
+All 20 passages were read in full: Axelrod NY-9450154 P001–P004, Osterhoudt NY-9384311 P001–P007, Bartholomew NY-4477314 P001–P003, Bautista NY-6000999 P001–P003 and Lawrence NY-5992264 P001–P003. Artificial boundaries, continued citations, Osterhoudt’s stand-alone final disposition and Lawrence’s prior-case-history metadata were read. No truncation prevented full reading.
+
+AGENTS.md and DECISIONS.md were rechecked; README, codebook, workflow, quality guidance and schema had been read. Initial codebook/schema/prompt 1.0.0 remain unchanged; no substantive team freeze or human review is claimed. Model: GPT-6 (Codex); exact version unknown/null. No peer annotations, previous automated labels for these cases, independent human calibration notes or outside case facts were consulted. Prior human exposure is unknown; no calibration annotations were reused.
+
+Semantic full reading supplied the annotations. Helpers only serialize schema objects and check literal quotations. No annotation API calls, extra agents, downloads or push occurred. All records remain llm_draft with human_reviewer_id null. Original draft is preserved separately and initially matches selected output.
+
+All five current dispositions are affirmed. Axelrod, Osterhoudt, Bartholomew and Lawrence are included; Bautista remains review because the claims against refrigeration designers/manufacturers and an installer/servicer are not identified as negligence versus another products-liability theory. Bautista’s private retail setting, slip and substantive affirmance are clear, but the negligence scope is not assumed. Separate appeals from one order do not create multiple orders. Axelrod addresses the injury claim as well as indemnity; Osterhoudt’s notice requirement is inapplicable given employee placement, without proving final negligence. Lawrence’s lack of a described hazard does not defeat its explicit private-premises slip scope. Axelrod and Osterhoudt are preliminary test-period cases; unchanged rules were applied without tuning. Mechanical validation does not establish legal correctness or human review.
