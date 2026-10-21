@@ -1,0 +1,1363 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4453479",
+    "text_sha256": "7b3a3fbe3e1f68ed8ed29fe76196e72ba68eb45d3b1e379d75b837ecfa113958",
+    "input_chunk_id": "A_034",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T22:01:25.267031-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_034.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E006"
+      ],
+      "orders": [
+        {
+          "description": "Denied building owner summary judgment.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied building owner summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E006"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "stairs",
+      "hazards": [
+        "debris",
+        "water",
+        "lighting"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped on thick wet matted leaves on seventh exterior stair; overcast sky and nonfunctioning lower light limited view.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Safe maintenance and open/obvious non-danger exception stated.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Manager could not recall inspection or leaf-clearing responsibility; duration not negated.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "court_addressed",
+        "finding": "Low illumination and thick leaf pile leave obviousness/danger triable.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition limited view and leaf accumulation.",
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Building manager deposition lacked specific inspection knowledge.",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E006"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Bissett v 30 Merrick Plaza, LLC (2017 NY Slip Op 08805) Bissett v 30 Merrick Plaza, LLC 2017 NY Slip Op 08805 [156 AD3d 751] December 20, 2017 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, February 7, 2018 [*1] Susan M. Bissett, Respondent, v 30 Merrick Plaza, LLC, Appellant. Hammill, O'Brien, Croutier, Dempsey, Pender & Koehler, P.C., Syosset, NY (Anton Piotroski of counsel), for appellant. Costella & Gordon, LLP, Garden City, NY (Roy C. Gordon of counsel), for respondent. In an action to recover damages for personal injuries, the defendant appeals from an order of the Supreme Court, Nassau County (Sher, J.), dated July 13, 2016, which denied its motion for summary judgment dismissing the complaint. Ordered that the order is affirmed, with costs. The plaintiff allegedly was injured when she slipped and fell on a pile of wet leaves on one of the steps of an exterior staircase of a building owned by the defendant. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Thereafter, the plaintiff commenced this action against the defendant to recover damages for personal injuries, and the defendant moved for summary judgment dismissing the complaint, relying on the deposition testimony of the plaintiff and that of Andrew Brenner, who managed the building. The Supreme Court denied the motion and the defendant appeals. A defendant property owner has a duty to maintain its premises in a \"reasonably safe condition in view of all the circumstances, including the likelihood of injury to others, the seriousness of the injury, and the burden of avoiding the risk\" ( Basso v Miller , 40 NY2d 233, 241 [1976] [internal quotation marks omitted]). However, it does not have a duty to protect against an open and obvious condition, which, as a matter of law, is not inherently dangerous ( see Cupo v Karfunkel , 1 AD3d 48 , 52 [2003]). Whether a dangerous or defective condition exists on the property so as to give rise to liability depends on the particular circumstances of each case and is generally a question of fact for the jury ( see Pellegrino v Trapasso , 114 AD3d 917 , 918 [2014]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Similarly, whether a condition is open and obvious depends on the circumstances of the case, and something that ordinarily would be readily observable may be obscured by inadequate illumination ( see Twersky v Incorporated Vil. of Great Neck , 127 AD3d 739 , 740 [2015]; Russo v Incorporated Vil. of Atl. Beach , 119 AD3d 764 [2014]). Here, the defendant failed to eliminate triable issues of fact as to whether the condition that allegedly caused the plaintiff to fall was open and obvious and not inherently dangerous ( see Twersky v Incorporated Vil. of Great Neck , 127 AD3d at 739-740; cf. Misir v Beach [*2] Haven Apt. No. 1, Inc. , 32 AD3d 1002 [2006]). The plaintiff testified at her deposition that she fell on a two-inch thick pile of wet, matted down leaves on the seventh step of a staircase, consisting of 20 steps leading to a basement. The plaintiff further testified that the sky was overcast, that a light at the bottom of the staircase was not functioning, and that she could only see as far as the fifth step. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "The defendant also failed to establish, prima facie, that it did not have constructive notice of the alleged hazardous condition ( see Gordon v American Museum of Natural History , 67 NY2d 836 [1986]; Hickson v Walgreen Co. , 150 AD3d 1087 , 1088 [2017]). The plaintiff testified that she fell into a pile of leaves and other debris one-foot deep at the bottom of the staircase. Brenner testified that he could not remember whether he had checked the subject staircase on his last weekly inspection prior to the accident and that he did not know whether the landscaper or anyone else was responsible for removing leaves from the staircase. Thus, the defendant failed to establish, prima facie, that the subject condition had not been there for a sufficient period of time for the defendant to have discovered and remedied it ( see Gordon v American Museum of Natural History , 67 NY2d at 837-838; Hickson v Walgreen Co. , 150 AD3d at 1088). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "Since the defendant failed to meet its initial burden of establishing, prima facie, its entitlement to judgment as a matter of law, the Supreme Court properly denied the defendant's motion for summary judgment dismissing the complaint, regardless of the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851 [1985]). Austin, J.P., Sgroi, Hinds-Radix and Iannacci, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4929051",
+    "text_sha256": "0030beaaf552100f77b4b9e59e79e8425f0fc7be4e1de1c836f01f75ba4ae332",
+    "input_chunk_id": "A_034",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T22:01:25.267148-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_034.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": true,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E012"
+      ],
+      "orders": [
+        {
+          "description": "December 18, 2019: denied stipulated adjournment and marked motion submitted/unopposed.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "December 18, 2019: denied stipulated adjournment and marked motion submitted/unopposed.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E009",
+            "E012"
+          ]
+        },
+        {
+          "description": "July 16, 2020: granted Findlay summary judgment on default.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "July 16, 2020: granted Findlay summary judgment on default.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E002",
+            "E010"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "other",
+      "defendant_roles": [
+        "owner",
+        "manager"
+      ],
+      "accident_date": "2017-07-18",
+      "factual_summary": "Resident slipped on freshly mopped hallway floor after rounding T-junction. One warning stood in dry area; second allegedly leaned against wall and was unseen until after fall.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "T-shaped hallway/dry first-sign location leave adequacy of wet-floor warnings triable; signs not automatic absolution.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Employee mopping created wet area; adequacy of warning/remediation not eliminated.",
+        "evidence_ids": [
+          "E005",
+          "E010"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Staff mopping and warning evidence addressed as known danger, not unknown spill.",
+        "evidence_ids": [
+          "E005",
+          "E010"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "raised_only",
+        "finding": "Findlay argued plaintiff saw warning and proceeded without caution.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Leave granted; stipulated adjournment/late opposition should not have resulted in default without prejudice to consenting opponent.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Resident deposition described dry first-sign area/unseen second sign.",
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Findlay president testimony about upkeep/mopping.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "type": "other",
+        "description": "Incident report and coordinator letter described warnings/mopping.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "type": "photographs",
+        "description": "Photos showed standing signs but exact locations unclear.",
+        "evidence_ids": [
+          "E006"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "current_outcome",
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P007",
+        "types": [
+          "procedural_history",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P008",
+        "types": [
+          "procedural_history",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P009",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P010",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P011",
+        "types": [
+          "metadata",
+          "legal_reasoning"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E012"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [
+        "multiple_parties_orders"
+      ],
+      "notes": "Court expressly decides negligence merits at P010, so not procedural-only. Two independently appealed orders both reversed. P011 ancillary appellate briefing motion denial is not an independently appealed lower-court order or substantive partial affirmance."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Zubillaga v Findlay Teller Hous. Dev. Fund Corp. (2021 NY Slip Op 04687) Zubillaga v Findlay Teller Hous. Dev. Fund Corp. 2021 NY Slip Op 04687 [197 AD3d 428] August 12, 2021 Appellate Division, First Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, October 6, 2021 [*1] Francisco Zubillaga, Appellant, v Findlay Teller Housing Development Fund Corporation, Respondent, et al., Defendant. Shapiro Law Offices, PLLC, Bronx (Ernest S. Buonocore of counsel), for appellant. Rivkin Radler LLP, Uniondale (Henry M. Mascia of counsel), for respondent. Order, Supreme Court, Bronx County (Fernando Tapia, J.), entered December 18, 2019, which , to the extent appealed from ( see CPLR 5701 [c]), denied the parties' third stipulated request for an adjournment of the return date on defendant Findlay Teller Housing Development Fund's (Findlay) motion for summary judgment and sua sponte directed that the motion be marked as fully submitted and unopposed, unanimously reversed, on the facts and in the interest of justice, without costs, and the motion granted. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Order, same court and Justice, entered July 16, 2020, which, to the extent appealed from as limited by the briefs, granted, upon default, Findlay's motion for summary judgment dismissing the complaint as against it, unanimously reversed, on the law, without costs, and the motion denied. On July 18, 2017, plaintiff Francisco Zubillaga, sustained injuries as a result of a slip and fall on a freshly mopped floor at 1201 Findlay Avenue in the Bronx, where he resided. Defendant Findlay owned the building on the date of the accident. The building was managed by defendant Belmont Arthur Avenue Development Corporation. In his complaint, plaintiff alleged that defendants created the dangerous condition and were negligent in \"allowing the premises to be, become and remain in a dangerous, trap-like condition,\" despite having actual or constructive notice thereof. Plaintiff testified at his deposition that he had lived in the building for 12 years, and acknowledged that if a building employee was mopping the floors, a yellow \"wet floor\" warning sign would be placed in the area. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Plaintiff stated that if he saw a yellow warning sign, he understood that the floor would be wet and he had to be cautious when walking. On July 18, 2017, before the accident occurred, plaintiff left the building, and did not see anyone mopping the floors or any wet floor warning signs. When he returned to the building at around 11:00 a.m., plaintiff did not see any wet floor warning signs on the building's main floor. Plaintiff took the elevator to the first floor, where he lived, and walked down a long hallway. He made a turn into another hallway, and saw a wet floor sign placed on the floor (the first warning sign). When asked if he was cautious after he saw the first warning sign, plaintiff testified, \"No . . . I was walking normal because when I was walking the floor was dry.\" Plaintiff did not see anyone mopping the hallway. After he passed the first warning sign, plaintiff reached the end of a T-shaped hallway, then turned right to the \"east side hallway,\" took one step, slipped, and fell. After he fell, plaintiff saw that the floor was moist. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "Just seconds before he fell, plaintiff heard a nearby employee, who was mopping the hallway, yell to him, \"Watch it.\" Plaintiff testified that the east side hallway, where he fell, also had a wet floor sign placed on the floor (the second warning sign). However, plaintiff did not see the second warning sign before he fell. When asked [*2] if the second warning sign was in a visible position, plaintiff testified that it was not, because it was leaning against a wall, as opposed to being open and standing on the floor. Plaintiff stated that while the second warning sign might have been visible if someone had looked toward the wall, he was not \"looking for it.\" Plaintiff stated that the second warning sign was positioned only five or six feet away from where he slipped and fell. Consolato Joe Cicciu, Findlay's president, testified that he was responsible for the building's upkeep. He described Findlay as \"a housing development fund corporation specifically incorporated to provide affordable housing to elderly and handicapped individuals.\" Cicciu testified that the building porter's duties included sweeping and mopping; however, he did not recall the mopping schedule. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "The first time Cicciu learned of plaintiff's accident was when he was notified about the lawsuit. On June 10, 2019, Findlay moved for summary judgment dismissing the complaint as against it, arguing that plaintiff could not make out a prima facie case of negligence against it, because he admitted seeing a wet floor warning sign, proceeded without caution, and slipped on a wet floor. In support, Findlay submitted an incident report dated July 18, 2017. Porter Elmer Concepcion reported that at 11:05 a.m., he was mopping the west side hallway, saw plaintiff from the corner of his eye walking towards the east side hallway, and yelled at him to be careful. However, Concepcion's verbal warning was too late, as plaintiff had already slipped and fallen. Rosalba Perez, the resident manager, completed the incident report. She spoke with Itzel Mejia, the building's social services coordinator on the date of the accident. Mejia said that porter Conception had informed her of plaintiff's slip and fall, and that she had instructed him to call 911. Mejia then checked on plaintiff and saw a couple of wet floor signs near the area where he fell, indicating that the floor had been recently mopped. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P006",
+        "quote": "Mejia took photographs of the area. In a supporting letter dated July 18, 2017, Mejia confirmed the same version of the facts, and attached photographs showing at least three open, standing wet floor signs. However, it is unclear exactly where the signs were located, based on the photographs. On July 25, 2019, plaintiff and Findlay stipulated to adjourn the return date of the motion from July 29, 2019 to September 20, 2019, and agreed that plaintiff would serve his affirmation in opposition by August 29, 2019. On September 16, 2019, the parties entered a second stipulation, agreeing to adjourn the return date of the motion from September 20, 2019 to November 8, 2019, and agreed that plaintiff would serve his opposition papers by October 18, 2019. On November 7, 2019, the parties entered a third stipulation, agreeing to adjourn the return date of the motion to January 10, 2020, and that plaintiff's opposition papers would be served [*3] by December 6, 2019. On November 15, 2019, plaintiff filed his opposition to the motion. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P007",
+        "quote": "He argued that the evidence showed that Findlay failed to provide adequate warning of the wet floor, because the first warning sign \"was in the dry rotunda, before the long hallway, and not in the wet east hallway where the accident occurred.\" Plaintiff asserted that the first warning sign was approximately 50 feet away from the wet floor where he fell, and citing a Wikipedia page, claimed that \"[u]sing an average walk speed of 4.6 feet/second,\" he walked approximately 50.6 feet after passing the first warning sign before he slipped and fell. By order entered December 18, 2019, approximately one month after plaintiff filed his opposition, the motion court denied the parties' stipulated request for a third adjournment of the return date on the motion, and sua sponte marked the motion as fully submitted and unopposed. The court stated that it would not accept plaintiff's late papers because plaintiff had not offered a reasonable excuse for his delay in opposing the motion (citing CPLR 2214, 2004). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P008",
+        "quote": "The court noted that more than 150 days had passed since Findlay filed the motion and that the third stipulation was executed just one day before the submission date and well after the date for serving opposition papers, as set forth in the parties' second stipulation. By order entered July 16, 2020, the court granted, on default, Findlay's unopposed motion. The court found that Findlay had established its entitlement to summary judgment by showing that the employee who was mopping the floor at the time of the accident had placed a wet floor sign in the area, that plaintiff saw the sign, and that he understood that the sign indicated that the floor was wet. On appeal, plaintiff contends that the motion court erroneously disregarded the parties' third stipulation to adjourn the return date on the motion, as litigating parties are free to chart their own course, and the parties had stipulated to a third adjournment, and had not actually moved the court for an adjournment. In his reply, plaintiff asks this Court to deem his notice of appeal a request for leave to appeal. This order was not made upon notice and is not appealable as of right (CPLR 5701 [a]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P009",
+        "quote": "However, this Court is authorized to deem a notice of appeal a request for leave to appeal and to grant such leave for a determination on the merits in the interest of justice (CPLR 5701 [c]; Matter of Gliklad v Deripaska , 185 AD3d 512 , 512 [1st Dept 2020]). Given the facts of this case, this Court grants plaintiff leave to appeal in the interest of justice. Relying on CPLR 2214 and 2004, the motion court dismissed the complaint because plaintiff's counsel did not offer a valid explanation for his late filing. However, counsel filed his opposition pursuant to what he thought was a valid stipulation. A more equitable solution, given that plaintiff's opposition had already been filed a month earlier pursuant to [*4] a stipulation, would have been to sanction plaintiff's attorney or instruct him that, going forward, adjournments would have to be approved by the court at the risk of having the case dismissed. It should also be noted that defendant agreed to the adjournment and was therefore not prejudiced by the November 15th filing of the opposition. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P010",
+        "quote": "On the merits, we find that Findlay failed to make a prima facie showing entitling it to summary judgment, as it did not eliminate all triable issues concerning whether plaintiff was adequately warned of the wet floor. A landowner owes the public a duty to maintain its property in a reasonably safe condition under the existing circumstances ( Basso v Miller , 40 NY2d 233, 241 [1976]), which may include the duty to warn persons reasonably expected to be on the property of known dangers ( id. ). The reasonableness of a defendant's care when remedying a dangerous condition is determined by considering all the surrounding circumstances ( see Pomahac v TrizecHahn 1065 Ave. of Ams., LLC , 65 AD3d 462 , 465-466 [1st Dept 2009]). Given the T-shaped nature of the hallway in this case, there are issues of fact as to whether the first warning sign was adequate, especially since the floor in that area was dry. Indeed, \"[t]he mere placement of a wet floor warning sign does not automatically absolve [a] defendant of negligence\" ( Hamilton v 3339 Park Dev. LLC , 158 AD3d 440 , 442 [1st Dept 2018]). We also note that this housing development housed primarily elderly and handicapped individuals. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P011",
+        "quote": "Concur—Acosta, P.J., Kapnick, Moulton, Scarpulla, JJ. Motion for an enlargement of time to file and serve plaintiff's reply brief and to strike portions of defendant's brief as dehors the record, denied. This Court may take judicial notice of the individual part rules.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P001",
+        "quote": "unanimously reversed, on the facts and in the interest of justice, without costs, and the motion granted.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2813789",
+    "text_sha256": "4ba57c5d6422aaeae531dc8bd318a9b77cecd81507ba654a55a0d62f9cb06d0b",
+    "input_chunk_id": "A_034",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T22:01:25.267251-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_034.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "out_of_scope",
+      "binary_task": "exclude",
+      "reasons": [
+        "procedural_only"
+      ],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "procedural_only",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E007"
+      ],
+      "orders": [
+        {
+          "description": "Denied calendar restoration and rejected defendant summary judgment as untimely.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied calendar restoration and rejected defendant summary judgment as untimely.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E002",
+            "E007"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "other",
+      "hazards": [
+        "unclear"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": "2010-10-14",
+      "factual_summary": "Decedent allegedly slipped in driveway of defendant residence; death stayed case while merits motions remained pending.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Motion timely when originally served; postdeath restoration after substitution not new filing; remitted for undecided merits motions.",
+        "evidence_ids": [
+          "E003",
+          "E004",
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "current_outcome",
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E007"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Substantive summary judgment motions expressly left for trial court, not decided in this appeal. Full reversal with consequential remand."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Pietrafesa v Canestro (2015 NY Slip Op 05659) Pietrafesa v Canestro 2015 NY Slip Op 05659 [130 AD3d 602] July 1, 2015 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, September 2, 2015 [*1] Gene Pietrafesa, as Executor of Marie Pietrafesa, Deceased, Respondent, v Anthony Canestro, Appellant. Jacobson & Schwartz, LLP, Jericho, N.Y. (Henry J. Cernitz of counsel), for appellant. Helwig, Henderson, Ryan, LaMagna & Spinola, LLP, Carle Place, N.Y. (Lauren A. Alfano of counsel), for respondent. In an action to recover damages for personal injuries, the defendant appeals from an order of the Supreme Court, Queens County (Pineda-Kirwan, J.), entered November 25, 2014, which, in effect, denied that branch of his motion which was to restore the case to the motion calendar for disposition of certain pending and undecided motions, and denied, as untimely, his motion for summary judgment dismissing the complaint. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Ordered that the order is reversed, on the law, with costs, that branch of the defendant's motion which was to restore the case to the motion calendar for disposition of the pending and undecided motions is granted, and the matter is remitted to the Supreme Court, Queens County, for a determination of the merits of the defendant's motion for summary judgment dismissing the complaint and the plaintiff's cross motion for summary judgment on the issue of liability. On October 14, 2010, Marie Pietrafesa (hereinafter the decedent) allegedly sustained injuries when she slipped and fell in the driveway of the defendant's residence in Queens. Subsequently, the decedent commenced this action to recover damages for personal injuries. On or about May 20, 2013, after depositions had been taken, the defendant moved for summary judgment dismissing the complaint. On July 11, 2013, the decedent died. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "When a party to an action dies, the proceedings are automatically stayed and the Supreme Court is divested of jurisdiction to conduct proceedings until a personal representative is appointed for the decedent's estate and is substituted in the action ( see CPLR 1015, 1021; Stancu v Cheon Hyang Oh , 74 AD3d 1322 , 1323 [2010]; Manto v Cerbone , 71 AD3d 1099 , 1100 [2010]). On July 12, 2013, the day after the decedent died, the decedent's counsel filed papers opposing the defendant's motion, and cross-moved for summary judgment on the issue of liability. That same day, the decedent's counsel also filed a note of issue. Thereafter, the defendant served a reply and an amended reply to the decedent's opposition. The motion and cross motion were made returnable in the Supreme Court on September 9, 2013. The record does not reveal whether the decedent's counsel was aware that her client had died the day before she filed the opposition to the [*2] motion, the cross motion, and the note of issue. On February 20, 2014, Gene Pietrafesa, as executor of the estate of Marie Pietrafesa, was substituted as the plaintiff in this action. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "Beginning in April 2014, the defendant made several informal requests that the Supreme Court place the pending motion and cross motion back on the motion calendar because the automatic stay had been lifted. On August 8, 2014, the defendant made a formal motion to restore the case to the active calendar and, in effect, for a determination on his pending, but undecided, motion. The plaintiff did not oppose that branch of the defendant's motion which sought to restore the case to the calendar. Further, the plaintiff specifically requested that the court also consider his cross motion for summary judgment, and submitted a reply to the defendant's opposition to the cross motion. Without specifically addressing that branch of the defendant's motion which was to restore the case to the calendar, the Supreme Court denied the defendant's motion for summary judgment, finding that it was untimely under CPLR 3212 (a) because it was \"not made until August 8, 2014,\" more than 120 days after the filing of the note of issue. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P005",
+        "quote": "Contrary to the Supreme Court's determination, the defendant's motion for summary judgment was made when the motion papers were served in May 2013, which was prior to both the filing of the note of issue and the decedent's death in July 2013 ( see CPLR 2211; Rivera v Glen Oaks Vil. Owners, Inc ., 29 AD3d 560 , 561 [2006]; Russo v Eveco Dev. Corp ., 256 AD2d 566 [1998]). Therefore, the defendant's motion was timely made pursuant to CPLR 3212 (a). The fact that the defendant, in effect, renewed his pending motion for summary judgment in August 2014, after a personal representative was substituted for the decedent, did not render his motion untimely. Under the circumstances presented here, the timeliness of the defendant's motion must be judged by the date of service of the original motion papers, rather than the renewed motion papers ( cf. Rivera v Glen Oaks Vil. Owners, Inc ., 29 AD3d at 562). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P006",
+        "quote": "Accordingly, the Supreme Court should have granted that branch of the defendant's motion which was to restore the case to the motion calendar, and then determined the merits of his pending, but undecided, motion for summary judgment, taking into consideration the plaintiff's opposition, and the defendant's reply and amended reply. Further, the Supreme Court should have determined the merits of the plaintiff's cross motion, taking into consideration the defendant's opposition and the plaintiff's reply. Dillon, J.P., Leventhal, Cohen and Maltese, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "quote": "Ordered that the order is reversed, on the law, with costs, that branch of the defendant's motion which was to restore the case to the motion calendar for disposition of the pending and undecided motions is granted, and the matter is remitted to the Supreme Court, Queens County, for a determination of the merits of the defendant's motion for summary judgment dismissing the complaint and the plaintiff's cross motion for summary judgment on the issue of liability.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2811365",
+    "text_sha256": "385a2ec72a604943030aba0f3f179e56531f13810f002bbe34d71f9ed34ed889",
+    "input_chunk_id": "A_034",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T22:01:25.267288-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant quotation-precision revision; labels unchanged. Mixed passage-level evidence has unclear statement_status; exact controlling-disposition quote is separate. Human review pending. Earlier substantive corrections remain documented in corrections.md.",
+      "supersedes": "drafts/A_034.draft-v1.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E004"
+      ],
+      "orders": [
+        {
+          "description": "Granted defense summary judgment and in effect denied plaintiffs liability cross motion.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defense summary judgment and in effect denied plaintiffs liability cross motion.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E004"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "entrance",
+      "hazards": [
+        "obstruction"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": "2010-11-14",
+      "factual_summary": "Plaintiff allegedly slipped on mat on deck while leaving front door of defendants-owned house.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "court_addressed",
+        "finding": "Mat and its placement not inherently dangerous; no triable opposition.",
+        "evidence_ids": [
+          "E002"
+        ]
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "DeLorenzo v Bales (2015 NY Slip Op 05435) DeLorenzo v Bales 2015 NY Slip Op 05435 [129 AD3d 1013] June 24, 2015 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, August 5, 2015 [*1] Anthony DeLorenzo et al., Appellants, v Robert Bales et al., Respondents. Napoli Bern Ripka Shkolnik LLP (Pollack, Pollack, Isaac & DeCicco LLP, New York, N.Y. [Brian J. Isaac and Michael H. Zhu], of counsel), for appellants. Katz & Associates (Farber Brocks & Zane, LLP, Garden City, N.Y. [Charles T. Ruhl], of counsel), for respondents. In an action to recover damages for personal injuries, etc., the plaintiffs appeal from an order of the Supreme Court, Kings County (Ruchelsman, J.), dated July 15, 2014, which granted the defendants' motion for summary judgment dismissing the complaint, and, in effect, denied their cross motion, inter alia, for summary judgment on the issue of liability. Ordered that the order is affirmed, with costs. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "On November 14, 2010, the plaintiff Anthony DeLorenzo (hereinafter the injured plaintiff) allegedly sustained injuries when he slipped and fell on a mat while exiting the front door of a house owned by the defendants. The injured plaintiff, and his wife suing derivatively, thereafter commenced this action to recover damages for personal injuries and loss of consortium. The defendants moved for summary judgment dismissing the complaint, and the plaintiffs cross-moved, inter alia, for summary judgment on the issue of liability. The Supreme Court granted the defendants' motion and, in effect, denied the plaintiffs' cross motion. The defendants established their prima facie entitlement to judgment as a matter of law by submitting evidence demonstrating that neither the mat itself nor its placement on the deck of their house constituted an inherently dangerous condition ( see Sosa v RS 2001, Inc. , 106 AD3d 720 [2013]; Leib v Silo Rest., Inc. , 26 AD3d 359 , 360 [2006]; Rosa v Southren , 8 AD3d 648 [2004]; Mansueto v Worster , 1 AD3d 412 , 413 [2003]). In opposition, the plaintiffs failed to raise a triable issue of fact. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Accordingly, the Supreme Court properly granted the defendants' motion for summary judgment dismissing the complaint and properly, in effect, denied the plaintiffs' cross motion, inter alia, for summary judgment on the issue of liability. The plaintiffs' remaining contention is without merit. Rivera, J.P., Skelos, Roman and LaSalle, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  }
+]

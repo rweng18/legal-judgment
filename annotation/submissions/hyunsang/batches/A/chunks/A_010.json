@@ -1,0 +1,1468 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6004283",
+    "text_sha256": "f8a7557c20f72a83acab50692efb4800b943fb97a51ba5cceef130543acf6d2f",
+    "input_chunk_id": "A_010",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:37:49.701633-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant outcome-cue completion and evidence refinement; semantic labels unchanged. Broad mixed evidence has unclear statement status; exact outcome quotations separate. Human review pending.",
+      "supersedes": "drafts/A_010.draft-v2.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E005"
+      ],
+      "orders": [
+        {
+          "description": "Granted defendants summary judgment dismissing complaint.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defendants summary judgment dismissing complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E005"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "entrance",
+      "hazards": [
+        "uneven_surface",
+        "obstruction"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly tripped over taped height differential between permanent inset rug and adjacent seasonal rug in defendants store entrance.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "court_addressed",
+        "finding": "Height differential trivial given photos and circumstances; no trap/snare issue.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Defense engineer measured five-sixteenths to three-eighths inch difference, part of triviality evidence.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition described caught foot/tape.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Friend described low differential and secured tape.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "type": "expert_evidence",
+        "description": "Engineer measurements considered.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "type": "photographs",
+        "description": "Defect photos examined.",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Appeal from an order of the Supreme Court, Onondaga County (James P. Murphy, J.), entered May 17, 2011 in a personal injury action. The order granted the motion of defendants for summary judgment and dismissed the complaint. It is hereby ordered that the order so appealed from is unanimously affirmed without costs. Memorandum: Plaintiff commenced this action seeking damages for injuries she sustained when she allegedly tripped and fell on carpeting at defendants’ store. We conclude that Supreme Court properly granted defendants’ motion for summary judgment dismissing the complaint (see generally Zuckerman v City of New York, 49 NY2d 557, 562 [1980]). The allegedly defective condition was created by two rugs inside an entrance to defendants’ store. The first rug was permanent, inset into the floor and flush with the tile surrounding it. The second rug was seasonal, approximately one-quarter-inch thick, and it was placed on top of the tile floor and adjacent to the permanent rug during inclement weather. The permanent and seasonal rugs were duct taped together at the edge where they met. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "Plaintiff testified at her deposition that she tripped and fell on a portion of the duct tape covering the “raised” area or “hump” created by the adjoining rugs. Although plaintiff did not testify with respect to the extent of the height differential between the rugs, plaintiff’s friend, who was with plaintiff at the time of the accident and who felt the raised area under the duct tape immediately thereafter, estimated at her deposition that the height differential was one-half of an inch. Defendants’ expert engineer measured that the height differential between *1475 the rugs was between five-sixteenths and three-eighths of an inch. Although plaintiff testified that it felt as though her foot got caught in the duct tape, which, according to plaintiff, was “raised a little” and “wrinkled,” plaintiff did not observe the tape before she fell, and she could not recall whether the tape was “pulled up” from the rugs thereafter. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "Plaintiff’s friend testified that, after the accident, the tape was “still secured to the carpet,” was not “raised up or bubbled up” and was not “lifted up or pulled up in any way.” The accident occurred on a sunny day, and plaintiff testified that there were no other customers in the vicinity and that nothing blocked her view of the area in which she was walking. “After examining the photograph! ] depicting the width, depth and irregularity of the defect in the [carpeting], and in view of the time, place and circumstances of plaintiff’s injury, we conclude that defendants established as a matter of law that the defect is too trivial to be actionable” (Sharpe v Ulrich Dev. Co., LLC, 52 AD3d 1319, 1320 [2008]; see e.g. Taussig v Luxury Cars of Smithtown, Inc., 31 AD3d 533, 534 [2006]; Trionfero v Vanderhorn, 6 AD3d 903, 903-904 [2004]; cf. Seivert v Kingpin Enters., Inc., 55 AD3d 1406, 1407 [2008]). We further conclude that plaintiff “failed to raise a triable issue of fact whether the alleged defect has the characteristics of a trap, snare or nuisance” (Gigliotti v St. Stanislaus Kostka R.C. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "Church, 261 AD2d 951, 952 [1999]; see Trionfero, 6 AD3d at 904 ; Maloid v New York State Elec. & Gas Corp., 257 AD2d 712, 713 [1999]; cf. McKenzie v Crossroads Arena, 291 AD2d 860, 861 [2002], lv dismissed 98 NY2d 647 [2002]). Present — Scudder, P.J., Centra, Fahey, Peradotto and Sconiers, JJ.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "quote": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-7857611",
+    "text_sha256": "649c5ad7b6ef63776363955a0111b2e29123d21aa37935e58c00aa042c5d63e4",
+    "input_chunk_id": "A_010",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:37:49.701714-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant outcome-cue completion and evidence refinement; semantic labels unchanged. Broad mixed evidence has unclear statement status; exact outcome quotations separate. Human review pending.",
+      "supersedes": "drafts/A_010.draft-v2.json"
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "outside_slip_trip_scope"
+      ],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "unclear",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": null,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E005"
+      ],
+      "orders": [
+        {
+          "description": "Denied defendant summary judgment.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendant summary judgment.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E005"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "stairs",
+      "hazards": [
+        "stairs_handrail"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": "2017-12-21",
+      "factual_summary": "Plaintiff fell descending interior stairs in defendant-owned building; handrail existed on right only; cause unidentified.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "No triable breach of common-law duty by absence of second handrail.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff unable to identify fall cause.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "court_addressed",
+        "finding": "Building not subject to cited code; no applicable second-handrail provision shown.",
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "factual_support_thin"
+      ],
+      "notes": "Actual fall is clear but slip/trip mechanism not established; absence of proven negligence alone does not disqualify."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Mancini v Nicoletta (2022 NY Slip Op 04961) Mancini v Nicoletta 2022 NY Slip Op 04961 [208 AD3d 657] August 17, 2022 Appellate Division, Second Department Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431. As corrected through Wednesday, October 5, 2022 [*1] Anita Mancini, Respondent, v Carmela Nicoletta, Appellant. The Di Pippo Law Group, LLC, Garden City, NY (Eric D. Mercurio of counsel), for appellant. Salenger, Sack, Kimmel & Bavaro, LLP, Woodbury, NY (Justin S. Curtis and Beth S. Gereg of counsel), for respondent. In an action to recover damages for personal injuries, the defendant appeals from an order of the Supreme Court, Nassau County (R. Bruce Cozzens, Jr., J.), entered April 14, 2021. The order denied the defendant's motion for summary judgment dismissing the complaint. Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is granted. On December 21, 2017, at approximately 12:45 p.m., the plaintiff fell down a staircase inside a building owned by the defendant. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "As the plaintiff descended the stairs, there was a handrail on the right side but not on the left side of the staircase. The plaintiff commenced this personal injury action against the defendant. The defendant moved for summary judgment dismissing the complaint, arguing that the plaintiff did not know what had caused her to fall and that the staircase, which only had one handrail, was not in violation of any applicable statute or code. The Supreme Court denied the motion, and the defendant appeals. In a premises liability case, a defendant property owner moving for summary judgment can establish its prima facie entitlement to judgment as a matter of law on the issue of negligent maintenance by showing that the plaintiff cannot identify the cause of his or her accident ( see Gaither-Angus v Adelphi Univ. , 180 AD3d 875 [2020]; Gani v Avenue R Sephardic Congregation , 159 AD3d 873 , 874 [2018]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "\"However, even if a plaintiff's fall is precipitated by a misstep, where the plaintiff testifies that he or she reached out to try to stop his or her fall, the absence of a handrail, if required by law, may raise an issue of fact as to whether the absence of the handrail was a proximate cause of his or her injury\" ( Jackson v Bethel A.M.E. Church , 192 AD3d 868 , 869-870 [2021]; see Palmer v Prima Props., Inc. , 101 AD3d 1094 , 1094-1095 [2012]; Russo v Frankels Garden City Realty Co. , 93 AD3d 708 , 710 [2012]; Viscusi v Fenner , 10 AD3d 361 , 362 [2004]). Here, the defendant established, prima facie, that the plaintiff did not know what had caused her to fall ( see Jackson v Bethel A.M.E. Church , 192 AD3d at 870; Gaither-Angus v Adelphi Univ. , 180 AD3d at 876). The defendant also established, prima facie, that the building was not subject to the particular code provisions relied upon by the plaintiff ( see Lieb v Guzman , 134 AD3d [*2] 913 [2015]; Navarre v Ketcham , 122 AD3d 811 [2014]; DeCourcey v Briarcliff Cong. Church , 104 AD3d 799 , 801 [2013]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "In opposition, the plaintiff failed to raise a triable issue of fact as to whether there was an applicable statutory or code provision that required a second handrail on the staircase. The plaintiff also failed to raise a triable issue of fact as to whether the defendant breached her common-law duty to maintain the staircase in a reasonably safe condition by failing to install a second handrail ( see DeCourcey v Briarcliff Cong. Church , 104 AD3d at 801; cf. DeCarlo v Vacchio , 147 AD3d 724 [2017]; Swerdlow v WSK Props. Corp. , 5 AD3d 587 , 588 [2004]; see generally Salazar v Kellari Parea, LLC , 189 AD3d 1490 , 1491 [2020]; Fishelson v Kramer Props., LLC , 133 AD3d 706 , 708 [2015]). Accordingly, the Supreme Court should have granted the defendant's motion for summary judgment dismissing the complaint. Barros, J.P., Chambers, Miller and Christopher, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is granted.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5933602",
+    "text_sha256": "7b360e2a41110d26dee03f3afc5be7d2c211a6d99471a29752ced4e02b98932b",
+    "input_chunk_id": "A_010",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:37:49.701800-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant outcome-cue completion and evidence refinement; semantic labels unchanged. Broad mixed evidence has unclear statement status; exact outcome quotations separate. Human review pending.",
+      "supersedes": "drafts/A_010.draft-v2.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E005"
+      ],
+      "orders": [
+        {
+          "description": "Granted defense summary judgment.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defense summary judgment.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E005"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "entrance",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff slipped on rain-wet linoleum in supermarket vestibule and saw no mats or warning signs.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Constant rain does not eliminate reasonable remedial measures issue.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Employee lack of recollection did not establish lack of knowledge.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff account and mat practice raise duration/knowledge issue; defense burden unmet.",
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "Rainy-weather wetness and mat practice relevant to knowledge question.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Plaintiff identified wet floor from personal knowledge; not speculation.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff testimony identified wet floor.",
+        "evidence_ids": [
+          "E001",
+          "E003"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "Grocery clerk could not recall mats/conditions on date.",
+        "evidence_ids": [
+          "E002",
+          "E004"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "facts",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Order, Supreme Court, New York County (Debra A. James, J.), entered on or about April 1, 2009, which, in an action for personal injuries sustained in a slip and fall on a wet floor in the vestibule of defendants’ supermarket, granted defendants’ motion for summary judgment dismissing the complaint, unanimously reversed, on the law, without costs, the motion denied, and the complaint reinstated. As plaintiff entered defendants’ supermarket, he slipped and fell in the vestibule, which was covered in linoleum tiles that were wet because “[i]t was raining all day and coming in.” He observed no mats or signs warning of a slippery condition. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "At his examination before trial, defendants’ grocery clerk testified that, when it rained, “somebody would go and get some mats and put them in the front,” but he did not remember whether he had ever seen “the porter place down mats in the vestibule area when it was raining.” Nor did he recall what the weather was like on the day of the accident or whether he had seen “any mats down in the vestibule area that day.” On their motion, defendants denied actual or constructive knowledge of the alleged hazardous condition, contending that they had no duty to provide an ongoing remedy when a slippery condition is caused by moisture tracked into the premises during a constant rain. Supreme Court agreed, reasoning that plaintiff “failed to submit evidence sufficient to raise an issue of fact as to constructive notice that there was a recurrent dangerous condition with respect to rainy weather conditions.” We disagree. Plaintiff s statement that the floor was wet and slippery due to a constant rain is evidence sufficient to raise a factual question as to whether defendant knew or should have known of the *440 existence of a hazardous condition. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P003",
+        "quote": "His testimony constitutes evidence from someone with personal knowledge of the facts and, whether or not it is regarded as self-serving, it is sufficient to present an issue for trial (see Butler v Helmsley-Spear, Inc., 198 AD2d 131, 132 [1993]). Plaintiff identified the wet and slippery floor as the reason for his fall; thus, his testimony cannot be dismissed as mere speculation regarding causation (cf. Keum Choi v Olympia & York Water St. Co., 278 AD2d 106, 106-107 [2000] [“plaintiff inferred his fall was caused by water on the floor”]; Pagan v Local 23-25 Intl. Ladies Garment Workers Union, 234 AD2d 37, 37 [1996] [plaintiff “could not remember whether or not the floor had been wet”]). In addition, defendants’ employee testified that it was the store’s practice to put down mats during inclement weather. Together, the testimony satisfies plaintiffs burden to demonstrate that a visible and apparent hazardous condition had existed for a sufficient length of time to permit defendants’ employees to discover and remedy it (Gordon v American Museum of Natural History, 67 NY2d 836, 837 [1986]) but that they failed to take reasonable measures to do so. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P004",
+        "quote": "In any event, defendants’ moving papers failed to make out a prima facie case for summary judgment. The testimony of defendants’ employee does not establish that defendants lacked actual or constructive knowledge of the condition of their vestibule, only that the employee had no recollection of conditions or remedial measures that might have been implemented on the date of the accident (see Josephson v Crane Club, 264 AD2d 359, 360 [1999]). Concur—Tom, J.P., Saxe, Renwick, DeGrasse and Richter, JJ.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "quote": "unanimously reversed, on the law, without costs, the motion denied, and the complaint reinstated.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6199158",
+    "text_sha256": "01f2021d424c9d6048d4044b16fd70ea4d435b595f6749d392a2ec8db9204c63",
+    "input_chunk_id": "A_010",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:37:49.701978-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant outcome-cue completion and evidence refinement; semantic labels unchanged. Broad mixed evidence has unclear statement status; exact outcome quotations separate. Human review pending.",
+      "supersedes": "drafts/A_010.draft-v2.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "plaintiff",
+      "disposition_evidence": [
+        "E003"
+      ],
+      "orders": [
+        {
+          "description": "Denied defendant summary judgment.",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendant summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E003"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "stairs",
+      "hazards": [
+        "snow_ice",
+        "stairs_handrail"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly slipped on snow on residential steps; rotten/deteriorated boards also alleged to contribute.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "court_addressed",
+        "finding": "Equivocal deposition insufficient to establish ongoing storm versus prior accumulation.",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Rotten-board contribution triable even assuming storm defense.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Unaddressed board theory and no deposition contradiction; not feigned issue.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition equivocal on snow timing; not asked about boards.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E002"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "Appeal from an order of the Supreme Court, Onondaga County (Anthony J. Paris, J.), entered April 29, 2014. The order denied defendant’s motion for summary judgment dismissing plaintiff’s complaint. It is hereby ordered that the order so appealed from is unanimously affirmed without costs. Memorandum: Plaintiff commenced this action seeking damages for injuries he allegedly sustained when he slipped and fell on the steps of residential property owned by defendant. Supreme Court properly denied defendant’s motion for summary judgment dismissing the complaint. We conclude that defendant failed to establish as a matter of law that there was a storm in progress at the time of plaintiff’s accident (see Korthals v LCB Capital, LLC, 115 AD3d 1326, 1326-1327 [2014]; Verleni v City of Jamestown, 66 AD3d 1359, 1360 [2009]). Plaintiff’s equivocal deposition testimony, which defendant submitted in support of her motion, was insufficient to establish that the snow on the steps “was the result of an ongoing storm as opposed to an accumulation of [snow] from . . . prior snowfalls” (McBryant v Pisa Holding Corp., 110 AD3d 1034, 1036 [2013]). ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "In addition, the court properly determined that, even assuming, arguendo, defendant was entitled to judgment based upon the storm in progress doctrine, there is an issue of fact whether the rotten and deteriorated condition of the boards on the staircase caused or contributed to plaintiff’s injuries. Indeed, we note that defendant did not address that theory of liability in her motion (see Valenti v Camins, 95 AD3d 519, 522 [2012]). In any event, we reject defendant’s contention that plaintiff’s opposing submissions in support of that theory of liability were “merely an attempt to raise a feigned issue of fact” to defeat the motion (Schwartz v Vukson, 67 AD3d 1398, 1400 [2009]). Plaintiff was not questioned at his deposition with respect to the allegedly unsafe condition of the stairs and, thus, his submissions did not contradict his deposition testimony on that issue. Present — Centra, J.P., Peradotto, Lindley, Whalen and DeJoseph, JJ.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6131365",
+    "text_sha256": "f3cb6b8124a0b660b4d906c9d881f96f21942491495c5ec768c7c1ced5f0fdcf",
+    "input_chunk_id": "A_010",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-10-20T21:37:49.702010-04:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Assistant outcome-cue completion and evidence refinement; semantic labels unchanged. Broad mixed evidence has unclear statement status; exact outcome quotations separate. Human review pending.",
+      "supersedes": "drafts/A_010.draft-v2.json"
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E002"
+      ],
+      "incident_evidence": [
+        "E001",
+        "E002"
+      ],
+      "scope_evidence": [
+        "E001",
+        "E002"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E003"
+      ],
+      "orders": [
+        {
+          "description": "Granted defense summary judgment.",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted defense summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E003"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "obstruction"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "accident_date": null,
+      "factual_summary": "Plaintiff allegedly tripped in defendants store aisle and after fall saw three folded beach chairs leaning against wall.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "court_addressed",
+        "finding": "Chairs open/obvious and not inherently dangerous.",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "raised_only",
+        "finding": "Defense argued plaintiff did not know fall cause; alternative argument unnecessary after open/obvious determination.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Plaintiff deposition described chairs seen after fall.",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E002"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "In an action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Nassau County (Marber, J.), entered October 11, 2012, which granted the defendants’ motion for summary judgment dismissing the complaint. Ordered that the order is affirmed, with costs. The plaintiff allegedly tripped and fell in one of the aisles of the defendants’ store and sustained injuries. The plaintiff subsequently commenced this personal injury action against the defendants. The defendants moved for summary judgment dismissing the complaint, contending that the plaintiff did not know what had caused him to fall and that, in any event, the alleged hazardous condition was open and obvious and not inherently dangerous. In support of the motion, the defendants submitted, inter alia, the deposition testimony of the plaintiff wherein he stated that after he fell, he saw three folded-up beach chairs stacked and leaning against the wall in the aisle. The Supreme Court granted the motion, finding that the condi *958 tion of the chairs was open and obvious and not inherently dangerous. We affirm. ",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "The defendants established their entitlement to judgment as a matter of law by demonstrating, prima facie, that the condition at issue was open and obvious and not inherently dangerous (see Flaim v Hex Food, Inc., 79 AD3d 797 [2010]; Stern v Costco Wholesale, 63 AD3d 1139 [2009]; Gagliardi v Walmart Stores, Inc., 52 AD3d 777 [2008]; Espinoza v Hemar Supermarket, Inc., 43 AD3d 855 [2007]). In opposition, the plaintiff failed to raise a triable issue of fact (see Alvarez v Prospect Hosp., 68 NY2d 320 [1986]). Based upon the foregoing determination, the plaintiff’s remaining contention has been rendered academic. Accordingly, the Supreme Court properly granted the defendants’ motion for summary judgment dismissing the complaint. Mastro, J.E, Chambers, Lott and Cohen, JJ., concur.",
+        "statement_status": "unclear"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "Ordered that the order is affirmed, with costs.",
+        "statement_status": "current_disposition"
+      }
+    ]
+  }
+]
