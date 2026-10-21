@@ -1,0 +1,11 @@
+# A_034 scope and provenance
+
+User instruction: “Continue with A_034”. Reviewer: becca. Only the four manifest cases were assigned. Completion of this final chunk also assembles and freezes Becca’s complete independent batch A draft for later comparison; no peer comparison or human adjudication is performed.
+
+All 25 passages were read in full: Bissett NY-4453479 P001–P005, Zubillaga NY-4929051 P001–P011, Pietrafesa NY-2813789 P001–P006 and DeLorenzo NY-2811365 P001–P003. All continued reasoning, procedural histories and Zubillaga’s separate final briefing-motion disposition were read; no truncation prevented full case reading.
+
+AGENTS.md and DECISIONS.md were rechecked; README, codebook, workflow, quality guidance and schema had been read, and DELIVERABLES.md was read for complete-round assembly. Initial codebook/schema/prompt 1.0.0 remain unchanged; no substantive team rule freeze or human review is claimed. Model: GPT-6 (Codex); exact version unknown/null. No peer annotations, previous automated labels for these cases, independent human calibration notes or outside case facts were consulted. Prior human exposure is unknown; no calibration annotations were reused.
+
+Semantic full reading supplied the annotations. Helpers only serialize schema objects and check literal quotations. No annotation API calls, extra agents, downloads or push occurred. All records remain llm_draft with human_reviewer_id null. Original draft is preserved separately and initially matches selected output.
+
+Bissett and DeLorenzo are included affirmances. Zubillaga is an included reversal of both independently appealed orders, with express negligence-merits analysis alongside procedural relief. Its ancillary appellate briefing-motion denial is recorded separately from the appealed-order dispositions. Competing accounts of warning timing/sign placement are preserved; resident does not become an inferred tenant or an inferred age/disability. Pietrafesa is excluded as procedural-only: restoration and timeliness are decided, and both substantive motions are remitted for later merits decisions. Zubillaga is a preliminary validation-period case; unchanged rules were applied without tuning. Mechanical validation and a complete frozen draft do not establish legal correctness, team consensus or human review.

@@ -1,7 +1,7 @@
 {
   "reviewer_id": "becca",
   "batch": "A",
-  "status": "partial_llm_draft",
+  "status": "complete_llm_draft",
   "completed_chunks": [
     "A_001",
     "A_002",
@@ -35,11 +35,10 @@
     "A_030",
     "A_031",
     "A_032",
-    "A_033"
-  ],
-  "pending_chunks": [
+    "A_033",
     "A_034"
   ],
+  "pending_chunks": [],
   "completed_case_ids": [
     "NY-4600405",
     "NY-4253165",
@@ -205,15 +204,14 @@
     "NY-4658269",
     "NY-4542514",
     "NY-3172633",
-    "NY-9483727"
-  ],
-  "pending_case_ids": [
+    "NY-9483727",
     "NY-4453479",
     "NY-4929051",
     "NY-2813789",
     "NY-2811365"
   ],
-  "next_chunk": "A_034",
+  "pending_case_ids": [],
+  "next_chunk": null,
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
@@ -251,6 +249,13 @@
     "A_030": "fd8cfa163f91a76b26143515b7ebdfe028e4fbc0bed27a29c7bc86540693f473",
     "A_031": "1443623aeede50cc8f12a7b181aef24a843d1ca8a50f01639f8b141804a2d5a9",
     "A_032": "a4547b392a4f5cd663e293827f5b7b36fb31d69189ea326b536933e01ae44a64",
-    "A_033": "f8819498d7fa6242f402b16a855205935be8f713172d403f1de875c410e8d53e"
-  }
+    "A_033": "f8819498d7fa6242f402b16a855205935be8f713172d403f1de875c410e8d53e",
+    "A_034": "95384d7db4394d3c341a28e89d6e9b51107a2c7d24b82416fc296239d13843c6"
+  },
+  "annotations_file": "annotations.jsonl",
+  "annotations_sha256": "6c45e40b731ee8ea9620510964332d1a7343c0c6e143ca23b7e97d262402e2c6",
+  "freeze_file": "independent_freeze.json",
+  "independent_draft_frozen": true,
+  "peer_comparison_complete": false,
+  "next_step": "Compare frozen complete batch A submissions, then human review and consolidation; do not begin B before the A comparison stage."
 }
