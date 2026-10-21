@@ -4,7 +4,7 @@ Status as of October 20, 2026: **pending**.
 
 No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for this batch. User authorization to begin annotation is not human review of the resulting records.
 
-All fifty A_001–A_010 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745) and Castillo (NY-3165370) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184) and Mancini (NY-7857611) remain unresolved on slip/trip mechanism. These eleven cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378) and Mancini fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
+All 100 A_001–A_020 records remain `llm_draft`. Grossman (NY-4259140), Mahai-Sharpe (NY-2787559), Reid (NY-9389937), Dalpiaz (NY-4668292), Demuth (NY-5964060), Mermelstein (NY-3176773), Hecht (NY-2715745), Castillo (NY-3165370), Brown (NY-3171229), Ndiaye (NY-2767644), Derosa (NY-4842524), Bruni (NY-3163343) and Reyes (NY-4585467) remain unresolved on private-premises eligibility; Villanueva (NY-9422110), Bennett (NY-4518184), Mancini (NY-7857611) and Biro (NY-4430662) remain unresolved on slip/trip mechanism. Pellechia (NY-5954430) remains unresolved on whether a charter-jet stairway accident falls within the private-premises scope. Aristizabal (NY-4479663) remains unresolved on both private-property support and slip/trip mechanism. Torres (NY-6349426) and Grover (NY-4390617) also remain unresolved on private-premises eligibility. These twenty-one unresolved cases have null binary labels. Coreano (NY-4849014), Kmitis (NY-7853716), Villanueva, Tafolla (NY-9430103), Reid, Yerry (NY-7857572), Piotrowski (NY-4869542), Hunt (NY-6622562), Schneider (NY-7855719), Edwards (NY-6451900), Stango (NY-5304378), Mancini, Braxton (NY-9496698), Castro (NY-9329602), Drew (NY-9374007), Kerr-Inniss (NY-10090934), Kavenaght (NY-10128963), Lama (NY-4898836), German (NY-10291100), Barretta (NY-10120884), Torres (NY-6349426), Delucia (NY-8440757), Luttenberger (NY-5302167) and Hart (NY-10309802) fall in preliminary validation/test periods and need independent human eligibility/outcome review before any human-gold evaluation use.
 
 A_002 has no unresolved eligibility flags under the initial rules, but structural validation is not human review. Review the source support for the privately owned shopping-center ramp in Monopoli, the allocation of possession/control under its lease, and the unresolved alternative causes and notice issues in Mister without turning summary-judgment findings into final liability findings.
 
@@ -82,5 +82,107 @@ A_010 review priorities:
 - Koepke (NY-6131365): both obviousness and lack of inherent danger supported dismissal. Treat unknown causation as a defense argument, not an independently decided appellate ground, and retain the post-fall nature of the chair observation.
 
 Mancini is a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_011 review priorities:
+
+- Gartenberg (NY-4840329): one order is affirmed in the operative disposition despite cross-appellant roles. Preserve conflicting moisture testimony, missing last-inspection evidence and expert disagreement about tile triviality. Lost profits remain a causation question, not an established award.
+- Braxton (NY-9496698): the meteorologist's report was unsworn and underlying records were absent. Failure to establish a storm defense and noncreation is not proof of notice or creation by snow removal.
+- Castro (NY-9329602): photographs and surveillance did not establish that the low basket beside a cart was obvious and harmless. No finding establishes who placed it, and no independent video viewing is claimed.
+- Marie D. (NY-4495015): church ownership/lease support private premises, but current tenant use is unspecified. Preserve the out-of-possession and inapplicable-code reasoning; constructive notice is hypothetical. This is a negligence appeal, not solely a third-party dispute.
+- Rodriguez (NY-5997418): distinguish actual-case stair defects from details of Babich and Kane. Plaintiff identified the site and the engineer supplied sufficient opposing evidence without numbered code provisions. Medical records are discussed only as competing-cause material, not established facts. The supplied majority controls despite references to a dissent.
+
+Braxton is a preliminary test-period case and Castro a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_012 review priorities:
+
+- De Chica (NY-4421153): distinguish lack of a reasonable post-storm remediation opportunity from a finding that precipitation was still falling. Obviousness eliminated the warning duty; it does not independently establish harmlessness.
+- Reiss (NY-5949815): verify express Ulster County land ownership; the separate fair operator does not establish private property. Both obviousness and lack of inherent danger support the merits ruling; hay creation/causation was speculative. Only the judgment is independently appealed.
+- Milorava (NY-3155846): the operations manager's policy account begins two years after the incident, and neither manager supplied a specific last-inspection time. This is initial-burden failure, not proven notice; do not invent inspection logs.
+- Pizzoli (NY-4777012): check the public school-district building basis, without inferring legal title. The court assumed a possible spoliation error and affirmed independently; no finding validates the sanction. Visual estimate and photographs were insufficient to establish triviality.
+- Drew (NY-9374007): retain unknown defect type, dimensions and evidence formats. Generic triviality language and cited cases do not supply these missing facts.
+
+Drew is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_013 review priorities:
+
+- McNally (NY-5985468): preserve original gravel testimony and the errata clarification to broken blacktop. Possible longstanding deterioration and unknown inspection timing do not conclusively establish notice. Kitchen-help and grass-cutting details do not establish restaurant use or grass location.
+- Brown (NY-3171229): review private-property support from building attribution and operational testimony without inferring use/title from the name. This is substantive notice/precautions analysis with spoliation; a specific sanction remained undecided, and the earlier video-production order had no preclusive effect.
+- Meyers (NY-5965071): distinguish general pre-storm ice from the specific fall-area condition and notice. The ramp is at defendant's premises, but no residential use, legal title or weather-proof format is supplied. A cited same-defendant case does not establish a shared incident.
+- Croshier (NY-4768180): explicit ownership supports private group-home premises. General/monthly inspections and a seven-week-old observation did not establish a timely inspection. Plaintiff's work visit does not prove an employment or contractor relationship with defendant.
+- Biro (NY-4430662): resolve whether falling when a brick moved constitutes a slip/trip under the unchanged codebook; retain review until resolved. Private ownership and tenant context are explicit. Undisputed knowledge is distinct from the unresolved superseding-cause issue; risk/obviousness defenses were rejected as newly raised, not on their merits.
+
+All five A_013 cases fall in the preliminary training period. These priorities are not completed human reviews, and no rule changes or completed audits are claimed.
+
+A_014 review priorities:
+
+- Kerr-Inniss (NY-10090934): the backyard was not intended for traversal, and obviousness plus lack of inherent danger supported dismissal. Do not infer tenancy, residential use or an assumption-of-risk holding from the setting and plaintiff's prior observation.
+- Ndiaye (NY-2767644): review private status of the actual front steps without inferring it from building attribution or superintendent practices. Distinguish weather-data gaps, video observations and the expert's failure to exclude old ice. The three-hour opportunity and notice remain triable.
+- Gurley (NY-3182111): explicit cooperative ownership supports eligibility. Generic recurring-problem awareness is not notice of the particular water condition. No evidence formats, inspection times or particular leak history are supplied.
+- Rosado (NY-5988927): separate inadmissible hearsay from the firsthand earlier notice account. Cone placement raises notice issues without proving adequate warning or actual knowledge. Preserve unknown liquid type and premises use.
+- Ahmetaj (NY-4606643): the actual breezeway is within the condominium complex and maintained by association staff. Separate prior-day removal/salt entries from uncertain accident-day work. The photograph-prompted account still lacked specific remediation timing; no actual negligence finding follows.
+
+Kerr-Inniss is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_014 assistant revision (October 20, 2026; human review still pending): all 18 passages reread. Ahmetaj creation/actual notice are now raised_only; Ndiaye actual notice is not_discussed rather than a separately analyzed issue. Kerr-Inniss includes its repeated affirmance cue. Unknown defendant roles and Rosado’s alternative property relationships/unspecified statement format are clarified. Eligibility and outcomes are unchanged. See `prompts_used/A_014_redo.md` for case-level changes; selected v2 explicitly supersedes preserved v1. This is not an additional independent vote.
+
+A_015 review priorities:
+
+- Derosa (NY-4842524): assess private control of the actual exterior stair landing from supplied text; allegations of negligent ownership/maintenance and restaurant adjacency do not explicitly settle the boundary. One order decides two dismissal requests, both reversed in the appealed scope. Rain wetness is not a storm-in-progress or trivial-defect holding.
+- Kavenaght (NY-10128963): preserve the limited appeal and the out-of-possession/statutory exception analysis. Employee role concerns the restaurant employer, not defendant. The affidavit contradiction and expert deficiencies are not specified; the spoliation claim failed for lack of a proper motion, without a finding of sanctionable destruction.
+- Beckerleg (NY-6070911): distinguish favorable inferences reconciling the spill accounts from a finding of one identical spill or continuing spillage. The 2008 accident date is explicit and does not conflict with the opinion-date eligibility window. Actual notice is raised but not separately resolved; noncreation appears only in the general legal test.
+- Farrauto (NY-4303491): causation testimony was sufficient, and defendant failed its initial creation/actual/constructive-notice showings. No conclusive employee-placement finding follows. Preservation of the causation argument was assumed, not decided; failure to see the box does not establish nonvisibility.
+- Duluc (NY-2682947): check substantive eligibility against P007’s express negligence merits analysis, despite extensive spoliation discussion. One order affirms both motion results. The majority controls; the dissent is mentioned but not supplied. Hazard composition remains unknown, and neither camera footage nor the floor was independently inspected by the annotator.
+
+Kavenaght is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_016 review priorities:
+
+- Lama (NY-4898836): distinguish failure to establish relinquishment of control from affirmative proof of title or a landlord relationship. Plaintiff-proof gaps did not satisfy the movant’s initial burden; creation and notice were not conclusively found. Property use and exact fall location are unknown.
+- Bruni (NY-3163343): review the actual lot’s private ownership/control; a store visit and a constructive-notice burden ruling do not themselves establish that relationship. Preserve explicit shopping role, December 15, 2011 accident date and oil hazard. No specific evidence formats are supplied.
+- Baratta (NY-5993148): a superintendent walking over the mat is not evidence of inspection. Separate the alleged shifting/corners and failed hazard showing from a final defect finding. Residence does not establish tenancy; repeated movement is not separately analyzed as a recurring-condition doctrine.
+- Hill (NY-6052809): preserve the porter’s account alongside contrary witnesses, specific prior observations, complaints and prior slips. The court expressly addresses constructive notice and recurring conditions; it does not conclusively find notice or negligence. Owner/manager roles are collective alternatives.
+- Mangan (NY-5952291): explicit private course ownership and a personal slip support eligibility despite the successful assumption-of-risk defense. Do not invent a stair defect, customer status, club membership or a separate finding of obviousness from general risk language.
+
+Lama is a preliminary validation-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_017 review priorities:
+
+- Waring (NY-3161557): management-contract rights and indemnification are evidence of retained responsibility in plaintiff’s negligence action, not a third-party-only dispute. The actual judgment, including prior stipulated reductions, is fully affirmed. Do not infer employer identity, medical expert status or outcome modification from the damages discussion.
+- Reyes (NY-4585467): review private status from the supplied building attribution without inferring ownership from the defendant’s name. Preserve the primary nonactionable-wear rationale and alternative noncreation/notice rationale; no specific code section or constructive-notice timing analysis is supplied.
+- Pellechia (NY-5954430): resolve the aircraft-step scope boundary under team rules. Private ownership of the jet and an actual slip are explicit; review concerns whether this aviation setting qualifies as private premises. Keep substantive preemption/merits analysis and procedural/expert grounds without assuming the case is procedural-only or inventing a step defect.
+- Masse (NY-6042890): distinguish defendant’s failed alter-ego/special-employer showing from an established employment relationship. Employee creation remains a factual issue. Workers’ Compensation Law is not an unstated Labor Law claim; no evidence formats or liquid composition are supplied.
+- Casson (NY-4375829): preserve the conflicting February 15 snow-removal accounts and February 22 weather evidence. PJC is the tenant; the decedent’s residency does not establish a personal lease or work accident. The later TRO does not settle pre-TRO duty, and it is not an appealed order in this decision. No causal link between the fall and later death is supplied.
+
+All five A_017 cases fall in the preliminary training period. These priorities are not completed human reviews, and no rule changes or completed audits are claimed.
+
+A_018 review priorities:
+
+- Aristizabal (NY-4479663): resolve both private-building status and whether the actual fall was a slip/trip. Case-specific text says only fell while ascending stairs; generic slip/trip doctrine is not an incident fact. Failure to identify a negligent cause alone would not make an otherwise eligible case out of scope.
+- Namm (NY-4619223): apartment interior supports private control without title inference. Photographic visibility contradicted optical confusion, but no missing handrail, constructive-notice inspection analysis, comparative-fault holding or separate harmlessness finding is supplied.
+- Pilgrim (NY-4626387): ownership, residence, date and alleged wax residue are explicit. Noncreation and lack of notice were established, but evidence formats and inspection details are not stated. Residence does not establish tenancy.
+- German (NY-10291100): distinguish the private condominium garage setting from unresolved common-element pipe responsibility. The board failed its initial burden and the court alternatively found sufficient opposition. Work at the garage does not establish employee status or identify an employer; no actual leak or negligent creation is conclusively found.
+- Paucar (NY-6089099): preserve Doerr’s specific noncreation/no-duty findings and pre-fall testimony. The new melt/runoff theory was unpreserved and alternatively unsupported; no prior piles or recurring ice are established. The source does not identify particular climatological records or their contents.
+
+German is a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_019 review priorities:
+
+- Barretta (NY-10120884): ownership of the shopping center supports the described store walkway; actual tripping is stated even though negligent causation is not established. Preserve the distinction between an alleged ADA-width defect and a proven violation/cause. One order resolves both defendants’ motions and is fully affirmed in the appealed scope.
+- Torres (NY-6349426): assess whether the supplied text establishes private control of the actual floor. Do not infer site use or ownership solely from the supermarket trade name; employee lack-of-knowledge testimony does not identify a property relationship. The substantive noncreation/notice rulings remain recorded.
+- Grover (NY-4390617): review private status without treating building attribution or a mop bucket as proof of ownership/control. Wetness and neighbor testimony raise issues, but do not establish employee mopping, duration, liquid composition or residential tenancy.
+- Fortune (NY-4684087): preserve the assistant manager’s uncertainty about working that day, generic policies and absent specific inspection timing. Failure to show nonvisibility is not affirmative proof of notice. Liquid appearance does not establish composition.
+- Delucia (NY-8440757): verify procedural-only exclusion against the express refusal to consider potentially meritorious opposition. The June 28, 2021 default-vacatur denial alone is appealed; the February 5, 2020 dismissal is historical. No merits finding or accident date follows from the procedural chronology.
+
+Barretta is a preliminary test-period case; Torres and Delucia are preliminary validation-period cases. Apply current rules without tuning them. These priorities are not completed human reviews.
+
+A_020 review priorities:
+
+- Heck (NY-2757329): general weekly visits, even more frequent in cold weather, do not establish a specific last inspection. Keep initial constructive-notice burden failure distinct from actual notice or a recurring-ice finding; plaintiff’s role is unstated.
+- O’Toole (NY-2813813): common-element control by the board supports the private-premises setting even though individual unit owners lack maintenance duty. Their unit ownership is not ownership/control of the vestibule. Subtype and wetness composition are unknown; follow the operative plaintiff appeal rather than anomalous caption role wording.
+- Luttenberger (NY-5302167): preserve both obviousness and lack of inherent danger, along with prior safe crossing, unobstructed view and the right-foot strike. Flower delivery does not establish employment/contractor status. The metadata-only last passage is included; owner and tenant motions are resolved by one appealed order.
+- Nieves (NY-4546774): failure to establish relinquishment is not a conclusive finding of retained control or code violation. The third-party caption does not make this solely an indemnity appeal. The leak was observed after the fall, and no prior-notice analysis is supplied.
+- Hart (NY-10309802): distinguish the established ongoing storm and reasonable mat/mopping measures from a duty to cover every floor area. Possible tracking by plaintiff is not a comparative-fault finding. General awareness does not establish specific notice; the order is fully reversed as appealed. Use the 2024 decision date, not the 2025 correction date.
+
+Luttenberger is a preliminary validation-period case and Hart a preliminary test-period case. Apply current rules without tuning them. These priorities are not completed human reviews.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; revised records must identify their predecessor. Do not populate review entries until a human has performed the checks.
