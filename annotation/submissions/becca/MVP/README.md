@@ -21,7 +21,7 @@ Run all cells using Python 3 from this folder or the repository root. Only the s
 
 The 114 MVP cases remain unchanged, in 114 observed families. Five have a related source record outside the MVP. Sodhi's missing companion remains unresolved. Germain inherits calibration exposure, bringing the recorded training-only MVP count to four. No known linked family spans chronological periods in this snapshot.
 
-Family decisions are assistant drafts awaiting human review. Target labels are unchanged and still await Hayden's review. Family assignments do not establish human-gold outcomes or prove that no further family relationships exist. Versioned split assignments are now frozen with Sodhi pending; FULL/MASKED processing, encoder chunks, and training have not begun.
+Family decisions are assistant drafts awaiting human review. Target labels are unchanged and still await Hayden's review. Family assignments do not establish human-gold outcomes or prove that no further family relationships exist. Versioned split assignments are now frozen with Sodhi pending; FULL text has now been produced; MASKED processing, encoder chunks, and training have not begun.
 
 All notebook code cells have been checked by sequential execution, including repeat runs. Original annotations and synced project references were not modified. This work was prepared from repository revision e5f2ea9.
 
@@ -42,3 +42,20 @@ Development and testing are flagged as small. Existing versioned files cannot be
 overwritten by the notebook; changed data/decisions require a new version and reruns
 of affected experiments. All three code cells, count/group checks, and the frozen
 output overwrite guard passed. No training was run.
+
+## FULL text — full_v1
+
+`produce_full_text.ipynb` generates and verifies the shared cleaned-text base using
+`preprocessing/full_text.py` and frozen `full_rules_v1.json`. Outputs are in
+`data/full_v1/`: 114 individual text files, label-free `full.jsonl`, source-offset
+`removal_audit.jsonl`, summary, and checksum manifest. All later conditions must
+start from these exact FULL texts; MASKED will add removal, not different cleaning.
+
+The training-developed rules remove metadata and page markers while preserving
+controlling opinion text, dispositions, citations, and substantive footnotes.
+No separate dissent section was detected in the supplied source texts. Two majority
+references to dissent were preserved and reviewed in `full_review_v1.json`.
+All three notebook code cells and structural/export checks passed. No empty or
+near-empty text was produced. Source OCR quirks are retained rather than silently
+rewritten. Frozen IDs, targets, splits, and Sodhi's pending status are unchanged.
+No MASKED text, encoder chunks, or training have been produced.
