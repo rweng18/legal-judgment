@@ -1,0 +1,25 @@
+{
+  "version": "full_review_v1",
+  "status": "assistant structural review; no human adjudication claimed",
+  "reviewed_on": "2026-10-23",
+  "reviews": [
+    {
+      "case_id": "NY-2682947",
+      "source_sha256": "957eb2e3b91788252d26c7c3e7fae0052a7b74c59f15a665314c614e8d99731c",
+      "full_sha256": "9a4f9a63f1f7ad71dd78db4a84a30f64d12724003c8b6f35c7a125462c5ff448",
+      "flag": "dissent_reference_in_retained_text_check_context",
+      "resolution": "retain_majority_discussion",
+      "review_basis": "Full supplied source opinion read; no separate dissent heading or separate dissent text present in this source record.",
+      "action": "No override or text change. The frozen generic cleaner correctly preserves these majority passages."
+    },
+    {
+      "case_id": "NY-5997418",
+      "source_sha256": "4d8670432c5e83913bcb537fd3ee60bded0f3c232005b41a1e60aec4e9d20dc6",
+      "full_sha256": "926c0637c46f1dae6e3386b31497c08bb7dc9170ee28abe3c8d9741e12d5dfab",
+      "flag": "dissent_reference_in_retained_text_check_context",
+      "resolution": "retain_majority_discussion",
+      "review_basis": "Full supplied source opinion read; no separate dissent heading or separate dissent text present in this source record.",
+      "action": "No override or text change. The frozen generic cleaner correctly preserves these majority passages."
+    }
+  ]
+}
