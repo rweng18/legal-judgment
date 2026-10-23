@@ -1,0 +1,75 @@
+{
+  "version": "metadata_v1",
+  "row_count": 114,
+  "selection_version": "unanimous_include_v1",
+  "repository_commit_at_creation": "e5f2ea9151b9fcc596ec72de99b8621e6ac1643e",
+  "target_policy": "Unanimous binary labels are provisional; target unset pending Hayden review",
+  "family_policy": "Existing hints and Coreano/Sodhi name warnings only; no family adjudication",
+  "calibration_policy": "Manifest and saved calibration notes; additional prior exposure requires confirmation",
+  "label_meanings": {
+    "0": "fully affirmed",
+    "1": "fully reversed or vacated"
+  },
+  "inputs": {
+    "case_ids": {
+      "path": "annotation/submissions/becca/MVP/data/unanimous_include_v1/case_ids.json",
+      "sha256": "16374ff36f54b7b4ece1b219517fe937d6c7e7ffa3fda0b97dac9836d3b47177"
+    },
+    "cases": {
+      "path": "annotation/submissions/becca/MVP/data/unanimous_include_v1/cases.jsonl",
+      "sha256": "1ff1d7a342ead569a040be29bd1183fe73d373affd4ec32a63eb0c37d89cca72"
+    },
+    "selection_manifest": {
+      "path": "annotation/submissions/becca/MVP/data/unanimous_include_v1/selection_manifest.json",
+      "sha256": "1b0495766349ff676dc01a88e7025a7c39f98ed7c13c840f2ede24c40d23020d"
+    },
+    "audit": {
+      "path": "annotation/submissions/becca/MVP/data/unanimous_include_v1/eligibility_audit.jsonl",
+      "sha256": "5b878d5de323ac24f166c5749d0af37297f1ad6f1e64c26c093442403043a65d"
+    },
+    "all_sources": {
+      "path": "annotation/source/cases.jsonl",
+      "sha256": "c6ca6fceab4cfa412eaa69fe473cea245f51fbd695ffd3b3c2bdefab1fff2def"
+    },
+    "families": {
+      "path": "annotation/source/family_hints.json",
+      "sha256": "7890ec3b2434d6cc4d23891c7f80a6ef672a29a4340e31c69259071233ed8c69"
+    },
+    "calibration": {
+      "path": "annotation/calibration/manifest.json",
+      "sha256": "667de66e191cf1738f981f805dbc6e3cbd9979599c4eb75bf5adb3fc7f3d65ad"
+    },
+    "codebook": {
+      "path": "annotation/docs/CODEBOOK.md",
+      "sha256": "3f58975ab12ba74aef07a56b2493187e2e70631fac8e6e4acc2ddd6c1b3324dc"
+    },
+    "becca": {
+      "path": "annotation/submissions/becca/batches/A/annotations.jsonl",
+      "sha256": "6c45e40b731ee8ea9620510964332d1a7343c0c6e143ca23b7e97d262402e2c6"
+    },
+    "hyunsang": {
+      "path": "annotation/submissions/hyunsang/batches/A/annotations.jsonl",
+      "sha256": "842f85a6374c6f854521e4a25fa0eabf7da7d2d9288b982930efe5d80144f2a2"
+    },
+    "yinkui": {
+      "path": "annotation/submissions/yinkui/batches/A/annotations.jsonl",
+      "sha256": "d196da86092cc4f06bd203ee6f02f3106225e628688b8ed111bcf7f89dc9edbd"
+    },
+    "becca_calibration_notes": {
+      "path": "annotation/submissions/becca/independent_calibration_notes.md",
+      "sha256": "4112b7f55779d1c013ae37b10968da017811c1353df480c32536b2942c7e48cf"
+    },
+    "hyunsang_calibration_notes": {
+      "path": "annotation/submissions/hyunsang/independent_calibration_notes.md",
+      "sha256": "b7b9a610dc75aef063dac28890dae436c4a71efd3d6c10ec4eff33abc59a465e"
+    }
+  },
+  "outputs": {
+    "metadata.jsonl": {
+      "sha256": "cf1e76f4cedf66f698505f2af513039b7d6191ca6d9902e35194c03bd166dca8"
+    },
+    "metadata_table.html": {
+      "sha256": "03fb8308829ed89f195d374925c328f478c9fb26ee52c5e2538e396aef09eeef"
+    }
+  }
+}

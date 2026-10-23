@@ -1,0 +1,37 @@
+{
+  "version": "family_v1",
+  "review_status": "llm_draft; human review pending",
+  "inputs": {
+    "annotation/source/cases.jsonl": "c6ca6fceab4cfa412eaa69fe473cea245f51fbd695ffd3b3c2bdefab1fff2def",
+    "annotation/source/assignments.json": "f8ad9a6801690c811254e05c16d8fa2f4ff478eb197e0cd8843f3a793b7824bf",
+    "annotation/source/family_hints.json": "7890ec3b2434d6cc4d23891c7f80a6ef672a29a4340e31c69259071233ed8c69",
+    "annotation/submissions/becca/MVP/data/metadata_v1/metadata.jsonl": "cf1e76f4cedf66f698505f2af513039b7d6191ca6d9902e35194c03bd166dca8",
+    "annotation/submissions/becca/MVP/data/unanimous_include_v1/case_ids.json": "16374ff36f54b7b4ece1b219517fe937d6c7e7ffa3fda0b97dac9836d3b47177",
+    "annotation/submissions/becca/MVP/family_review/review_decisions.json": "f738887493e31695623dbe3b6e0e0839276bebf6994aa028b6070bea4dd07167",
+    "annotation/submissions/becca/MVP/family_review/family_audit.py": "8c6b6f988eb686cf074dbc38561a105dfa1da1fb704db56c48864dbab7cc07c5",
+    "annotation/submissions/becca/MVP/family_review/variant_differences.json": "652fbae66aef135b1fd8b82e96631f149bff47b2dac62b2fa59ea8359c6ebdcb",
+    "annotation/calibration/manifest.json": "667de66e191cf1738f981f805dbc6e3cbd9979599c4eb75bf5adb3fc7f3d65ad",
+    "annotation/submissions/becca/independent_calibration_notes.md": "4112b7f55779d1c013ae37b10968da017811c1353df480c32536b2942c7e48cf",
+    "annotation/submissions/hyunsang/independent_calibration_notes.md": "b7b9a610dc75aef063dac28890dae436c4a71efd3d6c10ec4eff33abc59a465e"
+  },
+  "outputs": {
+    "family_manifest.json": "ef57e24e23cd4676296f3b4e1b5a03f57879cbc3b90ca97019aeba58ce36ac71",
+    "case_family_manifest.jsonl": "6ef6dadcdcfc27bd63d32430acfade2bc345f95d1be4b3d8124652a35986d103",
+    "chunk_family_manifest.jsonl": "7a694874aef7e2f622aad7c29bc9ff660c81b335c15647a645ffd60fb6ba65b4",
+    "annotation_packet_membership.jsonl": "49686cf6db61c7ebc9e01c2aa79c05f991aed4ad55d2f9fd71427cfa4fb8ccc3",
+    "pair_review_log.jsonl": "cfaa8378af5a713ad01610637c76cb956c7706e7b53821725f451a7138d18cd3",
+    "opinion_notice_review.jsonl": "2a1c04ace2c40e4e4f2d22c56f6ac8fe8cad8a2c22a2d44ddb4503fbe9afc3fe",
+    "uncertain_matches.jsonl": "5b574c54e15aea76360ce66c14f1ef6d6ff062a40714ec8f36a1d6381d070d2a",
+    "screening_results.json": "de04bb6b8d54f21f4ddc92b4de865f7f8e16e870dacf2c4fccd20cb522e909f5",
+    "summary.json": "35dfe6aaeb93a3c53ecf8a0346cedc2d596e8c1a26261a392d3758fb9d0504f4"
+  },
+  "metadata_v2_family_review/metadata.jsonl": "d4dbb085a0529b5b108f745fe1c53b7e1047ca51e365a541e6f551ee9c1fe641",
+  "no_external_lookup": true,
+  "limitations": [
+    "No external companion records fetched; identities/dates remain pending.",
+    "No detected link is not proof of independence; metadata may be missing and thresholds have finite recall.",
+    "Annotation packets contain multiple cases and must not be used as model splitting units.",
+    "Encoder chunks do not yet exist; attach_families_to_chunks enforces their future family inheritance.",
+    "All family decisions are assistant drafts; no human review claimed."
+  ]
+}

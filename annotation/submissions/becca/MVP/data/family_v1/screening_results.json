@@ -1,0 +1,1795 @@
+{
+  "config": {
+    "version": "family_v1",
+    "cosine_threshold": 0.7,
+    "shingle_size": 5,
+    "shingle_jaccard_threshold": 0.3,
+    "shingle_containment_threshold": 0.6,
+    "minimum_shared_shingles": 50,
+    "idf_max_document_fraction": 0.8,
+    "scope": "all 506 source opinions; no target labels used for screening"
+  },
+  "pair_count_screened": 127765,
+  "candidates": [
+    {
+      "pair_id": "NY-10125409__NY-4614923",
+      "case_ids": [
+        "NY-10125409",
+        "NY-4614923"
+      ],
+      "names": [
+        "Molina v. Loft 124 Condominium",
+        "Molina v. Dimon"
+      ],
+      "dates": [
+        "2024-09-26",
+        "2019-04-30"
+      ],
+      "date_gap_days": 1976,
+      "dockets": [
+        "Index No. 150937/17 Appeal No. 2611 Case No. 2023-05954",
+        "9148 300435/11"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.137943,
+      "shingle_jaccard": 0.034307,
+      "shingle_containment": 0.070681,
+      "shared_shingles": 27,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-2686388__NY-9408725",
+      "case_ids": [
+        "NY-2686388",
+        "NY-9408725"
+      ],
+      "names": [
+        "Benjamin v. Trade Fair Supermarket, Inc.",
+        "Benjamin v. Court Jester Athletic Club, Ltd."
+      ],
+      "dates": [
+        "2014-07-30",
+        "2023-06-22"
+      ],
+      "date_gap_days": 3249,
+      "dockets": [
+        "2013-11114",
+        "535034"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.07063,
+      "shingle_jaccard": 0.017773,
+      "shingle_containment": 0.081301,
+      "shared_shingles": 30,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-2686417__NY-4678136",
+      "case_ids": [
+        "NY-2686417",
+        "NY-4678136"
+      ],
+      "names": [
+        "Rodriguez v. Shoprite Supermarkets, Inc.",
+        "Rodriguez v. Sheridan One Co., LLC"
+      ],
+      "dates": [
+        "2014-07-30",
+        "2019-11-13"
+      ],
+      "date_gap_days": 1932,
+      "dockets": [
+        "2013-07693",
+        "Index No. 503253/15"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.113706,
+      "shingle_jaccard": 0.04068,
+      "shingle_containment": 0.088424,
+      "shared_shingles": 55,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-2686417__NY-5935876",
+      "case_ids": [
+        "NY-2686417",
+        "NY-5935876"
+      ],
+      "names": [
+        "Rodriguez v. Shoprite Supermarkets, Inc.",
+        "Rodriguez v. 520 Audubon Associates"
+      ],
+      "dates": [
+        "2014-07-30",
+        "2010-03-02"
+      ],
+      "date_gap_days": 1611,
+      "dockets": [
+        "2013-07693",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.076412,
+      "shingle_jaccard": 0.006322,
+      "shingle_containment": 0.018018,
+      "shared_shingles": 6,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-2686417__NY-5992200",
+      "case_ids": [
+        "NY-2686417",
+        "NY-5992200"
+      ],
+      "names": [
+        "Rodriguez v. Shoprite Supermarkets, Inc.",
+        "Rodriguez v. Themelion Realty Corp."
+      ],
+      "dates": [
+        "2014-07-30",
+        "2012-04-03"
+      ],
+      "date_gap_days": 848,
+      "dockets": [
+        "2013-07693",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.025602,
+      "shingle_jaccard": 0.02139,
+      "shingle_containment": 0.06006,
+      "shared_shingles": 20,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-2686417__NY-5997418",
+      "case_ids": [
+        "NY-2686417",
+        "NY-5997418"
+      ],
+      "names": [
+        "Rodriguez v. Shoprite Supermarkets, Inc.",
+        "Rodriguez v. Leggett Holdings, LLC"
+      ],
+      "dates": [
+        "2014-07-30",
+        "2012-06-19"
+      ],
+      "date_gap_days": 771,
+      "dockets": [
+        "2013-07693",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.050444,
+      "shingle_jaccard": 0.002154,
+      "shingle_containment": 0.004823,
+      "shared_shingles": 3,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-2751785__NY-2800524",
+      "case_ids": [
+        "NY-2751785",
+        "NY-2800524"
+      ],
+      "names": [
+        "Vazquez v. Gun Hill Associates, LLC",
+        "Vazquez v. Flesor"
+      ],
+      "dates": [
+        "2014-11-12",
+        "2015-05-13"
+      ],
+      "date_gap_days": 182,
+      "dockets": [
+        "2013-09879",
+        "2014-04341"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.143688,
+      "shingle_jaccard": 0.045028,
+      "shingle_containment": 0.109589,
+      "shared_shingles": 48,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-2759462__NY-5993181",
+      "case_ids": [
+        "NY-2759462",
+        "NY-5993181"
+      ],
+      "names": [
+        "Nelson v. Bogopa Service Corp.",
+        "Nelson v. 40-01 Northern Boulevard Corp."
+      ],
+      "dates": [
+        "2014-12-10",
+        "2012-05-01"
+      ],
+      "date_gap_days": 953,
+      "dockets": [
+        "2013-01578",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.030743,
+      "shingle_jaccard": 0.00551,
+      "shingle_containment": 0.018809,
+      "shared_shingles": 6,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-2764658__NY-5959711",
+      "case_ids": [
+        "NY-2764658",
+        "NY-5959711"
+      ],
+      "names": [
+        "Lopez v. Marshalls",
+        "Lopez v. Stop & Shop Supermarket Co."
+      ],
+      "dates": [
+        "2014-12-24",
+        "2011-05-10"
+      ],
+      "date_gap_days": 1324,
+      "dockets": [
+        "2014-01116",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.068556,
+      "shingle_jaccard": 0.022497,
+      "shingle_containment": 0.048662,
+      "shared_shingles": 20,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-2766601__NY-4315793",
+      "case_ids": [
+        "NY-2766601",
+        "NY-4315793"
+      ],
+      "names": [
+        "Hernandez v. BP America, Inc.",
+        "Hernandez v. Conway Stores, Inc."
+      ],
+      "dates": [
+        "2014-12-31",
+        "2016-10-26"
+      ],
+      "date_gap_days": 665,
+      "dockets": [
+        "2013-09773",
+        "2015-05653"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.108486,
+      "shingle_jaccard": 0.036145,
+      "shingle_containment": 0.102362,
+      "shared_shingles": 39,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-2766601__NY-4847464",
+      "case_ids": [
+        "NY-2766601",
+        "NY-4847464"
+      ],
+      "names": [
+        "Hernandez v. BP America, Inc.",
+        "Hernandez v. BG Mgt. 2, LLC"
+      ],
+      "dates": [
+        "2014-12-31",
+        "2021-01-13"
+      ],
+      "date_gap_days": 2205,
+      "dockets": [
+        "2013-09773",
+        "Index No. 509889/16"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.135516,
+      "shingle_jaccard": 0.088283,
+      "shingle_containment": 0.185185,
+      "shared_shingles": 55,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-3062587__NY-9459087",
+      "case_ids": [
+        "NY-3062587",
+        "NY-9459087"
+      ],
+      "names": [
+        "Murray v. Banco Popular",
+        "Murray v. Community House Hous. Dev. Fund Co., Inc."
+      ],
+      "dates": [
+        "2015-10-14",
+        "2024-01-10"
+      ],
+      "date_gap_days": 3010,
+      "dockets": [
+        "2015-02977",
+        "Index No. 502556/17"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.102252,
+      "shingle_jaccard": 0.02397,
+      "shingle_containment": 0.056537,
+      "shared_shingles": 32,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-3149753__NY-4755478",
+      "case_ids": [
+        "NY-3149753",
+        "NY-4755478"
+      ],
+      "names": [
+        "Jackson v. Paramount Decorators Inc.",
+        "Jackson v. Savoy Park Owner LLC"
+      ],
+      "dates": [
+        "2015-10-27",
+        "2020-05-21"
+      ],
+      "date_gap_days": 1668,
+      "dockets": [
+        "15982 21664/11",
+        "11544 20776/14E"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.136535,
+      "shingle_jaccard": 0.062147,
+      "shingle_containment": 0.127907,
+      "shared_shingles": 33,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-3149753__NY-4865112",
+      "case_ids": [
+        "NY-3149753",
+        "NY-4865112"
+      ],
+      "names": [
+        "Jackson v. Paramount Decorators Inc.",
+        "Jackson v. Bethel A.M.E. Church"
+      ],
+      "dates": [
+        "2015-10-27",
+        "2021-03-17"
+      ],
+      "date_gap_days": 1968,
+      "dockets": [
+        "15982 21664/11",
+        "Index No. 30910/13"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.05286,
+      "shingle_jaccard": 0.0128,
+      "shingle_containment": 0.062016,
+      "shared_shingles": 16,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-3165370__NY-6079676",
+      "case_ids": [
+        "NY-3165370",
+        "NY-6079676"
+      ],
+      "names": [
+        "Castillo v. Silvercrest",
+        "Castillo v. Wil-Cor Realty Co."
+      ],
+      "dates": [
+        "2015-12-23",
+        "2013-09-18"
+      ],
+      "date_gap_days": 826,
+      "dockets": [
+        "2014-09959",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.070722,
+      "shingle_jaccard": 0.042908,
+      "shingle_containment": 0.085714,
+      "shared_shingles": 36,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4303491__NY-6228997",
+      "case_ids": [
+        "NY-4303491",
+        "NY-6228997"
+      ],
+      "names": [
+        "FARRAUTO, PATRICIA v. THE BON-TON DEPARTMENT STORES, INC.",
+        "Farrauto v. Bon-Ton Department Stores, Inc."
+      ],
+      "dates": [
+        "2016-10-07",
+        "2016-10-07"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 15-02085",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.912658,
+      "shingle_jaccard": 0.639731,
+      "shingle_containment": 0.816619,
+      "shared_shingles": 570,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4304286__NY-6207931",
+      "case_ids": [
+        "NY-4304286",
+        "NY-6207931"
+      ],
+      "names": [
+        "WINTERMUTE, SCOTT v. VANDEMARK CHEMICAL, INC.",
+        "Wintermute v. Vandemark Chemical, Inc."
+      ],
+      "dates": [
+        "2015-12-31",
+        "2015-12-31"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 15-00348",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.83711,
+      "shingle_jaccard": 0.701333,
+      "shingle_containment": 0.916376,
+      "shared_shingles": 263,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4304440__NY-6207337",
+      "case_ids": [
+        "NY-4304440",
+        "NY-6207337"
+      ],
+      "names": [
+        "ALVARADO, LUZ v. WEGMANS FOOD MARKETS, INC.",
+        "Alvarado v. Wegmans Food Markets, Inc."
+      ],
+      "dates": [
+        "2015-12-23",
+        "2015-12-23"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 15-00518",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.844594,
+      "shingle_jaccard": 0.703872,
+      "shingle_containment": 0.916914,
+      "shared_shingles": 309,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4304488__NY-6204784",
+      "case_ids": [
+        "NY-4304488",
+        "NY-6204784"
+      ],
+      "names": [
+        "MCDONELL, JANICE A. v. WAL-MART STORES, INC.",
+        "McDonell v. Wal-Mart Stores, Inc."
+      ],
+      "dates": [
+        "2015-11-20",
+        "2015-11-20"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 15-00532",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.764388,
+      "shingle_jaccard": 0.570048,
+      "shingle_containment": 0.851986,
+      "shared_shingles": 236,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4304730__NY-6199158",
+      "case_ids": [
+        "NY-4304730",
+        "NY-6199158"
+      ],
+      "names": [
+        "INDARJALI, SHAZAM v. INDARJALI, SHABANA",
+        "Indarjali v. Indarjali"
+      ],
+      "dates": [
+        "2015-10-02",
+        "2015-10-02"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 15-00138",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.830467,
+      "shingle_jaccard": 0.7109,
+      "shingle_containment": 0.911854,
+      "shared_shingles": 300,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4306330__NY-6111859",
+      "case_ids": [
+        "NY-4306330",
+        "NY-6111859"
+      ],
+      "names": [
+        "SEFERAGIC, ESAD v. HANNAFORD BROS CO.",
+        "Seferagic v. Hannaford Bros."
+      ],
+      "dates": [
+        "2014-03-21",
+        "2014-03-21"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 13-00691",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.828748,
+      "shingle_jaccard": 0.686084,
+      "shingle_containment": 0.881497,
+      "shared_shingles": 424,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4306359__NY-6112018",
+      "case_ids": [
+        "NY-4306359",
+        "NY-6112018"
+      ],
+      "names": [
+        "MANN, FRANCINE v. WEGMANS FOOD MARKETS, INC.",
+        "Mann v. Wegmans Food Markets, Inc."
+      ],
+      "dates": [
+        "2014-03-21",
+        "2014-03-21"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 13-01668",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.834174,
+      "shingle_jaccard": 0.650579,
+      "shingle_containment": 0.866324,
+      "shared_shingles": 337,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4308801__NY-6004283",
+      "case_ids": [
+        "NY-4308801",
+        "NY-6004283"
+      ],
+      "names": [
+        "GERMAIN, BARBARA v. KOHL'S CORPORATION",
+        "Germain v. Kohl's Corp."
+      ],
+      "dates": [
+        "2012-06-08",
+        "2012-06-08"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 11-02540",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.908871,
+      "shingle_jaccard": 0.731364,
+      "shingle_containment": 0.905923,
+      "shared_shingles": 520,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4315793__NY-4847464",
+      "case_ids": [
+        "NY-4315793",
+        "NY-4847464"
+      ],
+      "names": [
+        "Hernandez v. Conway Stores, Inc.",
+        "Hernandez v. BG Mgt. 2, LLC"
+      ],
+      "dates": [
+        "2016-10-26",
+        "2021-01-13"
+      ],
+      "date_gap_days": 1540,
+      "dockets": [
+        "2015-05653",
+        "Index No. 509889/16"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.109489,
+      "shingle_jaccard": 0.040241,
+      "shingle_containment": 0.13468,
+      "shared_shingles": 40,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4349157__NY-4404555",
+      "case_ids": [
+        "NY-4349157",
+        "NY-4404555"
+      ],
+      "names": [
+        "Dottavio v. Aspen Knolls Estates Home Owners Assn.",
+        "Commender v. Strathmore Court Home Owners Ass'n"
+      ],
+      "dates": [
+        "2017-02-15",
+        "2017-06-28"
+      ],
+      "date_gap_days": 133,
+      "dockets": [
+        "2015-12101",
+        "2016-05155"
+      ],
+      "reasons": [
+        "high_5gram_jaccard"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.679251,
+      "shingle_jaccard": 0.344461,
+      "shingle_containment": 0.541766,
+      "shared_shingles": 227,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4387315__NY-6235219",
+      "case_ids": [
+        "NY-4387315",
+        "NY-6235219"
+      ],
+      "names": [
+        "LINGENFELTER, MILDRED v. DELEVAN TERRACE ASSOCIATES",
+        "Lingenfelter v. Delevan Terrace Associates"
+      ],
+      "dates": [
+        "2017-04-28",
+        "2017-04-28"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "CA 16-01572",
+        ""
+      ],
+      "reasons": [
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.94887,
+      "shingle_jaccard": 0.795652,
+      "shingle_containment": 0.915,
+      "shared_shingles": 915,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4389907__NY-6235554",
+      "case_ids": [
+        "NY-4389907",
+        "NY-6235554"
+      ],
+      "names": [
+        "Peña v. Tyrax Realty Mgt., Inc.",
+        "Peña v. Tyrax Realty Management, Inc."
+      ],
+      "dates": [
+        "2017-05-09",
+        "2017-05-09"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "3933 302550/12",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff",
+        "high_tfidf_cosine",
+        "high_5gram_jaccard",
+        "high_5gram_containment"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.86576,
+      "shingle_jaccard": 0.706215,
+      "shingle_containment": 0.957854,
+      "shared_shingles": 250,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4400269__NY-5992264",
+      "case_ids": [
+        "NY-4400269",
+        "NY-5992264"
+      ],
+      "names": [
+        "Lawrence v. Darden Restaurants, Inc.",
+        "Lawrence v. Norberto"
+      ],
+      "dates": [
+        "2017-06-14",
+        "2012-04-10"
+      ],
+      "date_gap_days": 1891,
+      "dockets": [
+        "2015-07268",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.033277,
+      "shingle_jaccard": 0.017413,
+      "shingle_containment": 0.035443,
+      "shared_shingles": 14,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4522867__NY-5938963",
+      "case_ids": [
+        "NY-4522867",
+        "NY-5938963"
+      ],
+      "names": [
+        "Green v. Price Chopper, Inc.",
+        "Green v. Fairway Operating Corp."
+      ],
+      "dates": [
+        "2018-08-01",
+        "2010-04-29"
+      ],
+      "date_gap_days": 3016,
+      "dockets": [
+        "2017-04411",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.046162,
+      "shingle_jaccard": 0.001145,
+      "shingle_containment": 0.006494,
+      "shared_shingles": 1,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4522867__NY-6052406",
+      "case_ids": [
+        "NY-4522867",
+        "NY-6052406"
+      ],
+      "names": [
+        "Green v. Price Chopper, Inc.",
+        "Green v. Gracie Muse Restaurant Corp."
+      ],
+      "dates": [
+        "2018-08-01",
+        "2013-04-18"
+      ],
+      "date_gap_days": 1931,
+      "dockets": [
+        "2017-04411",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.063959,
+      "shingle_jaccard": 0.002429,
+      "shingle_containment": 0.005792,
+      "shared_shingles": 3,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4538884__NY-6052809",
+      "case_ids": [
+        "NY-4538884",
+        "NY-6052809"
+      ],
+      "names": [
+        "Hill v. Manhattan N. Mgt.",
+        "Hill v. Lambert Houses Redevelopment Co."
+      ],
+      "dates": [
+        "2018-09-27",
+        "2013-04-25"
+      ],
+      "date_gap_days": 1981,
+      "dockets": [
+        "7168 154379/14",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.081822,
+      "shingle_jaccard": 0.009485,
+      "shingle_containment": 0.020468,
+      "shared_shingles": 7,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4615665__NY-5959861",
+      "case_ids": [
+        "NY-4615665",
+        "NY-5959861"
+      ],
+      "names": [
+        "Chang v. Marmon Enters., Inc.",
+        "Chang v. Adams Fairacre Farms, Inc."
+      ],
+      "dates": [
+        "2019-05-01",
+        "2011-05-17"
+      ],
+      "date_gap_days": 2906,
+      "dockets": [
+        "Index No. 4023/14",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.089341,
+      "shingle_jaccard": 0.039134,
+      "shingle_containment": 0.118687,
+      "shared_shingles": 47,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4619740__NY-5302135",
+      "case_ids": [
+        "NY-4619740",
+        "NY-5302135"
+      ],
+      "names": [
+        "Yarosh v. Oceana Holding Corp.",
+        "Peralta-Mejia v. Park Terrace Owners, LLC"
+      ],
+      "dates": [
+        "2019-05-15",
+        "2021-12-01"
+      ],
+      "date_gap_days": 931,
+      "dockets": [
+        "Index No. 3791/15",
+        "Index No. 8982/16"
+      ],
+      "reasons": [
+        "high_5gram_jaccard"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.64055,
+      "shingle_jaccard": 0.409396,
+      "shingle_containment": 0.586538,
+      "shared_shingles": 305,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4623671__NY-9370969",
+      "case_ids": [
+        "NY-4623671",
+        "NY-9370969"
+      ],
+      "names": [
+        "Polanco v. Newmark & Co. Real Estate, Inc.",
+        "Polanco v. 756 Jomo Food Corp."
+      ],
+      "dates": [
+        "2019-05-28",
+        "2023-01-24"
+      ],
+      "date_gap_days": 1337,
+      "dockets": [
+        "9421 311271/11",
+        "Index No. 157638/17 Appeal No. 17150 Case No. 2022-01712"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.135127,
+      "shingle_jaccard": 0.032213,
+      "shingle_containment": 0.066474,
+      "shared_shingles": 23,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4624255__NY-4688244",
+      "case_ids": [
+        "NY-4624255",
+        "NY-4688244"
+      ],
+      "names": [
+        "Lauture v. Board of Mgrs. at Vista at Kingsgate, Section II",
+        "Carro v. Colonial Woods Condominiums"
+      ],
+      "dates": [
+        "2019-05-29",
+        "2019-12-18"
+      ],
+      "date_gap_days": 203,
+      "dockets": [
+        "Index No. 33482/14",
+        "Index No. 603839/15"
+      ],
+      "reasons": [
+        "high_5gram_jaccard"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.483304,
+      "shingle_jaccard": 0.313291,
+      "shingle_containment": 0.505963,
+      "shared_shingles": 297,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4646279__NY-4684087",
+      "case_ids": [
+        "NY-4646279",
+        "NY-4684087"
+      ],
+      "names": [
+        "Fortune v. Raritan Bldg. Servs. Corp.",
+        "Fortune v. Western Beef, Inc."
+      ],
+      "dates": [
+        "2019-08-07",
+        "2019-12-04"
+      ],
+      "date_gap_days": 119,
+      "dockets": [
+        "Index No. 10664/14",
+        "Index No. 83/15"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.108865,
+      "shingle_jaccard": 0.062141,
+      "shingle_containment": 0.15625,
+      "shared_shingles": 65,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4678136__NY-5935876",
+      "case_ids": [
+        "NY-4678136",
+        "NY-5935876"
+      ],
+      "names": [
+        "Rodriguez v. Sheridan One Co., LLC",
+        "Rodriguez v. 520 Audubon Associates"
+      ],
+      "dates": [
+        "2019-11-13",
+        "2010-03-02"
+      ],
+      "date_gap_days": 3543,
+      "dockets": [
+        "Index No. 503253/15",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.07312,
+      "shingle_jaccard": 0.003591,
+      "shingle_containment": 0.012012,
+      "shared_shingles": 4,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4678136__NY-5992200",
+      "case_ids": [
+        "NY-4678136",
+        "NY-5992200"
+      ],
+      "names": [
+        "Rodriguez v. Sheridan One Co., LLC",
+        "Rodriguez v. Themelion Realty Corp."
+      ],
+      "dates": [
+        "2019-11-13",
+        "2012-04-03"
+      ],
+      "date_gap_days": 2780,
+      "dockets": [
+        "Index No. 503253/15",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.056421,
+      "shingle_jaccard": 0.027574,
+      "shingle_containment": 0.09009,
+      "shared_shingles": 30,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4678136__NY-5997418",
+      "case_ids": [
+        "NY-4678136",
+        "NY-5997418"
+      ],
+      "names": [
+        "Rodriguez v. Sheridan One Co., LLC",
+        "Rodriguez v. Leggett Holdings, LLC"
+      ],
+      "dates": [
+        "2019-11-13",
+        "2012-06-19"
+      ],
+      "date_gap_days": 2703,
+      "dockets": [
+        "Index No. 503253/15",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.06673,
+      "shingle_jaccard": 0.003863,
+      "shingle_containment": 0.007752,
+      "shared_shingles": 6,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4755478__NY-4865112",
+      "case_ids": [
+        "NY-4755478",
+        "NY-4865112"
+      ],
+      "names": [
+        "Jackson v. Savoy Park Owner LLC",
+        "Jackson v. Bethel A.M.E. Church"
+      ],
+      "dates": [
+        "2020-05-21",
+        "2021-03-17"
+      ],
+      "date_gap_days": 300,
+      "dockets": [
+        "11544 20776/14E",
+        "Index No. 30910/13"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.095248,
+      "shingle_jaccard": 0.011547,
+      "shingle_containment": 0.04902,
+      "shared_shingles": 15,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4766554__NY-4903482",
+      "case_ids": [
+        "NY-4766554",
+        "NY-4903482"
+      ],
+      "names": [
+        "Johnson v. 101-105 S. Eighth St. Apts. Hous. Dev. Fund Corp.",
+        "Johnson v. Pawling Cent. Sch. Dist."
+      ],
+      "dates": [
+        "2020-07-08",
+        "2021-07-28"
+      ],
+      "date_gap_days": 385,
+      "dockets": [
+        "Index No. 513293/16",
+        "Index No. 52378/16"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.18547,
+      "shingle_jaccard": 0.092437,
+      "shingle_containment": 0.184874,
+      "shared_shingles": 154,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4766554__NY-5993348",
+      "case_ids": [
+        "NY-4766554",
+        "NY-5993348"
+      ],
+      "names": [
+        "Johnson v. 101-105 S. Eighth St. Apts. Hous. Dev. Fund Corp.",
+        "Johnson v. Culinary Institute of America"
+      ],
+      "dates": [
+        "2020-07-08",
+        "2012-05-15"
+      ],
+      "date_gap_days": 2976,
+      "dockets": [
+        "Index No. 513293/16",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.123752,
+      "shingle_jaccard": 0.046574,
+      "shingle_containment": 0.094595,
+      "shared_shingles": 70,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-4849013__NY-4849014",
+      "case_ids": [
+        "NY-4849013",
+        "NY-4849014"
+      ],
+      "names": [
+        "Coreano v. 983 Tenants Corp.",
+        "Coreano v. 983 Tenants Corp."
+      ],
+      "dates": [
+        "2021-01-20",
+        "2021-01-20"
+      ],
+      "date_gap_days": 0,
+      "dockets": [
+        "Index No. 514351/15",
+        "Index No. 514351/15"
+      ],
+      "reasons": [
+        "same_normalized_case_name",
+        "same_normalized_plaintiff",
+        "shared_docket_identifier"
+      ],
+      "shared_docket_keys": [
+        "514351/15"
+      ],
+      "tfidf_cosine": 0.328394,
+      "shingle_jaccard": 0.114046,
+      "shingle_containment": 0.239899,
+      "shared_shingles": 95,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-4903482__NY-5993348",
+      "case_ids": [
+        "NY-4903482",
+        "NY-5993348"
+      ],
+      "names": [
+        "Johnson v. Pawling Cent. Sch. Dist.",
+        "Johnson v. Culinary Institute of America"
+      ],
+      "dates": [
+        "2021-07-28",
+        "2012-05-15"
+      ],
+      "date_gap_days": 3361,
+      "dockets": [
+        "Index No. 52378/16",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.114032,
+      "shingle_jaccard": 0.058211,
+      "shingle_containment": 0.128378,
+      "shared_shingles": 95,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-5933602__NY-6076091",
+      "case_ids": [
+        "NY-5933602",
+        "NY-6076091"
+      ],
+      "names": [
+        "Signorelli v. Great Atlantic & Pacific Tea Co.",
+        "Signorelli v. Troy Lodge 141 Benevolent & Protective Order of Elks"
+      ],
+      "dates": [
+        "2010-02-09",
+        "2013-07-03"
+      ],
+      "date_gap_days": 1240,
+      "dockets": [
+        "",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.072762,
+      "shingle_jaccard": 0.00283,
+      "shingle_containment": 0.006061,
+      "shared_shingles": 3,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-5934687__NY-6357683",
+      "case_ids": [
+        "NY-5934687",
+        "NY-6357683"
+      ],
+      "names": [
+        "Williams v. SNS Realty of Long Island, Inc.",
+        "Williams v. E & R Jamaica Food Corp."
+      ],
+      "dates": [
+        "2010-02-23",
+        "2022-02-16"
+      ],
+      "date_gap_days": 4376,
+      "dockets": [
+        "",
+        "Index No. 13164/16"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.090903,
+      "shingle_jaccard": 0.034931,
+      "shingle_containment": 0.086694,
+      "shared_shingles": 43,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-5935876__NY-5992200",
+      "case_ids": [
+        "NY-5935876",
+        "NY-5992200"
+      ],
+      "names": [
+        "Rodriguez v. 520 Audubon Associates",
+        "Rodriguez v. Themelion Realty Corp."
+      ],
+      "dates": [
+        "2010-03-02",
+        "2012-04-03"
+      ],
+      "date_gap_days": 763,
+      "dockets": [
+        "",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.073178,
+      "shingle_jaccard": 0.015244,
+      "shingle_containment": 0.03003,
+      "shared_shingles": 10,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-5935876__NY-5997418",
+      "case_ids": [
+        "NY-5935876",
+        "NY-5997418"
+      ],
+      "names": [
+        "Rodriguez v. 520 Audubon Associates",
+        "Rodriguez v. Leggett Holdings, LLC"
+      ],
+      "dates": [
+        "2010-03-02",
+        "2012-06-19"
+      ],
+      "date_gap_days": 840,
+      "dockets": [
+        "",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.152384,
+      "shingle_jaccard": 0.015596,
+      "shingle_containment": 0.051051,
+      "shared_shingles": 17,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-5938963__NY-6052406",
+      "case_ids": [
+        "NY-5938963",
+        "NY-6052406"
+      ],
+      "names": [
+        "Green v. Fairway Operating Corp.",
+        "Green v. Gracie Muse Restaurant Corp."
+      ],
+      "dates": [
+        "2010-04-29",
+        "2013-04-18"
+      ],
+      "date_gap_days": 1085,
+      "dockets": [
+        "",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.047392,
+      "shingle_jaccard": 0.002985,
+      "shingle_containment": 0.012987,
+      "shared_shingles": 2,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-5950468__NY-6079339",
+      "case_ids": [
+        "NY-5950468",
+        "NY-6079339"
+      ],
+      "names": [
+        "Morreale v. 105 Page Homeowners Ass'n",
+        "Morreale v. Esposito"
+      ],
+      "dates": [
+        "2010-11-23",
+        "2013-09-11"
+      ],
+      "date_gap_days": 1023,
+      "dockets": [
+        "",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.076751,
+      "shingle_jaccard": 0.02549,
+      "shingle_containment": 0.053388,
+      "shared_shingles": 26,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-5958452__NY-6459053",
+      "case_ids": [
+        "NY-5958452",
+        "NY-6459053"
+      ],
+      "names": [
+        "Clark v. AMF Bowling Centers, Inc.",
+        "Clark v. Stop & Shop Supermarket Co., LLC"
+      ],
+      "dates": [
+        "2011-04-12",
+        "2022-04-13"
+      ],
+      "date_gap_days": 4019,
+      "dockets": [
+        "",
+        "Index No. 505804/17"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.091452,
+      "shingle_jaccard": 0.034836,
+      "shingle_containment": 0.068687,
+      "shared_shingles": 34,
+      "affects_mvp": false
+    },
+    {
+      "pair_id": "NY-5992200__NY-5997418",
+      "case_ids": [
+        "NY-5992200",
+        "NY-5997418"
+      ],
+      "names": [
+        "Rodriguez v. Themelion Realty Corp.",
+        "Rodriguez v. Leggett Holdings, LLC"
+      ],
+      "dates": [
+        "2012-04-03",
+        "2012-06-19"
+      ],
+      "date_gap_days": 77,
+      "dockets": [
+        "",
+        ""
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.052735,
+      "shingle_jaccard": 0.00181,
+      "shingle_containment": 0.006006,
+      "shared_shingles": 2,
+      "affects_mvp": true
+    },
+    {
+      "pair_id": "NY-6451900__NY-9406521",
+      "case_ids": [
+        "NY-6451900",
+        "NY-9406521"
+      ],
+      "names": [
+        "Edwards v. Raymour & Flanigan Props., LLC",
+        "Edwards v. Genting N.Y., LLC"
+      ],
+      "dates": [
+        "2022-03-16",
+        "2023-06-14"
+      ],
+      "date_gap_days": 455,
+      "dockets": [
+        "Index No. 510404/17",
+        "Index No. 504297/16"
+      ],
+      "reasons": [
+        "same_normalized_plaintiff"
+      ],
+      "shared_docket_keys": [],
+      "tfidf_cosine": 0.140728,
+      "shingle_jaccard": 0.043605,
+      "shingle_containment": 0.086873,
+      "shared_shingles": 45,
+      "affects_mvp": true
+    }
+  ],
+  "opinion_notices": [
+    {
+      "case_id": "NY-10125409",
+      "case_name": "Molina v. Loft 124 Condominium",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "upon reargument",
+          "start": 535,
+          "end": 960,
+          "context": "P, New York (Jillian Rosen of counsel), for respondent. Order, Supreme Court, New York County (Shlomo S. Hagler, J.), entered on or about July 10, 2023, which, upon reargument, denied defendants' motions for summary judgment dismissing the complaint, unanimously affirmed, without costs. The motion court properly denied the appealing defendants' summary judgment motions. Defendant The Loft 124 Condominium failed to proffer"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4330075",
+      "case_name": "Bogaty v. Bluestone Realty NY, Inc.",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "upon reargument",
+          "start": 578,
+          "end": 1003,
+          "context": "damages for personal injuries, the plaintiff appeals from so much of an order of the Supreme Court, Queens County (Livote, J.), entered September 15, 2015, as, upon reargument, adhered to a prior determination in an order of the same court entered April 1, 2015, granting the defendant's motion for summary judgment dismissing the complaint. Ordered that the order is affirmed insofar as appealed from, with costs. On April 4"
+        },
+        {
+          "match": "upon reargument",
+          "start": 1648,
+          "end": 2073,
+          "context": "laintiff moved for leave to reargue her opposition to the defendant's motion. In an order entered September 15, 2015, the Supreme Court granted reargument and, upon reargument, adhered to its prior determination. We affirm insofar as appealed from. Although a landowner has a duty to maintain its premises in a reasonably safe manner ( see Basso v Miller , 40 NY2d 233, 241-242 [1976]), there is no duty to protect or warn ag"
+        },
+        {
+          "match": "upon reargument",
+          "start": 3519,
+          "end": 3899,
+          "context": "6 AD3d 520 , 521 [2008]; see generally Alvarez v Prospect Hosp. , 68 NY2d 320, 324 [1986]). The plaintiff's remaining contention is without merit. Accordingly, upon reargument, the Supreme Court properly adhered to its prior determination granting the defendant's motion for summary judgment dismissing the complaint. Dillon, J.P., Dickerson, Hinds-Radix and Maltese, JJ., concur."
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4552386",
+      "case_name": "Rozier v. BTNH, Inc.",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "Appeal No. 2",
+          "start": 245,
+          "end": 667,
+          "context": "rected through Wednesday, January 2, 2019 [*1] Glasco Rozier, Appellant, v BTNH, Inc., Doing Business as Delaware Nursing & Rehabilitation Center, Respondent. (Appeal No. 2.) Joy A. Kendrick, Buffalo, for plaintiff-appellant. Underberg & Kessler LLP, Buffalo (Colin D. Ramsey of counsel), for defendant-respondent. Appeal from a judgment of the Supreme Court, Erie County (Tracey A. Bannister, J.), entered May 2, 2017. Th"
+        },
+        {
+          "match": "appeal No. 2",
+          "start": 990,
+          "end": 1412,
+          "context": " parking lot. In appeal No. 1, plaintiff appeals from an order that, inter alia, denied that part of his pretrial motion seeking to preclude habit evidence. In appeal No. 2, plaintiff appeals from a judgment entered on the jury's verdict finding no negligence on the part of defendant. We note at the outset that the appeal from the order in appeal No. 1 must be dismissed inasmuch as the order in that appeal is subsumed "
+        },
+        {
+          "match": "appeal No. 2",
+          "start": 1271,
+          "end": 1693,
+          "context": "ant. We note at the outset that the appeal from the order in appeal No. 1 must be dismissed inasmuch as the order in that appeal is subsumed in the judgment in appeal No. 2 ( see Hughes v Nussbaumer, Clarke & Velzy , 140 AD2d 988, 988 [4th Dept 1988]; Chase Manhattan Bank, N.A. v Roberts & Roberts , 63 AD2d 566, 567 [1st Dept 1978]; see also CPLR 5501 [a] [1]). Contrary to plaintiff's contention, Supreme Court properly"
+        },
+        {
+          "match": "appeal No. 2",
+          "start": 2038,
+          "end": 2460,
+          "context": "uct in question' \" ( Biesiada v Suresh , 309 AD2d 1245, 1245 [4th Dept 2003], quoting Halloran v Virginia Chems. , 41 NY2d 386, 392 [1977]; see Mancuso v Koch [appeal No. 2], 74 AD3d 1736, 1738 [4th Dept 2010]). Here, the testimony of the maintenance staff concerning their daily routine in maintaining the subject parking lot was properly admitted as evidence of their conduct prior to the incident at issue. We reject pl"
+        },
+        {
+          "match": "appeal No. 2",
+          "start": 3319,
+          "end": 3741,
+          "context": "w of the record, we conclude that the court properly refused to set aside the jury verdict as against the weight of the evidence ( see generally Rew v Beilein [appeal No. 2], 151 AD3d 1735, [*2] 1737-1738 [4th Dept 2017]). In light of our determination, plaintiff's contentions regarding certain evidentiary rulings relating to proof of damages are moot ( see generally Matter of Hearst Corp. v Clyne , 50 NY2d 707, 714-71"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4655053",
+      "case_name": "Sodhi v. Dollar Tree Stores, Inc.",
+      "affects_mvp": true,
+      "signals": [
+        {
+          "match": "appeal No. 2",
+          "start": 1811,
+          "end": 2233,
+          "context": "ended complaint against them and seeking summary judgment on their cross claims against Tops for common-law indemnification and contractual indemnification. In appeal No. 2, Tops appeals from an order denying its motion for summary judgment dismissing the amended complaint against it. We affirm in both appeals. It is well settled that \"[a] property owner is not liable for an alleged hazard on [its] property involving s"
+        },
+        {
+          "match": "appeal No. 2",
+          "start": 6177,
+          "end": 6599,
+          "context": " is therefore not properly before us on appeal ( see Cleere v Frost Ridge Campground, LLC , 155 AD3d 1645 , 1649 [4th Dept 2017]). Finally, Tops' contention in appeal No. 2 that there was a storm in progress was raised for the first time in its reply papers and thus was not properly before Supreme Court ( see generally Jacobson v Leemilts Petroleum, Inc. , 101 AD3d 1599 , 1600 [4th Dept 2012]). Present—Carni, J.P., Lin"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4665270",
+      "case_name": "Hartnett v. Zuchowski",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "appeal No. 2",
+          "start": 1455,
+          "end": 1877,
+          "context": "appeal, in appeal No. 1, from an order granting the Hunt defendants' motion for summary judgment dismissing the complaint and all cross claims against them. In appeal No. 2, plaintiffs appeal from a further order that, inter alia, denied their cross motion for partial summary judgment against Zuchowski on the issue of liability. We affirm in both appeals. Contrary to plaintiffs' contention in appeal No. 1, the Hunt def"
+        },
+        {
+          "match": "appeal No. 2",
+          "start": 2352,
+          "end": 2774,
+          "context": "ailed to raise a triable issue of fact in opposition ( see generally Alvarez v Prospect Hosp. , 68 NY2d 320, 324 [1986]). Contrary to plaintiffs' contention in appeal No. 2, Supreme Court properly denied their cross motion for partial summary judgment against Zuchowski on the issue of liability. In support of their cross motion, plaintiffs relied on, inter alia, an expert affidavit in which an architect opined that the"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4777088",
+      "case_name": "DeFisher v. PPZ Supermarkets, Inc.",
+      "affects_mvp": true,
+      "signals": [
+        {
+          "match": "appeal No. 2",
+          "start": 5048,
+          "end": 5470,
+          "context": "3d 1459 , 1459-1460 [4th Dept 2012]; Murdoch v Niagara Falls Bridge Commn. , 81 AD3d 1456 , 1457 [4th Dept 2011], lv denied 17 NY3d 702 [2011]; Homan v Herzig [appeal No. 2], 55 AD3d 1413, 1413-1414 [4th Dept 2008]). Contrary to plaintiffs' contention, however, the verdict is not against the weight of the evidence. It is well settled that a verdict may be set aside as against the weight of the evidence only if \"the evi"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-4855957",
+      "case_name": "Gould v. 93 NYRPT, LLC",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "Appeal No. 2",
+          "start": 207,
+          "end": 629,
+          "context": "eau pursuant to Judiciary Law § 431. As corrected through Wednesday, March 31, 2021 [*1] Glenn Gould et al., Appellants, v 93 NYRPT, LLC, et al., Respondents. (Appeal No. 2.) Andrews, Bernstein, Maranto & Nicotra, PLLC, Buffalo (Andrew Connelly of counsel), for plaintiffs-appellants. Kenney Shelton Liptak Nowak LLP, Buffalo (Robert A. Crawford, Jr., of counsel), for defendants-respondents 93 NYRPT, LLC, and another. Hu"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-5993188",
+      "case_name": "Rinberg v. RGI Properties, Inc.",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "upon reargument",
+          "start": 66,
+          "end": 491,
+          "context": "laintiffs appeal, as limited by their brief, from so much of an order of the Supreme Court, Westchester County (Bellantoni, J.), entered September 7, 2010, as, upon reargument, in effect, *861 vacated so much of an order of the same court entered March 18, 2010, as denied that branch of the motion of the defendant Chapel Hill Estates Homeowners Association, Inc., which was for summary judgment dismissing the complaint ins"
+        },
+        {
+          "match": "upon reargument",
+          "start": 1618,
+          "end": 2043,
+          "context": " NY2d at 324 ; Zuckerman v City of New York, 49 NY2d 557, 562 [1980]). The plaintiffs’ remaining contentions are without merit. Accordingly, the Supreme Court, upon reargument, in effect, properly vacated so much of its prior order as denied that branch of the Association’s motion which was for summary judgment dismissing the complaint insofar as asserted against it, and thereupon properly granted that branch of the motio"
+        }
+      ]
+    },
+    {
+      "case_id": "NY-6454036",
+      "case_name": "Padel v. Nisanov",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "upon reargument",
+          "start": 581,
+          "end": 1006,
+          "context": ", the plaintiff appeals from an order of the Supreme Court, Queens County (Denis J. Butler, J.), entered October 21, 2019. The order, insofar as appealed from, upon reargument, vacated an order of the same court entered May 16, 2019, denying the defendants' motion for summary judgment dismissing the complaint, and thereupon granted the defendants' motion for summary judgment dismissing the complaint. Ordered that the orde"
+        },
+        {
+          "match": "upon reargument",
+          "start": 941,
+          "end": 1366,
+          "context": " summary judgment dismissing the complaint. Ordered that the order entered October 21, 2019, is reversed insofar as appealed from, on the law, with costs, and, upon reargument, the determination in the order entered May 16, 2019, denying the defendants' motion for summary judgment dismissing the complaint, is adhered to. The plaintiff commenced this action to recover damages for personal injuries that he allegedly sustain"
+        },
+        {
+          "match": "Upon reargument",
+          "start": 1610,
+          "end": 2035,
+          "context": "nstructive notice of its existence. By order entered May 16, 2019, the Supreme Court denied the motion. The defendants moved for leave to reargue their motion. Upon reargument, the court vacated the order entered May 16, 2019, denying the defendants' motion for summary judgment dismissing the complaint, and thereupon granted the defendants' motion for summary judgment dismissing the complaint. The plaintiff appeals. Upon "
+        },
+        {
+          "match": "Upon reargument",
+          "start": 1870,
+          "end": 2295,
+          "context": "r summary judgment dismissing the complaint, and thereupon granted the defendants' motion for summary judgment dismissing the complaint. The plaintiff appeals. Upon reargument, the Supreme Court should have adhered to its prior determination in the order entered May 16, 2019, denying the defendants' motion for summary judgment dismissing the complaint. \"In a slip-and-fall case, a defendant property owner moving for summar"
+        },
+        {
+          "match": "upon reargument",
+          "start": 4167,
+          "end": 4571,
+          "context": "1]; Lebron v 142 S 9, LLC , 151 AD3d 835 , 836 [2017]; Baines v G&D Ventures, Inc. , 64 AD3d 528 , 529 [2009]). Accordingly, the Supreme Court should not have, upon reargument, granted the defendants' motion for summary judgment dismissing the complaint. In light of our determination, we need not reach the parties' remaining contentions. Brathwaite Nelson, J.P., Chambers, Roman and Zayas, JJ., concur."
+        }
+      ]
+    },
+    {
+      "case_id": "NY-6471809",
+      "case_name": "Day v. Sguera Props., LLC",
+      "affects_mvp": false,
+      "signals": [
+        {
+          "match": "upon reargument",
+          "start": 753,
+          "end": 1178,
+          "context": "als from an order of the Supreme Court, Suffolk County (Carmen Victoria St. George, J.), dated August 26, 2019. The order, insofar as appealed from, in effect, upon reargument, adhered to a prior determination in an order of the same court dated April 8, 2019, granting those branches of the defendants' separate unopposed motions which were for summary judgment dismissing the complaint insofar as asserted against each of t"
+        },
+        {
+          "match": "upon reargument",
+          "start": 2062,
+          "end": 2487,
+          "context": "s' motions. In an order dated August 26, 2019, the Supreme Court, in effect, granted that branch of the plaintiff's motion which was for leave to reargue, and, upon reargument, adhered to its prior determination upon the grounds that the plaintiff failed to provide a reasonable excuse for failing to oppose the defendants' motions and, in any event, that the plaintiff's contentions in opposition to the motions were without"
+        }
+      ]
+    }
+  ],
+  "exact_duplicate_pairs": 0,
+  "normalized_duplicate_pairs": 0
+}
