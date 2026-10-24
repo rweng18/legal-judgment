@@ -1,0 +1,67 @@
+{
+  "contract_version": "model_input_contract_v1",
+  "status": "passed",
+  "selection_count": 114,
+  "partition_counts": {
+    "train": 81,
+    "development": 16,
+    "test": 16
+  },
+  "pending_case_ids": [
+    "NY-4655053"
+  ],
+  "excluded_case_ids": [],
+  "approved_variants": {
+    "FULL": "full_v1/full.jsonl",
+    "MASKED": "masked_v2/masked.jsonl"
+  },
+  "allowed_export_fields": [
+    "case_id",
+    "text"
+  ],
+  "feature_field": "text",
+  "target_source": "mvp_split_v1/split_manifest.json: cases[].target",
+  "target_review_status_counts": {
+    "pending_hayden_review": 114
+  },
+  "near_empty_case_ids_by_variant": {
+    "FULL": [],
+    "MASKED": []
+  },
+  "input_sha256": {
+    "data/mvp_split_v1/split_manifest.json": "8130672b660fed6ec2ddce62925583fdd39e6fcbdf993fcb5fc8b10c8f710a73",
+    "data/full_v1/full.jsonl": "22741aa70e7c5e17a8ef9dc1242d01e323e183b124b245347dc41614b96c23c6",
+    "data/full_v1/manifest.json": "47fdb73c9a29279e258da65314bcffff5c859c801d8c1d0b391f97a95255b0d7",
+    "data/masked_v2/masked.jsonl": "42febc9cf34f55e4ab9d841979528f71903ca9b93d7bfafd4385a2e65580fb5f",
+    "data/masked_v2/manifest.json": "dcef43066beb9ab4b7c851e2b05ab49deda15046499704701d4be7ba16d967b3"
+  },
+  "limitations": [
+    "Checks do not establish human-reviewed targets or exhaustive removal of outcome cues.",
+    "Legal reasoning and quotations in source opinion text are retained under the preprocessing rules.",
+    "Only the provided loader is guarded; other training code must follow the same contract."
+  ],
+  "checks": {
+    "checks_passed": 17,
+    "checks": [
+      "reject_label",
+      "reject_target",
+      "reject_favors",
+      "reject_legal_findings",
+      "reject_factual_summary",
+      "reject_supporting_quotations",
+      "reject_metadata",
+      "duplicate_id",
+      "missing_variant_case",
+      "missing_target",
+      "boolean_target",
+      "empty_text",
+      "nested_annotation_in_text",
+      "family_overlap",
+      "join_by_id_not_file_order",
+      "identical_targets_across_variants",
+      "pending_cases_excluded"
+    ]
+  },
+  "validator_sha256": "91a0a043a207b9d1b56249291e7e235b1548f444bb49676cf7bc3496707303c9",
+  "check_script_sha256": "cfde933e811e0889ef59f968c642ec952384dfb0b529a7da67e0cbd14ae094fe"
+}

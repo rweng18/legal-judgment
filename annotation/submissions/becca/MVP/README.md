@@ -123,3 +123,24 @@ Thirty-three regression checks and all 114 reconstruction/hash/word-accounting
 checks passed. Evaluation flags remain review candidates and do not support a
 claim of exhaustive cue removal. Any experiment run with masked_v1 must be rerun
 for a masked_v2 comparison. No model experiments were run in this task.
+
+## Model-input boundary and handoff
+
+`MODEL_INPUT_HANDOFF.md` identifies the approved FULL v1 / MASKED v2 text exports
+and shared mvp_split_v1 targets. `preprocessing/model_inputs.py` validates the
+exact `{case_id, text}` export fields and returns texts, case IDs and targets in
+separate tuples. Only texts enter tokenization/vectorization. Annotation-rich
+metadata, favors, findings, summaries and selected quotations remain diagnostic
+artifacts. Legal reasoning/quotations in the original opinion remain text.
+
+`validate_model_inputs.ipynb` checks hashes, ID coverage, label availability,
+family separation and the feature/target boundary. It confirms identical IDs and
+targets across variants, with 81 train / 16 development / 16 test cases and Sodhi
+excluded as pending. Seventeen checks passed, including rejection of prohibited
+fields and incorrect joins. All three notebook code cells executed sequentially
+in Python; no Jupyter kernel or model training was run. Results and code/input
+hashes are saved in `data/model_input_contract_v1/validation.json`.
+
+No text, targets, IDs or splits changed. Labels remain provisional. These checks
+protect the supplied loader; downstream code must also pass only its text strings
+to feature construction. Later dataset changes require a new version and reruns.
