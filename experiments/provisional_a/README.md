@@ -1,5 +1,7 @@
 # Partition A: provisional dataset and modeling pipeline
 
+> **PROVISIONAL TRIAL — NOT FINAL PROJECT RESULTS.** Uses Yinkui's draft labels before Hayden's review and Becca's finalized dataset preparation. Validation has only 16 cases; final test performance has not been evaluated. [Open the trial results](outputs/yinkui_A_provisional_v1/README.md).
+
 For Becca's dataset preparation, see the [tokenizer and chunking handoff](BECCA_ENCODER_HANDOFF.md) and [portable settings](encoder_settings.json), verified against the trial checkpoint.
 
 This is a complete development trial using **Yinkui's 169 independent A annotations only**. It implements Becca's dataset-preparation steps and Yinkui's model experiments so we can check the workflow before Hayden's adjudication and Becca's final dataset are ready. It does not replace their work or update any person's annotations.

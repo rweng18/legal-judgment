@@ -1,4 +1,6 @@
-# Partition A — development pipeline trial
+# PROVISIONAL — Partition A trial results
+
+> **NOT FINAL PROJECT RESULTS.** Development run only; label and dataset review are not certified by this report. For the original Yinkui trial, Hayden’s adjudication and Becca’s final preparation are pending. Do not interpret these scores as final test performance or a reliable model ranking.
 
 Run: yinkui_A_provisional_v1. Input annotations: annotation/submissions/yinkui/batches/A/annotations.jsonl. Uses only Yinkui’s frozen independent LLM-draft annotations, not adjudicated human ground truth. All scores below are DEVELOPMENT validation scores. No test text is passed to preprocessing/feature extraction/model evaluation; only test metadata/counts and unsupervised family screening are used.
 
