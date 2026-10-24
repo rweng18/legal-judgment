@@ -28,8 +28,9 @@ and must not enter the experimental subset. Split seed: 20261016.
 
 Targets are **provisional**, pending Hayden's review. Do not describe evaluation
 with these labels as human-gold evaluation. Family and residual masking review
-also remain incomplete. The descriptive-statistics notebook and encoder/chunk
-settings remain outstanding.
+also remain incomplete. `descriptive_length_statistics.ipynb` now reports word/token/chunk statistics for
+the 97 training/development cases using Yinkui's pinned encoder settings. Test
+and pending cases remain excluded from those statistics.
 
 ## Use the guarded loader
 
