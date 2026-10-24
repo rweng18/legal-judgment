@@ -1,0 +1,2137 @@
+{
+  "evaluation": "validation only; provisional LLM draft labels; C selection uses this same validation set",
+  "class_order": [
+    0,
+    1
+  ],
+  "controlled_C": 1.0,
+  "controlled": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.746031746031746,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4181818181818182,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.125
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "macro_f1": 0.9372549019607843,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        1.0
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.625,
+          0.375
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.625,
+        0.5
+      ]
+    }
+  ],
+  "selected_on_validation": [
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "macro_f1": 0.9372549019607843,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        1.0
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.625,
+          0.375
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.625,
+        0.5
+      ]
+    },
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.746031746031746,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    }
+  ],
+  "grid": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.41700404858299595,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.375,
+      "balanced_accuracy": 0.375,
+      "macro_f1": 0.36507936507936506,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5151515151515151,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.75,
+          0.25
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.25
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.41700404858299595,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.5636363636363637,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.75,
+          0.25
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.25
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.41700404858299595,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.746031746031746,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4920634920634921,
+      "confusion_matrix": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.375,
+          0.625
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.375,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4181818181818182,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.125
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4181818181818182,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.125
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.875,
+      "macro_f1": 0.873015873015873,
+      "confusion_matrix": [
+        [
+          6,
+          2
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.75,
+          0.25
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "macro_f1": 0.9372549019607843,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        1.0
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "macro_f1": 0.9372549019607843,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        1.0
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.5,
+      "confusion_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.625,
+          0.375
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.625,
+        0.5
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.625,
+          0.375
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.625,
+        0.5
+      ]
+    }
+  ],
+  "random_control_fixed_C": {
+    "accuracy": {
+      "mean": 0.675,
+      "sd_across_seeds": 0.05229125165837972,
+      "values": [
+        0.625,
+        0.6875,
+        0.625,
+        0.75,
+        0.6875
+      ]
+    },
+    "balanced_accuracy": {
+      "mean": 0.675,
+      "sd_across_seeds": 0.05229125165837972,
+      "values": [
+        0.625,
+        0.6875,
+        0.625,
+        0.75,
+        0.6875
+      ]
+    },
+    "macro_f1": {
+      "mean": 0.6596516933359039,
+      "sd_across_seeds": 0.06148198008250954,
+      "values": [
+        0.6,
+        0.6761133603238867,
+        0.6,
+        0.746031746031746,
+        0.6761133603238867
+      ]
+    }
+  }
+}

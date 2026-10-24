@@ -144,3 +144,35 @@ hashes are saved in `data/model_input_contract_v1/validation.json`.
 No text, targets, IDs or splits changed. Labels remain provisional. These checks
 protect the supplied loader; downstream code must also pass only its text strings
 to feature construction. Later dataset changes require a new version and reruns.
+
+## Descriptive word/token lengths — length_statistics_v1
+
+`descriptive_length_statistics.ipynb` contains executed tables for FULL v1 and
+MASKED v2: minimum, median, mean, P90 and maximum words/content tokens; fractions
+exceeding one LEGAL-BERT input; chunk distributions and per-case chunk counts;
+and paired masking reductions in words, tokens and chunks. Training (81),
+development (16) and their combined 97-case set are reported separately.
+Test cases and pending Sodhi are excluded under Yinkui's current restriction.
+
+The notebook uses the supplied slow LEGAL-BERT tokenizer at revision
+`15b570cbf88259610b082a167dacc190124f60f6`, with Transformers 4.57.1. Content
+chunks have 510 tokens, no overlap, and two special tokens per input. Counts
+exclude special tokens and padding; words use whitespace splitting; P90 uses
+linear interpolation. No extra lowercasing, truncation, model weights, embedding
+extraction or model training is performed.
+
+All five code cells executed in a real local Jupyter kernel. Chunk accounting,
+text/input hashes, matched IDs, scope exclusion and audit word reductions passed.
+No empty or under-50-word outputs occurred. Combined totals: 183 FULL chunks and
+176 MASKED chunks; 70.10% versus 64.95% exceed a single input; masking removes
+8.25% of words and 8.00% of content tokens across these 97 cases.
+
+`data/length_statistics_v1/` holds `per_case.jsonl` (194 rows),
+`paired_changes.jsonl` (97 rows), `summary.json` and `manifest.json`.
+`preprocessing/length_statistics.py` reproduces the calculation; the requirements
+lock and tokenizer download helper are in the same directory. The ignored local
+`.venv/` and `.cache/` contain the execution environment and tokenizer files.
+The provenance manifest pins tokenizer file hashes and input/code hashes.
+On another machine, install `preprocessing/length_requirements-lock.txt`, run
+`preprocessing/download_length_tokenizer.py`, and select that Python environment
+as the notebook kernel. Later data/tokenizer/chunk changes require a new version.

@@ -1,0 +1,48 @@
+{
+  "purpose": "Portable handoff specification matching the Partition A trial; not automatically loaded by train.py",
+  "encoder": "nlpaueb/legal-bert-base-uncased",
+  "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+  "tokenizer": {
+    "class": "BertTokenizer",
+    "use_fast": false,
+    "do_lower_case": true,
+    "vocab_size": 30522,
+    "initial_add_special_tokens": false,
+    "truncation": false,
+    "padding_side": "right",
+    "special_token_ids": {"cls": 101, "sep": 102, "pad": 0, "unk": 100}
+  },
+  "chunking": {
+    "unit": "content_token",
+    "max_content_tokens": 510,
+    "window_step": 510,
+    "overlap_tokens": 0,
+    "max_input_tokens_with_specials": 512,
+    "add_special_tokens_per_chunk": true,
+    "keep_last_chunk": true,
+    "sentence_boundary_alignment": false,
+    "padding": "longest_in_batch"
+  },
+  "encoder_inference": {
+    "frozen": true,
+    "eval_mode": true,
+    "gradients_enabled": false,
+    "hidden_state": "last_hidden_state",
+    "hidden_size": 768,
+    "batch_size_chunks": 4,
+    "cpu_threads": 4,
+    "seed": 20261023
+  },
+  "pooling": {
+    "within_chunk": "mean over content-token hidden states only",
+    "exclude_special_tokens": true,
+    "exclude_padding": true,
+    "across_chunks": "mean weighted by content-token count",
+    "output_dtype": "float32",
+    "output_vectors_per_case_per_variant": 1
+  },
+  "text_variants": ["FULL", "MASKED"],
+  "development_splits": ["train", "validation"],
+  "test_processing_enabled": false,
+  "software": {"transformers": "4.57.1", "torch": "2.9.1+cpu"}
+}

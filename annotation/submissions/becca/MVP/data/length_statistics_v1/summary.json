@@ -1,0 +1,384 @@
+{
+  "version": "length_statistics_v1",
+  "summary": [
+    {
+      "scope": "train",
+      "variant": "FULL",
+      "cases": 81,
+      "words": {
+        "minimum": 149,
+        "median": 468,
+        "mean": 514.1851851851852,
+        "p90": 830.0,
+        "maximum": 1486
+      },
+      "content_tokens": {
+        "minimum": 223,
+        "median": 641,
+        "mean": 705.6172839506173,
+        "p90": 1162.0,
+        "maximum": 1878
+      },
+      "chunks": {
+        "minimum": 1,
+        "median": 2,
+        "mean": 1.8148148148148149,
+        "p90": 3.0,
+        "maximum": 4
+      },
+      "exceeding_one_input": 54,
+      "fraction_exceeding_one_input": 0.6666666666666666,
+      "total_chunks": 147
+    },
+    {
+      "scope": "train",
+      "variant": "MASKED",
+      "cases": 81,
+      "words": {
+        "minimum": 64,
+        "median": 428,
+        "mean": 471.962962962963,
+        "p90": 771.0,
+        "maximum": 1425
+      },
+      "content_tokens": {
+        "minimum": 82,
+        "median": 593,
+        "mean": 649.6913580246913,
+        "p90": 1083.0,
+        "maximum": 1788
+      },
+      "chunks": {
+        "minimum": 1,
+        "median": 2,
+        "mean": 1.7530864197530864,
+        "p90": 3.0,
+        "maximum": 4
+      },
+      "exceeding_one_input": 50,
+      "fraction_exceeding_one_input": 0.6172839506172839,
+      "total_chunks": 142
+    },
+    {
+      "scope": "development",
+      "variant": "FULL",
+      "cases": 16,
+      "words": {
+        "minimum": 276,
+        "median": 534.0,
+        "mean": 650.875,
+        "p90": 925.5,
+        "maximum": 1796
+      },
+      "content_tokens": {
+        "minimum": 375,
+        "median": 714.0,
+        "mean": 868.25,
+        "p90": 1252.0,
+        "maximum": 2320
+      },
+      "chunks": {
+        "minimum": 1,
+        "median": 2.0,
+        "mean": 2.25,
+        "p90": 3.0,
+        "maximum": 5
+      },
+      "exceeding_one_input": 14,
+      "fraction_exceeding_one_input": 0.875,
+      "total_chunks": 36
+    },
+    {
+      "scope": "development",
+      "variant": "MASKED",
+      "cases": 16,
+      "words": {
+        "minimum": 250,
+        "median": 507.5,
+        "mean": 596.0625,
+        "p90": 872.0,
+        "maximum": 1671
+      },
+      "content_tokens": {
+        "minimum": 331,
+        "median": 679.0,
+        "mean": 796.125,
+        "p90": 1208.0,
+        "maximum": 2147
+      },
+      "chunks": {
+        "minimum": 1,
+        "median": 2.0,
+        "mean": 2.125,
+        "p90": 3.0,
+        "maximum": 5
+      },
+      "exceeding_one_input": 13,
+      "fraction_exceeding_one_input": 0.8125,
+      "total_chunks": 34
+    },
+    {
+      "scope": "combined",
+      "variant": "FULL",
+      "cases": 97,
+      "words": {
+        "minimum": 149,
+        "median": 486,
+        "mean": 536.7319587628866,
+        "p90": 846.8000000000002,
+        "maximum": 1796
+      },
+      "content_tokens": {
+        "minimum": 223,
+        "median": 664,
+        "mean": 732.4432989690722,
+        "p90": 1184.0,
+        "maximum": 2320
+      },
+      "chunks": {
+        "minimum": 1,
+        "median": 2,
+        "mean": 1.8865979381443299,
+        "p90": 3.0,
+        "maximum": 5
+      },
+      "exceeding_one_input": 68,
+      "fraction_exceeding_one_input": 0.7010309278350515,
+      "total_chunks": 183
+    },
+    {
+      "scope": "combined",
+      "variant": "MASKED",
+      "cases": 97,
+      "words": {
+        "minimum": 64,
+        "median": 447,
+        "mean": 492.4329896907216,
+        "p90": 782.8000000000002,
+        "maximum": 1671
+      },
+      "content_tokens": {
+        "minimum": 82,
+        "median": 612,
+        "mean": 673.8453608247422,
+        "p90": 1118.0,
+        "maximum": 2147
+      },
+      "chunks": {
+        "minimum": 1,
+        "median": 2,
+        "mean": 1.8144329896907216,
+        "p90": 3.0,
+        "maximum": 5
+      },
+      "exceeding_one_input": 63,
+      "fraction_exceeding_one_input": 0.6494845360824743,
+      "total_chunks": 176
+    }
+  ],
+  "masking_changes": [
+    {
+      "scope": "train",
+      "cases": 81,
+      "cases_crossing_to_one_input": 4,
+      "words": {
+        "absolute_reduction": {
+          "minimum": 8,
+          "median": 39,
+          "mean": 42.22222222222222,
+          "p90": 66.0,
+          "maximum": 145
+        },
+        "fractional_reduction": {
+          "minimum": 0.010752688172043012,
+          "median": 0.0835117773019272,
+          "mean": 0.09856520624421473,
+          "p90": 0.14634146341463414,
+          "maximum": 0.5704697986577181
+        },
+        "full_total": 41649,
+        "masked_total": 38229,
+        "total_reduction": 3420,
+        "corpus_reduction_fraction": 0.08211481668227329
+      },
+      "content_tokens": {
+        "absolute_reduction": {
+          "minimum": 10,
+          "median": 49,
+          "mean": 55.925925925925924,
+          "p90": 90.0,
+          "maximum": 176
+        },
+        "fractional_reduction": {
+          "minimum": 0.00980392156862745,
+          "median": 0.07584830339321358,
+          "mean": 0.09573671036035351,
+          "p90": 0.17105263157894737,
+          "maximum": 0.6322869955156951
+        },
+        "full_total": 57155,
+        "masked_total": 52625,
+        "total_reduction": 4530,
+        "corpus_reduction_fraction": 0.07925815764150118
+      },
+      "chunks": {
+        "absolute_reduction": {
+          "minimum": 0,
+          "median": 0,
+          "mean": 0.06172839506172839,
+          "p90": 0.0,
+          "maximum": 1
+        },
+        "fractional_reduction": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.027777777777777776,
+          "p90": 0.0,
+          "maximum": 0.5
+        },
+        "full_total": 147,
+        "masked_total": 142,
+        "total_reduction": 5,
+        "corpus_reduction_fraction": 0.034013605442176874
+      }
+    },
+    {
+      "scope": "development",
+      "cases": 16,
+      "cases_crossing_to_one_input": 1,
+      "words": {
+        "absolute_reduction": {
+          "minimum": 12,
+          "median": 38.5,
+          "mean": 54.8125,
+          "p90": 113.5,
+          "maximum": 161
+        },
+        "fractional_reduction": {
+          "minimum": 0.023622047244094488,
+          "median": 0.07117857317822271,
+          "mean": 0.0853766318990429,
+          "p90": 0.15187560720540094,
+          "maximum": 0.17750826901874311
+        },
+        "full_total": 10414,
+        "masked_total": 9537,
+        "total_reduction": 877,
+        "corpus_reduction_fraction": 0.08421355867101978
+      },
+      "content_tokens": {
+        "absolute_reduction": {
+          "minimum": 14,
+          "median": 46.5,
+          "mean": 72.125,
+          "p90": 155.0,
+          "maximum": 222
+        },
+        "fractional_reduction": {
+          "minimum": 0.021021021021021023,
+          "median": 0.07058352606297812,
+          "mean": 0.08394923936138302,
+          "p90": 0.14735033343962733,
+          "maximum": 0.18702611625947768
+        },
+        "full_total": 13892,
+        "masked_total": 12738,
+        "total_reduction": 1154,
+        "corpus_reduction_fraction": 0.08306939245608984
+      },
+      "chunks": {
+        "absolute_reduction": {
+          "minimum": 0,
+          "median": 0.0,
+          "mean": 0.125,
+          "p90": 0.5,
+          "maximum": 1
+        },
+        "fractional_reduction": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.05208333333333333,
+          "p90": 0.16666666666666666,
+          "maximum": 0.5
+        },
+        "full_total": 36,
+        "masked_total": 34,
+        "total_reduction": 2,
+        "corpus_reduction_fraction": 0.05555555555555555
+      }
+    },
+    {
+      "scope": "combined",
+      "cases": 97,
+      "cases_crossing_to_one_input": 5,
+      "words": {
+        "absolute_reduction": {
+          "minimum": 8,
+          "median": 39,
+          "mean": 44.29896907216495,
+          "p90": 69.00000000000003,
+          "maximum": 161
+        },
+        "fractional_reduction": {
+          "minimum": 0.010752688172043012,
+          "median": 0.0826271186440678,
+          "mean": 0.09638977130068124,
+          "p90": 0.14984292470742572,
+          "maximum": 0.5704697986577181
+        },
+        "full_total": 52063,
+        "masked_total": 47766,
+        "total_reduction": 4297,
+        "corpus_reduction_fraction": 0.08253462151623994
+      },
+      "content_tokens": {
+        "absolute_reduction": {
+          "minimum": 10,
+          "median": 49,
+          "mean": 58.597938144329895,
+          "p90": 94.20000000000002,
+          "maximum": 222
+        },
+        "fractional_reduction": {
+          "minimum": 0.00980392156862745,
+          "median": 0.07401032702237521,
+          "mean": 0.09379238524712126,
+          "p90": 0.1651952461799661,
+          "maximum": 0.6322869955156951
+        },
+        "full_total": 71047,
+        "masked_total": 65363,
+        "total_reduction": 5684,
+        "corpus_reduction_fraction": 0.08000337804551916
+      },
+      "chunks": {
+        "absolute_reduction": {
+          "minimum": 0,
+          "median": 0,
+          "mean": 0.07216494845360824,
+          "p90": 0.0,
+          "maximum": 1
+        },
+        "fractional_reduction": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.03178694158075601,
+          "p90": 0.0,
+          "maximum": 0.5
+        },
+        "full_total": 183,
+        "masked_total": 176,
+        "total_reduction": 7,
+        "corpus_reduction_fraction": 0.03825136612021858
+      }
+    }
+  ],
+  "scope": "81 training + 16 development cases; no test/pending tokenization",
+  "word_definition": "Whitespace-separated words, matching preprocessing audits",
+  "token_definition": "Untruncated content token IDs, before CLS/SEP and padding",
+  "p90_definition": "Linear interpolation at 0.90 * (n - 1) on sorted values (type 7)",
+  "empty_word_or_token_outputs": [],
+  "near_empty_under_50_words": [],
+  "all_chunk_checks_passed": true,
+  "label_or_split_changes": false
+}
