@@ -1,0 +1,31 @@
+{
+  "run_name": "yinkui_A_provisional_v1",
+  "annotations": "annotation/submissions/yinkui/batches/A/annotations.jsonl",
+  "source": "annotation/source/cases.jsonl",
+  "expected": "annotation/batches/A/manifest.json",
+  "family_hints": "annotation/source/family_hints.json",
+  "calibration": "annotation/calibration/manifest.json",
+  "seed": 20261023,
+  "train_end": 2020,
+  "validation_end": 2022,
+  "test_end": 2024,
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "controlled_C": 1.0,
+  "random_seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "audit_cases_per_class_per_split": 2,
+  "encoder": "nlpaueb/legal-bert-base-uncased",
+  "encoder_revision": null,
+  "encoder_batch_size": 4,
+  "encoder_threads": 4,
+  "test_evaluation_enabled": false
+}

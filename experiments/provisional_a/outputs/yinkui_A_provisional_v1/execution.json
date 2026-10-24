@@ -1,0 +1,58 @@
+{
+  "seed": 20261023,
+  "python": "3.13.3",
+  "packages": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.9.1+cpu",
+    "transformers": "4.57.1",
+    "huggingface-hub": "0.36.2",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2"
+  },
+  "encoder_lock": {
+    "model": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6"
+  },
+  "timings_seconds": {
+    "TFIDF_LR_FULL": 0.35860200000001896,
+    "TFIDF_LR_MASKED": 0.3186324999999215,
+    "TFIDF_LR_RANDOM_11": 0.32185019999997166,
+    "TFIDF_LR_RANDOM_23": 0.3726670999999442,
+    "TFIDF_LR_RANDOM_37": 0.32327950000012606,
+    "TFIDF_LR_RANDOM_51": 0.3117762000001676,
+    "TFIDF_LR_RANDOM_71": 0.3143968000001678,
+    "TFIDF_SVM_FULL": 0.33585629999993216,
+    "TFIDF_SVM_MASKED": 0.31741280000005645,
+    "encoder_seconds": 7.3972777999999835,
+    "LEGAL_BERT_LR_FULL": 0.03621789999988323,
+    "LEGAL_BERT_LR_MASKED": 0.03636570000003303
+  },
+  "total_seconds": 10.472483999999895,
+  "dataset_sha256": "a707b805f74ac61750c16f001b32498987dcf60c32e2461407e5cdcb2ae67c0c",
+  "script_sha256": {
+    "train.py": "ba72b4befd81e109d7936434ece5ac5736a7c8bfb0003db6fd65c33c11d4a740",
+    "prepare.py": "ec147b3f78f53f8d21224792e657b76238c2674f3c9f5828dd14150ca3bf6da4",
+    "preprocessing.py": "7864feeeb5ab4a857a214a3eb91650aae02f9fa9bea0b1d20ac0310543ed6e02"
+  },
+  "validation_ids": [
+    "NY-4849014",
+    "NY-4869542",
+    "NY-4898836",
+    "NY-4929051",
+    "NY-5302167",
+    "NY-5304378",
+    "NY-6451900",
+    "NY-6622562",
+    "NY-7853716",
+    "NY-7855719",
+    "NY-7857572",
+    "NY-7859429",
+    "NY-8435765",
+    "NY-9329602",
+    "NY-9355447",
+    "NY-9355453"
+  ],
+  "test_evaluated": false
+}
