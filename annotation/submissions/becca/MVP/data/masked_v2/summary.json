@@ -1,0 +1,38 @@
+{
+  "version": "masked_v2",
+  "case_count": 114,
+  "partition_counts": {
+    "test": 16,
+    "train": 81,
+    "pending_or_excluded": 1,
+    "development": 16
+  },
+  "full_words": 63619,
+  "masked_words": 58254,
+  "removed_sentences": 228,
+  "removal_reasons": {
+    "disposition_block": 92,
+    "current_appellate_result": 24,
+    "reviewed_ruling_result": 68,
+    "operative_relief_result": 11,
+    "disposition_synopsis": 23,
+    "concluding_relief_result": 2,
+    "express_relief_resolution": 2,
+    "agreement_on_explicit_relief": 2,
+    "response_to_explicit_relief_argument": 1,
+    "nominal_reviewed_ruling_result": 2,
+    "required_operative_relief": 1
+  },
+  "flag_counts": {
+    "retained_cue_candidates_review": 43,
+    "unbalanced_brackets_review_segmentation": 4,
+    "over_half_words_removed_review": 1
+  },
+  "empty_case_ids": [],
+  "near_empty_case_ids": [],
+  "review_status": "automated masking with training sample assistant review; not human-reviewed",
+  "labels_or_annotation_evidence_used": false,
+  "frozen_ids_splits_and_labels_changed": false,
+  "removed_words": 5365,
+  "removed_word_fraction": 0.08433015294173124
+}

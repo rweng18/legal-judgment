@@ -90,3 +90,57 @@ IDs, labels, families and splits are unchanged; pending Sodhi remains pending.
 This is automated preprocessing with assistant training-sample review, not
 human-adjudicated text or a guarantee of exhaustive cue removal. Later changes
 require a new version and rerunning affected experiments.
+
+## Training residual review and current MASKED version — masked_v2
+
+`review_masking_audit.ipynb` is the current masking-review/rebuild notebook.
+It uses `preprocessing/masked_text_v2.py`, `masked_rules_v2.json`,
+`masked_training_review_v2.json`, and `verify_masked_v2.py`.
+**Use `data/masked_v2/` for subsequent MASKED experiments.** The earlier v1
+notebook, rules, code, text and audits remain preserved for reproducibility.
+FULL, the selected IDs, provisional labels and split manifest are unchanged.
+
+Seed 20261016 selected five additional complete training opinions from the 26
+flagged training cases not fully read previously. Four missed outcome sentences
+were confirmed in three samples; two were not flagged by the original scanner.
+General rules now handle explicit agreement about operative relief, nominal
+ruling descriptions, and required denial/grant of relief. Rules were frozen
+before v2 evaluation processing. No evaluation labels, selected annotation
+quotations or case-specific overrides were used. Fifteen training opinions have
+now been fully read across both reviews; this is not exhaustive semantic review.
+Twenty-one cases in the follow-up sampling pool remain without full review.
+
+V2 saves 228 removed sentences and per-case exact FULL offsets, removal reasons,
+word counts/fractions, hashes and residual candidates. It removes 5,365 words
+(8.43%) from FULL, leaving 58,254 words. There are no empty or under-50-word
+outputs. One case retains 64 words after losing over half its words. Four
+inherited bracket warnings remain. Forty-three cases have broad residual-cue
+flags; the scanner was broadened, so this count is not directly comparable to
+v1's 42 flags and does not count confirmed leaks.
+
+All three notebook cells executed sequentially in Python (not a Jupyter kernel).
+Thirty-three regression checks and all 114 reconstruction/hash/word-accounting
+checks passed. Evaluation flags remain review candidates and do not support a
+claim of exhaustive cue removal. Any experiment run with masked_v1 must be rerun
+for a masked_v2 comparison. No model experiments were run in this task.
+
+## Model-input boundary and handoff
+
+`MODEL_INPUT_HANDOFF.md` identifies the approved FULL v1 / MASKED v2 text exports
+and shared mvp_split_v1 targets. `preprocessing/model_inputs.py` validates the
+exact `{case_id, text}` export fields and returns texts, case IDs and targets in
+separate tuples. Only texts enter tokenization/vectorization. Annotation-rich
+metadata, favors, findings, summaries and selected quotations remain diagnostic
+artifacts. Legal reasoning/quotations in the original opinion remain text.
+
+`validate_model_inputs.ipynb` checks hashes, ID coverage, label availability,
+family separation and the feature/target boundary. It confirms identical IDs and
+targets across variants, with 81 train / 16 development / 16 test cases and Sodhi
+excluded as pending. Seventeen checks passed, including rejection of prohibited
+fields and incorrect joins. All three notebook code cells executed sequentially
+in Python; no Jupyter kernel or model training was run. Results and code/input
+hashes are saved in `data/model_input_contract_v1/validation.json`.
+
+No text, targets, IDs or splits changed. Labels remain provisional. These checks
+protect the supplied loader; downstream code must also pass only its text strings
+to feature construction. Later dataset changes require a new version and reruns.
