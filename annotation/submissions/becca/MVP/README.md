@@ -21,7 +21,7 @@ Run all cells using Python 3 from this folder or the repository root. Only the s
 
 The 114 MVP cases remain unchanged, in 114 observed families. Five have a related source record outside the MVP. Sodhi's missing companion remains unresolved. Germain inherits calibration exposure, bringing the recorded training-only MVP count to four. No known linked family spans chronological periods in this snapshot.
 
-Family decisions are assistant drafts awaiting human review. Target labels are unchanged and still await Hayden's review. Family assignments do not establish human-gold outcomes or prove that no further family relationships exist. Versioned split assignments are now frozen with Sodhi pending; FULL text has now been produced; MASKED processing, encoder chunks, and training have not begun.
+Family decisions are assistant drafts awaiting human review. Target labels are unchanged and still await Hayden's review. Family assignments do not establish human-gold outcomes or prove that no further family relationships exist. Versioned split assignments are now frozen with Sodhi pending; FULL and MASKED text have now been produced; encoder chunks and training have not begun.
 
 All notebook code cells have been checked by sequential execution, including repeat runs. Original annotations and synced project references were not modified. This work was prepared from repository revision e5f2ea9.
 
@@ -59,3 +59,34 @@ All three notebook code cells and structural/export checks passed. No empty or
 near-empty text was produced. Source OCR quirks are retained rather than silently
 rewritten. Frozen IDs, targets, splits, and Sodhi's pending status are unchanged.
 No MASKED text, encoder chunks, or training have been produced.
+
+## MASKED text — masked_v1
+
+`produce_masked_text.ipynb` generates 114 texts from the immutable FULL exports.
+Rules were developed on 81 training cases, with complete reading of 10 purposive
+training samples, then frozen before processing development/test/pending cases.
+The same rules apply without receiving labels or selected annotation evidence.
+
+- `preprocessing/masked_text.py`: reusable sentence masking and immutable export.
+- `preprocessing/masked_rules_v1.json`: frozen policy, code/input hashes and training IDs.
+- `preprocessing/masked_training_review_v1.json`: training sample notes and training audit.
+- `preprocessing/verify_masked.py`: boundary/leakage regressions and export checks.
+- `data/masked_v1/masked.jsonl` and `texts/`: model inputs containing only ID/text.
+- `data/masked_v1/removal_audit.jsonl`: exact removed sentences, FULL-relative Unicode
+  offsets, reasons, word counts/fractions, hashes and retained-cue candidates.
+- `data/masked_v1/manifest.json` and `summary.json`: provenance and totals.
+
+The run removed 223 sentences / 5,178 words (8.14%), leaving 58,441 words.
+No empty or under-50-word outputs occurred. Retained-cue candidates occur in 42
+cases; these include indirect reasoning and cited outcomes, not just possible
+missed direct cues. Four cases have inherited bracket-balance warnings. One
+short training case loses over half its words and retains 64 words. Flags remain
+explicit review candidates; no evaluation-specific editing or tuning occurred.
+
+All three notebook code cells executed sequentially using Python's standard
+library; this was not a Jupyter-kernel execution. Twenty synthetic regression
+checks and 114-case reconstruction/hash/word-count/export checks passed.
+IDs, labels, families and splits are unchanged; pending Sodhi remains pending.
+This is automated preprocessing with assistant training-sample review, not
+human-adjudicated text or a guarantee of exhaustive cue removal. Later changes
+require a new version and rerunning affected experiments.
