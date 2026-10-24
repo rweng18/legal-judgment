@@ -90,3 +90,36 @@ IDs, labels, families and splits are unchanged; pending Sodhi remains pending.
 This is automated preprocessing with assistant training-sample review, not
 human-adjudicated text or a guarantee of exhaustive cue removal. Later changes
 require a new version and rerunning affected experiments.
+
+## Training residual review and current MASKED version — masked_v2
+
+`review_masking_audit.ipynb` is the current masking-review/rebuild notebook.
+It uses `preprocessing/masked_text_v2.py`, `masked_rules_v2.json`,
+`masked_training_review_v2.json`, and `verify_masked_v2.py`.
+**Use `data/masked_v2/` for subsequent MASKED experiments.** The earlier v1
+notebook, rules, code, text and audits remain preserved for reproducibility.
+FULL, the selected IDs, provisional labels and split manifest are unchanged.
+
+Seed 20261016 selected five additional complete training opinions from the 26
+flagged training cases not fully read previously. Four missed outcome sentences
+were confirmed in three samples; two were not flagged by the original scanner.
+General rules now handle explicit agreement about operative relief, nominal
+ruling descriptions, and required denial/grant of relief. Rules were frozen
+before v2 evaluation processing. No evaluation labels, selected annotation
+quotations or case-specific overrides were used. Fifteen training opinions have
+now been fully read across both reviews; this is not exhaustive semantic review.
+Twenty-one cases in the follow-up sampling pool remain without full review.
+
+V2 saves 228 removed sentences and per-case exact FULL offsets, removal reasons,
+word counts/fractions, hashes and residual candidates. It removes 5,365 words
+(8.43%) from FULL, leaving 58,254 words. There are no empty or under-50-word
+outputs. One case retains 64 words after losing over half its words. Four
+inherited bracket warnings remain. Forty-three cases have broad residual-cue
+flags; the scanner was broadened, so this count is not directly comparable to
+v1's 42 flags and does not count confirmed leaks.
+
+All three notebook cells executed sequentially in Python (not a Jupyter kernel).
+Thirty-three regression checks and all 114 reconstruction/hash/word-accounting
+checks passed. Evaluation flags remain review candidates and do not support a
+claim of exhaustive cue removal. Any experiment run with masked_v1 must be rerun
+for a masked_v2 comparison. No model experiments were run in this task.

@@ -1,0 +1,2643 @@
+{
+  "version": "masked_training_review_v2",
+  "supersedes": "masked_training_review_v1 for rule-development history only; v1 artifacts preserved",
+  "reviewed_on": "2026-10-24",
+  "prior_review_sha256": "cf1b51478fb5b6ff0ac128991f6c688c49265b71ed1c1fc76074d87544b0d7aa",
+  "reviewer_type": "assistant",
+  "human_review": false,
+  "sample_seed": 20261016,
+  "sample_selection": "Five uniformly sampled IDs without replacement from flagged training cases not fully read during v1; fixed sorted pool, Python random.Random(seed).sample",
+  "sample_population_case_ids": [
+    "NY-2813813",
+    "NY-2825305",
+    "NY-3150543",
+    "NY-3161557",
+    "NY-4306620",
+    "NY-4315793",
+    "NY-4347986",
+    "NY-4538463",
+    "NY-4546774",
+    "NY-4597247",
+    "NY-4600405",
+    "NY-4626387",
+    "NY-4646287",
+    "NY-4670005",
+    "NY-4768174",
+    "NY-4777088",
+    "NY-4803674",
+    "NY-4807631",
+    "NY-4840329",
+    "NY-5933602",
+    "NY-5934687",
+    "NY-5959503",
+    "NY-5992264",
+    "NY-6042890",
+    "NY-6070911",
+    "NY-6199158"
+  ],
+  "sample_population_count": 26,
+  "new_fully_read_training_case_ids": [
+    "NY-4306620",
+    "NY-4803674",
+    "NY-4807631",
+    "NY-5959503",
+    "NY-6042890"
+  ],
+  "fully_read_training_case_ids": [
+    "NY-2682947",
+    "NY-2686388",
+    "NY-2686408",
+    "NY-2719389",
+    "NY-4303491",
+    "NY-5985468",
+    "NY-4320316",
+    "NY-4551411",
+    "NY-6097667",
+    "NY-5936535",
+    "NY-4306620",
+    "NY-4803674",
+    "NY-4807631",
+    "NY-5959503",
+    "NY-6042890"
+  ],
+  "sample_records": [
+    {
+      "case_id": "NY-4306620",
+      "full_sha256": "6d4f793d5e21cbbc0ac6b93fc910ba389cdbedcc7acbd0f62d6e15f96a5765aa",
+      "complete_FULL_read": true,
+      "review_status": "assistant_review_not_human_adjudication",
+      "v1_candidates_reviewed": [
+        {
+          "start": 1002,
+          "end": 1120,
+          "text": "Global contends that it is entitled to summary judgment because it did not owe plaintiff a duty of care, and we agree.",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "direct_current_relief",
+          "disposition": "removed_by_general_v2_rule"
+        },
+        {
+          "start": 1121,
+          "end": 1383,
+          "text": "It is well settled that, “[b]ecause a finding of negligence must be based on the breach of a duty, a threshold question in tort cases is whether the alleged tortfeasor owed a duty of care to the injured party” (Espinal v Melville Snow Contrs., 98 NY2d 136, 138).",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "quoted_legal_standard",
+          "disposition": "retain"
+        },
+        {
+          "start": 2335,
+          "end": 2564,
+          "text": "We reject that contention because the instrument of harm doctrine does not apply to the facts of this case (see generally id. at 111-112; Cooper v Time Warner Entertainment-Advance/Newhouse Partnership, 16 AD3d 1037, 1038- 1039).",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "indirect_reasoning",
+          "disposition": "retain"
+        },
+        {
+          "start": 2565,
+          "end": 2929,
+          "text": "Finally, we agree with Global that Verizon is not entitled to contractual indemnification inasmuch as Global established as a matter of law that it was not negligent in performing its duties pursuant to the contract, and Verizon failed to raise an issue of fact (see generally Zuckerman, 49 NY2d at 562; cf. Walter v United Parcel Serv., Inc., 56 AD3d 1187, 1188).",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "direct_current_relief",
+          "disposition": "removed_by_general_v2_rule"
+        }
+      ],
+      "confirmed_missed_sentences": [
+        {
+          "start": 1002,
+          "end": 1120,
+          "reason": "agreement_on_explicit_relief",
+          "removed_text": "Global contends that it is entitled to summary judgment because it did not owe plaintiff a duty of care, and we agree.",
+          "removed_words": 22
+        },
+        {
+          "start": 2565,
+          "end": 2929,
+          "reason": "agreement_on_explicit_relief",
+          "removed_text": "Finally, we agree with Global that Verizon is not entitled to contractual indemnification inasmuch as Global established as a matter of law that it was not negligent in performing its duties pursuant to the contract, and Verizon failed to raise an issue of fact (see generally Zuckerman, 49 NY2d at 562; cf. Walter v United Parcel Serv., Inc., 56 AD3d 1187, 1188).",
+          "removed_words": 62
+        }
+      ],
+      "remaining_v2_candidates": [
+        {
+          "start": 1121,
+          "end": 1383,
+          "text": "It is well settled that, “[b]ecause a finding of negligence must be based on the breach of a duty, a threshold question in tort cases is whether the alleged tortfeasor owed a duty of care to the injured party” (Espinal v Melville Snow Contrs., 98 NY2d 136, 138).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 2335,
+          "end": 2564,
+          "text": "We reject that contention because the instrument of harm doctrine does not apply to the facts of this case (see generally id. at 111-112; Cooper v Time Warner Entertainment-Advance/Newhouse Partnership, 16 AD3d 1037, 1038- 1039).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "conclusion": "No further direct-outcome sentence identified in this complete sample opinion after the four general-rule corrections; not proof of exhaustive cue removal."
+    },
+    {
+      "case_id": "NY-4803674",
+      "full_sha256": "c7d9c329450f33f8795ae98a13d35c033009dd8dec209db27f5f007e3f6509dd",
+      "complete_FULL_read": true,
+      "review_status": "assistant_review_not_human_adjudication",
+      "v1_candidates_reviewed": [
+        {
+          "start": 707,
+          "end": 960,
+          "text": "The court found that, although defendant asserts that the causes of plaintiff's fall were pine needles and/or moisture on the wooden steps, there is a factual question as to whether the steps were properly maintained and presented a dangerous condition.",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "procedural_history",
+          "disposition": "retain"
+        },
+        {
+          "start": 6917,
+          "end": 7384,
+          "text": "Also, given witness testimony about concerns regarding the handrail, and viewing the evidence in the light most favorable to plaintiff, Supreme Court properly found that the finder of fact could determine that the condition of the stairway handrail could have contributed to the dangerous condition of the steps and plaintiff's slip and fall ( see Brumm v St. Paul's Evangelical Lutheran Church , 143 AD3d at 1227; Ash v City of New York , 109 AD3d 854 , 855 [2013]).",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "indirect_reasoning",
+          "disposition": "retain"
+        }
+      ],
+      "confirmed_missed_sentences": [
+        {
+          "start": 7385,
+          "end": 7628,
+          "reason": "nominal_reviewed_ruling_result",
+          "removed_text": "Accordingly, Supreme Court's denial of defendant's motion for summary judgment dismissing the complaint was proper ( see Acton v 1906 Rest. Corp. , 147 AD3d 1277 , 1279 [2017]; Murphy v Hometown Real Estate , 132 AD3d 1126 , 1127-1128 [2015]).",
+          "removed_words": 41
+        }
+      ],
+      "remaining_v2_candidates": [
+        {
+          "start": 707,
+          "end": 960,
+          "text": "The court found that, although defendant asserts that the causes of plaintiff's fall were pine needles and/or moisture on the wooden steps, there is a factual question as to whether the steps were properly maintained and presented a dangerous condition.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 6917,
+          "end": 7384,
+          "text": "Also, given witness testimony about concerns regarding the handrail, and viewing the evidence in the light most favorable to plaintiff, Supreme Court properly found that the finder of fact could determine that the condition of the stairway handrail could have contributed to the dangerous condition of the steps and plaintiff's slip and fall ( see Brumm v St. Paul's Evangelical Lutheran Church , 143 AD3d at 1227; Ash v City of New York , 109 AD3d 854 , 855 [2013]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "conclusion": "No further direct-outcome sentence identified in this complete sample opinion after the four general-rule corrections; not proof of exhaustive cue removal."
+    },
+    {
+      "case_id": "NY-4807631",
+      "full_sha256": "445d2996d2a3ad66b15346777e4cb581a5009d9fb2bdadad2403bba8795b3f06",
+      "complete_FULL_read": true,
+      "review_status": "assistant_review_not_human_adjudication",
+      "v1_candidates_reviewed": [
+        {
+          "start": 389,
+          "end": 606,
+          "text": "The court correctly concluded that defendants failed to demonstrate as a matter of law that they did not cause, create, or have actual or constructive notice of the hazardous condition that caused decedent's accident.",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "indirect_reasoning",
+          "disposition": "retain"
+        }
+      ],
+      "confirmed_missed_sentences": [],
+      "remaining_v2_candidates": [
+        {
+          "start": 389,
+          "end": 606,
+          "text": "The court correctly concluded that defendants failed to demonstrate as a matter of law that they did not cause, create, or have actual or constructive notice of the hazardous condition that caused decedent's accident.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "conclusion": "No further direct-outcome sentence identified in this complete sample opinion after the four general-rule corrections; not proof of exhaustive cue removal."
+    },
+    {
+      "case_id": "NY-5959503",
+      "full_sha256": "5cd98c23ec2996d7a3495b1572ab7c1dc44219f595c7bcf0fa01dcde44dcc02b",
+      "complete_FULL_read": true,
+      "review_status": "assistant_review_not_human_adjudication",
+      "v1_candidates_reviewed": [
+        {
+          "start": 1201,
+          "end": 1413,
+          "text": "We reject defendant’s argument that, even if it controlled 21 Club, Inc. and thus can be considered its alter ego, this action would still be barred by the exclusivity provisions of the Workers’ Compensation Law.",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "indirect_reasoning",
+          "disposition": "retain"
+        }
+      ],
+      "confirmed_missed_sentences": [],
+      "remaining_v2_candidates": [
+        {
+          "start": 1201,
+          "end": 1413,
+          "text": "We reject defendant’s argument that, even if it controlled 21 Club, Inc. and thus can be considered its alter ego, this action would still be barred by the exclusivity provisions of the Workers’ Compensation Law.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "conclusion": "No further direct-outcome sentence identified in this complete sample opinion after the four general-rule corrections; not proof of exhaustive cue removal."
+    },
+    {
+      "case_id": "NY-6042890",
+      "full_sha256": "f4b9725416116b16a97b4d7d47920dfc77ac029660ad43c69d8a68e5a8806af8",
+      "complete_FULL_read": true,
+      "review_status": "assistant_review_not_human_adjudication",
+      "v1_candidates_reviewed": [
+        {
+          "start": 1688,
+          "end": 1834,
+          "text": "The defendant’s remaining contentions are without merit, are not properly before this Court, or need not be reached in light of our determination.",
+          "status": "candidate_only_requires_context_review",
+          "assistant_classification": "procedural_or_catchall_reasoning",
+          "disposition": "retain"
+        }
+      ],
+      "confirmed_missed_sentences": [
+        {
+          "start": 1428,
+          "end": 1687,
+          "reason": "required_operative_relief",
+          "removed_text": "The defendant’s failure to make a prima facie showing of his entitlement to judgment as a matter of law required the denial of the motion, regardless of the sufficiency of the plaintiffs opposing papers (see Alvarez v Prospect Hosp., 68 NY2d 320, 324 [1986]).",
+          "removed_words": 44
+        }
+      ],
+      "remaining_v2_candidates": [
+        {
+          "start": 1688,
+          "end": 1834,
+          "text": "The defendant’s remaining contentions are without merit, are not properly before this Court, or need not be reached in light of our determination.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "conclusion": "No further direct-outcome sentence identified in this complete sample opinion after the four general-rule corrections; not proof of exhaustive cue removal."
+    }
+  ],
+  "confirmed_missed_sentences": 4,
+  "additional_unflagged_misses": 2,
+  "review_scope": "Full text read for all five new samples; nine original flagged spans classified, plus two missed direct-result sentences not detected by the v1 cue scanner. Four total missed sentences across three sampled cases. This enriched sample is not a corpus-wide error estimate. No evaluation text or labels used for these changes.",
+  "remaining_scope": "21 of the 26 previously unread flagged training cases are not fully reviewed in this follow-up. Prior review remains available. All-case automated flags are not human adjudications.",
+  "training_audit": [
+    {
+      "case_id": "NY-2682947",
+      "edits": [
+        {
+          "start": 0,
+          "end": 331,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Wilma Guzman, J.), entered March 29, 2013, which, in this slip-and-fall action, granted defendants’ motion for summary judgment dismissing the complaint, and denied plaintiffs cross motion to strike the answer or for other sanctions for spoliation of surveillance tapes, affirmed, without costs.",
+          "removed_words": 47
+        },
+        {
+          "start": 4292,
+          "end": 4398,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "The motion court properly exercised its discretion in denying plaintiff’s motion for spoliation sanctions.",
+          "removed_words": 14
+        }
+      ],
+      "full_words": 1486,
+      "masked_words": 1425,
+      "removed_words": 61,
+      "removed_word_fraction": 0.04104979811574697,
+      "residual_cue_candidates": [
+        {
+          "start": 3138,
+          "end": 3263,
+          "text": "It also rejected plaintiff’s contention that defendants should have preserved six hours of footage from all 32 store cameras.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 7119,
+          "end": 7280,
+          "text": "The court correctly found that plaintiff did not raise a triable issue of fact with respect to defendant’s creation or notice of the alleged dangerous condition.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 8150,
+          "end": 8423,
+          "text": "To argue that the unpreserved tapes might potentially have shown a condition that caused plaintiff’s fall does not meet plaintiffs burden to show that defendant improperly destroyed the tape (see Robertson v New York City Hous. Auth., 58 AD3d 535, 536-537 [1st Dept 2009]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-2686388",
+      "edits": [
+        {
+          "start": 251,
+          "end": 403,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendants' motion for summary judgment dismissing the amended complaint is granted.",
+          "removed_words": 24
+        },
+        {
+          "start": 1776,
+          "end": 1904,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have granted the defendants' motion for summary judgment dismissing the amended complaint.",
+          "removed_words": 17
+        }
+      ],
+      "full_words": 320,
+      "masked_words": 279,
+      "removed_words": 41,
+      "removed_word_fraction": 0.128125,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-2686408",
+      "edits": [
+        {
+          "start": 252,
+          "end": 299,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 2231,
+          "end": 2348,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 403,
+      "masked_words": 380,
+      "removed_words": 23,
+      "removed_word_fraction": 0.05707196029776675,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-2719389",
+      "edits": [
+        {
+          "start": 293,
+          "end": 365,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        },
+        {
+          "start": 2366,
+          "end": 2453,
+          "reason": "concluding_relief_result",
+          "removed_text": "Accordingly, the defendants were entitled to summary judgment dismissing the complaint.",
+          "removed_words": 11
+        }
+      ],
+      "full_words": 414,
+      "masked_words": 391,
+      "removed_words": 23,
+      "removed_word_fraction": 0.05555555555555555,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-2757329",
+      "edits": [
+        {
+          "start": 253,
+          "end": 396,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 23
+        },
+        {
+          "start": 2521,
+          "end": 2640,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 472,
+      "masked_words": 433,
+      "removed_words": 39,
+      "removed_word_fraction": 0.0826271186440678,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-2766617",
+      "edits": [
+        {
+          "start": 251,
+          "end": 394,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 23
+        },
+        {
+          "start": 1206,
+          "end": 1217,
+          "reason": "current_appellate_result",
+          "removed_text": "We reverse.",
+          "removed_words": 2
+        },
+        {
+          "start": 3115,
+          "end": 3234,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 550,
+      "masked_words": 509,
+      "removed_words": 41,
+      "removed_word_fraction": 0.07454545454545454,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-2811365",
+      "edits": [
+        {
+          "start": 358,
+          "end": 405,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1541,
+          "end": 1779,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendants' motion for summary judgment dismissing the complaint and properly, in effect, denied the plaintiffs' cross motion, inter alia, for summary judgment on the issue of liability.",
+          "removed_words": 34
+        }
+      ],
+      "full_words": 291,
+      "masked_words": 249,
+      "removed_words": 42,
+      "removed_word_fraction": 0.14432989690721648,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-2813813",
+      "edits": [
+        {
+          "start": 362,
+          "end": 446,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with one bill of costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 2547,
+          "end": 2744,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted those branches of the defendants' separate motions which were for summary judgment dismissing the complaint insofar as asserted against each of them.",
+          "removed_words": 28
+        }
+      ],
+      "full_words": 455,
+      "masked_words": 412,
+      "removed_words": 43,
+      "removed_word_fraction": 0.0945054945054945,
+      "residual_cue_candidates": [
+        {
+          "start": 876,
+          "end": 1150,
+          "text": "As a general rule, liability for a dangerous or defective condition on real property must be predicated upon ownership, occupancy, control, or special use of that property ( see Suero-Sosa v Cardona , 112 AD3d 706 [2013]; Sanchez v 1710 Broadway, Inc. , 79 AD3d 845 [2010]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-2825305",
+      "edits": [
+        {
+          "start": 252,
+          "end": 299,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 3453,
+          "end": 3570,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendant’s motion for summary judgment dismissing the complaint.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 592,
+      "masked_words": 569,
+      "removed_words": 23,
+      "removed_word_fraction": 0.03885135135135135,
+      "residual_cue_candidates": [
+        {
+          "start": 2523,
+          "end": 3240,
+          "text": "In order for the doctrine of res ipsa loquitur to apply, a plaintiff must establish the following: (1) the event must be of a kind which ordinarily does not occur in the absence of someone’s negligence; (2) it must be caused by an agency or instrumentality within the exclusive control of the defendant; (3) it must not have been due to any voluntary action or contribution on the part of the plaintiff (see Morejon v Rais Constr. Co., 7 NY3d 203, 209 [2006]; Kambat v St. Francis Hosp., 89 NY2d 489, 494 [1997]; Dermatossian v New York City Tr. Auth., 67 NY2d 219, 226 [1986]; Corcoran v Banner Super Mkt., 19 NY2d 425, 430 [1967]; Bunting v Haynes, 104 AD3d 715 [2013]; Fernandez v Ramos, 300 AD2d 348, 348 [2002]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-3150543",
+      "edits": [
+        {
+          "start": 1131,
+          "end": 1141,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        },
+        {
+          "start": 3007,
+          "end": 3054,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 473,
+      "masked_words": 463,
+      "removed_words": 10,
+      "removed_word_fraction": 0.021141649048625793,
+      "residual_cue_candidates": [
+        {
+          "start": 1451,
+          "end": 1554,
+          "text": "Based upon the record before us, we agree with Supreme Court that defendant failed to meet such burden.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 2405,
+          "end": 2808,
+          "text": "Thus, viewing the evidence in the light most favorable to plaintiff as the nonmovant (see Beckerleg v Tractor Supply Co., 107 AD3d 1208, 1209 [2013]), we agree that defendant did not establish as a matter of law that it maintained its property in a reasonably safe condition (see Barley v Robert J. Wilkins, Inc., 122 AD3d 1116, 1117 [2014]; Carter v State of New York, 119 AD3d 1198, 1201-1202 [2014]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-3155846",
+      "edits": [
+        {
+          "start": 254,
+          "end": 397,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 23
+        },
+        {
+          "start": 3422,
+          "end": 3635,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion without regard to the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]).",
+          "removed_words": 35
+        }
+      ],
+      "full_words": 630,
+      "masked_words": 572,
+      "removed_words": 58,
+      "removed_word_fraction": 0.09206349206349207,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-3161557",
+      "edits": [
+        {
+          "start": 0,
+          "end": 400,
+          "reason": "disposition_synopsis",
+          "removed_text": "Judgment, Supreme Court, Bronx County (Sharon A.M. Aarons, J.), entered September 29, 2014, after a jury trial, awarding plaintiff damages including $100,000 for past pain and suffering, $500,000 for future pain and suffering, $80,000 for past lost wages, and, as stipulated to by plaintiff, $200,000 for future lost wages and $65,000 for future medical expenses, unanimously affirmed, without costs.",
+          "removed_words": 59
+        }
+      ],
+      "full_words": 833,
+      "masked_words": 774,
+      "removed_words": 59,
+      "removed_word_fraction": 0.07082833133253301,
+      "residual_cue_candidates": [
+        {
+          "start": 2152,
+          "end": 2459,
+          "text": "The court properly refused to charge comparative fault since there is no valid line of reasoning based on the trial evidence by which a jury could rationally conclude that plaintiff was negligent ( see Cuadrado v New York City Tr. Auth. , 65 AD3d 434 , 435 [1st Dept 2009], lv dismissed 14 NY3d 748 [2010]).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 2460,
+          "end": 2847,
+          "text": "Defendant identifies neither actions that plaintiff took, such as rushing, that could be construed as negligent, nor reasonable steps that plaintiff, who wore boots while using the only available means of access to the shed, in response to a direct order, could or should have taken to avoid the happening of the accident ( see Perales v City of New York , 274 AD2d 349 [1st Dept 2000]).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 2848,
+          "end": 2925,
+          "text": "We reject defendant's argument that plaintiff failed to mitigate his damages.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 5025,
+          "end": 5144,
+          "text": "We reject defendant's remaining contention, i.e., that plaintiff's counsel's comments in summation warrant a new trial.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-3169329",
+      "edits": [
+        {
+          "start": 294,
+          "end": 341,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 887,
+          "end": 897,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        },
+        {
+          "start": 2981,
+          "end": 3274,
+          "reason": "operative_relief_result",
+          "removed_text": "Since Oster failed to make a prima facie showing in support of its motion for summary judgment, the motion was properly denied, regardless of the sufficiency of the opposition papers ( see Alvarez v Prospect Hosp. , 68 NY2d 320, 324 [1986]; Polatsek v Congregation Bais Arye , 48 AD3d at 438).",
+          "removed_words": 52
+        }
+      ],
+      "full_words": 564,
+      "masked_words": 502,
+      "removed_words": 62,
+      "removed_word_fraction": 0.1099290780141844,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-3172633",
+      "edits": [
+        {
+          "start": 356,
+          "end": 595,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed insofar as appealed from, on the law, with costs, and the motion of the defendant Walmart Real Estate Business Trust for summary judgment dismissing the complaint insofar as asserted against it is denied.",
+          "removed_words": 39
+        },
+        {
+          "start": 2516,
+          "end": 2666,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint insofar as asserted against it.",
+          "removed_words": 21
+        }
+      ],
+      "full_words": 438,
+      "masked_words": 378,
+      "removed_words": 60,
+      "removed_word_fraction": 0.136986301369863,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-3182111",
+      "edits": [
+        {
+          "start": 249,
+          "end": 296,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1772,
+          "end": 1889,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 325,
+      "masked_words": 302,
+      "removed_words": 23,
+      "removed_word_fraction": 0.07076923076923076,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4253165",
+      "edits": [
+        {
+          "start": 231,
+          "end": 375,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is granted.",
+          "removed_words": 23
+        },
+        {
+          "start": 3149,
+          "end": 3269,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have granted the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 587,
+      "masked_words": 548,
+      "removed_words": 39,
+      "removed_word_fraction": 0.06643952299829642,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4303491",
+      "edits": [
+        {
+          "start": 193,
+          "end": 284,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 638,
+          "end": 648,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        },
+        {
+          "start": 1749,
+          "end": 2003,
+          "reason": "express_relief_resolution",
+          "removed_text": "We also reject defendant’s contention that it is entitled to summary judgment on the ground that it neither created nor had actual or constructive notice of the allegedly dangerous condition (see generally King v Sam’s E., Inc., 81 AD3d 1414, 1414-1415).",
+          "removed_words": 41
+        }
+      ],
+      "full_words": 662,
+      "masked_words": 604,
+      "removed_words": 58,
+      "removed_word_fraction": 0.08761329305135952,
+      "residual_cue_candidates": [
+        {
+          "start": 839,
+          "end": 1268,
+          "text": "Even assuming, arguendo, that this contention was advanced in defendant’s initial motion papers and thus that it is properly before us (cf. Ozog v Western N.Y. Motocross Assn., 100 AD3d 1393, 1394), we conclude that defendant did not meet its burden of establishing its entitlement to summary judgment on that ground (see Mandzyk v Manor Lanes, 138 AD3d 1463, 1464; Lane v Texas Roadhouse Holdings, LLC, 96 AD3d 1364, 1364-1365).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4304488",
+      "edits": [
+        {
+          "start": 196,
+          "end": 287,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 270,
+      "masked_words": 255,
+      "removed_words": 15,
+      "removed_word_fraction": 0.05555555555555555,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4306620",
+      "edits": [
+        {
+          "start": 290,
+          "end": 519,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ORDERED that the order so appealed from is unanimously reversed on the law without costs, the motion is granted and the complaint and all cross claims against defendant Global Industrial Services, Inc. are dismissed.",
+          "removed_words": 37
+        },
+        {
+          "start": 849,
+          "end": 1001,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "We conclude that Supreme Court erred in denying Global’s motion for summary judgment seeking dismissal of the complaint and all cross claims against it.",
+          "removed_words": 24
+        },
+        {
+          "start": 1002,
+          "end": 1120,
+          "reason": "agreement_on_explicit_relief",
+          "removed_text": "Global contends that it is entitled to summary judgment because it did not owe plaintiff a duty of care, and we agree.",
+          "removed_words": 22
+        },
+        {
+          "start": 2565,
+          "end": 2929,
+          "reason": "agreement_on_explicit_relief",
+          "removed_text": "Finally, we agree with Global that Verizon is not entitled to contractual indemnification inasmuch as Global established as a matter of law that it was not negligent in performing its duties pursuant to the contract, and Verizon failed to raise an issue of fact (see generally Zuckerman, 49 NY2d at 562; cf. Walter v United Parcel Serv., Inc., 56 AD3d 1187, 1188).",
+          "removed_words": 62
+        }
+      ],
+      "full_words": 487,
+      "masked_words": 342,
+      "removed_words": 145,
+      "removed_word_fraction": 0.29774127310061604,
+      "residual_cue_candidates": [
+        {
+          "start": 1121,
+          "end": 1383,
+          "text": "It is well settled that, “[b]ecause a finding of negligence must be based on the breach of a duty, a threshold question in tort cases is whether the alleged tortfeasor owed a duty of care to the injured party” (Espinal v Melville Snow Contrs., 98 NY2d 136, 138).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 2335,
+          "end": 2564,
+          "text": "We reject that contention because the instrument of harm doctrine does not apply to the facts of this case (see generally id. at 111-112; Cooper v Time Warner Entertainment-Advance/Newhouse Partnership, 16 AD3d 1037, 1038- 1039).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4315793",
+      "edits": [
+        {
+          "start": 250,
+          "end": 394,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the plaintiff's motion for summary judgment on the issue of liability is denied.",
+          "removed_words": 25
+        },
+        {
+          "start": 3823,
+          "end": 4075,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the plaintiff's motion for summary judgment on the issue of liability, regardless of the sufficiency of the defendant's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851 [1985]).",
+          "removed_words": 41
+        }
+      ],
+      "full_words": 707,
+      "masked_words": 641,
+      "removed_words": 66,
+      "removed_word_fraction": 0.09335219236209336,
+      "residual_cue_candidates": [
+        {
+          "start": 2370,
+          "end": 2709,
+          "text": "To constitute constructive notice, \"a defect must be visible and apparent and it must exist for a sufficient length of time prior to the accident to permit defendant's employees to discover and remedy it\" ( Gordon v American Museum of Natural History , 67 NY2d 836, 837 [1986]; see Parietti v Wal-Mart Stores, Inc. , 140 AD3d 1039 [2016]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4320316",
+      "edits": [
+        {
+          "start": 236,
+          "end": 408,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the order insofar as appealed from is unanimously reversed on the law without costs, the motion is granted in part and the complaint is dismissed.",
+          "removed_words": 30
+        },
+        {
+          "start": 862,
+          "end": 871,
+          "reason": "response_to_explicit_relief_argument",
+          "removed_text": "We agree.",
+          "removed_words": 2
+        }
+      ],
+      "full_words": 601,
+      "masked_words": 569,
+      "removed_words": 32,
+      "removed_word_fraction": 0.05324459234608985,
+      "residual_cue_candidates": [
+        {
+          "start": 690,
+          "end": 861,
+          "text": "Defendants, as limited by their brief on appeal, contend that Supreme Court erred in denying their motion insofar as they sought summary judgment dismissing the complaint.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 3024,
+          "end": 3598,
+          "text": "Finally, to the extent that plaintiff contends that defendants’ snow removal efforts created the hazardous condition because they did not properly care for the area where she fell even though they had treated other areas of the parking lot during the storm, we note that it is well settled that “ ‘[t]he mere failure to remove all snow and ice from a . . . parking lot does not constitute negligence’ and does not constitute creation of a hazard” (Wheeler v Grande’Vie Senior Living Community, 31 AD3d 992, 992-993 [2006]; see Glover v Botsford, 109 AD3d 1182, 1184 [2013]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4347986",
+      "edits": [
+        {
+          "start": 215,
+          "end": 371,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the order so appealed from is unanimously reversed on the law without costs, the motion is granted and the complaint is dismissed.",
+          "removed_words": 27
+        },
+        {
+          "start": 551,
+          "end": 672,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "We agree with defendant that Supreme Court erred in denying its motion seeking summary judgment dismissing the complaint.",
+          "removed_words": 18
+        }
+      ],
+      "full_words": 603,
+      "masked_words": 558,
+      "removed_words": 45,
+      "removed_word_fraction": 0.07462686567164178,
+      "residual_cue_candidates": [
+        {
+          "start": 2066,
+          "end": 2288,
+          "text": "We agree with defendant that the affidavit of plaintiff’s expert is speculative and conclusory (see e.g. Ciccarelli v Cotira, Inc., 24 AD3d 1276, 1277 [2005]; Phillips v McClellan St. Assoc., 262 AD2d 748, 749-750 [1999]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4375829",
+      "edits": [
+        {
+          "start": 252,
+          "end": 299,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 6421,
+          "end": 6733,
+          "reason": "operative_relief_result",
+          "removed_text": "In light of the defendant's failure to meet her prima facie burden, her renewed motion for summary judgment was properly denied, regardless of the sufficiency of the papers submitted in opposition ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]; Robinson v Viani , 140 AD3d 844 , 845 [2016]).",
+          "removed_words": 56
+        }
+      ],
+      "full_words": 1166,
+      "masked_words": 1102,
+      "removed_words": 64,
+      "removed_word_fraction": 0.0548885077186964,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4388750",
+      "edits": [
+        {
+          "start": 260,
+          "end": 307,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 744,
+      "masked_words": 736,
+      "removed_words": 8,
+      "removed_word_fraction": 0.010752688172043012,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4394527",
+      "edits": [
+        {
+          "start": 0,
+          "end": 212,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Joseph E. Capella, J.), entered on or about August 5, 2016, which granted defendant's motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 30
+        }
+      ],
+      "full_words": 279,
+      "masked_words": 249,
+      "removed_words": 30,
+      "removed_word_fraction": 0.10752688172043011,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4421153",
+      "edits": [
+        {
+          "start": 251,
+          "end": 298,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 2392,
+          "end": 2509,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendants' motion for summary judgment dismissing the complaint.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 435,
+      "masked_words": 412,
+      "removed_words": 23,
+      "removed_word_fraction": 0.052873563218390804,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4437532",
+      "edits": [
+        {
+          "start": 193,
+          "end": 240,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1780,
+          "end": 1883,
+          "reason": "operative_relief_result",
+          "removed_text": "Accordingly, the defendant's motion for summary judgment dismissing the complaint was properly granted.",
+          "removed_words": 13
+        }
+      ],
+      "full_words": 334,
+      "masked_words": 313,
+      "removed_words": 21,
+      "removed_word_fraction": 0.06287425149700598,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4453479",
+      "edits": [
+        {
+          "start": 231,
+          "end": 278,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 3534,
+          "end": 3901,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Since the defendant failed to meet its initial burden of establishing, prima facie, its entitlement to judgment as a matter of law, the Supreme Court properly denied the defendant's motion for summary judgment dismissing the complaint, regardless of the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851 [1985]).",
+          "removed_words": 59
+        }
+      ],
+      "full_words": 673,
+      "masked_words": 606,
+      "removed_words": 67,
+      "removed_word_fraction": 0.09955423476968796,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4477314",
+      "edits": [
+        {
+          "start": 249,
+          "end": 296,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1932,
+          "end": 2049,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendants' motion for summary judgment dismissing the complaint.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 338,
+      "masked_words": 315,
+      "removed_words": 23,
+      "removed_word_fraction": 0.06804733727810651,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4495015",
+      "edits": [
+        {
+          "start": 0,
+          "end": 210,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Alison Y. Tuitt, J.), entered on or about March 13, 2017, which granted defendant's motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 30
+        }
+      ],
+      "full_words": 301,
+      "masked_words": 271,
+      "removed_words": 30,
+      "removed_word_fraction": 0.09966777408637874,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4522867",
+      "edits": [
+        {
+          "start": 273,
+          "end": 424,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendants' motion for summary judgment dismissing the amended complaint is denied.",
+          "removed_words": 24
+        },
+        {
+          "start": 1605,
+          "end": 1807,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Here, the Supreme Court should not have granted the motion on the ground that the plaintiff did not know what caused her to fall, since the issue was not raised by the defendants in their motion papers.",
+          "removed_words": 37
+        },
+        {
+          "start": 3795,
+          "end": 4065,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendants' motion for summary judgment dismissing the amended complaint, without considering the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]).",
+          "removed_words": 41
+        }
+      ],
+      "full_words": 697,
+      "masked_words": 595,
+      "removed_words": 102,
+      "removed_word_fraction": 0.14634146341463414,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4538463",
+      "edits": [
+        {
+          "start": 301,
+          "end": 373,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        },
+        {
+          "start": 1094,
+          "end": 1104,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        }
+      ],
+      "full_words": 544,
+      "masked_words": 530,
+      "removed_words": 14,
+      "removed_word_fraction": 0.025735294117647058,
+      "residual_cue_candidates": [
+        {
+          "start": 2988,
+          "end": 3135,
+          "text": "Accordingly, we agree with the Supreme Court's determination to grant the defendants' motion for summary judgment dismissing the amended complaint.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4542514",
+      "edits": [
+        {
+          "start": 0,
+          "end": 213,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Elizabeth A. Taylor, J.), entered on or about March 26, 2018, which denied defendants' motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 30
+        }
+      ],
+      "full_words": 207,
+      "masked_words": 177,
+      "removed_words": 30,
+      "removed_word_fraction": 0.14492753623188406,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4546774",
+      "edits": [
+        {
+          "start": 260,
+          "end": 307,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 468,
+      "masked_words": 460,
+      "removed_words": 8,
+      "removed_word_fraction": 0.017094017094017096,
+      "residual_cue_candidates": [
+        {
+          "start": 2460,
+          "end": 2723,
+          "text": "Accordingly, we agree with the Supreme Court's determination to deny the defendant's motion for summary judgment dismissing the complaint, regardless of the sufficiency of the opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4551411",
+      "edits": [
+        {
+          "start": 427,
+          "end": 736,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed insofar as appealed from, on the law, with costs, and that branch of the motion of the defendants Rob-Lee Corp., Bill Elliot, and William E. Rosenblatt which was for summary judgment dismissing the complaint insofar as asserted against the defendant Rob-Lee Corp. is denied.",
+          "removed_words": 50
+        },
+        {
+          "start": 3447,
+          "end": 3632,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied that branch of the defendants' motion which was for summary judgment dismissing the complaint insofar as asserted against Rob-Lee Corp.",
+          "removed_words": 27
+        }
+      ],
+      "full_words": 592,
+      "masked_words": 515,
+      "removed_words": 77,
+      "removed_word_fraction": 0.13006756756756757,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4597247",
+      "edits": [
+        {
+          "start": 372,
+          "end": 444,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        },
+        {
+          "start": 1396,
+          "end": 1657,
+          "reason": "operative_relief_result",
+          "removed_text": "Since the defendants failed to meet their prima facie burden as to Capo, that branch of their motion was properly denied without regard to the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]).",
+          "removed_words": 46
+        }
+      ],
+      "full_words": 304,
+      "masked_words": 246,
+      "removed_words": 58,
+      "removed_word_fraction": 0.19078947368421054,
+      "residual_cue_candidates": [
+        {
+          "start": 1658,
+          "end": 1842,
+          "text": "Accordingly, we agree with the Supreme Court's denial of that branch of the defendants' motion which was for summary judgment dismissing the complaint insofar as asserted against Capo.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4600405",
+      "edits": [
+        {
+          "start": 239,
+          "end": 330,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 662,
+          "end": 672,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        }
+      ],
+      "full_words": 425,
+      "masked_words": 408,
+      "removed_words": 17,
+      "removed_word_fraction": 0.04,
+      "residual_cue_candidates": [
+        {
+          "start": 2031,
+          "end": 2280,
+          "text": "Further, defendants submitted deposition testimony establishing that, prior to plaintiff's accident, workers were removing snow in the area of the walkway where plaintiff fell and should have salted that walkway, but may not have adequately done so.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4606643",
+      "edits": [
+        {
+          "start": 341,
+          "end": 557,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the motion of the defendant Mountainview Condominium Association for summary judgment dismissing the complaint insofar as asserted against it is denied.",
+          "removed_words": 33
+        },
+        {
+          "start": 5117,
+          "end": 5267,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint insofar as asserted against it.",
+          "removed_words": 21
+        }
+      ],
+      "full_words": 872,
+      "masked_words": 818,
+      "removed_words": 54,
+      "removed_word_fraction": 0.06192660550458716,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4614923",
+      "edits": [
+        {
+          "start": 0,
+          "end": 207,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, New York County (Donald Miles, J.), entered on or about May 8, 2018, which granted defendants' motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 30
+        }
+      ],
+      "full_words": 356,
+      "masked_words": 326,
+      "removed_words": 30,
+      "removed_word_fraction": 0.08426966292134831,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4619223",
+      "edits": [
+        {
+          "start": 0,
+          "end": 274,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, New York County (Arlene P. Bluth, J.), entered on or about October 1, 2018, which, inter alia, granted the motion of defendants Diana Levy and Todd Levy for summary judgment dismissing the complaint as against them, unanimously affirmed, without costs.",
+          "removed_words": 43
+        },
+        {
+          "start": 275,
+          "end": 511,
+          "reason": "operative_relief_result",
+          "removed_text": "Summary judgment was properly granted in this action where plaintiff alleges that she was injured when, while walking from the living room in defendants' apartment to the balcony, she tripped and fell on the step leading to the balcony.",
+          "removed_words": 39
+        }
+      ],
+      "full_words": 232,
+      "masked_words": 150,
+      "removed_words": 82,
+      "removed_word_fraction": 0.35344827586206895,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4626387",
+      "edits": [
+        {
+          "start": 262,
+          "end": 406,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendants' motion for summary judgment dismissing the complaint is granted.",
+          "removed_words": 23
+        },
+        {
+          "start": 3150,
+          "end": 3270,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have granted the defendants' motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 557,
+      "masked_words": 518,
+      "removed_words": 39,
+      "removed_word_fraction": 0.07001795332136446,
+      "residual_cue_candidates": [
+        {
+          "start": 1403,
+          "end": 1806,
+          "text": "\"In order for a landowner to be liable in tort to a plaintiff who is injured as a result of an allegedly defective condition upon property, it must be established that a defective condition existed and that the landowner affirmatively created the condition or had actual or constructive notice of its existence\" ( Steed v MVA Enters., LLC , 136 AD3d 793 , 794 [2016] [internal quotation marks omitted]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4646287",
+      "edits": [
+        {
+          "start": 258,
+          "end": 305,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 670,
+      "masked_words": 662,
+      "removed_words": 8,
+      "removed_word_fraction": 0.011940298507462687,
+      "residual_cue_candidates": [
+        {
+          "start": 3112,
+          "end": 3544,
+          "text": "Furthermore, we agree with the Supreme Court's conclusion that the defendants failed to present evidence regarding any specific cleaning or inspection of the area in question relative to the time when the plaintiff's accident occurred ( see Quinones v Starret City, Inc. , 163 AD3d 1020 , 1022 [2018]; Eksarko v Associated Supermarket , 155 AD3d 826 , 828 [2017]; Perez v Wendell Terrace Owners Corp. , 150 AD3d 1162 , 1163 [2017]).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 3750,
+          "end": 3888,
+          "text": "Accordingly, we agree with the Supreme Court's determination to deny the defendants' motion for summary judgment dismissing the complaint.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4670005",
+      "edits": [
+        {
+          "start": 268,
+          "end": 315,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 2811,
+          "end": 2981,
+          "reason": "concluding_relief_result",
+          "removed_text": "Thus, the defendants were not entitled to summary judgment dismissing the complaint on the ground that they established lack of notice of the alleged hazardous condition.",
+          "removed_words": 26
+        }
+      ],
+      "full_words": 830,
+      "masked_words": 796,
+      "removed_words": 34,
+      "removed_word_fraction": 0.04096385542168675,
+      "residual_cue_candidates": [
+        {
+          "start": 4691,
+          "end": 4829,
+          "text": "Accordingly, we agree with the Supreme Court's determination to deny the defendants' motion for summary judgment dismissing the complaint.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4684087",
+      "edits": [
+        {
+          "start": 282,
+          "end": 450,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed insofar as appealed from, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 27
+        },
+        {
+          "start": 3807,
+          "end": 3913,
+          "reason": "operative_relief_result",
+          "removed_text": "Accordingly, the defendant's motion for summary judgment dismissing the complaint should have been denied.",
+          "removed_words": 14
+        }
+      ],
+      "full_words": 658,
+      "masked_words": 617,
+      "removed_words": 41,
+      "removed_word_fraction": 0.06231003039513678,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4739145",
+      "edits": [
+        {
+          "start": 265,
+          "end": 408,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 23
+        },
+        {
+          "start": 3743,
+          "end": 3862,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 635,
+      "masked_words": 596,
+      "removed_words": 39,
+      "removed_word_fraction": 0.06141732283464567,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4768174",
+      "edits": [
+        {
+          "start": 398,
+          "end": 470,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        }
+      ],
+      "full_words": 486,
+      "masked_words": 474,
+      "removed_words": 12,
+      "removed_word_fraction": 0.024691358024691357,
+      "residual_cue_candidates": [
+        {
+          "start": 2730,
+          "end": 2940,
+          "text": "Accordingly, we agree with the Supreme Court's determination denying that branch of the defendants' motion which was for summary judgment dismissing the complaint insofar as asserted against Miller's Ale House.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4768180",
+      "edits": [
+        {
+          "start": 269,
+          "end": 412,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 23
+        },
+        {
+          "start": 4233,
+          "end": 4493,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint, without regard to the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med. Ctr. , 64 NY2d 851, 853 [1985]).",
+          "removed_words": 41
+        }
+      ],
+      "full_words": 759,
+      "masked_words": 695,
+      "removed_words": 64,
+      "removed_word_fraction": 0.08432147562582346,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-4777088",
+      "edits": [
+        {
+          "start": 181,
+          "end": 275,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the judgment so appealed from is unanimously affirmed without costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 681,
+          "end": 691,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        },
+        {
+          "start": 1420,
+          "end": 1556,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "We reject plaintiffs' further contention that the court erred in denying their motion for a directed verdict made at the close of proof.",
+          "removed_words": 23
+        }
+      ],
+      "full_words": 996,
+      "masked_words": 956,
+      "removed_words": 40,
+      "removed_word_fraction": 0.040160642570281124,
+      "residual_cue_candidates": [
+        {
+          "start": 692,
+          "end": 987,
+          "text": "Plaintiffs contend that Supreme Court improperly reversed a purported factual finding in its earlier spoliation order by ruling, on the eve of trial, that defendants would be permitted to contest whether video footage that had not been retained would have captured the area where plaintiff fell.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 1791,
+          "end": 2229,
+          "text": "In determining whether to grant a motion for a directed verdict pursuant to CPLR 4401, the trial court must afford the party opposing the motion every inference which may properly be drawn from the facts presented, and the facts must be considered in [the] light most favorable to the nonmovant\" ( Brenner v Dixon , 98 AD3d 1246 , 1247 [4th Dept 2012] [internal quotation marks omitted]; see Szczerbiak v Pilat , 90 NY2d 553, 556 [1997]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4803674",
+      "edits": [
+        {
+          "start": 7385,
+          "end": 7628,
+          "reason": "nominal_reviewed_ruling_result",
+          "removed_text": "Accordingly, Supreme Court's denial of defendant's motion for summary judgment dismissing the complaint was proper ( see Acton v 1906 Rest. Corp. , 147 AD3d 1277 , 1279 [2017]; Murphy v Hometown Real Estate , 132 AD3d 1126 , 1127-1128 [2015]).",
+          "removed_words": 41
+        },
+        {
+          "start": 7757,
+          "end": 7804,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 1275,
+      "masked_words": 1226,
+      "removed_words": 49,
+      "removed_word_fraction": 0.038431372549019606,
+      "residual_cue_candidates": [
+        {
+          "start": 707,
+          "end": 960,
+          "text": "The court found that, although defendant asserts that the causes of plaintiff's fall were pine needles and/or moisture on the wooden steps, there is a factual question as to whether the steps were properly maintained and presented a dangerous condition.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 6917,
+          "end": 7384,
+          "text": "Also, given witness testimony about concerns regarding the handrail, and viewing the evidence in the light most favorable to plaintiff, Supreme Court properly found that the finder of fact could determine that the condition of the stairway handrail could have contributed to the dangerous condition of the steps and plaintiff's slip and fall ( see Brumm v St. Paul's Evangelical Lutheran Church , 143 AD3d at 1227; Ash v City of New York , 109 AD3d 854 , 855 [2013]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4807631",
+      "edits": [
+        {
+          "start": 0,
+          "end": 233,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Fernando Tapia, J.), entered on or about May 15, 2019, which, as limited by the briefs, denied defendants' motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 34
+        }
+      ],
+      "full_words": 234,
+      "masked_words": 200,
+      "removed_words": 34,
+      "removed_word_fraction": 0.1452991452991453,
+      "residual_cue_candidates": [
+        {
+          "start": 389,
+          "end": 606,
+          "text": "The court correctly concluded that defendants failed to demonstrate as a matter of law that they did not cause, create, or have actual or constructive notice of the hazardous condition that caused decedent's accident.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-4840329",
+      "edits": [
+        {
+          "start": 0,
+          "end": 302,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, New York County (Robert David Kalish, J.), entered on or about October 7, 2019, which, to the extent appealed from as limited by the briefs, denied the motion of defendant Driton LLC for summary judgment dismissing the complaint as against it, unanimously affirmed, without costs.",
+          "removed_words": 48
+        }
+      ],
+      "full_words": 336,
+      "masked_words": 288,
+      "removed_words": 48,
+      "removed_word_fraction": 0.14285714285714285,
+      "residual_cue_candidates": [
+        {
+          "start": 1202,
+          "end": 1591,
+          "text": "The court also properly found that, given the conflicting expert opinions as to the extent a chipped or repaired floor tile proximately caused plaintiff's accident, there is a triable issue as to whether the defect on the platform was trivial as a matter of law ( see Hutchinson v Sheridan Hill House Corp ., 26 NY3d 66 , 77 [2015]; Trincere v County of Suffolk , 90 NY2d 976, 977 [1997]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-5933602",
+      "edits": [
+        {
+          "start": 0,
+          "end": 397,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, New York County (Debra A. James, J.), entered on or about April 1, 2009, which, in an action for personal injuries sustained in a slip and fall on a wet floor in the vestibule of defendants’ supermarket, granted defendants’ motion for summary judgment dismissing the complaint, unanimously reversed, on the law, without costs, the motion denied, and the complaint reinstated.",
+          "removed_words": 63
+        }
+      ],
+      "full_words": 558,
+      "masked_words": 495,
+      "removed_words": 63,
+      "removed_word_fraction": 0.11290322580645161,
+      "residual_cue_candidates": [
+        {
+          "start": 1554,
+          "end": 1566,
+          "text": "We disagree.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 1567,
+          "end": 1791,
+          "text": "Plaintiff s statement that the floor was wet and slippery due to a constant rain is evidence sufficient to raise a factual question as to whether defendant knew or should have known of the existence of a hazardous condition.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-5934453",
+      "edits": [
+        {
+          "start": 299,
+          "end": 358,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with one bill of costs.",
+          "removed_words": 11
+        },
+        {
+          "start": 2439,
+          "end": 2607,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendants’ separate motions for summary judgment dismissing the complaint insofar as asserted against each of them.",
+          "removed_words": 23
+        }
+      ],
+      "full_words": 435,
+      "masked_words": 401,
+      "removed_words": 34,
+      "removed_word_fraction": 0.07816091954022988,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5934687",
+      "edits": [
+        {
+          "start": 395,
+          "end": 685,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed insofar as appealed from, on the law, with costs, and the motion of the defendants SNS Realty of Long Island, Inc., Abdul Sattar, RT Grocery, Inc., and Candi Pearsall, Inc., for summary dismissing the complaint insofar as asserted against them is granted.",
+          "removed_words": 48
+        },
+        {
+          "start": 4734,
+          "end": 4874,
+          "reason": "operative_relief_result",
+          "removed_text": "Accordingly, the appellants’ motion for summary judgment dismissing the complaint insofar as asserted against them should have been granted.",
+          "removed_words": 19
+        }
+      ],
+      "full_words": 838,
+      "masked_words": 771,
+      "removed_words": 67,
+      "removed_word_fraction": 0.07995226730310262,
+      "residual_cue_candidates": [
+        {
+          "start": 1420,
+          "end": 1799,
+          "text": "To impose liability upon a defendant in a trip-and-fall action, there must be evidence that the defendant either created the alleged dangerous condition or had actual or constructive notice of it (see Hayden v Waldbaum, Inc., 63 AD3d 679 [2009]; Arzola v Boston Props. Ltd. Partnership, 63 AD3d 655 [2009]; Larsen v Congregation B’Nai Jeshurun of Staten Is., 29 AD3d 643 [2006]).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 4875,
+          "end": 4987,
+          "text": "The plaintiffs remaining contentions are either improperly raised for the first time on appeal or without merit.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review",
+        "unbalanced_brackets_review_segmentation"
+      ]
+    },
+    {
+      "case_id": "NY-5935876",
+      "edits": [
+        {
+          "start": 0,
+          "end": 373,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Wilma Guzman, J.), entered August 5, 2009, which, in an action for personal injuries allegedly sustained in a slip and fall down interior stairs in a building owned and managed by defendants, denied defendants’ motion for summary judgment dismissing the complaint, unanimously reversed, on the law, without costs, and the motion granted.",
+          "removed_words": 57
+        }
+      ],
+      "full_words": 328,
+      "masked_words": 271,
+      "removed_words": 57,
+      "removed_word_fraction": 0.17378048780487804,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5936535",
+      "edits": [
+        {
+          "start": 235,
+          "end": 282,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 439,
+          "end": 878,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Under the circumstances, the Supreme Court properly denied the defendants’ motion for summary judgment, since the defendants failed to make a prima facie showing of entitlement to judgment as a matter of law (see Naletilic v Dan’s Key Food, 47 AD3d 903 [2008]; Rivera v YMCA of Greater N.Y., 37 AD3d 579, 580 [2007]; Westbrook v WR Activities-Cabrera Mkts., 5 AD3d 69 [2004]; see also Greenstein v R & R of G.C., Inc., 50 AD3d 637 [2008]).",
+          "removed_words": 77
+        }
+      ],
+      "full_words": 149,
+      "masked_words": 64,
+      "removed_words": 85,
+      "removed_word_fraction": 0.5704697986577181,
+      "residual_cue_candidates": [],
+      "flags": [
+        "over_half_words_removed_review"
+      ]
+    },
+    {
+      "case_id": "NY-5938121",
+      "edits": [
+        {
+          "start": 198,
+          "end": 286,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the order so appealed from is unanimously affirmed with costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 485,
+          "end": 592,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Supreme Court properly denied defendants’ motion seeking summary judgment dismissing the amended complaint.",
+          "removed_words": 13
+        }
+      ],
+      "full_words": 199,
+      "masked_words": 171,
+      "removed_words": 28,
+      "removed_word_fraction": 0.1407035175879397,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5944043",
+      "edits": [
+        {
+          "start": 240,
+          "end": 384,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant’s motion for summary judgment dismissing the complaint is granted.",
+          "removed_words": 23
+        },
+        {
+          "start": 795,
+          "end": 806,
+          "reason": "current_appellate_result",
+          "removed_text": "We reverse.",
+          "removed_words": 2
+        }
+      ],
+      "full_words": 362,
+      "masked_words": 337,
+      "removed_words": 25,
+      "removed_word_fraction": 0.06906077348066299,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5944954",
+      "edits": [
+        {
+          "start": 532,
+          "end": 565,
+          "reason": "current_appellate_result",
+          "removed_text": "On defendants’ appeal, we affirm.",
+          "removed_words": 5
+        },
+        {
+          "start": 3993,
+          "end": 4076,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, Supreme Court properly denied defendants’ motion for summary judgment.",
+          "removed_words": 10
+        },
+        {
+          "start": 4077,
+          "end": 4124,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 676,
+      "masked_words": 653,
+      "removed_words": 23,
+      "removed_word_fraction": 0.034023668639053255,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5950199",
+      "edits": [
+        {
+          "start": 264,
+          "end": 311,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1174,
+          "end": 1508,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly denied that branch of the defendant’s motion which was for summary judgment dismissing the complaint, without regard to the sufficiency of the plaintiffs opposition papers (see Winegrad v New York Univ. Med. Ctr., 64 NY2d 851, 852 [1985]; Pryzywalny v New York City Tr. Auth., 69 AD3d at 599 ).",
+          "removed_words": 55
+        }
+      ],
+      "full_words": 253,
+      "masked_words": 190,
+      "removed_words": 63,
+      "removed_word_fraction": 0.2490118577075099,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5952291",
+      "edits": [
+        {
+          "start": 353,
+          "end": 425,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        }
+      ],
+      "full_words": 275,
+      "masked_words": 263,
+      "removed_words": 12,
+      "removed_word_fraction": 0.04363636363636364,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5959503",
+      "edits": [
+        {
+          "start": 0,
+          "end": 274,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Norma Ruiz, J.), entered November 3, 2010, which, insofar as appealed from as limited by the briefs, denied defendant’s pre-answer motion to dismiss the complaint pursuant to CPLR 3211 (a) (1) and (7), unanimously affirmed, without costs.",
+          "removed_words": 42
+        }
+      ],
+      "full_words": 307,
+      "masked_words": 265,
+      "removed_words": 42,
+      "removed_word_fraction": 0.13680781758957655,
+      "residual_cue_candidates": [
+        {
+          "start": 1201,
+          "end": 1413,
+          "text": "We reject defendant’s argument that, even if it controlled 21 Club, Inc. and thus can be considered its alter ego, this action would still be barred by the exclusivity provisions of the Workers’ Compensation Law.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review",
+        "unbalanced_brackets_review_segmentation"
+      ]
+    },
+    {
+      "case_id": "NY-5965071",
+      "edits": [
+        {
+          "start": 238,
+          "end": 382,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant’s motion for summary judgment dismissing the complaint is granted.",
+          "removed_words": 23
+        },
+        {
+          "start": 798,
+          "end": 809,
+          "reason": "current_appellate_result",
+          "removed_text": "We reverse.",
+          "removed_words": 2
+        },
+        {
+          "start": 3181,
+          "end": 3286,
+          "reason": "operative_relief_result",
+          "removed_text": "Therefore, the defendant’s motion for summary judgment dismissing the complaint should have been granted.",
+          "removed_words": 14
+        }
+      ],
+      "full_words": 561,
+      "masked_words": 522,
+      "removed_words": 39,
+      "removed_word_fraction": 0.06951871657754011,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5985468",
+      "edits": [
+        {
+          "start": 397,
+          "end": 518,
+          "reason": "current_appellate_result",
+          "removed_text": "Because defendant failed to meet its prima facie burden of demonstrating its entitlement to summary judgment, we reverse.",
+          "removed_words": 18
+        },
+        {
+          "start": 3199,
+          "end": 3390,
+          "reason": "operative_relief_result",
+          "removed_text": "Thus, we need not address the sufficiency of plaintiffs’ proof in response; defendant’s motion for summary judgment should have been denied (see Kropp v Corning, Inc., 69 AD3d at 1212-1213 ).",
+          "removed_words": 31
+        },
+        {
+          "start": 3391,
+          "end": 3469,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and motion denied.",
+          "removed_words": 14
+        }
+      ],
+      "full_words": 641,
+      "masked_words": 578,
+      "removed_words": 63,
+      "removed_word_fraction": 0.09828393135725429,
+      "residual_cue_candidates": [
+        {
+          "start": 1475,
+          "end": 1701,
+          "text": "Viewing this evidence in the light most favorable to the nonmovant (see Kropp v Corning, Inc., 69 AD3d 1211, 1212 [2010]), the condition of the parking lot indicates that it may not have been properly maintained for some time.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-5992264",
+      "edits": [
+        {
+          "start": 449,
+          "end": 521,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        },
+        {
+          "start": 2264,
+          "end": 2438,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly denied that branch of the appellants’ motion which was for summary judgment dismissing the complaint insofar as asserted against them.",
+          "removed_words": 25
+        }
+      ],
+      "full_words": 406,
+      "masked_words": 369,
+      "removed_words": 37,
+      "removed_word_fraction": 0.09113300492610837,
+      "residual_cue_candidates": [
+        {
+          "start": 948,
+          "end": 1332,
+          "text": "To impose liability on a defendant in a slip-and-fall case, there must be evidence that there was a dangerous condition and that the defendant either created the condition or had actual or constructive notice of it and failed to remedy it within a reasonable time (see Gordon v American Museum of Natural History, 67 NY2d 836 [1986]; Davis v Rochdale Vil., Inc., 63 AD3d 870 [2009] ).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-5992480",
+      "edits": [
+        {
+          "start": 236,
+          "end": 380,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendants’ motion for summary judgment dismissing the complaint is granted.",
+          "removed_words": 23
+        },
+        {
+          "start": 2724,
+          "end": 2844,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have granted the defendants’ motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 467,
+      "masked_words": 428,
+      "removed_words": 39,
+      "removed_word_fraction": 0.0835117773019272,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5993148",
+      "edits": [
+        {
+          "start": 239,
+          "end": 306,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, without costs or disbursements.",
+          "removed_words": 10
+        },
+        {
+          "start": 1046,
+          "end": 1083,
+          "reason": "current_appellate_result",
+          "removed_text": "The defendant appeals, and we affirm.",
+          "removed_words": 6
+        },
+        {
+          "start": 2732,
+          "end": 3015,
+          "reason": "operative_relief_result",
+          "removed_text": "In view of the defendant’s failure to meet its prima facie burden, its motion for summary judgment dismissing the complaint was properly denied, and we need not review the sufficiency of the plaintiff’s opposition papers (see Winegrad v New York Univ. Med. Ctr., 64 NY2d 851 [1985]).",
+          "removed_words": 47
+        }
+      ],
+      "full_words": 504,
+      "masked_words": 441,
+      "removed_words": 63,
+      "removed_word_fraction": 0.125,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-5997418",
+      "edits": [
+        {
+          "start": 0,
+          "end": 357,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Stanley Green, J.), entered April 29, 2010, which, in an action for personal injuries sustained when plaintiff slipped and fell as he ascended the interior stairs of defendants’ building, granted defendants’ motion for summary judgment dismissing the complaint, reversed, on the law, without costs, and the motion denied.",
+          "removed_words": 53
+        }
+      ],
+      "full_words": 773,
+      "masked_words": 720,
+      "removed_words": 53,
+      "removed_word_fraction": 0.0685640362225097,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6004283",
+      "edits": [
+        {
+          "start": 225,
+          "end": 316,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 475,
+          "end": 658,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "We conclude that Supreme Court properly granted defendants’ motion for summary judgment dismissing the complaint (see generally Zuckerman v City of New York, 49 NY2d 557, 562 [1980]).",
+          "removed_words": 28
+        }
+      ],
+      "full_words": 559,
+      "masked_words": 516,
+      "removed_words": 43,
+      "removed_word_fraction": 0.07692307692307693,
+      "residual_cue_candidates": [],
+      "flags": [
+        "unbalanced_brackets_review_segmentation"
+      ]
+    },
+    {
+      "case_id": "NY-6042890",
+      "edits": [
+        {
+          "start": 233,
+          "end": 280,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 428,
+          "end": 531,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "The Supreme Court properly denied the defendant’s motion for summary judgment dismissing the complaint.",
+          "removed_words": 14
+        },
+        {
+          "start": 1428,
+          "end": 1687,
+          "reason": "required_operative_relief",
+          "removed_text": "The defendant’s failure to make a prima facie showing of his entitlement to judgment as a matter of law required the denial of the motion, regardless of the sufficiency of the plaintiffs opposing papers (see Alvarez v Prospect Hosp., 68 NY2d 320, 324 [1986]).",
+          "removed_words": 44
+        }
+      ],
+      "full_words": 302,
+      "masked_words": 236,
+      "removed_words": 66,
+      "removed_word_fraction": 0.2185430463576159,
+      "residual_cue_candidates": [
+        {
+          "start": 1688,
+          "end": 1834,
+          "text": "The defendant’s remaining contentions are without merit, are not properly before this Court, or need not be reached in light of our determination.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-6052809",
+      "edits": [
+        {
+          "start": 0,
+          "end": 362,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (John A. Barone, J.), entered August 31, 2012, which, in this action arising from plaintiff Raymond Hill’s alleged slip and fall on stairs in a building owned and/or managed by defendants, to the extent appealed from, denied defendants’ motion for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 54
+        }
+      ],
+      "full_words": 393,
+      "masked_words": 339,
+      "removed_words": 54,
+      "removed_word_fraction": 0.13740458015267176,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6055312",
+      "edits": [
+        {
+          "start": 300,
+          "end": 372,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        },
+        {
+          "start": 1840,
+          "end": 2116,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly denied that branch of the defendants’ motion which was for summary judgment dismissing the complaint, regardless of the sufficiency of the plaintiff’s opposition papers (see Winegrad v New York Univ. Med. Ctr., 64 NY2d 851, 852 [1985]).",
+          "removed_words": 42
+        }
+      ],
+      "full_words": 349,
+      "masked_words": 295,
+      "removed_words": 54,
+      "removed_word_fraction": 0.15472779369627507,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6061236",
+      "edits": [
+        {
+          "start": 240,
+          "end": 384,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is reversed, on the law, with costs, and the defendant’s motion for summary judgment dismissing the complaint is granted.",
+          "removed_words": 23
+        },
+        {
+          "start": 2416,
+          "end": 2536,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have granted the defendant’s motion for summary judgment dismissing the complaint.",
+          "removed_words": 16
+        }
+      ],
+      "full_words": 417,
+      "masked_words": 378,
+      "removed_words": 39,
+      "removed_word_fraction": 0.09352517985611511,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6070911",
+      "edits": [
+        {
+          "start": 713,
+          "end": 723,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        },
+        {
+          "start": 3644,
+          "end": 3691,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        }
+      ],
+      "full_words": 610,
+      "masked_words": 600,
+      "removed_words": 10,
+      "removed_word_fraction": 0.01639344262295082,
+      "residual_cue_candidates": [
+        {
+          "start": 1137,
+          "end": 1501,
+          "text": "With respect to constructive notice, “a defect must be visible and apparent and it must exist for a sufficient length of time prior to the accident to permit defendant’s employees to discover and remedy it” (Walker v Golub Corp., 276 AD2d 955, 956 [2000] [internal quotation marks and citation omitted]; see Tate v Golub Props., Inc., 103 AD3d 1080 , 1081 [2013]).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 3437,
+          "end": 3605,
+          "text": "We agree with Supreme Court that there are factual issues regarding whether defendant had constructive notice of the dog food spill upon which plaintiff allegedly fell.",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-6082421",
+      "edits": [
+        {
+          "start": 0,
+          "end": 259,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Lizbeth Gonzalez, J.), entered January 14, 2013, which denied the motion of defendant Shop-Rite Supermarkets Inc. (Shop-Rite) for summary judgment dismissing the complaint as against it, unanimously affirmed, without costs.",
+          "removed_words": 35
+        }
+      ],
+      "full_words": 242,
+      "masked_words": 207,
+      "removed_words": 35,
+      "removed_word_fraction": 0.1446280991735537,
+      "residual_cue_candidates": [
+        {
+          "start": 779,
+          "end": 1082,
+          "text": "Reliance upon plaintiffs unsigned deposition transcripts in opposing the motion was proper, since the transcripts were certified by court reporters, and Shop-Rite, which relied upon the same transcripts, did not challenge the testimony as inaccurate (see Bennett v Berger, 283 AD2d 374 [1st Dept 2001]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    },
+    {
+      "case_id": "NY-6089099",
+      "edits": [
+        {
+          "start": 0,
+          "end": 199,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Barry Salman, J.), entered December 19, 2012, which granted defendants’ motions for summary judgment dismissing the complaint, unanimously affirmed, without costs.",
+          "removed_words": 26
+        }
+      ],
+      "full_words": 310,
+      "masked_words": 284,
+      "removed_words": 26,
+      "removed_word_fraction": 0.08387096774193549,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6097667",
+      "edits": [
+        {
+          "start": 965,
+          "end": 1044,
+          "reason": "current_appellate_result",
+          "removed_text": "Supreme Court granted defendants’ motion, plaintiff now appeals, and we affirm.",
+          "removed_words": 11
+        },
+        {
+          "start": 5206,
+          "end": 5266,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order and judgment is affirmed, with costs.",
+          "removed_words": 10
+        }
+      ],
+      "full_words": 860,
+      "masked_words": 839,
+      "removed_words": 21,
+      "removed_word_fraction": 0.02441860465116279,
+      "residual_cue_candidates": [
+        {
+          "start": 1045,
+          "end": 1399,
+          "text": "“Generally, landowners both owe a duty to exercise reasonable care in maintaining their property in a reasonably safe condition and have a duty to warn of a latent, dangerous condition of which the landowner is or should be aware” (Soich v Farone, 307 AD2d 658, 659 [2003] [emphasis and citations omitted]; see Noble v Pound, 5 AD3d 936, 937-938 [2004]).",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 5013,
+          "end": 5196,
+          "text": "We agree with Supreme Court’s conclusion that the foregoing failed to defeat defendants’ entitlement to summary judgment (see Busterna v Branch Off. Assoc., 253 AD2d 837, 838 [1998]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review",
+        "unbalanced_brackets_review_segmentation"
+      ]
+    },
+    {
+      "case_id": "NY-6114776",
+      "edits": [
+        {
+          "start": 323,
+          "end": 370,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1468,
+          "end": 1671,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendant’s motion for summary judgment dismissing the complaint and denied the plaintiffs cross motion for summary judgment on the issue of liability.",
+          "removed_words": 29
+        }
+      ],
+      "full_words": 279,
+      "masked_words": 242,
+      "removed_words": 37,
+      "removed_word_fraction": 0.13261648745519714,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6119566",
+      "edits": [
+        {
+          "start": 329,
+          "end": 401,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "removed_words": 12
+        },
+        {
+          "start": 2370,
+          "end": 2535,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly denied that branch of Selden’s motion which was for summary judgment dismissing the complaint insofar as asserted against it.",
+          "removed_words": 24
+        }
+      ],
+      "full_words": 417,
+      "masked_words": 381,
+      "removed_words": 36,
+      "removed_word_fraction": 0.08633093525179857,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6131365",
+      "edits": [
+        {
+          "start": 251,
+          "end": 298,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order is affirmed, with costs.",
+          "removed_words": 8
+        },
+        {
+          "start": 1107,
+          "end": 1117,
+          "reason": "current_appellate_result",
+          "removed_text": "We affirm.",
+          "removed_words": 2
+        },
+        {
+          "start": 1736,
+          "end": 1853,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court properly granted the defendants’ motion for summary judgment dismissing the complaint.",
+          "removed_words": 15
+        }
+      ],
+      "full_words": 292,
+      "masked_words": 267,
+      "removed_words": 25,
+      "removed_word_fraction": 0.08561643835616438,
+      "residual_cue_candidates": [],
+      "flags": []
+    },
+    {
+      "case_id": "NY-6199158",
+      "edits": [
+        {
+          "start": 198,
+          "end": 289,
+          "reason": "disposition_block",
+          "removed_text": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs.",
+          "removed_words": 15
+        },
+        {
+          "start": 468,
+          "end": 563,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Supreme Court properly denied defendant’s motion for summary judgment dismissing the complaint.",
+          "removed_words": 12
+        }
+      ],
+      "full_words": 321,
+      "masked_words": 294,
+      "removed_words": 27,
+      "removed_word_fraction": 0.08411214953271028,
+      "residual_cue_candidates": [
+        {
+          "start": 1143,
+          "end": 1444,
+          "text": "In addition, the court properly determined that, even assuming, arguendo, defendant was entitled to judgment based upon the storm in progress doctrine, there is an issue of fact whether the rotten and deteriorated condition of the boards on the staircase caused or contributed to plaintiff’s injuries.",
+          "status": "candidate_only_requires_context_review"
+        },
+        {
+          "start": 1580,
+          "end": 1830,
+          "text": "In any event, we reject defendant’s contention that plaintiff’s opposing submissions in support of that theory of liability were “merely an attempt to raise a feigned issue of fact” to defeat the motion (Schwartz v Vukson, 67 AD3d 1398, 1400 [2009]).",
+          "status": "candidate_only_requires_context_review"
+        }
+      ],
+      "flags": [
+        "retained_cue_candidates_review"
+      ]
+    }
+  ]
+}
