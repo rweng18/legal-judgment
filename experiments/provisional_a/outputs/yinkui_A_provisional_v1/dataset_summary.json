@@ -1,0 +1,76 @@
+{
+  "candidate_cases": 169,
+  "reviewer_eligibility": {
+    "include": 122,
+    "review": 36,
+    "exclude": 11
+  },
+  "modeling_status": {
+    "sealed_test": 17,
+    "included": 105,
+    "review": 36,
+    "exclude": 11
+  },
+  "split_class_counts": {
+    "train": {
+      "0": 62,
+      "1": 27
+    },
+    "validation": {
+      "0": 8,
+      "1": 8
+    },
+    "test": {
+      "0": 12,
+      "1": 5
+    }
+  },
+  "word_lengths": {
+    "train": {
+      "FULL": {
+        "n": 89,
+        "min": 86.0,
+        "median": 468.0,
+        "mean": 516.685393258427,
+        "p90": 843.0000000000001,
+        "max": 1495.0
+      },
+      "MASKED": {
+        "n": 89,
+        "min": 64.0,
+        "median": 428.0,
+        "mean": 475.97752808988764,
+        "p90": 805.2,
+        "max": 1434.0
+      }
+    },
+    "validation": {
+      "FULL": {
+        "n": 16,
+        "min": 276.0,
+        "median": 534.0,
+        "mean": 650.875,
+        "p90": 925.5,
+        "max": 1796.0
+      },
+      "MASKED": {
+        "n": 16,
+        "min": 250.0,
+        "median": 466.0,
+        "mean": 588.6875,
+        "p90": 872.0,
+        "max": 1671.0
+      }
+    }
+  },
+  "removed_fraction": {
+    "n": 105,
+    "min": 0.6861063464837049,
+    "median": 8.26271186440678,
+    "mean": 9.594980522792106,
+    "p90": 15.482041040780295,
+    "max": 57.04697986577181
+  },
+  "test_text_processed_or_evaluated": false,
+  "human_gold": false
+}
