@@ -1,0 +1,16 @@
+\begin{table}[t]
+\caption{Preliminary validation results at fixed $C=1$. All conditions use the same 16 cases (8 per class).}
+\label{tab:results}
+\centering\footnotesize
+\begin{tabular}{llrrr}
+\toprule Model & Text & Acc. & Bal. acc. & Macro F1 \\
+\midrule
+Majority & -- & 0.500 & 0.500 & 0.333 \\
+TF-IDF LR & FULL & 0.688 & 0.688 & 0.676 \\
+TF-IDF LR & MASKED & 0.625 & 0.625 & 0.600 \\
+TF-IDF SVM & FULL & 0.750 & 0.750 & 0.733 \\
+TF-IDF SVM & MASKED & 0.500 & 0.500 & 0.418 \\
+LEGAL-BERT LR & FULL & 0.875 & 0.875 & 0.875 \\
+LEGAL-BERT LR & MASKED & 0.562 & 0.562 & 0.561 \\
+\bottomrule\end{tabular}
+\end{table}

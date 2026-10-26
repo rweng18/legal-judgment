@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\caption{Development text lengths. Tokens exclude CLS/SEP and padding; one model input holds 510 content tokens.}
+\label{tab:length}
+\centering\scriptsize
+\begin{tabular}{llrrrrrrrrrrrr}
+\toprule & & \multicolumn{5}{c}{Words} & \multicolumn{5}{c}{Content tokens} & $>510$ & Total \\
+\cmidrule(lr){3-7}\cmidrule(lr){8-12}
+Split & Text & Min & Median & Mean & P90 & Max & Min & Median & Mean & P90 & Max & tokens & chunks \\
+\midrule
+Train & FULL & 149.0 & 467.5 & 511.0 & 831.5 & 1486.0 & 213.0 & 638.5 & 700.9 & 1169.5 & 1878.0 & 66.3\% & 156 \\
+Train & MASKED & 64.0 & 424.0 & 469.7 & 772.5 & 1425.0 & 82.0 & 590.5 & 646.0 & 1098.5 & 1788.0 & 61.6\% & 151 \\
+Validation & FULL & 276.0 & 534.0 & 650.9 & 925.5 & 1796.0 & 375.0 & 714.0 & 868.2 & 1252.0 & 2320.0 & 87.5\% & 36 \\
+Validation & MASKED & 250.0 & 507.5 & 596.1 & 872.0 & 1671.0 & 331.0 & 679.0 & 796.1 & 1208.0 & 2147.0 & 81.2\% & 34 \\
+\bottomrule\end{tabular}
+\end{table*}

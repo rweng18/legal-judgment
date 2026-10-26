@@ -1,0 +1,72 @@
+{
+  "candidate_A": 169,
+  "consensus_pool": 114,
+  "accepted_additions": 6,
+  "selected_pool": 120,
+  "pending_family": 1,
+  "assigned_cases": 119,
+  "remaining_review": 35,
+  "withheld_any_original_exclude": 14,
+  "split_class_counts": {
+    "train": {
+      "0": 59,
+      "1": 27
+    },
+    "validation": {
+      "0": 8,
+      "1": 8
+    },
+    "test": {
+      "0": 12,
+      "1": 5
+    }
+  },
+  "review_status": "team_reviewed",
+  "test_evaluated": false,
+  "word_lengths": {
+    "train": {
+      "FULL": {
+        "n": 86,
+        "min": 149.0,
+        "median": 467.5,
+        "mean": 510.98837209302326,
+        "p90": 831.5,
+        "max": 1486.0
+      },
+      "MASKED": {
+        "n": 86,
+        "min": 64.0,
+        "median": 424.0,
+        "mean": 469.6511627906977,
+        "p90": 772.5,
+        "max": 1425.0
+      }
+    },
+    "validation": {
+      "FULL": {
+        "n": 16,
+        "min": 276.0,
+        "median": 534.0,
+        "mean": 650.875,
+        "p90": 925.5,
+        "max": 1796.0
+      },
+      "MASKED": {
+        "n": 16,
+        "min": 250.0,
+        "median": 507.5,
+        "mean": 596.0625,
+        "p90": 872.0,
+        "max": 1671.0
+      }
+    }
+  },
+  "removed_percent": {
+    "n": 102,
+    "min": 1.0752688172043012,
+    "median": 8.128969297358521,
+    "mean": 9.669299216888767,
+    "p90": 15.391364886480021,
+    "max": 57.04697986577181
+  }
+}

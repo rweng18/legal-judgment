@@ -1,0 +1,142 @@
+{
+  "scope": "descriptive_validation_only",
+  "method": "paired ordinary family percentile bootstrap; not adjusted for previous development reuse",
+  "attempted": 5000,
+  "valid": 5000,
+  "skipped_single_class": 0,
+  "seed": 20261025,
+  "intervals": {
+    "TFIDF_LR": {
+      "FULL": {
+        "accuracy": [
+          0.4375,
+          0.875
+        ],
+        "balanced_accuracy": [
+          0.46031746031746035,
+          0.8888888888888888
+        ],
+        "macro_f1": [
+          0.41700404858299595,
+          0.875
+        ]
+      },
+      "MASKED": {
+        "accuracy": [
+          0.375,
+          0.8125
+        ],
+        "balanced_accuracy": [
+          0.4126984126984127,
+          0.8181818181818181
+        ],
+        "macro_f1": [
+          0.3333333333333333,
+          0.8117647058823529
+        ]
+      },
+      "FULL_minus_MASKED": {
+        "accuracy": [
+          0.0,
+          0.1875
+        ],
+        "balanced_accuracy": [
+          0.0,
+          0.19999999999999996
+        ],
+        "macro_f1": [
+          0.0,
+          0.2435897435897435
+        ]
+      }
+    },
+    "TFIDF_SVM": {
+      "FULL": {
+        "accuracy": [
+          0.5,
+          0.9375
+        ],
+        "balanced_accuracy": [
+          0.5714285714285714,
+          0.9285714285714286
+        ],
+        "macro_f1": [
+          0.45893719806763283,
+          0.9352226720647774
+        ]
+      },
+      "MASKED": {
+        "accuracy": [
+          0.25,
+          0.75
+        ],
+        "balanced_accuracy": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "macro_f1": [
+          0.2,
+          0.6536796536796536
+        ]
+      },
+      "FULL_minus_MASKED": {
+        "accuracy": [
+          0.0625,
+          0.4375
+        ],
+        "balanced_accuracy": [
+          0.05555555555555558,
+          0.46825396825396826
+        ],
+        "macro_f1": [
+          0.06372549019607843,
+          0.5461205461205461
+        ]
+      }
+    },
+    "LEGAL_BERT_LR": {
+      "FULL": {
+        "accuracy": [
+          0.6875,
+          1.0
+        ],
+        "balanced_accuracy": [
+          0.6875,
+          1.0
+        ],
+        "macro_f1": [
+          0.6761133603238867,
+          1.0
+        ]
+      },
+      "MASKED": {
+        "accuracy": [
+          0.3125,
+          0.8125
+        ],
+        "balanced_accuracy": [
+          0.3125,
+          0.8125
+        ],
+        "macro_f1": [
+          0.30980392156862746,
+          0.8056680161943319
+        ]
+      },
+      "FULL_minus_MASKED": {
+        "accuracy": [
+          0.0,
+          0.5625
+        ],
+        "balanced_accuracy": [
+          0.023809523809523836,
+          0.6
+        ],
+        "macro_f1": [
+          0.03249697606315261,
+          0.5974025974025974
+        ]
+      }
+    }
+  }
+}

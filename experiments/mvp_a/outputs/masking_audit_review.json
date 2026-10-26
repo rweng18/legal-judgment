@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "reviewer": "coding assistant",
+  "performed_before_model_fit": true,
+  "method": "Read the full cleaned text and every removed sentence for all eight sampled opinions; compare retained text by reconstruction. Two cases from each class in each development split.",
+  "rules": "Becca full_v1 and masked_v2, unchanged before and after this audit",
+  "reviewed_case_ids": ["NY-4437532", "NY-6055312", "NY-5934687", "NY-4253165", "NY-9355453", "NY-5302167", "NY-4929051", "NY-7857572"],
+  "cases": [
+    {"case_id":"NY-4437532","split":"train","label":0,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Cross: affirmance and repeated proper grant removed; causation/speculation analysis, earlier trial grant and precedents retained."},
+    {"case_id":"NY-6055312","split":"train","label":0,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Maus: affirmance and concluding proper denial removed; liquid/notice analysis and original trial denial retained. Concluding sentence also loses its Winegrad citation; minor Dillon, J. footer remains."},
+    {"case_id":"NY-5934687","split":"train","label":1,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Williams: reversal and should-have-granted sentence removed; original denial, mat condition, inspection evidence and notice precedents retained."},
+    {"case_id":"NY-4253165","split":"train","label":1,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Keum Ok Han: reversal and final should-have-granted sentence removed; out-of-possession reasoning, earlier denial and cited decisions retained."},
+    {"case_id":"NY-9355453","split":"validation","label":0,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Cheprakova: affirmance and final proper grant removed. Unlike the old trial mask, v2 retains the earlier ruling ending in Inc. Causation/speculation reasoning and precedents remain."},
+    {"case_id":"NY-5302167","split":"validation","label":0,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Luttenberger: affirmance and concluding approval removed; threshold facts, open-and-obvious reasoning, cited decisions and earlier trial ruling retained."},
+    {"case_id":"NY-4929051","split":"validation","label":1,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Zubillaga: both opening reversed orders removed; earlier default rulings and warning-sign reasoning retained. Ancillary current leave-to-appeal and briefing-motion results remain; this is not exhaustive removal of all procedural outcomes."},
+    {"case_id":"NY-7857572","split":"validation","label":1,"whole_appeal_outcome_removed":true,"reasoning_retained":true,"historical_decisions_retained":true,"note":"Yerry: reversal and final should-have-denied sentence removed. Unlike the old trial mask, v2 retains the evidentiary properly-considered ruling and its precedents. Notice/remedial reasoning and earlier trial grant remain; the removed final sentence still contains reasoning and a citation."}
+  ],
+  "conclusion": "All eight sampled whole-appeal dispositions were removed while substantial reasoning and historical decisions remained. Whole-sentence deletion still loses some reasoning/citations, and ancillary procedural outcomes can remain. This small assistant audit does not prove corpus-wide leakage elimination.",
+  "relation_to_team_review": "This additional technical audit is separate from the user's confirmation that the team independently reviewed the underlying work today. It does not invent an additional human audit."
+}
