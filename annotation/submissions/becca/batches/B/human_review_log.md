@@ -2,7 +2,7 @@
 
 Status as of October 28, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 40 B_001–B_008 records remain llm_draft with null human reviewers. Current totals: 7 unresolved and 5 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 45 B_001–B_009 records remain llm_draft with null human reviewers. Current totals: 7 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -81,6 +81,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4310731 (Mullaney): Invisible black ice defeats constructive notice; creation unalleged and actual notice abandoned.
 - NY-4851628 (Solomon): Review private status; stair gap not shown trivial and constructive-notice issues remain.
 - NY-4606641 (Butts): Office-condo walkway; causation and notice burdens unmet. Contractor-duty argument first raised in reply; one order, two appeals.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_009 review priorities
+
+- NY-6207337 (Alvarado): Storm defense applies despite light snow; preexisting-condition/notice and expert-practices challenges failed.
+- NY-8511862 (Rozo): Church-owned premises; defendant failed causal-identification burden, actual hazard unstated.
+- NY-5937350 (Manto): Procedural-only exclusion: cross motions during death/substitution stay; reversed with consequential remittal.
+- NY-9406522 (Darginsky): Supermarket bathroom warnings remain triable; mopping substance and evidence format unstated.
+- NY-3177536 (Singh): On-premises driveway under branch inspection responsibility; customary practice did not establish actual inspection.
 
 All remain assistant drafts; no rule changes or human review.
 
