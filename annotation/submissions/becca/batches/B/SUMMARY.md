@@ -1,6 +1,6 @@
 # Becca — batch B progress
 
-Completed **B_001–B_006: 30/169 cases**; 139 pending. Next: **B_007**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
+Completed **B_001–B_007: 35/169 cases**; 134 pending. Next: **B_008**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
 
 All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
@@ -36,13 +36,18 @@ All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human rev
 | NY-4654580 | Padilla | Review | Reversed | null | Review walkway boundary; causation showing failed, both motions in one order reversed. |
 | NY-4387315 | Lingenfelter | Include | Reversed | 1 | All Espinal exceptions rejected; direct negligence plus ancillary cross claim, full reversal. |
 | NY-6454036 | Padel | Review | Reversed | null | Review private status/exterior-step control; granted reargument reaches substantive constructive notice. |
+| NY-2993705 | Richardson | Review | Affirmed | null | Review slip/trip scope of fall off walkway into trench; prior CAL_002 development exposure, not fresh blind agreement. |
+| NY-2800524 | Vazquez | Exclude | Affirmed | null | Exclude: coworker fell; injured plaintiff was struck by dropped rock. Eyewitness affidavit defeats causation dismissal. |
+| NY-5993188 | Rinberg | Include | Affirmed | 0 | Private condo common area; association established no maintenance duty. Granted reargument reviews merits. |
+| NY-8440748 | Henenlotter | Exclude | Reversed | null | Exclude public school-district property; storm defense established, no triable creation/exacerbation. |
+| NY-4309275 | Gwitt | Include | Affirmed | 0 | Constructive-notice burden unmet; manager’s conflicting affidavit raises credibility. Limited appeal fully affirmed. |
 
-Totals: 23 included, 3 excluded, 4 unresolved. Included labels: 17 zero, 6 one. These are draft counts, not model performance.
+Totals: 25 included, 5 excluded, 5 unresolved. Included labels: 19 zero, 6 one. These are draft counts, not model performance.
 
-`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `72813b3`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `e258f4e`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-Validation passed: 30 unique records, 119 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 139 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
+Validation passed: 35 unique records, 139 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 134 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
-No peer labels or outside case facts consulted. Completed IDs do not overlap calibration. Later overlap IDs remain in progress.json and require explicit exposure handling. Prior human exposure is unknown. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
+No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
-Continue with `batches/B/chunks/B_007.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
+Continue with `batches/B/chunks/B_008.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.

@@ -8,10 +8,10 @@
     "B_003",
     "B_004",
     "B_005",
-    "B_006"
+    "B_006",
+    "B_007"
   ],
   "pending_chunks": [
-    "B_007",
     "B_008",
     "B_009",
     "B_010",
@@ -70,14 +70,14 @@
     "NY-5934656",
     "NY-4654580",
     "NY-4387315",
-    "NY-6454036"
-  ],
-  "pending_case_ids": [
+    "NY-6454036",
     "NY-2993705",
     "NY-2800524",
     "NY-5993188",
     "NY-8440748",
-    "NY-4309275",
+    "NY-4309275"
+  ],
+  "pending_case_ids": [
     "NY-6058276",
     "NY-4400269",
     "NY-4310731",
@@ -213,7 +213,7 @@
     "NY-9427393",
     "NY-6001231"
   ],
-  "next_chunk": "B_007",
+  "next_chunk": "B_008",
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
@@ -224,7 +224,8 @@
     "B_003": "ffcd52818ca0cbc7f8dad0b6e5f01de8208e198f16edd68b4fdb40fafa6a9360",
     "B_004": "fad58bbef0e39ec7f1589e71f4903c103a6d602109958d620b055401f303a36c",
     "B_005": "181ebe0090b57fe177ccb8adb81c2ddec4fdd96f68973b7388f560e898dcd8c6",
-    "B_006": "80de5a7915c5aafeeae77762c5a54f35c0e9c86f850e4df1b44ff09252b9fa3a"
+    "B_006": "80de5a7915c5aafeeae77762c5a54f35c0e9c86f850e4df1b44ff09252b9fa3a",
+    "B_007": "cfc87dda21e96aa5ef409c05b889545a6cee0a8858e61737d3093d5f18de73a4"
   },
   "batch_shared_calibration_case_ids": [
     "NY-2993705",
@@ -232,6 +233,9 @@
     "NY-4310325",
     "NY-5960096"
   ],
-  "exposure_note": "No B_001\u2013B_006 ID is in the shared calibration manifest. For later overlapping IDs, preserve prior provenance and record exposure rather than claim fresh independence. No peer B labels consulted; prior human exposure is unknown.",
-  "starting_commit": "ecca2a41c96ad80f6d9f91a90bb894fa2ddad9b8"
+  "exposure_note": "Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown.",
+  "starting_commit": "ecca2a41c96ad80f6d9f91a90bb894fa2ddad9b8",
+  "completed_calibration_case_ids": [
+    "NY-2993705"
+  ]
 }

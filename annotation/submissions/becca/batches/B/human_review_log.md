@@ -2,7 +2,7 @@
 
 Status as of October 28, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 30 B_001–B_006 records remain llm_draft with null human reviewers. Current totals: 4 unresolved and 3 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 35 B_001–B_007 records remain llm_draft with null human reviewers. Current totals: 5 unresolved and 5 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, audit or adjudication is recorded. All 30 B
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-None of the 30 completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -61,6 +61,16 @@ Four assistant inclusions and one exclusion; all await human review. DiScalo and
 - NY-4654580 (Padilla): Review walkway boundary; causation showing failed, both motions in one order reversed.
 - NY-4387315 (Lingenfelter): All Espinal exceptions rejected; direct negligence plus ancillary cross claim, full reversal.
 - NY-6454036 (Padel): Review private status/exterior-step control; granted reargument reaches substantive constructive notice.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_007 review priorities
+
+- NY-2993705 (Richardson): Review slip/trip scope of fall off walkway into trench; prior CAL_002 development exposure, not fresh blind agreement.
+- NY-2800524 (Vazquez): Exclude: coworker fell; injured plaintiff was struck by dropped rock. Eyewitness affidavit defeats causation dismissal.
+- NY-5993188 (Rinberg): Private condo common area; association established no maintenance duty. Granted reargument reviews merits.
+- NY-8440748 (Henenlotter): Exclude public school-district property; storm defense established, no triable creation/exacerbation.
+- NY-4309275 (Gwitt): Constructive-notice burden unmet; manager’s conflicting affidavit raises credibility. Limited appeal fully affirmed.
 
 All remain assistant drafts; no rule changes or human review.
 
