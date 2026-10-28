@@ -5,10 +5,10 @@
   "completed_chunks": [
     "B_001",
     "B_002",
-    "B_003"
+    "B_003",
+    "B_004"
   ],
   "pending_chunks": [
-    "B_004",
     "B_005",
     "B_006",
     "B_007",
@@ -55,14 +55,14 @@
     "NY-4617802",
     "NY-5950295",
     "NY-9355448",
-    "NY-4725572"
-  ],
-  "pending_case_ids": [
+    "NY-4725572",
     "NY-5948742",
     "NY-4387362",
     "NY-9422144",
     "NY-3202838",
-    "NY-8511901",
+    "NY-8511901"
+  ],
+  "pending_case_ids": [
     "NY-5937355",
     "NY-5994504",
     "NY-4306359",
@@ -213,7 +213,7 @@
     "NY-9427393",
     "NY-6001231"
   ],
-  "next_chunk": "B_004",
+  "next_chunk": "B_005",
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
@@ -221,7 +221,8 @@
   "selected_chunk_sha256": {
     "B_001": "cd5908cec4f24085f2b0cfabd8597a1f57a329641f7c01f0c1082438fc5cc31f",
     "B_002": "8a1010260fc1030c3f5750d1a10fefe0dbf1cf36afb0a373a492de47f2cc9f79",
-    "B_003": "ffcd52818ca0cbc7f8dad0b6e5f01de8208e198f16edd68b4fdb40fafa6a9360"
+    "B_003": "ffcd52818ca0cbc7f8dad0b6e5f01de8208e198f16edd68b4fdb40fafa6a9360",
+    "B_004": "fad58bbef0e39ec7f1589e71f4903c103a6d602109958d620b055401f303a36c"
   },
   "batch_shared_calibration_case_ids": [
     "NY-2993705",
@@ -229,6 +230,6 @@
     "NY-4310325",
     "NY-5960096"
   ],
-  "exposure_note": "No B_001\u2013B_003 ID is in the shared calibration manifest. For later overlapping IDs, preserve prior provenance and record exposure rather than claim fresh independence. No peer B labels consulted; prior human exposure is unknown.",
+  "exposure_note": "No B_001\u2013B_004 ID is in the shared calibration manifest. For later overlapping IDs, preserve prior provenance and record exposure rather than claim fresh independence. No peer B labels consulted; prior human exposure is unknown.",
   "starting_commit": "ecca2a41c96ad80f6d9f91a90bb894fa2ddad9b8"
 }

@@ -2,7 +2,7 @@
 
 Status as of October 28, 2026: **pending**.
 
-No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All fifteen B_001–B_003 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion, also with null label.
+No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All twenty B_001–B_004 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion, also with null label.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, substantive annotation review, audit or adj
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-None of the fifteen completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+None of the twenty completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -33,5 +33,15 @@ All five B_002 records are assistant include decisions under the initial rules, 
 - Glosek (NY-4725572): the rug-placement condition was shown not dangerous. Do not infer open-and-obvious, trivial-defect, notice or expert findings. Full reversal dismisses the complaint and favors defendant.
 
 All five B_003 records are assistant include decisions, not human-reviewed labels. Francisco requires independent human eligibility/outcome review before human-gold evaluation use. No substantive codebook changes were made.
+
+## B_004 review priorities
+
+- Hayes (NY-5948742): preexisting ice and snow-versus-ice causation remain triable despite an established ongoing storm; do not infer notice, tenancy or final liability.
+- Depczynski (NY-4387362): noncreation/constructive-notice burden failed; actual notice abandoned, runoff theory not established, inspection-duty error immaterial. Ancillary procedural discussion does not exclude the merits.
+- Cashwell (NY-9422144): distinguish plaintiffs’ speculative source-of-puddle theory from inability to identify the immediate slip cause. Unspecified liquid is not necessarily water. Affirmance denies plaintiffs’ motion, not the complaint.
+- Micek (NY-3202838): church ownership supports private premises despite caterers’ lack of control. Direct negligence against caterers, limited appeal fully affirmed; no third-party-only exclusion.
+- Fuentes (NY-8511901): staircase location does not prove a stair/handrail defect. Owner/tenant roles refer to defendant/third-party defendant respectively; no evidence format or premises use is supplied.
+
+All five are assistant include/0 decisions. Cashwell (2023) and Fuentes (2022) use unchanged rules and require independent human review before evaluation use. No human review or codebook change occurred.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.
