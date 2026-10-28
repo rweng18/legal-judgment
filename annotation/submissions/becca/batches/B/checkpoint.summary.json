@@ -1,0 +1,45 @@
+{
+  "annotated_cases": 5,
+  "eligibility": {
+    "include": 2,
+    "review": 2,
+    "exclude": 1
+  },
+  "outcomes_all_cases": {
+    "affirmed": 5
+  },
+  "included_class_counts": {
+    "0": 2
+  },
+  "review_status": {
+    "llm_draft": 5
+  },
+  "planned_period_class_counts": {
+    "train": {
+      "0": 2
+    },
+    "validation": {},
+    "test": {}
+  },
+  "needs_review": [
+    "NY-2800741",
+    "NY-4546815"
+  ],
+  "unknown_field_counts": {
+    "premises_type": 1,
+    "location": 0,
+    "injured_role": 1
+  },
+  "accepted_words": {
+    "min": 386,
+    "median": 636.5,
+    "mean": 636.5,
+    "max": 887
+  },
+  "random_training_audit_ids": [
+    "NY-4791129"
+  ],
+  "audit_seed": 20261019,
+  "evaluation_needing_human_review": [],
+  "note": "Availability and annotation statistics, not classifier metrics. Freeze merged version before drawing the training audit. Family grouping remains required."
+}
