@@ -1,6 +1,6 @@
 # Becca — batch B progress
 
-Completed **B_001–B_007: 35/169 cases**; 134 pending. Next: **B_008**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
+Completed **B_001–B_008: 40/169 cases**; 129 pending. Next: **B_009**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
 
 All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
@@ -41,13 +41,18 @@ All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human rev
 | NY-5993188 | Rinberg | Include | Affirmed | 0 | Private condo common area; association established no maintenance duty. Granted reargument reviews merits. |
 | NY-8440748 | Henenlotter | Exclude | Reversed | null | Exclude public school-district property; storm defense established, no triable creation/exacerbation. |
 | NY-4309275 | Gwitt | Include | Affirmed | 0 | Constructive-notice burden unmet; manager’s conflicting affidavit raises credibility. Limited appeal fully affirmed. |
+| NY-6058276 | Sims | Review | Affirmed | null | Review private status; worn tread nonactionable, cause unexplained, expert speculative, no applicable code link. |
+| NY-4400269 | Lawrence | Include | Affirmed | 0 | Private mall parking area; stones both open and obvious and not inherently dangerous. |
+| NY-4310731 | Mullaney | Include | Reversed | 1 | Invisible black ice defeats constructive notice; creation unalleged and actual notice abandoned. |
+| NY-4851628 | Solomon | Review | Affirmed | null | Review private status; stair gap not shown trivial and constructive-notice issues remain. |
+| NY-4606641 | Butts | Include | Affirmed | 0 | Office-condo walkway; causation and notice burdens unmet. Contractor-duty argument first raised in reply; one order, two appeals. |
 
-Totals: 25 included, 5 excluded, 5 unresolved. Included labels: 19 zero, 6 one. These are draft counts, not model performance.
+Totals: 28 included, 5 excluded, 7 unresolved. Included labels: 21 zero, 7 one. These are draft counts, not model performance.
 
-`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `e258f4e`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `1a001dd`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-Validation passed: 35 unique records, 139 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 134 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
+Validation passed: 40 unique records, 155 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 129 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
 No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
-Continue with `batches/B/chunks/B_008.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
+Continue with `batches/B/chunks/B_009.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
