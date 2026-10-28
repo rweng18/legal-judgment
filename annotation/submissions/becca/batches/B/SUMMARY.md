@@ -4,9 +4,9 @@ Updated October 28, 2026. Branch: `annotations/becca-batch-b`. Started from late
 
 ## Status
 
-Completed: **B_001–B_004, 20 of 169 cases**. B_005–B_034 remain pending (149 cases). This is a partial checkpoint, not a complete or frozen round submission.
+Completed: **B_001–B_005, 25 of 169 cases**. B_006–B_034 remain pending (144 cases). This is a partial checkpoint, not a complete or frozen round submission.
 
-All 20 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 remains in use. The central DECISIONS.md contains no substantive replacement rule version or team freeze. The user explicitly authorized B work; A comparison/MVP documentation was not treated as a new B labeling rule.
+All 25 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 remains in use. The central DECISIONS.md contains no substantive replacement rule version or team freeze. The user explicitly authorized B work; A comparison/MVP documentation was not treated as a new B labeling rule.
 
 ## Results
 
@@ -32,8 +32,13 @@ All 20 records are `llm_draft`; no human review or adjudication is claimed. Init
 | NY-9422144 | Cashwell v. Stop & Shop Supermarket Co., LLC | Include | Affirmed | 0 | Plaintiffs’ frozen-food leak theory speculative; their liability motion denied. |
 | NY-3202838 | Micek v. Greek Orthodox Church of Our Savior | Include | Affirmed | 0 | Private church premises; caterers established lack of premises relationship and noncreation. |
 | NY-8511901 | Fuentes v. Fisher | Include | Affirmed | 0 | Out-of-possession owner established no maintenance duty; actual stair hazard unstated. |
+| NY-5937355 | Miskanic v. Roller Jam USA, Inc. | Include | Affirmed | 0 | Ramp defect/notice burden unmet; concealed or increased risk remains triable. |
+| NY-5994504 | Kalthoff v. Arrowood Indemnity Co. | Exclude | Reversed | null | Current action resolves insurance coverage, not negligence merits. |
+| NY-4306359 | Mann v. Wegmans Food Markets, Inc. | Include | Reversed | 1 | Storm defense established; lull and preexisting-ice theories did not raise an issue. |
+| NY-6475974 | DiScalo v. Mannix Family Mkt. | Include | Reversed | 1 | Flattened box both open and obvious and not inherently dangerous. |
+| NY-6473777 | Everett v. CMI Servs. Corp. | Include | Affirmed | 0 | Job-hazard, obviousness and workers’ compensation defenses not established. |
 
-Draft totals: 17 included, 1 excluded, 2 unresolved. Included class counts: fourteen 0 and three 1. These are annotation counts, not model performance or human-gold counts.
+Draft totals: 21 included, 2 excluded, 2 unresolved. Included class counts: sixteen 0 and five 1. These are annotation counts, not model performance or human-gold counts.
 
 ## Files and validation
 
@@ -49,17 +54,20 @@ Draft totals: 17 included, 1 excluded, 2 unresolved. Included class counts: four
 - `drafts/B_004.draft-v1.json`: preserved first complete B_004 draft.
 - `chunks/B_004.json`: selected B_004 output, identical to its original draft.
 - `chunks/B_004.validation.json`: five records, exact coverage and zero errors; expected LLM-draft warnings.
-- `checkpoint.jsonl`: 20-record partial merge against the batch B manifest, including review and excluded records. Supersedes the 15-record checkpoint preserved in commit `b0d8c22`; B_001–B_003 records are unchanged.
-- `checkpoint.jsonl.validation.json`: passed partial validation with zero errors; 149 missing IDs are expected until the remaining 30 chunks are finished.
+- `drafts/B_005.draft-v1.json`: preserved first complete B_005 draft.
+- `chunks/B_005.json`: selected B_005 output, identical to its original draft.
+- `chunks/B_005.validation.json`: five records, exact coverage and zero errors; expected LLM-draft warnings.
+- `checkpoint.jsonl`: 25-record partial merge against the batch B manifest, including review and excluded records. Supersedes the 20-record checkpoint preserved in commit `fc7ec27`; B_001–B_004 records are unchanged.
+- `checkpoint.jsonl.validation.json`: passed partial validation with zero errors; 144 missing IDs are expected until the remaining 29 chunks are finished.
 - `checkpoint.summary.json`: descriptive counts and provisional audit candidates. No human audit has been performed and no complete round is frozen.
 - `progress.json`: exact completed/pending IDs, next chunk, selected-output hash and shared-calibration overlap IDs.
 - `prompts_used/`: resolved prompts and actual scope/provenance.
 - `human_review_log.md`: pending human review and case-specific assistant priorities.
 
-Validation checks source hashes, exact quotations and offsets, evidence references, all 19 issue topics per case, all 69 source passages across four chunks and basic consistency. It does not establish semantic correctness.
+Validation checks source hashes, exact quotations and offsets, evidence references, all 19 issue topics per case, all 94 source passages across five chunks and basic consistency. It does not establish semantic correctness.
 
 ## Independence and next step
 
-No peer B labels, previous automated labels for these cases, independent human notes or outside case facts were consulted. No B_001–B_004 case overlaps the shared calibration manifest. Four later B cases do overlap (NY-2993705, NY-3206955, NY-4310325 and NY-5960096); handle provenance/exposure explicitly when reached and do not silently count reused work as fresh independence. Prior human exposure is unknown. Sixteen completed decisions date to the preliminary training period. Monaco (NY-5312913), Francisco (NY-9355448) and Fuentes (NY-8511901) are preliminary validation-period cases; Cashwell (NY-9422144) is preliminary test-period. All require independent human eligibility/outcome review before human-gold evaluation use. No rules were tuned from held-out cases.
+No peer B labels, previous automated labels for these cases, independent human notes or outside case facts were consulted. No B_001–B_005 case overlaps the shared calibration manifest. Four later B cases do overlap (NY-2993705, NY-3206955, NY-4310325 and NY-5960096); handle provenance/exposure explicitly when reached and do not silently count reused work as fresh independence. Prior human exposure is unknown. Nineteen completed decisions date to the preliminary training period. Monaco (NY-5312913), Francisco (NY-9355448), Fuentes (NY-8511901), DiScalo (NY-6475974) and Everett (NY-6473777) are preliminary validation-period cases; Cashwell (NY-9422144) is preliminary test-period. All require independent human eligibility/outcome review before human-gold evaluation use. No rules were tuned from held-out cases.
 
-Next input is `batches/B/chunks/B_005.md`. Continue full reading, original-draft preservation, exact evidence, validation and local checkpoint commits. Push when requested. At completion, merge exactly the 169 expected records, preserve and hash the complete draft before peer comparison, then compare/review B. All labels, exclusions and unresolved questions require the specified human review.
+Next input is `batches/B/chunks/B_006.md`. Continue full reading, original-draft preservation, exact evidence, validation and local checkpoint commits. Push when requested. At completion, merge exactly the 169 expected records, preserve and hash the complete draft before peer comparison, then compare/review B. All labels, exclusions and unresolved questions require the specified human review.

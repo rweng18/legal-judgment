@@ -2,7 +2,7 @@
 
 Status as of October 28, 2026: **pending**.
 
-No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All twenty B_001–B_004 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion, also with null label.
+No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All twenty-five B_001–B_005 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion; Kalthoff (NY-5994504) is an insurance-coverage exclusion. Both retain null labels.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, substantive annotation review, audit or adj
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-None of the twenty completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+None of the twenty-five completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -43,5 +43,15 @@ All five B_003 records are assistant include decisions, not human-reviewed label
 - Fuentes (NY-8511901): staircase location does not prove a stair/handrail defect. Owner/tenant roles refer to defendant/third-party defendant respectively; no evidence format or premises use is supplied.
 
 All five are assistant include/0 decisions. Cashwell (2023) and Fuentes (2022) use unchanged rules and require independent human review before evaluation use. No human review or codebook change occurred.
+
+## B_005 review priorities
+
+- Miskanic (NY-5937355): nondefect/noncreation/notice showings failed; primary assumption of risk initially established but concealed/increased risk remained triable. Unspecified deposition deponent is not assumed to be a party.
+- Kalthoff (NY-5994504): current insurance declaratory action is definitely outside negligence scope. Reversed/null; reason other, substantive coverage merits. Insurance notice is not premises notice. The last passage is a relevant footnote about the additional five-month delay and was read.
+- Mann (NY-4306359): a lull does not establish reasonable cleanup time. Meteorologist/weather reports supported the defense; preexisting ice was not shown triable. The unspecified objection to plaintiff’s affidavit was not reached.
+- DiScalo (NY-6475974): both obviousness and lack of inherent danger supported dismissal. Nearby employee stocking does not prove creation. No separate comparative-fault/assumption-of-risk ruling.
+- Everett (NY-6473777): direct negligence appeal qualifies despite third-party parties and compensation defenses. Feces below floodwater differs from visible water. Failed alter-ego/special-employer showings do not conclusively settle employment status. Do not infer residential use from party names or Labor Law from workers’ compensation discussion.
+
+Four assistant inclusions and one exclusion; all await human review. DiScalo and Everett (2022) use unchanged rules and require independent human review before evaluation use.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.
