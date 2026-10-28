@@ -1,0 +1,46 @@
+{
+  "FULL": {
+    "train": {
+      "n": 86,
+      "min": 213.0,
+      "median": 638.5,
+      "mean": 700.9186046511628,
+      "p90": 1169.5,
+      "max": 1878.0,
+      "fraction_over_510": 0.6627906976744186,
+      "total_chunks": 156
+    },
+    "validation": {
+      "n": 16,
+      "min": 375.0,
+      "median": 714.0,
+      "mean": 868.25,
+      "p90": 1252.0,
+      "max": 2320.0,
+      "fraction_over_510": 0.875,
+      "total_chunks": 36
+    }
+  },
+  "MASKED": {
+    "train": {
+      "n": 86,
+      "min": 82.0,
+      "median": 590.5,
+      "mean": 645.9883720930233,
+      "p90": 1098.5,
+      "max": 1788.0,
+      "fraction_over_510": 0.6162790697674418,
+      "total_chunks": 151
+    },
+    "validation": {
+      "n": 16,
+      "min": 331.0,
+      "median": 679.0,
+      "mean": 796.125,
+      "p90": 1208.0,
+      "max": 2147.0,
+      "fraction_over_510": 0.8125,
+      "total_chunks": 34
+    }
+  }
+}

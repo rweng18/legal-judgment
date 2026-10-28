@@ -1,0 +1,50 @@
+{
+  "version": "reviewed_A_mvp_v1",
+  "upstream_main_commit": "ecca2a41c96ad80f6d9f91a90bb894fa2ddad9b8",
+  "source_prs": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "input_sha256_lf": {
+    "annotation/submissions/becca/MVP/data/full_v1/full.jsonl": "22741aa70e7c5e17a8ef9dc1242d01e323e183b124b245347dc41614b96c23c6",
+    "annotation/submissions/becca/MVP/data/full_v1/manifest.json": "47fdb73c9a29279e258da65314bcffff5c859c801d8c1d0b391f97a95255b0d7",
+    "annotation/submissions/becca/MVP/data/masked_v2/masked.jsonl": "42febc9cf34f55e4ab9d841979528f71903ca9b93d7bfafd4385a2e65580fb5f",
+    "annotation/submissions/becca/MVP/data/masked_v2/manifest.json": "dcef43066beb9ab4b7c851e2b05ab49deda15046499704701d4be7ba16d967b3",
+    "annotation/submissions/becca/MVP/data/mvp_split_v1/split_manifest.json": "8130672b660fed6ec2ddce62925583fdd39e6fcbdf993fcb5fc8b10c8f710a73",
+    "annotation/submissions/becca/MVP/preprocessing/full_text.py": "ef88b49e97cca4abd6128b12e686decbd8b16f5b285bad6afe6e3d7d46066eb9",
+    "annotation/submissions/becca/MVP/preprocessing/masked_text_v2.py": "e2daafd50feaf7e4b3af2ac713d761c6cad5ea9ba10469023abf7b27b42e4bd4",
+    "annotation/submissions/becca/MVP/data/family_v1/case_family_manifest.jsonl": "6ef6dadcdcfc27bd63d32430acfade2bc345f95d1be4b3d8124652a35986d103",
+    "annotation/submissions/hyunsang/batches/A/mvp_additions/additional_6.jsonl": "a840e3b07b93304ce4026327eabb93f7a74ee16d306d309328ad6c61f43d5466",
+    "annotation/submissions/hyunsang/batches/A/mvp_additions/decisions.json": "fcefae5cea93b50224524722fd841d6dababe2ee15ae5b46959356420073a998",
+    "experiments/mvp_a/team_review_confirmation.json": "d95b07cdf840c7c06e25489f19ec95edf571e46634644c8471d3c0f7c0767c57",
+    "annotation/source/cases.jsonl": "5749150ee0768b09cef4784c07cc2013e17f451de242650d012fa6a19e81c0e2"
+  },
+  "dataset_sha256_lf": "b33238d8ece259aca5a1319404c1f8b46c99e8b246ad0054235ef068e07664f2",
+  "hash_policy": "Normalize only file CRLF to LF, verified against Git blobs; opinion strings/hashes remain exact.",
+  "review_confirmation": {
+    "date": "2026-10-25",
+    "status": "team_reviewed",
+    "evidence_type": "direct user confirmation in project conversation",
+    "confirmation": "Also, their work is indepently reviewed by us today, they are fine, update label in the ipynb",
+    "scope": "Team work in merged PRs 12–16: Becca's preparation and 114-case pool, and Hayden's six accepted additions",
+    "record_policy": "Preserve original LLM drafts and earlier pending-status manifests. Record review acceptance in this new integration version.",
+    "limits": "No new blind-review protocol, per-case reviewer assignment, agreement score against independent human gold, or review duration is inferred from this confirmation.",
+    "unresolved_scope": "The 35 remaining review cases, 14 withheld cases, and Sodhi companion/split hold remain outside modeling. Review confirmation does not supply a missing companion identity/date."
+  },
+  "original_loader_contract": {
+    "status": "passed",
+    "validator": "Becca model_inputs.validate_records",
+    "disk_adapter": "LF canonical files verified against Git blobs; portable slash keys; all export/split/FULL-base checksum checks retained",
+    "base_counts": {
+      "train": 81,
+      "development": 16,
+      "test": 16
+    }
+  },
+  "base_assignment_changes": 0,
+  "base_text_changes": 0,
+  "final_test_evaluated": false
+}

@@ -1,0 +1,5941 @@
+{
+  "grid": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.41700404858299595,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.41700404858299595,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4181818181818182,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.125
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4920634920634921,
+      "confusion_matrix": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.375,
+          0.625
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.375,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.45893719806763283,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.125
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4920634920634921,
+      "confusion_matrix": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.375,
+          0.625
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.375,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.746031746031746,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.41700404858299595,
+      "confusion_matrix": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4920634920634921,
+      "confusion_matrix": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.375,
+          0.625
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.375,
+        0.625
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6761133603238867,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.6875,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6536796536796536,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.625,
+          0.375
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4181818181818182,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.125
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4181818181818182,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.875,
+          0.125
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.125
+      ]
+    }
+  ],
+  "predictions": [
+    {
+      "case_id": "NY-4849014",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "Majority",
+      "variant": "FULL",
+      "C": null,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": null
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.007036885075579834
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.09489567749218694
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.008674840358772952
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.0031988913299046268
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.009538040308582421
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.05356821709085167
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.00758691550916326
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0017594750275961787
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.006749139916295284
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.038076179107391854
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.018533264723422087
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.04490461600408761
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.014154109198860128
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06130234853551846
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.03660988854203138
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.004133308353780701
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1568076322915834
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.45291747886207023
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.21401264661216518
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.15694082296399303
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.09626330597439386
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.19165108854555457
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.09706048765233666
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1332645278027656
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.12162665815906687
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.1071446030660822
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.039928390122144886
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.13145529232029174
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.2296203932442827
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5839790387649457
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.07162973588947963
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.20815280841929112
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.9752017717605219
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.043370421527823
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8353245562603104
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.5989433376548132
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5202322863236909
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.34462068609783447
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.46082577047527873
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5388885134578281
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5741925738113014
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.26205308028246743
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3259227264768616
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.11086397590483843
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8143404728868345
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.0776908951252757
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.053935749685402046
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.9597769331849442
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.010257149291626598
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.07548416764831609
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.011697084614608933
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.012598366935114885
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0042216783095658725
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.035610005168775806
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.006153439672439122
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.004715484294627814
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.015241776741533639
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.009303006514152494
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.0009100382385917455
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.030724220832902556
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.029294520466491992
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.05933284666125996
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.046547226587456934
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0017279838709646778
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0950488961391232
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.3506243651811777
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.2288594407793005
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.21396803394164698
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.10422762851135503
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.08640786406729578
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08190312577032055
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.09924705602337008
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.04558423927122707
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.09688021934779645
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.1528423748646943
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.06807262442680778
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.33341120713760003
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5502770214712305
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.173257780042549
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1678845302909078
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.6921173402083585
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.7059377976137806
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.9678138000290906
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8594299403022034
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.4928840345312404
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.05721294970919133
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3801827179712851
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.4577515824544721
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3637264746037119
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.6014573784134557
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.7902755511309119
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.056335670080824185
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -1.2715689200247127
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.9773635563215541
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.3244044844916325
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.837195325828072
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0006630208135902441
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.09568454606354766
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.013528685104349729
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.004774888718923058
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.005421208927516061
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.03886671687616307
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0005598008548421476
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.011913989665148082
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.013105463760059208
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.01944849412681514
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.021003729643865446
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.033337789406771956
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.01797084470094299
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.05592392500448097
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.033465454204930314
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.011995683773234282
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.20037435233096193
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.4598782184935865
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.23862480278141718
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.17002457334242332
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.11281052289202897
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.08354241116425926
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.15204174577413648
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06192441375771596
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08837457572110358
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.02533091221856454
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.02577855044781896
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.04479185967033439
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.2537510460748873
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5383169168435356
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.05043261547714889
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.261280613290018
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.0597428927436945
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.061188062722605
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8790143952393588
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.7305335408196465
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5369499601865468
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.07272261797357493
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.7492692369497845
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3450851865376765
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5624157434625794
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.24494930807379456
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.33953102674758573
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.2489877385430317
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8958284414007867
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.9215363313293636
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.12606831414270725
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_11",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.1411050088357289
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.008734038506647161
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.08199322858715827
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.006364536312023224
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.006678778310569053
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.009561699066828362
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.05561655168076151
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.008731496915515273
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0007283547153888112
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.007805407223412109
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.03443255298540788
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.020724489466748992
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.04582460950526327
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.019054674681499097
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06005490046919536
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.039376227920252756
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0036996444582560253
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.13598526572572972
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.3804916941655723
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.1884653900327999
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.17293909697118362
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08743817391248049
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.22298830192649638
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0800859897425531
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.14310669441434387
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.20896731855240436
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.10129394165717914
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.007474793679491276
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.1504779320935365
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.25499511378770584
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5653120472624555
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.1036659923019681
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1915101308593628
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.9127114017484076
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.8471347862261731
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.7625840311552499
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.6564043116895514
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.4864262287022155
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.4853868617504842
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.4071868997687129
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5856793204952342
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.8250577209208109
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.32391652684247285
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.16292023548507006
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.18412749663035965
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.9039140012135143
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.011752297079071
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.05826645575351197
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_23",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.8803742720342487
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0018537372406548028
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.06971578182555796
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.007164675548663138
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.006233476819527808
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0010761253703420598
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.05090325646388673
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.006876278117814924
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0013400456174643416
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.015377449147501318
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.028750130210638977
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.023893683570252316
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.032063751486153286
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.0053004569182202865
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06690826511997656
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.034701244922564045
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0019096902633406534
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.18110227834426104
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.2960318018792515
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.1986815251159141
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.16585238340876607
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.167574342768641
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.1876534784371141
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08815999160037569
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.13584018604206222
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0534788404374138
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.04811941773058298
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.004102047171943735
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.042802518900300124
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.15725529938810384
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.6248428699405197
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.06708840676281125
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1754157737061489
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.0245777644798595
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.5970206402953782
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8074618826218136
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.611677930125726
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.7902811868019571
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.35817307080835503
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.4242263466180425
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5997114895417736
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.36522042816973566
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.028018436000359914
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.19388929847332603
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.21936751412806266
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.5552082335826294
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.2796404565135564
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0710447649099184
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_37",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.7763303150501147
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.006401172906333116
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.09074996241806324
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.010566775301887536
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.005737030822853727
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0026443742887152857
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.0436449151622397
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.009730390120867571
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.007255210338174778
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.011601191384304828
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.02008535879133795
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.015133985816411094
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.050082968289976826
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.03451615018838961
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.0644806116033067
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.04001732788030758
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.013030134871817374
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.14696804864103769
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.4387093349570185
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.22248421665455273
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.17590053250161053
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.13308978279141642
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.12073704456672935
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06312462059222917
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08827960296998388
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.07807454134780212
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.020721323426962868
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.04663411718746213
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.17871870157403152
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.37765631170235275
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5981053496975164
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.10909312465983706
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.25957685584802603
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.9282954309156506
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.0281828140032638
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8962042808726656
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.724567916757033
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.6578474233971077
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.030607077264100058
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.32027215209047866
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.40996719622214495
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.46747966994160783
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.2730292338747081
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3133312869189855
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.256534504845898
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -1.3826691184596074
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.131443817224989
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.07250729045848248
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_51",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.1166814857049556
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.00241299597548799
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.08752072963669077
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.007543163077698409
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.005086456637779305
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.00698539579000048
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.04767815109250396
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.007941373026085864
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.005103448641045956
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.004533495863531238
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.02615148874191215
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.012426265124438542
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.036300736007093985
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.026718108039685436
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.062128941429349285
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.032636530899104156
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.015444315800459463
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.17127968724506643
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.41138457162224495
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.19705286893056903
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.161682299404022
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.20720290521728957
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.16316211575360728
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08119518277336102
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.10396517572278713
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.12928832194025036
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.03683761481592385
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.08085838282480928
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.07335546522886321
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.31743378289832647
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5872911172288114
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.05133741649968793
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.2748895802267275
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.9690992677231869
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.9075946684971303
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.7881908987176496
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.6233273030658696
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.901402977369684
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.25114806907798437
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3944041436866442
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.4650815336732461
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.6117255453459737
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.04132572039797844
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.5168142089697861
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.1240296401544847
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -1.1729052313110875
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.1315870958017946
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1404071220536358
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_LR",
+      "variant": "RANDOM_71",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.1715050299852807
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06078925080491904
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.19747447209319996
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.08796684087317873
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.0649470692573459
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.03778865774384135
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.08523286075302339
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.03880992979739642
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.05449274965649961
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.048598506410442804
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.047885794737585474
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.013895754719865205
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.059809162625248796
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.09571365437778616
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.24459760079554588
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.034506120860862965
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.08441322287051406
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.40719869923750474
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.3861791032806339
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3188039588926388
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.23549523624769925
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.21159731776556423
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.12288222024174678
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.18290775285915178
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.2143192244753953
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.2343636353268
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.09747901733958786
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.13519548783902746
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.024712938051154043
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.30917836934723075
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.8034201427078502
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.029655421550599415
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.39272130281871037
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.651455396459969
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.4012056809832064
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3836366792809846
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.36206914400275353
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.36446013276642814
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.08455200590314049
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.2868641569978756
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3039210710792029
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3351508719174769
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.1307965440101332
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.20359584576240158
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.07880460608594331
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.410463567848467
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.065246600428917
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.09368851690635716
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.6234238890767836
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.03574785910260431
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.15362393729190493
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.09365664218315956
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.08861656285028797
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.04189046894995292
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.040710917511707106
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.03288094521802913
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.03986803235078622
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.016180939917682907
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.0371585439797882
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.061152518654588886
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.03202796253919285
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.1388112549269576
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.23063318882882508
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.07687788683744212
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.06752081256545951
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.2899315819927721
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.2538735045980039
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.383194866426526
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3448643646131123
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.19627107963996587
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.03808959356959396
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.15110879383315173
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.18628930240830593
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1518272755618102
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.25431883221781293
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3266866469718962
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.041860584425712555
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.49950604977109053
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.773424521589787
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.12096329295749825
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.3412453836808354
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.47963180940441785
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.18474535804068926
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.5074069581564995
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.5428548950295602
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.31242891506542597
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.17232119631019843
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.23388429596887544
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.2750227713271741
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.22936432713243543
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.39999138421453895
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.5063264195159247
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.18626122395423128
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.7082613920096403
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.0495606382888076
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.1128661588100941
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5450762034783958
+    }
+  ],
+  "coefficients": {
+    "FULL": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.48137927228238275
+        },
+        {
+          "term": "1st",
+          "weight": -0.3710527058254321
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.3710527058254321
+        },
+        {
+          "term": "affirmed",
+          "weight": -0.264779339059548
+        },
+        {
+          "term": "steps",
+          "weight": -0.24303469730831753
+        },
+        {
+          "term": "defendants",
+          "weight": -0.24046753687844477
+        },
+        {
+          "term": "is affirmed",
+          "weight": -0.2200474833443136
+        },
+        {
+          "term": "properly",
+          "weight": -0.2186929693617847
+        },
+        {
+          "term": "court properly",
+          "weight": -0.20232300054298455
+        },
+        {
+          "term": "affirmed with",
+          "weight": -0.19739979951163653
+        },
+        {
+          "term": "box",
+          "weight": -0.184248740574146
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.1822505396449823
+        },
+        {
+          "term": "the steps",
+          "weight": -0.17509459960457346
+        },
+        {
+          "term": "house",
+          "weight": -0.1732745195269884
+        },
+        {
+          "term": "unanimously affirmed",
+          "weight": -0.1686161840491635
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the",
+          "weight": 0.6159056231871899
+        },
+        {
+          "term": "the defendant",
+          "weight": 0.4932086361111017
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.3530087048434076
+        },
+        {
+          "term": "is",
+          "weight": 0.34522603314260114
+        },
+        {
+          "term": "the law",
+          "weight": 0.3373571872083414
+        },
+        {
+          "term": "reversed",
+          "weight": 0.32868668389648775
+        },
+        {
+          "term": "parking",
+          "weight": 0.32079996746322725
+        },
+        {
+          "term": "reversed on",
+          "weight": 0.317008685073839
+        },
+        {
+          "term": "costs and",
+          "weight": 0.3074573028878001
+        },
+        {
+          "term": "rug",
+          "weight": 0.3047289806051347
+        },
+        {
+          "term": "law with",
+          "weight": 0.25887947365951236
+        },
+        {
+          "term": "is reversed",
+          "weight": 0.25887947365951236
+        },
+        {
+          "term": "the parking",
+          "weight": 0.24034585656249075
+        },
+        {
+          "term": "complaint is",
+          "weight": 0.23474264447328952
+        },
+        {
+          "term": "court should",
+          "weight": 0.23202076775907343
+        }
+      ]
+    },
+    "MASKED": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.5213088703338661
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.4075640971166424
+        },
+        {
+          "term": "1st",
+          "weight": -0.4075640971166424
+        },
+        {
+          "term": "and",
+          "weight": -0.3008956070729887
+        },
+        {
+          "term": "defendants",
+          "weight": -0.27718774925342604
+        },
+        {
+          "term": "steps",
+          "weight": -0.2513215549612314
+        },
+        {
+          "term": "box",
+          "weight": -0.20643268776095103
+        },
+        {
+          "term": "the steps",
+          "weight": -0.1822886794155126
+        },
+        {
+          "term": "house",
+          "weight": -0.17454755165529995
+        },
+        {
+          "term": "injured plaintiff",
+          "weight": -0.1526553964303625
+        },
+        {
+          "term": "ale",
+          "weight": -0.15112351264583246
+        },
+        {
+          "term": "ale house",
+          "weight": -0.15112351264583246
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.1507192737984916
+        },
+        {
+          "term": "accident",
+          "weight": -0.14636918018259787
+        },
+        {
+          "term": "contention",
+          "weight": -0.1415656894271667
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the",
+          "weight": 0.4345678282722036
+        },
+        {
+          "term": "the defendant",
+          "weight": 0.41345124839711644
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.4001130021153375
+        },
+        {
+          "term": "parking",
+          "weight": 0.3294093574044032
+        },
+        {
+          "term": "is",
+          "weight": 0.3243849592839409
+        },
+        {
+          "term": "rug",
+          "weight": 0.3158651757082501
+        },
+        {
+          "term": "lack of",
+          "weight": 0.2548746595013863
+        },
+        {
+          "term": "the parking",
+          "weight": 0.24741069701871746
+        },
+        {
+          "term": "trivial",
+          "weight": 0.24467831082712396
+        },
+        {
+          "term": "lack",
+          "weight": 0.24440307987501023
+        },
+        {
+          "term": "mats",
+          "weight": 0.2414454307042324
+        },
+        {
+          "term": "the store",
+          "weight": 0.2329019961481141
+        },
+        {
+          "term": "when the",
+          "weight": 0.2277738670736832
+        },
+        {
+          "term": "constructive",
+          "weight": 0.2261694534263847
+        },
+        {
+          "term": "or",
+          "weight": 0.22561796256324693
+        }
+      ]
+    },
+    "RANDOM_11": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.48323938328634386
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.3576129251012828
+        },
+        {
+          "term": "1st",
+          "weight": -0.3576129251012828
+        },
+        {
+          "term": "affirmed",
+          "weight": -0.2594083102194242
+        },
+        {
+          "term": "steps",
+          "weight": -0.24848925792605694
+        },
+        {
+          "term": "defendants",
+          "weight": -0.19974590261092642
+        },
+        {
+          "term": "box",
+          "weight": -0.19765110974830533
+        },
+        {
+          "term": "is affirmed",
+          "weight": -0.1950042997162964
+        },
+        {
+          "term": "properly",
+          "weight": -0.19311801162202394
+        },
+        {
+          "term": "the steps",
+          "weight": -0.18475124230471818
+        },
+        {
+          "term": "court properly",
+          "weight": -0.18166149435521714
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.17583500860821766
+        },
+        {
+          "term": "unanimously affirmed",
+          "weight": -0.17552250456705493
+        },
+        {
+          "term": "food",
+          "weight": -0.17153181761344913
+        },
+        {
+          "term": "affirmed with",
+          "weight": -0.1715232708762108
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the",
+          "weight": 0.5712131459145244
+        },
+        {
+          "term": "the defendant",
+          "weight": 0.4576374275041738
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.3615025380257159
+        },
+        {
+          "term": "is",
+          "weight": 0.35557868125027514
+        },
+        {
+          "term": "the law",
+          "weight": 0.3282096649633495
+        },
+        {
+          "term": "reversed",
+          "weight": 0.31898603914138823
+        },
+        {
+          "term": "reversed on",
+          "weight": 0.3133199948895484
+        },
+        {
+          "term": "parking",
+          "weight": 0.3116633083449249
+        },
+        {
+          "term": "costs and",
+          "weight": 0.2888503721582773
+        },
+        {
+          "term": "rug",
+          "weight": 0.2776695534990928
+        },
+        {
+          "term": "the store",
+          "weight": 0.2632973577243989
+        },
+        {
+          "term": "when the",
+          "weight": 0.247885573531052
+        },
+        {
+          "term": "lack",
+          "weight": 0.2421989917820865
+        },
+        {
+          "term": "lack of",
+          "weight": 0.2421989917820865
+        },
+        {
+          "term": "mats",
+          "weight": 0.23646692948977135
+        }
+      ]
+    },
+    "RANDOM_23": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.49343226901601894
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.385108684151592
+        },
+        {
+          "term": "1st",
+          "weight": -0.385108684151592
+        },
+        {
+          "term": "defendants",
+          "weight": -0.2792204672852716
+        },
+        {
+          "term": "affirmed",
+          "weight": -0.2677941590464059
+        },
+        {
+          "term": "steps",
+          "weight": -0.22975439229069525
+        },
+        {
+          "term": "properly",
+          "weight": -0.2106986002723982
+        },
+        {
+          "term": "is affirmed",
+          "weight": -0.20896104079723885
+        },
+        {
+          "term": "box",
+          "weight": -0.1961276738842442
+        },
+        {
+          "term": "affirmed with",
+          "weight": -0.18481813901976157
+        },
+        {
+          "term": "court properly",
+          "weight": -0.181805845407007
+        },
+        {
+          "term": "unanimously affirmed",
+          "weight": -0.176816243772226
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.17279702339277095
+        },
+        {
+          "term": "affirmed without",
+          "weight": -0.17214561247056914
+        },
+        {
+          "term": "contention",
+          "weight": -0.16843881076796122
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the",
+          "weight": 0.5957393687667792
+        },
+        {
+          "term": "the defendant",
+          "weight": 0.4662206894764107
+        },
+        {
+          "term": "is",
+          "weight": 0.3668956901377896
+        },
+        {
+          "term": "parking",
+          "weight": 0.3590100879799535
+        },
+        {
+          "term": "the law",
+          "weight": 0.3224128115618446
+        },
+        {
+          "term": "reversed",
+          "weight": 0.3132314657697219
+        },
+        {
+          "term": "reversed on",
+          "weight": 0.3055340219915604
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.2975237086563658
+        },
+        {
+          "term": "costs and",
+          "weight": 0.2834365587306221
+        },
+        {
+          "term": "parking lot",
+          "weight": 0.26502078314052174
+        },
+        {
+          "term": "rug",
+          "weight": 0.2628314329857782
+        },
+        {
+          "term": "trivial",
+          "weight": 0.26236728897515205
+        },
+        {
+          "term": "law with",
+          "weight": 0.2585930335839205
+        },
+        {
+          "term": "is reversed",
+          "weight": 0.25040477481784645
+        },
+        {
+          "term": "lot",
+          "weight": 0.2501044831535462
+        }
+      ]
+    },
+    "RANDOM_37": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.48368175619093257
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.3723580100913456
+        },
+        {
+          "term": "1st",
+          "weight": -0.3723580100913456
+        },
+        {
+          "term": "affirmed",
+          "weight": -0.2761164190471871
+        },
+        {
+          "term": "defendants",
+          "weight": -0.2509757541117773
+        },
+        {
+          "term": "steps",
+          "weight": -0.24362270746325776
+        },
+        {
+          "term": "is affirmed",
+          "weight": -0.2154455128812175
+        },
+        {
+          "term": "properly",
+          "weight": -0.2041542481964202
+        },
+        {
+          "term": "affirmed with",
+          "weight": -0.19287819923332836
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.1882836744029555
+        },
+        {
+          "term": "unanimously affirmed",
+          "weight": -0.18610068902693638
+        },
+        {
+          "term": "court properly",
+          "weight": -0.18508952891928734
+        },
+        {
+          "term": "the steps",
+          "weight": -0.18249258211186223
+        },
+        {
+          "term": "affirmed without",
+          "weight": -0.18124917311003683
+        },
+        {
+          "term": "box",
+          "weight": -0.17473617193142602
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the defendant",
+          "weight": 0.48480745749547266
+        },
+        {
+          "term": "the",
+          "weight": 0.4731439239869556
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.361152633482728
+        },
+        {
+          "term": "the law",
+          "weight": 0.33998870677246257
+        },
+        {
+          "term": "reversed",
+          "weight": 0.33022326438635335
+        },
+        {
+          "term": "parking",
+          "weight": 0.3194556068492933
+        },
+        {
+          "term": "rug",
+          "weight": 0.31766451055692435
+        },
+        {
+          "term": "reversed on",
+          "weight": 0.3176137718969648
+        },
+        {
+          "term": "costs and",
+          "weight": 0.3162181761498574
+        },
+        {
+          "term": "is",
+          "weight": 0.2950950836030897
+        },
+        {
+          "term": "is reversed",
+          "weight": 0.2516779486522157
+        },
+        {
+          "term": "law with",
+          "weight": 0.2516779486522157
+        },
+        {
+          "term": "mats",
+          "weight": 0.24397618196411164
+        },
+        {
+          "term": "court should",
+          "weight": 0.23649661330151817
+        },
+        {
+          "term": "complaint is",
+          "weight": 0.23441578000442764
+        }
+      ]
+    },
+    "RANDOM_51": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.49550090940805774
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.36928967749336
+        },
+        {
+          "term": "1st",
+          "weight": -0.36928967749336
+        },
+        {
+          "term": "affirmed",
+          "weight": -0.2687239504596325
+        },
+        {
+          "term": "defendants",
+          "weight": -0.2560307507338208
+        },
+        {
+          "term": "steps",
+          "weight": -0.24087424928856385
+        },
+        {
+          "term": "properly",
+          "weight": -0.22172832238660423
+        },
+        {
+          "term": "is affirmed",
+          "weight": -0.21941846646972
+        },
+        {
+          "term": "court properly",
+          "weight": -0.21406147218083998
+        },
+        {
+          "term": "affirmed with",
+          "weight": -0.19751861284104127
+        },
+        {
+          "term": "motion which",
+          "weight": -0.18847465030951474
+        },
+        {
+          "term": "the steps",
+          "weight": -0.18482868244557768
+        },
+        {
+          "term": "box",
+          "weight": -0.17684643090056862
+        },
+        {
+          "term": "house",
+          "weight": -0.17582422685758492
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.17097372970007202
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the",
+          "weight": 0.4958571321896433
+        },
+        {
+          "term": "the defendant",
+          "weight": 0.4704130829000701
+        },
+        {
+          "term": "parking",
+          "weight": 0.31312062998341045
+        },
+        {
+          "term": "the law",
+          "weight": 0.3107785861407453
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.3058436578961606
+        },
+        {
+          "term": "rug",
+          "weight": 0.30507681005505916
+        },
+        {
+          "term": "reversed",
+          "weight": 0.3014754272340437
+        },
+        {
+          "term": "costs and",
+          "weight": 0.2958577681056093
+        },
+        {
+          "term": "reversed on",
+          "weight": 0.2866166580185541
+        },
+        {
+          "term": "is",
+          "weight": 0.26438023989375126
+        },
+        {
+          "term": "lack of",
+          "weight": 0.2461568876930734
+        },
+        {
+          "term": "mats",
+          "weight": 0.24397231253351995
+        },
+        {
+          "term": "lack",
+          "weight": 0.2360235589332165
+        },
+        {
+          "term": "the parking",
+          "weight": 0.23067199750546677
+        },
+        {
+          "term": "law with",
+          "weight": 0.2295764864460781
+        }
+      ]
+    },
+    "RANDOM_71": {
+      "toward_0": [
+        {
+          "term": "dept",
+          "weight": -0.48214247422271056
+        },
+        {
+          "term": "1st",
+          "weight": -0.3710904837366773
+        },
+        {
+          "term": "1st dept",
+          "weight": -0.3710904837366773
+        },
+        {
+          "term": "affirmed",
+          "weight": -0.2727750333777545
+        },
+        {
+          "term": "steps",
+          "weight": -0.2507345427684658
+        },
+        {
+          "term": "defendants",
+          "weight": -0.2487946375884213
+        },
+        {
+          "term": "is affirmed",
+          "weight": -0.22152238398212679
+        },
+        {
+          "term": "properly",
+          "weight": -0.22079602315071423
+        },
+        {
+          "term": "court properly",
+          "weight": -0.2077086157064185
+        },
+        {
+          "term": "affirmed with",
+          "weight": -0.20180740893350096
+        },
+        {
+          "term": "the plaintiffs",
+          "weight": -0.1768824575703548
+        },
+        {
+          "term": "their",
+          "weight": -0.1748471759763249
+        },
+        {
+          "term": "unanimously affirmed",
+          "weight": -0.17213880855869929
+        },
+        {
+          "term": "the steps",
+          "weight": -0.1650694131770557
+        },
+        {
+          "term": "affirmed without",
+          "weight": -0.16240218350179325
+        }
+      ],
+      "toward_1": [
+        {
+          "term": "the",
+          "weight": 0.5463029845676247
+        },
+        {
+          "term": "the defendant",
+          "weight": 0.4569242744206369
+        },
+        {
+          "term": "is",
+          "weight": 0.3718564079692825
+        },
+        {
+          "term": "the plaintiff",
+          "weight": 0.3525787093575714
+        },
+        {
+          "term": "the law",
+          "weight": 0.32388002265179244
+        },
+        {
+          "term": "reversed on",
+          "weight": 0.31492260850451576
+        },
+        {
+          "term": "reversed",
+          "weight": 0.3143735371008076
+        },
+        {
+          "term": "parking",
+          "weight": 0.3121126728659235
+        },
+        {
+          "term": "rug",
+          "weight": 0.30682814087222227
+        },
+        {
+          "term": "costs and",
+          "weight": 0.28566313269390026
+        },
+        {
+          "term": "trivial",
+          "weight": 0.26022409374372657
+        },
+        {
+          "term": "law with",
+          "weight": 0.24234627407890397
+        },
+        {
+          "term": "is reversed",
+          "weight": 0.24234627407890397
+        },
+        {
+          "term": "mats",
+          "weight": 0.2384809227754806
+        },
+        {
+          "term": "constructive",
+          "weight": 0.23676206792956878
+        }
+      ]
+    }
+  },
+  "timings": {
+    "TFIDF_LR_FULL": 0.3795920000120532,
+    "TFIDF_LR_MASKED": 0.35473150000325404,
+    "TFIDF_LR_RANDOM_11": 0.4290560999943409,
+    "TFIDF_LR_RANDOM_23": 0.34222660001250915,
+    "TFIDF_LR_RANDOM_37": 0.33703809999860823,
+    "TFIDF_LR_RANDOM_51": 0.3458270999835804,
+    "TFIDF_LR_RANDOM_71": 0.3569130999967456,
+    "TFIDF_SVM_FULL": 0.36211110002477653,
+    "TFIDF_SVM_MASKED": 0.3429169000010006
+  }
+}

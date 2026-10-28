@@ -2,6 +2,17 @@
 
 NYU Tandon Machine Learning Final Project — 506 provisional New York slip/trip-and-fall opinions.
 
+## Current MVP checkpoint — October 25, 2026
+
+The team-reviewed Partition A integration is complete: **120 selected cases, 119 assigned (86 train / 16 validation / 17 reserved test), and one companion-appeal hold**. The end-to-end notebook runs the baselines, frozen LEGAL-BERT comparison, masking checks and five-seed random-removal control. Model results are preliminary validation findings; the test period has not been evaluated.
+
+- [MVP results, protocol and reproduction](experiments/mvp_a/README.md)
+- [Executed notebook](experiments/mvp_a/Team_11_MVP.ipynb)
+- [MVP report PDF](reports/Team_11_MVP_IEEE/Team11_MVP_report.pdf)
+- [IEEE checkpoint report — LaTeX project](reports/Team_11_MVP_IEEE/main.tex)
+
+The workflow below remains the plan for later annotation rounds. Original draft statuses and the earlier provisional experiment are preserved as historical records.
+
 ## Current plan: everyone does A, then B, then C
 
 All three teammates independently annotate the **same batch**, then compare before moving on. The batches are rounds, not exclusive assignments to people.
@@ -41,4 +52,4 @@ We can discuss progress and open questions on Monday and agree on a manageable p
 - [Codebook](annotation/docs/CODEBOOK.md) · [Deliverables and commands](annotation/docs/DELIVERABLES.md) · [Flexible timeline](annotation/docs/TIMELINE.md)
 - [Earlier calibration comparison](https://github.com/rweng18/legal-judgment/blob/annotations/yinkui-calibration/annotation/submissions/yinkui/comparison/REPORT.md) — read only after saving your independent calibration answers; the historical two-person report is not batch-A completion.
 
-Workflow updated October 18, 2026. This update changes the annotation plan, not the substantive codebook or the status of any existing draft. No completed batch-wide comparison, human-gold dataset or classifier results are claimed.
+Annotation workflow updated October 18, 2026; current MVP summary added October 25. The substantive codebook and original draft files are unchanged. See the current MVP above for team review acceptance and completed classifier results.

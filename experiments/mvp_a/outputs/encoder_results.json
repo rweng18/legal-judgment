@@ -1,0 +1,1091 @@
+{
+  "grid": [
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.875,
+      "macro_f1": 0.873015873015873,
+      "confusion_matrix": [
+        [
+          6,
+          2
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.75,
+          0.25
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.875,
+      "macro_f1": 0.875,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.125,
+          0.875
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.875
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.875,
+      "macro_f1": 0.875,
+      "confusion_matrix": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.875,
+          0.125
+        ],
+        [
+          0.125,
+          0.875
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.875,
+        0.875
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "accuracy": 0.5625,
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5607843137254902,
+      "confusion_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.625,
+      "confusion_matrix": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.625,
+          0.375
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "class_counts": {
+        "0": 8,
+        "1": 8
+      },
+      "recall_by_class": [
+        0.625,
+        0.625
+      ]
+    }
+  ],
+  "predictions": [
+    {
+      "case_id": "NY-4849014",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.0266208287835643
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 2.328968940331213
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 3.694445329385495
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.0533589591252883
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -3.415684199216863
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 3.170082609245201
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.2734422576986222
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 2.4435839168243696
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5548501479346959
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.4047578515044886
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.18155789242586073
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.3235593802154363
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 2.6484902913240793
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -3.3469747698012147
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.4737769742742466
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.2417444381116166
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.8789424642401875
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 3.4355673746345787
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 6.011187780862056
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.91136415529001
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -6.078365531273471
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 5.07734315567521
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.2550018313363007
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 3.761937951815814
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.118087502927228
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.34935859121603985
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.26544934903438755
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.053540069921803934
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 4.934819667033922
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -5.571074341379772
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -3.11704981967374
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.1903108080644611
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.8220141588960184
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 4.701214365826472
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 8.493746402579474
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 2.7971559816794764
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -9.025303465729193
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 7.082181441607725
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -3.359381414290059
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 5.260541047557995
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.7249775464131698
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.17515146531790204
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.34396948214741996
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.46935436487151594
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 7.434409418907206
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -8.03461493673094
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -4.873838710791628
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.6016929957285779
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.9161961599238082
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.705515780772651
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 3.3022383491025202
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.6469738993998746
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.841852769816156
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.3596904846348761
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.15788839498948132
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 1.4901127042028484
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.11119094514601174
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -2.5318810782096
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.006083007661963
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.6568200103448478
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.4379750439835725
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.572394532578305
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.4333251567717064
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 0.1,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 1.898972070029953
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -1.6342866404797098
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 2.4648503840096674
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 5.463119275803328
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.8879491790214358
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -5.20441374097555
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.6310963560628795
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.15333230050291125
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 2.2318104524969766
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.5060579277920481
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -4.676015947314755
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.9430778306478
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 2.366217235575033
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 0.9219499853835038
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -4.04600916626231
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.0317711771672855
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 1.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 2.823626419051975
+    },
+    {
+      "case_id": "NY-4849014",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -2.3754197619008623
+    },
+    {
+      "case_id": "NY-4869542",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 3.385918469474335
+    },
+    {
+      "case_id": "NY-4898836",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 7.778450620841333
+    },
+    {
+      "case_id": "NY-4929051",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -1.1132213032930758
+    },
+    {
+      "case_id": "NY-5302167",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -7.760731949351187
+    },
+    {
+      "case_id": "NY-5304378",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -0.9007395354127818
+    },
+    {
+      "case_id": "NY-6451900",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 0.053274369921475495
+    },
+    {
+      "case_id": "NY-6622562",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 3.0392118548527973
+    },
+    {
+      "case_id": "NY-7853716",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.935324457191173
+    },
+    {
+      "case_id": "NY-7855719",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 0,
+      "decision_score": -7.037600409330153
+    },
+    {
+      "case_id": "NY-7857572",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 2.899865844524264
+    },
+    {
+      "case_id": "NY-7859429",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 3.066400810372132
+    },
+    {
+      "case_id": "NY-8435765",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 1,
+      "prediction": 1,
+      "decision_score": 1.5513814001111523
+    },
+    {
+      "case_id": "NY-9329602",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -5.671377960307204
+    },
+    {
+      "case_id": "NY-9355447",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 0,
+      "decision_score": -0.38991456062053753
+    },
+    {
+      "case_id": "NY-9355453",
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "C": 10.0,
+      "label": 0,
+      "prediction": 1,
+      "decision_score": 3.8514914020488797
+    }
+  ],
+  "encoder_lock": {
+    "model": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6"
+  },
+  "seconds": 194.27747249999084
+}

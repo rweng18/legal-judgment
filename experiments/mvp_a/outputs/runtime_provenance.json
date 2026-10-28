@@ -1,0 +1,35 @@
+{
+  "seed": 20261025,
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "random_seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "packages": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.9.1+cpu",
+    "transformers": "4.57.1",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2"
+  },
+  "encoder_lock": {
+    "model": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6"
+  },
+  "encoder_seconds": 194.27747249999084,
+  "code_hashes_lf": {
+    "experiments/mvp_a/pipeline.py": "31eb3e078c9e55a4c9e8bdac1144b0da2e5849041217e0e948df7c78e698355d",
+    "experiments/provisional_a/train.py": "ba72b4befd81e109d7936434ece5ac5736a7c8bfb0003db6fd65c33c11d4a740",
+    "experiments/provisional_a/model_lock.json": "18bbc6ccc0e8e59fa21853ec9945ad6fd12efa4e3dc8fc1ac964d1601fa98c72"
+  },
+  "test_evaluated": false
+}
