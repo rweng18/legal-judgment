@@ -8,6 +8,7 @@ The team-reviewed Partition A integration is complete: **120 selected cases, 119
 
 - [MVP results, protocol and reproduction](experiments/mvp_a/README.md)
 - [Executed notebook](experiments/mvp_a/Team_11_MVP.ipynb)
+- [MVP report PDF](reports/Team_11_MVP_IEEE/Team11_MVP_report.pdf)
 - [IEEE checkpoint report — LaTeX project](reports/Team_11_MVP_IEEE/main.tex)
 
 The workflow below remains the plan for later annotation rounds. Original draft statuses and the earlier provisional experiment are preserved as historical records.
