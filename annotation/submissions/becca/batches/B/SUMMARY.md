@@ -4,9 +4,9 @@ Updated October 28, 2026. Branch: `annotations/becca-batch-b`. Started from late
 
 ## Status
 
-Completed: **B_001–B_002, 10 of 169 cases**. B_003–B_034 remain pending (159 cases). This is a partial checkpoint, not a complete or frozen round submission.
+Completed: **B_001–B_003, 15 of 169 cases**. B_004–B_034 remain pending (154 cases). This is a partial checkpoint, not a complete or frozen round submission.
 
-All 10 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 remains in use. The central DECISIONS.md contains no substantive replacement rule version or team freeze. The user explicitly authorized B work; A comparison/MVP documentation was not treated as a new B labeling rule.
+All 15 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 remains in use. The central DECISIONS.md contains no substantive replacement rule version or team freeze. The user explicitly authorized B work; A comparison/MVP documentation was not treated as a new B labeling rule.
 
 ## Results
 
@@ -22,8 +22,13 @@ All 10 records are `llm_draft`; no human review or adjudication is claimed. Init
 | NY-6119453 | Boyle v. Pottery Barn Outlet | Include | Affirmed | 0 | Box condition both open and obvious and not inherently dangerous; engineer affidavit insufficient. |
 | NY-5312913 | Monaco v. Russillo | Include | Affirmed | 0 | Common-law noncreation/notice and separate GML § 205-e lack-of-culpability grounds; private home despite police response. |
 | NY-4337765 | Stevens v. Benjamin | Include | Affirmed | 0 | Defendants failed to address specific code allegations; applicability and violation not conclusively established. |
+| NY-4402418 | Andersen v. El Triunfo Laundromat Corp. | Include | Affirmed | 0 | Noncreation and lack of actual notice established prima facie; lack of constructive notice and speculative causation not established. |
+| NY-4617802 | Colon v. New York Mercantile Exch., Inc. | Include | Affirmed | 0 | C&W’s submission of plaintiff’s deposition failed to establish noncreation; hallway fall, not expressly on loading dock. |
+| NY-5950295 | Willstein v. Waldbaum, Inc. | Include | Affirmed | 0 | Neither defendant met its constructive-notice burden; two appeals concern one order. |
+| NY-9355448 | Francisco v. Pulla | Include | Affirmed | 0 | Photos/testimony failed to establish absence of danger or triviality; notice not pursued on appeal. |
+| NY-4725572 | Glosek v. Bella Pizza | Include | Reversed | 1 | Rug placement shown not dangerous; no triable issue, and complaint dismissed. |
 
-Draft totals: 7 included, 1 excluded, 2 unresolved. Included class counts: five 0 and two 1. These are annotation counts, not model performance or human-gold counts.
+Draft totals: 12 included, 1 excluded, 2 unresolved. Included class counts: nine 0 and three 1. These are annotation counts, not model performance or human-gold counts.
 
 ## Files and validation
 
@@ -33,17 +38,20 @@ Draft totals: 7 included, 1 excluded, 2 unresolved. Included class counts: five 
 - `drafts/B_002.draft-v1.json`: preserved first complete B_002 draft.
 - `chunks/B_002.json`: selected B_002 output, identical to its original draft.
 - `chunks/B_002.validation.json`: five records, exact chunk coverage and zero errors; expected warnings for five LLM drafts.
-- `checkpoint.jsonl`: ten-record partial merge against the batch B manifest, including review and excluded records. Supersedes the five-record checkpoint preserved in commit `10a1df8`; B_001 records are unchanged.
-- `checkpoint.jsonl.validation.json`: passed partial validation with zero errors; 159 missing IDs are expected until the remaining 32 chunks are finished.
+- `drafts/B_003.draft-v1.json`: preserved first complete B_003 draft.
+- `chunks/B_003.json`: selected B_003 output, identical to its original draft.
+- `chunks/B_003.validation.json`: five records, exact chunk coverage and zero errors; expected warnings for five LLM drafts.
+- `checkpoint.jsonl`: 15-record partial merge against the batch B manifest, including review and excluded records. Supersedes the ten-record checkpoint preserved in commit `6ea11f7`; B_001–B_002 records are unchanged.
+- `checkpoint.jsonl.validation.json`: passed partial validation with zero errors; 154 missing IDs are expected until the remaining 31 chunks are finished.
 - `checkpoint.summary.json`: descriptive counts and provisional audit candidates. No human audit has been performed and no complete round is frozen.
 - `progress.json`: exact completed/pending IDs, next chunk, selected-output hash and shared-calibration overlap IDs.
 - `prompts_used/`: resolved prompts and actual scope/provenance.
 - `human_review_log.md`: pending human review and case-specific assistant priorities.
 
-Validation checks source hashes, exact quotations and offsets, evidence references, all 19 issue topics per case, all 36 source passages across two chunks and basic consistency. It does not establish semantic correctness.
+Validation checks source hashes, exact quotations and offsets, evidence references, all 19 issue topics per case, all 51 source passages across three chunks and basic consistency. It does not establish semantic correctness.
 
 ## Independence and next step
 
-No peer B labels, previous automated labels for these cases, independent human notes or outside case facts were consulted. No B_001–B_002 case overlaps the shared calibration manifest. Four later B cases do overlap (NY-2993705, NY-3206955, NY-4310325 and NY-5960096); handle provenance/exposure explicitly when reached and do not silently count reused work as fresh independence. Prior human exposure is unknown. Nine completed decisions date to the preliminary training period. Monaco (NY-5312913) is a preliminary validation-period case and needs independent human eligibility/outcome review before human-gold evaluation use. No rules were tuned from that case.
+No peer B labels, previous automated labels for these cases, independent human notes or outside case facts were consulted. No B_001–B_003 case overlaps the shared calibration manifest. Four later B cases do overlap (NY-2993705, NY-3206955, NY-4310325 and NY-5960096); handle provenance/exposure explicitly when reached and do not silently count reused work as fresh independence. Prior human exposure is unknown. Thirteen completed decisions date to the preliminary training period. Monaco (NY-5312913) and Francisco (NY-9355448) are preliminary validation-period cases and need independent human eligibility/outcome review before human-gold evaluation use. No rules were tuned from those cases.
 
-Next input is `batches/B/chunks/B_003.md`. Continue full reading, original-draft preservation, exact evidence, validation and local checkpoint commits. Push when requested. At completion, merge exactly the 169 expected records, preserve and hash the complete draft before peer comparison, then compare/review B. All labels, exclusions and unresolved questions require the specified human review.
+Next input is `batches/B/chunks/B_004.md`. Continue full reading, original-draft preservation, exact evidence, validation and local checkpoint commits. Push when requested. At completion, merge exactly the 169 expected records, preserve and hash the complete draft before peer comparison, then compare/review B. All labels, exclusions and unresolved questions require the specified human review.

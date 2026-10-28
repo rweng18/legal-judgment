@@ -1,0 +1,11 @@
+# B_003 scope and provenance
+
+User instruction: “Start B_003”. Reviewer: becca. Only the five manifest cases assigned.
+
+Read all 15 passages in full: Andersen NY-4402418 P001–P004, Colon NY-4617802 P001–P004, Willstein NY-5950295 P001–P002, Francisco NY-9355448 P001–P003 and Glosek NY-4725572 P001–P002. Andersen’s split quotation, Colon’s split incident/ownership sentence and citation, and all remaining-contention passages were read. No case text was truncated.
+
+AGENTS.md and DECISIONS.md were rechecked. README, codebook, workflow, quality guidance and schema had been read. Initial schema/prompt/codebook 1.0.0 remains unchanged; no replacement substantive team freeze is claimed. Model: GPT-6 (Codex), exact version unknown/null. All records remain llm_draft with human reviewer null.
+
+No peer B annotations, prior labels for these cases, independent human notes or outside case facts were consulted. None of these five IDs overlaps the shared calibration manifest. Prior human exposure is unknown; no calibration records were reused. Semantic full reading supplied the annotations; code only serializes and checks exact quotations, structure, references and coverage. No annotation API calls, extra agents, downloads or push occurred. Original draft is preserved and initially identical to selected output.
+
+All five cases are included: Andersen, Colon, Willstein and Francisco affirm; Glosek reverses and dismisses the complaint. Andersen separates successful noncreation/actual-notice showings from failed constructive-notice and causal-identification grounds. Colon reaches substantive noncreation despite the lower court’s denial without prejudice to discovery, and locates the fall in a hallway rather than on the dock. Willstein has two appeals from one order, not two appealed orders. Francisco’s notice arguments were raised below but not pursued on appeal; its triviality and dangerousness rulings are failures of initial proof, not final liability. Glosek decides dangerousness of rug placement without an inferred open-and-obvious holding. Francisco is a preliminary validation-period case; unchanged initial rules applied without tuning. Mechanical validation is not legal correctness or human review.

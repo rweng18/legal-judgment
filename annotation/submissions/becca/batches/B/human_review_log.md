@@ -2,7 +2,7 @@
 
 Status as of October 28, 2026: **pending**.
 
-No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All ten B_001–B_002 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion, also with null label.
+No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All fifteen B_001–B_003 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion, also with null label.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, substantive annotation review, audit or adj
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-None of the ten completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+None of the fifteen completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -23,5 +23,15 @@ None of the ten completed IDs appears in the shared calibration manifest. The br
 - Stevens (NY-4337765): defendants’ failure to establish compliance or inapplicability does not prove a code violation. Control is supported by the residential steps and asserted maintenance; title is unstated. Plaintiff’s negligent-painting allegation is not a conclusive creation finding. The affirmance preserves the claim without determining liability.
 
 All five B_002 records are assistant include decisions under the initial rules, not human-reviewed labels. No substantive codebook changes were made.
+
+## B_003 review priorities
+
+- Andersen (NY-4402418): distinguish successful noncreation/actual-notice showings from failed constructive-notice and causal-identification grounds. Do not infer the foreign substance, laundromat use, evidence format or conclusive notice. The plaintiff need not personally perceive the cause if other admissible proof establishes it.
+- Colon (NY-4617802): read the incident/employer/ownership sentence across P001/P002. Plaintiff works for SEB, NYME owns the building and C&W manages/cleans it. The fall is in the hallway leading to the dock. Noncreation was not established, but janitors’ actual creation was not found. The appellate merits ruling makes this substantive despite the lower court’s without-prejudice discovery language.
+- Willstein (NY-5950295): separate appeals concern different branches of one order, fully affirmed. Neither defendant met the constructive-notice burden. The equipment-service contract is a fact, not an independently resolved contractor-duty theory or proof of a refrigeration leak. The 2005 accident date is not the 2010 opinion date. Puddle substance is unspecified.
+- Francisco (NY-9355448): photographs and defendant’s deposition did not establish absence of a defect or triviality. Do not turn this into a final defect finding or infer carpet measurements. Actual/constructive notice were raised below but not argued on appeal. The remaining unpreserved contention is unidentified. Keep June 2016 as a partial date and use the 2022 decision date for preliminary period classification; unchanged rules apply.
+- Glosek (NY-4725572): the rug-placement condition was shown not dangerous. Do not infer open-and-obvious, trivial-defect, notice or expert findings. Full reversal dismisses the complaint and favors defendant.
+
+All five B_003 records are assistant include decisions, not human-reviewed labels. Francisco requires independent human eligibility/outcome review before human-gold evaluation use. No substantive codebook changes were made.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.
