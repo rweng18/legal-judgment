@@ -1,14 +1,8 @@
 # Becca — batch B progress
 
-Updated October 28, 2026. Branch: `annotations/becca-batch-b`. Started from latest main revision `ecca2a4` at the user’s direction to begin batch B in small chunks.
+Completed **B_001–B_006: 30/169 cases**; 139 pending. Next: **B_007**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
 
-## Status
-
-Completed: **B_001–B_005, 25 of 169 cases**. B_006–B_034 remain pending (144 cases). This is a partial checkpoint, not a complete or frozen round submission.
-
-All 25 records are `llm_draft`; no human review or adjudication is claimed. Initial codebook/schema/prompt version 1.0.0 remains in use. The central DECISIONS.md contains no substantive replacement rule version or team freeze. The user explicitly authorized B work; A comparison/MVP documentation was not treated as a new B labeling rule.
-
-## Results
+All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
 | Case ID | Case | Eligibility | Current disposition | Binary label | Attention |
 |---|---|---|---|---|---|
@@ -37,37 +31,18 @@ All 25 records are `llm_draft`; no human review or adjudication is claimed. Init
 | NY-4306359 | Mann v. Wegmans Food Markets, Inc. | Include | Reversed | 1 | Storm defense established; lull and preexisting-ice theories did not raise an issue. |
 | NY-6475974 | DiScalo v. Mannix Family Mkt. | Include | Reversed | 1 | Flattened box both open and obvious and not inherently dangerous. |
 | NY-6473777 | Everett v. CMI Servs. Corp. | Include | Affirmed | 0 | Job-hazard, obviousness and workers’ compensation defenses not established. |
+| NY-4304286 | Wintermute | Exclude | Reversed | null | Procedural-only witness exclusion; reversed/null, new trial does not decide negligence. |
+| NY-5934656 | Mauge | Include | Affirmed | 0 | Restaurant control; noncreation/notice established, general grease awareness not recurrent-condition notice. |
+| NY-4654580 | Padilla | Review | Reversed | null | Review walkway boundary; causation showing failed, both motions in one order reversed. |
+| NY-4387315 | Lingenfelter | Include | Reversed | 1 | All Espinal exceptions rejected; direct negligence plus ancillary cross claim, full reversal. |
+| NY-6454036 | Padel | Review | Reversed | null | Review private status/exterior-step control; granted reargument reaches substantive constructive notice. |
 
-Draft totals: 21 included, 2 excluded, 2 unresolved. Included class counts: sixteen 0 and five 1. These are annotation counts, not model performance or human-gold counts.
+Totals: 23 included, 3 excluded, 4 unresolved. Included labels: 17 zero, 6 one. These are draft counts, not model performance.
 
-## Files and validation
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `72813b3`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-- `drafts/B_001.draft-v1.json`: preserved first complete draft.
-- `chunks/B_001.json`: selected output, identical to the original draft.
-- `chunks/B_001.validation.json`: five records, exact chunk coverage and zero errors; expected warnings for five LLM drafts and two unresolved review records.
-- `drafts/B_002.draft-v1.json`: preserved first complete B_002 draft.
-- `chunks/B_002.json`: selected B_002 output, identical to its original draft.
-- `chunks/B_002.validation.json`: five records, exact chunk coverage and zero errors; expected warnings for five LLM drafts.
-- `drafts/B_003.draft-v1.json`: preserved first complete B_003 draft.
-- `chunks/B_003.json`: selected B_003 output, identical to its original draft.
-- `chunks/B_003.validation.json`: five records, exact chunk coverage and zero errors; expected warnings for five LLM drafts.
-- `drafts/B_004.draft-v1.json`: preserved first complete B_004 draft.
-- `chunks/B_004.json`: selected B_004 output, identical to its original draft.
-- `chunks/B_004.validation.json`: five records, exact coverage and zero errors; expected LLM-draft warnings.
-- `drafts/B_005.draft-v1.json`: preserved first complete B_005 draft.
-- `chunks/B_005.json`: selected B_005 output, identical to its original draft.
-- `chunks/B_005.validation.json`: five records, exact coverage and zero errors; expected LLM-draft warnings.
-- `checkpoint.jsonl`: 25-record partial merge against the batch B manifest, including review and excluded records. Supersedes the 20-record checkpoint preserved in commit `fc7ec27`; B_001–B_004 records are unchanged.
-- `checkpoint.jsonl.validation.json`: passed partial validation with zero errors; 144 missing IDs are expected until the remaining 29 chunks are finished.
-- `checkpoint.summary.json`: descriptive counts and provisional audit candidates. No human audit has been performed and no complete round is frozen.
-- `progress.json`: exact completed/pending IDs, next chunk, selected-output hash and shared-calibration overlap IDs.
-- `prompts_used/`: resolved prompts and actual scope/provenance.
-- `human_review_log.md`: pending human review and case-specific assistant priorities.
+Validation passed: 30 unique records, 119 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 139 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
-Validation checks source hashes, exact quotations and offsets, evidence references, all 19 issue topics per case, all 94 source passages across five chunks and basic consistency. It does not establish semantic correctness.
+No peer labels or outside case facts consulted. Completed IDs do not overlap calibration. Later overlap IDs remain in progress.json and require explicit exposure handling. Prior human exposure is unknown. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
-## Independence and next step
-
-No peer B labels, previous automated labels for these cases, independent human notes or outside case facts were consulted. No B_001–B_005 case overlaps the shared calibration manifest. Four later B cases do overlap (NY-2993705, NY-3206955, NY-4310325 and NY-5960096); handle provenance/exposure explicitly when reached and do not silently count reused work as fresh independence. Prior human exposure is unknown. Nineteen completed decisions date to the preliminary training period. Monaco (NY-5312913), Francisco (NY-9355448), Fuentes (NY-8511901), DiScalo (NY-6475974) and Everett (NY-6473777) are preliminary validation-period cases; Cashwell (NY-9422144) is preliminary test-period. All require independent human eligibility/outcome review before human-gold evaluation use. No rules were tuned from held-out cases.
-
-Next input is `batches/B/chunks/B_006.md`. Continue full reading, original-draft preservation, exact evidence, validation and local checkpoint commits. Push when requested. At completion, merge exactly the 169 expected records, preserve and hash the complete draft before peer comparison, then compare/review B. All labels, exclusions and unresolved questions require the specified human review.
+Continue with `batches/B/chunks/B_007.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.

@@ -2,7 +2,7 @@
 
 Status as of October 28, 2026: **pending**.
 
-No human eligibility/outcome review, substantive annotation review, audit or adjudication has been recorded for batch B here. User authorization to annotate is not human review of the resulting records. All twenty-five B_001–B_005 records remain `llm_draft` with a null human reviewer. Elassad (NY-4546815) and Mogan (NY-2800741) retain unresolved review status and null binary labels. Parchment (NY-4613124) is an assistant procedural-only exclusion; Kalthoff (NY-5994504) is an insurance-coverage exclusion. Both retain null labels.
+No human eligibility/outcome review, audit or adjudication is recorded. All 30 B_001–B_006 records remain llm_draft with null human reviewers. Current totals: 4 unresolved and 3 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, substantive annotation review, audit or adj
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-None of the twenty-five completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+None of the 30 completed IDs appears in the shared calibration manifest. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -53,5 +53,15 @@ All five are assistant include/0 decisions. Cashwell (2023) and Fuentes (2022) u
 - Everett (NY-6473777): direct negligence appeal qualifies despite third-party parties and compensation defenses. Feces below floodwater differs from visible water. Failed alter-ego/special-employer showings do not conclusively settle employment status. Do not infer residential use from party names or Labor Law from workers’ compensation discussion.
 
 Four assistant inclusions and one exclusion; all await human review. DiScalo and Everett (2022) use unchanged rules and require independent human review before evaluation use.
+
+## B_006 review priorities
+
+- NY-4304286 (Wintermute): Procedural-only witness exclusion; reversed/null, new trial does not decide negligence.
+- NY-5934656 (Mauge): Restaurant control; noncreation/notice established, general grease awareness not recurrent-condition notice.
+- NY-4654580 (Padilla): Review walkway boundary; causation showing failed, both motions in one order reversed.
+- NY-4387315 (Lingenfelter): All Espinal exceptions rejected; direct negligence plus ancillary cross claim, full reversal.
+- NY-6454036 (Padel): Review private status/exterior-step control; granted reargument reaches substantive constructive notice.
+
+All remain assistant drafts; no rule changes or human review.
 
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.
