@@ -1,8 +1,8 @@
 # Human review log — Becca batch B
 
-Status as of October 28, 2026: **pending**.
+Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 45 B_001–B_009 records remain llm_draft with null human reviewers. Current totals: 7 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 50 B_001–B_010 records remain llm_draft with null human reviewers. Current totals: 9 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -91,6 +91,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-5937350 (Manto): Procedural-only exclusion: cross motions during death/substitution stay; reversed with consequential remittal.
 - NY-9406522 (Darginsky): Supermarket bathroom warnings remain triable; mopping substance and evidence format unstated.
 - NY-3177536 (Singh): On-premises driveway under branch inspection responsibility; customary practice did not establish actual inspection.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_010 review priorities
+
+- NY-5293244 (Marcano): Review on-or-near driveway boundary; weather evidence refuted alleged accumulation, not storm-in-progress defense.
+- NY-4576377 (Schult): Owned mall lot; conflicting snowfall accounts and insufficient meteorological timing defeat storm-defense burden.
+- NY-8619624 (Cortes): Cart obvious and not inherently dangerous; forgetting it did not create a trap. Discovery objection unsupported.
+- NY-4798937 (D’Amato): Owned exterior stairs; recurring awning melt/refreeze notice burden unmet, not final liability.
+- NY-4538884 (Hill): Review private status; janitorial compliance, last inspection and water duration not established.
 
 All remain assistant drafts; no rule changes or human review.
 
