@@ -1,0 +1,107 @@
+# Human review log — Becca batch B
+
+Status as of October 29, 2026: **pending**.
+
+No human eligibility/outcome review, audit or adjudication is recorded. All 50 B_001–B_010 records remain llm_draft with null human reviewers. Current totals: 9 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+
+## B_001 review priorities
+
+- Hernandez (NY-2766601): actual owned grounds are stated, but business use and exact accident area are not. Painting about three months earlier is not proof defendants created a dangerous condition; the court finds noncreation and lack of notice prima facie. Do not infer a deposition format, puddle, storm defense or third-party-only claim.
+- Colini (NY-4791129): the foot-catching account supports a trip while leaving the negligent cause speculative. No factual finding adopts moving carpeting. Defendant operates the restaurant party room. The earlier appellate dismissal-motion ruling and underlying trial order are procedural history, not independently appealed orders. Attorney affirmation insufficiency has no stated specific evidentiary rationale.
+- Elassad (NY-4546815): resolve whether the path in front of defendants’ home is privately owned/controlled. The opinion does not identify a municipal sidewalk or expressly place the path inside the property boundary. Preserve express tenant status and full date. Above-freezing certified weather does not disprove the alleged black ice; rejected snow-removal and duration theories remain speculative.
+- Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
+- Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
+
+Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+
+## B_002 review priorities
+
+- Patrick (NY-5947900): distinguish the later ice-cream observation from an identified causal hazard. Twenty minutes is the observation delay after the fall, not the duration before it. Lack of skid marks/duration bears on causation here; no independent constructive-notice finding is stated. Reversal grants defense dismissal.
+- Yarosh (NY-4619740): private supermarket vestibule and snow are explicit. No continuous-mopping/matting requirement does not eliminate reasonable care. Do not infer a storm-in-progress holding, weather records or plaintiff customer status. Reversal grants dismissal.
+- Boyle (NY-6119453): preserve both open-and-obvious and not-inherently-dangerous findings; visibility alone is not the holding. The engineer affidavit is speculative, conclusory and without foundation, but its theory and measurements are unstated. No code or notice theory is inferred.
+- Monaco (NY-5312913): distinguish common-law notice from the less demanding notice requirement and separate culpability requirement of GML § 205-e. The opinion does not identify particular predicate statutes or establish that no violation existed. The private home remains private despite a police emergency response. Apply unchanged validation-period rules and obtain independent human eligibility/outcome review before human-gold evaluation use.
+- Stevens (NY-4337765): defendants’ failure to establish compliance or inapplicability does not prove a code violation. Control is supported by the residential steps and asserted maintenance; title is unstated. Plaintiff’s negligent-painting allegation is not a conclusive creation finding. The affirmance preserves the claim without determining liability.
+
+All five B_002 records are assistant include decisions under the initial rules, not human-reviewed labels. No substantive codebook changes were made.
+
+## B_003 review priorities
+
+- Andersen (NY-4402418): distinguish successful noncreation/actual-notice showings from failed constructive-notice and causal-identification grounds. Do not infer the foreign substance, laundromat use, evidence format or conclusive notice. The plaintiff need not personally perceive the cause if other admissible proof establishes it.
+- Colon (NY-4617802): read the incident/employer/ownership sentence across P001/P002. Plaintiff works for SEB, NYME owns the building and C&W manages/cleans it. The fall is in the hallway leading to the dock. Noncreation was not established, but janitors’ actual creation was not found. The appellate merits ruling makes this substantive despite the lower court’s without-prejudice discovery language.
+- Willstein (NY-5950295): separate appeals concern different branches of one order, fully affirmed. Neither defendant met the constructive-notice burden. The equipment-service contract is a fact, not an independently resolved contractor-duty theory or proof of a refrigeration leak. The 2005 accident date is not the 2010 opinion date. Puddle substance is unspecified.
+- Francisco (NY-9355448): photographs and defendant’s deposition did not establish absence of a defect or triviality. Do not turn this into a final defect finding or infer carpet measurements. Actual/constructive notice were raised below but not argued on appeal. The remaining unpreserved contention is unidentified. Keep June 2016 as a partial date and use the 2022 decision date for preliminary period classification; unchanged rules apply.
+- Glosek (NY-4725572): the rug-placement condition was shown not dangerous. Do not infer open-and-obvious, trivial-defect, notice or expert findings. Full reversal dismisses the complaint and favors defendant.
+
+All five B_003 records are assistant include decisions, not human-reviewed labels. Francisco requires independent human eligibility/outcome review before human-gold evaluation use. No substantive codebook changes were made.
+
+## B_004 review priorities
+
+- Hayes (NY-5948742): preexisting ice and snow-versus-ice causation remain triable despite an established ongoing storm; do not infer notice, tenancy or final liability.
+- Depczynski (NY-4387362): noncreation/constructive-notice burden failed; actual notice abandoned, runoff theory not established, inspection-duty error immaterial. Ancillary procedural discussion does not exclude the merits.
+- Cashwell (NY-9422144): distinguish plaintiffs’ speculative source-of-puddle theory from inability to identify the immediate slip cause. Unspecified liquid is not necessarily water. Affirmance denies plaintiffs’ motion, not the complaint.
+- Micek (NY-3202838): church ownership supports private premises despite caterers’ lack of control. Direct negligence against caterers, limited appeal fully affirmed; no third-party-only exclusion.
+- Fuentes (NY-8511901): staircase location does not prove a stair/handrail defect. Owner/tenant roles refer to defendant/third-party defendant respectively; no evidence format or premises use is supplied.
+
+All five are assistant include/0 decisions. Cashwell (2023) and Fuentes (2022) use unchanged rules and require independent human review before evaluation use. No human review or codebook change occurred.
+
+## B_005 review priorities
+
+- Miskanic (NY-5937355): nondefect/noncreation/notice showings failed; primary assumption of risk initially established but concealed/increased risk remained triable. Unspecified deposition deponent is not assumed to be a party.
+- Kalthoff (NY-5994504): current insurance declaratory action is definitely outside negligence scope. Reversed/null; reason other, substantive coverage merits. Insurance notice is not premises notice. The last passage is a relevant footnote about the additional five-month delay and was read.
+- Mann (NY-4306359): a lull does not establish reasonable cleanup time. Meteorologist/weather reports supported the defense; preexisting ice was not shown triable. The unspecified objection to plaintiff’s affidavit was not reached.
+- DiScalo (NY-6475974): both obviousness and lack of inherent danger supported dismissal. Nearby employee stocking does not prove creation. No separate comparative-fault/assumption-of-risk ruling.
+- Everett (NY-6473777): direct negligence appeal qualifies despite third-party parties and compensation defenses. Feces below floodwater differs from visible water. Failed alter-ego/special-employer showings do not conclusively settle employment status. Do not infer residential use from party names or Labor Law from workers’ compensation discussion.
+
+Four assistant inclusions and one exclusion; all await human review. DiScalo and Everett (2022) use unchanged rules and require independent human review before evaluation use.
+
+## B_006 review priorities
+
+- NY-4304286 (Wintermute): Procedural-only witness exclusion; reversed/null, new trial does not decide negligence.
+- NY-5934656 (Mauge): Restaurant control; noncreation/notice established, general grease awareness not recurrent-condition notice.
+- NY-4654580 (Padilla): Review walkway boundary; causation showing failed, both motions in one order reversed.
+- NY-4387315 (Lingenfelter): All Espinal exceptions rejected; direct negligence plus ancillary cross claim, full reversal.
+- NY-6454036 (Padel): Review private status/exterior-step control; granted reargument reaches substantive constructive notice.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_007 review priorities
+
+- NY-2993705 (Richardson): Review slip/trip scope of fall off walkway into trench; prior CAL_002 development exposure, not fresh blind agreement.
+- NY-2800524 (Vazquez): Exclude: coworker fell; injured plaintiff was struck by dropped rock. Eyewitness affidavit defeats causation dismissal.
+- NY-5993188 (Rinberg): Private condo common area; association established no maintenance duty. Granted reargument reviews merits.
+- NY-8440748 (Henenlotter): Exclude public school-district property; storm defense established, no triable creation/exacerbation.
+- NY-4309275 (Gwitt): Constructive-notice burden unmet; manager’s conflicting affidavit raises credibility. Limited appeal fully affirmed.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_008 review priorities
+
+- NY-6058276 (Sims): Review private status; worn tread nonactionable, cause unexplained, expert speculative, no applicable code link.
+- NY-4400269 (Lawrence): Private mall parking area; stones both open and obvious and not inherently dangerous.
+- NY-4310731 (Mullaney): Invisible black ice defeats constructive notice; creation unalleged and actual notice abandoned.
+- NY-4851628 (Solomon): Review private status; stair gap not shown trivial and constructive-notice issues remain.
+- NY-4606641 (Butts): Office-condo walkway; causation and notice burdens unmet. Contractor-duty argument first raised in reply; one order, two appeals.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_009 review priorities
+
+- NY-6207337 (Alvarado): Storm defense applies despite light snow; preexisting-condition/notice and expert-practices challenges failed.
+- NY-8511862 (Rozo): Church-owned premises; defendant failed causal-identification burden, actual hazard unstated.
+- NY-5937350 (Manto): Procedural-only exclusion: cross motions during death/substitution stay; reversed with consequential remittal.
+- NY-9406522 (Darginsky): Supermarket bathroom warnings remain triable; mopping substance and evidence format unstated.
+- NY-3177536 (Singh): On-premises driveway under branch inspection responsibility; customary practice did not establish actual inspection.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_010 review priorities
+
+- NY-5293244 (Marcano): Review on-or-near driveway boundary; weather evidence refuted alleged accumulation, not storm-in-progress defense.
+- NY-4576377 (Schult): Owned mall lot; conflicting snowfall accounts and insufficient meteorological timing defeat storm-defense burden.
+- NY-8619624 (Cortes): Cart obvious and not inherently dangerous; forgetting it did not create a trap. Discovery objection unsupported.
+- NY-4798937 (D’Amato): Owned exterior stairs; recurring awning melt/refreeze notice burden unmet, not final liability.
+- NY-4538884 (Hill): Review private status; janitorial compliance, last inspection and water duration not established.
+
+All remain assistant drafts; no rule changes or human review.
+
+For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.

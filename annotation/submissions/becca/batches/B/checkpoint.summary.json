@@ -1,0 +1,77 @@
+{
+  "annotated_cases": 50,
+  "eligibility": {
+    "include": 35,
+    "exclude": 6,
+    "review": 9
+  },
+  "outcomes_all_cases": {
+    "affirmed": 36,
+    "reversed": 14
+  },
+  "included_class_counts": {
+    "0": 27,
+    "1": 8
+  },
+  "review_status": {
+    "llm_draft": 50
+  },
+  "planned_period_class_counts": {
+    "train": {
+      "0": 20,
+      "1": 6
+    },
+    "validation": {
+      "0": 6,
+      "1": 1
+    },
+    "test": {
+      "1": 1,
+      "0": 1
+    }
+  },
+  "needs_review": [
+    "NY-2800741",
+    "NY-2993705",
+    "NY-4538884",
+    "NY-4546815",
+    "NY-4654580",
+    "NY-4851628",
+    "NY-5293244",
+    "NY-6058276",
+    "NY-6454036"
+  ],
+  "unknown_field_counts": {
+    "premises_type": 14,
+    "location": 4,
+    "injured_role": 36
+  },
+  "accepted_words": {
+    "min": 238,
+    "median": 468,
+    "mean": 554.2,
+    "max": 1603
+  },
+  "random_training_audit_ids": [
+    "NY-5934656",
+    "NY-4402418",
+    "NY-5993188"
+  ],
+  "audit_seed": 20261019,
+  "evaluation_needing_human_review": [
+    "NY-4851628",
+    "NY-5293244",
+    "NY-5312913",
+    "NY-6454036",
+    "NY-6473777",
+    "NY-6475974",
+    "NY-8440748",
+    "NY-8511862",
+    "NY-8511901",
+    "NY-8619624",
+    "NY-9355448",
+    "NY-9406522",
+    "NY-9422144"
+  ],
+  "note": "Availability and annotation statistics, not classifier metrics. Freeze merged version before drawing the training audit. Family grouping remains required."
+}
