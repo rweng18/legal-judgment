@@ -2,7 +2,7 @@
 
 Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 50 B_001–B_010 records remain llm_draft with null human reviewers. Current totals: 9 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 55 B_001–B_011 records remain llm_draft with null human reviewers. Current totals: 9 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -101,6 +101,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-8619624 (Cortes): Cart obvious and not inherently dangerous; forgetting it did not create a trap. Discovery objection unsupported.
 - NY-4798937 (D’Amato): Owned exterior stairs; recurring awning melt/refreeze notice burden unmet, not final liability.
 - NY-4538884 (Hill): Review private status; janitorial compliance, last inspection and water duration not established.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_011 review priorities
+
+- NY-6068857 (Doran): Substantive damages/medical-causation review supports inclusion; earlier liability verdict is history, zero damages affirmed.
+- NY-6036489 (Dennis): Cause speculative despite later cement; noncreation/no notice also established. Causation ground preserved below.
+- NY-4898123 (Roland): General practices and surmised inspection did not negate notice; spoliation raised only on appeal, not decided on merits.
+- NY-4488266 (Firment): Witnesses/video contradicted mopping affidavit; extreme wetness and warning adequacy remain triable.
+- NY-2787571 (Abraido): Wheel stop obvious/not dangerous; lighting theory, contradictory affidavit and delayed expert measurements insufficient.
 
 All remain assistant drafts; no rule changes or human review.
 

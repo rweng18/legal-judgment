@@ -1,6 +1,6 @@
 # Becca — batch B progress
 
-Completed **B_001–B_010: 50/169 cases**; 119 pending. Next: **B_011**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
+Completed **B_001–B_011: 55/169 cases**; 114 pending. Next: **B_012**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
 
 All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
@@ -56,13 +56,18 @@ All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human rev
 | NY-8619624 | Cortes | Include | Affirmed | 0 | Cart obvious and not inherently dangerous; forgetting it did not create a trap. Discovery objection unsupported. |
 | NY-4798937 | D’Amato | Include | Affirmed | 0 | Owned exterior stairs; recurring awning melt/refreeze notice burden unmet, not final liability. |
 | NY-4538884 | Hill | Review | Affirmed | null | Review private status; janitorial compliance, last inspection and water duration not established. |
+| NY-6068857 | Doran | Include | Affirmed | 0 | Substantive damages/medical-causation review supports inclusion; earlier liability verdict is history, zero damages affirmed. |
+| NY-6036489 | Dennis | Include | Reversed | 1 | Cause speculative despite later cement; noncreation/no notice also established. Causation ground preserved below. |
+| NY-4898123 | Roland | Include | Reversed | 1 | General practices and surmised inspection did not negate notice; spoliation raised only on appeal, not decided on merits. |
+| NY-4488266 | Firment | Include | Affirmed | 0 | Witnesses/video contradicted mopping affidavit; extreme wetness and warning adequacy remain triable. |
+| NY-2787571 | Abraido | Include | Affirmed | 0 | Wheel stop obvious/not dangerous; lighting theory, contradictory affidavit and delayed expert measurements insufficient. |
 
-Totals: 35 included, 6 excluded, 9 unresolved. Included labels: 27 zero, 8 one. These are draft counts, not model performance.
+Totals: 40 included, 6 excluded, 9 unresolved. Included labels: 30 zero, 10 one. These are draft counts, not model performance.
 
-`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `cb4e21d`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `90caf5a`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-Validation passed: 50 unique records, 186 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 119 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
+Validation passed: 55 unique records, 207 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 114 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
 No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
-Continue with `batches/B/chunks/B_011.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
+Continue with `batches/B/chunks/B_012.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
