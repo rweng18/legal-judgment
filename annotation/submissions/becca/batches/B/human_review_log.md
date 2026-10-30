@@ -2,7 +2,7 @@
 
 Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 75 B_001–B_015 records remain llm_draft with null human reviewers. Current totals: 12 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 80 B_001–B_016 records remain llm_draft with null human reviewers. Current totals: 13 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, audit or adjudication is recorded. All 75 B
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+Completed calibration overlap: NY-2993705, NY-3206955. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -151,6 +151,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-5933946 (Gradwohl): Employee-use dolly: obviousness did not resolve safe-maintenance duty; context/distraction matters.
 - NY-5947506 (Castore): No creation/notice established; employee-spill and expert step/handrail theories speculative.
 - NY-4768128 (Von Euw): Private restaurant lease/operation; deposition could not identify cause.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_016 review priorities
+
+- NY-4628826 (Knight): Review slip/trip mechanism, not private status; tenant established no control/duty over common stairs.
+- NY-6017856 (Hardsog): Trivial chipped tiles; no actual depth measurement, expert assumptions insufficient. Inspection challenge abandoned.
+- NY-3206955 (Ackerman): Cause unidentified; affidavit raised feigned issues. Prior CAL_002 exposure, exclude from fresh blind agreement.
+- NY-6088552 (Wachspress): Wheel stops obvious/not dangerous; route/barricade/distraction theories unsupported.
+- NY-3149753 (Jackson): Display stools obvious but not established non-dangerous; cited precedent photos are not current-case evidence.
 
 All remain assistant drafts; no rule changes or human review.
 
