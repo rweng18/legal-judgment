@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 120 B_001–B_024 records remain llm_draft with null human reviewers. Current totals: 17 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 125 B_001–B_025 records remain llm_draft with null human reviewers. Current totals: 18 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -241,6 +241,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4573015 (Blanco): Review private-property status; unknown last inspection/cleaning defeats constructive-notice showing.
 - NY-4753705 (Bishop): Tenant-only appealed portion fully reversed; owner dismissal unappealed. Triviality, cause and obviousness burdens unmet.
 - NY-4379931 (Langgood): Majority reverses on rug safety/triviality, not sole inattention. Announced dissent omitted; controlling opinion complete.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_025 review priorities
+
+- NY-9422147 (Armenta): Oil observed an hour earlier; general cleaning practices insufficient. Obviousness raises comparative-fault issue.
+- NY-4326133 (Sohi): Incident-day maintenance record supports noncreation/no-notice showing; contents and precise intervals unstated.
+- NY-6038530 (Zegarelli): Review brick walkway ownership/control; delivery to home alone leaves private boundary unclear. Obviousness/safety merits affirmed.
+- NY-3180131 (Bryan): Direct contractor duty and all cross claims dismissed; unpleaded Espinal exceptions did not expand initial burden.
+- NY-2686417 (Rodriguez): Assistant manager described general practices without specific inspection/cleaning timing; constructive-notice burden unmet.
 
 All remain assistant drafts; no rule changes or human review.
 
