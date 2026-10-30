@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 85 B_001–B_017 records remain llm_draft with null human reviewers. Current totals: 13 unresolved and 7 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 90 B_001–B_018 records remain llm_draft with null human reviewers. Current totals: 13 unresolved and 8 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -171,6 +171,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4330075 (Bogaty): Granted reargument reaches wheel-stop merits; obvious and not inherently dangerous.
 - NY-4623671 (Polanco): Tracked rainwater: reasonable mats and no constructive notice; no constant-remedy requirement.
 - NY-4310325 (Jewett): Fully affirmed single order despite differing defendant outcomes; lease/control triable, BKV notice negated. Prior CAL_001 exposure.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_018 review priorities
+
+- NY-3178550 (Garcia): Private inter-building walkway; inspector measurement/photos established triviality, estimates insufficient.
+- NY-5951224 (Alexander): Known ice/alternate route concern comparative fault, not sole cause; recurring-ice notice remains triable.
+- NY-4520310 (Quinones): Specific inspection proof absent; handrail nondefect not established. Urine and movement remain allegations.
+- NY-4304466 (Spacht): Public county ownership despite commercial lease; snow-duty and causation defenses failed, reply-only notice grounds not reached.
+- NY-4763436 (Holmes): Pallet blocked stockroom entrance; safety and constructive-notice burdens unmet. No inferred employee role.
 
 All remain assistant drafts; no rule changes or human review.
 
