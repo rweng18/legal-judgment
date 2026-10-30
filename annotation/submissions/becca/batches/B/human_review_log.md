@@ -2,7 +2,7 @@
 
 Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 55 B_001–B_011 records remain llm_draft with null human reviewers. Current totals: 9 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 60 B_001–B_012 records remain llm_draft with null human reviewers. Current totals: 10 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -111,6 +111,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4898123 (Roland): General practices and surmised inspection did not negate notice; spoliation raised only on appeal, not decided on merits.
 - NY-4488266 (Firment): Witnesses/video contradicted mopping affidavit; extreme wetness and warning adequacy remain triable.
 - NY-2787571 (Abraido): Wheel stop obvious/not dangerous; lighting theory, contradictory affidavit and delayed expert measurements insufficient.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_012 review priorities
+
+- NY-4400268 (Lebron): Specific inspection/duration proof absent; general practices and speculative recent deposition of water insufficient.
+- NY-10040612 (Huseinovic): Substantive employment release bars direct injury claim; review release-based scope before human-gold use.
+- NY-4304440 (Alvarado): Review apparent duplicate of B_009 NY-6207337; preserve both drafts and resolve family before independent counts or splitting.
+- NY-6110053 (Abalo): Private home; authenticated photos/testimony established trivial saddle defect, not a universal size rule.
+- NY-9353901 (O’Connell): Lease absent initially and first supplied in reply; no-duty/out-of-possession burden unmet.
 
 All remain assistant drafts; no rule changes or human review.
 

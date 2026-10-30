@@ -1,0 +1,5 @@
+# B_012 scope and provenance
+
+User: proceed with B_012. All 18 passages read: Lebron P001–P003; Huseinovic P001–P004; Alvarado P001–P003; Abalo P001–P004; O’Connell P001–P004. Initial rules 1.0.0 unchanged; all llm_draft with no human review. No current-case prior label files reopened, peer outputs, outside facts, extra agents or annotation APIs used. No new calibration overlap; Richardson history preserved. Huseinovic (2024) and O’Connell (2022) use unchanged rules. GPT-6 (Codex), exact version unknown/null.
+
+Four included affirmances/0. Huseinovic’s release is a substantive defense to the direct personal-injury claim, rather than merely procedural dismissal. Alvarado NY-4304440 apparently duplicates NY-6207337 encountered in B_009; retain new ID as review/null for deduplication, acknowledge prior same-opinion exposure and preserve prior artifacts. Do not count it as fresh blind agreement. Quotes taken only from the current packet. Original draft preserved, selected initially identical; local checkpoint only.
