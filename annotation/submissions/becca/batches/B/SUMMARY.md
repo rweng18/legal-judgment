@@ -1,6 +1,6 @@
 # Becca — batch B progress
 
-Completed **B_001–B_020: 100/169 cases**; 69 pending. Next: **B_021**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
+Completed **B_001–B_034: 169/169 cases**; 0 pending. Complete assistant draft frozen before peer comparison. Branch `annotations/becca-batch-b`, started from `ecca2a4`. This freezes the assistant submission only; substantive team rules remain initial 1.0.0.
 
 All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
@@ -106,15 +106,90 @@ All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human rev
 | NY-4646279 | Fortune | Include | Affirmed | 0 | Direct claim against cleaning contractor; private grocery interior, cause unidentified, remaining theories not reached. |
 | NY-4674461 | Bongiovanni | Include | Affirmed | 0 | Substantive verdict review: negligence without causation reconcilable; plaintiff’s account discredited. No fault allocation inferred. |
 | NY-9444225 | Cosme | Exclude | Reversed | null | Public school exclusion; reversed/null. Drawer obviousness and notice not established on defense motion. |
+| NY-3170989 | Gleyzer | Include | Affirmed | 0 | Limited defense appeal affirmed; video and tray placement did not establish obviousness/safety. Cross-motion not appealed. |
+| NY-6000385 | Klerman | Include | Reversed | 1 | Noncreation and constructive-notice burdens unmet; general inspections lack accident-specific timing. |
+| NY-4474810 | Luna | Include | Reversed | 1 | Wetness assumed; no handrail causation. Contradictory affidavit insufficient; certified unsigned deposition usable. |
+| NY-5302359 | Telesco | Include | Affirmed | 0 | Ongoing storm proved; earlier ice and notice triable. Expert code-compliance opinion not adopted as a separate holding. |
+| NY-2770006 | Trapani | Include | Reversed | 1 | Cause unidentified; later water/cleaner affidavit feigned. Incident report and darkness do not establish fault or lighting violation. |
+| NY-9384905 | Gray | Include | Affirmed | 0 | Owned property; unspecified pad defect. Noncreation/notice burden failure, not established fault. |
+| NY-4394206 | Hickson | Include | Reversed | 1 | Unknown last aisle inspection defeats no-constructive-notice showing; tracked-in moisture source alleged. |
+| NY-4788649 | Valentin | Include | Affirmed | 0 | Flooding source not established; maintenance duty survives warning argument; walking through water not sole superseding cause. |
+| NY-2764663 | Fernandez | Include | Reversed | 1 | Defendants’ own evidence raises visibility/duration issues; resident role without inferred tenancy. |
+| NY-10025986 | Carmenati | Review | Affirmed | null | Review private-property status. Security inspection supports no constructive notice; no universal three-hour rule. |
+| NY-4599194 | Ramirez | Include | Affirmed | 0 | Deposition/video establish known obvious bucket not inherently dangerous; no trap for unwary. |
+| NY-3180121 | Drouillard | Include | Affirmed | 0 | Cause-identification, noncreation and constructive-notice burdens unmet. Packet title differs from controlling Smarr caption. |
+| NY-6083069 | Budano | Review | Affirmed | null | Review private-property status; trivial step and unsupported handrail/riser causation. No building use/title inferred. |
+| NY-5994509 | Fallon | Include | Affirmed | 0 | Private residence party; safe-maintenance showing upheld. Expert report inadmissible and lacked temporal/causal connection. |
+| NY-4509516 | Washington | Include | Affirmed | 0 | Storm conceded; preexisting ice and constructive notice triable. No actual notice shown; expert-disclosure discretion upheld. |
+| NY-4820874 | Nobile | Include | Affirmed | 0 | Unlit fire pit/poor lighting raise safety issues; obviousness does not negate maintenance duty or establish sole cause. |
+| NY-4568055 | Fox | Include | Affirmed | 0 | Estate-only affirmance; out-of-possession defense established, code theory both procedurally barred and inapplicable in part. |
+| NY-4573015 | Blanco | Review | Affirmed | null | Review private-property status; unknown last inspection/cleaning defeats constructive-notice showing. |
+| NY-4753705 | Bishop | Include | Reversed | 1 | Tenant-only appealed portion fully reversed; owner dismissal unappealed. Triviality, cause and obviousness burdens unmet. |
+| NY-4379931 | Langgood | Include | Reversed | 1 | Majority reverses on rug safety/triviality, not sole inattention. Announced dissent omitted; controlling opinion complete. |
+| NY-9422147 | Armenta | Include | Reversed | 1 | Oil observed an hour earlier; general cleaning practices insufficient. Obviousness raises comparative-fault issue. |
+| NY-4326133 | Sohi | Include | Affirmed | 0 | Incident-day maintenance record supports noncreation/no-notice showing; contents and precise intervals unstated. |
+| NY-6038530 | Zegarelli | Review | Affirmed | null | Review brick walkway ownership/control; delivery to home alone leaves private boundary unclear. Obviousness/safety merits affirmed. |
+| NY-3180131 | Bryan | Include | Reversed | 1 | Direct contractor duty and all cross claims dismissed; unpleaded Espinal exceptions did not expand initial burden. |
+| NY-2686417 | Rodriguez | Include | Reversed | 1 | Assistant manager described general practices without specific inspection/cleaning timing; constructive-notice burden unmet. |
+| NY-6079676 | Castillo | Include | Affirmed | 0 | Out-of-possession landlord lacked repair duty. Expert timing alone valid, but opinion speculative; prematurity argument new on appeal. |
+| NY-2751785 | Vazquez | Review | Reversed | null | Review property status; missing amended answer did not exist. Merits show no hazard and missed platform step. |
+| NY-5993240 | Denardo | Include | Reversed | 1 | Driveway snow/ice noncreation/notice burden unmet; alternate route not established sole cause. Private control supported. |
+| NY-9380647 | Nicotra | Include | Reversed | 1 | Limited defense cross-motion appeal fully reversed; danger, notice, triviality and obviousness burdens unmet. |
+| NY-4514984 | Doner | Review | Affirmed | null | Review ankle-roll fall mechanism; private ownership clear. Deposition/photo support nonspeculative worn-step causation. |
+| NY-4732795 | DeCarbo | Review | Reversed | null | Review private-property status; worn marble alone nonactionable, friction benchmark unsupported and expert causation speculative. |
+| NY-6214527 | Toma | Include | Affirmed | 0 | Handle trouble not notice of floor water; one judgment after deemed appeal. Noncreation/no-notice showing upheld. |
+| NY-4644378 | Jean-Paul | Exclude | Affirmed | null | Procedural-only exclusion: undisclosed bankruptcy asset/lack of capacity. Negligence merits and estoppel not decided. |
+| NY-4394153 | Priola | Include | Affirmed | 0 | Owned bowling premises, unidentified cause; no assumption-of-risk ruling inferred. |
+| NY-5952419 | Weeman | Include | Affirmed | 0 | Owner no-notice/noncreation and contractor no-duty grounds upheld; separate motions in one affirmed order. |
+| NY-9483767 | Amparo | Review | Reversed | null | Review fall mechanism; owned/leased premises clear. Control, repair-duty, danger, causation and constructive-notice burdens unmet. |
+| NY-10025951 | Tamburo | Include | Reversed | 1 | Conflicting slope/code experts raise danger/triviality issues; separate creation/notice burden unmet. No final code violation. |
+| NY-5939702 | Granillo | Include | Affirmed | 0 | Owned toy store customer; ice-cream slip. Inspection-timing burden failed, without stated evidence format or proven duration. |
+| NY-5934616 | Blochl | Include | Affirmed | 0 | Unknown cause; later water-or-paper affidavit feigned. Restaurant bathroom private, hazard unresolved. |
+| NY-5958452 | Clark | Include | Reversed | 1 | Dim light and unusual furniture placement leave table obviousness/safety issues; no conclusive plaintiff-fault finding. |
+| NY-6459053 | Clark | Include | Affirmed | 0 | Conflicting defense evidence defeats constructive-notice showing; precise conflict/evidence format unstated. |
+| NY-3176423 | Steed | Include | Reversed | 1 | Designated rear-lot smoking area creates illumination duty; catching-heel trip and private control supported. |
+| NY-6054824 | Racines | Include | Reversed | 1 | Owned dealership entrance; unidentified trip cause, no evidence format or customer role inferred. |
+| NY-6052406 | Green | Include | Reversed | 1 | Frequent inspection/no-notice showing upheld; next-day sandal grease and late expert inspection lack causal support. |
+| NY-10114448 | Arbit | Include | Reversed | 1 | Employee and safety log establish noncreation/no notice. Preserve 2:47–3:40 p.m. inspection window before about-4 p.m. fall. |
+| NY-4851261 | Edmund-Hunter | Include | Reversed | 1 | Express private walkway; storm/reasonable-remedy-time burden unmet. Public-sidewalk ordinance inapplicable. |
+| NY-4860863 | Giambruno | Include | Affirmed | 0 | Owned home driveway; vacation does not discharge safety duty, constructive-notice issues remain. |
+| NY-5960096 | Freiser | Include | Reversed | 1 | Prior CAL_001 exposure documented, metadata only reopened; exclude from fresh blind agreement. Wet-floor no-notice showing upheld. |
+| NY-6116126 | Gadzhiyeva | Include | Reversed | 1 | Porter affidavit consistent with deposition; noncreation/no-notice showing upheld, exact inspection time unstated. |
+| NY-4655093 | Odiorne | Include | Affirmed | 0 | Reasonable mopping and observed warning established. Discovery strike denied absent motion to compel; one fully affirmed order. |
+| NY-3159535 | Diers | Include | Affirmed | 0 | Video supports noncreation/no-notice showing; precise spill timeline not stated. |
+| NY-4502337 | Schumacher | Include | Affirmed | 0 | Shared residential entrance; conflicting party evidence and insufficient expert leave snow/ice condition disputed. |
+| NY-4770056 | Athenas | Include | Affirmed | 0 | Tenants lacked common-area duty and vicarious liability for independent cleaner; landlords lacked creation/notice. One order affirmed. |
+| NY-4308770 | Lane | Review | Affirmed | null | Review private-property status; circumstantial evidence near known uneven pavement supports causation without direct identification. |
+| NY-5298317 | Lamb | Include | Affirmed | 0 | Equipment ice creation/notice and Espinal issues triable; owner’s management agreement not lease, duty retained. One order affirmed. |
+| NY-9436604 | Ramrattan | Exclude | Affirmed | null | Procedural-only exclusion: improper cross-examination harmless; rebuttal exclusion discretionary. No negligence merits ruling. |
+| NY-6473776 | Flores | Include | Affirmed | 0 | Owned orchard; obvious, non-dangerous grass condition incidental to property. Attorney-annexed evidence acceptable. |
+| NY-10128971 | Carmona | Exclude | Affirmed | null | Public city-owned tree well excluded; abutting owners no duty/creation/special use. Companion decision not incorporated. |
+| NY-9368767 | Vinokurova | Include | Affirmed | 0 | Owned building; manager’s general practices insufficient on notice. Precise hazard/use subtype unstated. |
+| NY-5964247 | Nisi | Include | Affirmed | 0 | Noncreation/no-notice showing upheld; subsequent notice affidavit feigned. Liquid type and inspection timing unstated. |
+| NY-4306330 | Seferagic | Include | Reversed | 1 | No actual/constructive notice established; rain-day warning cones precautionary. Creation not asserted. |
+| NY-8241187 | Martell | Exclude | Reversed | null | Procedural-only expert-preclusion reversal/new trial. Duty/code analysis explains admissibility, not factual negligence. |
+| NY-4633211 | Flaccavento | Include | Reversed | 1 | Conflicting plaintiff/manager mat descriptions leave constructive-notice issues; burden unmet. |
+| NY-5943322 | Serrano | Review | Affirmed | null | Review private-property status; no-notice showing upheld, legal causation opinion disregarded. One order affirmed. |
+| NY-3154375 | Lorenzo | Review | Affirmed | null | Review private-property status; causal gaps insufficient for defense burden, alleged photo spoliation did not warrant dismissal. |
+| NY-9394581 | Straub | Include | Affirmed | 0 | Restaurant lease; landlord assumed no repair duty in tenant space. Common-area visits insufficient; statutes inapplicable. |
+| NY-2686418 | Russo | Include | Reversed | 1 | Low empty employee-use pallet jack and display distraction leave unsafe-creation/danger issues; no final fault finding. |
+| NY-9427393 | Yarmak | Review | Affirmed | null | Review private-property status. General supervisor practices lack inspection timing; January 2015 date only. |
+| NY-6001231 | Minor | Include | Affirmed | 0 | Owned apartment stairs; conclusory inspection remarks and step photos leave constructive-notice issues. Owner-only appeal. |
 
-Totals: 77 included, 9 excluded, 14 unresolved. Included labels: 57 zero, 20 one. These are draft counts, not model performance.
+Totals: 130 included, 13 excluded, 26 unresolved. Included labels: 86 zero, 44 one. These are draft counts, not model performance.
 
-`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `4fb5f1a`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `326ad34`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-Validation passed: 100 unique records, 378 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 69 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
+Validation passed: 169 unique records, 647 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. Full-manifest validation has zero missing or extra IDs. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
-No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
+No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325, NY-5960096. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
 Possible duplicate family: NY-6207337 (B_009) / NY-4304440 (B_012). Prior draft retained; new record review/null. Resolve before independent counts or train/validation/test splitting.
 
-Continue with `batches/B/chunks/B_021.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
+Next: human review and B comparison after all three reviewer submissions are complete and frozen. Resolve the possible duplicate family before agreement counts or data splitting and report calibration cases separately. Local commits; push when requested.
+
+## Complete assistant-draft freeze
+
+`annotations.jsonl` contains all 169 IDs exactly once, including excluded and unresolved cases. `annotations.validation.json` records full-manifest validation; `annotations.summary.json` contains draft counts. `drafts/B.complete-draft-v1.jsonl` is an identical preserved snapshot. `freeze.json` records file, selected-chunk, codebook, schema and manifest hashes.
+
+SHA-256: `0e311e10eda6e2086f629a78e70001ebe9fd54a2f2ccab2536d2be104a98c561`. All records remain llm_draft, with no human review, peer comparison, adjudication or consolidation claimed. Do not overwrite the frozen draft when making later corrections.

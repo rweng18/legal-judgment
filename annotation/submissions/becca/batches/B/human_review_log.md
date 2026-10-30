@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 100 B_001–B_020 records remain llm_draft with null human reviewers. Current totals: 14 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 169 B_001–B_034 records remain llm_draft with null human reviewers. Current totals: 26 unresolved and 13 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, audit or adjudication is recorded. All 100 
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325, NY-5960096. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -204,4 +204,147 @@ All remain assistant drafts; no rule changes or human review.
 
 All remain assistant drafts; no rule changes or human review.
 
+## B_021 review priorities
+
+- NY-3170989 (Gleyzer): Limited defense appeal affirmed; video and tray placement did not establish obviousness/safety. Cross-motion not appealed.
+- NY-6000385 (Klerman): Noncreation and constructive-notice burdens unmet; general inspections lack accident-specific timing.
+- NY-4474810 (Luna): Wetness assumed; no handrail causation. Contradictory affidavit insufficient; certified unsigned deposition usable.
+- NY-5302359 (Telesco): Ongoing storm proved; earlier ice and notice triable. Expert code-compliance opinion not adopted as a separate holding.
+- NY-2770006 (Trapani): Cause unidentified; later water/cleaner affidavit feigned. Incident report and darkness do not establish fault or lighting violation.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_022 review priorities
+
+- NY-9384905 (Gray): Owned property; unspecified pad defect. Noncreation/notice burden failure, not established fault.
+- NY-4394206 (Hickson): Unknown last aisle inspection defeats no-constructive-notice showing; tracked-in moisture source alleged.
+- NY-4788649 (Valentin): Flooding source not established; maintenance duty survives warning argument; walking through water not sole superseding cause.
+- NY-2764663 (Fernandez): Defendants’ own evidence raises visibility/duration issues; resident role without inferred tenancy.
+- NY-10025986 (Carmenati): Review private-property status. Security inspection supports no constructive notice; no universal three-hour rule.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_023 review priorities
+
+- NY-4599194 (Ramirez): Deposition/video establish known obvious bucket not inherently dangerous; no trap for unwary.
+- NY-3180121 (Drouillard): Cause-identification, noncreation and constructive-notice burdens unmet. Packet title differs from controlling Smarr caption.
+- NY-6083069 (Budano): Review private-property status; trivial step and unsupported handrail/riser causation. No building use/title inferred.
+- NY-5994509 (Fallon): Private residence party; safe-maintenance showing upheld. Expert report inadmissible and lacked temporal/causal connection.
+- NY-4509516 (Washington): Storm conceded; preexisting ice and constructive notice triable. No actual notice shown; expert-disclosure discretion upheld.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_024 review priorities
+
+- NY-4820874 (Nobile): Unlit fire pit/poor lighting raise safety issues; obviousness does not negate maintenance duty or establish sole cause.
+- NY-4568055 (Fox): Estate-only affirmance; out-of-possession defense established, code theory both procedurally barred and inapplicable in part.
+- NY-4573015 (Blanco): Review private-property status; unknown last inspection/cleaning defeats constructive-notice showing.
+- NY-4753705 (Bishop): Tenant-only appealed portion fully reversed; owner dismissal unappealed. Triviality, cause and obviousness burdens unmet.
+- NY-4379931 (Langgood): Majority reverses on rug safety/triviality, not sole inattention. Announced dissent omitted; controlling opinion complete.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_025 review priorities
+
+- NY-9422147 (Armenta): Oil observed an hour earlier; general cleaning practices insufficient. Obviousness raises comparative-fault issue.
+- NY-4326133 (Sohi): Incident-day maintenance record supports noncreation/no-notice showing; contents and precise intervals unstated.
+- NY-6038530 (Zegarelli): Review brick walkway ownership/control; delivery to home alone leaves private boundary unclear. Obviousness/safety merits affirmed.
+- NY-3180131 (Bryan): Direct contractor duty and all cross claims dismissed; unpleaded Espinal exceptions did not expand initial burden.
+- NY-2686417 (Rodriguez): Assistant manager described general practices without specific inspection/cleaning timing; constructive-notice burden unmet.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_026 review priorities
+
+- NY-6079676 (Castillo): Out-of-possession landlord lacked repair duty. Expert timing alone valid, but opinion speculative; prematurity argument new on appeal.
+- NY-2751785 (Vazquez): Review property status; missing amended answer did not exist. Merits show no hazard and missed platform step.
+- NY-5993240 (Denardo): Driveway snow/ice noncreation/notice burden unmet; alternate route not established sole cause. Private control supported.
+- NY-9380647 (Nicotra): Limited defense cross-motion appeal fully reversed; danger, notice, triviality and obviousness burdens unmet.
+- NY-4514984 (Doner): Review ankle-roll fall mechanism; private ownership clear. Deposition/photo support nonspeculative worn-step causation.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_027 review priorities
+
+- NY-4732795 (DeCarbo): Review private-property status; worn marble alone nonactionable, friction benchmark unsupported and expert causation speculative.
+- NY-6214527 (Toma): Handle trouble not notice of floor water; one judgment after deemed appeal. Noncreation/no-notice showing upheld.
+- NY-4644378 (Jean-Paul): Procedural-only exclusion: undisclosed bankruptcy asset/lack of capacity. Negligence merits and estoppel not decided.
+- NY-4394153 (Priola): Owned bowling premises, unidentified cause; no assumption-of-risk ruling inferred.
+- NY-5952419 (Weeman): Owner no-notice/noncreation and contractor no-duty grounds upheld; separate motions in one affirmed order.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_028 review priorities
+
+- NY-9483767 (Amparo): Review fall mechanism; owned/leased premises clear. Control, repair-duty, danger, causation and constructive-notice burdens unmet.
+- NY-10025951 (Tamburo): Conflicting slope/code experts raise danger/triviality issues; separate creation/notice burden unmet. No final code violation.
+- NY-5939702 (Granillo): Owned toy store customer; ice-cream slip. Inspection-timing burden failed, without stated evidence format or proven duration.
+- NY-5934616 (Blochl): Unknown cause; later water-or-paper affidavit feigned. Restaurant bathroom private, hazard unresolved.
+- NY-5958452 (Clark): Dim light and unusual furniture placement leave table obviousness/safety issues; no conclusive plaintiff-fault finding.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_029 review priorities
+
+- NY-6459053 (Clark): Conflicting defense evidence defeats constructive-notice showing; precise conflict/evidence format unstated.
+- NY-3176423 (Steed): Designated rear-lot smoking area creates illumination duty; catching-heel trip and private control supported.
+- NY-6054824 (Racines): Owned dealership entrance; unidentified trip cause, no evidence format or customer role inferred.
+- NY-6052406 (Green): Frequent inspection/no-notice showing upheld; next-day sandal grease and late expert inspection lack causal support.
+- NY-10114448 (Arbit): Employee and safety log establish noncreation/no notice. Preserve 2:47–3:40 p.m. inspection window before about-4 p.m. fall.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_030 review priorities
+
+- NY-4851261 (Edmund-Hunter): Express private walkway; storm/reasonable-remedy-time burden unmet. Public-sidewalk ordinance inapplicable.
+- NY-4860863 (Giambruno): Owned home driveway; vacation does not discharge safety duty, constructive-notice issues remain.
+- NY-5960096 (Freiser): Prior CAL_001 exposure documented, metadata only reopened; exclude from fresh blind agreement. Wet-floor no-notice showing upheld.
+- NY-6116126 (Gadzhiyeva): Porter affidavit consistent with deposition; noncreation/no-notice showing upheld, exact inspection time unstated.
+- NY-4655093 (Odiorne): Reasonable mopping and observed warning established. Discovery strike denied absent motion to compel; one fully affirmed order.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_031 review priorities
+
+- NY-3159535 (Diers): Video supports noncreation/no-notice showing; precise spill timeline not stated.
+- NY-4502337 (Schumacher): Shared residential entrance; conflicting party evidence and insufficient expert leave snow/ice condition disputed.
+- NY-4770056 (Athenas): Tenants lacked common-area duty and vicarious liability for independent cleaner; landlords lacked creation/notice. One order affirmed.
+- NY-4308770 (Lane): Review private-property status; circumstantial evidence near known uneven pavement supports causation without direct identification.
+- NY-5298317 (Lamb): Equipment ice creation/notice and Espinal issues triable; owner’s management agreement not lease, duty retained. One order affirmed.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_032 review priorities
+
+- NY-9436604 (Ramrattan): Procedural-only exclusion: improper cross-examination harmless; rebuttal exclusion discretionary. No negligence merits ruling.
+- NY-6473776 (Flores): Owned orchard; obvious, non-dangerous grass condition incidental to property. Attorney-annexed evidence acceptable.
+- NY-10128971 (Carmona): Public city-owned tree well excluded; abutting owners no duty/creation/special use. Companion decision not incorporated.
+- NY-9368767 (Vinokurova): Owned building; manager’s general practices insufficient on notice. Precise hazard/use subtype unstated.
+- NY-5964247 (Nisi): Noncreation/no-notice showing upheld; subsequent notice affidavit feigned. Liquid type and inspection timing unstated.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_033 review priorities
+
+- NY-4306330 (Seferagic): No actual/constructive notice established; rain-day warning cones precautionary. Creation not asserted.
+- NY-8241187 (Martell): Procedural-only expert-preclusion reversal/new trial. Duty/code analysis explains admissibility, not factual negligence.
+- NY-4633211 (Flaccavento): Conflicting plaintiff/manager mat descriptions leave constructive-notice issues; burden unmet.
+- NY-5943322 (Serrano): Review private-property status; no-notice showing upheld, legal causation opinion disregarded. One order affirmed.
+- NY-3154375 (Lorenzo): Review private-property status; causal gaps insufficient for defense burden, alleged photo spoliation did not warrant dismissal.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_034 review priorities
+
+- NY-9394581 (Straub): Restaurant lease; landlord assumed no repair duty in tenant space. Common-area visits insufficient; statutes inapplicable.
+- NY-2686418 (Russo): Low empty employee-use pallet jack and display distraction leave unsafe-creation/danger issues; no final fault finding.
+- NY-9427393 (Yarmak): Review private-property status. General supervisor practices lack inspection timing; January 2015 date only.
+- NY-6001231 (Minor): Owned apartment stairs; conclusory inspection remarks and step photos leave constructive-notice issues. Owner-only appeal.
+
+All remain assistant drafts; no rule changes or human review.
+
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.
+
+## Complete B draft checkpoint
+
+All 169 cases are present and structurally validated; the complete assistant draft is hash-preserved in `drafts/B.complete-draft-v1.jsonl` with metadata in `freeze.json`. This is not human review. Review all unresolved/excluded cases and perform the required comparison/audits after all reviewers freeze their submissions. Calibration exposure and the possible duplicate family remain pending human handling; no peer outputs were opened.

@@ -1,7 +1,7 @@
 {
   "reviewer_id": "becca",
   "batch": "B",
-  "status": "partial_llm_draft",
+  "status": "complete_llm_draft",
   "completed_chunks": [
     "B_001",
     "B_002",
@@ -22,9 +22,7 @@
     "B_017",
     "B_018",
     "B_019",
-    "B_020"
-  ],
-  "pending_chunks": [
+    "B_020",
     "B_021",
     "B_022",
     "B_023",
@@ -40,6 +38,7 @@
     "B_033",
     "B_034"
   ],
+  "pending_chunks": [],
   "completed_case_ids": [
     "NY-2766601",
     "NY-4791129",
@@ -140,9 +139,7 @@
     "NY-5959861",
     "NY-4646279",
     "NY-4674461",
-    "NY-9444225"
-  ],
-  "pending_case_ids": [
+    "NY-9444225",
     "NY-3170989",
     "NY-6000385",
     "NY-4474810",
@@ -213,7 +210,8 @@
     "NY-9427393",
     "NY-6001231"
   ],
-  "next_chunk": "B_021",
+  "pending_case_ids": [],
+  "next_chunk": null,
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
@@ -238,7 +236,21 @@
     "B_017": "038feca7cca7796b1d36b149bd28f4ab3547835ed54cd731c5fe8cffce16ef91",
     "B_018": "c8c1c3687ecf6f025256d3c993a610d7b78ec14143243028a11163a28b30f238",
     "B_019": "780290cd69aef9f3f942f71203e3f4653141d0d636bc356c4c9e42b56dac0da0",
-    "B_020": "a96d64a0b7f920002de350ac95683854eef490416a41e7b192439ed88cf7079a"
+    "B_020": "a96d64a0b7f920002de350ac95683854eef490416a41e7b192439ed88cf7079a",
+    "B_021": "9c129a477e11cd815923992d1d63ca982521e324ec07639d02950d1e749b8203",
+    "B_022": "83bc5498f170862491a2ddf08771d71f592875a2485cbb091d4bdedf6bcf8884",
+    "B_023": "dc13128541540bee6d34d7540d1692d867351fdf94aa959891f46c380b75922a",
+    "B_024": "2dc99287f188e447dca5dcd614b41d29b9c94e70bc0ed0c68be88391e30b1e31",
+    "B_025": "5eafc13f05ba1d2979b42549a0db574ec9b1a4a02fdcc10e439b1671aacb94a2",
+    "B_026": "5e51472965b63f233c0b418636e45db5f12dd314bdf1a6726274c05cddc96a06",
+    "B_027": "20d8655cae2e4c16b7fdfc246eaab944ed6a43c97910e0d62d7a2d737af64cae",
+    "B_028": "f62fa95154a6b17b50b05ea3b2468100237c54ccb6dde6648225d8704767e479",
+    "B_029": "1c31a403c72387ed6755ab4c33d5a3711b543f2b3027eb6e96559732dd64d6a7",
+    "B_030": "cfd4ec7df064178babb7762af029f15c822ed510905d07d10154f2637b867c6d",
+    "B_031": "9f2fd946ebd79b0dea517294d366a06278f7802cd959f1a45492b7cb655299bf",
+    "B_032": "680f06121fd77316e14ad12f7b1053ee048b9b69581c79f54ada62bb02803249",
+    "B_033": "b31cf52bcb6f33ff2689b32e83439032274fefe6c5fd221ac26564daafa5a991",
+    "B_034": "f9823bbcdfdda6aab61c38be6b0f9740ea54ed9ff1800e0ca909e8ee28b8001a"
   },
   "batch_shared_calibration_case_ids": [
     "NY-2993705",
@@ -246,12 +258,13 @@
     "NY-4310325",
     "NY-5960096"
   ],
-  "exposure_note": "Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown.",
+  "exposure_note": "Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325, NY-5960096. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown.",
   "starting_commit": "ecca2a41c96ad80f6d9f91a90bb894fa2ddad9b8",
   "completed_calibration_case_ids": [
     "NY-2993705",
     "NY-3206955",
-    "NY-4310325"
+    "NY-4310325",
+    "NY-5960096"
   ],
   "possible_duplicate_families": [
     {
@@ -266,5 +279,10 @@
       "status": "pending_human_deduplication",
       "note": "Apparent same appellate decision in different source formatting. B_012 record review/null; prior draft preserved. Resolve before independent agreement counts or dataset splitting."
     }
-  ]
+  ],
+  "annotations_file": "annotations.jsonl",
+  "annotations_sha256": "0e311e10eda6e2086f629a78e70001ebe9fd54a2f2ccab2536d2be104a98c561",
+  "frozen_draft_file": "drafts/B.complete-draft-v1.jsonl",
+  "independent_draft_frozen": true,
+  "next_step": "Human review and round-B comparison after all three reviewer submissions are complete and frozen; resolve duplicate family and report calibration cases separately."
 }
