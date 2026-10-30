@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 150 B_001–B_030 records remain llm_draft with null human reviewers. Current totals: 22 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 155 B_001–B_031 records remain llm_draft with null human reviewers. Current totals: 23 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -301,6 +301,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-5960096 (Freiser): Prior CAL_001 exposure documented, metadata only reopened; exclude from fresh blind agreement. Wet-floor no-notice showing upheld.
 - NY-6116126 (Gadzhiyeva): Porter affidavit consistent with deposition; noncreation/no-notice showing upheld, exact inspection time unstated.
 - NY-4655093 (Odiorne): Reasonable mopping and observed warning established. Discovery strike denied absent motion to compel; one fully affirmed order.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_031 review priorities
+
+- NY-3159535 (Diers): Video supports noncreation/no-notice showing; precise spill timeline not stated.
+- NY-4502337 (Schumacher): Shared residential entrance; conflicting party evidence and insufficient expert leave snow/ice condition disputed.
+- NY-4770056 (Athenas): Tenants lacked common-area duty and vicarious liability for independent cleaner; landlords lacked creation/notice. One order affirmed.
+- NY-4308770 (Lane): Review private-property status; circumstantial evidence near known uneven pavement supports causation without direct identification.
+- NY-5298317 (Lamb): Equipment ice creation/notice and Espinal issues triable; owner’s management agreement not lease, duty retained. One order affirmed.
 
 All remain assistant drafts; no rule changes or human review.
 
