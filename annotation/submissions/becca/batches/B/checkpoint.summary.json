@@ -1,36 +1,37 @@
 {
-  "annotated_cases": 105,
+  "annotated_cases": 110,
   "eligibility": {
-    "include": 82,
-    "exclude": 9,
-    "review": 14
+    "review": 15,
+    "include": 86,
+    "exclude": 9
   },
   "outcomes_all_cases": {
-    "affirmed": 72,
-    "reversed": 33
+    "affirmed": 75,
+    "reversed": 35
   },
   "included_class_counts": {
-    "0": 59,
-    "1": 23
+    "0": 61,
+    "1": 25
   },
   "review_status": {
-    "llm_draft": 105
+    "llm_draft": 110
   },
   "planned_period_class_counts": {
     "train": {
-      "1": 18,
-      "0": 45
+      "1": 20,
+      "0": 46
     },
     "validation": {
       "0": 9,
       "1": 2
     },
     "test": {
-      "0": 5,
+      "0": 6,
       "1": 3
     }
   },
   "needs_review": [
+    "NY-10025986",
     "NY-2800741",
     "NY-2993705",
     "NY-4304440",
@@ -47,27 +48,28 @@
     "NY-6454036"
   ],
   "unknown_field_counts": {
-    "premises_type": 25,
+    "premises_type": 27,
     "location": 7,
-    "injured_role": 74
+    "injured_role": 78
   },
   "accepted_words": {
     "min": 238,
-    "median": 567.5,
-    "mean": 619.219512195122,
+    "median": 580.5,
+    "mean": 620.5581395348837,
     "max": 1964
   },
   "random_training_audit_ids": [
-    "NY-4763436",
-    "NY-4387362",
-    "NY-5947900",
-    "NY-3170989",
-    "NY-4306359",
-    "NY-4617802",
-    "NY-4665270"
+    "NY-4788649",
+    "NY-4309275",
+    "NY-4474810",
+    "NY-4576377",
+    "NY-4623671",
+    "NY-4330075",
+    "NY-4310731"
   ],
   "audit_seed": 20261019,
   "evaluation_needing_human_review": [
+    "NY-10025986",
     "NY-10040612",
     "NY-10160424",
     "NY-10266107",
@@ -86,6 +88,7 @@
     "NY-8619624",
     "NY-9353901",
     "NY-9355448",
+    "NY-9384905",
     "NY-9406522",
     "NY-9408725",
     "NY-9422144",

@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 105 B_001–B_021 records remain llm_draft with null human reviewers. Current totals: 14 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 110 B_001–B_022 records remain llm_draft with null human reviewers. Current totals: 15 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -211,6 +211,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4474810 (Luna): Wetness assumed; no handrail causation. Contradictory affidavit insufficient; certified unsigned deposition usable.
 - NY-5302359 (Telesco): Ongoing storm proved; earlier ice and notice triable. Expert code-compliance opinion not adopted as a separate holding.
 - NY-2770006 (Trapani): Cause unidentified; later water/cleaner affidavit feigned. Incident report and darkness do not establish fault or lighting violation.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_022 review priorities
+
+- NY-9384905 (Gray): Owned property; unspecified pad defect. Noncreation/notice burden failure, not established fault.
+- NY-4394206 (Hickson): Unknown last aisle inspection defeats no-constructive-notice showing; tracked-in moisture source alleged.
+- NY-4788649 (Valentin): Flooding source not established; maintenance duty survives warning argument; walking through water not sole superseding cause.
+- NY-2764663 (Fernandez): Defendants’ own evidence raises visibility/duration issues; resident role without inferred tenancy.
+- NY-10025986 (Carmenati): Review private-property status. Security inspection supports no constructive notice; no universal three-hour rule.
 
 All remain assistant drafts; no rule changes or human review.
 
