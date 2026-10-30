@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 135 B_001–B_027 records remain llm_draft with null human reviewers. Current totals: 21 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 140 B_001–B_028 records remain llm_draft with null human reviewers. Current totals: 22 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -271,6 +271,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4644378 (Jean-Paul): Procedural-only exclusion: undisclosed bankruptcy asset/lack of capacity. Negligence merits and estoppel not decided.
 - NY-4394153 (Priola): Owned bowling premises, unidentified cause; no assumption-of-risk ruling inferred.
 - NY-5952419 (Weeman): Owner no-notice/noncreation and contractor no-duty grounds upheld; separate motions in one affirmed order.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_028 review priorities
+
+- NY-9483767 (Amparo): Review fall mechanism; owned/leased premises clear. Control, repair-duty, danger, causation and constructive-notice burdens unmet.
+- NY-10025951 (Tamburo): Conflicting slope/code experts raise danger/triviality issues; separate creation/notice burden unmet. No final code violation.
+- NY-5939702 (Granillo): Owned toy store customer; ice-cream slip. Inspection-timing burden failed, without stated evidence format or proven duration.
+- NY-5934616 (Blochl): Unknown cause; later water-or-paper affidavit feigned. Restaurant bathroom private, hazard unresolved.
+- NY-5958452 (Clark): Dim light and unusual furniture placement leave table obviousness/safety issues; no conclusive plaintiff-fault finding.
 
 All remain assistant drafts; no rule changes or human review.
 
