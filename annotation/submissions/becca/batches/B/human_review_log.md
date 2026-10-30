@@ -2,7 +2,7 @@
 
 Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 65 B_001–B_013 records remain llm_draft with null human reviewers. Current totals: 10 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 70 B_001–B_014 records remain llm_draft with null human reviewers. Current totals: 11 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -131,6 +131,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-2755930 (Mottola): Eyewitness deposition and immediate photographs raised causation issue despite plaintiff’s inability to identify cause.
 - NY-3216149 (Parietti): Supplied 2016 ruling: actual monitoring/video and no complaints established lack of notice; no later history imported.
 - NY-4855957 (Gould): Storm defense established; possible lull and speculative opposing expert insufficient. Appeal No. 2 still one current order.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_014 review priorities
+
+- NY-6079805 (Smith): Private shopping-center lot; noncreation/no notice established, melt/refreeze theory speculative.
+- NY-10160424 (Greco): Lease and representative evidence put door maintenance on tenant; new code theory unpleaded, not decided on merits.
+- NY-4494652 (Stoller): Review private status and slip/trip mechanism: fell from stairs, cause unidentified by deposition/video.
+- NY-10266107 (Daniel): Noncreation/no notice established; occasional leak awareness insufficient for recurrent-hazard notice. Vendor explanation is not plaintiff-fault finding.
+- NY-3165373 (Burniston): Ongoing storm established, but prior snow/ice and constructive notice triable; plaintiffs’ expert report submitted by both sides.
 
 All remain assistant drafts; no rule changes or human review.
 
