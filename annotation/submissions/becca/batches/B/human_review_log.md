@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 125 B_001–B_025 records remain llm_draft with null human reviewers. Current totals: 18 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 130 B_001–B_026 records remain llm_draft with null human reviewers. Current totals: 20 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -251,6 +251,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-6038530 (Zegarelli): Review brick walkway ownership/control; delivery to home alone leaves private boundary unclear. Obviousness/safety merits affirmed.
 - NY-3180131 (Bryan): Direct contractor duty and all cross claims dismissed; unpleaded Espinal exceptions did not expand initial burden.
 - NY-2686417 (Rodriguez): Assistant manager described general practices without specific inspection/cleaning timing; constructive-notice burden unmet.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_026 review priorities
+
+- NY-6079676 (Castillo): Out-of-possession landlord lacked repair duty. Expert timing alone valid, but opinion speculative; prematurity argument new on appeal.
+- NY-2751785 (Vazquez): Review property status; missing amended answer did not exist. Merits show no hazard and missed platform step.
+- NY-5993240 (Denardo): Driveway snow/ice noncreation/notice burden unmet; alternate route not established sole cause. Private control supported.
+- NY-9380647 (Nicotra): Limited defense cross-motion appeal fully reversed; danger, notice, triviality and obviousness burdens unmet.
+- NY-4514984 (Doner): Review ankle-roll fall mechanism; private ownership clear. Deposition/photo support nonspeculative worn-step causation.
 
 All remain assistant drafts; no rule changes or human review.
 
