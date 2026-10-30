@@ -1,8 +1,8 @@
 # Human review log — Becca batch B
 
-Status as of October 29, 2026: **pending**.
+Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 80 B_001–B_016 records remain llm_draft with null human reviewers. Current totals: 13 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 85 B_001–B_017 records remain llm_draft with null human reviewers. Current totals: 13 unresolved and 7 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, audit or adjudication is recorded. All 80 B
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-Completed calibration overlap: NY-2993705, NY-3206955. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -161,6 +161,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-3206955 (Ackerman): Cause unidentified; affidavit raised feigned issues. Prior CAL_002 exposure, exclude from fresh blind agreement.
 - NY-6088552 (Wachspress): Wheel stops obvious/not dangerous; route/barricade/distraction theories unsupported.
 - NY-3149753 (Jackson): Display stools obvious but not established non-dangerous; cited precedent photos are not current-case evidence.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_017 review priorities
+
+- NY-5938963 (Green): Procedural-only default vacatur; essential foreign-sworn affidavit lacked conformity certificate.
+- NY-4805412 (Lauzon): Noncreation burden unmet for possible asparagus-display leakage; no final creation finding.
+- NY-4330075 (Bogaty): Granted reargument reaches wheel-stop merits; obvious and not inherently dangerous.
+- NY-4623671 (Polanco): Tracked rainwater: reasonable mats and no constructive notice; no constant-remedy requirement.
+- NY-4310325 (Jewett): Fully affirmed single order despite differing defendant outcomes; lease/control triable, BKV notice negated. Prior CAL_001 exposure.
 
 All remain assistant drafts; no rule changes or human review.
 
