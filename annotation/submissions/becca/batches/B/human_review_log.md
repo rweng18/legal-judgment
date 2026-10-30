@@ -2,7 +2,7 @@
 
 Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 60 B_001–B_012 records remain llm_draft with null human reviewers. Current totals: 10 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 65 B_001–B_013 records remain llm_draft with null human reviewers. Current totals: 10 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -121,6 +121,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4304440 (Alvarado): Review apparent duplicate of B_009 NY-6207337; preserve both drafts and resolve family before independent counts or splitting.
 - NY-6110053 (Abalo): Private home; authenticated photos/testimony established trivial saddle defect, not a universal size rule.
 - NY-9353901 (O’Connell): Lease absent initially and first supplied in reply; no-duty/out-of-possession burden unmet.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_013 review priorities
+
+- NY-9432423 (Caldwell): Entire order affirmed despite differing defendant results; one order, both appellants/favors both. ABM creation triable, owner/manager defenses established.
+- NY-4404555 (Commender): Private condo yard; known tree root obvious and inherent/incidental to property, no warning duty.
+- NY-2755930 (Mottola): Eyewitness deposition and immediate photographs raised causation issue despite plaintiff’s inability to identify cause.
+- NY-3216149 (Parietti): Supplied 2016 ruling: actual monitoring/video and no complaints established lack of notice; no later history imported.
+- NY-4855957 (Gould): Storm defense established; possible lull and speculative opposing expert insufficient. Appeal No. 2 still one current order.
 
 All remain assistant drafts; no rule changes or human review.
 
