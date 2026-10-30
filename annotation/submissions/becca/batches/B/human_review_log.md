@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 100 B_001–B_020 records remain llm_draft with null human reviewers. Current totals: 14 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 105 B_001–B_021 records remain llm_draft with null human reviewers. Current totals: 14 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -201,6 +201,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4646279 (Fortune): Direct claim against cleaning contractor; private grocery interior, cause unidentified, remaining theories not reached.
 - NY-4674461 (Bongiovanni): Substantive verdict review: negligence without causation reconcilable; plaintiff’s account discredited. No fault allocation inferred.
 - NY-9444225 (Cosme): Public school exclusion; reversed/null. Drawer obviousness and notice not established on defense motion.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_021 review priorities
+
+- NY-3170989 (Gleyzer): Limited defense appeal affirmed; video and tray placement did not establish obviousness/safety. Cross-motion not appealed.
+- NY-6000385 (Klerman): Noncreation and constructive-notice burdens unmet; general inspections lack accident-specific timing.
+- NY-4474810 (Luna): Wetness assumed; no handrail causation. Contradictory affidavit insufficient; certified unsigned deposition usable.
+- NY-5302359 (Telesco): Ongoing storm proved; earlier ice and notice triable. Expert code-compliance opinion not adopted as a separate holding.
+- NY-2770006 (Trapani): Cause unidentified; later water/cleaner affidavit feigned. Incident report and darkness do not establish fault or lighting violation.
 
 All remain assistant drafts; no rule changes or human review.
 
