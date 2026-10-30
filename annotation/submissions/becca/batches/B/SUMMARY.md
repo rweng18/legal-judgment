@@ -1,6 +1,6 @@
 # Becca — batch B progress
 
-Completed **B_001–B_018: 90/169 cases**; 79 pending. Next: **B_019**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
+Completed **B_001–B_019: 95/169 cases**; 74 pending. Next: **B_020**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
 
 All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
@@ -96,15 +96,20 @@ All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human rev
 | NY-4520310 | Quinones | Include | Reversed | 1 | Specific inspection proof absent; handrail nondefect not established. Urine and movement remain allegations. |
 | NY-4304466 | Spacht | Exclude | Reversed | null | Public county ownership despite commercial lease; snow-duty and causation defenses failed, reply-only notice grounds not reached. |
 | NY-4763436 | Holmes | Include | Affirmed | 0 | Pallet blocked stockroom entrance; safety and constructive-notice burdens unmet. No inferred employee role. |
+| NY-9430104 | Sweet | Include | Affirmed | 0 | Substantive verdict review; no express gap-obviousness finding. House control supported by renovation/precautions. |
+| NY-5986955 | Miki | Include | Affirmed | 0 | Statutory pleading and merits rejected; noncreation/no-notice showing upheld. Premises subtype unstated. |
+| NY-9408725 | Benjamin | Include | Affirmed | 0 | Dust theory speculative; no enhanced sporting risk shown. Keep Samuels precedent facts separate. |
+| NY-3161292 | Lazic | Include | Reversed | 1 | Owned-property driveway entrance; rain/darkness defeated obviousness showing, without final fault finding. |
+| NY-6127959 | Laguerre | Include | Affirmed | 0 | Affirmance favors plaintiff; loose carpet and complaints to resident mother create triable danger/notice issues. |
 
-Totals: 69 included, 8 excluded, 13 unresolved. Included labels: 50 zero, 19 one. These are draft counts, not model performance.
+Totals: 74 included, 8 excluded, 13 unresolved. Included labels: 54 zero, 20 one. These are draft counts, not model performance.
 
-`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `c15e0ab`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `02ac7df`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-Validation passed: 90 unique records, 336 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 79 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
+Validation passed: 95 unique records, 359 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 74 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
 No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
 Possible duplicate family: NY-6207337 (B_009) / NY-4304440 (B_012). Prior draft retained; new record review/null. Resolve before independent counts or train/validation/test splitting.
 
-Continue with `batches/B/chunks/B_019.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
+Continue with `batches/B/chunks/B_020.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
