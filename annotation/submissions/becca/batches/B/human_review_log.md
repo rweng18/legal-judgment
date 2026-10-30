@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 110 B_001–B_022 records remain llm_draft with null human reviewers. Current totals: 15 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 115 B_001–B_023 records remain llm_draft with null human reviewers. Current totals: 16 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -221,6 +221,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4788649 (Valentin): Flooding source not established; maintenance duty survives warning argument; walking through water not sole superseding cause.
 - NY-2764663 (Fernandez): Defendants’ own evidence raises visibility/duration issues; resident role without inferred tenancy.
 - NY-10025986 (Carmenati): Review private-property status. Security inspection supports no constructive notice; no universal three-hour rule.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_023 review priorities
+
+- NY-4599194 (Ramirez): Deposition/video establish known obvious bucket not inherently dangerous; no trap for unwary.
+- NY-3180121 (Drouillard): Cause-identification, noncreation and constructive-notice burdens unmet. Packet title differs from controlling Smarr caption.
+- NY-6083069 (Budano): Review private-property status; trivial step and unsupported handrail/riser causation. No building use/title inferred.
+- NY-5994509 (Fallon): Private residence party; safe-maintenance showing upheld. Expert report inadmissible and lacked temporal/causal connection.
+- NY-4509516 (Washington): Storm conceded; preexisting ice and constructive notice triable. No actual notice shown; expert-disclosure discretion upheld.
 
 All remain assistant drafts; no rule changes or human review.
 
