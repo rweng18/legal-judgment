@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 95 B_001–B_019 records remain llm_draft with null human reviewers. Current totals: 13 unresolved and 8 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 100 B_001–B_020 records remain llm_draft with null human reviewers. Current totals: 14 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -191,6 +191,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-9408725 (Benjamin): Dust theory speculative; no enhanced sporting risk shown. Keep Samuels precedent facts separate.
 - NY-3161292 (Lazic): Owned-property driveway entrance; rain/darkness defeated obviousness showing, without final fault finding.
 - NY-6127959 (Laguerre): Affirmance favors plaintiff; loose carpet and complaints to resident mother create triable danger/notice issues.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_020 review priorities
+
+- NY-6104667 (DeForte): Review property status and slip/trip mechanism; generic premises/fall description. Reversed, null label.
+- NY-5959861 (Chang): Bean slip; no creation/notice and recurring-condition theory rejected. No evidence format or exact duration inferred.
+- NY-4646279 (Fortune): Direct claim against cleaning contractor; private grocery interior, cause unidentified, remaining theories not reached.
+- NY-4674461 (Bongiovanni): Substantive verdict review: negligence without causation reconcilable; plaintiff’s account discredited. No fault allocation inferred.
+- NY-9444225 (Cosme): Public school exclusion; reversed/null. Drawer obviousness and notice not established on defense motion.
 
 All remain assistant drafts; no rule changes or human review.
 
