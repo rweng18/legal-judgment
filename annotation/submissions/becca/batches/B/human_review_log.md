@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 140 B_001–B_028 records remain llm_draft with null human reviewers. Current totals: 22 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 145 B_001–B_029 records remain llm_draft with null human reviewers. Current totals: 22 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -281,6 +281,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-5939702 (Granillo): Owned toy store customer; ice-cream slip. Inspection-timing burden failed, without stated evidence format or proven duration.
 - NY-5934616 (Blochl): Unknown cause; later water-or-paper affidavit feigned. Restaurant bathroom private, hazard unresolved.
 - NY-5958452 (Clark): Dim light and unusual furniture placement leave table obviousness/safety issues; no conclusive plaintiff-fault finding.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_029 review priorities
+
+- NY-6459053 (Clark): Conflicting defense evidence defeats constructive-notice showing; precise conflict/evidence format unstated.
+- NY-3176423 (Steed): Designated rear-lot smoking area creates illumination duty; catching-heel trip and private control supported.
+- NY-6054824 (Racines): Owned dealership entrance; unidentified trip cause, no evidence format or customer role inferred.
+- NY-6052406 (Green): Frequent inspection/no-notice showing upheld; next-day sandal grease and late expert inspection lack causal support.
+- NY-10114448 (Arbit): Employee and safety log establish noncreation/no notice. Preserve 2:47–3:40 p.m. inspection window before about-4 p.m. fall.
 
 All remain assistant drafts; no rule changes or human review.
 
