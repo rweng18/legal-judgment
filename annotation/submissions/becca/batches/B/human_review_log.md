@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 130 B_001–B_026 records remain llm_draft with null human reviewers. Current totals: 20 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 135 B_001–B_027 records remain llm_draft with null human reviewers. Current totals: 21 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -261,6 +261,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-5993240 (Denardo): Driveway snow/ice noncreation/notice burden unmet; alternate route not established sole cause. Private control supported.
 - NY-9380647 (Nicotra): Limited defense cross-motion appeal fully reversed; danger, notice, triviality and obviousness burdens unmet.
 - NY-4514984 (Doner): Review ankle-roll fall mechanism; private ownership clear. Deposition/photo support nonspeculative worn-step causation.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_027 review priorities
+
+- NY-4732795 (DeCarbo): Review private-property status; worn marble alone nonactionable, friction benchmark unsupported and expert causation speculative.
+- NY-6214527 (Toma): Handle trouble not notice of floor water; one judgment after deemed appeal. Noncreation/no-notice showing upheld.
+- NY-4644378 (Jean-Paul): Procedural-only exclusion: undisclosed bankruptcy asset/lack of capacity. Negligence merits and estoppel not decided.
+- NY-4394153 (Priola): Owned bowling premises, unidentified cause; no assumption-of-risk ruling inferred.
+- NY-5952419 (Weeman): Owner no-notice/noncreation and contractor no-duty grounds upheld; separate motions in one affirmed order.
 
 All remain assistant drafts; no rule changes or human review.
 
