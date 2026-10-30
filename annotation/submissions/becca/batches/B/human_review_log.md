@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 145 B_001–B_029 records remain llm_draft with null human reviewers. Current totals: 22 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 150 B_001–B_030 records remain llm_draft with null human reviewers. Current totals: 22 unresolved and 10 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, audit or adjudication is recorded. All 145 
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325, NY-5960096. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -291,6 +291,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-6054824 (Racines): Owned dealership entrance; unidentified trip cause, no evidence format or customer role inferred.
 - NY-6052406 (Green): Frequent inspection/no-notice showing upheld; next-day sandal grease and late expert inspection lack causal support.
 - NY-10114448 (Arbit): Employee and safety log establish noncreation/no notice. Preserve 2:47–3:40 p.m. inspection window before about-4 p.m. fall.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_030 review priorities
+
+- NY-4851261 (Edmund-Hunter): Express private walkway; storm/reasonable-remedy-time burden unmet. Public-sidewalk ordinance inapplicable.
+- NY-4860863 (Giambruno): Owned home driveway; vacation does not discharge safety duty, constructive-notice issues remain.
+- NY-5960096 (Freiser): Prior CAL_001 exposure documented, metadata only reopened; exclude from fresh blind agreement. Wet-floor no-notice showing upheld.
+- NY-6116126 (Gadzhiyeva): Porter affidavit consistent with deposition; noncreation/no-notice showing upheld, exact inspection time unstated.
+- NY-4655093 (Odiorne): Reasonable mopping and observed warning established. Discovery strike denied absent motion to compel; one fully affirmed order.
 
 All remain assistant drafts; no rule changes or human review.
 
