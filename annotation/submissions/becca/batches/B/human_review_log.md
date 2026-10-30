@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 160 B_001–B_032 records remain llm_draft with null human reviewers. Current totals: 23 unresolved and 12 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 165 B_001–B_033 records remain llm_draft with null human reviewers. Current totals: 25 unresolved and 13 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -321,6 +321,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-10128971 (Carmona): Public city-owned tree well excluded; abutting owners no duty/creation/special use. Companion decision not incorporated.
 - NY-9368767 (Vinokurova): Owned building; manager’s general practices insufficient on notice. Precise hazard/use subtype unstated.
 - NY-5964247 (Nisi): Noncreation/no-notice showing upheld; subsequent notice affidavit feigned. Liquid type and inspection timing unstated.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_033 review priorities
+
+- NY-4306330 (Seferagic): No actual/constructive notice established; rain-day warning cones precautionary. Creation not asserted.
+- NY-8241187 (Martell): Procedural-only expert-preclusion reversal/new trial. Duty/code analysis explains admissibility, not factual negligence.
+- NY-4633211 (Flaccavento): Conflicting plaintiff/manager mat descriptions leave constructive-notice issues; burden unmet.
+- NY-5943322 (Serrano): Review private-property status; no-notice showing upheld, legal causation opinion disregarded. One order affirmed.
+- NY-3154375 (Lorenzo): Review private-property status; causal gaps insufficient for defense burden, alleged photo spoliation did not warrant dismissal.
 
 All remain assistant drafts; no rule changes or human review.
 
