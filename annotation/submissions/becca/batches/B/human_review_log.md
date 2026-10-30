@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 165 B_001–B_033 records remain llm_draft with null human reviewers. Current totals: 25 unresolved and 13 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 169 B_001–B_034 records remain llm_draft with null human reviewers. Current totals: 26 unresolved and 13 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -334,4 +334,17 @@ All remain assistant drafts; no rule changes or human review.
 
 All remain assistant drafts; no rule changes or human review.
 
+## B_034 review priorities
+
+- NY-9394581 (Straub): Restaurant lease; landlord assumed no repair duty in tenant space. Common-area visits insufficient; statutes inapplicable.
+- NY-2686418 (Russo): Low empty employee-use pallet jack and display distraction leave unsafe-creation/danger issues; no final fault finding.
+- NY-9427393 (Yarmak): Review private-property status. General supervisor practices lack inspection timing; January 2015 date only.
+- NY-6001231 (Minor): Owned apartment stairs; conclusory inspection remarks and step photos leave constructive-notice issues. Owner-only appeal.
+
+All remain assistant drafts; no rule changes or human review.
+
 For actual reviews, record the case ID, independent eligibility and outcome, source passage/quote, uncertainty, reviewer and date. Preserve the model draft; any revised record must identify its predecessor. Do not fill human-review entries until a human has performed the checks.
+
+## Complete B draft checkpoint
+
+All 169 cases are present and structurally validated; the complete assistant draft is hash-preserved in `drafts/B.complete-draft-v1.jsonl` with metadata in `freeze.json`. This is not human review. Review all unresolved/excluded cases and perform the required comparison/audits after all reviewers freeze their submissions. Calibration exposure and the possible duplicate family remain pending human handling; no peer outputs were opened.

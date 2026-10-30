@@ -1,7 +1,7 @@
 {
   "reviewer_id": "becca",
   "batch": "B",
-  "status": "partial_llm_draft",
+  "status": "complete_llm_draft",
   "completed_chunks": [
     "B_001",
     "B_002",
@@ -35,11 +35,10 @@
     "B_030",
     "B_031",
     "B_032",
-    "B_033"
-  ],
-  "pending_chunks": [
+    "B_033",
     "B_034"
   ],
+  "pending_chunks": [],
   "completed_case_ids": [
     "NY-2766601",
     "NY-4791129",
@@ -205,15 +204,14 @@
     "NY-8241187",
     "NY-4633211",
     "NY-5943322",
-    "NY-3154375"
-  ],
-  "pending_case_ids": [
+    "NY-3154375",
     "NY-9394581",
     "NY-2686418",
     "NY-9427393",
     "NY-6001231"
   ],
-  "next_chunk": "B_034",
+  "pending_case_ids": [],
+  "next_chunk": null,
   "schema_version": "1.0.0",
   "prompt_version": "1.0.0",
   "substantive_team_freeze_recorded": false,
@@ -251,7 +249,8 @@
     "B_030": "cfd4ec7df064178babb7762af029f15c822ed510905d07d10154f2637b867c6d",
     "B_031": "9f2fd946ebd79b0dea517294d366a06278f7802cd959f1a45492b7cb655299bf",
     "B_032": "680f06121fd77316e14ad12f7b1053ee048b9b69581c79f54ada62bb02803249",
-    "B_033": "b31cf52bcb6f33ff2689b32e83439032274fefe6c5fd221ac26564daafa5a991"
+    "B_033": "b31cf52bcb6f33ff2689b32e83439032274fefe6c5fd221ac26564daafa5a991",
+    "B_034": "f9823bbcdfdda6aab61c38be6b0f9740ea54ed9ff1800e0ca909e8ee28b8001a"
   },
   "batch_shared_calibration_case_ids": [
     "NY-2993705",
@@ -280,5 +279,10 @@
       "status": "pending_human_deduplication",
       "note": "Apparent same appellate decision in different source formatting. B_012 record review/null; prior draft preserved. Resolve before independent agreement counts or dataset splitting."
     }
-  ]
+  ],
+  "annotations_file": "annotations.jsonl",
+  "annotations_sha256": "0e311e10eda6e2086f629a78e70001ebe9fd54a2f2ccab2536d2be104a98c561",
+  "frozen_draft_file": "drafts/B.complete-draft-v1.jsonl",
+  "independent_draft_frozen": true,
+  "next_step": "Human review and round-B comparison after all three reviewer submissions are complete and frozen; resolve duplicate family and report calibration cases separately."
 }
