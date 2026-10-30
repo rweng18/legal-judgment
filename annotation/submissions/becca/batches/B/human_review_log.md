@@ -2,7 +2,7 @@
 
 Status as of October 29, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 70 B_001–B_014 records remain llm_draft with null human reviewers. Current totals: 11 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 75 B_001–B_015 records remain llm_draft with null human reviewers. Current totals: 12 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -141,6 +141,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-4494652 (Stoller): Review private status and slip/trip mechanism: fell from stairs, cause unidentified by deposition/video.
 - NY-10266107 (Daniel): Noncreation/no notice established; occasional leak awareness insufficient for recurrent-hazard notice. Vendor explanation is not plaintiff-fault finding.
 - NY-3165373 (Burniston): Ongoing storm established, but prior snow/ice and constructive notice triable; plaintiffs’ expert report submitted by both sides.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_015 review priorities
+
+- NY-4384498 (Fasone): Review rear-walkway property boundary; photos and testimony established triviality.
+- NY-4665270 (Hartnett): Two orders expressly affirmed; brokers lacked duty, code/triviality issues barred judgment against owner.
+- NY-5933946 (Gradwohl): Employee-use dolly: obviousness did not resolve safe-maintenance duty; context/distraction matters.
+- NY-5947506 (Castore): No creation/notice established; employee-spill and expert step/handrail theories speculative.
+- NY-4768128 (Von Euw): Private restaurant lease/operation; deposition could not identify cause.
 
 All remain assistant drafts; no rule changes or human review.
 
