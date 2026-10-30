@@ -2,7 +2,7 @@
 
 Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 115 B_001–B_023 records remain llm_draft with null human reviewers. Current totals: 16 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 120 B_001–B_024 records remain llm_draft with null human reviewers. Current totals: 17 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -231,6 +231,16 @@ All remain assistant drafts; no rule changes or human review.
 - NY-6083069 (Budano): Review private-property status; trivial step and unsupported handrail/riser causation. No building use/title inferred.
 - NY-5994509 (Fallon): Private residence party; safe-maintenance showing upheld. Expert report inadmissible and lacked temporal/causal connection.
 - NY-4509516 (Washington): Storm conceded; preexisting ice and constructive notice triable. No actual notice shown; expert-disclosure discretion upheld.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_024 review priorities
+
+- NY-4820874 (Nobile): Unlit fire pit/poor lighting raise safety issues; obviousness does not negate maintenance duty or establish sole cause.
+- NY-4568055 (Fox): Estate-only affirmance; out-of-possession defense established, code theory both procedurally barred and inapplicable in part.
+- NY-4573015 (Blanco): Review private-property status; unknown last inspection/cleaning defeats constructive-notice showing.
+- NY-4753705 (Bishop): Tenant-only appealed portion fully reversed; owner dismissal unappealed. Triviality, cause and obviousness burdens unmet.
+- NY-4379931 (Langgood): Majority reverses on rug safety/triviality, not sole inattention. Announced dissent omitted; controlling opinion complete.
 
 All remain assistant drafts; no rule changes or human review.
 
