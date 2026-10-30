@@ -1,8 +1,8 @@
 # Human review log — Becca batch B
 
-Status as of October 29, 2026: **pending**.
+Status as of October 30, 2026: **pending**.
 
-No human eligibility/outcome review, audit or adjudication is recorded. All 50 B_001–B_010 records remain llm_draft with null human reviewers. Current totals: 9 unresolved and 6 excluded; see SUMMARY.md for cases and reasons.
+No human eligibility/outcome review, audit or adjudication is recorded. All 100 B_001–B_020 records remain llm_draft with null human reviewers. Current totals: 14 unresolved and 9 excluded; see SUMMARY.md for cases and reasons.
 
 ## B_001 review priorities
 
@@ -12,7 +12,7 @@ No human eligibility/outcome review, audit or adjudication is recorded. All 50 B
 - Parchment (NY-4613124): check procedural-only scope against all three passages. The court only addresses preservation of charge/cross-examination objections and lack of reversible error. The defense jury verdict alone does not supply appellate merits analysis. Do not import the content of PJI 2:91 from outside sources.
 - Mogan (NY-2800741): resolve both institutional property status under the disjunctive owned-and/or-operated wording and the scope of negligent supervision during therapy. A child’s trip over a therapist’s foot is explicit; neither mechanism nor substantive adjudication is missing. The ruling concerns adequate supervision and proximate cause, not a defective-floor theory or comparative fault. Record the injured patient’s role separately from the mother’s plaintiff role. No full accident date is given.
 
-Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
+Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. The broader B overlap is logged in progress.json for later handling. No substantive team rule freeze/replacement appears in DECISIONS.md, and no such agreement is invented here.
 
 ## B_002 review priorities
 
@@ -101,6 +101,106 @@ All remain assistant drafts; no rule changes or human review.
 - NY-8619624 (Cortes): Cart obvious and not inherently dangerous; forgetting it did not create a trap. Discovery objection unsupported.
 - NY-4798937 (D’Amato): Owned exterior stairs; recurring awning melt/refreeze notice burden unmet, not final liability.
 - NY-4538884 (Hill): Review private status; janitorial compliance, last inspection and water duration not established.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_011 review priorities
+
+- NY-6068857 (Doran): Substantive damages/medical-causation review supports inclusion; earlier liability verdict is history, zero damages affirmed.
+- NY-6036489 (Dennis): Cause speculative despite later cement; noncreation/no notice also established. Causation ground preserved below.
+- NY-4898123 (Roland): General practices and surmised inspection did not negate notice; spoliation raised only on appeal, not decided on merits.
+- NY-4488266 (Firment): Witnesses/video contradicted mopping affidavit; extreme wetness and warning adequacy remain triable.
+- NY-2787571 (Abraido): Wheel stop obvious/not dangerous; lighting theory, contradictory affidavit and delayed expert measurements insufficient.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_012 review priorities
+
+- NY-4400268 (Lebron): Specific inspection/duration proof absent; general practices and speculative recent deposition of water insufficient.
+- NY-10040612 (Huseinovic): Substantive employment release bars direct injury claim; review release-based scope before human-gold use.
+- NY-4304440 (Alvarado): Review apparent duplicate of B_009 NY-6207337; preserve both drafts and resolve family before independent counts or splitting.
+- NY-6110053 (Abalo): Private home; authenticated photos/testimony established trivial saddle defect, not a universal size rule.
+- NY-9353901 (O’Connell): Lease absent initially and first supplied in reply; no-duty/out-of-possession burden unmet.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_013 review priorities
+
+- NY-9432423 (Caldwell): Entire order affirmed despite differing defendant results; one order, both appellants/favors both. ABM creation triable, owner/manager defenses established.
+- NY-4404555 (Commender): Private condo yard; known tree root obvious and inherent/incidental to property, no warning duty.
+- NY-2755930 (Mottola): Eyewitness deposition and immediate photographs raised causation issue despite plaintiff’s inability to identify cause.
+- NY-3216149 (Parietti): Supplied 2016 ruling: actual monitoring/video and no complaints established lack of notice; no later history imported.
+- NY-4855957 (Gould): Storm defense established; possible lull and speculative opposing expert insufficient. Appeal No. 2 still one current order.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_014 review priorities
+
+- NY-6079805 (Smith): Private shopping-center lot; noncreation/no notice established, melt/refreeze theory speculative.
+- NY-10160424 (Greco): Lease and representative evidence put door maintenance on tenant; new code theory unpleaded, not decided on merits.
+- NY-4494652 (Stoller): Review private status and slip/trip mechanism: fell from stairs, cause unidentified by deposition/video.
+- NY-10266107 (Daniel): Noncreation/no notice established; occasional leak awareness insufficient for recurrent-hazard notice. Vendor explanation is not plaintiff-fault finding.
+- NY-3165373 (Burniston): Ongoing storm established, but prior snow/ice and constructive notice triable; plaintiffs’ expert report submitted by both sides.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_015 review priorities
+
+- NY-4384498 (Fasone): Review rear-walkway property boundary; photos and testimony established triviality.
+- NY-4665270 (Hartnett): Two orders expressly affirmed; brokers lacked duty, code/triviality issues barred judgment against owner.
+- NY-5933946 (Gradwohl): Employee-use dolly: obviousness did not resolve safe-maintenance duty; context/distraction matters.
+- NY-5947506 (Castore): No creation/notice established; employee-spill and expert step/handrail theories speculative.
+- NY-4768128 (Von Euw): Private restaurant lease/operation; deposition could not identify cause.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_016 review priorities
+
+- NY-4628826 (Knight): Review slip/trip mechanism, not private status; tenant established no control/duty over common stairs.
+- NY-6017856 (Hardsog): Trivial chipped tiles; no actual depth measurement, expert assumptions insufficient. Inspection challenge abandoned.
+- NY-3206955 (Ackerman): Cause unidentified; affidavit raised feigned issues. Prior CAL_002 exposure, exclude from fresh blind agreement.
+- NY-6088552 (Wachspress): Wheel stops obvious/not dangerous; route/barricade/distraction theories unsupported.
+- NY-3149753 (Jackson): Display stools obvious but not established non-dangerous; cited precedent photos are not current-case evidence.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_017 review priorities
+
+- NY-5938963 (Green): Procedural-only default vacatur; essential foreign-sworn affidavit lacked conformity certificate.
+- NY-4805412 (Lauzon): Noncreation burden unmet for possible asparagus-display leakage; no final creation finding.
+- NY-4330075 (Bogaty): Granted reargument reaches wheel-stop merits; obvious and not inherently dangerous.
+- NY-4623671 (Polanco): Tracked rainwater: reasonable mats and no constructive notice; no constant-remedy requirement.
+- NY-4310325 (Jewett): Fully affirmed single order despite differing defendant outcomes; lease/control triable, BKV notice negated. Prior CAL_001 exposure.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_018 review priorities
+
+- NY-3178550 (Garcia): Private inter-building walkway; inspector measurement/photos established triviality, estimates insufficient.
+- NY-5951224 (Alexander): Known ice/alternate route concern comparative fault, not sole cause; recurring-ice notice remains triable.
+- NY-4520310 (Quinones): Specific inspection proof absent; handrail nondefect not established. Urine and movement remain allegations.
+- NY-4304466 (Spacht): Public county ownership despite commercial lease; snow-duty and causation defenses failed, reply-only notice grounds not reached.
+- NY-4763436 (Holmes): Pallet blocked stockroom entrance; safety and constructive-notice burdens unmet. No inferred employee role.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_019 review priorities
+
+- NY-9430104 (Sweet): Substantive verdict review; no express gap-obviousness finding. House control supported by renovation/precautions.
+- NY-5986955 (Miki): Statutory pleading and merits rejected; noncreation/no-notice showing upheld. Premises subtype unstated.
+- NY-9408725 (Benjamin): Dust theory speculative; no enhanced sporting risk shown. Keep Samuels precedent facts separate.
+- NY-3161292 (Lazic): Owned-property driveway entrance; rain/darkness defeated obviousness showing, without final fault finding.
+- NY-6127959 (Laguerre): Affirmance favors plaintiff; loose carpet and complaints to resident mother create triable danger/notice issues.
+
+All remain assistant drafts; no rule changes or human review.
+
+## B_020 review priorities
+
+- NY-6104667 (DeForte): Review property status and slip/trip mechanism; generic premises/fall description. Reversed, null label.
+- NY-5959861 (Chang): Bean slip; no creation/notice and recurring-condition theory rejected. No evidence format or exact duration inferred.
+- NY-4646279 (Fortune): Direct claim against cleaning contractor; private grocery interior, cause unidentified, remaining theories not reached.
+- NY-4674461 (Bongiovanni): Substantive verdict review: negligence without causation reconcilable; plaintiff’s account discredited. No fault allocation inferred.
+- NY-9444225 (Cosme): Public school exclusion; reversed/null. Drawer obviousness and notice not established on defense motion.
 
 All remain assistant drafts; no rule changes or human review.
 

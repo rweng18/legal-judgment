@@ -1,6 +1,6 @@
 # Becca — batch B progress
 
-Completed **B_001–B_010: 50/169 cases**; 119 pending. Next: **B_011**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
+Completed **B_001–B_020: 100/169 cases**; 69 pending. Next: **B_021**. Branch `annotations/becca-batch-b`, started from `ecca2a4`. Partial checkpoint; no complete round freeze.
 
 All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human review, adjudication or substantive team rule freeze is claimed.
 
@@ -56,13 +56,65 @@ All records remain llm_draft. Initial codebook/schema/prompt 1.0.0; no human rev
 | NY-8619624 | Cortes | Include | Affirmed | 0 | Cart obvious and not inherently dangerous; forgetting it did not create a trap. Discovery objection unsupported. |
 | NY-4798937 | D’Amato | Include | Affirmed | 0 | Owned exterior stairs; recurring awning melt/refreeze notice burden unmet, not final liability. |
 | NY-4538884 | Hill | Review | Affirmed | null | Review private status; janitorial compliance, last inspection and water duration not established. |
+| NY-6068857 | Doran | Include | Affirmed | 0 | Substantive damages/medical-causation review supports inclusion; earlier liability verdict is history, zero damages affirmed. |
+| NY-6036489 | Dennis | Include | Reversed | 1 | Cause speculative despite later cement; noncreation/no notice also established. Causation ground preserved below. |
+| NY-4898123 | Roland | Include | Reversed | 1 | General practices and surmised inspection did not negate notice; spoliation raised only on appeal, not decided on merits. |
+| NY-4488266 | Firment | Include | Affirmed | 0 | Witnesses/video contradicted mopping affidavit; extreme wetness and warning adequacy remain triable. |
+| NY-2787571 | Abraido | Include | Affirmed | 0 | Wheel stop obvious/not dangerous; lighting theory, contradictory affidavit and delayed expert measurements insufficient. |
+| NY-4400268 | Lebron | Include | Affirmed | 0 | Specific inspection/duration proof absent; general practices and speculative recent deposition of water insufficient. |
+| NY-10040612 | Huseinovic | Include | Affirmed | 0 | Substantive employment release bars direct injury claim; review release-based scope before human-gold use. |
+| NY-4304440 | Alvarado | Review | Affirmed | null | Review apparent duplicate of B_009 NY-6207337; preserve both drafts and resolve family before independent counts or splitting. |
+| NY-6110053 | Abalo | Include | Affirmed | 0 | Private home; authenticated photos/testimony established trivial saddle defect, not a universal size rule. |
+| NY-9353901 | O’Connell | Include | Affirmed | 0 | Lease absent initially and first supplied in reply; no-duty/out-of-possession burden unmet. |
+| NY-9432423 | Caldwell | Include | Affirmed | 0 | Entire order affirmed despite differing defendant results; one order, both appellants/favors both. ABM creation triable, owner/manager defenses established. |
+| NY-4404555 | Commender | Include | Affirmed | 0 | Private condo yard; known tree root obvious and inherent/incidental to property, no warning duty. |
+| NY-2755930 | Mottola | Include | Reversed | 1 | Eyewitness deposition and immediate photographs raised causation issue despite plaintiff’s inability to identify cause. |
+| NY-3216149 | Parietti | Include | Reversed | 1 | Supplied 2016 ruling: actual monitoring/video and no complaints established lack of notice; no later history imported. |
+| NY-4855957 | Gould | Include | Affirmed | 0 | Storm defense established; possible lull and speculative opposing expert insufficient. Appeal No. 2 still one current order. |
+| NY-6079805 | Smith | Include | Affirmed | 0 | Private shopping-center lot; noncreation/no notice established, melt/refreeze theory speculative. |
+| NY-10160424 | Greco | Include | Reversed | 1 | Lease and representative evidence put door maintenance on tenant; new code theory unpleaded, not decided on merits. |
+| NY-4494652 | Stoller | Review | Affirmed | null | Review private status and slip/trip mechanism: fell from stairs, cause unidentified by deposition/video. |
+| NY-10266107 | Daniel | Include | Reversed | 1 | Noncreation/no notice established; occasional leak awareness insufficient for recurrent-hazard notice. Vendor explanation is not plaintiff-fault finding. |
+| NY-3165373 | Burniston | Include | Affirmed | 0 | Ongoing storm established, but prior snow/ice and constructive notice triable; plaintiffs’ expert report submitted by both sides. |
+| NY-4384498 | Fasone | Review | Affirmed | null | Review rear-walkway property boundary; photos and testimony established triviality. |
+| NY-4665270 | Hartnett | Include | Affirmed | 0 | Two orders expressly affirmed; brokers lacked duty, code/triviality issues barred judgment against owner. |
+| NY-5933946 | Gradwohl | Include | Reversed | 1 | Employee-use dolly: obviousness did not resolve safe-maintenance duty; context/distraction matters. |
+| NY-5947506 | Castore | Include | Affirmed | 0 | No creation/notice established; employee-spill and expert step/handrail theories speculative. |
+| NY-4768128 | Von Euw | Include | Affirmed | 0 | Private restaurant lease/operation; deposition could not identify cause. |
+| NY-4628826 | Knight | Review | Reversed | null | Review slip/trip mechanism, not private status; tenant established no control/duty over common stairs. |
+| NY-6017856 | Hardsog | Include | Affirmed | 0 | Trivial chipped tiles; no actual depth measurement, expert assumptions insufficient. Inspection challenge abandoned. |
+| NY-3206955 | Ackerman | Include | Affirmed | 0 | Cause unidentified; affidavit raised feigned issues. Prior CAL_002 exposure, exclude from fresh blind agreement. |
+| NY-6088552 | Wachspress | Include | Reversed | 1 | Wheel stops obvious/not dangerous; route/barricade/distraction theories unsupported. |
+| NY-3149753 | Jackson | Include | Affirmed | 0 | Display stools obvious but not established non-dangerous; cited precedent photos are not current-case evidence. |
+| NY-5938963 | Green | Exclude | Affirmed | null | Procedural-only default vacatur; essential foreign-sworn affidavit lacked conformity certificate. |
+| NY-4805412 | Lauzon | Include | Reversed | 1 | Noncreation burden unmet for possible asparagus-display leakage; no final creation finding. |
+| NY-4330075 | Bogaty | Include | Affirmed | 0 | Granted reargument reaches wheel-stop merits; obvious and not inherently dangerous. |
+| NY-4623671 | Polanco | Include | Affirmed | 0 | Tracked rainwater: reasonable mats and no constructive notice; no constant-remedy requirement. |
+| NY-4310325 | Jewett | Include | Affirmed | 0 | Fully affirmed single order despite differing defendant outcomes; lease/control triable, BKV notice negated. Prior CAL_001 exposure. |
+| NY-3178550 | Garcia | Include | Affirmed | 0 | Private inter-building walkway; inspector measurement/photos established triviality, estimates insufficient. |
+| NY-5951224 | Alexander | Include | Reversed | 1 | Known ice/alternate route concern comparative fault, not sole cause; recurring-ice notice remains triable. |
+| NY-4520310 | Quinones | Include | Reversed | 1 | Specific inspection proof absent; handrail nondefect not established. Urine and movement remain allegations. |
+| NY-4304466 | Spacht | Exclude | Reversed | null | Public county ownership despite commercial lease; snow-duty and causation defenses failed, reply-only notice grounds not reached. |
+| NY-4763436 | Holmes | Include | Affirmed | 0 | Pallet blocked stockroom entrance; safety and constructive-notice burdens unmet. No inferred employee role. |
+| NY-9430104 | Sweet | Include | Affirmed | 0 | Substantive verdict review; no express gap-obviousness finding. House control supported by renovation/precautions. |
+| NY-5986955 | Miki | Include | Affirmed | 0 | Statutory pleading and merits rejected; noncreation/no-notice showing upheld. Premises subtype unstated. |
+| NY-9408725 | Benjamin | Include | Affirmed | 0 | Dust theory speculative; no enhanced sporting risk shown. Keep Samuels precedent facts separate. |
+| NY-3161292 | Lazic | Include | Reversed | 1 | Owned-property driveway entrance; rain/darkness defeated obviousness showing, without final fault finding. |
+| NY-6127959 | Laguerre | Include | Affirmed | 0 | Affirmance favors plaintiff; loose carpet and complaints to resident mother create triable danger/notice issues. |
+| NY-6104667 | DeForte | Review | Reversed | null | Review property status and slip/trip mechanism; generic premises/fall description. Reversed, null label. |
+| NY-5959861 | Chang | Include | Affirmed | 0 | Bean slip; no creation/notice and recurring-condition theory rejected. No evidence format or exact duration inferred. |
+| NY-4646279 | Fortune | Include | Affirmed | 0 | Direct claim against cleaning contractor; private grocery interior, cause unidentified, remaining theories not reached. |
+| NY-4674461 | Bongiovanni | Include | Affirmed | 0 | Substantive verdict review: negligence without causation reconcilable; plaintiff’s account discredited. No fault allocation inferred. |
+| NY-9444225 | Cosme | Exclude | Reversed | null | Public school exclusion; reversed/null. Drawer obviousness and notice not established on defense motion. |
 
-Totals: 35 included, 6 excluded, 9 unresolved. Included labels: 27 zero, 8 one. These are draft counts, not model performance.
+Totals: 77 included, 9 excluded, 14 unresolved. Included labels: 57 zero, 20 one. These are draft counts, not model performance.
 
-`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `cb4e21d`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
+`drafts/` preserves original outputs; `chunks/` contains selected outputs and validation reports; `prompts_used/` records prompts and provenance. `checkpoint.jsonl` merges only selected chunks. It supersedes the checkpoint in `4fb5f1a`; all earlier chunk artifacts are unchanged. `progress.json` tracks exact IDs and hashes; `checkpoint.summary.json` provides descriptive counts and provisional audit candidates, not a completed audit.
 
-Validation passed: 50 unique records, 186 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 119 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
+Validation passed: 100 unique records, 378 passages, all 19 issues per case, source hashes, exact quotations/offsets and references. 69 missing IDs are expected in this partial batch. Validation does not establish semantic correctness; see `human_review_log.md` for pending review.
 
-No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
+No peer labels or outside case facts consulted. Completed calibration overlap: NY-2993705, NY-3206955, NY-4310325. Preserve prior artifacts and report development cases separately from fresh blind agreement. Prior shared-answer/human exposure unknown. Later overlaps require explicit exposure handling. Validation/test-period cases use unchanged rules and require independent human review before evaluation use; no held-out rule tuning occurred.
 
-Continue with `batches/B/chunks/B_011.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.
+Possible duplicate family: NY-6207337 (B_009) / NY-4304440 (B_012). Prior draft retained; new record review/null. Resolve before independent counts or train/validation/test splitting.
+
+Continue with `batches/B/chunks/B_021.md`. Local commits; push when requested. At completion merge all 169 records, preserve/hash the complete draft before peer comparison, then review B.

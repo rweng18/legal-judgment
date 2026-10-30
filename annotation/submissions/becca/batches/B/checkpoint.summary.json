@@ -1,65 +1,78 @@
 {
-  "annotated_cases": 50,
+  "annotated_cases": 100,
   "eligibility": {
-    "include": 35,
-    "exclude": 6,
-    "review": 9
+    "include": 77,
+    "exclude": 9,
+    "review": 14
   },
   "outcomes_all_cases": {
-    "affirmed": 36,
-    "reversed": 14
+    "affirmed": 70,
+    "reversed": 30
   },
   "included_class_counts": {
-    "0": 27,
-    "1": 8
+    "0": 57,
+    "1": 20
   },
   "review_status": {
-    "llm_draft": 50
+    "llm_draft": 100
   },
   "planned_period_class_counts": {
     "train": {
-      "0": 20,
-      "1": 6
+      "1": 15,
+      "0": 44
     },
     "validation": {
-      "0": 6,
-      "1": 1
+      "0": 8,
+      "1": 2
     },
     "test": {
-      "1": 1,
-      "0": 1
+      "0": 5,
+      "1": 3
     }
   },
   "needs_review": [
     "NY-2800741",
     "NY-2993705",
+    "NY-4304440",
+    "NY-4384498",
+    "NY-4494652",
     "NY-4538884",
     "NY-4546815",
+    "NY-4628826",
     "NY-4654580",
     "NY-4851628",
     "NY-5293244",
     "NY-6058276",
+    "NY-6104667",
     "NY-6454036"
   ],
   "unknown_field_counts": {
-    "premises_type": 14,
-    "location": 4,
-    "injured_role": 36
+    "premises_type": 24,
+    "location": 7,
+    "injured_role": 71
   },
   "accepted_words": {
     "min": 238,
-    "median": 468,
-    "mean": 554.2,
+    "median": 567,
+    "mean": 602.6233766233767,
     "max": 1603
   },
   "random_training_audit_ids": [
-    "NY-5934656",
-    "NY-4402418",
-    "NY-5993188"
+    "NY-4798937",
+    "NY-4400269",
+    "NY-5951224",
+    "NY-3178550",
+    "NY-4310325",
+    "NY-4646279"
   ],
   "audit_seed": 20261019,
   "evaluation_needing_human_review": [
+    "NY-10040612",
+    "NY-10160424",
+    "NY-10266107",
     "NY-4851628",
+    "NY-4855957",
+    "NY-4898123",
     "NY-5293244",
     "NY-5312913",
     "NY-6454036",
@@ -69,9 +82,14 @@
     "NY-8511862",
     "NY-8511901",
     "NY-8619624",
+    "NY-9353901",
     "NY-9355448",
     "NY-9406522",
-    "NY-9422144"
+    "NY-9408725",
+    "NY-9422144",
+    "NY-9430104",
+    "NY-9432423",
+    "NY-9444225"
   ],
   "note": "Availability and annotation statistics, not classifier metrics. Freeze merged version before drawing the training audit. Family grouping remains required."
 }
