@@ -1,0 +1,1738 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2811328",
+    "text_sha256": "9b59d502479fcc1f3ecb659f1d094b1ff11b39c93f3d8b80248e0877e015d4c8",
+    "input_chunk_id": "C_033",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:22:17+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E008",
+        "E009",
+        "E010"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order dated October 31, 2014",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied the supermarket owner’s motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E011"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "factual_summary": "Mehta alleged that she slipped on what appeared to be dirty water on the supermarket floor. A maintenance employee said he saw no water when he inspected the area about 10 to 15 minutes earlier.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E004",
+        "E009",
+        "E010"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "The court applied the owner’s duty to maintain reasonably safe premises and held that the supermarket met its initial burden.",
+        "evidence_ids": [
+          "E006",
+          "E008"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "The court accepted the supermarket’s initial showing that it had not created the condition.",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The employee received no complaints about the area before the fall, and the court found the supermarket had shown lack of actual notice.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The employee identified a recent inspection of this area. Mehta’s description of dirty water did not establish that the condition had lasted long enough to discover and remedy.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009",
+          "E010"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Maintenance employee Charles Barber supplied an affidavit about his inspection and the absence of complaints.",
+        "evidence_ids": [
+          "E009"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "facts",
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E005",
+          "E011"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E008",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The court relied on a specific inspection, not merely a cleaning policy. The apparent dirtiness of the water did not establish its age."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant appeals from an order of the Supreme Court, Queens County (Weiss, J.), dated October 31, 2014, which denied its motion for summary judgment dismissing the complaint."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is granted."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "The plaintiff allegedly slipped and fell in a supermarket owned by the defendant, sustaining injuries."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "alleging that a wet and dangerous condition existed on the floor in the supermarket and caused her accident."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "The Supreme Court denied the motion, and we reverse."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "The owner or possessor of property has a duty to maintain his or her property \"in a reasonably safe condition in view of all the circumstances, including the likelihood of injury to others, the seriousness of the injury, and the burden of avoiding the risk\""
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "To meet its burden on the issue of lack of constructive notice, a defendant is required to offer some evidence as to when the accident site was last cleaned or inspected prior to the plaintiff's fall"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "The defendant established its prima facie entitlement to judgment as a matter of law by submitting evidence demonstrating that it neither created nor had actual or constructive notice of the condition alleged by the plaintiff to have caused the accident."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P004",
+        "statement_status": "testimony_or_record",
+        "quote": "the affidavit of Charles Barber, a member of the maintenance crew at the subject store on the date of the accident. Barber averred that he had inspected the area where the plaintiff alleged that she fell approximately 10 to 15 minutes prior to the accident and observed no water in the area at that time. He further averred in his affidavit that at no point prior to the accident did he ever receive any complaints of any kind concerning the area where the plaintiff allegedly fell."
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "The plaintiff's contention that she slipped and fell on what appeared to be dirty water did not raise a triable issue of fact as to whether that condition existed for a sufficient period of time in order for the defendant's employees to have identified the condition and remedied it."
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P005",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court should have granted the defendant's motion for summary judgment dismissing the complaint."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9398130",
+    "text_sha256": "9b75a0c3c281f078d89f5d76a75e19908d0660874545af22db0220ccb57ebe41",
+    "input_chunk_id": "C_033",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:22:17+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E007",
+        "E012"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Suffolk County order dated August 17, 2020",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied Westfield’s motion for summary judgment dismissing the complaint against it.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E006"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "factual_summary": "Vaughn allegedly slipped on liquid on the floor of a restroom in Westfield’s shopping mall. The opinion does not identify the substance.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "raised_only",
+        "finding": "Westfield denied creating the condition. The court decided the motion on failure to negate constructive notice through admissible evidence.",
+        "evidence_ids": [
+          "E004",
+          "E007",
+          "E012"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "raised_only",
+        "finding": "Westfield argued that it lacked actual notice; the court did not separately decide that contention.",
+        "evidence_ids": [
+          "E004",
+          "E007",
+          "E012"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The incident report and cleaning log could not establish the claimed pre-fall inspection. Westfield therefore failed to show lack of constructive notice.",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E012"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "The business-record foundation was insufficient: the log’s creator, source and regular-course basis were unidentified, and the report’s chain of reporting and recording duties was not established.",
+        "evidence_ids": [
+          "E008",
+          "E009",
+          "E010",
+          "E011"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "inspection_records",
+        "description": "The contractor’s restroom cleaning log purported to show a recent inspection but was inadmissible.",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E010"
+        ]
+      },
+      {
+        "type": "other",
+        "description": "The incident report was also excluded because the relevant business duties and regular course of preparation were not shown.",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E011"
+        ]
+      },
+      {
+        "type": "witness_testimony",
+        "description": "The contractor’s operations manager supplied an affidavit, but it did not supply the required foundation. Westfield did not submit testimony from those who cleaned, inspected or reported on the restroom.",
+        "evidence_ids": [
+          "E009",
+          "E010",
+          "E011"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E013"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E010",
+          "E011",
+          "E012"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The decision applies the constructive-notice burden to the negligence claim. The excluded documents do not establish that the reported inspection actually occurred."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant Westfield, LLC, appeals from an order of the Supreme Court, Suffolk County (George Nolan, J.), dated August 17, 2020. The order denied that defendant's motion for summary judgment dismissing the complaint insofar as asserted against it."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, without costs or disbursements."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "The plaintiff allegedly was injured when she slipped and fell on a liquid substance on the floor of a restroom in a shopping mall. The plaintiff commenced this action to recover damages for personal injuries against, among others, the defendant Westfield, LLC (hereinafter Westfield), the owner of the premises."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "Westfield moved for summary judgment dismissing the complaint insofar as asserted against it, contending that it did not create the alleged hazardous condition or have actual or constructive notice of its existence."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "an incident report relating to the subject accident and an accompanying restroom cleaning log, which indicated that the restroom had been inspected a few minutes before the accident by a housekeeper employed by Westfield's cleaning contractor, Cleaning Systems Management Corp. (hereinafter CSMC)."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "procedural_history",
+        "quote": "The Supreme Court denied Westfield's motion, concluding that the incident report and cleaning log constituted inadmissible hearsay, and therefore did not satisfy Westfield's prima facie burden of showing that it lacked constructive notice of the alleged hazardous condition."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "the statements in the incident report and restroom cleaning log indicating that the subject restroom was inspected shortly before the plaintiff's accident, submitted by Westfield in support of its motion, constituted inadmissible hearsay, and therefore did not support a prima facie showing that Westfield lacked constructive notice of the alleged hazardous condition."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "these documents were not admissible pursuant to the business records exception to the rule against hearsay."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P005",
+        "statement_status": "testimony_or_record",
+        "quote": "Westfield did not submit any affidavits or testimony from the housekeeper who was in charge of cleaning the restroom, the site manager who prepared the incident report, the housekeeper's supervisor who inspected the restroom after the incident, or the security guard who inspected the restroom together with the supervisor."
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "Neither McKenzie's affidavit nor the cleaning log itself identified the person who created the log, or identified the source of the information contained in the log, or indicated whether the log was made in the regular course of CSMC's business."
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P006",
+        "statement_status": "court_finding",
+        "quote": "neither McKenzie's affidavit nor any other evidence submitted by Westfield stated that the housekeeper had a business duty to report the occurrence to the site manager, that the site manager had a business duty to memorialize the accident in the incident report, or that the incident report was made in the regular course of CSMC's business."
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P006",
+        "statement_status": "court_finding",
+        "quote": "Thus, since Westfield failed to submit admissible evidence demonstrating that it lacked constructive notice of the alleged hazardous condition, it failed to make a prima facie showing of its entitlement to judgment as a matter of law."
+      },
+      {
+        "evidence_id": "E013",
+        "passage_id": "P006",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court properly denied Westfield's motion for summary judgment dismissing the complaint insofar as asserted against it."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6114840",
+    "text_sha256": "6ab72db1198a63a80b026d49e0dcce2d9f8bd89a6288cde8d4e59439e79a590d",
+    "input_chunk_id": "C_033",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:22:17+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "property_unclear"
+      ],
+      "property_status": "unclear",
+      "property_basis": "insufficient",
+      "fall_type": "slip_or_trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E004",
+        "E006",
+        "E008"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E006",
+        "E008",
+        "E009"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order dated May 1, 2012, insofar as appealed from",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied New York Food’s pre-answer motion under CPLR 3211(a)(1) and (7) to dismiss the claim against it.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E009"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "unclear",
+      "hazards": [
+        "unclear"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "tenant"
+      ],
+      "factual_summary": "Wang allegedly slipped or tripped and fell at or near premises in Flushing owned by Diamond Hill. New York Food was sued as the alleged tenant and disputed having taken possession when the accident occurred.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E004",
+        "E005",
+        "E008"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "The alleged tenant relied on lack of possession to defeat the claim. Its materials did not conclusively establish that it had not assumed control at the time; the court did not finally decide control or liability.",
+        "evidence_ids": [
+          "E004",
+          "E005",
+          "E006",
+          "E008"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Affidavits did not qualify as documentary evidence under CPLR 3211(a)(1), and the settlement stipulation did not conclusively defeat possession. The vice president’s affidavits and stipulation likewise left a significant factual dispute under (a)(7).",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "New York Food submitted its vice president’s affidavits, which did not conclusively resolve possession.",
+        "evidence_ids": [
+          "E006",
+          "E008"
+        ]
+      },
+      {
+        "type": "other",
+        "description": "The stipulation between the owner and the purported holdover tenant did not conclusively establish who controlled the premises at the time of the accident.",
+        "evidence_ids": [
+          "E006",
+          "E008"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E009"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E008"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "property_boundary"
+      ],
+      "notes": "The pre-answer ruling addressed a possession defense. Diamond Hill owned the identified premises, but the source locates the fall only 'at or near' them. The actual fall site’s private status and the alleged tenant’s control remain unconfirmed."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant New York Food & Drink Flushing, Inc., appeals, as limited by its brief, from so much of an order of the Supreme Court, Queens County (McDonald, J.), dated May 1, 2012, as denied its motion pursuant to CPLR 3211 (a) to dismiss the complaint insofar as asserted against it."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, without costs or disbursements."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "The plaintiff allegedly slipped and/or tripped and fell at or near certain premises located in Flushing, which were owned by the defendant Diamond Hill Realty, LLC (hereinafter Diamond Hill)."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "As a result, the plaintiff commenced this action against, among others, Diamond Hill and the defendant New York Food & Drink Flushing, Inc. (hereinafter New York Food), the alleged tenant of the premises."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "statement_status": "party_argument",
+        "quote": "Prior to serving an answer, New York Food moved pursuant to CPLR 3211 (a) (1) and (7) to dismiss the complaint insofar as asserted against it, contending that, at the time of the accident, it had not yet taken possession of the premises because the premises were occupied by a holdover tenant."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "the affidavits submitted by New York Food were not proper documentary evidence, and its submission of the stipulation of settlement between Diamond Hill and the purported holdover tenant failed to conclusively establish that it was not in possession of the premises at the time of the accident."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "Affidavits submitted by a defendant will almost never warrant dismissal under CPLR 3211 (a) (7) unless they “establish conclusively that plaintiff has no cause of action”"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "the affidavits of its vice president and the stipulation of settlement between Diamond Hill and the purported holdover tenant did not demonstrate that no significant dispute exists as to whether it had assumed control over the premises at the time of the accident."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P005",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court properly denied New York Food’s motion pursuant to CPLR 3211 (a) (1) and (7) to dismiss the complaint insofar as asserted against it."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9880361",
+    "text_sha256": "97b3ccf31c8892c72c20804f16c869421be3ac3d9aebdacb27df60a3f8d364ab",
+    "input_chunk_id": "C_033",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:22:17+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Erie County order entered May 30, 2023, on dismissal as against Tops",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied the part of defendants’ motion seeking summary judgment dismissing the amended complaint against Tops.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E004"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "indoor_floor",
+      "hazards": [
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "other"
+      ],
+      "factual_summary": "Scott slipped on a wet floor in a building owned and operated by defendants. The opinion does not identify the liquid, the use of the building, or Scott’s role.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Defendants failed to establish that Tops did not create the allegedly dangerous condition.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The court stated the burden to negate actual or constructive notice and held the defense failed its notice showing without separate factual findings on each type.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Defendants did not establish lack of notice. The opinion supplies no inspection details or timeline.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Because the moving defendants failed their initial burden as to Tops, the court did not consider the sufficiency of Scott’s opposition.",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E008"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Only the branch concerning Tops was on appeal. The opinion does not identify a particular evidence type in support of the motion."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "Appeal from an order of the Supreme Court, Erie County (Lynn W. Keane, J.), entered May 30, 2023. The order denied that part of the motion of defendants seeking summary judgment dismissing the amended complaint against defendant Tops Markets, LLC."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "testimony_or_record",
+        "quote": "Plaintiff commenced this action seeking damages for injuries she sustained when she slipped and fell on a wet floor in a building owned and operated by defendants."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "Tops appeals, and we affirm."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "Defendants failed to meet their initial burden of demonstrating that Tops did not create the allegedly dangerous condition"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "and that Tops did not have notice of the dangerous condition"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "initial burden of establishing that [they] did not create the alleged dangerous condition and did not have actual or constructive notice of it' \""
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Because defendants failed to meet their initial burden with respect to Tops, we need not consider the sufficiency of plaintiff's opposition to the motion"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4619786",
+    "text_sha256": "fcf81e5183015509c0b28a82cd4c0f3343e186cdc4164ae7280a9a1fdcf52558",
+    "input_chunk_id": "C_033",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:22:17+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E006"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E005",
+        "E006",
+        "E007"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order entered September 14, 2017",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendants’ motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "debris"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "other"
+      ],
+      "factual_summary": "Paar alleged that he slipped on leafy matter in the supermarket’s produce aisle. An employee identified watercress next to Paar in photographs taken immediately after the fall and said he had dropped watercress at that location that day.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E006"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "The employee’s identification of watercress and testimony that he had dropped some in that spot that day prevented the defense from ruling out employee creation of the hazard.",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "raised_only",
+        "finding": "Defendants denied actual notice, but the appellate holding concerned creation.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "raised_only",
+        "finding": "Defendants also denied constructive notice. The court did not decide that issue separately.",
+        "evidence_ids": [
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "The employee’s deposition came from defendants’ own moving papers, so the motions failed irrespective of the sufficiency of the opposition.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "The employee identified watercress in the photographs and described dropping it at the location on the accident day.",
+        "evidence_ids": [
+          "E006"
+        ]
+      },
+      {
+        "type": "photographs",
+        "description": "The employee reviewed photographs taken immediately after the fall that showed leafy matter next to Paar.",
+        "evidence_ids": [
+          "E006"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E008"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The court did not find that Paar stepped on the very watercress dropped by the employee. Creation remained disputed."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendants appeal from an order of the Supreme Court, Queens County (Leslie J. Purificacion, J.), entered September 14, 2017. The order denied the defendants' motion for summary judgment dismissing the complaint."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "Sandor Paar (hereinafter the injured plaintiff) alleges that he slipped and fell on green leafy matter in the produce aisle of Sky Foods Supermarket, which was owned and operated by the defendants."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "the defendants moved for summary judgment dismissing the complaint on the ground that they did not create or have actual or constructive notice of the allegedly dangerous condition."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "We agree with the Supreme Court that the defendants failed to establish, prima facie, that they did not create the allegedly dangerous condition."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "In support of their motion for summary judgment, the defendants submitted the deposition testimony of an employee of the supermarket. At his deposition, the employee was shown photographs taken immediately after the accident. The employee stated that certain leafy green vegetable matter that was on the floor next to the injured plaintiff was watercress. The employee also testified that he had personally dropped watercress on the floor in that location on the day of the accident."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Since the employee's deposition testimony was included in the defendants' moving papers, the existence of this issue precludes a determination finding that the defendants established their prima facie entitlement to judgment as a matter of law"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "regardless of the sufficiency of the plaintiffs' papers in opposition"
+      }
+    ]
+  }
+]

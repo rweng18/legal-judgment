@@ -1,0 +1,3 @@
+# C_034 scope and provenance
+
+User request: “C_034”. Reviewer folder: becca. All 13 passages of the three expected opinions were read in full under version 1.0.0 of the codebook, prompts and schema. None of these IDs appears in shared calibration or the optional Sunday pilot. Peña was annotated from this chunk’s source text. Its name, date, appealed order and facts match the earlier Peña source in C_020 (NY-4389907), so the case family has prior exposure in this pass. Both IDs are retained and the overlap is flagged. No previous annotation was consulted for these labels and no outside case facts were used. Human review is pending.

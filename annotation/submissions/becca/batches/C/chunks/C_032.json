@@ -1,0 +1,1697 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-10293646",
+    "text_sha256": "540b8f8d032fdcaaeff76d09fa55404ef134ad726e57af17ef830de2ed3532d3",
+    "input_chunk_id": "C_032",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:20:52+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002",
+        "E003"
+      ],
+      "incident_evidence": [
+        "E002"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003",
+        "E004",
+        "E005"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Bronx County order entered September 21, 2023, insofar as appealed from",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted Steph-Leigh’s motion for summary judgment dismissing the complaint against it.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "entrance",
+      "hazards": [
+        "uneven_surface",
+        "obstruction"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "factual_summary": "Goodson tripped over a raised door saddle at the entrance to premises owned by Steph-Leigh. The lease assigned entrance maintenance and repairs to the tenant.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "The landlord had no lease duty to repair or maintain the entrance. Its limited reentry right applied only if the tenant failed to act.",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The court rejected Goodson’s remaining contentions, including constructive notice, without separately analyzing notice or inspection timing.",
+        "evidence_ids": [
+          "E006"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "court_addressed",
+        "finding": "Steph-Leigh established its out-of-possession defense. The saddle was nonstructural and no specific statutory violation was alleged.",
+        "evidence_ids": [
+          "E003",
+          "E004",
+          "E005"
+        ]
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "court_addressed",
+        "finding": "Goodson did not allege violation of a specific statutory provision.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "other",
+        "description": "The lease assigned repair responsibility to the tenant and gave the landlord a conditional reentry right.",
+        "evidence_ids": [
+          "E003"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "legal_reasoning",
+          "facts",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E004",
+          "E005",
+          "E006"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The appealed portion concerned Steph-Leigh alone. The opinion does not identify the premises’ use or Goodson’s role."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Order, Supreme Court, Bronx County (Naita A. Semaj, J.), entered September 21, 2023, which, insofar as appealed from, granted the motion of defendant Steph-Leigh Associates, LLC for summary judgment dismissing the complaint as against it, unanimously affirmed, without costs."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "court_finding",
+        "quote": "Steph-Leigh Associates, LLC (defendant) established its prima facie entitlement to judgment as a matter of law, where plaintiff tripped and fell over a raised door saddle at the entrance of the premises owned by defendant, and plaintiff failed to raise a triable issue of fact."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "Defendant showed that it was an out-of-possession landlord with no duty to maintain and repair the entrance under the lease agreement, which assigned such responsibility to the tenant and granted defendant only a limited right of re-entry to repair the premises contingent on the tenant's failure to do so"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "the door saddle was not structural in nature"
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "plaintiff failed to allege any violation of a specific statutory provision"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "We have considered plaintiff's remaining contentions, including that defendant had constructive notice of the raised door saddle, and find them unavailing."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4627475",
+    "text_sha256": "027b41b5320cdbb8bfec4d2887bc5a6f0723f2d38a6d3a9c447ab27f512ca2e3",
+    "input_chunk_id": "C_032",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:20:52+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "outside_slip_trip_scope"
+      ],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "unclear",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E005",
+        "E006",
+        "E007"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E005",
+        "E007",
+        "E008"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Erie County order entered August 11, 2017",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted the facility defendants’ motion for summary judgment dismissing the amended complaint against them.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E004"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "other",
+      "hazards": [
+        "water",
+        "other"
+      ],
+      "injured_role": "other",
+      "defendant_roles": [
+        "owner",
+        "tenant",
+        "other"
+      ],
+      "factual_summary": "A senior independent-living resident was found in a retention pond on the facility grounds. The medical examiner concluded he collapsed into the pond and drowned. His estate suggested he might have slipped on the bank, but the record does not establish how he entered the water.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E005",
+        "E006",
+        "E007"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Defendants showed the pond and its bank were obvious features inherent in the property, reasonably anticipatable and known to the decedent.",
+        "evidence_ids": [
+          "E003",
+          "E008"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "court_addressed",
+        "finding": "The estate did not rebut the defendants’ showing concerning the pond and slope.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "The record contained no account establishing how Preston reached the pond. A slip on its bank was the estate’s proposed explanation.",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "The estate’s engineer did not supply studies, codes, standards or injury data grounding the asserted defect or the proposed safety measures.",
+        "evidence_ids": [
+          "E010",
+          "E011"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "other",
+        "description": "The medical examiner concluded that Preston collapsed into the pond and drowned.",
+        "evidence_ids": [
+          "E006"
+        ]
+      },
+      {
+        "type": "expert_evidence",
+        "description": "The estate submitted an engineering affidavit about the safety of the pond; the court found its factual foundation insufficient.",
+        "evidence_ids": [
+          "E010",
+          "E011"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E005",
+          "E008",
+          "E009",
+          "E010",
+          "E011"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "factual_support_thin"
+      ],
+      "notes": "Ownership, lease or operation by the corporate defendants is stated. The fall mechanism remains unresolved; a proposed slip is not evidence of an actual slip. The whole appealed order was affirmed."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "Appeal from an order of the Supreme Court, Erie County (Timothy J. Walker, A.J.), entered August 11, 2017. The order granted the motion of defendants Castle Pointe, LLC, SL Master Lessee II, LLC, Health Care Reit, Inc., HCRI Pennsylvania Properties Holding Company, HCRI Illinois Properties, LLC, HCRI Wisconsin Properties, LLC, and Senior Lifestyle Management, LLC, seeking summary judgment dismissing plaintiff's amended complaint against them."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "It is hereby ordered that the order so appealed from is unanimously affirmed without costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "Plaintiff commenced this premises liability action seeking damages for, inter alia, the wrongful death and conscious pain and suffering of his father, Lawrence A. Preston (decedent), a 96-year-old man who allegedly drowned in a retention pond on property owned, leased, or operated by defendants-respondents (defendants) and containing the senior citizen independent living facility in which decedent resided."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "We affirm."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "In support of their motion, defendants established that decedent's body was found in the pond a day after he was last seen leaving the apartment building in which he resided. The record contains no information concerning how he came to be there."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "The Monroe County Medical Examiner concluded that decedent collapsed into the pond and died of drowning."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "In opposition to the motion, however, plaintiff contended, inter alia, that decedent may have slipped on the pond's sloping bank and slid into the water."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Here, defendants met their initial burden on the motion by establishing that the pond, including its sloping bank, was an open and obvious condition inherent or incidental to the nature of the property and that it was known to decedent prior to the accident"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "We agree with defendants that he failed to do so."
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "the engineering expert's affidavit that plaintiff submitted fails to indicate that it was based on any studies, regulations, codes, or statutes"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "supported by foundational facts, such as a deviation from industry standards or statistics showing the frequency of injuries caused by\" the lack of safety measures proposed by the expert"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "Plaintiff failed to introduce evidence in admissible form in support of his remaining contention and thus failed to raise a triable issue of fact with respect to that contention"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-8510232",
+    "text_sha256": "55b4a356d2f0f3e550f2d20da4c96c4098bd9ee17cc0535770aafe8fe662c89e",
+    "input_chunk_id": "C_032",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:20:52+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E007",
+        "E008",
+        "E009"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Kings County order dated April 29, 2019, concerning Buena Vida’s motion",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied Buena Vida summary judgment dismissing the complaint against it. The trial court found an initial showing rebutted in opposition.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E005",
+            "E010"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "indoor_floor",
+      "hazards": [
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "factual_summary": "Wijesinghe alleged that he slipped on coffee that had dripped from an urn and accumulated on the floor of Buena Vida’s premises. He testified that he had repeatedly complained about the leak and no corrective action was taken.",
+      "accident_date": "2014-01-10",
+      "evidence_ids": [
+        "E003",
+        "E009"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "raised_only",
+        "finding": "Buena Vida denied creating the condition; the appellate court decided the motion on constructive notice of recurrence.",
+        "evidence_ids": [
+          "E004",
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Knowledge of a recurrent hazard can support constructive notice of each recurrence. The plaintiff’s testimony about complaints left knowledge disputed.",
+        "evidence_ids": [
+          "E006",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Buena Vida’s own submissions did not eliminate the factual issue about constructive notice of the repeatedly leaking urn.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "The plaintiff’s testimony about numerous unanswered complaints supported a dispute over whether the hazard recurred and was routinely left unaddressed.",
+        "evidence_ids": [
+          "E006",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Unlike the trial court, the appellate court found Buena Vida failed its initial burden. It therefore affirmed without assessing the opposition’s sufficiency.",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E008",
+          "E010"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Buena Vida submitted Wijesinghe’s deposition describing repeated complaints and the lack of corrective action.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The ruling does not establish that Buena Vida had notice as a matter of law; it leaves notice for a factfinder."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant Buena Vida Corp. appeals from an order of the Supreme Court, Kings County (Genine D. Edwards, J.), dated April 29, 2019. The order denied that defendant's motion for summary judgment dismissing the complaint insofar as asserted against it."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "On January 10, 2014, the plaintiff Victor Wijesinghe (hereinafter the injured plaintiff) allegedly was injured when he slipped and fell on coffee that had dripped from an urn and accumulated on the floor in premises owned by the defendant Buena Vida Corp. (hereinafter Buena Vida)."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "Buena Vida moved for summary judgment dismissing the complaint insofar as asserted against it, arguing, among other things, that it did not create or have actual or constructive notice of the allegedly dangerous condition that caused the injured plaintiff's accident."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "procedural_history",
+        "quote": "The Supreme Court denied the motion, determining, inter alia, that Buena Vida established its entitlement to judgment as a matter of law by demonstrating, prima facie, that it did not create the alleged hazardous condition or have actual or constructive notice of it, but in opposition, the plaintiffs raised a triable issue of fact on the issue of constructive notice."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "A party who has actual knowledge of an ongoing and recurring dangerous condition can be charged with constructive notice of each specific recurrence of that condition"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Here, Buena Vida failed to establish its prima facie entitlement to judgment as a matter of law dismissing the complaint insofar as asserted against it."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "Buena Vida's submissions, which included a transcript of the injured plaintiff's deposition testimony, failed to eliminate all triable issues of fact as to whether it had constructive notice of a recurrent dangerous condition"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P004",
+        "statement_status": "testimony_or_record",
+        "quote": "The injured plaintiff testified that he made numerous complaints regarding the leaking urn and no actions to eliminate the condition were taken."
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P004",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, Buena Vida's motion for summary judgment dismissing the complaint insofar as asserted against it was properly denied regardless of the sufficiency of the opposition papers"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4455568",
+    "text_sha256": "6c940be3bb08ae90a49b1656777da1ed847418b398564bd8e7d96f0908f229b2",
+    "input_chunk_id": "C_032",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:20:52+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E004",
+        "E006"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E004",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order entered August 31, 2016",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted the three moving defendants’ motion for summary judgment dismissing the complaint against them.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E008"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "obstruction"
+      ],
+      "injured_role": "customer",
+      "defendant_roles": [
+        "unclear"
+      ],
+      "factual_summary": "Arevalo alleged that while shopping in October 2011, she tripped over a red shopping basket on the floor near her checkout lane at an Associated Supermarket in Great Neck.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "The court applied the owner or possessor’s duty to maintain safe premises.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "The moving defendants showed that they did not create the basket condition, and Arevalo raised no triable issue.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The defense submissions established lack of actual notice.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The defendants established lack of constructive notice. The opinion does not specify a last inspection or the basket’s duration.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "The moving defendants submitted the parties’ deposition transcripts. The opinion does not describe their contents.",
+        "evidence_ids": [
+          "E006"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The private commercial site is the interior supermarket checkout lane. The opinion does not specify the individual roles of the three defendants who obtained dismissal."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the plaintiff appeals from an order of the Supreme Court, Queens County (McDonald, J.), entered August 31, 2016, which granted the motion of the defendants Jaypeejay Foods, Inc., Golden Key Foods, Inc., and Peter Giunta for summary judgment dismissing the complaint insofar as asserted against them."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "In October 2011, the plaintiff was shopping in an Associated Supermarket in Great Neck when she allegedly tripped over a red shopping basket that was on the floor near the checkout lane in which she was standing."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "Following discovery, the defendants moved for summary judgment dismissing the complaint insofar as asserted against them on the grounds, inter alia, that they did not create the condition or have actual or constructive notice of it."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "A property owner has a duty to keep the property in a reasonably safe condition in view of all the circumstances"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "the evidence submitted in support of the defendants' motion, which included the deposition transcripts of the parties, established their prima facie entitlement to judgment as a matter of law dismissing the complaint insofar as asserted against them by demonstrating that they did not create the alleged condition or have actual or constructive notice of it"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "In opposition, the plaintiff failed to raise a triable issue of fact"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P004",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court properly granted the defendants' motion for summary judgment dismissing the complaint insofar as asserted against them."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4552386",
+    "text_sha256": "1d0718fe0493be9da9fd90b268ed656c1e86f9d18abfceca90689e61696217c6",
+    "input_chunk_id": "C_032",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T19:20:52+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E001",
+        "E004",
+        "E009"
+      ],
+      "incident_evidence": [
+        "E004"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E006",
+        "E009",
+        "E011"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E003"
+      ],
+      "orders": [
+        {
+          "description": "Erie County judgment entered May 2, 2017, appeal No. 2",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Awarded defendant costs on a jury verdict finding no negligence. The court refused to set the verdict aside.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E003",
+            "E006",
+            "E011"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "institutional",
+      "location": "parking_lot",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "factual_summary": "Rozier alleged that he slipped on ice in the nursing and rehabilitation center’s parking lot. Defendant’s maintenance staff described their daily snow and ice removal routine for that lot.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E001",
+        "E004",
+        "E008",
+        "E009"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "The court upheld admission of the staff’s habit testimony and reviewed the record on the weight-of-the-evidence challenge. It affirmed the denial of a new trial and found the damages-evidence issues moot.",
+        "evidence_ids": [
+          "E008",
+          "E009",
+          "E010",
+          "E011",
+          "E012"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "court_addressed",
+        "finding": "The jury’s no-negligence verdict stood after substantive weight-of-the-evidence review. The opinion does not detail the underlying evidence beyond the maintenance testimony.",
+        "evidence_ids": [
+          "E006",
+          "E009",
+          "E011"
+        ]
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Maintenance staff testified to a daily routine for the specific parking lot; this habit evidence was admitted as evidence of their conduct before the incident.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E009",
+          "E010",
+          "E011",
+          "E013"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The supplied case is appeal No. 2, the affirmance of the final judgment. Appeal No. 1 was a separate appeal from an interlocutory order subsumed in this judgment. The current decision is not a mixed outcome."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "testimony_or_record",
+        "quote": "Glasco Rozier, Appellant, v BTNH, Inc., Doing Business as Delaware Nursing & Rehabilitation Center, Respondent. (Appeal No. 2.)"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "Appeal from a judgment of the Supreme Court, Erie County (Tracey A. Bannister, J.), entered May 2, 2017. The judgment awarded defendant costs upon a jury verdict of no cause of action."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "It is hereby ordered that the judgment so appealed from is unanimously affirmed without costs."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "Plaintiff commenced this action to recover damages for injuries that he allegedly sustained when he slipped and fell on ice in defendant's parking lot."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "In appeal No. 1, plaintiff appeals from an order that, inter alia, denied that part of his pretrial motion seeking to preclude habit evidence."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "procedural_history",
+        "quote": "plaintiff appeals from a judgment entered on the jury's verdict finding no negligence on the part of defendant."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "the appeal from the order in appeal No. 1 must be dismissed inasmuch as the order in that appeal is subsumed in the judgment in appeal No. 2"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "Contrary to plaintiff's contention, Supreme Court properly allowed defendant's maintenance staff to testify concerning their custom and habit with respect to snow and ice removal procedures."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Here, the testimony of the maintenance staff concerning their daily routine in maintaining the subject parking lot was properly admitted as evidence of their conduct prior to the incident at issue."
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "We reject plaintiff's further contention that the court erred in denying his posttrial motion seeking, inter alia, to set aside the verdict as against the weight of the evidence."
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "Here, based upon our review of the record, we conclude that the court properly refused to set aside the jury verdict as against the weight of the evidence"
+      },
+      {
+        "evidence_id": "E012",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "In light of our determination, plaintiff's contentions regarding certain evidentiary rulings relating to proof of damages are moot"
+      },
+      {
+        "evidence_id": "E013",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "We have considered plaintiff's remaining contentions and conclude that none warrants reversal or modification of the judgment."
+      }
+    ]
+  }
+]
