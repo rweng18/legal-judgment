@@ -1,0 +1,1704 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4865112",
+    "text_sha256": "1ec174b97149e0996db659ce650df7480fcb07c2917f8f49c11d88cc68ed63d2",
+    "input_chunk_id": "C_024",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T18:32:19+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "outside_slip_trip_scope"
+      ],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "unclear",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E005",
+        "E007"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E007",
+        "E008",
+        "E010"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Suffolk County order dated July 15, 2019, insofar as appealed from",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted the branches of the church defendants’ and contractor’s separate motions dismissing the direct complaint against them.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E006",
+            "E011"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "religious_nonprofit",
+      "location": "stairs",
+      "hazards": [
+        "stairs_handrail"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "contractor"
+      ],
+      "factual_summary": "Jackson allegedly fell while descending the church’s exterior stairs on March 31, 2013. She alleged the absence of a center handrail contributed to her fall. A contractor had regrouted the stairs, including the grout around an existing edge handrail.",
+      "accident_date": "2013-03-31",
+      "evidence_ids": [
+        "E003",
+        "E004",
+        "E005"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "The church was not required to install the proposed center rail under those codes. The contractor’s limited agreement imposed no obligation to install it.",
+        "evidence_ids": [
+          "E008",
+          "E009",
+          "E010"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "D’Alessandro showed it did not launch an instrument of harm by performing the contracted regrouting.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "The church defendants established that Jackson did not know what caused her fall. The court discussed a misstep as a hypothetical and found no applicable legal requirement for the center rail.",
+        "evidence_ids": [
+          "E003",
+          "E005",
+          "E007",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "court_addressed",
+        "finding": "Regrouting did not create a danger, and the contractor had no contractual duty to install a center rail.",
+        "evidence_ids": [
+          "E004",
+          "E010"
+        ]
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "court_addressed",
+        "finding": "The staircase predated the 2003 and 2007 codes. Jackson did not raise a triable issue that the cited provisions required a center handrail on these stairs.",
+        "evidence_ids": [
+          "E005",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "other",
+        "description": "The court relied on the scope of the contractor’s limited service agreement in assessing its duty.",
+        "evidence_ids": [
+          "E004",
+          "E010"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P006",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P007",
+        "types": [
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E011"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "factual_support_thin"
+      ],
+      "notes": "The church’s ownership and the affirmance are clear. The opinion describes a fall while descending stairs, but does not establish that Jackson slipped or tripped. One order covered both motions."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "In a consolidated action to recover damages for personal injuries, the plaintiff appeals from an order of the Supreme Court, Suffolk County (John H. Rouse, J.), dated July 15, 2019."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, with one bill of costs to the respondents appearing separately and filing separate briefs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "On the afternoon of March 31, 2013, the plaintiff was descending the exterior staircase of a church owned by the defendants Bethel A.M.E. Church and African American Methodist Episcopal Church and Congregation of Bay Shore, NY (hereinafter together the Bethel defendants), when she allegedly fell and was injured."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "In 2012, the Bethel defendants had retained the defendant D'Alessandro & Son Contractors, Inc. (hereinafter D'Alessandro), to regrout the stairs, including the grout around one of the two existing handrails at the edges of the staircase."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P003",
+        "statement_status": "allegation",
+        "quote": "The plaintiff asserted, inter alia, that the staircase was defective in that it did not have a handrail in the center of the staircase in violation of certain sections of the 2003 and 2007 New York State Building Code, and that this defect contributed to her fall."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "statement_status": "procedural_history",
+        "quote": "The Supreme Court granted both motions on the ground that the plaintiff did not know what had caused her to fall."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "Here, the Bethel defendants established, prima facie, that the plaintiff did not know what had caused her to fall"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "and that the subject staircase, which predated the 2003 and 2007 versions of the Building Code, was not required to be equipped with a handrail in the center"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P005",
+        "statement_status": "court_finding",
+        "quote": "In opposition, the plaintiff failed to raise a triable issue of fact as to whether the sections of the 2003 and 2007 Building Code that she relied on applied to this staircase"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P006",
+        "statement_status": "court_finding",
+        "quote": "Here, D'Alessandro established, prima facie, that it had no duty to erect a handrail in the center of the staircase by virtue of its limited service agreement with the Bethel defendants, and that it did not launch an instrument of harm simply by regrouting the staircase as it was contractually required to do"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P007",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court properly granted that branch of the motion of the Bethel defendants which was for summary judgment dismissing the complaint asserted against them, and that branch of the separate motion of D'Alessandro which was for summary judgment dismissing the complaint asserted against it."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5959711",
+    "text_sha256": "4f0cda5132a72f1c5ab3bafd15efe115db9b4563f63b736349dc76af4fd5d1c4",
+    "input_chunk_id": "C_024",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T18:32:19+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E006",
+        "E007",
+        "E008"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order entered May 6, 2010, insofar as appealed from",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied the beer distributors’ motion for summary judgment dismissing the complaint and cross claims against them.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E009"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "other"
+      ],
+      "factual_summary": "Lopez alleged that the bottom of a beer package he was carrying gave way, the bottles broke, and he slipped on the spilled beer inside Stop & Shop’s supermarket. The appealing distributors had delivered beer there that day and several days earlier.",
+      "accident_date": "2006-07-03",
+      "evidence_ids": [
+        "E003",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The distributors did not offer proof from anyone with personal knowledge to establish they were unaware of the wet packaging. The ruling did not find that they actually knew it was wet.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Because the distributors failed to meet their initial burden, the court did not need to assess the opposition.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "The distributors’ sales manager described shelf-stocking and package checks but could not identify the assigned associate.",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "type": "other",
+        "description": "The sales manager said he had no business records showing when an associate visited a particular store.",
+        "evidence_ids": [
+          "E007"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E009"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E008"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The distributor defendants appealed as to the direct complaint as well as cross claims. The notice issue concerned wet packaging before the bottles broke, not duration of the resulting spill."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendants/third-party defendants, Manhattan Beer Distributors, LLC, and Manhattan Beer Distributors, Inc., appeal, as limited by their brief, from so much of an order of the Supreme Court, Queens County (Grays, J.), entered May 6, 2010, as denied their motion for summary judgment dismissing the complaint and all cross claims insofar asserted against them."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "On July 3, 2006, the plaintiff allegedly slipped and fell on beer on the floor of a supermarket owned by the defendant/ third-party plaintiff, Stop & Shop Supermarket Company, LLC (hereinafter Stop & Shop), when the bottom of the packaging of the beer he was carrying gave way and the bottles broke on the floor."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "statement_status": "testimony_or_record",
+        "quote": "On the date of the accident, and several days before, the defendants/third-party defendants, Manhattan Beer Distributors, LLC, and Manhattan Beer Distributors, Inc. (hereinafter together the appellants), delivered beer to the store."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "the sales manager for the appellants stated that after deliveries were made to a particular store a sales associate, typically on the day of delivery, would be responsible for taking the beer from the Stop & Shop storeroom and placing it in, inter alia, the refrigeration units inside the store."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "He testified that it was the sales associate’s responsibility to check the quality of the product when placed on the shelves, including to see if there was any damaged packaging. He admitted that if any of the packaging was wet, it should be removed during that process."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "He testified that he did not know who the sales associate was for the particular Stop & Shop on the date of the subject accident, and had no business records to show when a sales associate visited a particular location."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "since the appellants failed to offer proof by a person with personal knowledge, they failed to establish prima facie that they were not aware of the hazardous condition complained of by the plaintiff, which was the wet packaging of the beer the plaintiff was carrying at the time of the alleged accident."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court correctly denied their summary judgment motion without regard to the sufficiency of the opposition papers"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4727127",
+    "text_sha256": "09a31907a00dbac6b3c3494967b99781dbd7457dc8a89629fe9ff0bf75136b4d",
+    "input_chunk_id": "C_024",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T18:32:19+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "property_unclear"
+      ],
+      "property_status": "unclear",
+      "property_basis": "insufficient",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E004"
+      ],
+      "incident_evidence": [
+        "E004",
+        "E009"
+      ],
+      "scope_evidence": [
+        "E004",
+        "E006",
+        "E009"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E003"
+      ],
+      "orders": [
+        {
+          "description": "Kings County order dated January 23, 2019",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied Amalgamated Warbasse Houses’ motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E002",
+            "E003",
+            "E010"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "sidewalk",
+      "hazards": [
+        "hole"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "factual_summary": "Nsengiyumva alleged that she stepped into a pothole on a sidewalk adjacent to the defendant’s property. The opinion refers to her fall but does not identify an owner or controller of the sidewalk.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E004",
+        "E009"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Creation was part of the governing summary judgment standard. The court made no separate finding on creation.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The court stated the actual-notice standard but resolved the motion on constructive notice.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The managers described only general practices, with no evidence of the last inspection of this sidewalk before the fall.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Defendant’s initial showing failed, so the sufficiency of the opposition papers did not affect the ruling.",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "Defendant supplied its general property manager’s affidavit and its assistant property manager’s deposition.",
+        "evidence_ids": [
+          "E007",
+          "E008"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E010"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "property_boundary"
+      ],
+      "notes": "Stepping into a pothole is the alleged mechanism. The sidewalk is described as adjacent to defendant’s property; the opinion does not establish private ownership or control of that segment."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "testimony_or_record",
+        "quote": "Josephine Nsengiyumva, Respondent, v Amalgamated Warbasse Houses, Inc., Appellant."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant appeals from an order of the Supreme Court, Kings County (Kathy J. King, J.), dated January 23, 2019. The order denied the defendant's motion for summary judgment dismissing the complaint."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "The plaintiff allegedly was injured when she stepped into a pothole on the sidewalk adjacent to the defendant's property."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "A defendant landowner who moves for summary judgment in a premises liability action has the initial burden of making a prima facie showing that it neither created the alleged dangerous or defective condition nor had actual or constructive notice of the condition"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "The defendant failed to establish its prima facie entitlement to judgment as a matter of law on the issue of constructive notice of the alleged defective condition."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "In support of its motion, the defendant submitted, inter alia, the affidavit of its general property manager and the transcript of the deposition testimony of its assistant property manager."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "This evidence provided general descriptions of the duties of the defendant's employees, which, at best, established the defendant's general inspection practices."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "However, the defendant submitted no evidence to show when the subject sidewalk was last inspected prior to the plaintiff's fall, and therefore failed to establish a lack of constructive notice of the alleged defective condition"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P003",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, we agree with the Supreme Court's determination denying the defendant's motion for summary judgment, regardless of the sufficiency of the plaintiff's opposition papers"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4498529",
+    "text_sha256": "ec409ec204e7e8d81a88af188b8d5f278e0e809c11d28bb439e3f0177fa95b77",
+    "input_chunk_id": "C_024",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T18:32:19+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E005",
+        "E006"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order entered September 21, 2015, limited to dismissal as against Bagga",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted Bagga’s motion for summary judgment dismissing the complaint against him.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E008"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "entrance",
+      "hazards": [
+        "unclear"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner",
+        "other"
+      ],
+      "factual_summary": "Fuzaylova allegedly tripped at the entrance of a grocery store operated by 63-28 99th St. Farm Ltd. on premises owned by Bagga. The opinion does not identify what caused the trip.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Bagga had no contractual or assumed maintenance duty. A reserved right to reenter to make repairs did not itself impose that duty.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "court_addressed",
+        "finding": "Bagga established his out-of-possession defense; Fuzaylova asserted only common-law negligence and did not raise a triable issue.",
+        "evidence_ids": [
+          "E004",
+          "E005",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "court_addressed",
+        "finding": "The court expressly noted that Fuzaylova did not allege a statutory violation.",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The appeal concerned the negligence claim against the landlord, not solely the third-party action identified in the caption."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the plaintiff appeals, as limited by her brief, from so much of an order of the Supreme Court, Queens County (Timothy J. Dufficy, J.), entered September 21, 2015, as granted that branch of the motion of the defendant Dasshan S. Bagga which was for summary judgment dismissing the complaint insofar as asserted against him."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed insofar as appealed from, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "The plaintiff commenced this action to recover damages for personal injuries she allegedly sustained when she tripped and fell at the entrance of a grocery store operated by the defendant 63-28 99th St. Farm Ltd., located on premises owned by the defendant Dasshan S. Bagga."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "Bagga moved, inter alia, for summary judgment dismissing the complaint insofar as asserted against him on the ground that he was an out-of-possession landlord with no duty to maintain the premises."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Here, where the complaint sounds in common-law negligence and the plaintiff does not allege the violation of a statute, Bagga demonstrated his prima facie entitlement to judgment as a matter of law dismissing the complaint insofar as asserted against him by establishing that he was an out-of-possession landlord who was not bound by contract or course of conduct to maintain the premises"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "The mere reservation of a right to reenter the premises to make repairs does not impose an obligation on the landlord to maintain the premises"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "In opposition, the plaintiff failed to raise a triable issue of fact."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, we agree with the Supreme Court's granting of that branch of Bagga's motion which was for summary judgment dismissing the complaint insofar as asserted against him."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-9459074",
+    "text_sha256": "9d87d0cdf7854177ba562c53ad19019594dccbc34c93ad73281ed50e632e40d4",
+    "input_chunk_id": "C_024",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T18:32:19+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E007"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E006",
+        "E009",
+        "E010"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Westchester County order dated February 10, 2022",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Granted Ofori’s motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "walkway",
+      "hazards": [
+        "uneven_surface",
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "factual_summary": "Piltie allegedly slipped on loose stones in the front walkway of Ofori’s house in March 2019. Ofori said she had removed two loose stones a week earlier. Piltie described years of loose stones, complaints, and no stones missing on the accident day.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E004",
+        "E007",
+        "E008"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "The parties’ accounts of prior complaints, repairs and removal of loose stones raised disputed questions of actual notice and credibility.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Ofori did not rule out constructive notice of the alleged recurring condition.",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E010"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "The testimony left unresolved whether the loose stones were a recurring hazard that Ofori had not adequately remedied.",
+        "evidence_ids": [
+          "E005",
+          "E007",
+          "E008",
+          "E010"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Because Ofori did not meet her initial burden, denial was required regardless of the sufficiency of the opposition.",
+        "evidence_ids": [
+          "E011"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "Both parties were deposed. Ofori described prior repairs and removing stones; Piltie described her complaints and disputed the account of removal.",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E011"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The opinion identifies a slip on loose stones, despite quoting a general trip-and-fall standard. Reversal left actual notice, recurrence and constructive notice for a factfinder."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the plaintiff appeals from an order of the Supreme Court, Westchester County (William J. Giacomo, J.), dated February 10, 2022. The order granted the defendant's motion for summary judgment dismissing the complaint."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "In March 2019, the plaintiff allegedly was injured when she slipped and fell on a loose stone condition in the front walkway of the defendant's house."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "The plaintiff commenced this action to recover damages for personal injuries, alleging that the defendant was negligent in maintaining the stone walkway where the subject accident occurred."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "a defendant who has actual knowledge of a particular ongoing and recurring hazardous condition may be charged with constructive notice of each specific reoccurrence of that condition"
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "the defendant failed to establish, prima facie, that she lacked either actual or constructive notice of the alleged dangerous condition of the loose stones."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "testimony_or_record",
+        "quote": "Although the defendant testified that repairs had been made to the loose stones approximately two years before the plaintiff's accident, [*2] the defendant did not know what repairs had been made and admitted that, one week before the plaintiff's accident, she discovered two loose stones in the walkway and removed them."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "testimony_or_record",
+        "quote": "The plaintiff testified that she had observed loose stones in the walkway for several years, that she complained to the defendant about them, and that none of the stones that the defendant allegedly had removed were missing from the walkway on the day of her accident."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "This testimony raised a triable issue of fact regarding actual notice, as well as an issue of credibility, that a trier of fact should determine"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "the testimony failed to eliminate all triable issues of fact as to whether the alleged dangerous condition of the loose stones was a recurring condition that the defendant failed to adequately remedy, and whether she lacked constructive notice of that condition"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P004",
+        "statement_status": "current_disposition",
+        "quote": "Since the defendant failed to demonstrate her prima facie entitlement to judgment as a matter of law dismissing the complaint, the Supreme Court should have denied her motion for summary judgment without regard to the sufficiency of the plaintiff's opposition papers"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1700 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2771937",
+    "text_sha256": "8cc47f86100e82c3a63b6a3efa1a0a78f2adc0ed0f603c03f35439fd29d0b82d",
+    "input_chunk_id": "C_021",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T15:20:33+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E004"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E004",
+        "E007",
+        "E008"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order dated September 26, 2013, on Chang’s motion",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied Chang’s motion for summary judgment dismissing the complaint and cross claims against her.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E005"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "indoor_floor",
+      "hazards": [
+        "other"
+      ],
+      "injured_role": "other",
+      "defendant_roles": [
+        "owner"
+      ],
+      "factual_summary": "Shih allegedly slipped in the thirteenth-floor hallway near her apartment entrance. Video showed Chang, another apartment owner on that floor, mopping the hallway less than an hour earlier.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Chang did not rule out creating the alleged hallway condition. The video placed her mopping there less than an hour before the fall.",
+        "evidence_ids": [
+          "E004",
+          "E008"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Actual notice was part of the stated legal standard. The court decided the motion on creation and causation.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The court recited the constructive-notice standard but did not determine how long a hazard existed.",
+        "evidence_ids": [
+          "E006",
+          "E008"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Chang did not show that Shih could not identify the cause of her fall.",
+        "evidence_ids": [
+          "E007"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Because Chang failed to meet her initial burden, the court did not assess Shih’s opposition.",
+        "evidence_ids": [
+          "E009"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "surveillance",
+        "description": "Video showed Chang mopping the subject hallway less than an hour before the fall.",
+        "evidence_ids": [
+          "E004"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E007",
+          "E008",
+          "E009"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "Sanford Tower Condo owned the building; Chang owned an apartment. The appeal concerned Chang’s motion, including the direct claim against her. No specific substance was identified."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant Flora Chang appeals from an order of the Supreme Court, Queens County (Taylor, J.), dated September 26, 2013, which denied her motion for summary judgment dismissing the complaint and all cross claims insofar as asserted against her."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with one bill of costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "The plaintiff allegedly was injured when she slipped and fell in the hallway near the entrance to her apartment, which was located on the thirteenth floor of a building owned by the defendant Sanford Tower Condo."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "testimony_or_record",
+        "quote": "A surveillance video showed the defendant Flora Chang, who also owned an apartment on the same floor, mopping the subject hallway less than one hour before the plaintiff's fall."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "The Supreme Court properly denied Chang's motion for summary judgment dismissing the complaint and all cross claims insofar as asserted against her."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "A defendant who moves for summary judgment in a slip-and-fall case has the initial burden of making a prima facie showing that he or she neither created the dangerous condition, nor had actual or constructive notice of its existence for a sufficient length of time to discover and remedy it"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Here, Chang failed to establish, prima facie, either that the plaintiff did not know what caused her to fall"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "or that Chang did not create the alleged dangerous condition on the hallway floor"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Since Chang failed to establish her entitlement to judgment as a matter of law, it is unnecessary to consider the sufficiency of the plaintiff's opposing papers"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4303988",
+    "text_sha256": "a0b2f4e2a9233d4abc945675820064f73d98ca02d350e4a8d3be0acbf906ac05",
+    "input_chunk_id": "C_021",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T15:20:33+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E009",
+        "E010"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E006"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E006",
+        "E007",
+        "E009"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Onondaga County order entered May 28, 2015",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied CEC’s motion for summary judgment dismissing the amended complaint.",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001",
+            "E002"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "restaurant",
+      "location": "parking_lot",
+      "hazards": [
+        "snow_ice"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "factual_summary": "DeJesus allegedly slipped in the parking lot while exiting CEC’s Chuck E. Cheese’s restaurant. The condition at issue was ice or slush.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E006"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "raised_only",
+        "finding": "CEC denied creation. The appellate decision rested on notice.",
+        "evidence_ids": [
+          "E004",
+          "E006"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "CEC established that it had no actual notice, and plaintiffs raised no triable issue in opposition.",
+        "evidence_ids": [
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The ice or slush was not visible and apparent. The claimed lack of recent inspections or compliance with the inspection manual did not establish constructive notice.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E010"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "court_addressed",
+        "finding": "Reports of earlier falls did not identify particular locations in the lot and did not establish notice of a recurring condition at the accident site.",
+        "evidence_ids": [
+          "E009"
+        ]
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "court_addressed",
+        "finding": "Plaintiffs’ meteorological expert relied on assumptions without evidentiary support.",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "expert_evidence",
+        "description": "The court rejected the unsupported assumptions in the plaintiffs’ meteorological opinion.",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "type": "other",
+        "description": "The prior incident reports lacked specific locations. The court also considered the argument based on CEC’s inspection manual.",
+        "evidence_ids": [
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "procedural_history",
+          "legal_reasoning",
+          "current_outcome",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E005"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The opinion identifies CEC’s restaurant and its reporting and inspection practices for the parking lot. It does not expressly establish separate title to the lot."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "Appeal from an order of the Supreme Court, Onondaga County (Donald A. Greenwood, J.), entered May 28, 2015. The order denied the motion of defendant for summary judgment."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "It is hereby ordered that the order so appealed from is unanimously reversed on the law without costs, the motion is granted and the amended complaint is dismissed."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "Plaintiffs commenced this action seeking to recover damages for injuries allegedly sustained by plaintiff *1391 Anthony DeJesus when he slipped and fell in a parking lot while exiting a restaurant owned by defendant, CEC Entertainment, Inc., doing business as Chuck E. Cheese’s."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "statement_status": "party_argument",
+        "quote": "Defendant moved for summary judgment dismissing the amended complaint on the ground that it neither created nor had actual or constructive notice of the allegedly dangerous condition that caused the fall."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "We reverse."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "We agree with defendant that it met its initial burden of demonstrating that it had neither actual notice of the alleged slippery condition nor constructive notice of its existence for a sufficient length of time to discover and remedy it because the ice and/or slush was not “visible and apparent”"
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "we conclude that plaintiffs failed to raise a triable issue of fact in opposition"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "the opinions of plaintiffs’ meteorologic expert are based on assumptions “that enjoy[ ] no evidentiary support in the record”"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Although plaintiffs submitted defendant’s incident reports involving defendant’s patrons falling in the parking lot on prior occasions, none of the reports identified a specific location in the parking lot, and they are therefore insufficient to raise an issue of fact with respect to constructive notice of an alleged recurrent condition"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Lastly, inasmuch as the condition was not “visible and apparent,” any lack of proof of recent inspections by defendant or the alleged failure of defendant to comply with its “Risk Management/Safety” manual with respect to inspections is irrevelant"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6245796",
+    "text_sha256": "9389eae12c04886771293140ca5961a3b28914b130b03d96a462ab94bbbd1f27",
+    "input_chunk_id": "C_021",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T15:20:33+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "uncertain",
+      "binary_task": "review",
+      "reasons": [
+        "property_unclear"
+      ],
+      "property_status": "unclear",
+      "property_basis": "insufficient",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E007"
+      ],
+      "incident_evidence": [
+        "E003",
+        "E007"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E006",
+        "E007"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order entered December 2, 2019, on the branch of Dong’s motion concerning the complaint against it",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied Dong’s motion for summary judgment dismissing the complaint against it.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E008"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "restaurant",
+      "location": "sidewalk",
+      "hazards": [
+        "uneven_surface",
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "factual_summary": "Leem allegedly tripped on a mat covering a sloped concrete surface while exiting Dong’s restaurant in September 2017. Her deposition identified the sloped sidewalk beneath the mat as a possible cause.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E007"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "The court recited the creation standard without a separate case-specific finding.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Actual notice appeared in the governing standard. The decision rested on causation and whether a defect could have caused the fall.",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The court recited the constructive-notice standard but made no case-specific finding on notice.",
+        "evidence_ids": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "raised_only",
+        "finding": "Dong’s asserted triviality for the first time on appeal, so the court declined to consider it.",
+        "evidence_ids": [
+          "E009"
+        ]
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Leem’s deposition raised a triable question whether she tripped on the sloped sidewalk under the mat. Dong’s did not show the cause was unidentifiable or rule out a defect.",
+        "evidence_ids": [
+          "E004",
+          "E006",
+          "E007"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Dong’s failed to meet its initial burden, making the sufficiency of the opposition immaterial. Triviality was unpreserved.",
+        "evidence_ids": [
+          "E008",
+          "E009"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "party_testimony",
+        "description": "The restaurant submitted Leem’s deposition on the sloped sidewalk beneath the mat.",
+        "evidence_ids": [
+          "E007"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E008"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E009"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": true,
+      "flags": [
+        "property_boundary"
+      ],
+      "notes": "The appellate court locates the claimed defect on a sidewalk at the restaurant exit. The opinion does not identify who owned or controlled the actual sidewalk segment or placed the mat. Retain for private-premises review."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendant Dong's Family Cuisine appeals from an order of the Supreme Court, Queens County (Frederick D.R. Sampson, J.), entered December 2, 2019. The order denied that branch of the motion of the defendant Dong's Family Cuisine which was for summary judgment dismissing the complaint insofar as asserted against it."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "In September 2017, the plaintiff allegedly sustained personal injuries when she tripped atop a mat covering a concrete ramp/slope as she exited a restaurant operated by the defendant Dong's Family Cuisine (hereinafter the defendant)."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "the defendant moved, among other things, for summary judgment dismissing the complaint insofar as asserted against it, contending, inter alia, that the plaintiff did not know what had caused her to fall."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "has the burden of establishing that it did not create the hazardous condition that allegedly caused the fall, and did not have actual or constructive notice of that condition for a sufficient length of time to discover and remedy it\""
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "Here, the defendant failed to establish, prima facie, that the plaintiff did not know what had caused her to fall and that there was no dangerous or defective condition that could have caused the plaintiff's fall."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P004",
+        "statement_status": "testimony_or_record",
+        "quote": "the defendant submitted, inter alia, a transcript of the plaintiff's deposition testimony, which raised a triable issue of fact as to whether the plaintiff tripped and fell on a sloped portion of the sidewalk that was under the mat"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P004",
+        "statement_status": "current_disposition",
+        "quote": "Since the defendant failed to meet its initial burden as the movant, the Supreme Court properly denied that branch of its motion which was for summary judgment dismissing the complaint insofar as asserted against it without regard to the sufficiency of the plaintiff's opposition papers"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "The defendant's contention that the defect was trivial and therefore not actionable is raised for the first time on appeal, and thus, is not properly before this Court"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5941779",
+    "text_sha256": "cf562088f3eafed2a64eda402a469ab5d8a27dda016e3eee50881badb2e900af",
+    "input_chunk_id": "C_021",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T15:20:33+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E003",
+        "E004",
+        "E005",
+        "E011"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E003",
+        "E009",
+        "E010",
+        "E011"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "favors": "plaintiff",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E002"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order entered August 20, 2009",
+          "appellant_role": "defendant",
+          "trial_court_action": "Denied defendants’ motion for summary judgment dismissing the complaint.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E008"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "indoor_floor",
+      "hazards": [
+        "debris"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "other"
+      ],
+      "factual_summary": "Farrell alleged that he slipped on grapes scattered across the produce aisle at Waldbaum’s. Shortly before the fall, he saw two produce clerks stacking grapes at the display there.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E003",
+        "E004",
+        "E005"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "The defense failed to rule out its employees’ creation of the condition. Farrell saw clerks stocking grapes in the area.",
+        "evidence_ids": [
+          "E004",
+          "E009"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "raised_only",
+        "finding": "Defendants denied actual notice. The court separately addressed creation and constructive notice.",
+        "evidence_ids": [
+          "E006",
+          "E009",
+          "E010"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "The managers described general procedures but did not establish when this area was last cleaned or inspected, leaving constructive notice unresolved.",
+        "evidence_ids": [
+          "E010",
+          "E011"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [
+      {
+        "type": "witness_testimony",
+        "description": "The store manager and produce manager testified to general cleaning and inspection procedures.",
+        "evidence_ids": [
+          "E011"
+        ]
+      }
+    ],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "procedural_history",
+          "current_outcome",
+          "facts"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "current_outcome",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E002"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E007",
+          "E008"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E009",
+          "E010",
+          "E011"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The decision did not find that either produce clerk dropped grapes or that defendants had notice. The source does not identify the form of Farrell’s account of seeing the clerks."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the defendants appeal from an order of the Supreme Court, Queens County (Sampson, J.), entered August 20, 2009, which denied their motion for summary judgment dismissing the complaint."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "allegation",
+        "quote": "The plaintiff Glenn Farrell (hereinafter the injured plaintiff), allegedly was injured when he slipped and fell on grapes that were scattered on the floor of the produce aisle at a Waldbaum’s supermarket in Bayside, Queens."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "statement_status": "testimony_or_record",
+        "quote": "Prior to his accident, the injured plaintiff observed two produce clerks stacking grapes onto a display in the area where he fell."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "The injured plaintiff and his wife, suing derivatively, commenced this action against Waldbaum’s, Inc., and its parent company, Great Atlantic and Pacific Tea Co."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P001",
+        "statement_status": "party_argument",
+        "quote": "The defendants moved for summary judgment dismissing the complaint on the ground that they neither created the alleged dangerous condition nor had actual or constructive notice of it."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "We affirm."
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P002",
+        "statement_status": "current_disposition",
+        "quote": "The Supreme Court properly denied the defendants’ motion for summary judgment dismissing the complaint"
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "the defendants failed to make a prima facie showing of entitlement to judgment as a matter of law by tendering evidence sufficient to establish that their employees did not create the alleged dangerous condition"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "Furthermore, a triable issue of fact exists as to whether the defendants had constructive notice of the alleged dangerous condition, as they failed to establish the absence of such notice as a matter of law"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P003",
+        "statement_status": "testimony_or_record",
+        "quote": "While the defendants’ store and produce managers testified at their depositions to general cleaning and inspection procedures, the defendants failed to proffer any evidence regarding when the area in question was last cleaned or inspected relative to the time when the injured plaintiff fell"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6459000",
+    "text_sha256": "e7e219786847e89936dadd041018795e17a9f874a162b76692652095dd52b88c",
+    "input_chunk_id": "C_021",
+    "run": {
+      "annotator_id": "becca",
+      "model_name": "GPT-6 (Codex)",
+      "model_version": null,
+      "annotated_at": "2026-11-03T15:20:33+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Human review pending.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "out_of_scope",
+      "binary_task": "exclude",
+      "reasons": [
+        "procedural_only"
+      ],
+      "property_status": "private",
+      "property_basis": "owned",
+      "fall_type": "slip",
+      "merits": "procedural_only",
+      "property_evidence": [
+        "E001",
+        "E004"
+      ],
+      "incident_evidence": [
+        "E004"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E005",
+        "E008",
+        "E009",
+        "E010"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": null,
+      "favors": "defendant",
+      "multiple_orders": false,
+      "disposition_evidence": [
+        "E003"
+      ],
+      "orders": [
+        {
+          "description": "Queens County order dated September 3, 2019",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Denied Redding’s motion to vacate the October 2017 order granting defendants’ unopposed motion for summary judgment.",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E002",
+            "E003",
+            "E005",
+            "E011"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "unclear",
+      "location": "indoor_floor",
+      "hazards": [
+        "other"
+      ],
+      "injured_role": "unclear",
+      "defendant_roles": [
+        "owner"
+      ],
+      "factual_summary": "Redding alleged that she slipped on a waxy substance in the hallway of defendants’ building. June 2013 is the filing month; the opinion does not date the accident.",
+      "accident_date": null,
+      "evidence_ids": [
+        "E001",
+        "E004"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "court_addressed",
+        "finding": "Redding moved outside the one-year period and did not substantiate her claim of law-office failure. The court therefore did not reach whether her opposition to dismissal had merit.",
+        "evidence_ids": [
+          "E006",
+          "E007",
+          "E008",
+          "E009",
+          "E010"
+        ]
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "metadata",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "procedural_history",
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "legal_reasoning",
+          "quoted_precedent"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "legal_reasoning",
+          "current_outcome",
+          "metadata"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E003"
+        ]
+      },
+      {
+        "kind": "repeated_outcome",
+        "evidence_ids": [
+          "E011"
+        ]
+      },
+      {
+        "kind": "indirect_reasoning",
+        "evidence_ids": [
+          "E008",
+          "E009",
+          "E010"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": "The September 2019 refusal to vacate is the sole order under review. The October 2017 default dismissal is procedural history."
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "statement_status": "testimony_or_record",
+        "quote": "Deidre Redding, Appellant, v JQ III Associates, LLC, et al., Respondents."
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "statement_status": "procedural_history",
+        "quote": "the plaintiff appeals from an order of the Supreme Court, Queens County (Chereé A. Buggs, J.), dated September 3, 2019. The order denied the plaintiff's motion pursuant to CPLR 5015 (a) (1) to vacate an order of the same court dated October 13, 2017, granting the defendants' unopposed motion for summary judgment dismissing the complaint."
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "statement_status": "current_disposition",
+        "quote": "Ordered that the order dated September 3, 2019, is affirmed, with costs."
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "statement_status": "allegation",
+        "quote": "In June 2013, the plaintiff commenced this action to recover damages for personal injuries she allegedly sustained when she slipped and fell on a waxy substance in the hallway of a building owned by the defendants."
+      },
+      {
+        "evidence_id": "E005",
+        "passage_id": "P002",
+        "statement_status": "procedural_history",
+        "quote": "The defendants moved for summary judgment dismissing the complaint, and in an order dated October 13, 2017, the Supreme Court granted the defendants' unopposed motion."
+      },
+      {
+        "evidence_id": "E006",
+        "passage_id": "P002",
+        "statement_status": "party_argument",
+        "quote": "Thereafter, the plaintiff moved pursuant to CPLR 5015 (a) (1) to vacate the order dated October 13, 2017, asserting, in effect, an excuse of law office failure."
+      },
+      {
+        "evidence_id": "E007",
+        "passage_id": "P002",
+        "statement_status": "court_finding",
+        "quote": "A party seeking to vacate an order entered upon his or her default in opposing a motion must demonstrate both a reasonable excuse for the default and a potentially meritorious opposition to the motion"
+      },
+      {
+        "evidence_id": "E008",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Here, the plaintiff's motion was untimely, as she did not move to vacate her default within the one-year period set forth in CPLR 5015 (a) (1)."
+      },
+      {
+        "evidence_id": "E009",
+        "passage_id": "P003",
+        "statement_status": "court_finding",
+        "quote": "Further, the plaintiff's conclusory and [*2] unsubstantiated allegations of law office failure are insufficient to demonstrate a reasonable excuse for her default in opposing the defendants' motion for summary judgment"
+      },
+      {
+        "evidence_id": "E010",
+        "passage_id": "P004",
+        "statement_status": "court_finding",
+        "quote": "it is unnecessary to consider whether she demonstrated a potentially meritorious opposition to the defendants' motion"
+      },
+      {
+        "evidence_id": "E011",
+        "passage_id": "P004",
+        "statement_status": "current_disposition",
+        "quote": "Accordingly, the Supreme Court properly denied the plaintiff's motion pursuant to CPLR 5015 (a) (1)."
+      }
+    ]
+  }
+]
