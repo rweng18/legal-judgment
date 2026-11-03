@@ -1,0 +1,63 @@
+{
+  "type": "LLM self-audit; no human review",
+  "date_local": "2026-11-03",
+  "changes": [
+    {
+      "case_id": "NY-5937355",
+      "reason": "Rink participant supported; paying customer status not explicitly stated.",
+      "selected_chunk": "chunks/B_005.json",
+      "supersedes": "drafts/B_005.draft-v1.json#NY-5937355",
+      "revision_draft": "drafts/B_005.draft-v2.json"
+    },
+    {
+      "case_id": "NY-6473777",
+      "reason": "Complex of buildings and employee break room stated; housing-related entity names do not establish residential use of incident building.",
+      "selected_chunk": "chunks/B_005.json",
+      "supersedes": "drafts/B_005.draft-v1.json#NY-6473777",
+      "revision_draft": "drafts/B_005.draft-v2.json"
+    },
+    {
+      "case_id": "NY-2800524",
+      "reason": "Working with coworkers stated, but independent-contractor relationship not established.",
+      "selected_chunk": "chunks/B_007.json",
+      "supersedes": "drafts/B_007.draft-v1.json#NY-2800524",
+      "revision_draft": "drafts/B_007.draft-v2.json"
+    },
+    {
+      "case_id": "NY-4851628",
+      "reason": "Building use not stated; housing-development entity name alone insufficient for residential subtype.",
+      "selected_chunk": "chunks/B_008.json",
+      "supersedes": "drafts/B_008.draft-v1.json#NY-4851628",
+      "revision_draft": "drafts/B_008.draft-v2.json"
+    },
+    {
+      "case_id": "NY-6207337",
+      "reason": "Duplicate-source partner NY-4304440 has same Alvarado decision, date, lower order and substantive text. This record provisionally retained; partner excluded from binary sample. Team must confirm canonical ID and group across all rounds.",
+      "selected_chunk": "chunks/B_009.json",
+      "supersedes": "drafts/B_009.draft-v1.json#NY-6207337",
+      "revision_draft": "drafts/B_009.draft-v2.json"
+    },
+    {
+      "case_id": "NY-3177536",
+      "reason": "Corporate branch manager is a witness, not an individually named party in supplied caption.",
+      "selected_chunk": "chunks/B_009.json",
+      "supersedes": "drafts/B_009.draft-v1.json#NY-3177536",
+      "revision_draft": "drafts/B_009.draft-v2.json"
+    },
+    {
+      "case_id": "NY-4623671",
+      "reason": "Owned and maintained supported; distinct management role not explicitly established.",
+      "selected_chunk": "chunks/B_017.json",
+      "supersedes": "drafts/B_017.draft-v1.json#NY-4623671",
+      "revision_draft": "drafts/B_017.draft-v2.json"
+    },
+    {
+      "case_id": "NY-9483767",
+      "reason": "Car-service sublease supported, but exact building use not expressly office.",
+      "selected_chunk": "chunks/B_028.json",
+      "supersedes": "drafts/B_028.draft-v1.json#NY-9483767",
+      "revision_draft": "drafts/B_028.draft-v2.json"
+    }
+  ],
+  "eligibility_or_binary_labels_changed": false
+}
