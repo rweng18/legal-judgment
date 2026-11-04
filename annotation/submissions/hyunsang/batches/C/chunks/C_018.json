@@ -1,0 +1,1320 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-5993348",
+    "text_sha256": "6bc75a4d8c5b56f816ccaa6ffb6d7231c5258d6f239a31d6b5afbb51cf019d0d",
+    "input_chunk_id": "C_018",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-11-04T00:23:26.383796+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent source-only LLM draft. No human review was performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Appealed order (scope limited by appellate decision)",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Appealed order in personal-injury action",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "institutional",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "employee",
+      "defendant_roles": [
+        "owner"
+      ],
+      "accident_date": null,
+      "factual_summary": "Janitorial employee slipped on wet building floor; property owner did not establish absence of notice or recent inspections.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Janitorial employee slipped on wet building floor; property owner did not establish absence of notice or recent inspections.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Janitorial employee slipped on wet building floor; property owner did not establish absence of notice or recent inspections.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "judgment dismissing the complaint. Ordered that the order is reversed insofar as appealed from, on the law, with costs, and the defend",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": " floor while working in a building owned by the defendant. The Supreme Court granted the defendant’s motion for summary ju",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "cs, allegedly was injured when she slipped and fell on a wet floor while working in a building owned by the defendant. The Supreme Court granted the defendant’s motion for summary ju",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P003",
+        "quote": "to by the plaintiff, the defendant failed to establish that it did not create the condition complained of (see Amendola v City of New York, 89 AD3d at 776 ; Reimold v Walden Terrace, Inc., 85 AD3d 1144, 1146 [2011]; Van ",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-6473768",
+    "text_sha256": "78f0436a0409d1dd588bcc9a983795a5bf1a511c96fca2d5dab8d0ee9f9c157e",
+    "input_chunk_id": "C_018",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-11-04T00:23:26.384063+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent source-only LLM draft. No human review was performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "trip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "affirmed",
+      "binary_label": 0,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Appealed order (scope limited by appellate decision)",
+          "appellant_role": "plaintiff",
+          "trial_court_action": "Appealed order in personal-injury action",
+          "appellate_disposition": "affirmed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "walkway",
+      "hazards": [
+        "obstruction"
+      ],
+      "injured_role": "customer",
+      "defendant_roles": [
+        "owner",
+        "tenant"
+      ],
+      "accident_date": null,
+      "factual_summary": "Customer tripped over potted flowers outside supermarket; no proof store created or knew of displaced container.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "court_addressed",
+        "finding": "Customer tripped over potted flowers outside supermarket; no proof store created or knew of displaced container.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Customer tripped over potted flowers outside supermarket; no proof store created or knew of displaced container.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Customer tripped over potted flowers outside supermarket; no proof store created or knew of displaced container.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "judgment dismissing the complaint. Ordered that the order is affirmed, with costs. The plaintiff allegedly tripped and fell on a plast",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": "peals. In a trip-and-fall case, \"a defendant property owner moving for summary judgment has the burden of making a pri",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "ith costs. The plaintiff allegedly tripped and fell on a plastic container of mums on the exterior grounds of the defendant's supermarket in Riverhead. ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P003",
+        "quote": "ct. Accordingly, the Supreme Court properly granted the defendant's motion for summary judgment dismissing the complaint. Connolly, J.P., Christopher, Ford and Dowling, JJ., concur.",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-3134075",
+    "text_sha256": "ae3bf142a3450a038dd8e8515a15b67e9ead93069e705e331153112d83d6115e",
+    "input_chunk_id": "C_018",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-11-04T00:23:26.384430+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent source-only LLM draft. No human review was performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Appealed order (scope limited by appellate decision)",
+          "appellant_role": "defendant",
+          "trial_court_action": "Appealed order in personal-injury action",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "stairs",
+      "hazards": [
+        "debris"
+      ],
+      "injured_role": "tenant",
+      "defendant_roles": [
+        "owner",
+        "manager"
+      ],
+      "accident_date": null,
+      "factual_summary": "Tenant slipped on slippery green substance on rear porch stairs; owner and manager retained repair obligations, summary judgment reversed.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "court_addressed",
+        "finding": "Tenant slipped on slippery green substance on rear porch stairs; owner and manager retained repair obligations, summary judgment reversed.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Tenant slipped on slippery green substance on rear porch stairs; owner and manager retained repair obligations, summary judgment reversed.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "court_addressed",
+        "finding": "Tenant slipped on slippery green substance on rear porch stairs; owner and manager retained repair obligations, summary judgment reversed.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P004",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P005",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P005",
+        "quote": "J.P., Rose and Lynch, JJ., concur. Ordered that the order is reversed, on the law, with costs, and motions denied.",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": " rented an apartment in a building owned by defendant Jeffrey Hiscox and managed on behalf of defendant Hometown Real Estate by defendant Andrew Martin. The building has an exterior back porch accessible from",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "ts and, in October 2011, plaintiff slipped and fell on steps leading down from it. Plaintiff then commenced this premises liability action, allegi",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "urposes and, as such, may be held “liable for failure to repair a dangerous condition” therein if they were on notice of it (Chapman v Silber, 97 NY2d 9, 19 [2001]; see Pomeroy v Gelber, 117 AD3d 1161, 1162 [2014]). Defendants a",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-4495025",
+    "text_sha256": "95f5715ad2355bf6509daa45345528f92ae94562164572e5d8fe553acdd1aca7",
+    "input_chunk_id": "C_018",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-11-04T00:23:26.385296+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent source-only LLM draft. No human review was performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Appealed order (scope limited by appellate decision)",
+          "appellant_role": "defendant",
+          "trial_court_action": "Appealed order in personal-injury action",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "retail",
+      "location": "other",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "customer",
+      "defendant_roles": [
+        "tenant",
+        "contractor"
+      ],
+      "accident_date": null,
+      "factual_summary": "Escalator slip at Macy’s; maintenance/inspection records showed no prior defect or notice, summary judgment granted.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Escalator slip at Macy’s; maintenance/inspection records showed no prior defect or notice, summary judgment granted.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Escalator slip at Macy’s; maintenance/inspection records showed no prior defect or notice, summary judgment granted.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "court_addressed",
+        "finding": "Escalator slip at Macy’s; maintenance/inspection records showed no prior defect or notice, summary judgment granted.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "ssing the complaint as against it, unanimously reversed, on the law, without costs, and the motion granted. The Clerk is",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P001",
+        "quote": "and fell on an escalator in Macy's department store. ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P001",
+        "quote": "lleges that he was injured when he slipped and fell on an escalator in Macy's department store. ",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P001",
+        "quote": "enter judgment accordingly. Macy's established its entitlement to judgment as a matter of law in this action where plaintiff alleges that he was injured when he slipped and fell on an escalator in Macy's department store. ",
+        "statement_status": "court_finding"
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "prompt_version": "1.0.0",
+    "case_id": "NY-2802337",
+    "text_sha256": "253cb36d35cfd7960738b3946025ed545c92b1668e0a905c37a1ddaee827b534",
+    "input_chunk_id": "C_018",
+    "run": {
+      "annotator_id": "hyunsang",
+      "model_name": "GPT-6",
+      "model_version": null,
+      "annotated_at": "2026-11-04T00:23:26.385931+00:00",
+      "review_status": "llm_draft",
+      "human_reviewer_id": null,
+      "review_note": "Independent source-only LLM draft. No human review was performed.",
+      "supersedes": null
+    },
+    "eligibility": {
+      "scope": "in_scope",
+      "binary_task": "include",
+      "reasons": [],
+      "property_status": "private",
+      "property_basis": "controlled",
+      "fall_type": "slip",
+      "merits": "substantive",
+      "property_evidence": [
+        "E002"
+      ],
+      "incident_evidence": [
+        "E003"
+      ],
+      "scope_evidence": [
+        "E002",
+        "E003"
+      ]
+    },
+    "outcome": {
+      "appellate_disposition": "reversed",
+      "binary_label": 1,
+      "multiple_orders": false,
+      "favors": "defendant",
+      "disposition_evidence": [
+        "E001"
+      ],
+      "orders": [
+        {
+          "description": "Appealed order (scope limited by appellate decision)",
+          "appellant_role": "defendant",
+          "trial_court_action": "Appealed order in personal-injury action",
+          "appellate_disposition": "reversed",
+          "evidence_ids": [
+            "E001"
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "premises_type": "residential",
+      "location": "indoor_floor",
+      "hazards": [
+        "water"
+      ],
+      "injured_role": "tenant",
+      "defendant_roles": [
+        "owner",
+        "manager"
+      ],
+      "accident_date": null,
+      "factual_summary": "Laundry room slip; owner and manager established they did not cause or have notice of dangerous condition.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    "legal_issues": [
+      {
+        "topic": "duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "creation_of_hazard",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "actual_notice",
+        "discussion": "court_addressed",
+        "finding": "Laundry room slip; owner and manager established they did not cause or have notice of dangerous condition.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "constructive_notice",
+        "discussion": "court_addressed",
+        "finding": "Laundry room slip; owner and manager established they did not cause or have notice of dangerous condition.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "recurring_condition",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "open_and_obvious",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "trivial_defect",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "storm_in_progress",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "causation_identification",
+        "discussion": "court_addressed",
+        "finding": "Laundry room slip; owner and manager established they did not cause or have notice of dangerous condition.",
+        "evidence_ids": [
+          "E004"
+        ]
+      },
+      {
+        "topic": "assumption_of_risk",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "comparative_fault",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "out_of_possession_landlord",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "contractor_duty",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "code_violation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "expert_evidence",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "spoliation",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "procedural_issue",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "labor_law",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      },
+      {
+        "topic": "other",
+        "discussion": "not_discussed",
+        "finding": "",
+        "evidence_ids": []
+      }
+    ],
+    "evidence_discussed": [],
+    "text_sections": [
+      {
+        "passage_id": "P001",
+        "types": [
+          "facts",
+          "procedural_history",
+          "current_outcome"
+        ]
+      },
+      {
+        "passage_id": "P002",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      },
+      {
+        "passage_id": "P003",
+        "types": [
+          "facts",
+          "legal_reasoning"
+        ]
+      }
+    ],
+    "outcome_cues": [
+      {
+        "kind": "current_disposition",
+        "evidence_ids": [
+          "E001"
+        ]
+      }
+    ],
+    "quality": {
+      "needs_review": false,
+      "flags": [],
+      "notes": ""
+    },
+    "evidence": [
+      {
+        "evidence_id": "E001",
+        "passage_id": "P001",
+        "quote": "judgment dismissing the complaint. Ordered that the order is reversed, on the law, with costs, and the defendants' motion for summary ",
+        "statement_status": "current_disposition"
+      },
+      {
+        "evidence_id": "E002",
+        "passage_id": "P002",
+        "quote": " in the laundry room of a building owned by the defendant Westchester Towers Owners Corp., and managed by the defendant Prime Locations, Inc. The plainti",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E003",
+        "passage_id": "P002",
+        "quote": "iff allegedly was injured when she slipped and fell in the laundry room of a building owned by the defendant Westchester Towers Owners Corp., and managed by the defendant Prime Locations, Inc. The plainti",
+        "statement_status": "court_finding"
+      },
+      {
+        "evidence_id": "E004",
+        "passage_id": "P002",
+        "quote": "o the defendants' contention, they failed to establish, prima facie, that the plaintiff did not know what had caused her to slip and fall ( see Morales v New York City Hous. Auth. , 125 AD3d 619 [2015]; Lamour v Decimus , 118 AD3d 851 [2",
+        "statement_status": "court_finding"
+      }
+    ]
+  }
+]
