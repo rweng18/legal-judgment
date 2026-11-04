@@ -1,0 +1,56 @@
+{
+  "type": "LLM self-audit; no human review",
+  "date_local": "2026-11-03",
+  "changes": [
+    {
+      "case_id": "NY-3150507",
+      "reason": "Shortened E006 to the complete word leaked at the supplied passage boundary; retained exact source quotation and substantive meaning.",
+      "selected_chunk": "chunks/C_005.json",
+      "supersedes": "drafts/C_005.draft-v1.json#NY-3150507",
+      "revision_draft": "drafts/C_005.draft-v2.json"
+    },
+    {
+      "case_id": "NY-5944468",
+      "reason": "Added expressly discussed owner and tenant depositions to the evidence inventory; no eligibility or outcome change.",
+      "selected_chunk": "chunks/C_007.json",
+      "supersedes": "drafts/C_007.draft-v1.json#NY-5944468",
+      "revision_draft": "drafts/C_007.draft-v2.json"
+    },
+    {
+      "case_id": "NY-4626915",
+      "reason": "Plaintiff could not identify the location or cause of the fall outside the premises; witnesses assumed the location without seeing the fall. Exterior-step allegations do not establish that the actual fall occurred on private property. Review the property boundary; restaurant subtype cannot be inferred from defendant name alone. Current appeal remains affirmed.",
+      "selected_chunk": "chunks/C_008.json",
+      "supersedes": "drafts/C_008.draft-v1.json#NY-4626915",
+      "revision_draft": "drafts/C_008.draft-v2.json"
+    },
+    {
+      "case_id": "NY-4389907",
+      "reason": "Duplicate-source partner NY-6235554 is the same Peña opinion (date, parties, order and substantive text). Retain this ID provisionally; partner excluded from binary sample. Team must confirm one canonical record and group this family.",
+      "selected_chunk": "chunks/C_020.json",
+      "supersedes": "drafts/C_020.draft-v1.json#NY-4389907",
+      "revision_draft": "drafts/C_020.draft-v2.json"
+    },
+    {
+      "case_id": "NY-6207931",
+      "reason": "Duplicate source of earlier Batch B NY-4304286: Wintermute; same December 31, 2015 decision, May 9, 2014 judgment, parties, facts and evidentiary new-trial reasoning. Do not add this C record as a separate observation. Provisionally retain the earlier-batch ID, subject to team scope adjudication; preserve both annotations and group the family before splitting. This does not approve the B label or resolve any remaining scope ambiguity. An uncertain-scope record remains review under the current codebook even when duplicate status is established.",
+      "selected_chunk": "chunks/C_028.json",
+      "supersedes": "drafts/C_028.draft-v1.json#NY-6207931",
+      "revision_draft": "drafts/C_028.draft-v2.json"
+    },
+    {
+      "case_id": "NY-6111859",
+      "reason": "Duplicate source of earlier Batch B NY-4306330: Seferagic; same March 21, 2014 decision, November 30, 2012 order, parties, wet-floor facts and notice reasoning. Do not add this C record as a separate observation. Provisionally retain the earlier-batch ID, subject to team scope adjudication; preserve both annotations and group the family before splitting. This does not approve the B label or resolve any remaining scope ambiguity. An uncertain-scope record remains review under the current codebook even when duplicate status is established.",
+      "selected_chunk": "chunks/C_031.json",
+      "supersedes": "drafts/C_031.draft-v1.json#NY-6111859",
+      "revision_draft": "drafts/C_031.draft-v2.json"
+    },
+    {
+      "case_id": "NY-6235219",
+      "reason": "Duplicate source of earlier Batch B NY-4387315: Lingenfelter; same April 28, 2017 decision, May 9, 2016 order, parties, snowplowing contract and Espinal reasoning. Do not add this C record as a separate observation. Provisionally retain the earlier-batch ID, subject to team scope adjudication; preserve both annotations and group the family before splitting. This does not approve the B label or resolve any remaining scope ambiguity. An uncertain-scope record remains review under the current codebook even when duplicate status is established.",
+      "selected_chunk": "chunks/C_034.json",
+      "supersedes": "drafts/C_034.draft-v1.json#NY-6235219",
+      "revision_draft": "drafts/C_034.draft-v2.json"
+    }
+  ],
+  "eligibility_or_binary_labels_changed": true
+}
