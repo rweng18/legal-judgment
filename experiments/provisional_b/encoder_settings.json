@@ -1,0 +1,14 @@
+{
+  "encoder": "nlpaueb/legal-bert-base-uncased",
+  "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+  "tokenizer": "BertTokenizer",
+  "use_fast": false,
+  "content_tokens": 510,
+  "overlap": 0,
+  "padding_side": "right",
+  "batch_size_chunks": 4,
+  "hidden_size": 768,
+  "threads": 4,
+  "pooling": "last hidden layer; sum content-token vectors over all nonoverlapping chunks and divide by total content tokens; exclude special tokens and padding",
+  "protocol_version": 1
+}
