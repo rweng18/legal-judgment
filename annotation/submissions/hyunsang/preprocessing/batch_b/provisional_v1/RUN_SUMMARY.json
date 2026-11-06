@@ -1,0 +1,38 @@
+{
+  "case_count": 169,
+  "source_count": 506,
+  "candidate_pairs": 7,
+  "strong_family_candidates": 5,
+  "weak_family_candidates": 2,
+  "strong_candidate_cross_period_B": [],
+  "development_case_count": 112,
+  "train": 97,
+  "validation": 15,
+  "revised_masking_flags": 2,
+  "revised_large_loss_cases": [],
+  "revised_residual_cue_cases": [],
+  "original_problems": [
+    {
+      "case_id": "NY-5939702",
+      "old_removed_pct": 44.37,
+      "new_removed_pct": 26.05,
+      "notes": "Check legal reasoning preservation and residual direct cues; no label used for rule tuning."
+    },
+    {
+      "case_id": "NY-6079805",
+      "old_removed_pct": 76.85,
+      "new_removed_pct": 7.64,
+      "notes": "Check legal reasoning preservation and residual direct cues; no label used for rule tuning."
+    },
+    {
+      "case_id": "NY-6110053",
+      "old_removed_pct": 64.89,
+      "new_removed_pct": 3.61,
+      "notes": "Check legal reasoning preservation and residual direct cues; no label used for rule tuning."
+    }
+  ],
+  "human_review": "NOT_DONE",
+  "family_confirmed": "NOT_DONE",
+  "exact_legalbert_tokenization": "NOT_DONE_REQUIRES_PINNED_TOKENIZER",
+  "status": "PROVISIONAL_ENGINEERING_QC"
+}
