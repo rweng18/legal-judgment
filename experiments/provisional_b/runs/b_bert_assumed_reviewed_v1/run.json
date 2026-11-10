@@ -1,0 +1,230 @@
+{
+  "release": {
+    "status": "user_assumed_labels_reviewed",
+    "dataset_version": "batch_b/provisional_v1/B_development_v2_PROVISIONAL",
+    "split_version": "supplied 2010–2020 training / 2021–2022 validation",
+    "label_field": "draft_label_if_unanimous_include",
+    "label_review_assumption": "User instructed: Proceed, assuming the labels have been reviewed",
+    "source_adjudication_statuses": [
+      "pending_human_review"
+    ],
+    "family_review_statuses": [
+      "NOT_APPROVED"
+    ],
+    "scope": "Batch B only; same supplied development IDs for FULL and MASKED",
+    "inputs": {
+      "development": {
+        "repository_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/B_development_v2_PROVISIONAL.jsonl",
+        "sha256": "94e81d81d9e59a80d62df19d55862ff03b8539c26bb4eae3371c30340bb6cd21"
+      },
+      "labels": {
+        "repository_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/inputs/B_three_reviewer_audit_169.csv",
+        "sha256": "73c623eca3b67fae4c2662db8ba8a6a33581b2c8f82864c1d9f633252d5dd8f5"
+      },
+      "families": {
+        "repository_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/case_family_manifest_B_169_PROVISIONAL.csv",
+        "sha256": "db690bb913e1845346aeb5b20fa4035d56aba6bd74076b1d6707b974e8ee1a61"
+      }
+    },
+    "lexical_reference": {
+      "run.json": "71d19bb3c45a1b2bb55814e83cf09a6dad02c86c78fb3c8242b5daeee1a00cb1",
+      "splits.csv": "2538ac8f1d06c92d526db58928eff09696ba0de69523784014fc22c5ecd696ed",
+      "selection.json": "40a94d00f5bfce18b510826c474e19e9dfab9fc474c4d08c586bc78da5e81ba0",
+      "predictions.csv": "088bfc38111d9c3be9d0ce6c2a7504efc75288a0d250c84cb8ae006ccfe2e0bf"
+    },
+    "majority_reference": {
+      "run_json_sha256": "affdc2e4ef9221e9e93de53a3b2d25e9aa1e370511b91e0dcfdffceca170d99e",
+      "splits_sha256": "9d89f306b1639f626f4b9e025c46bf01daaa0d801867d3f40adf3c0b8d832456",
+      "results_sha256": "2dc246a3f7e310706e5c393065295bf63e2a33902073fab86b7946ce718378b0"
+    }
+  },
+  "evaluation": "2021–2022 development",
+  "class_order": [
+    0,
+    1
+  ],
+  "class_names": [
+    "affirmed",
+    "reversed/vacated"
+  ],
+  "seed": 20261023,
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "MASKED only; mean fold balanced accuracy, mean macro F1, smaller C",
+  "cv_folds": 3,
+  "fold_method": "seeded family allocation balancing both classes",
+  "training_class_counts": {
+    "1": 33,
+    "0": 64
+  },
+  "encoder_settings": {
+    "encoder": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+    "tokenizer": "BertTokenizer",
+    "use_fast": false,
+    "content_tokens": 510,
+    "overlap": 0,
+    "padding_side": "right",
+    "batch_size_chunks": 4,
+    "hidden_size": 768,
+    "threads": 4,
+    "pooling": "last hidden layer; sum content-token vectors over all nonoverlapping chunks and divide by total content tokens; exclude special tokens and padding",
+    "protocol_version": 1
+  },
+  "models": {
+    "Majority": {
+      "classifier": "DummyClassifier",
+      "strategy": "most_frequent",
+      "tie_label": 0
+    },
+    "TFIDF_LR": {
+      "tfidfvectorizer": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "float64",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 1.0,
+        "max_features": 30000,
+        "min_df": 2,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": null,
+        "sublinear_tf": false,
+        "token_pattern": "(?u)\\b\\w\\w+\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      },
+      "logisticregression": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 10000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 20261023,
+        "solver": "liblinear",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "TFIDF_SVM": {
+      "tfidfvectorizer": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "float64",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 1.0,
+        "max_features": 30000,
+        "min_df": 2,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": null,
+        "sublinear_tf": false,
+        "token_pattern": "(?u)\\b\\w\\w+\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      },
+      "linearsvc": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "dual": "auto",
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "loss": "squared_hinge",
+        "max_iter": 20000,
+        "multi_class": "ovr",
+        "penalty": "l2",
+        "random_state": 20261023,
+        "tol": 0.0001,
+        "verbose": 0
+      }
+    },
+    "LEGAL_BERT_LR": {
+      "standardscaler": {
+        "copy": true,
+        "with_mean": true,
+        "with_std": true
+      },
+      "logisticregression": {
+        "C": 0.1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 10000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 20261023,
+        "solver": "liblinear",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  },
+  "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-15.7.9-arm64-arm-64bit",
+  "software": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "torch": "2.9.1",
+    "transformers": "4.57.1",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.36.2",
+    "pandas": "2.3.3",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "6.30.1"
+  },
+  "git_commit": "b2f90c73b76c59b8765b6eff7b989af0b339c673",
+  "code_sha256": {
+    "data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72",
+    "download_encoder.py": "fcf556ba0abf4b75d79a96a773fb37ff94e72bc5808db4f02ced24ca725fd62e",
+    "encoder.py": "9adf593c12b660b26d72e88aad8884d6edc7bd1e6fa23824aa5f9b44dd2056fd",
+    "experiment.py": "62bfaac9a8adec2cec20a56f9e02707388b8eb3a30e03acc9a630723fab0bb9d",
+    "lengths.py": "087a9db1b9d635e8abe057cc6286f0a2b8f8bae310e60db8582bd314a17bf9b1",
+    "modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "results_notebook.py": "52cb8c44e68a4349673a2f73174aef9d1bccc7a937ee2fd097baef02f5f584ab",
+    "run_bert.py": "e5e83560104bd270bfa5e573b165ef6d726b49b8cbe38c69a82461ba29d7ad93",
+    "run_logistic.py": "6138628e7bacd6db71c46fcecc5a6fffaa523c150b344c28ac1eb51fc86c90b6",
+    "run_majority.py": "6d432e9ef865a8e2cf16271d961039cc67bb6551090b19ca3d70bc87a5b44777",
+    "run_svm.py": "6780eb130250e958a070e992d469549edc426fb4670a32420f03bac13a713917",
+    "test_protocol.py": "3bf9d0587f478fe0dbdaa72c7a2e8c2b57aa43d33bcd8830e8d73704582b5581",
+    "encoder_settings.json": "99d6bdf07ecc83cfd19dcace9ed0eb206f7dbaf72c5b08d4cad95bb718d44786",
+    "requirements.txt": "df299993b3f62c85696fbd59cf987bb21ccd9eef049f10ca5f607927b82638f8",
+    "provisional_b.ipynb": "5f7d63f92d6a9484691d8e5b6fd1fb49ad0dc1b9738c270b5ab70fc643d14573"
+  }
+}

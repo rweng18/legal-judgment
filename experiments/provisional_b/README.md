@@ -51,6 +51,28 @@ python lengths.py inputs/bc_v1/development.jsonl runs/bc_v1_lengths
 
 ## Running the experiments
 
+The [completed frozen LEGAL-BERT comparison](runs/b_bert_assumed_reviewed_v1/REPORT.md) includes all model results, an executed notebook, reusable embedding matrices, and full reproduction details for the available Batch B cases.
+
+The [reporting tables](runs/b_bert_assumed_reviewed_v1/REPORTING.md) and [updated executed notebook](runs/b_bert_assumed_reviewed_v1/Batch_B_reporting_results.ipynb) include split and fold class counts, all metrics alongside the majority baseline, and raw and row-normalized confusion matrices in label order 0, 1.
+
+The [development error analysis](runs/b_bert_assumed_reviewed_v1/error_analysis_v1/ERROR_ANALYSIS.md) reviews eight cases, including every FULL/MASKED disagreement, a shared failure, a short-opinion error, and the longest opinion as a correct comparison case. It documents residual outcome reasoning, procedural-history ambiguity, and length-related hypotheses with exact evidence offsets and an unchanged-source audit. Labels, predictions, masking rules, and model settings remain as originally reported.
+
+The complete Batch B comparison is available through `run_bert.py`. It loads the saved SVM run's training folds, reproduces the lexical models, then selects the frozen-encoder classifier's C on MASKED training folds. Use the pinned environment for this stage. From this folder, run:
+
+```sh
+python download_encoder.py
+HF_HUB_OFFLINE=1 python run_bert.py ../../annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1 runs/b_svm_assumed_reviewed_v1 runs/b_bert_assumed_reviewed_v1 --assume-labels-reviewed
+python results_notebook.py runs/b_bert_assumed_reviewed_v1
+```
+
+Choose a fresh destination when reproducing a completed run. The combined package includes the environment lock, per-case predictions, fold assignments, model-selection scores, confusion matrices, length summaries, checkpoint hashes, and both embedding matrices with a case-ID index. Frozen vectors are also cached in `.cache/vectors`. Checkpoints and tokenizer files are cached in `.cache/huggingface`.
+
+The [Batch B linear SVM and combined comparison](runs/b_svm_assumed_reviewed_v1/REPORT.md) reuse the logistic-regression run's saved folds and verify the earlier baseline predictions. Use `run_svm.py` with the package, saved logistic-regression run, fresh output directory and `--assume-labels-reviewed`.
+
+The [Batch B TF-IDF logistic-regression results](runs/b_logistic_assumed_reviewed_v1/REPORT.md) use the same cases and review assumption as the majority run. Reproduce them with `run_logistic.py`, which checks the supplied inputs against the saved majority run before fitting.
+
+The available Batch B majority baseline has been run under the user's assumption that the supplied labels have been reviewed. Its [results and reproduction command](runs/b_majority_assumed_reviewed_v1/REPORT.md) preserve that assumption and the exact evaluation case list. The `run_majority.py` entry point supports this Batch B package with the explicit `--assume-labels-reviewed` option.
+
 In the notebook, choose the release path and a fresh output directory, select the kernel and run all cells. Save an executed copy with the run so the template remains reusable. The commands below call the same functions. The first is an optional lexical check. The second runs the reported suite, starting with the majority classifier and lexical models before loading the encoder.
 
 ```sh
@@ -67,7 +89,11 @@ Choose C from 0.1, 1 and 10 using MASKED text. Average the holdout balanced accu
 - `results.csv` contains development sample size, C, accuracy, balanced accuracy, macro F1 and per-class recall for every model and variant.
 - `predictions.csv` pairs each case’s reviewed label with its prediction and, for the learned models, its decision score.
 - `confusion_matrices.json` and `confusion_matrices.png` use true rows, predicted columns and class order [0, 1]. The figure also includes within-class percentages.
+- `class_counts.csv` records label counts for each included split and each CV fold's training and held-out portions. Reserved test cases are not included in these development runs.
+- `reporting_summary.json` adds exact row-normalized matrices and verified metrics; `REPORTING.md` presents the full reporting tables. Accuracy is the overall correct fraction, balanced accuracy is mean recall across labels 0 and 1, and macro F1 is mean F1 across both labels. Balanced accuracy selects settings, with macro F1 as the tie-breaker.
 - `selection.json` records all MASKED fold scores, means and the selected C. `splits.csv` records development split and training holdout fold by ID.
 - `run.json` records input hashes and versions, model parameters, class order, seed, encoder settings, software versions and source hashes. Rerun using the same frozen inputs and a new output directory.
+
+Reporting supplements can be regenerated without retraining using `python reporting.py runs/RUN_NAME`. They verify the saved predictions against the results, record source checksums, and preserve the original run metadata. New runs generate these supplements automatically. The historical Batch B packages retain the source hashes from their original model execution; the supplement records the reporting code separately.
 
 For the synthetic protocol checks, run `python -m unittest -v test_protocol`. The checks create temporary files. The pooling check uses deterministic token vectors, including special and padding tokens.

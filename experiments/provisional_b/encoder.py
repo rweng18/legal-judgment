@@ -18,7 +18,8 @@ def load_tokenizer():
     from transformers import AutoTokenizer
 
     tokenizer = AutoTokenizer.from_pretrained(
-        SETTINGS["encoder"], revision=SETTINGS["revision"], use_fast=SETTINGS["use_fast"]
+        SETTINGS["encoder"], revision=SETTINGS["revision"], use_fast=SETTINGS["use_fast"],
+        cache_dir=str(HERE / ".cache/huggingface")
     )
     if (type(tokenizer).__name__ != SETTINGS["tokenizer"]
             or tokenizer.num_special_tokens_to_add(pair=False) != 2
@@ -79,8 +80,13 @@ def feature_vectors(rows, cache, seed):
             else:
                 if model is None:
                     tokenizer = load_tokenizer()
-                    model = AutoModel.from_pretrained(SETTINGS["encoder"], revision=SETTINGS["revision"])
+                    model = AutoModel.from_pretrained(
+                        SETTINGS["encoder"], revision=SETTINGS["revision"],
+                        cache_dir=str(HERE / ".cache/huggingface")
+                    )
                     model.eval().requires_grad_(False)
+                    if model.training or any(p.requires_grad for p in model.parameters()):
+                        raise RuntimeError("Encoder must remain frozen and in evaluation mode.")
                 with torch.inference_mode():
                     vector = pool_chunks(model, tokenizer, content_chunks(tokenizer, text))
                 if not np.isfinite(vector).all():
@@ -91,5 +97,7 @@ def feature_vectors(rows, cache, seed):
             if vector.shape != (SETTINGS["hidden_size"],) or vector.dtype != np.float32 or not np.isfinite(vector).all():
                 raise ValueError(f"Invalid vector in cache: {target}")
             vectors.append(vector)
+            if len(vectors) % 20 == 0 or len(vectors) == len(rows):
+                print(f"{variant}: {len(vectors)}/{len(rows)} opinion vectors ready", flush=True)
         features[variant] = np.stack(vectors)
     return features

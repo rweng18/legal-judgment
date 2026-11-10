@@ -1,0 +1,103 @@
+{
+  "class_order": [
+    0,
+    1
+  ],
+  "axes": [
+    "true",
+    "predicted"
+  ],
+  "normalization": "Each true-label row divided by its case count; values in [0, 1].",
+  "selection_metric": "balanced_accuracy",
+  "selection_tie_breaker": "macro_f1",
+  "class_counts": [
+    {
+      "scope": "train",
+      "fold": "",
+      "n": 97,
+      "label_0": 64,
+      "label_1": 33
+    },
+    {
+      "scope": "validation",
+      "fold": "",
+      "n": 15,
+      "label_0": 12,
+      "label_1": 3
+    }
+  ],
+  "conditions": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "source_sha256": {
+    "run.json": "affdc2e4ef9221e9e93de53a3b2d25e9aa1e370511b91e0dcfdffceca170d99e",
+    "splits.csv": "9d89f306b1639f626f4b9e025c46bf01daaa0d801867d3f40adf3c0b8d832456",
+    "predictions.csv": "43e08e6b5fdf2434642b25bfbd730a21f8545201808bdc92b44ef7065e0f40c9",
+    "results.csv": "2dc246a3f7e310706e5c393065295bf63e2a33902073fab86b7946ce718378b0",
+    "confusion_matrices.json": "94b5655901628d69e31c46c0fff70ba1dfb02073fcae787f022b814241badac6"
+  },
+  "reporting_code_sha256": {
+    "reporting.py": "f25907b801f3fd30f3bda8dde54a77dff416639c90268bbfbdd2c11a3638dee1",
+    "modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72"
+  },
+  "provenance": "Derived from saved predictions and splits; original run metadata is unchanged."
+}

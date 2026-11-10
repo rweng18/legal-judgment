@@ -1,0 +1,39 @@
+{
+  "reference_lexical_results": {
+    "Majority": {
+      "predictions_and_cv_identical": true,
+      "maximum_decision_score_difference": 0
+    },
+    "TFIDF_LR": {
+      "predictions_and_cv_identical": true,
+      "maximum_decision_score_difference": 3.6637359812630166e-15
+    },
+    "TFIDF_SVM": {
+      "predictions_and_cv_identical": true,
+      "maximum_decision_score_difference": 6.106226635438361e-16
+    }
+  },
+  "saved_folds_reused": true,
+  "encoder_frozen": true,
+  "content_tokens_per_chunk": 510,
+  "tokenizer": {
+    "class": "BertTokenizer",
+    "do_lower_case": true,
+    "vocab_size": 30522,
+    "padding_side": "right",
+    "cls_token_id": 101,
+    "sep_token_id": 102,
+    "pad_token_id": 0
+  },
+  "checkpoint_files_sha256": {
+    "config.json": "716ea70c3c3e74bfe8496cc04cba7cd52f4ca45401e74042bb1058fe0390a1b6",
+    "vocab.txt": "3aaa02f2e3a397eee0f813caa567c87cddab1045a4a6b8ac6261f0cc799efb8f",
+    "pytorch_model.bin": "6b4f1da798ff101a66ad5cb11c6daa7f99cd41e7909277e01398576e8bd789bd"
+  },
+  "supplied_length_counts_match": true,
+  "length_reference_sha256": "dad57e34476f169f86d156cc7c65f966234ad2c83c221ce5be49c15a2951e5f6",
+  "encoder_seconds": 48.173231082968414,
+  "total_seconds": 58.97588783316314,
+  "development_cases": 112,
+  "evaluation_cases": 15
+}
