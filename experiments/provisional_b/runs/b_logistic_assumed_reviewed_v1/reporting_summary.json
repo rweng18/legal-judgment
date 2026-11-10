@@ -1,0 +1,203 @@
+{
+  "class_order": [
+    0,
+    1
+  ],
+  "axes": [
+    "true",
+    "predicted"
+  ],
+  "normalization": "Each true-label row divided by its case count; values in [0, 1].",
+  "selection_metric": "balanced_accuracy",
+  "selection_tie_breaker": "macro_f1",
+  "class_counts": [
+    {
+      "scope": "train",
+      "fold": "",
+      "n": 97,
+      "label_0": 64,
+      "label_1": 33
+    },
+    {
+      "scope": "validation",
+      "fold": "",
+      "n": 15,
+      "label_0": 12,
+      "label_1": 3
+    },
+    {
+      "scope": "cv_training",
+      "fold": 1,
+      "n": 64,
+      "label_0": 42,
+      "label_1": 22
+    },
+    {
+      "scope": "cv_held_out",
+      "fold": 1,
+      "n": 33,
+      "label_0": 22,
+      "label_1": 11
+    },
+    {
+      "scope": "cv_training",
+      "fold": 2,
+      "n": 65,
+      "label_0": 43,
+      "label_1": 22
+    },
+    {
+      "scope": "cv_held_out",
+      "fold": 2,
+      "n": 32,
+      "label_0": 21,
+      "label_1": 11
+    },
+    {
+      "scope": "cv_training",
+      "fold": 3,
+      "n": 65,
+      "label_0": 43,
+      "label_1": 22
+    },
+    {
+      "scope": "cv_held_out",
+      "fold": 3,
+      "n": 32,
+      "label_0": 21,
+      "label_1": 11
+    }
+  ],
+  "conditions": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.64,
+      "recall_0": 0.9166666666666666,
+      "recall_1": 0.3333333333333333,
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "row_normalized": [
+        [
+          0.9166666666666666,
+          0.08333333333333333
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "source_sha256": {
+    "run.json": "028d87acf2bd208c91094ba5e09363765b18553260de5cffa546ae1aefcb2a75",
+    "splits.csv": "2538ac8f1d06c92d526db58928eff09696ba0de69523784014fc22c5ecd696ed",
+    "predictions.csv": "40ac50cf66b625df688f618f9ee37df8d1fd9bba526db141d4becc0749253c2f",
+    "results.csv": "3a7653622fe57d4c9eac13c34ef23ca9928c2a6fff146a54c6ab1ad8b4f407fc",
+    "confusion_matrices.json": "9e07bb0796d220e658522f7adb9106349c1f1a5f0c11997bb92411bf43d60725"
+  },
+  "reporting_code_sha256": {
+    "reporting.py": "f25907b801f3fd30f3bda8dde54a77dff416639c90268bbfbdd2c11a3638dee1",
+    "modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72"
+  },
+  "provenance": "Derived from saved predictions and splits; original run metadata is unchanged."
+}

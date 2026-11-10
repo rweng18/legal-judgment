@@ -1,0 +1,261 @@
+{
+  "class_order": [
+    0,
+    1
+  ],
+  "axes": [
+    "true",
+    "predicted"
+  ],
+  "normalization": "Each true-label row divided by its case count; values in [0, 1].",
+  "selection_metric": "balanced_accuracy",
+  "selection_tie_breaker": "macro_f1",
+  "class_counts": [
+    {
+      "scope": "train",
+      "fold": "",
+      "n": 97,
+      "label_0": 64,
+      "label_1": 33
+    },
+    {
+      "scope": "validation",
+      "fold": "",
+      "n": 15,
+      "label_0": 12,
+      "label_1": 3
+    },
+    {
+      "scope": "cv_training",
+      "fold": 1,
+      "n": 64,
+      "label_0": 42,
+      "label_1": 22
+    },
+    {
+      "scope": "cv_held_out",
+      "fold": 1,
+      "n": 33,
+      "label_0": 22,
+      "label_1": 11
+    },
+    {
+      "scope": "cv_training",
+      "fold": 2,
+      "n": 65,
+      "label_0": 43,
+      "label_1": 22
+    },
+    {
+      "scope": "cv_held_out",
+      "fold": 2,
+      "n": 32,
+      "label_0": 21,
+      "label_1": 11
+    },
+    {
+      "scope": "cv_training",
+      "fold": 3,
+      "n": 65,
+      "label_0": 43,
+      "label_1": 22
+    },
+    {
+      "scope": "cv_held_out",
+      "fold": 3,
+      "n": 32,
+      "label_0": 21,
+      "label_1": 11
+    }
+  ],
+  "conditions": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.64,
+      "recall_0": 0.9166666666666666,
+      "recall_1": 0.3333333333333333,
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "row_normalized": [
+        [
+          0.9166666666666666,
+          0.08333333333333333
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4444444444444444,
+      "recall_0": 1.0,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.625,
+      "macro_f1": 0.64,
+      "recall_0": 0.9166666666666666,
+      "recall_1": 0.3333333333333333,
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "row_normalized": [
+        [
+          0.9166666666666666,
+          0.08333333333333333
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "accuracy": 0.7333333333333333,
+      "balanced_accuracy": 0.4583333333333333,
+      "macro_f1": 0.4230769230769231,
+      "recall_0": 0.9166666666666666,
+      "recall_1": 0.0,
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "row_normalized": [
+        [
+          0.9166666666666666,
+          0.08333333333333333
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "source_sha256": {
+    "run.json": "71d19bb3c45a1b2bb55814e83cf09a6dad02c86c78fb3c8242b5daeee1a00cb1",
+    "splits.csv": "2538ac8f1d06c92d526db58928eff09696ba0de69523784014fc22c5ecd696ed",
+    "predictions.csv": "088bfc38111d9c3be9d0ce6c2a7504efc75288a0d250c84cb8ae006ccfe2e0bf",
+    "results.csv": "1785ca562202aa1ec1ad447ecc10b75f999b2d5be42c3a823031df509c36b4a3",
+    "confusion_matrices.json": "899ed8815cf2252e3a60134826a5b5f9c41dfd872aae04c1d9ffe5da7baa4b14"
+  },
+  "reporting_code_sha256": {
+    "reporting.py": "f25907b801f3fd30f3bda8dde54a77dff416639c90268bbfbdd2c11a3638dee1",
+    "modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72"
+  },
+  "provenance": "Derived from saved predictions and splits; original run metadata is unchanged."
+}

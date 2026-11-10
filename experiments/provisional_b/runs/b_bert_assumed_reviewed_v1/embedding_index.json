@@ -1,0 +1,918 @@
+{
+  "encoder_settings": {
+    "encoder": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+    "tokenizer": "BertTokenizer",
+    "use_fast": false,
+    "content_tokens": 510,
+    "overlap": 0,
+    "padding_side": "right",
+    "batch_size_chunks": 4,
+    "hidden_size": 768,
+    "threads": 4,
+    "pooling": "last hidden layer; sum content-token vectors over all nonoverlapping chunks and divide by total content tokens; exclude special tokens and padding",
+    "protocol_version": 1
+  },
+  "files_sha256": {
+    "embeddings_FULL.npy": "91b4ecde20aa81fdc41a9a97171b1ee1646523c2819039e26a7dad37bf2c97c8",
+    "embeddings_MASKED.npy": "aed88ad8ecde2fb0b73c3b6bd4253e2817c0c866474637974d5be65070a31e65"
+  },
+  "rows": [
+    {
+      "case_id": "NY-2686417",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "5560b760f0017d669ee94c21fd96f487662ef16bf0a2650f02fb001421b63565",
+        "MASKED": "b8cbf91b644028fedcb9ae4900a56fed94afe45092fd12f4e7a026cae3d91660"
+      }
+    },
+    {
+      "case_id": "NY-2686418",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "e15905604cb68c9dda8cc036425904dd0b500de574e0c600f338dbcef56efb67",
+        "MASKED": "e4d642efa8006194a4231a1d7b149ef674022c93aa64ae60f094722b1e2d1d58"
+      }
+    },
+    {
+      "case_id": "NY-2755930",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "984bd2e9566df3004e5006c04dd6dccfa085e614a1f1eb9770af6faaa4bba3cf",
+        "MASKED": "d6ba187cddc845e45bcce31b487f0bb9c5014a4a631cdc79d6cf5a817bef5e59"
+      }
+    },
+    {
+      "case_id": "NY-2764663",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "a0bbfe287c7d9f03dfa9f31f4838c109c496d0b146d3d41d8e108c24f4634a29",
+        "MASKED": "f9df1c04c404ad998fa1dd63af9cced84064eb06eac2a9b21e93be5ac816852c"
+      }
+    },
+    {
+      "case_id": "NY-2766601",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "7ca2130f5dac19e2229b839c49640ef794bd9990990bf42527f0d0b7427df75b",
+        "MASKED": "7ae9be7b8df2993c481fbac02bbd3c70067378effd590e6c0baa07e70e53c9d7"
+      }
+    },
+    {
+      "case_id": "NY-2770006",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "5dda664213c9e79bb18b07c3fafc9567aa7b8ef12eb0e082457abe3b975ec057",
+        "MASKED": "607081080ec8725e608a6613cb085429359b80f81d612e142f4e0a7bdbb1e2d6"
+      }
+    },
+    {
+      "case_id": "NY-2787571",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "86c6b222ff9cff3c33e35f0303ddb08d77b737a71d45e2971655086c5f3e2fbf",
+        "MASKED": "86c6b222ff9cff3c33e35f0303ddb08d77b737a71d45e2971655086c5f3e2fbf"
+      }
+    },
+    {
+      "case_id": "NY-3149753",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "af9a8e19a2a0de5b8acd25db0263591671cfa2213a38f9f3101471460e944e91",
+        "MASKED": "af9a8e19a2a0de5b8acd25db0263591671cfa2213a38f9f3101471460e944e91"
+      }
+    },
+    {
+      "case_id": "NY-3159535",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "7eefdc6507b7e43f0432461a3e39e025cbfbe9ad3f655cd54602cabbb46f262b",
+        "MASKED": "73da61a96326aee7c8936c6b09b11cf466676b12b3cce611e9a324bc92bb68ef"
+      }
+    },
+    {
+      "case_id": "NY-3161292",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "e4e4cf5ac0740cb7a08a32c8c3b7d99c114598e59c52a676f04498ede32796b5",
+        "MASKED": "09f0419062d41a94f2bcebb5b55123e0cdcff5293d3dc9b8acf2aa540b750fab"
+      }
+    },
+    {
+      "case_id": "NY-3165373",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "26641aeea485059e73f29a0e8b95c85d31e4006024279cfb51d5ff2227b74806",
+        "MASKED": "874a6bbcda8ae2b7f94e202d6830e1ad77f7417cbfa12510a4cfd49e4be8292f"
+      }
+    },
+    {
+      "case_id": "NY-3170989",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "59f207b32ff837459de8b4e5d609369eeb1ef9a369000e54a72b68a684f3580f",
+        "MASKED": "ec84be3ce793defc3c234715d6cfc210ca7a529518312d47080ccce965f5c8b5"
+      }
+    },
+    {
+      "case_id": "NY-3176423",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "adb61e3d3dd661e1af1bb05ac7edb56459db2ea36b591a7532ca7eb24519bb6f",
+        "MASKED": "99c5cd85156ac51b6385dc842656ec7b69e2b837d39bc3f10e4e47c5411e84c3"
+      }
+    },
+    {
+      "case_id": "NY-3178550",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "5fb2225dddaeb574b58ba1070a8d85edc7443d183181487ab225436545ce2604",
+        "MASKED": "5fb2225dddaeb574b58ba1070a8d85edc7443d183181487ab225436545ce2604"
+      }
+    },
+    {
+      "case_id": "NY-3180121",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "89b6f1ab6529d8b987cb16bd8e01153e271934bf558f7a2d55d674250a78cfcb",
+        "MASKED": "3f9c5ec681a4e1853cc74bee6e7c53f197dc75a55be84d39394fd53f2b5c8413"
+      }
+    },
+    {
+      "case_id": "NY-3180131",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "b9db8dea90a25a91fcda08db8ef44ec159ddee36c5179bd47cb422d263871fae",
+        "MASKED": "c28c491d88265ac280447d906976de4e9469d29be16a69662bb7ba5333688940"
+      }
+    },
+    {
+      "case_id": "NY-3202838",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "862b9db70bf2e23ba39a40ce3abbdb666e6944abba94b1bcee63715ae817e816",
+        "MASKED": "db592c8a670965229d478a6a40bcf67fde9428bc852d4b7e552d2d2bbde3c54b"
+      }
+    },
+    {
+      "case_id": "NY-3206955",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "2f33a52cfe7b7dc1fdf34070dc991e8ebe473233346d55a6a27e45c6a06a443e",
+        "MASKED": "e109cecce3c9489e7b6feed0f8db0eab4c839f40238bc683157d07fa7f3f2c6a"
+      }
+    },
+    {
+      "case_id": "NY-3216149",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "c5f74785243b1ca6132037332b0453a049b661ca57843fe2869508f3ee8a6930",
+        "MASKED": "ecb6672bc6fca57f27020bbc6471dcf4f9fd8abe35cb32df5110daa6bcf25b70"
+      }
+    },
+    {
+      "case_id": "NY-4306330",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "71d096b9fcd9239e1ecd7e4ffd12c7ee671346a7408a1256a6bdcf3a5620c3c0",
+        "MASKED": "e875faf471d55c4145ecd4515d8a42380cdc3fe1c798ac07a750d6cb54ef4576"
+      }
+    },
+    {
+      "case_id": "NY-4306359",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "2dd2661abf60f7cbc8b50ea11134d1edb3163ffbdf84a52c5de0ae64c308b0da",
+        "MASKED": "b060f28e775216cf67cc81ce748697ebf902ebd89f6f97da2c26c6e18e34cbde"
+      }
+    },
+    {
+      "case_id": "NY-4309275",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "3d4b49cd325253172e99bc1d4151f3ce167c2366cc7ce71a326a1721b38030eb",
+        "MASKED": "a85a2a4b11f36e55cc621a9146fee7cb6c4781affb7773152191f4395eb33d94"
+      }
+    },
+    {
+      "case_id": "NY-4310325",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "4addbc53c49ea1cbe4297ad336bdb8e249abcabb1899d58de07d551f62263078",
+        "MASKED": "7df99a6ad71439d8193d076452345681c1b9e5fe42405b97b78d38a245f3cb5f"
+      }
+    },
+    {
+      "case_id": "NY-4310731",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "dbd32bc735c273dffb7112b3fe535796886f9216288137f4b355c3200e511a39",
+        "MASKED": "10c3e975b103d350384071e7be841cf0c965f3616c59192a0027998eda966022"
+      }
+    },
+    {
+      "case_id": "NY-4326133",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "ba26b24b31e8a67f1801b5d9dbaf3cd5b87f4a3b59f1cd58cc0046315da44dc2",
+        "MASKED": "e37ae6d47ae1d14c7ca1d16c2220bdfc4dc98d486b3b07beb1e8acd5b77d5c44"
+      }
+    },
+    {
+      "case_id": "NY-4330075",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "de97fff431ee5a999a61b7cf1a08ae49a078534887bb7432fe87c3571b6b5e4e",
+        "MASKED": "0477309c5c9db4b5e1b68fd305c77bcf7ad073059e7168a5db846ea043900d2a"
+      }
+    },
+    {
+      "case_id": "NY-4337765",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "e431af59e1ff738b763fa8475985641419210e1f6e3c81fe6ddc8df8523954a3",
+        "MASKED": "a112cb8e96c998b510d76aa688b13adc3be3e46e09d4d7bc5f5ea608b8a86199"
+      }
+    },
+    {
+      "case_id": "NY-4379931",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "e76b72dc878bfec13d1cd545bf2715ca618045577d95ae7597409b2e2bade871",
+        "MASKED": "d6eeeedfe4114909dee8a6f614884d0bb0c77b34bad4bef026de46064a1f35b1"
+      }
+    },
+    {
+      "case_id": "NY-4387315",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "d692c31df23463054bcbbac7db45c8da4e35c6ce1da814597867d805d7351fd5",
+        "MASKED": "ff9e4e1fe76db5d073b5a9a80bbc47475b7df86071bc2c390f4136ce5fc9017e"
+      }
+    },
+    {
+      "case_id": "NY-4387362",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "1059c960dfac055cc0f196e329ab1bbfaf7eee8da4ff330abe663ff517f51fb5",
+        "MASKED": "79da5e54a17399af53927906a8f44c2c99368eab18b35377a490242c4b93238c"
+      }
+    },
+    {
+      "case_id": "NY-4394153",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "93738f078cfa3d3098dcb581e17bab59019aaf5c67622666254728e66fd2a611",
+        "MASKED": "8a7106f1bc4af91ff51b4bd6bee2359331e0f3bab2a0f1bc4372003deab5007a"
+      }
+    },
+    {
+      "case_id": "NY-4394206",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "435a33a35638471f12e966d9433e45dd3290dc27875901e3b1e521f9e97686bd",
+        "MASKED": "8fec6fb7ff07d1aeea033151537e809a2da95956678621848e40aeb125a3f113"
+      }
+    },
+    {
+      "case_id": "NY-4400268",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "3a598a4469da1e301d9672cfc5aa468f834c702d40d4d2e4fd0532dc530facaa",
+        "MASKED": "d5c5e5e32cfc9f18a8f3bb1ff3737ced9e9a00e25fd4b8cca423b50d086a48a3"
+      }
+    },
+    {
+      "case_id": "NY-4400269",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "1d85f62a82161b6fd6a6f4371ae5625e11f07955248a5e4002b25a0de2229a6e",
+        "MASKED": "e29a3fa2d1bd1a9221b8cba5c3e18ba29ec2a9cff23afa9bcfa3da93a8d282e4"
+      }
+    },
+    {
+      "case_id": "NY-4402418",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "046ce079aa4298d75de6d900fd06a644b8cce0b9b293ff2fd37dd09fc216f880",
+        "MASKED": "829e05c521636f6856b907b1c7d9d48c02ee1c1090eb4b951c97f32bfae0a82c"
+      }
+    },
+    {
+      "case_id": "NY-4404555",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "b0b85682a2c5248c2f131998a0d4b2543b5c95c7404450c3e6e5946c880c2146",
+        "MASKED": "4f6d302706879c6e1e273ed98d40b005bf2f8b7e556e5369db01faa8e32a6842"
+      }
+    },
+    {
+      "case_id": "NY-4474810",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "80beac5cd1c43c8ec4e41f2e65077fe9d7772283ffdd47c897af3d519886d787",
+        "MASKED": "80beac5cd1c43c8ec4e41f2e65077fe9d7772283ffdd47c897af3d519886d787"
+      }
+    },
+    {
+      "case_id": "NY-4488266",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "a9e0c723a0253aee66c7eda8fe60c60123ac4c96500c712f1f6622474fe93413",
+        "MASKED": "4ca86ee05d79f57f7bc9d8f1e6604fd4522a6c517e028b82516ebbddd48ae82c"
+      }
+    },
+    {
+      "case_id": "NY-4502337",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "b6f6178169b7434f9ff13963d9c38f5bf5338e04ad86609178820f8cc84ccadc",
+        "MASKED": "b111d319e13900db7463e3443db1f5dae059bcc3854cc3a978d38114b723e6ea"
+      }
+    },
+    {
+      "case_id": "NY-4509516",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "1f52efeeecaa7cb21e9bb13afed7a35406fd933be44d61d4097c974f96e0e4bd",
+        "MASKED": "acb80b4657abe9d30e49c86d953a874004f52846f8cffc86f7ccafb0c4c2c954"
+      }
+    },
+    {
+      "case_id": "NY-4520310",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "e380b9ecbc8400316d546db488a0472634c13f36a66404baa5a6e68420576274",
+        "MASKED": "44aa2dcc175809526f03c18c47a016765232d2c590fc7edd9f54e6087cbefb28"
+      }
+    },
+    {
+      "case_id": "NY-4568055",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "aa06b0acf9618fa953898dbda7efc8142c4d14b08339f4b80929ca804ae2c6ee",
+        "MASKED": "4b4461de8fa5e422c6c9c226542953d0bd5ad4ec55d3aedb2761b1ec3f5d97ae"
+      }
+    },
+    {
+      "case_id": "NY-4576377",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "bcc41595182d5d8af4265f74109d599f1fbc277efe544e392240303beb039952",
+        "MASKED": "bbf543557266b3dbb5dd12537f7c74b2dc8284fc579807f8e8c11e59a6a45f64"
+      }
+    },
+    {
+      "case_id": "NY-4599194",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "2a7590758226868db868a4a59e6bb4fcf833d543c7796fe157abb947de38927a",
+        "MASKED": "c8ba750b22e03eea5e3236e20354d85dfcc1b5c9549c63e0408b71a6089dcbdc"
+      }
+    },
+    {
+      "case_id": "NY-4606641",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "516b92f9bc4b2f54c1c95aca2092fcd07bfbda4e2d9b54bacebe70dc2463f59c",
+        "MASKED": "10fc4415c29d8c685f8a6587ad2d2db012f3b55e2210b9bbc47b92b6aaeeb217"
+      }
+    },
+    {
+      "case_id": "NY-4617802",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "d0091d47961809df7407544ab6aa5b19fb8e1636b23331911ff3ef7d028aa973",
+        "MASKED": "59437551d86f79caa74e70c5ccc9ab42c15b5a652cd3063c208703af0faf19f2"
+      }
+    },
+    {
+      "case_id": "NY-4619740",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "822c8f8ba3178bc7fe15156821880a85a31ac050db14ef4f45d4bae8dccf92bc",
+        "MASKED": "1fa811126a365795322f2d34915e3e8d113ec00fba8a7d753c1908974cd9ad79"
+      }
+    },
+    {
+      "case_id": "NY-4623671",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "1b0a423189fe3efeb5741cba5b8f6e86549c056dd9c2f578ade412486871d38b",
+        "MASKED": "80e5cce653fe3bdbe0519af74f46e7a146b20509ffc8d2c08dba6dcf508ba1dc"
+      }
+    },
+    {
+      "case_id": "NY-4633211",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "5973f5116380efd2462e79b5553fda6408d667998e4caf3b4325b597216cf30d",
+        "MASKED": "7289a4e9ab36648f5f43d1a64e303513571e8f114be676412a818900636a5eb0"
+      }
+    },
+    {
+      "case_id": "NY-4646279",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "926f6b0cbc46609839b332ffb554e509b4efcfb4b4c4d8da04564c5b7207afc6",
+        "MASKED": "2a4ea034f2fafe2a05bff0f2d4fb077790da100d72d8cc0c610a32e13103c6b6"
+      }
+    },
+    {
+      "case_id": "NY-4655093",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "c8e4ace44e090734fb3ed11ee5478dd1237c4a1113a5dbe95d4c2bba292cf7a4",
+        "MASKED": "068fb507ce0413a64559849ca0c7fbb67f5d4eca98811c03911017bee41e2714"
+      }
+    },
+    {
+      "case_id": "NY-4665270",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "6920024b4b943e9f9f2176f87d75907aaad82255c48ff9e6b508511696fbc4d3",
+        "MASKED": "f325749eac3e6f3077fb4889a1ac05a504e93b32aa0a904a3dad5abe48217e9d"
+      }
+    },
+    {
+      "case_id": "NY-4674461",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "f4772d091e4c1f9dfab02cd16b179b3d8148f1e1c551c7327cb0d3c8a992c2cb",
+        "MASKED": "c4579942ca78436ec1cd04c0d9af6a4a7efaf93059353601cd9fab8e6cf5e78f"
+      }
+    },
+    {
+      "case_id": "NY-4725572",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "d8f7223c72d38bf7fa9757f8b544358f796fedc7f10317fcb9f28bae92de6f4a",
+        "MASKED": "f3bff22af7ff431e4fbce6a61f0e4ae9c6e4d5e8c363d94b60bdf64ec67708bd"
+      }
+    },
+    {
+      "case_id": "NY-4753705",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "3c720a5a3817f2964b09fb46f30f02eecdc84215bb685ffbf056c376f48a783e",
+        "MASKED": "670263da117e6882b09bd684549daf39fbc429cd1a2dd549c2d15d35267975d7"
+      }
+    },
+    {
+      "case_id": "NY-4763436",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "d9bed01daf8004b05e15055e766bf43957eea016cf09d2a42b342346a927546b",
+        "MASKED": "64c69529122527a3f79a6e7e58f9d9d07eed8aa1776cebf89d9ac713e4f5441f"
+      }
+    },
+    {
+      "case_id": "NY-4768128",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "60b9838823e5533d04c96de2b509cb6ae367af98abc15def1ba1f9ab1460c3d7",
+        "MASKED": "5f3b3fb758e0983034c52e748644e5babbfd17097803da0b2f2094366f2990d0"
+      }
+    },
+    {
+      "case_id": "NY-4770056",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "6b6e14c04261fe1b27fff10aeabab519bbee5f48276ce97aba0a26faceb97a81",
+        "MASKED": "5f8c3588a3e65bf01733dfc7c8e53d07abc2a4bc4e6c96393edb061be5154856"
+      }
+    },
+    {
+      "case_id": "NY-4788649",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "363ca0b2f23b717d23c564dbedaeda230f4c3a46ed4db430f7a2ca9074955d73",
+        "MASKED": "1eb4f7fbb2cf531bb2b153a6fac248b0285a7e4b436af2f0c13196a72e14697a"
+      }
+    },
+    {
+      "case_id": "NY-4791129",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "73a33e2f899815c6d92e88882ab6de4dc2d25ab3a059ae5c1ab86ed3b802c837",
+        "MASKED": "239174e0876dc61b5e2129f8a1f7a22c09cfc8ab4f8c71d8514a8ba3646a8ea6"
+      }
+    },
+    {
+      "case_id": "NY-4798937",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "59c8bb22c847c46ba7591df9e29821355b179a5b5028c198a8cf4deba2099e83",
+        "MASKED": "f707e531f08f6025ac08c9f30cbd02b2fabe8b053d4a2c6fea8762930acc340a"
+      }
+    },
+    {
+      "case_id": "NY-4805412",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "115d771fa67f30d51d9c1138f512f53419dd91c66a094fa85b9760f6eecd35c6",
+        "MASKED": "785521c9c9bbd810f7adbdc2e595518ee9b70ff93939ffac77960129e9c7b3ec"
+      }
+    },
+    {
+      "case_id": "NY-4820874",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "3c7ed901c5096c7e202b0903faedc37dd56708c1f1b0a8d39267678cb40bf3b9",
+        "MASKED": "773c4febf9b07c6f0e61eeca426ef4fcd647b7199427202073bae17a14b4a174"
+      }
+    },
+    {
+      "case_id": "NY-4851261",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "3b7c6ee93ff1891f764977bac67acd49030ca5cae675b2c360c47a1d618e2002",
+        "MASKED": "5cf4ae1b4cb37b001b2c22f41f98988509c7168e6a04b2c116cae9dd4ab5dea5"
+      }
+    },
+    {
+      "case_id": "NY-4855957",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "aebcf5ba7fb52e6bd518168e3a7fe107af6b55643311e5fdf07b716f9705ddc4",
+        "MASKED": "abe4e50fe7a7dcdc7fee7628a4290e82983bc051ad39a0d1334271802e61e5f0"
+      }
+    },
+    {
+      "case_id": "NY-4860863",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "ebe580024fea4d254b456511517eef883d8e4bd57415572f39227cd5badcda3f",
+        "MASKED": "d5595f6cd281ed722fac504bd0db3610a1dae3a1699287b07fbdf29a2fa3bbcc"
+      }
+    },
+    {
+      "case_id": "NY-4898123",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "18441e9810bccb18adb64f3318c55f0f6093b323a23e62afd92993491ed7b61e",
+        "MASKED": "0cdea6291e5e9933cc360282f938006578b34775399b66de3a67de224d929e9b"
+      }
+    },
+    {
+      "case_id": "NY-5298317",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "7576ee4b3291049e1046967d5794a1916473655cce347a75fa74e44cca009909",
+        "MASKED": "d632b706806ff5b5902ab52305584f785e423bb5660178bd0999f5f63b803c0f"
+      }
+    },
+    {
+      "case_id": "NY-5302359",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "cc8619d406933dfd01e3d48a2fd80ea62eabb98d26f919b476d9160d0403867c",
+        "MASKED": "d4e8b684e6f173e43ad001270782c56a4d1987bd5c6a90abea8768b620a37d51"
+      }
+    },
+    {
+      "case_id": "NY-5312913",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "3273a3a35838c930d36606f545b22820cb9902b10fbad90fdf6b6d6bd3d05014",
+        "MASKED": "92d9f11cc0e42f61cfc7187f993785200afd03cdc49bddb42ab2efc463ca27c5"
+      }
+    },
+    {
+      "case_id": "NY-5933946",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "0965c31d0bc7f1a8d0d7afd54c5117645e481bff32f2b35c58a6160d49632db4",
+        "MASKED": "7d550651c8016116c876cfa2c8fae539030f9c2eeb602ed07c636f8aae1bec2e"
+      }
+    },
+    {
+      "case_id": "NY-5934616",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "debe40157b641d61743b4c4cc48f93a923f1eab603b5da4fe7aab7bf7848c922",
+        "MASKED": "704def0edf384741cf005356c5a08a80155e988f8be38b268702abf16c7f895c"
+      }
+    },
+    {
+      "case_id": "NY-5934656",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "827636ac54176af4a96f65a34215a93fb5c8aa3deaefd73e1af43c6b56b3cbea",
+        "MASKED": "3c994f04e4f9ac9a19ea069d98ce2430d59108b46280f9c292236ffa93dcb96f"
+      }
+    },
+    {
+      "case_id": "NY-5937355",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "39f9d932fa5b677440c1f7ae49286f6ff1bce89dec589ecb1f15ab742a683e9a",
+        "MASKED": "d107c034a0d27669a5d7e7e8609b75fa3bf7de6c528b691040c95e433f9db2db"
+      }
+    },
+    {
+      "case_id": "NY-5939702",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "33944b88eee130196a2516e979e70422308fabf8f914fbb872b5ea55cf80f8aa",
+        "MASKED": "532211c88b5e2d2a65afee93921c0d49300dd545d6a9e7d3b752159fc33ac056"
+      }
+    },
+    {
+      "case_id": "NY-5947506",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "929558753578c3878824c3fb7bb666f649c375ee4ee417a7c882b47564c4018d",
+        "MASKED": "929558753578c3878824c3fb7bb666f649c375ee4ee417a7c882b47564c4018d"
+      }
+    },
+    {
+      "case_id": "NY-5947900",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "acfdd02f800f6e5c1af7bccf2cc303059f83ed0b393e573f3ea77551fc013c7e",
+        "MASKED": "d44c75e37c5a157dac3a264b50dd1d108e4934ed7cbb69ec7a2f77f3142d3423"
+      }
+    },
+    {
+      "case_id": "NY-5948742",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "0e2db23c07b71ddca33d0df0cd208c335f99b8978a13694721e8d7382a9e7ce1",
+        "MASKED": "5c09cb05163695a60e78754fe3aa9c903ff3b10626b982c2bdc658238a0c8bfa"
+      }
+    },
+    {
+      "case_id": "NY-5950295",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "8345e0694030739f016475788cc3e4a003ab1b5a048e4b98dc362eec8e9cc5e3",
+        "MASKED": "140be7dab9ed79cb60f5dea6479fd1f0c4eb4eb0afceb7df42212a3ec6cf5917"
+      }
+    },
+    {
+      "case_id": "NY-5952419",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "fa87b6d8052e46406548f35c0bb5aeeef3f9f7fadea6c9b8eac0c98d76f43e26",
+        "MASKED": "32a679bb879a7966d7036b8c8a9367819721ac94eb0ef29748ff5afaed72fc22"
+      }
+    },
+    {
+      "case_id": "NY-5958452",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "2f66904d15967641f36f17cc5f3488abcb5b14926945c5fc00b4a35acc0d5148",
+        "MASKED": "48a3afe29be4251fd5686650451d6309935f4c58f89f193015cb4e421bc9b8ba"
+      }
+    },
+    {
+      "case_id": "NY-5959861",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "ad1e10d9cc368cc943c39c860f4c05e46857ecb33ea5b12bf05b8d46186cf8f8",
+        "MASKED": "a6e943e8f89332caac46ef0c48c50c75b8d6c6577fe00a022341bbb9ad3a55e6"
+      }
+    },
+    {
+      "case_id": "NY-5960096",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "cff47e6d9f7a8767a5fb31d49cd06704ecb717723e11c72cd8481d11d9433749",
+        "MASKED": "6e6b75b941580b4688f83f19ae08da486f7da60cc6e31240ea87de9a799385f3"
+      }
+    },
+    {
+      "case_id": "NY-5964247",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "7d0c5baf79e9337f072e5f054cb4d9bdbaa02ec0ca9cbf2d163a7d326a5f62dc",
+        "MASKED": "34d828afc00a9d179382f225de6a6a4d625f8fc3b8bb1e881ab5b68e22a790fd"
+      }
+    },
+    {
+      "case_id": "NY-5986955",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "136a2824e5e2138b62026617ffffdb71c48204296b7762525e5ff9911255a7cb",
+        "MASKED": "1243544b2a06b072d334efa23aa65503d6c626f4af2e86d18edee33f15b7c41f"
+      }
+    },
+    {
+      "case_id": "NY-5993188",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "ad13f21a58545c284e7a634f6c091c1370902866567418c242d580b4b02efede",
+        "MASKED": "88d8f66d93d7c7ff2dd09aa6b7435fe05fd16b7992d403551f8d003c53ae0d36"
+      }
+    },
+    {
+      "case_id": "NY-5993240",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "95b6bceac9e62feb993f297939087b6f8026170bd18bf839b681a63f9f874182",
+        "MASKED": "f4742dfa3c98f5b0a8784d44b0813f7a0e81ac8758a19803bae858eaadea97e7"
+      }
+    },
+    {
+      "case_id": "NY-5994509",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "7774506fcefbfdfd321b119ea9a8856169b3905f8a4d835ca1b1f60712afc67f",
+        "MASKED": "bc1f27b0eb0008cf0c0dab87ef980bdebb1feb5504ecb98c8f5fb8bf3205ff02"
+      }
+    },
+    {
+      "case_id": "NY-6000385",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "a66b390a80b9e0dfb3e3443f3c52de899917c770e7ff397da604c708409657f8",
+        "MASKED": "c1b43a0fa0502c9fe190a4112f0364818701b3c0d2d39228f8621f3305b4e0ee"
+      }
+    },
+    {
+      "case_id": "NY-6001231",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "1c1e9d2bfc42895cfaa74be8d471a8c7e074cc331246e1dc56d039d2437352ff",
+        "MASKED": "828035619c65c1399b45c0d4cadface5501bd55ae37164181383f8eaa5711b8c"
+      }
+    },
+    {
+      "case_id": "NY-6017856",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "0509bd1ecd7f6db6404e0d994184a3dae5ae01670b363addbda0778816a2b89d",
+        "MASKED": "ae6710276afa06b28688319df60c516eecfd553a55823ad7cfb75a2eb416221f"
+      }
+    },
+    {
+      "case_id": "NY-6036489",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "f705a6e1dba6eb349e3df1bd126161c40a2deb336f18ffc0093b422c91505140",
+        "MASKED": "3bcfdff68ecc928f94becb42097b27f62b8bd3c417b6c39ae33493fd5e29778c"
+      }
+    },
+    {
+      "case_id": "NY-6052406",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "b07600ded93a50008ba969b30fb6287709fe066cfb3a0667325d2aef14619e8f",
+        "MASKED": "b07600ded93a50008ba969b30fb6287709fe066cfb3a0667325d2aef14619e8f"
+      }
+    },
+    {
+      "case_id": "NY-6054824",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "e33aa3ac852a68972f3f62a8eb5d119beed3edf42451497f096276fa2d387db0",
+        "MASKED": "fdd6fd9ff32b342e2fdb003db7e7f8d54096073733f09e75cb09b4ba99058ba9"
+      }
+    },
+    {
+      "case_id": "NY-6068857",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "bfc5947605209479532dbc153dc1d89fd130bf0941c0b9291d293f7f66a49471",
+        "MASKED": "83254968cdcdb14d7647562ed4c481d22f3341d0cda3809be17de0a35653685d"
+      }
+    },
+    {
+      "case_id": "NY-6079676",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "227d6b61443e4c061da6f14fdbceb91e4ab15ce7a6bdd29fdca5dbe4c2770470",
+        "MASKED": "d430cd5fc0a5a6de4fe65066d8c63709343b3e9b3df3730970542e26f194e73b"
+      }
+    },
+    {
+      "case_id": "NY-6079805",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "cc5247f84bcc43859659df3cff54a48e0999ae203f3e7a29999a793435956a53",
+        "MASKED": "6dae35805aefc442189f62f2ed4cdf65f2ba21116a9cab9143d46cdd270d2c2b"
+      }
+    },
+    {
+      "case_id": "NY-6088552",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "9b48a33a38fc8acbf6bb39cba390163b8c60886f0a9526314b10aea8e83f5a6d",
+        "MASKED": "9b48a33a38fc8acbf6bb39cba390163b8c60886f0a9526314b10aea8e83f5a6d"
+      }
+    },
+    {
+      "case_id": "NY-6110053",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "687de4741d80fe477c21ab52d5d8bd57a176dfa93c3dfbad70c73c47814d1a69",
+        "MASKED": "981e1d9945066cac3eebd40e9c7473733936e5cfad51fc1ada83332dad62a238"
+      }
+    },
+    {
+      "case_id": "NY-6116126",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "db427e17724f6479c46b3c95f694fcfd2e860a938d4a643d0341e2e99d4f26a1",
+        "MASKED": "a27348fd455b5cbc70ba1dafcfe502047446501391c9c2ce987716ec6fca020f"
+      }
+    },
+    {
+      "case_id": "NY-6119453",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "bc74f1da88fd80b8cbf570c6dc2020d02c82468d8c1a5c2ca871d2c035d305ad",
+        "MASKED": "9275d8502541bad38d69152ec27a27f3436d9abeff61ea4f561e4abc9216a6ac"
+      }
+    },
+    {
+      "case_id": "NY-6127959",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "c4bafab53c78cbb8449778f0c866ef6efefe303351a524235ea07a42cda8a83a",
+        "MASKED": "a4e85410cc1de291e066ac6cd9652c4d2b016fd9e6779db4d9249864459b1ca7"
+      }
+    },
+    {
+      "case_id": "NY-6207337",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "553964ee98760a9d3c0dde1d4b403b39e17ac8bffc3607c4369f34f214b019b5",
+        "MASKED": "39e449d45937c0cc97acb6189b020eb90461fb060c240f0c0976c0af696ecf46"
+      }
+    },
+    {
+      "case_id": "NY-6214527",
+      "period": "train",
+      "text_sha256": {
+        "FULL": "ab8ac1d3b91994c97d171383f2f92fecebddb36713f57352c13cf358a3478a07",
+        "MASKED": "d2be2744bb3f1063d733f08f582f0290d445f3692c037f3433903591200d7f5c"
+      }
+    },
+    {
+      "case_id": "NY-6459053",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "1e84adf97ac9a3591589a77e010ca6672b3e1317590eee66ce607a6159c58fdb",
+        "MASKED": "0c95e41cfc8c9f1bdde84dd83336d506f80f8b5667b66181629cdacdab745c87"
+      }
+    },
+    {
+      "case_id": "NY-6473776",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "8126786af8001c3fffc8b50522b24ffd4e088f4d972bba0788b05f07ad5d233e",
+        "MASKED": "d52181b4f46d4a84eb2bb6ce4ab3bbde684574cb5b47db61bdd285cfbe1af6b4"
+      }
+    },
+    {
+      "case_id": "NY-6475974",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "8abc808016fed06233d3880d97c4624ea6db814ba6151537f2b1f54f9cb4c8bb",
+        "MASKED": "32e9368dfb9c9b008f070ece7115ceb94a59b18c0fb9800d1931125bc9c47865"
+      }
+    },
+    {
+      "case_id": "NY-8511862",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "dcc23bf431deaa80f98fef9d59707306edbda8450baae8f5c3e38d28452f46ca",
+        "MASKED": "13f8d49f387b8f8121b93be8541e8e16226bb4404c0c48baa769f0e67f8fbef9"
+      }
+    },
+    {
+      "case_id": "NY-8511901",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "475ea27ae96c570afdfee2a80dd6301f89d4b15fcbbe98481b158053a88a68f8",
+        "MASKED": "14ad1e1ad67235c3c1db3873ca59abbbfa11d39ce0933c4be791aba9684257f2"
+      }
+    },
+    {
+      "case_id": "NY-8619624",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "31e08ba3144480672f7b1e855d3fe054f5ac0e26b1bdf1648fbf3f4af7ad61c4",
+        "MASKED": "870a2b994db017a22ef6db301689197ccc142b5c8a3e488d06b4910681460d6a"
+      }
+    },
+    {
+      "case_id": "NY-9353901",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "78138f7ed9f23d79abd6cf6870d54e460ba9d932e72f0e87eddd6841507d3933",
+        "MASKED": "3c7256957f435b0bbfd7942a1e38705e9e3463048e6d8b1868ab988f3617e1f6"
+      }
+    },
+    {
+      "case_id": "NY-9355448",
+      "period": "validation",
+      "text_sha256": {
+        "FULL": "57e25154bee4a1d8f13d962e2798843ff69baba7c43eb8eb991bcdc9672d2bc2",
+        "MASKED": "71bdd62de52f86fefc52bdd608a0320f48a78b7e67a0f645fe2038782e9c226b"
+      }
+    }
+  ]
+}

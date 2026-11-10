@@ -10,10 +10,11 @@ from pathlib import Path
 
 import numpy as np
 
-from data import VARIANTS, load_release, sha_file
+from data import VARIANTS, digest, load_release, sha_file
 from encoder import HERE, SETTINGS, feature_vectors
 from modeling import BERT, GRID, LEXICAL, SEED, estimator, evaluate, grouped_folds
 from outputs import new_directory, write_csv, write_json
+from reporting import report
 
 
 def prepare(path):
@@ -49,7 +50,7 @@ def confusion_plot(metrics, path):
             for a, b in np.ndindex(2, 2):
                 ax.text(b, a, f"{matrix[a, b]}\n({frac[a, b]:.0%})", ha="center", va="center",
                         color="white" if frac[a, b] > .55 else "black")
-            ax.set(title=f"{name} · {variant}", xlabel="Predicted", ylabel="Reviewed",
+            ax.set(title=f"{name} · {variant}", xlabel="Predicted", ylabel="True label",
                    xticks=[0, 1], yticks=[0, 1])
     fig.suptitle("Development cases · 0 affirmed, 1 reversed/vacated")
     fig.savefig(path, dpi=150)
@@ -63,7 +64,7 @@ def parameters(result):
                    for k, v in obj.get_params(deep=False).items()} for step, obj in pipeline.steps}
 
 
-def save_run(destination, release, rows, folds, results):
+def save_run(destination, release, rows, folds, results, vectors=None):
     expected = {r["case_id"]: r["label"] for r in rows if r["period"] == "validation"}
     for result in results:
         for variant in VARIANTS:
@@ -73,14 +74,18 @@ def save_run(destination, release, rows, folds, results):
     training = [r for r in rows if r["period"] == "train"]
     membership = {training[i]["case_id"]: f for f, (_, hold) in enumerate(folds, 1) for i in hold}
     all_metrics = [metric for result in results for metric in result["metrics"]]
+    has_selection = any(result["cv"] for result in results)
     files = sorted(HERE.glob("*.py")) + [HERE / n for n in ("encoder_settings.json", "requirements.txt", "provisional_b.ipynb")]
     git = subprocess.run(["git", "-C", str(HERE), "rev-parse", "HEAD"], capture_output=True, text=True, check=False)
     with new_directory(destination) as out:
         write_json(out / "run.json", {
             "release": release, "evaluation": "2021–2022 development", "class_order": [0, 1],
-            "class_names": ["affirmed", "reversed/vacated"], "seed": SEED, "C_grid": GRID,
-            "selection": "MASKED only; mean fold balanced accuracy, mean macro F1, smaller C",
-            "cv_folds": len(folds), "fold_method": "seeded family allocation balancing both classes",
+            "class_names": ["affirmed", "reversed/vacated"], "seed": SEED,
+            "C_grid": GRID if has_selection else [],
+            "selection": ("MASKED only; mean fold balanced accuracy, mean macro F1, smaller C"
+                          if has_selection else "Training majority; no hyperparameter selection"),
+            "cv_folds": len(folds),
+            "fold_method": "seeded family allocation balancing both classes" if folds else None,
             "training_class_counts": dict(Counter(str(r["label"]) for r in training)),
             "encoder_settings": SETTINGS, "models": {r["model"]: parameters(r) for r in results},
             "python": sys.version, "platform": platform.platform(), "software": software(),
@@ -98,6 +103,22 @@ def save_run(destination, release, rows, folds, results):
                    "conditions": [{"model": r["model"], "variant": r["variant"], "counts": r["confusion_matrix"]}
                                   for r in all_metrics]})
         confusion_plot(all_metrics, out / "confusion_matrices.png")
+        report(out)
+        if vectors is not None:
+            embedding_files = {}
+            for variant in VARIANTS:
+                matrix = vectors[variant]
+                if matrix.shape != (len(rows), SETTINGS["hidden_size"]) or not np.isfinite(matrix).all():
+                    raise ValueError(f"Unexpected embedding matrix for {variant}")
+                name = f"embeddings_{variant}.npy"
+                np.save(out / name, matrix, allow_pickle=False)
+                embedding_files[name] = sha_file(out / name)
+            write_json(out / "embedding_index.json", {
+                "encoder_settings": SETTINGS, "files_sha256": embedding_files,
+                "rows": [{"case_id": row["case_id"], "period": row["period"],
+                          "text_sha256": {v: digest(row["texts"][v].encode("utf-8")) for v in VARIANTS}}
+                         for row in rows],
+            })
     return Path(destination).resolve()
 
 

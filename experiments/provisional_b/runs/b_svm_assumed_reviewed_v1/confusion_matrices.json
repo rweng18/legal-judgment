@@ -1,0 +1,96 @@
+{
+  "class_order": [
+    0,
+    1
+  ],
+  "axes": [
+    "true",
+    "predicted"
+  ],
+  "conditions": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "counts": [
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "counts": [
+        [
+          11,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    }
+  ]
+}

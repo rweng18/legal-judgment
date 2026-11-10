@@ -1,0 +1,212 @@
+{
+  "encoder": {
+    "encoder": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+    "tokenizer": "BertTokenizer",
+    "use_fast": false,
+    "content_tokens": 510,
+    "overlap": 0,
+    "padding_side": "right",
+    "batch_size_chunks": 4,
+    "hidden_size": 768,
+    "threads": 4,
+    "pooling": "last hidden layer; sum content-token vectors over all nonoverlapping chunks and divide by total content tokens; exclude special tokens and padding",
+    "protocol_version": 1
+  },
+  "splits": {
+    "train": {
+      "cases": 97,
+      "FULL": {
+        "words": {
+          "min": 107.0,
+          "median": 476.0,
+          "mean": 520.1958762886597,
+          "p90": 820.2000000000003,
+          "max": 1236.0
+        },
+        "tokens": {
+          "min": 126.0,
+          "median": 665.0,
+          "mean": 714.9896907216495,
+          "p90": 1107.8,
+          "max": 1642.0
+        },
+        "chunks": {
+          "min": 1.0,
+          "median": 2.0,
+          "mean": 1.8865979381443299,
+          "p90": 3.0,
+          "max": 4.0
+        },
+        "fraction_over_one_input": 0.7216494845360825,
+        "total_chunks": 183
+      },
+      "MASKED": {
+        "words": {
+          "min": 98.0,
+          "median": 424.0,
+          "mean": 479.41237113402065,
+          "p90": 769.4000000000002,
+          "max": 1197.0
+        },
+        "tokens": {
+          "min": 115.0,
+          "median": 618.0,
+          "mean": 664.4329896907217,
+          "p90": 1019.4000000000002,
+          "max": 1594.0
+        },
+        "chunks": {
+          "min": 1.0,
+          "median": 2.0,
+          "mean": 1.7835051546391754,
+          "p90": 2.4000000000000057,
+          "max": 4.0
+        },
+        "fraction_over_one_input": 0.6597938144329897,
+        "total_chunks": 173
+      },
+      "paired_change": {
+        "words_removed": {
+          "min": 0.0,
+          "median": 39.0,
+          "mean": 40.78350515463917,
+          "p90": 76.60000000000008,
+          "max": 164.0
+        },
+        "words_removed_pct": {
+          "min": 0.0,
+          "median": 7.428571428571429,
+          "mean": 8.560827696992993,
+          "p90": 14.55436073360602,
+          "max": 34.819532908704886
+        },
+        "tokens_removed": {
+          "min": 0.0,
+          "median": 47.0,
+          "mean": 50.55670103092783,
+          "p90": 91.60000000000008,
+          "max": 208.0
+        },
+        "tokens_removed_pct": {
+          "min": 0.0,
+          "median": 6.610407876230661,
+          "mean": 7.776160415950835,
+          "p90": 13.060400796906134,
+          "max": 36.56716417910448
+        },
+        "chunks_removed": {
+          "min": 0.0,
+          "median": 0.0,
+          "mean": 0.10309278350515463,
+          "p90": 0.4000000000000057,
+          "max": 1.0
+        },
+        "chunks_removed_pct": {
+          "min": 0.0,
+          "median": 0.0,
+          "mean": 4.4673539518900345,
+          "p90": 13.333333333333524,
+          "max": 50.0
+        }
+      }
+    },
+    "validation": {
+      "cases": 15,
+      "FULL": {
+        "words": {
+          "min": 278.0,
+          "median": 539.0,
+          "mean": 617.4,
+          "p90": 801.5999999999999,
+          "max": 1870.0
+        },
+        "tokens": {
+          "min": 359.0,
+          "median": 720.0,
+          "mean": 838.0666666666667,
+          "p90": 1104.1999999999998,
+          "max": 2617.0
+        },
+        "chunks": {
+          "min": 1.0,
+          "median": 2.0,
+          "mean": 2.2,
+          "p90": 2.5999999999999996,
+          "max": 6.0
+        },
+        "fraction_over_one_input": 0.8666666666666667,
+        "total_chunks": 33
+      },
+      "MASKED": {
+        "words": {
+          "min": 255.0,
+          "median": 500.0,
+          "mean": 573.6666666666666,
+          "p90": 691.4,
+          "max": 1857.0
+        },
+        "tokens": {
+          "min": 330.0,
+          "median": 671.0,
+          "mean": 783.6666666666666,
+          "p90": 969.6,
+          "max": 2594.0
+        },
+        "chunks": {
+          "min": 1.0,
+          "median": 2.0,
+          "mean": 2.066666666666667,
+          "p90": 2.0,
+          "max": 6.0
+        },
+        "fraction_over_one_input": 0.8,
+        "total_chunks": 31
+      },
+      "paired_change": {
+        "words_removed": {
+          "min": 13.0,
+          "median": 32.0,
+          "mean": 43.733333333333334,
+          "p90": 70.2,
+          "max": 167.0
+        },
+        "words_removed_pct": {
+          "min": 0.6951871657754011,
+          "median": 7.2356215213358075,
+          "mean": 7.924258157154653,
+          "p90": 13.586715154635856,
+          "max": 19.15137614678899
+        },
+        "tokens_removed": {
+          "min": 20.0,
+          "median": 38.0,
+          "mean": 54.4,
+          "p90": 86.0,
+          "max": 211.0
+        },
+        "tokens_removed_pct": {
+          "min": 0.8788689338937715,
+          "median": 6.805555555555555,
+          "mean": 7.320306463394401,
+          "p90": 12.532336878413336,
+          "max": 17.452440033085196
+        },
+        "chunks_removed": {
+          "min": 0.0,
+          "median": 0.0,
+          "mean": 0.13333333333333333,
+          "p90": 0.5999999999999996,
+          "max": 1.0
+        },
+        "chunks_removed_pct": {
+          "min": 0.0,
+          "median": 0.0,
+          "mean": 5.555555555555556,
+          "p90": 19.99999999999999,
+          "max": 50.0
+        }
+      }
+    }
+  }
+}

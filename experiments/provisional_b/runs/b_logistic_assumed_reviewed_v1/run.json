@@ -1,0 +1,154 @@
+{
+  "release": {
+    "status": "user_assumed_labels_reviewed",
+    "dataset_version": "batch_b/provisional_v1/B_development_v2_PROVISIONAL",
+    "split_version": "supplied 2010–2020 training / 2021–2022 validation",
+    "label_field": "draft_label_if_unanimous_include",
+    "label_review_assumption": "User instructed: Proceed, assuming the labels have been reviewed",
+    "source_adjudication_statuses": [
+      "pending_human_review"
+    ],
+    "family_review_statuses": [
+      "NOT_APPROVED"
+    ],
+    "scope": "Batch B only; same supplied development IDs for FULL and MASKED",
+    "inputs": {
+      "development": {
+        "repository_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/B_development_v2_PROVISIONAL.jsonl",
+        "sha256": "94e81d81d9e59a80d62df19d55862ff03b8539c26bb4eae3371c30340bb6cd21"
+      },
+      "labels": {
+        "repository_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/inputs/B_three_reviewer_audit_169.csv",
+        "sha256": "73c623eca3b67fae4c2662db8ba8a6a33581b2c8f82864c1d9f633252d5dd8f5"
+      },
+      "families": {
+        "repository_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/case_family_manifest_B_169_PROVISIONAL.csv",
+        "sha256": "db690bb913e1845346aeb5b20fa4035d56aba6bd74076b1d6707b974e8ee1a61"
+      }
+    },
+    "majority_reference": {
+      "run_json_sha256": "affdc2e4ef9221e9e93de53a3b2d25e9aa1e370511b91e0dcfdffceca170d99e",
+      "splits_sha256": "9d89f306b1639f626f4b9e025c46bf01daaa0d801867d3f40adf3c0b8d832456",
+      "results_sha256": "2dc246a3f7e310706e5c393065295bf63e2a33902073fab86b7946ce718378b0"
+    }
+  },
+  "evaluation": "2021–2022 development",
+  "class_order": [
+    0,
+    1
+  ],
+  "class_names": [
+    "affirmed",
+    "reversed/vacated"
+  ],
+  "seed": 20261023,
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "MASKED only; mean fold balanced accuracy, mean macro F1, smaller C",
+  "cv_folds": 3,
+  "fold_method": "seeded family allocation balancing both classes",
+  "training_class_counts": {
+    "1": 33,
+    "0": 64
+  },
+  "encoder_settings": {
+    "encoder": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+    "tokenizer": "BertTokenizer",
+    "use_fast": false,
+    "content_tokens": 510,
+    "overlap": 0,
+    "padding_side": "right",
+    "batch_size_chunks": 4,
+    "hidden_size": 768,
+    "threads": 4,
+    "pooling": "last hidden layer; sum content-token vectors over all nonoverlapping chunks and divide by total content tokens; exclude special tokens and padding",
+    "protocol_version": 1
+  },
+  "models": {
+    "Majority": {
+      "classifier": "DummyClassifier",
+      "strategy": "most_frequent",
+      "tie_label": 0
+    },
+    "TFIDF_LR": {
+      "tfidfvectorizer": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "float64",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 1.0,
+        "max_features": 30000,
+        "min_df": 2,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": null,
+        "sublinear_tf": false,
+        "token_pattern": "(?u)\\b\\w\\w+\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      },
+      "logisticregression": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 10000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 20261023,
+        "solver": "liblinear",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  },
+  "python": "3.9.12 (main, Apr  5 2022, 01:53:17) \n[Clang 12.0.0 ]",
+  "platform": "macOS-10.16-x86_64-i386-64bit",
+  "software": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.9.4",
+    "torch": null,
+    "transformers": null,
+    "tokenizers": null,
+    "huggingface-hub": null,
+    "pandas": "2.1.2",
+    "nbformat": "5.3.0",
+    "nbclient": "0.5.13",
+    "ipykernel": "6.9.1"
+  },
+  "git_commit": "b2f90c73b76c59b8765b6eff7b989af0b339c673",
+  "code_sha256": {
+    "data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72",
+    "encoder.py": "1bf72443dbcb6c8c0b426ea31e8c35b025e85d9844eb275f222d6883931aab60",
+    "experiment.py": "96e2fe7d2719ffa54ef0d0247a9a2219d17fa4c25c2709171cc79fc4ce9c2927",
+    "lengths.py": "087a9db1b9d635e8abe057cc6286f0a2b8f8bae310e60db8582bd314a17bf9b1",
+    "modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "run_logistic.py": "6138628e7bacd6db71c46fcecc5a6fffaa523c150b344c28ac1eb51fc86c90b6",
+    "run_majority.py": "6d432e9ef865a8e2cf16271d961039cc67bb6551090b19ca3d70bc87a5b44777",
+    "test_protocol.py": "3bf9d0587f478fe0dbdaa72c7a2e8c2b57aa43d33bcd8830e8d73704582b5581",
+    "encoder_settings.json": "99d6bdf07ecc83cfd19dcace9ed0eb206f7dbaf72c5b08d4cad95bb718d44786",
+    "requirements.txt": "df299993b3f62c85696fbd59cf987bb21ccd9eef049f10ca5f607927b82638f8",
+    "provisional_b.ipynb": "5f7d63f92d6a9484691d8e5b6fd1fb49ad0dc1b9738c270b5ab70fc643d14573"
+  }
+}

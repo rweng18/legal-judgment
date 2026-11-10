@@ -61,6 +61,16 @@ class ProtocolTests(unittest.TestCase):
                 self.assertEqual({p["C"] for p in model["predictions"]}, {model["selected_C"]})
             out = save_run(root / "run", release, rows, folds, results)
             self.assertTrue((out / "confusion_matrices.png").is_file())
+            reporting = json.loads((out / "reporting_summary.json").read_text())
+            counts = reporting["class_counts"]
+            self.assertEqual([(c["label_0"], c["label_1"]) for c in counts[:2]], [(8, 4), (2, 2)])
+            for fold in (1, 2, 3):
+                pair = [c for c in counts if c["fold"] == fold]
+                self.assertEqual(sum(c["label_0"] for c in pair), 8)
+                self.assertEqual(sum(c["label_1"] for c in pair), 4)
+            majority = reporting["conditions"][0]
+            self.assertEqual(majority["counts"], [[2, 0], [2, 0]])
+            self.assertEqual(majority["row_normalized"], [[1., 0.], [1., 0.]])
             self.assertEqual(json.loads((out / "run.json").read_text())["release"], release)
             with self.assertRaises(FileExistsError):
                 save_run(out, release, rows, folds, results)
