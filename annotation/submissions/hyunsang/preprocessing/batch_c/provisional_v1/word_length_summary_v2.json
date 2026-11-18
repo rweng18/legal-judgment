@@ -1,0 +1,50 @@
+{
+  "train": {
+    "cases": 96,
+    "FULL_words": {
+      "min": 109,
+      "median": 457.0,
+      "mean": 515.104,
+      "p90": 808,
+      "max": 2363
+    },
+    "MASKED_words": {
+      "min": 81,
+      "median": 418.5,
+      "mean": 474.385,
+      "p90": 731,
+      "max": 2363
+    },
+    "words_removed_pct": {
+      "min": 0.0,
+      "median": 7.785,
+      "mean": 8.761,
+      "p90": 18.71,
+      "max": 28.15
+    }
+  },
+  "validation": {
+    "cases": 11,
+    "FULL_words": {
+      "min": 269,
+      "median": 468,
+      "mean": 620.455,
+      "p90": 894,
+      "max": 1870
+    },
+    "MASKED_words": {
+      "min": 269,
+      "median": 443,
+      "mean": 575.545,
+      "p90": 836,
+      "max": 1840
+    },
+    "words_removed_pct": {
+      "min": 0.0,
+      "median": 7.75,
+      "mean": 8.441,
+      "p90": 14.34,
+      "max": 18.51
+    }
+  }
+}
