@@ -1,0 +1,360 @@
+{
+  "scope": "All 42 saved development cases; length bins are descriptive and not identical across variants.",
+  "disagreements_by_model": {
+    "Majority": {
+      "case_ids": [],
+      "count": 0,
+      "fixed_by_MASKED": 0,
+      "introduced_by_MASKED": 0
+    },
+    "TFIDF_LR": {
+      "case_ids": [
+        "NY-5304378",
+        "NY-7855719",
+        "NY-7857572",
+        "NY-8435765",
+        "NY-4851261",
+        "NY-6475974",
+        "NY-4894160",
+        "NY-5957906",
+        "NY-6357683",
+        "NY-6620039"
+      ],
+      "count": 10,
+      "fixed_by_MASKED": 0,
+      "introduced_by_MASKED": 10
+    },
+    "TFIDF_SVM": {
+      "case_ids": [
+        "NY-5304378",
+        "NY-7855719",
+        "NY-7857572",
+        "NY-7859429",
+        "NY-8435765",
+        "NY-4851261",
+        "NY-5312913",
+        "NY-6459053",
+        "NY-6475974",
+        "NY-4894160",
+        "NY-5957906",
+        "NY-6357683",
+        "NY-6473768",
+        "NY-6620039"
+      ],
+      "count": 14,
+      "fixed_by_MASKED": 0,
+      "introduced_by_MASKED": 14
+    },
+    "LEGAL_BERT_LR": {
+      "case_ids": [
+        "NY-4849014",
+        "NY-4929051",
+        "NY-5302167",
+        "NY-5304378",
+        "NY-6451900",
+        "NY-6622562",
+        "NY-7855719",
+        "NY-7857572",
+        "NY-7859429",
+        "NY-9329602",
+        "NY-9355447",
+        "NY-9355453",
+        "NY-4860863",
+        "NY-4898123",
+        "NY-6459053",
+        "NY-9353901",
+        "NY-5302135",
+        "NY-5957906",
+        "NY-6357683",
+        "NY-6473768",
+        "NY-9301972"
+      ],
+      "count": 21,
+      "fixed_by_MASKED": 2,
+      "introduced_by_MASKED": 19
+    }
+  },
+  "distinct_disagreement_cases": 27,
+  "length_groups": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "chunks": 1,
+      "n": 6,
+      "errors": 1
+    },
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "chunks": 2,
+      "n": 28,
+      "errors": 11
+    },
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "chunks": 3,
+      "n": 5,
+      "errors": 3
+    },
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "chunks": 5,
+      "n": 2,
+      "errors": 2
+    },
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "chunks": 1,
+      "n": 9,
+      "errors": 3
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "chunks": 2,
+      "n": 27,
+      "errors": 10
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "chunks": 3,
+      "n": 3,
+      "errors": 2
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "chunks": 5,
+      "n": 2,
+      "errors": 2
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "chunks": 1,
+      "n": 6,
+      "errors": 2
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "chunks": 2,
+      "n": 28,
+      "errors": 4
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "chunks": 3,
+      "n": 5,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "chunks": 5,
+      "n": 2,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "chunks": 1,
+      "n": 9,
+      "errors": 5
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "chunks": 2,
+      "n": 27,
+      "errors": 11
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "chunks": 3,
+      "n": 3,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "chunks": 5,
+      "n": 2,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "chunks": 1,
+      "n": 6,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "chunks": 2,
+      "n": 28,
+      "errors": 2
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "chunks": 3,
+      "n": 5,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "chunks": 5,
+      "n": 2,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "chunks": 1,
+      "n": 9,
+      "errors": 5
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "chunks": 2,
+      "n": 27,
+      "errors": 11
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "chunks": 3,
+      "n": 3,
+      "errors": 2
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "chunks": 5,
+      "n": 2,
+      "errors": 1
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "chunks": 1,
+      "n": 6,
+      "errors": 1
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "chunks": 2,
+      "n": 28,
+      "errors": 3
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "chunks": 3,
+      "n": 5,
+      "errors": 1
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "chunks": 5,
+      "n": 2,
+      "errors": 0
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "chunks": 1,
+      "n": 9,
+      "errors": 6
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "chunks": 2,
+      "n": 27,
+      "errors": 14
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "chunks": 3,
+      "n": 3,
+      "errors": 1
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "chunks": 5,
+      "n": 2,
+      "errors": 1
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "chunks": 6,
+      "n": 1,
+      "errors": 0
+    }
+  ]
+}

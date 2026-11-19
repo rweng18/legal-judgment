@@ -1,0 +1,17 @@
+{
+  "same_evaluation_cases_and_labels": true,
+  "majority_from_training_only": true,
+  "family_disjoint_folds": true,
+  "each_training_case_held_out_once": true,
+  "both_classes_in_each_fold": true,
+  "masked_only_selection": true,
+  "same_C_for_FULL_MASKED": true,
+  "metrics_recomputed_from_saved_predictions": true,
+  "input_hashes_unchanged": true,
+  "convergence_warnings": 0,
+  "reserved_test_evaluated": false,
+  "training_cases": 279,
+  "evaluation_cases": 42,
+  "conditions": 4,
+  "training_only_transform_basis": "Fresh sklearn Pipeline fitted only on each training subset; guarded by synthetic held-out-vocabulary test."
+}

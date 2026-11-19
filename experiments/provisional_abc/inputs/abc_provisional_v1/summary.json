@@ -1,0 +1,82 @@
+{
+  "candidate_cases": 506,
+  "development_cases": 321,
+  "class_counts": [
+    {
+      "batch": "A",
+      "split": "train",
+      "label_0": 59,
+      "label_1": 27,
+      "n": 86
+    },
+    {
+      "batch": "A",
+      "split": "validation",
+      "label_0": 8,
+      "label_1": 8,
+      "n": 16
+    },
+    {
+      "batch": "B",
+      "split": "train",
+      "label_0": 64,
+      "label_1": 33,
+      "n": 97
+    },
+    {
+      "batch": "B",
+      "split": "validation",
+      "label_0": 12,
+      "label_1": 3,
+      "n": 15
+    },
+    {
+      "batch": "C",
+      "split": "train",
+      "label_0": 58,
+      "label_1": 38,
+      "n": 96
+    },
+    {
+      "batch": "C",
+      "split": "validation",
+      "label_0": 5,
+      "label_1": 6,
+      "n": 11
+    },
+    {
+      "batch": "ALL",
+      "split": "train",
+      "label_0": 181,
+      "label_1": 98,
+      "n": 279
+    },
+    {
+      "batch": "ALL",
+      "split": "validation",
+      "label_0": 25,
+      "label_1": 17,
+      "n": 42
+    }
+  ],
+  "cross_batch_family_groups": 8,
+  "unresolved_companions_in_development": [
+    "NY-4665270",
+    "NY-4855957"
+  ],
+  "models_run": false,
+  "test_texts_exported": false,
+  "test_labels_exported": false,
+  "source_review_statuses": {
+    "A": [
+      "team_reviewed"
+    ],
+    "B": [
+      "pending_human_review"
+    ],
+    "C": [
+      "pending_human_review"
+    ]
+  },
+  "masking_policy": "Exact existing strings; A masker_v2 and B/C mask_v2_abbreviation_boundary_pre_review are different upstream pipelines."
+}
