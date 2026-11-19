@@ -1,0 +1,48 @@
+{
+  "reference_reproduction": {
+    "Majority": {
+      "predictions_and_selection_identical": true,
+      "max_decision_score_difference": 0
+    },
+    "TFIDF_LR": {
+      "predictions_and_selection_identical": true,
+      "max_decision_score_difference": 0.0
+    },
+    "TFIDF_SVM": {
+      "predictions_and_selection_identical": true,
+      "max_decision_score_difference": 0.0
+    }
+  },
+  "saved_training_folds_reused": true,
+  "family_disjoint_folds": true,
+  "same_evaluation_cases_and_labels": true,
+  "masked_only_selection": true,
+  "fixed_selected_C_across_variants": true,
+  "input_hashes_unchanged": true,
+  "metrics_recomputed_from_predictions": true,
+  "reserved_test_evaluated": false,
+  "convergence_warnings": 0,
+  "training_cases": 279,
+  "evaluation_cases": 42,
+  "conditions": 8,
+  "encoder_frozen": true,
+  "encoder_fine_tuned": false,
+  "checkpoint_files_sha256": {
+    "config.json": "716ea70c3c3e74bfe8496cc04cba7cd52f4ca45401e74042bb1058fe0390a1b6",
+    "vocab.txt": "3aaa02f2e3a397eee0f813caa567c87cddab1045a4a6b8ac6261f0cc799efb8f",
+    "pytorch_model.bin": "6b4f1da798ff101a66ad5cb11c6daa7f99cd41e7909277e01398576e8bd789bd"
+  },
+  "checkpoint_reference_sha256": "2d5cb1ae014f66adfc694e81305cff1e04454da1d4a3a5064ba8791b9871236f",
+  "tokenizer_class": "BertTokenizer",
+  "all_chunks_used": true,
+  "content_tokens_per_chunk": 510,
+  "cache_only_reload_identical": true,
+  "cache_entries_before": 217,
+  "cache_entries_after": 624,
+  "encoder_seconds": 91.38449129089713,
+  "supplied_B_C_length_counts_match": true,
+  "length_reference_sha256": {
+    "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/B_v2_exact_token_lengths/case_lengths.csv": "dad57e34476f169f86d156cc7c65f966234ad2c83c221ce5be49c15a2951e5f6",
+    "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/C_v2_exact_token_lengths/case_lengths.csv": "a6e9a6eeae21a9a53a9552defd16085f12507816305633cc0478920981d92a43"
+  }
+}

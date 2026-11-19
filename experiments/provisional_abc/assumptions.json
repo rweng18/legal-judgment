@@ -1,0 +1,28 @@
+{
+  "version": "abc_provisional_assumptions_v1",
+  "recorded_date": "2026-11-18",
+  "scope": "Prepare combined A-C data for provisional development experiments; do not run models yet.",
+  "A": {
+    "basis": "Existing team-reviewed MVP package",
+    "review_confirmation": "experiments/mvp_a/team_review_confirmation.json",
+    "promote_source_status": false
+  },
+  "B": {
+    "basis": "Prior explicit user assumption for Batch B",
+    "user_instruction": "Proceed, assuming the labels have been reviewed",
+    "label_policy": "Use the supplied draft_label_if_unanimous_include field for prepared development cases.",
+    "source_status": "pending_human_review",
+    "promote_source_status": false
+  },
+  "C": {
+    "basis": "Explicit user authorization for a provisional run",
+    "user_instruction": "Record an explicit provisional-run assumption for batch C and combine all three datasets for A-C",
+    "label_policy": "Use a binary label only when all three saved reviewers agree for a case in the prepared C development package; stop on disagreement or missing evidence.",
+    "source_status": "pending_human_review; reviewer submissions remain llm_draft",
+    "human_review_inferred": false,
+    "promote_source_status": false
+  },
+  "family_policy": "Union existing global and per-batch family links across all 506 candidate IDs; conservatively group identical source/FULL texts; reject development families crossing chronological periods or carrying calibration exposure outside training. Preserve unresolved companion warnings and provisional family status.",
+  "text_policy": "Reuse exact upstream FULL/MASKED strings; preserve batch-specific preprocessing versions. No new masks or corrections from development errors.",
+  "test_policy": "Candidate metadata only for 2023-2024; no test texts or labels in the combined development release."
+}

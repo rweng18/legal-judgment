@@ -1,0 +1,1560 @@
+{
+  "source_text_path": "experiments/provisional_abc/inputs/abc_provisional_v1/development.jsonl",
+  "offset_convention": "Zero-based Python Unicode character offsets in exact variant string; end exclusive.",
+  "cases": [
+    {
+      "case_id": "NY-4929051",
+      "batch": "A",
+      "saved_label": 1,
+      "selection_reason": "Long five-chunk error; procedural history and removed opening reversals",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 56,
+      "text_sha256": {
+        "FULL": "5fbc6b19e8c11d23ed09375d9d9259adbe479604b94f6f3796c5b1bd436821fa",
+        "MASKED": "ea226d0fe5def33144c8736c603626b37f9c52dce31a92ea7bb829c0d199c1dc"
+      },
+      "lengths": {
+        "case_id": "NY-4929051",
+        "batch": "A",
+        "period": "validation",
+        "FULL_words": "1796",
+        "FULL_tokens": "2320",
+        "FULL_chunks": "5",
+        "FULL_final_chunk": "280",
+        "FULL_over_one_input": "True",
+        "MASKED_words": "1671",
+        "MASKED_tokens": "2147",
+        "MASKED_chunks": "5",
+        "MASKED_final_chunk": "107",
+        "MASKED_over_one_input": "True",
+        "words_removed": "125",
+        "words_removed_pct": "6.959910913140312",
+        "tokens_removed": "173",
+        "tokens_removed_pct": "7.456896551724138",
+        "chunks_removed": "0",
+        "chunks_removed_pct": "0.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.33619288751768295"
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.8186294729366831"
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.2029097381298407"
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.5202441749717519"
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "1.156403880697477"
+        },
+        {
+          "case_id": "NY-4929051",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-4929051",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-2.8492771322812867"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "On the merits, we find that Findlay failed to make a prima facie showing entitling it to summary judgment",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 9313,
+              "end": 9418
+            },
+            {
+              "variant": "MASKED",
+              "start": 8517,
+              "end": 8622
+            }
+          ]
+        },
+        {
+          "quote": "By order entered July 16, 2020, the court granted, on default, Findlay's unopposed motion.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 7350,
+              "end": 7440
+            },
+            {
+              "variant": "MASKED",
+              "start": 6554,
+              "end": 6644
+            }
+          ]
+        },
+        {
+          "quote": "Motion for an enlargement of time to file and serve plaintiff's reply brief and to strike portions of defendant's brief as dehors the record, denied.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 10511,
+              "end": 10660
+            },
+            {
+              "variant": "MASKED",
+              "start": 9715,
+              "end": 9864
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "experiments/mvp_a/outputs/masking_log.jsonl",
+      "masking_log_line": 56,
+      "masking_removals": [
+        {
+          "start": 0,
+          "end": 507,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, Supreme Court, Bronx County (Fernando Tapia, J.), entered December 18, 2019, which , to the extent appealed from ( see CPLR 5701 [c]), denied the parties' third stipulated request for an adjournment of the return date on defendant Findlay Teller Housing Development Fund's (Findlay) motion for summary judgment and sua sponte directed that the motion be marked as fully submitted and unopposed, unanimously reversed, on the facts and in the interest of justice, without costs, and the motion granted.",
+          "removed_words": 80
+        },
+        {
+          "start": 508,
+          "end": 795,
+          "reason": "disposition_synopsis",
+          "removed_text": "Order, same court and Justice, entered July 16, 2020, which, to the extent appealed from as limited by the briefs, granted, upon default, Findlay's motion for summary judgment dismissing the complaint as against it, unanimously reversed, on the law, without costs, and the motion denied.",
+          "removed_words": 45
+        }
+      ]
+    },
+    {
+      "case_id": "NY-5304378",
+      "batch": "A",
+      "saved_label": 1,
+      "selection_reason": "All learned models change from correct reversal to incorrect affirmance; default and vacatur",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 58,
+      "text_sha256": {
+        "FULL": "360010c8b42b0b287a229fd006d2c7ddc4eb8da1c3c9077e89570d3fb3ff54c4",
+        "MASKED": "a73c65c4ff0770ab31b31668340d1b019c04ead8a9765abf8799c521b41c0307"
+      },
+      "lengths": {
+        "case_id": "NY-5304378",
+        "batch": "A",
+        "period": "validation",
+        "FULL_words": "907",
+        "FULL_tokens": "1187",
+        "FULL_chunks": "3",
+        "FULL_final_chunk": "167",
+        "FULL_over_one_input": "True",
+        "MASKED_words": "746",
+        "MASKED_tokens": "965",
+        "MASKED_chunks": "2",
+        "MASKED_final_chunk": "455",
+        "MASKED_over_one_input": "True",
+        "words_removed": "161",
+        "words_removed_pct": "17.750826901874312",
+        "tokens_removed": "222",
+        "tokens_removed_pct": "18.702611625947767",
+        "chunks_removed": "1",
+        "chunks_removed_pct": "33.333333333333336"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.6175368632140743"
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.20722472927899527"
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.21560971764585635"
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.2797640509407516"
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "3.4100831208714197"
+        },
+        {
+          "case_id": "NY-5304378",
+          "batch": "A",
+          "family_id": "ABC-FAM-NY-5304378",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-1.8699186386027826"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "the Supreme Court improvidently exercised its discretion in not accepting the plaintiff's excuse of law office failure",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 3476,
+              "end": 3594
+            },
+            {
+              "variant": "MASKED",
+              "start": 3002,
+              "end": 3120
+            }
+          ]
+        },
+        {
+          "quote": "Moreover, the plaintiff demonstrated that he had a potentially meritorious opposition to the defendant's motion for summary judgment.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 3703,
+              "end": 3836
+            },
+            {
+              "variant": "MASKED",
+              "start": 3229,
+              "end": 3362
+            }
+          ]
+        },
+        {
+          "quote": "In an order entered March 8, 2018, the Supreme Court denied the plaintiff's motion.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 2056,
+              "end": 2139
+            },
+            {
+              "variant": "MASKED",
+              "start": 1582,
+              "end": 1665
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "experiments/mvp_a/outputs/masking_log.jsonl",
+      "masking_log_line": 58,
+      "masking_removals": [
+        {
+          "start": 501,
+          "end": 974,
+          "reason": "disposition_block",
+          "removed_text": "Ordered that the order entered March 8, 2018, is reversed, on the law, on the facts, and in the exercise of discretion, with costs, the plaintiff's motion, in effect, pursuant to CPLR 5015 (a) to vacate the order entered February 2, 2017, and thereupon to deny the defendant's motion for summary judgment dismissing the complaint is granted, the order entered February 2, 2017, is vacated, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "removed_words": 77
+        },
+        {
+          "start": 3837,
+          "end": 4123,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the court should have granted that branch of the plaintiff's motion which was to vacate the order entered February 2, 2017, and thereupon considered the merits of the plaintiff's opposition to the defendant's motion ( see Paul v Weatherwax , 146 AD3d 792 , 793-794 [2017]).",
+          "removed_words": 47
+        },
+        {
+          "start": 5226,
+          "end": 5474,
+          "reason": "reviewed_ruling_result",
+          "removed_text": "Accordingly, the Supreme Court should have granted the plaintiff's motion, in effect, pursuant to CPLR 5015 (a) to vacate the order entered February 2, 2017, and thereupon denied the defendant's motion for summary judgment dismissing the complaint.",
+          "removed_words": 37
+        }
+      ]
+    },
+    {
+      "case_id": "NY-8511862",
+      "batch": "B",
+      "saved_label": 0,
+      "selection_reason": "Short one-chunk error shared by all learned models; sparse facts and nested negation",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 210,
+      "text_sha256": {
+        "FULL": "dcc23bf431deaa80f98fef9d59707306edbda8450baae8f5c3e38d28452f46ca",
+        "MASKED": "13f8d49f387b8f8121b93be8541e8e16226bb4404c0c48baa769f0e67f8fbef9"
+      },
+      "lengths": {
+        "case_id": "NY-8511862",
+        "batch": "B",
+        "period": "validation",
+        "FULL_words": "359",
+        "FULL_tokens": "486",
+        "FULL_chunks": "1",
+        "FULL_final_chunk": "486",
+        "FULL_over_one_input": "False",
+        "MASKED_words": "336",
+        "MASKED_tokens": "457",
+        "MASKED_chunks": "1",
+        "MASKED_final_chunk": "457",
+        "MASKED_over_one_input": "False",
+        "words_removed": "23",
+        "words_removed_pct": "6.406685236768802",
+        "tokens_removed": "29",
+        "tokens_removed_pct": "5.967078189300412",
+        "chunks_removed": "0",
+        "chunks_removed_pct": "0.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.8707544481704281"
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "1.5674343422311436"
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.28729714977400744"
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.7733306491956851"
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.33321140483861866"
+        },
+        {
+          "case_id": "NY-8511862",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-8511862",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "2.357049052222186"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "The plaintiff allegedly was injured when she tripped and fell inside premises owned by the defendant.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 308,
+              "end": 409
+            },
+            {
+              "variant": "MASKED",
+              "start": 260,
+              "end": 361
+            }
+          ]
+        },
+        {
+          "quote": "[A] plaintiff's inability to identify the cause of the fall is fatal to the cause of action",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 1101,
+              "end": 1192
+            },
+            {
+              "variant": "MASKED",
+              "start": 1053,
+              "end": 1144
+            }
+          ]
+        },
+        {
+          "quote": "the defendant failed to establish, prima facie, that the plaintiff did not know what caused her to fall",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 1569,
+              "end": 1672
+            },
+            {
+              "variant": "MASKED",
+              "start": 1521,
+              "end": 1624
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/masking_removal_logs_v2.jsonl",
+      "masking_log_line": 108,
+      "masking_removals": [
+        {
+          "sentence_index": 3,
+          "reason": "operative_order",
+          "sentence": "Ordered that the order is affirmed, with costs.",
+          "words": 8
+        },
+        {
+          "sentence_index": 16,
+          "reason": "express_review_of_appealed_ruling",
+          "sentence": "Accordingly, the Supreme Court properly denied the defendant's motion for summary judgment dismissing the complaint.",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "case_id": "NY-6459053",
+      "batch": "B",
+      "saved_label": 0,
+      "selection_reason": "Procedural-history contrast; SVM/encoder disagreements and short factual narrative",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 207,
+      "text_sha256": {
+        "FULL": "1e84adf97ac9a3591589a77e010ca6672b3e1317590eee66ce607a6159c58fdb",
+        "MASKED": "0c95e41cfc8c9f1bdde84dd83336d506f80f8b5667b66181629cdacdab745c87"
+      },
+      "lengths": {
+        "case_id": "NY-6459053",
+        "batch": "B",
+        "period": "validation",
+        "FULL_words": "423",
+        "FULL_tokens": "580",
+        "FULL_chunks": "2",
+        "FULL_final_chunk": "70",
+        "FULL_over_one_input": "True",
+        "MASKED_words": "382",
+        "MASKED_tokens": "528",
+        "MASKED_chunks": "2",
+        "MASKED_final_chunk": "18",
+        "MASKED_over_one_input": "True",
+        "words_removed": "41",
+        "words_removed_pct": "9.692671394799055",
+        "tokens_removed": "52",
+        "tokens_removed_pct": "8.96551724137931",
+        "chunks_removed": "0",
+        "chunks_removed_pct": "0.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.17655272696812307"
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.7129899580487769"
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.18894606212266196"
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.17441907791607825"
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.704521355401709"
+        },
+        {
+          "case_id": "NY-6459053",
+          "batch": "B",
+          "family_id": "ABC-FAM-NY-6459053",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.6501086669746021"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "The Supreme Court denied the motion.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 581,
+              "end": 617
+            },
+            {
+              "variant": "MASKED",
+              "start": 533,
+              "end": 569
+            }
+          ]
+        },
+        {
+          "quote": "In light of the conflicting evidence submitted by the defendant in support of its motion, the defendant failed to meet its initial burden as the movant.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 2042,
+              "end": 2194
+            },
+            {
+              "variant": "MASKED",
+              "start": 1994,
+              "end": 2146
+            }
+          ]
+        },
+        {
+          "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 2419,
+              "end": 2449
+            },
+            {
+              "variant": "MASKED",
+              "start": 2147,
+              "end": 2177
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/masking_removal_logs_v2.jsonl",
+      "masking_log_line": 105,
+      "masking_removals": [
+        {
+          "sentence_index": 3,
+          "reason": "operative_order",
+          "sentence": "Ordered that the order is affirmed, with costs.",
+          "words": 8
+        },
+        {
+          "sentence_index": 13,
+          "reason": "express_review_of_appealed_ruling",
+          "sentence": "Accordingly, the Supreme Court properly denied the defendant's motion for summary judgment dismissing the complaint without regard to the sufficiency of the plaintiff's opposition papers ( see Winegrad v New York Univ. Med.",
+          "words": 33
+        }
+      ]
+    },
+    {
+      "case_id": "NY-5957906",
+      "batch": "C",
+      "saved_label": 1,
+      "selection_reason": "All learned models lose correct reversal; procedural success versus merits outcome",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 289,
+      "text_sha256": {
+        "FULL": "4ca45830e184d3135a75b9778146cd31eb90b9ba52fcc5fc11d5a3784811d3a9",
+        "MASKED": "e42e785e6695e1b7fcef222611696f314f831f5f542e747534c9dd4cea61738c"
+      },
+      "lengths": {
+        "case_id": "NY-5957906",
+        "batch": "C",
+        "period": "validation",
+        "FULL_words": "443",
+        "FULL_tokens": "585",
+        "FULL_chunks": "2",
+        "FULL_final_chunk": "75",
+        "FULL_over_one_input": "True",
+        "MASKED_words": "361",
+        "MASKED_tokens": "475",
+        "MASKED_chunks": "1",
+        "MASKED_final_chunk": "475",
+        "MASKED_over_one_input": "False",
+        "words_removed": "82",
+        "words_removed_pct": "18.510158013544018",
+        "tokens_removed": "110",
+        "tokens_removed_pct": "18.803418803418804",
+        "chunks_removed": "1",
+        "chunks_removed_pct": "50.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "1.1703924141123063"
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.10696047857430546"
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.5131383864836595"
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-0.14506383819299334"
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "1.576106348006544"
+        },
+        {
+          "case_id": "NY-5957906",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-5957906",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": "-1.6958282889143832"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "providently exercised its discretion in entertaining the late motion",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 1213,
+              "end": 1281
+            },
+            {
+              "variant": "MASKED",
+              "start": 1069,
+              "end": 1137
+            }
+          ]
+        },
+        {
+          "quote": "In an order entered July 18, 2019, the Supreme Court granted the defendant's motion.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 948,
+              "end": 1032
+            },
+            {
+              "variant": "MASKED",
+              "start": 804,
+              "end": 888
+            }
+          ]
+        },
+        {
+          "quote": "Since the defendant failed to demonstrate its prima facie entitlement to judgment as a matter of law",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 2280,
+              "end": 2380
+            },
+            {
+              "variant": "MASKED",
+              "start": 1889,
+              "end": 1989
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/masking_removal_logs_v2.jsonl",
+      "masking_log_line": 75,
+      "masking_removals": [
+        {
+          "sentence_index": 3,
+          "reason": "operative_order",
+          "sentence": "Ordered that the order is reversed, on the law, with costs, and the defendant's motion for summary judgment dismissing the complaint is denied.",
+          "words": 23
+        },
+        {
+          "sentence_index": 11,
+          "reason": "express_review_of_appealed_ruling",
+          "sentence": "However, the Supreme Court should have denied the defendant's motion, as the defendant failed to establish, prima facie, its entitlement to judgment as a matter of law ( see Kearse v 40 Wall St. Holdings Corp. , 185 AD3d 1015 , 1016-1017 [2020]).",
+          "words": 43
+        },
+        {
+          "sentence_index": 17,
+          "reason": "express_review_of_appealed_ruling",
+          "sentence": "Accordingly, the Supreme Court should have denied the defendant's motion for summary judgment dismissing the complaint.",
+          "words": 16
+        }
+      ]
+    },
+    {
+      "case_id": "NY-9301972",
+      "batch": "C",
+      "saved_label": 0,
+      "selection_reason": "Direct disposition survives; identical texts/vectors but different encoder classifier predictions",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 321,
+      "text_sha256": {
+        "FULL": "dca651bbbb9374fcb91f99cfec679972d1a28f49c74d1795152ac1f383823ab2",
+        "MASKED": "dca651bbbb9374fcb91f99cfec679972d1a28f49c74d1795152ac1f383823ab2"
+      },
+      "lengths": {
+        "case_id": "NY-9301972",
+        "batch": "C",
+        "period": "validation",
+        "FULL_words": "269",
+        "FULL_tokens": "367",
+        "FULL_chunks": "1",
+        "FULL_final_chunk": "367",
+        "FULL_over_one_input": "False",
+        "MASKED_words": "269",
+        "MASKED_tokens": "367",
+        "MASKED_chunks": "1",
+        "MASKED_final_chunk": "367",
+        "MASKED_over_one_input": "False",
+        "words_removed": "0",
+        "words_removed_pct": "0.0",
+        "tokens_removed": "0",
+        "tokens_removed_pct": "0.0",
+        "chunks_removed": "0",
+        "chunks_removed_pct": "0.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-1.8342377013548388"
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-1.4617771478067065"
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.8605913958104111"
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.7177636245753268"
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.4117336828250424"
+        },
+        {
+          "case_id": "NY-9301972",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-9301972",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "1.3276256487076405"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "unanimously affirmed, without costs.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 182,
+              "end": 218
+            },
+            {
+              "variant": "MASKED",
+              "start": 182,
+              "end": 218
+            }
+          ]
+        },
+        {
+          "quote": "In opposition, plaintiff failed to raise a triable issue of fact.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 1031,
+              "end": 1096
+            },
+            {
+              "variant": "MASKED",
+              "start": 1031,
+              "end": 1096
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": true,
+      "FULL_MASKED_encoder_vectors_identical": true,
+      "masking_log_path": "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/masking_removal_logs_v2.jsonl",
+      "masking_log_line": 107,
+      "masking_removals": []
+    },
+    {
+      "case_id": "NY-4894160",
+      "batch": "C",
+      "saved_label": 0,
+      "selection_reason": "Both lexical models lose correct affirmance; contractor-duty reasoning and negation",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 276,
+      "text_sha256": {
+        "FULL": "0b92aa408d378e8506b350293fb95d7788b14d0d205ec912eb101059e3eca374",
+        "MASKED": "1a8026fdab29c30061a4adc43be128eb430c2fb25d82eb1fdee941acea50f574"
+      },
+      "lengths": {
+        "case_id": "NY-4894160",
+        "batch": "C",
+        "period": "validation",
+        "FULL_words": "526",
+        "FULL_tokens": "708",
+        "FULL_chunks": "2",
+        "FULL_final_chunk": "198",
+        "FULL_over_one_input": "True",
+        "MASKED_words": "467",
+        "MASKED_tokens": "637",
+        "MASKED_chunks": "2",
+        "MASKED_final_chunk": "127",
+        "MASKED_over_one_input": "True",
+        "words_removed": "59",
+        "words_removed_pct": "11.216730038022813",
+        "tokens_removed": "71",
+        "tokens_removed_pct": "10.028248587570621",
+        "chunks_removed": "0",
+        "chunks_removed_pct": "0.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.3330511545797339"
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.3228099618513671"
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.15390435641491762"
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "0",
+          "prediction": "1",
+          "decision_score": "0.21501697999430236"
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-2.4809241784545444"
+        },
+        {
+          "case_id": "NY-4894160",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-4894160",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "0",
+          "prediction": "0",
+          "decision_score": "-0.5287690398949889"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "it failed to affirmatively demonstrate, prima facie, that its daytime porters did not launch a force or instrument of harm",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 2600,
+              "end": 2722
+            },
+            {
+              "variant": "MASKED",
+              "start": 2467,
+              "end": 2589
+            }
+          ]
+        },
+        {
+          "quote": "The Supreme Court denied All Jersey's motion, concluding, among other things, that there were triable issues of fact as to whether All Jersey created the dangerous condition.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 1291,
+              "end": 1465
+            },
+            {
+              "variant": "MASKED",
+              "start": 1218,
+              "end": 1392
+            }
+          ]
+        },
+        {
+          "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 3211,
+              "end": 3241
+            },
+            {
+              "variant": "MASKED",
+              "start": 2839,
+              "end": 2869
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/masking_removal_logs_v2.jsonl",
+      "masking_log_line": 62,
+      "masking_removals": [
+        {
+          "sentence_index": 3,
+          "reason": "operative_order",
+          "sentence": "Ordered that the order is affirmed insofar as appealed from, with costs.",
+          "words": 12
+        },
+        {
+          "sentence_index": 10,
+          "reason": "we_current_disposition",
+          "sentence": "All Jersey appeals, and we affirm insofar as appealed from.",
+          "words": 10
+        },
+        {
+          "sentence_index": 16,
+          "reason": "express_review_of_appealed_ruling",
+          "sentence": "Accordingly, the Supreme Court properly denied All Jersey's motion for summary judgment dismissing the complaint insofar as asserted against it, without regard to the sufficiency of the opposing papers ( see Winegrad v New York Univ. Med.",
+          "words": 37
+        }
+      ]
+    },
+    {
+      "case_id": "NY-6476214",
+      "batch": "C",
+      "saved_label": 1,
+      "selection_reason": "Long five-chunk correct learned-model control with residual appellate conclusion",
+      "review_scope": "Both complete variants and removal log read; qualitative post-hoc review, no relabeling or causal feature attribution.",
+      "source_jsonl_line": 318,
+      "text_sha256": {
+        "FULL": "672d52442872ff2e7a90c197eb7af58c928683dbb97d772931c57ccc78d59bdc",
+        "MASKED": "e97267f4539372aaed5d83c395156608792f6a1501008f96aa011f2c57e95a72"
+      },
+      "lengths": {
+        "case_id": "NY-6476214",
+        "batch": "C",
+        "period": "validation",
+        "FULL_words": "1870",
+        "FULL_tokens": "2499",
+        "FULL_chunks": "5",
+        "FULL_final_chunk": "459",
+        "FULL_over_one_input": "True",
+        "MASKED_words": "1840",
+        "MASKED_tokens": "2461",
+        "MASKED_chunks": "5",
+        "MASKED_final_chunk": "421",
+        "MASKED_over_one_input": "True",
+        "words_removed": "30",
+        "words_removed_pct": "1.6042780748663101",
+        "tokens_removed": "38",
+        "tokens_removed_pct": "1.520608243297319",
+        "chunks_removed": "0",
+        "chunks_removed_pct": "0.0"
+      },
+      "saved_predictions": [
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "FULL",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "Majority",
+          "variant": "MASKED",
+          "C": "",
+          "label": "1",
+          "prediction": "0",
+          "decision_score": ""
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.62160858947172"
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "TFIDF_LR",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.6613900065753764"
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "FULL",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.23957062110481087"
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "TFIDF_SVM",
+          "variant": "MASKED",
+          "C": "10.0",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.25287544291779707"
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "FULL",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "1.209767690931603"
+        },
+        {
+          "case_id": "NY-6476214",
+          "batch": "C",
+          "family_id": "ABC-FAM-NY-6476214",
+          "period": "validation",
+          "model": "LEGAL_BERT_LR",
+          "variant": "MASKED",
+          "C": "0.1",
+          "label": "1",
+          "prediction": "1",
+          "decision_score": "0.8863718549962976"
+        }
+      ],
+      "evidence": [
+        {
+          "quote": "In light of these unresolved issues, defendants were not entitled to summary judgment dismissing the complaint and their motion should have been denied.",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 10653,
+              "end": 10805
+            },
+            {
+              "variant": "MASKED",
+              "start": 10541,
+              "end": 10693
+            }
+          ]
+        },
+        {
+          "quote": "Despite Supreme Court's suggestion to the contrary, plaintiff was not required to state for certain which particular crack caused him to fall in order to withstand summary judgment",
+          "locations": [
+            {
+              "variant": "FULL",
+              "start": 3957,
+              "end": 4137
+            },
+            {
+              "variant": "MASKED",
+              "start": 3922,
+              "end": 4102
+            }
+          ]
+        }
+      ],
+      "FULL_MASKED_text_identical": false,
+      "FULL_MASKED_encoder_vectors_identical": false,
+      "masking_log_path": "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/masking_removal_logs_v2.jsonl",
+      "masking_log_line": 104,
+      "masking_removals": [
+        {
+          "sentence_index": 4,
+          "reason": "we_current_disposition",
+          "sentence": "Plaintiff appeals, and we reverse.",
+          "words": 5
+        },
+        {
+          "sentence_index": 19,
+          "reason": "express_review_of_appealed_ruling",
+          "sentence": "Accordingly, Supreme Court erred in granting summary judgment on this issue.",
+          "words": 11
+        },
+        {
+          "sentence_index": 40,
+          "reason": "operative_order",
+          "sentence": "Ordered that the order is reversed, on the law, with costs, and motion denied.",
+          "words": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "release": {
+    "status": "provisional_user_authorized",
+    "dataset_version": "abc_provisional_v1",
+    "split_version": "2010-2020_train__2021-2022_validation__2023-2024_reserved",
+    "mask_version": "upstream_by_batch_no_reprocessing",
+    "models_run": false,
+    "class_order": [
+      0,
+      1
+    ],
+    "class_names": [
+      "affirmed",
+      "reversed/vacated"
+    ],
+    "source_sha256": {
+      "experiments/provisional_abc/assumptions.json": "d8c869b824bffa730aca91bc31cdfbd834a45b8f334cfe2524dc1700ef34eab0",
+      "experiments/mvp_a/team_review_confirmation.json": "d95b07cdf840c7c06e25489f19ec95edf571e46634644c8471d3c0f7c0767c57",
+      "experiments/mvp_a/outputs/data_provenance.json": "4ec329316a377fa318a358a7fdb2602f1166a41782f4478fa4ab1c47bb167c68",
+      "annotation/submissions/becca/MVP/data/family_v1/case_family_manifest.jsonl": "6ef6dadcdcfc27bd63d32430acfade2bc345f95d1be4b3d8124652a35986d103",
+      "annotation/batches/A/manifest.json": "3a7001f03fac18feeda4a29754bb394e9380bfadbfb9b90428821bc0887b6d01",
+      "annotation/batches/B/manifest.json": "03349ad914fd1e858c8c9d01e80e01a1f2a2af3b5af59f54fb5c623c08027000",
+      "annotation/batches/C/manifest.json": "0dc5f65259c48c6a9f2d5ab4422ad466683a94cfa6c8fc0a27dab3fbffabb52b",
+      "annotation/calibration/manifest.json": "667de66e191cf1738f981f805dbc6e3cbd9979599c4eb75bf5adb3fc7f3d65ad",
+      "annotation/source/family_hints.json": "7890ec3b2434d6cc4d23891c7f80a6ef672a29a4340e31c69259071233ed8c69",
+      "experiments/mvp_a/outputs/case_manifest.jsonl": "b46455ea94d6a04d923cc103b13f8cb43495f16dd1393d326978cc81d694fa15",
+      "experiments/mvp_a/outputs/development_cases.jsonl": "b33238d8ece259aca5a1319404c1f8b46c99e8b246ad0054235ef068e07664f2",
+      "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/inputs/B_three_reviewer_audit_169.csv": "73c623eca3b67fae4c2662db8ba8a6a33581b2c8f82864c1d9f633252d5dd8f5",
+      "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/case_family_manifest_B_169_PROVISIONAL.csv": "db690bb913e1845346aeb5b20fa4035d56aba6bd74076b1d6707b974e8ee1a61",
+      "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/B_development_v2_PROVISIONAL.jsonl": "94e81d81d9e59a80d62df19d55862ff03b8539c26bb4eae3371c30340bb6cd21",
+      "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/masking_removal_logs_v2.jsonl": "68ee8603ed5beb7710ba9ef07cfc232195e2bca9fc44ef771fa85b835a88fb36",
+      "annotation/submissions/hyunsang/preprocessing/batch_b/provisional_v1/SUBMISSION_README.md": "50215abd3a35d7dca8f4c1af33673f5dd227bf9f640c4c23d3dd1606871be5ed",
+      "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/C_three_reviewer_audit_168.csv": "14b2abda62238e9f136ff44d43c44faa6fb851d1b54cfcbabae62e192671144e",
+      "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/case_family_manifest_C_168_PROVISIONAL.csv": "94000207c8410e6761920c207c91fcdae9ead5b268b29bfabe9250c4ab9aad06",
+      "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/C_development_v2_PROVISIONAL.jsonl": "1103eef76df16d1888091b960be6ea2a9a87c2b0155519e57a8fb7f31f37333c",
+      "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/masking_removal_logs_v2.jsonl": "98f5c994be608a6c7c24b6f57973c34a8b62fbc56c2184f17e3e462b9ce01b01",
+      "annotation/submissions/hyunsang/preprocessing/batch_c/provisional_v1/SUBMISSION_README.md": "e961f60d7157701818947bf006de3ef37de22153c9a8b6f40c8593f60577fc48",
+      "annotation/submissions/becca/batches/C/annotations.jsonl": "77603c89a75f2d79cd2572e2e4976880d877a1d9d6ad7a99145d0e96b1c26800",
+      "annotation/submissions/hyunsang/batches/C/annotations.jsonl": "a7152bf37275d905290fc6e159645f957c5366258a60ccb9d52595e9e28c029a"
+    },
+    "yinkui_C_git_source": {
+      "commit": "87f7771b01cb8fcd75860e240c0b075a09bb3f61",
+      "path": "annotation/submissions/yinkui/batches/C/annotations.jsonl",
+      "sha256": "0504d50fefb88415a3b25553f38a04bfda9cf8a37a191f47af1277ecc220497b"
+    },
+    "git_commit": "0d34c3a653d791dc11b6a1eb09d36cb92fbe8b1b",
+    "preparation_code_sha256": "f97b1b7fc371b9fa7b3b7f2044b44a998461c158d7afe4ffbc35287e1c69ee67",
+    "sha256": {
+      "C_label_provenance.jsonl": "b5bd7b8ccf2b6c1c7f1f6314bf5ef31a3cb32e2c98d2ea6db4ecdc5747acfa2e",
+      "assumptions.json": "d8c869b824bffa730aca91bc31cdfbd834a45b8f334cfe2524dc1700ef34eab0",
+      "class_counts.csv": "c3c67599c43dc34fb6383e19a7db0178ebd1ad4d8af035d342998a511c51a67d",
+      "development.jsonl": "ad8f9712e661ba2e9b18b903ddc29ad22345a95fd6b6b3f01bb9b1ab59259e94",
+      "family_audit.json": "613f00d26fd8beec8a025fccb760bc238da0e60f60c4b71f6b318a5d27a56b78",
+      "manifest.jsonl": "7b7c564f53f4ae311a398ff20e09bb10000dd706570221c4708450354ab8827a",
+      "summary.json": "b91429164b45e70de734ba713f4f658f65b995794e6f19de58579b08ff6cf9a4"
+    },
+    "limitations": [
+      "B/C labels authorized provisionally, not human gold.",
+      "A-C families need joint confirmation; unresolved companions retained.",
+      "Batch-specific masking and prior development exposure limit interpretation."
+    ]
+  },
+  "evaluation": "2021–2022 development",
+  "class_order": [
+    0,
+    1
+  ],
+  "class_names": [
+    "affirmed",
+    "reversed/vacated"
+  ],
+  "seed": 20261023,
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "MASKED only; mean fold balanced accuracy, mean macro F1, smaller C",
+  "cv_folds": 3,
+  "fold_method": "seeded family allocation balancing both classes",
+  "training_class_counts": {
+    "0": 181,
+    "1": 98
+  },
+  "encoder_settings": {
+    "encoder": "nlpaueb/legal-bert-base-uncased",
+    "revision": "15b570cbf88259610b082a167dacc190124f60f6",
+    "tokenizer": "BertTokenizer",
+    "use_fast": false,
+    "content_tokens": 510,
+    "overlap": 0,
+    "padding_side": "right",
+    "batch_size_chunks": 4,
+    "hidden_size": 768,
+    "threads": 4,
+    "pooling": "last hidden layer; sum content-token vectors over all nonoverlapping chunks and divide by total content tokens; exclude special tokens and padding",
+    "protocol_version": 1
+  },
+  "models": {
+    "Majority": {
+      "classifier": "DummyClassifier",
+      "strategy": "most_frequent",
+      "tie_label": 0
+    },
+    "TFIDF_LR": {
+      "tfidfvectorizer": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "float64",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 1.0,
+        "max_features": 30000,
+        "min_df": 2,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": null,
+        "sublinear_tf": false,
+        "token_pattern": "(?u)\\b\\w\\w+\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      },
+      "logisticregression": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 10000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 20261023,
+        "solver": "liblinear",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "TFIDF_SVM": {
+      "tfidfvectorizer": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "float64",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 1.0,
+        "max_features": 30000,
+        "min_df": 2,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": null,
+        "sublinear_tf": false,
+        "token_pattern": "(?u)\\b\\w\\w+\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      },
+      "linearsvc": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "dual": "auto",
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "loss": "squared_hinge",
+        "max_iter": 20000,
+        "multi_class": "ovr",
+        "penalty": "l2",
+        "random_state": 20261023,
+        "tol": 0.0001,
+        "verbose": 0
+      }
+    }
+  },
+  "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-15.7.9-arm64-arm-64bit",
+  "software": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "torch": "2.9.1",
+    "transformers": "4.57.1",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.36.2",
+    "pandas": "2.3.3",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "6.30.1"
+  },
+  "git_commit": "0d34c3a653d791dc11b6a1eb09d36cb92fbe8b1b",
+  "code_sha256": {
+    "data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72",
+    "download_encoder.py": "fcf556ba0abf4b75d79a96a773fb37ff94e72bc5808db4f02ced24ca725fd62e",
+    "encoder.py": "9adf593c12b660b26d72e88aad8884d6edc7bd1e6fa23824aa5f9b44dd2056fd",
+    "experiment.py": "4ff7c7638cec6f6f0a6321107d44336c96481f9bbc8b71758ecff1d3df57320b",
+    "lengths.py": "087a9db1b9d635e8abe057cc6286f0a2b8f8bae310e60db8582bd314a17bf9b1",
+    "modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "reporting.py": "f25907b801f3fd30f3bda8dde54a77dff416639c90268bbfbdd2c11a3638dee1",
+    "results_notebook.py": "136d5b59b1e31de82ccff2285ef1ef8adea6b0f8fb23a7ecf8d59e644cbc3ca2",
+    "run_bert.py": "e5e83560104bd270bfa5e573b165ef6d726b49b8cbe38c69a82461ba29d7ad93",
+    "run_logistic.py": "6138628e7bacd6db71c46fcecc5a6fffaa523c150b344c28ac1eb51fc86c90b6",
+    "run_majority.py": "6d432e9ef865a8e2cf16271d961039cc67bb6551090b19ca3d70bc87a5b44777",
+    "run_svm.py": "6780eb130250e958a070e992d469549edc426fb4670a32420f03bac13a713917",
+    "test_protocol.py": "9bb6cefed39126864eef0b50355ddd0777ab958eacbcad736a35f74a91feaf3b",
+    "encoder_settings.json": "99d6bdf07ecc83cfd19dcace9ed0eb206f7dbaf72c5b08d4cad95bb718d44786",
+    "requirements.txt": "df299993b3f62c85696fbd59cf987bb21ccd9eef049f10ca5f607927b82638f8",
+    "provisional_b.ipynb": "d222ad15753324d2ab9a8dda181c6e6fdec3eebeb2a85e6c339b51ccadd6702b"
+  },
+  "scope": "A-C lexical comparison",
+  "prepared_release_sha256": "9f688f7cafb32e5db9e074ec8ef0d036c40d3e51b10bffe7cb78995167bffcf4",
+  "reference_run": "experiments/provisional_abc/runs/abc_logistic_provisional_v1",
+  "reference_run_sha256": {
+    "run.json": "05ad36ebd51da5e5a589521cab3df6c2c64448b2b9ca9cd45d675a3a6d6b263f",
+    "splits.csv": "6015050cbaf8b26c21c3d60ab58eaaf396f0ed8901b96b25337669f7b745b115",
+    "selection.json": "b38117d4cb85145878365dc2a07e134ccf69b2c0a31e3525a7e66116cc0e244f",
+    "predictions.csv": "0bdc30adfcb121145dd4ed0b970dbce4547396490f03b7c2804aeb68c41427bc"
+  },
+  "assumptions": {
+    "version": "abc_provisional_assumptions_v1",
+    "recorded_date": "2026-11-18",
+    "scope": "Prepare combined A-C data for provisional development experiments; do not run models yet.",
+    "A": {
+      "basis": "Existing team-reviewed MVP package",
+      "review_confirmation": "experiments/mvp_a/team_review_confirmation.json",
+      "promote_source_status": false
+    },
+    "B": {
+      "basis": "Prior explicit user assumption for Batch B",
+      "user_instruction": "Proceed, assuming the labels have been reviewed",
+      "label_policy": "Use the supplied draft_label_if_unanimous_include field for prepared development cases.",
+      "source_status": "pending_human_review",
+      "promote_source_status": false
+    },
+    "C": {
+      "basis": "Explicit user authorization for a provisional run",
+      "user_instruction": "Record an explicit provisional-run assumption for batch C and combine all three datasets for A-C",
+      "label_policy": "Use a binary label only when all three saved reviewers agree for a case in the prepared C development package; stop on disagreement or missing evidence.",
+      "source_status": "pending_human_review; reviewer submissions remain llm_draft",
+      "human_review_inferred": false,
+      "promote_source_status": false
+    },
+    "family_policy": "Union existing global and per-batch family links across all 506 candidate IDs; conservatively group identical source/FULL texts; reject development families crossing chronological periods or carrying calibration exposure outside training. Preserve unresolved companion warnings and provisional family status.",
+    "text_policy": "Reuse exact upstream FULL/MASKED strings; preserve batch-specific preprocessing versions. No new masks or corrections from development errors.",
+    "test_policy": "Candidate metadata only for 2023-2024; no test texts or labels in the combined development release."
+  },
+  "encoder_used": false,
+  "implementation_sha256": {
+    "experiments/provisional_abc/prepare.py": "f97b1b7fc371b9fa7b3b7f2044b44a998461c158d7afe4ffbc35287e1c69ee67",
+    "experiments/provisional_abc/run_logistic.py": "c3de95350810c7d6b85ca901af82318ba83ffaa5b16a1a5df6451fdba70de69c",
+    "experiments/provisional_abc/run_comparison.py": "0458f3262e4c1044aed8486a3baf8bad8e4bc24231fac68772e4bb36b4dc8df1",
+    "experiments/provisional_b/modeling.py": "dba28ea4bc5ce4c6d548d91cf0ea1c77da658c1b05b7a9f5f97357e230f89ff7",
+    "experiments/provisional_b/data.py": "5c47ebbb73c4f3e5740fd690584db3b5f39e3292bf63aa241f0bf435b21dab72",
+    "experiments/provisional_b/encoder.py": "9adf593c12b660b26d72e88aad8884d6edc7bd1e6fa23824aa5f9b44dd2056fd",
+    "experiments/provisional_b/encoder_settings.json": "99d6bdf07ecc83cfd19dcace9ed0eb206f7dbaf72c5b08d4cad95bb718d44786",
+    "experiments/provisional_b/experiment.py": "4ff7c7638cec6f6f0a6321107d44336c96481f9bbc8b71758ecff1d3df57320b",
+    "experiments/provisional_b/outputs.py": "fa036f7f8c0e04a5b8ceec34b53361cfd0b6a19de54d006e6a89be74bf3cef12",
+    "experiments/provisional_b/reporting.py": "f25907b801f3fd30f3bda8dde54a77dff416639c90268bbfbdd2c11a3638dee1",
+    "experiments/provisional_b/lengths.py": "087a9db1b9d635e8abe057cc6286f0a2b8f8bae310e60db8582bd314a17bf9b1"
+  },
+  "majority_training_label": 0,
+  "effective_final_training_class_weights": {
+    "0": 0.7707182320441989,
+    "1": 1.4234693877551021
+  },
+  "fold_training_class_weights": [
+    {
+      "fold": 1,
+      "weights": {
+        "0": 0.7708333333333334,
+        "1": 1.4230769230769231
+      }
+    },
+    {
+      "fold": 2,
+      "weights": {
+        "0": 0.768595041322314,
+        "1": 1.4307692307692308
+      }
+    },
+    {
+      "fold": 3,
+      "weights": {
+        "0": 0.7727272727272727,
+        "1": 1.4166666666666667
+      }
+    }
+  ]
+}
