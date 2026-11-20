@@ -1,0 +1,2546 @@
+[
+  {
+    "case_id": "NY-4929051",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "On the merits, we find that Findlay failed to make a prima facie showing entitling it to summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 9313,
+            "end": 9418
+          },
+          {
+            "variant": "MASKED",
+            "start": 8517,
+            "end": 8622
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "By order entered July 16, 2020, the court granted, on default, Findlay's unopposed motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 7350,
+            "end": 7440
+          },
+          {
+            "variant": "MASKED",
+            "start": 6554,
+            "end": 6644
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Motion for an enlargement of time to file and serve plaintiff's reply brief and to strike portions of defendant's brief as dehors the record, denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10511,
+            "end": 10660
+          },
+          {
+            "variant": "MASKED",
+            "start": 9715,
+            "end": 9864
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long procedural history; removed opening orders also describe prior rulings; retained merits and ancillary motion disposition.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4929051",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "On the merits, we find that Findlay failed to make a prima facie showing entitling it to summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 9313,
+            "end": 9418
+          },
+          {
+            "variant": "MASKED",
+            "start": 8517,
+            "end": 8622
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "By order entered July 16, 2020, the court granted, on default, Findlay's unopposed motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 7350,
+            "end": 7440
+          },
+          {
+            "variant": "MASKED",
+            "start": 6554,
+            "end": 6644
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Motion for an enlargement of time to file and serve plaintiff's reply brief and to strike portions of defendant's brief as dehors the record, denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10511,
+            "end": 10660
+          },
+          {
+            "variant": "MASKED",
+            "start": 9715,
+            "end": 9864
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long procedural history; removed opening orders also describe prior rulings; retained merits and ancillary motion disposition.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4929051",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 0,
+      "RANDOM_37": 1,
+      "RANDOM_51": 0,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "On the merits, we find that Findlay failed to make a prima facie showing entitling it to summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 9313,
+            "end": 9418
+          },
+          {
+            "variant": "MASKED",
+            "start": 8517,
+            "end": 8622
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "By order entered July 16, 2020, the court granted, on default, Findlay's unopposed motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 7350,
+            "end": 7440
+          },
+          {
+            "variant": "MASKED",
+            "start": 6554,
+            "end": 6644
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Motion for an enlargement of time to file and serve plaintiff's reply brief and to strike portions of defendant's brief as dehors the record, denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10511,
+            "end": 10660
+          },
+          {
+            "variant": "MASKED",
+            "start": 9715,
+            "end": 9864
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long procedural history; removed opening orders also describe prior rulings; retained merits and ancillary motion disposition.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4929051",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "On the merits, we find that Findlay failed to make a prima facie showing entitling it to summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 9313,
+            "end": 9418
+          },
+          {
+            "variant": "MASKED",
+            "start": 8517,
+            "end": 8622
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "By order entered July 16, 2020, the court granted, on default, Findlay's unopposed motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 7350,
+            "end": 7440
+          },
+          {
+            "variant": "MASKED",
+            "start": 6554,
+            "end": 6644
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Motion for an enlargement of time to file and serve plaintiff's reply brief and to strike portions of defendant's brief as dehors the record, denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10511,
+            "end": 10660
+          },
+          {
+            "variant": "MASKED",
+            "start": 9715,
+            "end": 9864
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long procedural history; removed opening orders also describe prior rulings; retained merits and ancillary motion disposition.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5304378",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "the Supreme Court improvidently exercised its discretion in not accepting the plaintiff's excuse of law office failure",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3476,
+            "end": 3594
+          },
+          {
+            "variant": "MASKED",
+            "start": 3002,
+            "end": 3120
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Moreover, the plaintiff demonstrated that he had a potentially meritorious opposition to the defendant's motion for summary judgment.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3703,
+            "end": 3836
+          },
+          {
+            "variant": "MASKED",
+            "start": 3229,
+            "end": 3362
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered March 8, 2018, the Supreme Court denied the plaintiff's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2056,
+            "end": 2139
+          },
+          {
+            "variant": "MASKED",
+            "start": 1582,
+            "end": 1665
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Retained law-office-failure and merits reasoning; explicit evaluative wording remains. Generic court-should-have language is missed by the revised B/C rule.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5304378",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "the Supreme Court improvidently exercised its discretion in not accepting the plaintiff's excuse of law office failure",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3476,
+            "end": 3594
+          },
+          {
+            "variant": "MASKED",
+            "start": 3002,
+            "end": 3120
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Moreover, the plaintiff demonstrated that he had a potentially meritorious opposition to the defendant's motion for summary judgment.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3703,
+            "end": 3836
+          },
+          {
+            "variant": "MASKED",
+            "start": 3229,
+            "end": 3362
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered March 8, 2018, the Supreme Court denied the plaintiff's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2056,
+            "end": 2139
+          },
+          {
+            "variant": "MASKED",
+            "start": 1582,
+            "end": 1665
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Retained law-office-failure and merits reasoning; explicit evaluative wording remains. Generic court-should-have language is missed by the revised B/C rule.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5304378",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 0,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "the Supreme Court improvidently exercised its discretion in not accepting the plaintiff's excuse of law office failure",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3476,
+            "end": 3594
+          },
+          {
+            "variant": "MASKED",
+            "start": 3002,
+            "end": 3120
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Moreover, the plaintiff demonstrated that he had a potentially meritorious opposition to the defendant's motion for summary judgment.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3703,
+            "end": 3836
+          },
+          {
+            "variant": "MASKED",
+            "start": 3229,
+            "end": 3362
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered March 8, 2018, the Supreme Court denied the plaintiff's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2056,
+            "end": 2139
+          },
+          {
+            "variant": "MASKED",
+            "start": 1582,
+            "end": 1665
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Retained law-office-failure and merits reasoning; explicit evaluative wording remains. Generic court-should-have language is missed by the revised B/C rule.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5304378",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "the Supreme Court improvidently exercised its discretion in not accepting the plaintiff's excuse of law office failure",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3476,
+            "end": 3594
+          },
+          {
+            "variant": "MASKED",
+            "start": 3002,
+            "end": 3120
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Moreover, the plaintiff demonstrated that he had a potentially meritorious opposition to the defendant's motion for summary judgment.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3703,
+            "end": 3836
+          },
+          {
+            "variant": "MASKED",
+            "start": 3229,
+            "end": 3362
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered March 8, 2018, the Supreme Court denied the plaintiff's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2056,
+            "end": 2139
+          },
+          {
+            "variant": "MASKED",
+            "start": 1582,
+            "end": 1665
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Retained law-office-failure and merits reasoning; explicit evaluative wording remains. Generic court-should-have language is missed by the revised B/C rule.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-8511862",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "The plaintiff allegedly was injured when she tripped and fell inside premises owned by the defendant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 308,
+            "end": 409
+          },
+          {
+            "variant": "MASKED",
+            "start": 260,
+            "end": 361
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "[A] plaintiff's inability to identify the cause of the fall is fatal to the cause of action",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1101,
+            "end": 1192
+          },
+          {
+            "variant": "MASKED",
+            "start": 1053,
+            "end": 1144
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "the defendant failed to establish, prima facie, that the plaintiff did not know what caused her to fall",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1569,
+            "end": 1672
+          },
+          {
+            "variant": "MASKED",
+            "start": 1521,
+            "end": 1624
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Denial of defense summary judgment is affirmed; retained reasoning concerns failure of defendant proof, not a plaintiff victory on liability.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-8511862",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "The plaintiff allegedly was injured when she tripped and fell inside premises owned by the defendant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 308,
+            "end": 409
+          },
+          {
+            "variant": "MASKED",
+            "start": 260,
+            "end": 361
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "[A] plaintiff's inability to identify the cause of the fall is fatal to the cause of action",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1101,
+            "end": 1192
+          },
+          {
+            "variant": "MASKED",
+            "start": 1053,
+            "end": 1144
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "the defendant failed to establish, prima facie, that the plaintiff did not know what caused her to fall",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1569,
+            "end": 1672
+          },
+          {
+            "variant": "MASKED",
+            "start": 1521,
+            "end": 1624
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Denial of defense summary judgment is affirmed; retained reasoning concerns failure of defendant proof, not a plaintiff victory on liability.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-8511862",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 0,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "The plaintiff allegedly was injured when she tripped and fell inside premises owned by the defendant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 308,
+            "end": 409
+          },
+          {
+            "variant": "MASKED",
+            "start": 260,
+            "end": 361
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "[A] plaintiff's inability to identify the cause of the fall is fatal to the cause of action",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1101,
+            "end": 1192
+          },
+          {
+            "variant": "MASKED",
+            "start": 1053,
+            "end": 1144
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "the defendant failed to establish, prima facie, that the plaintiff did not know what caused her to fall",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1569,
+            "end": 1672
+          },
+          {
+            "variant": "MASKED",
+            "start": 1521,
+            "end": 1624
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Denial of defense summary judgment is affirmed; retained reasoning concerns failure of defendant proof, not a plaintiff victory on liability.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-8511862",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "The plaintiff allegedly was injured when she tripped and fell inside premises owned by the defendant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 308,
+            "end": 409
+          },
+          {
+            "variant": "MASKED",
+            "start": 260,
+            "end": 361
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "[A] plaintiff's inability to identify the cause of the fall is fatal to the cause of action",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1101,
+            "end": 1192
+          },
+          {
+            "variant": "MASKED",
+            "start": 1053,
+            "end": 1144
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "the defendant failed to establish, prima facie, that the plaintiff did not know what caused her to fall",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1569,
+            "end": 1672
+          },
+          {
+            "variant": "MASKED",
+            "start": 1521,
+            "end": 1624
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Denial of defense summary judgment is affirmed; retained reasoning concerns failure of defendant proof, not a plaintiff victory on liability.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6459053",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "The Supreme Court denied the motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 581,
+            "end": 617
+          },
+          {
+            "variant": "MASKED",
+            "start": 533,
+            "end": 569
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In light of the conflicting evidence submitted by the defendant in support of its motion, the defendant failed to meet its initial burden as the movant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2042,
+            "end": 2194
+          },
+          {
+            "variant": "MASKED",
+            "start": 1994,
+            "end": 2146
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2419,
+            "end": 2449
+          },
+          {
+            "variant": "MASKED",
+            "start": 2147,
+            "end": 2177
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Historical denial and notice reasoning retained; original MASKED has a truncated trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6459053",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "The Supreme Court denied the motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 581,
+            "end": 617
+          },
+          {
+            "variant": "MASKED",
+            "start": 533,
+            "end": 569
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In light of the conflicting evidence submitted by the defendant in support of its motion, the defendant failed to meet its initial burden as the movant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2042,
+            "end": 2194
+          },
+          {
+            "variant": "MASKED",
+            "start": 1994,
+            "end": 2146
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2419,
+            "end": 2449
+          },
+          {
+            "variant": "MASKED",
+            "start": 2147,
+            "end": 2177
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Historical denial and notice reasoning retained; original MASKED has a truncated trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6459053",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 0,
+      "RANDOM_37": 1,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "The Supreme Court denied the motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 581,
+            "end": 617
+          },
+          {
+            "variant": "MASKED",
+            "start": 533,
+            "end": 569
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In light of the conflicting evidence submitted by the defendant in support of its motion, the defendant failed to meet its initial burden as the movant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2042,
+            "end": 2194
+          },
+          {
+            "variant": "MASKED",
+            "start": 1994,
+            "end": 2146
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2419,
+            "end": 2449
+          },
+          {
+            "variant": "MASKED",
+            "start": 2147,
+            "end": 2177
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Historical denial and notice reasoning retained; original MASKED has a truncated trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6459053",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "The Supreme Court denied the motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 581,
+            "end": 617
+          },
+          {
+            "variant": "MASKED",
+            "start": 533,
+            "end": 569
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In light of the conflicting evidence submitted by the defendant in support of its motion, the defendant failed to meet its initial burden as the movant.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2042,
+            "end": 2194
+          },
+          {
+            "variant": "MASKED",
+            "start": 1994,
+            "end": 2146
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 1.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2419,
+            "end": 2449
+          },
+          {
+            "variant": "MASKED",
+            "start": 2147,
+            "end": 2177
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Historical denial and notice reasoning retained; original MASKED has a truncated trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5957906",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "providently exercised its discretion in entertaining the late motion",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1213,
+            "end": 1281
+          },
+          {
+            "variant": "MASKED",
+            "start": 1069,
+            "end": 1137
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered July 18, 2019, the Supreme Court granted the defendant's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 948,
+            "end": 1032
+          },
+          {
+            "variant": "MASKED",
+            "start": 804,
+            "end": 888
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Since the defendant failed to demonstrate its prima facie entitlement to judgment as a matter of law",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2280,
+            "end": 2380
+          },
+          {
+            "variant": "MASKED",
+            "start": 1889,
+            "end": 1989
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      }
+    ],
+    "interpretation": "Procedural permission to file late differs from merits reversal. The deleted merits sentence mixes a result clause with failure-of-proof reasoning.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5957906",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "providently exercised its discretion in entertaining the late motion",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1213,
+            "end": 1281
+          },
+          {
+            "variant": "MASKED",
+            "start": 1069,
+            "end": 1137
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered July 18, 2019, the Supreme Court granted the defendant's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 948,
+            "end": 1032
+          },
+          {
+            "variant": "MASKED",
+            "start": 804,
+            "end": 888
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Since the defendant failed to demonstrate its prima facie entitlement to judgment as a matter of law",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2280,
+            "end": 2380
+          },
+          {
+            "variant": "MASKED",
+            "start": 1889,
+            "end": 1989
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      }
+    ],
+    "interpretation": "Procedural permission to file late differs from merits reversal. The deleted merits sentence mixes a result clause with failure-of-proof reasoning.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5957906",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "providently exercised its discretion in entertaining the late motion",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1213,
+            "end": 1281
+          },
+          {
+            "variant": "MASKED",
+            "start": 1069,
+            "end": 1137
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered July 18, 2019, the Supreme Court granted the defendant's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 948,
+            "end": 1032
+          },
+          {
+            "variant": "MASKED",
+            "start": 804,
+            "end": 888
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Since the defendant failed to demonstrate its prima facie entitlement to judgment as a matter of law",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2280,
+            "end": 2380
+          },
+          {
+            "variant": "MASKED",
+            "start": 1889,
+            "end": 1989
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      }
+    ],
+    "interpretation": "Procedural permission to file late differs from merits reversal. The deleted merits sentence mixes a result clause with failure-of-proof reasoning.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-5957906",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "providently exercised its discretion in entertaining the late motion",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1213,
+            "end": 1281
+          },
+          {
+            "variant": "MASKED",
+            "start": 1069,
+            "end": 1137
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In an order entered July 18, 2019, the Supreme Court granted the defendant's motion.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 948,
+            "end": 1032
+          },
+          {
+            "variant": "MASKED",
+            "start": 804,
+            "end": 888
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      },
+      {
+        "quote": "Since the defendant failed to demonstrate its prima facie entitlement to judgment as a matter of law",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2280,
+            "end": 2380
+          },
+          {
+            "variant": "MASKED",
+            "start": 1889,
+            "end": 1989
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 1.0
+        }
+      }
+    ],
+    "interpretation": "Procedural permission to file late differs from merits reversal. The deleted merits sentence mixes a result clause with failure-of-proof reasoning.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-9301972",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "unanimously affirmed, without costs.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 182,
+            "end": 218
+          },
+          {
+            "variant": "MASKED",
+            "start": 182,
+            "end": 218
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In opposition, plaintiff failed to raise a triable issue of fact.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1031,
+            "end": 1096
+          },
+          {
+            "variant": "MASKED",
+            "start": 1031,
+            "end": 1096
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "FULL equals MASKED and still says unanimously affirmed. Any separately refitted classifier prediction change is not caused by deleting this opinion text.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-9301972",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "unanimously affirmed, without costs.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 182,
+            "end": 218
+          },
+          {
+            "variant": "MASKED",
+            "start": 182,
+            "end": 218
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In opposition, plaintiff failed to raise a triable issue of fact.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1031,
+            "end": 1096
+          },
+          {
+            "variant": "MASKED",
+            "start": 1031,
+            "end": 1096
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "FULL equals MASKED and still says unanimously affirmed. Any separately refitted classifier prediction change is not caused by deleting this opinion text.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-9301972",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "unanimously affirmed, without costs.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 182,
+            "end": 218
+          },
+          {
+            "variant": "MASKED",
+            "start": 182,
+            "end": 218
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In opposition, plaintiff failed to raise a triable issue of fact.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1031,
+            "end": 1096
+          },
+          {
+            "variant": "MASKED",
+            "start": 1031,
+            "end": 1096
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "FULL equals MASKED and still says unanimously affirmed. Any separately refitted classifier prediction change is not caused by deleting this opinion text.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-9301972",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "unanimously affirmed, without costs.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 182,
+            "end": 218
+          },
+          {
+            "variant": "MASKED",
+            "start": 182,
+            "end": 218
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "In opposition, plaintiff failed to raise a triable issue of fact.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1031,
+            "end": 1096
+          },
+          {
+            "variant": "MASKED",
+            "start": 1031,
+            "end": 1096
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "FULL equals MASKED and still says unanimously affirmed. Any separately refitted classifier prediction change is not caused by deleting this opinion text.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4894160",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 1,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "it failed to affirmatively demonstrate, prima facie, that its daytime porters did not launch a force or instrument of harm",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2600,
+            "end": 2722
+          },
+          {
+            "variant": "MASKED",
+            "start": 2467,
+            "end": 2589
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "The Supreme Court denied All Jersey's motion, concluding, among other things, that there were triable issues of fact as to whether All Jersey created the dangerous condition.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1291,
+            "end": 1465
+          },
+          {
+            "variant": "MASKED",
+            "start": 1218,
+            "end": 1392
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3211,
+            "end": 3241
+          },
+          {
+            "variant": "MASKED",
+            "start": 2839,
+            "end": 2869
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 1.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Contractor duty and creation-of-hazard reasoning remains; original MASKED truncates a trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4894160",
+    "label": 0,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "it failed to affirmatively demonstrate, prima facie, that its daytime porters did not launch a force or instrument of harm",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2600,
+            "end": 2722
+          },
+          {
+            "variant": "MASKED",
+            "start": 2467,
+            "end": 2589
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "The Supreme Court denied All Jersey's motion, concluding, among other things, that there were triable issues of fact as to whether All Jersey created the dangerous condition.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1291,
+            "end": 1465
+          },
+          {
+            "variant": "MASKED",
+            "start": 1218,
+            "end": 1392
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3211,
+            "end": 3241
+          },
+          {
+            "variant": "MASKED",
+            "start": 2839,
+            "end": 2869
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 1.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Contractor duty and creation-of-hazard reasoning remains; original MASKED truncates a trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4894160",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "it failed to affirmatively demonstrate, prima facie, that its daytime porters did not launch a force or instrument of harm",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2600,
+            "end": 2722
+          },
+          {
+            "variant": "MASKED",
+            "start": 2467,
+            "end": 2589
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "The Supreme Court denied All Jersey's motion, concluding, among other things, that there were triable issues of fact as to whether All Jersey created the dangerous condition.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1291,
+            "end": 1465
+          },
+          {
+            "variant": "MASKED",
+            "start": 1218,
+            "end": 1392
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3211,
+            "end": 3241
+          },
+          {
+            "variant": "MASKED",
+            "start": 2839,
+            "end": 2869
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 1.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Contractor duty and creation-of-hazard reasoning remains; original MASKED truncates a trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-4894160",
+    "label": 0,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 0,
+      "MASKED": 0,
+      "RANDOM_11": 0,
+      "RANDOM_23": 0,
+      "RANDOM_37": 0,
+      "RANDOM_51": 0,
+      "RANDOM_71": 0
+    },
+    "evidence": [
+      {
+        "quote": "it failed to affirmatively demonstrate, prima facie, that its daytime porters did not launch a force or instrument of harm",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 2600,
+            "end": 2722
+          },
+          {
+            "variant": "MASKED",
+            "start": 2467,
+            "end": 2589
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "The Supreme Court denied All Jersey's motion, concluding, among other things, that there were triable issues of fact as to whether All Jersey created the dangerous condition.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 1291,
+            "end": 1465
+          },
+          {
+            "variant": "MASKED",
+            "start": 1218,
+            "end": 1392
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 1.0,
+          "23": 1.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Ctr. , 64 NY2d 851, 853 [1985]",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3211,
+            "end": 3241
+          },
+          {
+            "variant": "MASKED",
+            "start": 2839,
+            "end": 2869
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 1.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Contractor duty and creation-of-hazard reasoning remains; original MASKED truncates a trailing citation.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6476214",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "In light of these unresolved issues, defendants were not entitled to summary judgment dismissing the complaint and their motion should have been denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10653,
+            "end": 10805
+          },
+          {
+            "variant": "MASKED",
+            "start": 10541,
+            "end": 10693
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Despite Supreme Court's suggestion to the contrary, plaintiff was not required to state for certain which particular crack caused him to fall in order to withstand summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3957,
+            "end": 4137
+          },
+          {
+            "variant": "MASKED",
+            "start": 3922,
+            "end": 4102
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long correct example; evaluative statement that the motion should have been denied remains. All chunks were processed.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6476214",
+    "label": 1,
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "In light of these unresolved issues, defendants were not entitled to summary judgment dismissing the complaint and their motion should have been denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10653,
+            "end": 10805
+          },
+          {
+            "variant": "MASKED",
+            "start": 10541,
+            "end": 10693
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Despite Supreme Court's suggestion to the contrary, plaintiff was not required to state for certain which particular crack caused him to fall in order to withstand summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3957,
+            "end": 4137
+          },
+          {
+            "variant": "MASKED",
+            "start": 3922,
+            "end": 4102
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long correct example; evaluative statement that the motion should have been denied remains. All chunks were processed.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6476214",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "In light of these unresolved issues, defendants were not entitled to summary judgment dismissing the complaint and their motion should have been denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10653,
+            "end": 10805
+          },
+          {
+            "variant": "MASKED",
+            "start": 10541,
+            "end": 10693
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Despite Supreme Court's suggestion to the contrary, plaintiff was not required to state for certain which particular crack caused him to fall in order to withstand summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3957,
+            "end": 4137
+          },
+          {
+            "variant": "MASKED",
+            "start": 3922,
+            "end": 4102
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long correct example; evaluative statement that the motion should have been denied remains. All chunks were processed.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  },
+  {
+    "case_id": "NY-6476214",
+    "label": 1,
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "predictions": {
+      "FULL": 1,
+      "MASKED": 1,
+      "RANDOM_11": 1,
+      "RANDOM_23": 1,
+      "RANDOM_37": 1,
+      "RANDOM_51": 1,
+      "RANDOM_71": 1
+    },
+    "evidence": [
+      {
+        "quote": "In light of these unresolved issues, defendants were not entitled to summary judgment dismissing the complaint and their motion should have been denied.",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 10653,
+            "end": 10805
+          },
+          {
+            "variant": "MASKED",
+            "start": 10541,
+            "end": 10693
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      },
+      {
+        "quote": "Despite Supreme Court's suggestion to the contrary, plaintiff was not required to state for certain which particular crack caused him to fall in order to withstand summary judgment",
+        "locations": [
+          {
+            "variant": "FULL",
+            "start": 3957,
+            "end": 4137
+          },
+          {
+            "variant": "MASKED",
+            "start": 3922,
+            "end": 4102
+          }
+        ],
+        "fraction_of_quote_words_removed_by_seed": {
+          "11": 0.0,
+          "23": 0.0,
+          "37": 0.0,
+          "51": 0.0,
+          "71": 0.0
+        }
+      }
+    ],
+    "interpretation": "Long correct example; evaluative statement that the motion should have been denied remains. All chunks were processed.",
+    "audit_source": "Previously committed eight-case passage audit; exact quotes/offsets reverified; semantic notes are qualitative, not causal attribution."
+  }
+]

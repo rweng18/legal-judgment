@@ -1,0 +1,113 @@
+{
+  "metrics_recomputed": 126,
+  "prediction_rows": 5292,
+  "validation_ids": [
+    "NY-4849014",
+    "NY-4869542",
+    "NY-4898836",
+    "NY-4929051",
+    "NY-5302167",
+    "NY-5304378",
+    "NY-6451900",
+    "NY-6622562",
+    "NY-7853716",
+    "NY-7855719",
+    "NY-7857572",
+    "NY-7859429",
+    "NY-8435765",
+    "NY-9329602",
+    "NY-9355447",
+    "NY-9355453",
+    "NY-4851261",
+    "NY-4855957",
+    "NY-4860863",
+    "NY-4898123",
+    "NY-5298317",
+    "NY-5302359",
+    "NY-5312913",
+    "NY-6459053",
+    "NY-6473776",
+    "NY-6475974",
+    "NY-8511862",
+    "NY-8511901",
+    "NY-8619624",
+    "NY-9353901",
+    "NY-9355448",
+    "NY-4869571",
+    "NY-4894160",
+    "NY-4969420",
+    "NY-5302135",
+    "NY-5957906",
+    "NY-6357683",
+    "NY-6473768",
+    "NY-6476214",
+    "NY-6620039",
+    "NY-8510232",
+    "NY-9301972"
+  ],
+  "validation_families": 42,
+  "bootstrap_draws": 5000,
+  "bootstrap_valid_draws": 5000,
+  "reference_prediction_reproduction": [
+    {
+      "model": "Majority",
+      "variant": "FULL",
+      "different_predictions": 0
+    },
+    {
+      "model": "Majority",
+      "variant": "MASKED",
+      "different_predictions": 0
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "FULL",
+      "different_predictions": 0
+    },
+    {
+      "model": "TFIDF_LR",
+      "variant": "MASKED",
+      "different_predictions": 0
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "FULL",
+      "different_predictions": 0
+    },
+    {
+      "model": "TFIDF_SVM",
+      "variant": "MASKED",
+      "different_predictions": 0
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "FULL",
+      "different_predictions": 0
+    },
+    {
+      "model": "LEGAL_BERT_LR",
+      "variant": "MASKED",
+      "different_predictions": 0
+    }
+  ],
+  "reference_embedding_difference": {
+    "FULL": {
+      "max_absolute": 7.875263690948486e-06,
+      "mean_absolute": 6.958411802315823e-08
+    },
+    "MASKED": {
+      "max_absolute": 2.205371856689453e-06,
+      "mean_absolute": 6.960566878433383e-08
+    }
+  },
+  "quoted_evidence_verified": 22,
+  "no_test_predictions": true,
+  "source_commit": "0837ed2bf4c1d3abc7fd3b0ea652f5a5461894db",
+  "analysis_code_sha256": "b03c6a8f6260475568d13e9ee2b56c518daab2581d849df45f1c786d761d714c",
+  "limitations": [
+    "Repeated validation use; no independent final test.",
+    "B/C user reports human review, exact case-level final handoff pending.",
+    "Mann-only dedup sensitivity; other family candidates remain.",
+    "Revised mask still has false negatives and mixed reasoning/result deletions."
+  ]
+}

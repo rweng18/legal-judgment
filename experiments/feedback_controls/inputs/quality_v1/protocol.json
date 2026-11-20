@@ -1,0 +1,20 @@
+{
+  "version": "quality_v1",
+  "date": "2026-11-19",
+  "authorization": "User agreed to recommendations and requested experiments.",
+  "change": "Uniform abbreviation/order boundaries, quotation boundaries, preserve cited quoted rules, split joined and-we disposition, preserve trailing case citations.",
+  "source_review": "User reports completed human review; exact final-test review manifest still not supplied. No blanket status promotion.",
+  "dedup_remove": [
+    "NY-6112018"
+  ],
+  "dedup_retain": "NY-4306359",
+  "dedup_scope": "Confirmed Mann duplicate only; other global candidate pairs remain grouped pending confirmation. Not a claim of complete corpus deduplication.",
+  "experiments": "Separate dedup-only, mask-only, and combined interventions; all selected classifiers fixed C; revised five-seed controls for LR and BERT.",
+  "selection": "Rule design based on four previously flagged training cases, two of each class; no validation predictions used.",
+  "final_test": "Not accessed; candidate IDs/labels still require a specific reviewed manifest.",
+  "sha256": {
+    "variants.jsonl": "7b98498cea88c3517c8fc9a67a12dd7cf360078cfc032f89797737db1806005d",
+    "removal_logs.jsonl": "e54d45de6240b7803576ca0abacec96c04562a74952a98d4f1c46aed618b143c"
+  },
+  "code_sha256": "f95832a41845b263609dbd4353df7c12e2ba3969874b04a6f49ff99c850592b6"
+}

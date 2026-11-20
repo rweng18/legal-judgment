@@ -1,0 +1,63 @@
+{
+  "version": "reviewed_final_v1",
+  "client_date": "2026-11-20",
+  "created_utc": "2026-11-20T15:35:45.223110+00:00",
+  "review_status": "user_confirmed_review",
+  "reviewer": "Yinkui Yu",
+  "review_date": "2026-11-19",
+  "source_commit": "0837ed2bf4c1d3abc7fd3b0ea652f5a5461894db",
+  "training": "2010-2020 only, 278 rows; do not refit on 42 validation rows",
+  "test": "2023-2024, 50 reviewed selected records",
+  "counts": {
+    "train": {
+      "0": 181,
+      "1": 97
+    },
+    "validation": {
+      "0": 25,
+      "1": 17
+    },
+    "test": {
+      "0": 34,
+      "1": 16
+    }
+  },
+  "C_by_model": {
+    "TFIDF_LR": 10.0,
+    "TFIDF_SVM": 10.0,
+    "LEGAL_BERT_LR": 0.1
+  },
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "primary_comparisons": "Majority, LR, SVM, BERT FULL/MASKED; five matched random controls for LR and BERT.",
+  "secondary": "REVISED mask for all three classifiers, kept separate from primary. No choosing a mask, seed, or C after final scores.",
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "macro_f1",
+    "confusion_matrix",
+    "class_counts",
+    "per_class_recall"
+  ],
+  "bootstrap": "5000 paired family resamples, seed 20261120; same draws across conditions, omit single-class draws; percentile 95% intervals. Conditional on this fixed fitted training sample.",
+  "dedup": "Approved Mann alias NY-6112018 removed; no further corrections per reviewer. Other retained same-family records are not asserted to be distinct decisions.",
+  "masking": "Primary exact upstream policy by batch, secondary quality_v1; known residual cues and mixed reasoning loss disclosed. No further rules changed for test.",
+  "code_sha256": {
+    "final_test.py": "d510ac4c73be23440ed1ab7a0b96b3ea6971c06557dbbb9b14b22facbf3ee645",
+    "quality.py": "f95832a41845b263609dbd4353df7c12e2ba3969874b04a6f49ff99c850592b6",
+    "common.py": "6406cb1800a91fd1060dfd1d9f1a5c6e7fbc846647d6e6fe4c9d21aa6ee9ba4b"
+  },
+  "sha256": {
+    "human_review_confirmation.json": "3b4877b018960f56414f5940955ad575e8271a6c5442592981b4b556c4ed3085",
+    "reviewed_manifest.jsonl": "854dc8c26eab0623d75adc656f94bd5b68714025560ee29d48d02017b607b45b",
+    "test.jsonl": "ccfb4c45bc7ae835ac50331391769cac1f464a6e15fb2f1cd8860a9870165790",
+    "test_label_provenance.jsonl": "93fea1e7fd927dd9d677175ecf722bc137fbe4d3539f5eec62f816d42d53ecbe",
+    "test_random_logs.jsonl": "6666df9cdfe936b5e1b1389cd1f0e9e21be998972ff590dd22279714c0e7838f",
+    "train.jsonl": "81236b2d10d19a94763fb1e0d750186919a1628a82c90ba1f06ef9b276be51b3"
+  }
+}

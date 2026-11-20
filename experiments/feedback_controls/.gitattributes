@@ -1,0 +1,4 @@
+# Preserve frozen SHA-256 inputs and outputs identically across Windows/macOS.
+* -text whitespace=cr-at-eol
+# This frozen source's terminal blank line is part of recorded protocol hashes.
+common.py whitespace=cr-at-eol,-blank-at-eof

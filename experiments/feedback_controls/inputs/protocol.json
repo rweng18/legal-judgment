@@ -1,0 +1,47 @@
+{
+  "version": "feedback_controls_v1",
+  "date_local": "2026-11-19",
+  "upstream_commit": "0837ed2bf4c1d3abc7fd3b0ea652f5a5461894db",
+  "scope": "Provisional development only; actual human review reported complete by user, decision records awaited. No source status promotion; no final test.",
+  "training_cases": 279,
+  "validation_cases": 42,
+  "training_classes": {
+    "0": 181,
+    "1": 98
+  },
+  "validation_classes": {
+    "0": 25,
+    "1": 17
+  },
+  "primary": "LR and frozen LEGAL-BERT: FULL/MASKED plus five word-matched random removals on identical cases; independently refit per variant at the previously selected fixed C.",
+  "C_by_model": {
+    "TFIDF_LR": 10.0,
+    "TFIDF_SVM": 10.0,
+    "LEGAL_BERT_LR": 0.1
+  },
+  "C_sensitivity": 1.0,
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "additional_diagnostic": "Keep FULL-trained scaler/vectorizer and classifier fitted parameters fixed; predict MASKED/random variants without refitting. This is distribution-shift diagnostic, not primary performance.",
+  "component_ablation": "LR fixed C=10; old/new sentence boundaries x old/new matcher; all four combinations; five matched controls per combination. FULL cleaning, case IDs, labels and splits held fixed. Uniform reconstructed policies across ABC, unlike upstream mixed mask.",
+  "length_ablation": "Frozen LEGAL-BERT first content chunk versus all chunks on FULL and MASKED at C=.1 and C=1; identical cases. No new tuning.",
+  "learning_curve": "Optional completed if feasible: LR and frozen BERT MASKED, nested family samples at 25/50/75/100 percent using seeds 11/23/37; unchanged validation and fixed selected C.",
+  "inference": "5000 paired validation-family bootstrap resamples; descriptive only. Seed SD measures removal variability, not sampling uncertainty.",
+  "empty_component_texts": [],
+  "old_policy_matches_B_original": 112,
+  "no_validation_optimized_rule_changes": true,
+  "prior_validation_exposure_disclosed": true,
+  "sha256": {
+    "variants.jsonl": "6f8b81c56296df9f058eef7eba3118c6e6d2692e3388a733022fbd5020e30bf7",
+    "removal_logs.jsonl": "6a577b82a6940540412a3935066240609ed09e44aabcd58f262a83f89f7bd549"
+  },
+  "code_sha256": {
+    "common.py": "6406cb1800a91fd1060dfd1d9f1a5c6e7fbc846647d6e6fe4c9d21aa6ee9ba4b",
+    "prepare_controls.py": "950f8fe4e839c8955beae96e5b74cde7044f0416b8aad95fa81859d1d318c40b"
+  }
+}

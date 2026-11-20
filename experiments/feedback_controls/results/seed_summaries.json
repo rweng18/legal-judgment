@@ -1,0 +1,138 @@
+[
+  {
+    "model": "TFIDF_LR",
+    "experiment": "primary",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.7476190476190476,
+    "balanced_accuracy_mean": 0.7428235294117649,
+    "macro_f1_mean": 0.7397554976753977,
+    "accuracy_sample_sd": 0.046413306403852196,
+    "balanced_accuracy_sample_sd": 0.054268332415085156,
+    "macro_f1_sample_sd": 0.050262251095627174
+  },
+  {
+    "model": "TFIDF_LR",
+    "experiment": "same_fitted_FULL",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.7428571428571429,
+    "balanced_accuracy_mean": 0.7369411764705882,
+    "macro_f1_mean": 0.7341654798500856,
+    "accuracy_sample_sd": 0.05161781759209238,
+    "balanced_accuracy_sample_sd": 0.060794053615607004,
+    "macro_f1_sample_sd": 0.056469430195385584
+  },
+  {
+    "model": "TFIDF_LR",
+    "experiment": "mask_only",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.7666666666666667,
+    "balanced_accuracy_mean": 0.7644705882352942,
+    "macro_f1_mean": 0.7601307701919181,
+    "accuracy_sample_sd": 0.04579853348016987,
+    "balanced_accuracy_sample_sd": 0.053548154443366726,
+    "macro_f1_sample_sd": 0.04910879922668041
+  },
+  {
+    "model": "TFIDF_LR",
+    "experiment": "dedup_and_mask",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.7619047619047619,
+    "balanced_accuracy_mean": 0.7604705882352942,
+    "macro_f1_mean": 0.7554993702053402,
+    "accuracy_sample_sd": 0.03764616262105212,
+    "balanced_accuracy_sample_sd": 0.04669417544792116,
+    "macro_f1_sample_sd": 0.041220017620394
+  },
+  {
+    "model": "LEGAL_BERT_LR",
+    "experiment": "primary",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.7523809523809524,
+    "balanced_accuracy_mean": 0.7562352941176471,
+    "macro_f1_mean": 0.7483160173433729,
+    "accuracy_sample_sd": 0.03194382824999698,
+    "balanced_accuracy_sample_sd": 0.031747271904155834,
+    "macro_f1_sample_sd": 0.03207306037786175
+  },
+  {
+    "model": "LEGAL_BERT_LR",
+    "experiment": "same_fitted_FULL",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.8428571428571429,
+    "balanced_accuracy_mean": 0.836,
+    "macro_f1_mean": 0.8366447669977081,
+    "accuracy_sample_sd": 0.027147033930931833,
+    "balanced_accuracy_sample_sd": 0.02675791769120971,
+    "macro_f1_sample_sd": 0.027777776457528415
+  },
+  {
+    "model": "LEGAL_BERT_LR",
+    "experiment": "mask_only",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.8047619047619048,
+    "balanced_accuracy_mean": 0.8115294117647058,
+    "macro_f1_mean": 0.801458435882893,
+    "accuracy_sample_sd": 0.04579853348016987,
+    "balanced_accuracy_sample_sd": 0.053806008077075494,
+    "macro_f1_sample_sd": 0.047635539252169304
+  },
+  {
+    "model": "LEGAL_BERT_LR",
+    "experiment": "dedup_and_mask",
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      71
+    ],
+    "accuracy_mean": 0.7952380952380952,
+    "balanced_accuracy_mean": 0.8016470588235294,
+    "macro_f1_mean": 0.7916158455615794,
+    "accuracy_sample_sd": 0.03984095364447979,
+    "balanced_accuracy_sample_sd": 0.049952226311695165,
+    "macro_f1_sample_sd": 0.04201613915552465
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "comparison": "TFIDF_LR FULL - MASKED",
+    "metric": "accuracy",
+    "difference": 0.23809523809523814,
+    "lower": 0.11904761904761907,
+    "upper": 0.38095238095238093,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR FULL - MASKED",
+    "metric": "balanced_accuracy",
+    "difference": 0.28470588235294114,
+    "lower": 0.1578947368421052,
+    "upper": 0.41176470588235287,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR FULL - MASKED",
+    "metric": "macro_f1",
+    "difference": 0.27444698703279935,
+    "lower": 0.14047401977122767,
+    "upper": 0.4215126050420167,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR revised - original mask",
+    "metric": "accuracy",
+    "difference": -0.023809523809523725,
+    "lower": -0.07142857142857151,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR revised - original mask",
+    "metric": "balanced_accuracy",
+    "difference": -0.020000000000000018,
+    "lower": -0.06666666666666671,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR revised - original mask",
+    "metric": "macro_f1",
+    "difference": -0.019030229255427078,
+    "lower": -0.06296114599686042,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR dedup mask - original mask",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR dedup mask - original mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR dedup mask - original mask",
+    "metric": "macro_f1",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR primary mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.17619047619047623,
+    "lower": 0.080952380952381,
+    "upper": 0.28095238095238095,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR primary mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.20635294117647074,
+    "lower": 0.10971944126620906,
+    "upper": 0.3115416666666666,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR primary mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.2064221643420644,
+    "lower": 0.10165401231861067,
+    "upper": 0.32455958219971853,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR same_fitted_FULL mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.17142857142857149,
+    "lower": 0.08095238095238078,
+    "upper": 0.27142857142857135,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR same_fitted_FULL mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.2098823529411764,
+    "lower": 0.11486700981493059,
+    "upper": 0.3069444444444444,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR same_fitted_FULL mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.21630833699294272,
+    "lower": 0.10546464396325107,
+    "upper": 0.3330297324244872,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR mask_only mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.21904761904761905,
+    "lower": 0.11428571428571421,
+    "upper": 0.33809523809523806,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR mask_only mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.2480000000000001,
+    "lower": 0.13832738095238103,
+    "upper": 0.3656935554364988,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR mask_only mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.24582766611401186,
+    "lower": 0.13225989230062724,
+    "upper": 0.37233208279912267,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR dedup_and_mask mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.2142857142857142,
+    "lower": 0.10952380952380947,
+    "upper": 0.3285714285714286,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR dedup_and_mask mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.2440000000000001,
+    "lower": 0.13406356837606842,
+    "upper": 0.3610105363984674,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_LR dedup_and_mask mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.24119626612743394,
+    "lower": 0.12757691686303554,
+    "upper": 0.367011879237346,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM FULL - MASKED",
+    "metric": "accuracy",
+    "difference": 0.33333333333333326,
+    "lower": 0.19047619047619047,
+    "upper": 0.4761904761904762,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM FULL - MASKED",
+    "metric": "balanced_accuracy",
+    "difference": 0.37411764705882344,
+    "lower": 0.23526403743315502,
+    "upper": 0.5178571428571428,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM FULL - MASKED",
+    "metric": "macro_f1",
+    "difference": 0.3778645000319877,
+    "lower": 0.2304288457836445,
+    "upper": 0.534311340650958,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM revised - original mask",
+    "metric": "accuracy",
+    "difference": 0.023809523809523725,
+    "lower": 0.0,
+    "upper": 0.07142857142857151,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM revised - original mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.02941176470588236,
+    "lower": 0.0,
+    "upper": 0.10000000000000009,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM revised - original mask",
+    "metric": "macro_f1",
+    "difference": 0.03364681295715777,
+    "lower": 0.0,
+    "upper": 0.11510444439759841,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM dedup mask - original mask",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM dedup mask - original mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "TFIDF_SVM dedup mask - original mask",
+    "metric": "macro_f1",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR FULL - MASKED",
+    "metric": "accuracy",
+    "difference": 0.40476190476190477,
+    "lower": 0.23809523809523803,
+    "upper": 0.5714285714285714,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR FULL - MASKED",
+    "metric": "balanced_accuracy",
+    "difference": 0.37764705882352934,
+    "lower": 0.19444444444444453,
+    "upper": 0.5623566176470588,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR FULL - MASKED",
+    "metric": "macro_f1",
+    "difference": 0.40255102040816326,
+    "lower": 0.23037064704964574,
+    "upper": 0.5793114241387498,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR revised - original mask",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lower": -0.0714285714285714,
+    "upper": 0.0714285714285714,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR revised - original mask",
+    "metric": "balanced_accuracy",
+    "difference": -0.009411764705882342,
+    "lower": -0.08352402745995424,
+    "upper": 0.0535714285714286,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR revised - original mask",
+    "metric": "macro_f1",
+    "difference": 0.0011904761904761862,
+    "lower": -0.06433705747745316,
+    "upper": 0.06839957603610416,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR dedup mask - original mask",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR dedup mask - original mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR dedup mask - original mask",
+    "metric": "macro_f1",
+    "difference": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR primary mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.2761904761904762,
+    "lower": 0.13333333333333341,
+    "upper": 0.41904761904761906,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR primary mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.2527058823529412,
+    "lower": 0.10124147727272734,
+    "upper": 0.4100698748149144,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR primary mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.27331601734337296,
+    "lower": 0.1359221839336461,
+    "upper": 0.4138725421093316,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR same_fitted_FULL mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.2238095238095238,
+    "lower": 0.10476190476190483,
+    "upper": 0.35238095238095246,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR same_fitted_FULL mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.2783529411764706,
+    "lower": 0.16822584033613455,
+    "upper": 0.3875162037037036,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR same_fitted_FULL mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.30331143366437474,
+    "lower": 0.16202808514142583,
+    "upper": 0.45292464561009965,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR mask_only mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.3285714285714286,
+    "lower": 0.1952380952380952,
+    "upper": 0.4619047619047619,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR mask_only mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.3174117647058823,
+    "lower": 0.17952393509127795,
+    "upper": 0.4571428571428572,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR mask_only mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.32526795969241684,
+    "lower": 0.19370346333432634,
+    "upper": 0.46058107883058774,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR dedup_and_mask mean random - mask",
+    "metric": "accuracy",
+    "difference": 0.2952380952380952,
+    "lower": 0.15714285714285714,
+    "upper": 0.43809523809523815,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR dedup_and_mask mean random - mask",
+    "metric": "balanced_accuracy",
+    "difference": 0.27811764705882347,
+    "lower": 0.1302954545454546,
+    "upper": 0.4323698019411346,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "LEGAL_BERT_LR dedup_and_mask mean random - mask",
+    "metric": "macro_f1",
+    "difference": 0.29189945304881704,
+    "lower": 0.15402113447053054,
+    "upper": 0.43835567250199226,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first FULL C=0.1",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lower": -0.1428571428571428,
+    "upper": 0.1428571428571428,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first FULL C=0.1",
+    "metric": "balanced_accuracy",
+    "difference": -0.009411764705882453,
+    "lower": -0.14416640996303476,
+    "upper": 0.12740384615384615,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first FULL C=0.1",
+    "metric": "macro_f1",
+    "difference": -0.0016899226625670671,
+    "lower": -0.14318452380952382,
+    "upper": 0.1419518261941115,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first MASKED C=0.1",
+    "metric": "accuracy",
+    "difference": -0.04761904761904767,
+    "lower": -0.14285714285714285,
+    "upper": 0.04761904761904756,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first MASKED C=0.1",
+    "metric": "balanced_accuracy",
+    "difference": -0.040000000000000036,
+    "lower": -0.1428571428571428,
+    "upper": 0.056826298701298586,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first MASKED C=0.1",
+    "metric": "macro_f1",
+    "difference": -0.04880952380952386,
+    "lower": -0.14416475972540044,
+    "upper": 0.03900821464949611,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first FULL C=1.0",
+    "metric": "accuracy",
+    "difference": 0.0,
+    "lower": -0.1428571428571428,
+    "upper": 0.1428571428571428,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first FULL C=1.0",
+    "metric": "balanced_accuracy",
+    "difference": 0.0,
+    "lower": -0.14416640996303476,
+    "upper": 0.14444444444444438,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first FULL C=1.0",
+    "metric": "macro_f1",
+    "difference": 0.0,
+    "lower": -0.1436210966880963,
+    "upper": 0.14359021421306883,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first MASKED C=1.0",
+    "metric": "accuracy",
+    "difference": -0.07142857142857151,
+    "lower": -0.16666666666666674,
+    "upper": 0.023809523809523836,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first MASKED C=1.0",
+    "metric": "balanced_accuracy",
+    "difference": -0.05999999999999994,
+    "lower": -0.1659090909090909,
+    "upper": 0.04166666666666663,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  },
+  {
+    "comparison": "BERT all - first MASKED C=1.0",
+    "metric": "macro_f1",
+    "difference": -0.07236245036868982,
+    "lower": -0.17780794423032376,
+    "upper": 0.024066796315803583,
+    "resamples": 5000,
+    "unit": "validation_family",
+    "interpretation": "descriptive; repeatedly used validation, not final-test inference"
+  }
+]
